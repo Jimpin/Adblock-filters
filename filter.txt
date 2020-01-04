@@ -1,6 +1,6 @@
 ! Title: Jimpin's Script/Adblocker
 ! Version: 1.0
-! Homepage https://jimpin.zapto.org/
+! Homepage http://jimpin.zapto.org/
 ! License: CC BY-SA 4.0 | https://creativecommons.org/licenses/by-sa/4.0/
 
 #Aftonbladet.se
@@ -626,10 +626,13 @@ nyafilmer.*##script:inject(set-constant, blockerDetected, false)
 nyafilmer.*##script:inject(set-constant.js, blockerDetected, noopFunc)
 nyafilmer.*##script:inject(set-constant.js, window.blockerDetected, noopFunc)
 nyafilmer.*##script:inject(addEventListener-defuser.js, /^(?:click|mousedown)$/, _0x)
+@@||nyafilmer.lol/wp-content/themes/keremiya1/js/gallery.min.js$script,1p
+@@||nyafilmer.lol/wp-content/themes/keremiya1/js/postTabs.min.js$script
 @@||nyafilmer.*/wp-content/uploads/*/*/ad.jpg
 @@||nyafilmer.*/wp-content/themes/keremiya1/images/tr-flag.png
 @@||api.peer5.com$script,domain=jawcloud.co
 @@||*.com^$first-party,inline-script,domain=jawcloud.co
+||nyafilmer.*/*.js$script,1p
 ||nyafilmer.*/*.gif$image
 ||nyafilmer.*/glx_*.js$script,first-party
 ||nyafilmer.*/branding/$image
@@ -690,6 +693,7 @@ jawcloud.co##a[href$=".html"]
 ||pc1ads.com^$image,important
 ||clksite.com^$script,redirect=noopjs
 ||mycdn.co^$script,redirect=noopjs,important
+||cloudflareinsights.com^$script
 ||*.com/modules/^$domain=nyafilmer.ga|swesub.net|gomovies.sc|fmovies.to|0123movies.com|dwatchseries.com|i0123movies.com|lookmovies.ag|firstsrowsports.tv|onhockey.tv|firstonetv.net|batmanstream.net
 ||*.com^$script,xmlhttprequest,stylesheet,third-party,domain=nyafilmer.ga|swesub.net|gomovies.sc|fmovies.to|0123movies.com|dwatchseries.com|i0123movies.com|lookmovies.ag|firstsrowsports.tv|onhockey.tv|firstonetv.net|batmanstream.net
 ||*.net/modules/^$domain=nyafilmer.ga|swesub.net|gomovies.sc|fmovies.to|0123movies.com|dwatchseries.com|i0123movies.com|lookmovies.ag|firstsrowsports.tv|onhockey.tv|firstonetv.net|batmanstream.net
@@ -703,6 +707,8 @@ wauzoust.com##[href$=".html"]
 /wiki.html$iframe,inline-script
 /check$xmlhttprequest
 /js15_as.js$important
+/beacon/performance?
+/favicon.png$image,important
 /index.css?^$third-party
 ?excludes=^#xhr
 @@/playlist.m3u8
