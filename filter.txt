@@ -550,6 +550,8 @@ nyafilmer.*###menu-item-76124 > a[href^="/filter/"]
 nyafilmer.*###menu-item-121595 > a[href^="/filter/"]
 nyafilmer.*##.siteAdvList
 nyafilmer.*##.content-right
+nyafilmer.*##+js(acis, jQuery, adblocker)
+nyafilmer.*##+js(aopr, app_vars.force_disable_adblock)
 nyafilmer.*###sss
 nyafilmer.*##a[href="/add-content/"]
 nyafilmer.*##.trigger.arrow-bottom.share-button.button
