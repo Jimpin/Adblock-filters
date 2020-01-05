@@ -575,6 +575,7 @@ nyafilmer.*##.single-content > ul
 nyafilmer.*##h2.title
 nyafilmer.*##a[data-hover="LADDA NED"]
 nyafilmer.*##a[data-hover="SE NU"]
+nyafilmer.*##a[data-hover="STREAM NOW"]
 nyafilmer.*##li > a[target="_blank"]
 nyafilmer.*##.rkads.wrapper.video-content-top-ads
 nyafilmer.*###menu-item-121532.menu-item-121532.menu-item-object-page.menu-item-type-post_type.menu-item
@@ -5023,17 +5024,17 @@ aliez.me###adbtm
 *##+js(abort-current-inline-script.js, document.getElementById, .ab_detected)
 *##+js(set-constant.js, detectAdBlock, noopFunc)
 
-*##+js(abort-on-property-write.js, adMessage)
+*##+js(aopr, adMessage)
+*##+js(acis, jQuery, adblocker)
+*##+js(aopr, app_vars.force_disable_adblock)
 *##+js(acis, jQuery, tweaker)
 *##+js(acis, document.getElementById, blocker)
-
 *##+js(acis, TID, J0)
 .*/sw.js$script
 .*/images/reklam$image
 
 ------------
 
-*##+js(abort-on-property-read.js, app_vars.force_disable_adblock)
 *##+js(set-constant.js, iExist, true)
 *##+js(setTimeout-defuser.js, checkStopBlock)
 *##+js(abort-on-property-write.js, KillAdBlock)
