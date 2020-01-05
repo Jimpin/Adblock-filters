@@ -539,7 +539,7 @@ humblebundle.com###site-xpromo-banner
 humblebundle.com/monthly?hmb_source=humble_monthly_alert&hmb_medium=banner
 ###site-xpromo-banner > .js-page-banner-link.page-banner-link
 
-#Nyafilmer.ga
+#Nyafilmer.lol
 nyafilmer.*##body > [id][onclick^="window.open("]
 nyafilmer.*##.Breadcrumb
 nyafilmer.*##.found-movies
@@ -710,9 +710,9 @@ wauzoust.com##[href$=".html"]
 /favicon.png$image,important
 /index.css?^$third-party
 ?excludes=^#xhr
-@@/playlist.m3u8
+@@*.m3u8$xhr
+@@*.ts$xhr
 @@/?stream=
-@@/chunklist.m3u8
 
 #Vipleague.lc
 vipleague.*##ol
