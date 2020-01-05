@@ -626,8 +626,8 @@ nyafilmer.*##script:inject(set-constant, blockerDetected, false)
 nyafilmer.*##script:inject(set-constant.js, blockerDetected, noopFunc)
 nyafilmer.*##script:inject(set-constant.js, window.blockerDetected, noopFunc)
 nyafilmer.*##script:inject(addEventListener-defuser.js, /^(?:click|mousedown)$/, _0x)
-@@||nyafilmer.lol/wp-content/themes/keremiya1/js/gallery.min.js$script,1p
-@@||nyafilmer.lol/wp-content/themes/keremiya1/js/postTabs.min.js$script
+@@||nyafilmer.*/wp-content/themes/keremiya1/js/gallery.min.js$script,1p
+@@||nyafilmer.*/wp-content/themes/keremiya1/js/postTabs.min.js$script
 @@||nyafilmer.*/wp-content/uploads/*/*/ad.jpg
 @@||nyafilmer.*/wp-content/themes/keremiya1/images/tr-flag.png
 @@||api.peer5.com$script,domain=jawcloud.co
