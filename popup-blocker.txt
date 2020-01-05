@@ -1,6 +1,6 @@
 ! Title: Jimpin's Popup-Blocker
 ! Version: 1.0
-! Homepage https://jimpin.zapto.org/
+! Homepage http://jimpin.zapto.org/
 ! License: CC BY-SA 4.0 | https://creativecommons.org/licenses/by-sa/4.0/
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -368,21 +368,21 @@ popup.min.js?
 popupManager.js^
 
 Popup domain-blockerlist
-||*.online^$popup
-||*.ws^$popup
-||*.pro^$popup
-||*.me^$popup
-||*.bid^$popup
-||*.biz^$popup
-||*.xyz^$popup
-||*.club^$popup
+||*.online^$3p,popup
+||*.ws^$3p,popup
+||*.pro^$3p,popup
+||*.me^$3p,popup
+||*.bid^$3p,popup
+||*.biz^$3p,popup
+||*.xyz^$3p,popup
+||*.club^$3p,popup
 ||*.info^$popup
 ||*.style^$popup
 ||*.ltd^$popup
 ||*.pw^$popup
 ||*.site^$popup
 ||*.pink^$popup
-||*.st^$popup
+||*.st^$3p,popup
 ||*.click^$popup
 ||*.download^$popup
 ||*.cricket^$popup
@@ -392,7 +392,7 @@ Popup domain-blockerlist
 ||*.win^$popup
 ||*.trade^$popup
 ||*.space^$popup
-||*.stream^$popup
+||*.stream^$3p,popup
 ||*.webcam^$popup
 ||*.link^$popup
 ||*.loan^$popup
@@ -405,7 +405,7 @@ Popup domain-blockerlist
 ||*.systems^$popup
 ||*.date^$popup
 ||*.diet^$popup
-||*.vip^$popup
+||*.vip^$3p,popup
 ||*.trade^$popup
 ||*.top^$popup
 ||*.review^$popup
