@@ -358,6 +358,7 @@ _popunder+$popup
 ?iiadext=$popup
 ?zoneid=*_bannerid=$popup
 _popunder+$popup
+/load?^$popup
 *.html?q^$important
 @@*$popunder
 @@||accounts.google.com^$popup
