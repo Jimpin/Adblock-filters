@@ -574,6 +574,8 @@ nyafilmer.*##.nya-ann
 nyafilmer.*###menu-item-76123 > a[href^="/filter/"]
 nyafilmer.*###menu-item-76124 > a[href^="/filter/"]
 nyafilmer.*###menu-item-121595 > a[href^="/filter/"]
+nyafilmer.*###menu-item-153483
+nyafilmer.*###menu-item-154007
 nyafilmer.*##.siteAdvList
 nyafilmer.*##.content-right
 nyafilmer.*###sss
@@ -582,6 +584,7 @@ nyafilmer.*##.trigger.arrow-bottom.share-button.button
 nyafilmer.*##.top
 nyafilmer.*##.closeSkin
 nyafilmer.*###text-2
+nyafilmer.*##a[href^="/"][href*=".html"][target="_blank"]:style(position: absolute!important; top: -3000px!important;)
 nyafilmer.*###content > div.content.wrapper.clearfix > div.content-left:nth-child(3) > div.film-content > h2.title:first-child
 nyafilmer.*##.clearfix.wrapper.footer
 nyafilmer.*##.header-social-icons
@@ -655,6 +658,7 @@ nyafilmer.*##script:inject(addEventListener-defuser.js, /^(?:click|mousedown)$/,
 @@||nyafilmer.*/wp-content/themes/keremiya1/images/tr-flag.png
 @@||api.peer5.com$script,domain=jawcloud.co
 @@||*.com^$first-party,inline-script,domain=jawcloud.co
+||nyafilmer.*/u*.js$script
 ||nyafilmer.*/glx_*.js$script,1p
 ||nyafilmer.*/*.gif$image
 ||nyafilmer.*/branding/$image
@@ -912,6 +916,17 @@ firstonetv.net##+js(abort-on-property-write.js, isBlocked)
 /pagead2.
 /ucount.php?
 &&_=
+
+#Crackwatch.com
+crackwatch.com##+js(acis, jQuery, adblocker)
+crackwatch.com##+js(aopr, app_vars.force_disable_adblock)
+crackwatch.com##.Overlay
+crackwatch.com##.announcement
+crackwatch.com##div[style$="text-align: center;"] > div > a[rel="nofollow noopener noreferrer"] span[style*="background-image"][style*="base64"]:style(height: 1px!important; min-height: 1px!important; background-image: none!important;)
+||instant-gaming.com/affgames/*$subdocument
+||crackwatch.com/cdn-cgi/trace$xhr
+||crackwatch.com/sockjs/*$websocket
+||crackwatch.com/badf*.css$stylesheet,1p
 
 #Viafree.se
 viafree.se##.navbar.popup-video-showing
