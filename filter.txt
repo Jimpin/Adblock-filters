@@ -655,8 +655,8 @@ nyafilmer.*##script:inject(addEventListener-defuser.js, /^(?:click|mousedown)$/,
 @@||nyafilmer.*/wp-content/themes/keremiya1/images/tr-flag.png
 @@||api.peer5.com$script,domain=jawcloud.co
 @@||*.com^$first-party,inline-script,domain=jawcloud.co
+||nyafilmer.*/*.js$script,1p
 ||nyafilmer.*/*.gif$image
-||nyafilmer.*/glx_*.js$script,first-party
 ||nyafilmer.*/branding/$image
 ||nyafilmer.*/*.html$popup,first-party,important
 ||nyafilmer.*$other,first-party
@@ -1120,6 +1120,7 @@ nxload.*##+js(aopr, app_vars.force_disable_adblock)
 ||nxload.com/i/*$image,first-party
 ||nxload.com/player_clappr/*$font
 ||nxload.com/dl$xmlhttprequest
+||pushsar.com^
 ||badslads.com^$script
 
 #I0123movies.com
@@ -3737,6 +3738,7 @@ redirect.
 /js/license.60.js$script,first-party
 /js/license.adbl.js$script,first-party
 /js/license.js$script,first-party
+/pfe/current/
 /deadblocker/*
 /htcheck.
 /label-advertisement.
