@@ -376,7 +376,8 @@ svt.se###nyh_cookie-message
 svtplay.se#@##svtCookieInformationContainer 
 svtplay.se#@#.no-cookies 
 svtplay.se##.play_cookie-information
-||svtstatic.se/play/play6/images/sprite.aa92e0708544a432aeddee14e3b6a356.png$image,domain=www.svtplay.se,important
+@@||svtstatic.se^$image
+||svtstatic.se/play/play6/images/*.png$image
 
 #Svenskafans.com
 svenskafans.com##+js(acis, jQuery, adblocker)
