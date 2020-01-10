@@ -930,6 +930,8 @@ crackwatch.com##div[style$="text-align: center;"] > div > a[rel="nofollow noopen
 ||crackwatch.com/badf*.css$stylesheet,1p
 
 #Viafree.se
+viafree.se##+js(acis, jQuery, adblocker)
+viafree.se##+js(aopr, app_vars.force_disable_adblock)
 viafree.se##.navbar.popup-video-showing
 viafree.se##.ad-transition-background
 viafree.se##.pause-ad
@@ -1759,6 +1761,7 @@ dirdamid.com##a[href$=".html"]
 ##.abAlertInner
 ##[class="sniperModeEngaged"]
 ##.AdBox
+##.cmp-animate.cmp-iframe-ready.cmp-overlay
 ##[data-entrycode="AdBlock"]
 ##.sectionWrapper > .videos[id] > li[class^="sniper"]:not(.videoblock):not(.videobox):not([id^="playlist_"])
 ###ads
@@ -5131,9 +5134,7 @@ aliez.me###adbtm
 .*/images/reklam$image
 
 ------------
-
 *##+js(set-constant.js, iExist, true)
 *##+js(setTimeout-defuser.js, checkStopBlock)
 *##+js(abort-on-property-write.js, KillAdBlock)
 *##+js(abort-on-property-write.js, importFAB)
-*##+js(setTimeout-defuser.js, blockUI, 2000)
