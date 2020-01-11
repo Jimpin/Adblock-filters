@@ -565,6 +565,7 @@ humblebundle.com/monthly?hmb_source=humble_monthly_alert&hmb_medium=banner
 ###site-xpromo-banner > .js-page-banner-link.page-banner-link
 
 #Nyafilmer.lol
+nyafilmer.*##+js(acis, jQuery, appendTo)
 nyafilmer.*##+js(acis, jQuery, adblocker)
 nyafilmer.*##+js(aopr, app_vars.force_disable_adblock)
 nyafilmer.*##body > [id][onclick^="window.open("]
@@ -584,6 +585,7 @@ nyafilmer.*##a[href="/add-content/"]
 nyafilmer.*##.trigger.arrow-bottom.share-button.button
 nyafilmer.*##.top
 nyafilmer.*##.closeSkin
+nyafilmer.*##.movie-preview-content > a[target="_blank"]
 nyafilmer.*###text-2
 nyafilmer.*##a[href^="/"][href*=".html"][target="_blank"]:style(position: absolute!important; top: -3000px!important;)
 nyafilmer.*###content > div.content.wrapper.clearfix > div.content-left:nth-child(3) > div.film-content > h2.title:first-child
@@ -659,13 +661,12 @@ nyafilmer.*##script:inject(addEventListener-defuser.js, /^(?:click|mousedown)$/,
 @@||nyafilmer.*/wp-content/themes/keremiya1/images/tr-flag.png
 @@||api.peer5.com$script,domain=jawcloud.co
 @@||*.com^$first-party,inline-script,domain=jawcloud.co
-||nyafilmer.*/u*.js$script
-||nyafilmer.*/glx_*.js$script,1p
+/nyafilmer.*\/[A-z]{0,}\.js/$important
+/nyafilmer.*\/[A-z]{0,}\.html/$important
 ||nyafilmer.*/*.gif$image
 ||nyafilmer.*/branding/$image
 ||nyafilmer.*/*.html$important
 ||nyafilmer.*$other,first-party
-||nyafilmer.*/ads.js
 ||nyafilmer.*/wp-admin/admin-ajax.php$xmlhttprequest,first-party
 ||nyafilmer.*/wp-includes/js/wp-embed.min.js$script,first-party
 ||nyafilmer.*/wp-content/cache/wpfc-minified/90ad1b1558947f8bf61be541793793c5/*index.css
@@ -675,7 +676,6 @@ nyafilmer.*##script:inject(addEventListener-defuser.js, /^(?:click|mousedown)$/,
 ||nyafilmer.*/wp-content/themes/keremiya1/css/nya.light.css$first-party,stylesheet
 ||nyafilmer.*/wp-content/themes/keremiya1/js/script.js$script
 ||nyafilmer.*/wp-content/themes/keremiya1/js/license.12.js$script,first-party
-||nyafilmer.*/wp-admin/admin-ajax.php$xmlhttprequest,first-party
 ||*.click^$third-party
 ||*.club^$third-party
 ||*.xyz^$third-party
@@ -771,7 +771,6 @@ vipleague.*##.text-white.bg-dark.text-justify.p-3.m-3.d-md-block.d-none.col-12
 ||cdn.jsdelivr.net/npm/webfontloader@1/webfontloader.min.js$xmlhttprequest
 ||mw19c3mi5a.com^$xmlhttprequest
 ||bcloudhost.com^$script
-||vk.com/share.php$important
 ||oagwl3372h.com^$important
 ||refbanners.com/I
 ||dyn.bannerflow.com^$important
@@ -1454,6 +1453,12 @@ openload.*##+js(aopr, app_vars.force_disable_adblock)
 ||vcstream.to/images/logo-brand.png$image,important
 loadvid.*##+js(acis, jQuery, adblocker)
 loadvid.*##+js(aopr, app_vars.force_disable_adblock)
+loadvid.*##+js(abort-current-inline-script.js, fileID, adblock)
+loadvid.*##+js(abort-on-property-read.js, BetterJsPop)
+loadvid.*##+js(set-constant.js, adBlockNotDetected, true)
+loadvid.*##+js(set-constant.js, pop_cnt, 1)
+loadvid.*##+js(setTimeout-defuser.js, _creatBait)
+loadvid.*###overlay-vcplayer
 ||loadvid.online/images/dablock.png$important
 ||loadvid.online/images/logo-brand.png$image,important
 ||googletagmanager.com/gtag/$third-party
@@ -3304,34 +3309,6 @@ redirect.
 /click?pid=*
 /\:\/\/data.*\.com\/[a-zA-Z0-9]{30,}/$third-party,xmlhttprequest
 /\:\/\/[a-z0-9]{5,32}\.(bid|com)\/[0-9]{2,9}\.css$/$third-party,stylesheet
-/\.(accountant|bid|click|club|com|cricket|date|download|faith|link|loan|lol|men|online|party|racing|review|science|site|space|stream|top|trade|webcam|website|win|xyz|com)\/(([0-9]{2,9})(\.|\/)(css)?)$/$third-party
-/\.accountant\/[0-9]{2,9}\/$/$script,stylesheet,third-party,xmlhttprequest
-/\.bid\/[0-9]{2,9}\/$/$script,stylesheet,third-party,xmlhttprequest
-/\.click\/[0-9]{2,9}\/$/$script,stylesheet,third-party,xmlhttprequest
-/\.club\/[0-9]{2,9}\/$/$script,stylesheet,third-party,xmlhttprequest
-/\.com\/[0-9]{2,9}\/$/$third-party,script
-/\.cricket\/[0-9]{2,9}\/$/$script,stylesheet,third-party,xmlhttprequest
-/\.date\/[0-9]{2,9}\/$/$script,stylesheet,third-party,xmlhttprequest
-/\.download\/[0-9]{2,9}\/$/$script,stylesheet,third-party,xmlhttprequest
-/\.faith\/[0-9]{2,9}\/$/$script,stylesheet,third-party,xmlhttprequest
-/\.link\/[0-9]{2,9}\/$/$script,stylesheet,third-party,xmlhttprequest
-/\.loan\/[0-9]{2,9}\/$/$script,stylesheet,third-party,xmlhttprequest
-/\.lol\/[0-9]{2,9}\/$/$script,stylesheet,third-party,xmlhttprequest
-/\.men\/[0-9]{2,9}\/$/$script,stylesheet,third-party,xmlhttprequest
-/\.online\/[0-9]{2,9}\/$/$script,stylesheet,third-party,xmlhttprequest
-/\.party\/[0-9]{2,9}\/$/$script,stylesheet,third-party,xmlhttprequest
-/\.racing\/[0-9]{2,9}\/$/$script,stylesheet,third-party,xmlhttprequest
-/\.review\/[0-9]{2,9}\/$/$script,stylesheet,third-party,xmlhttprequest
-/\.science\/[0-9]{2,9}\/$/$script,stylesheet,third-party,xmlhttprequest
-/\.site\/[0-9]{2,9}\/$/$script,stylesheet,third-party,xmlhttprequest
-/\.space\/[0-9]{2,9}\/$/$script,stylesheet,third-party,xmlhttprequest
-/\.stream\/[0-9]{2,9}\/$/$script,stylesheet,third-party,xmlhttprequest
-/\.top\/[0-9]{2,9}\/$/$script,stylesheet,third-party,xmlhttprequest
-/\.trade\/[0-9]{2,9}\/$/$script,stylesheet,third-party,xmlhttprequest
-/\.webcam\/[0-9]{2,9}\/$/$script,stylesheet,third-party,xmlhttprequest
-/\.website\/[0-9]{2,9}\/$/$script,stylesheet,third-party,xmlhttprequest
-/\.win\/[0-9]{2,9}\/$/$script,stylesheet,third-party,xmlhttprequest
-/\.xyz\/[0-9]{2,9}\/$/$script,stylesheet,third-party,xmlhttprequest
 /\:\/\/[a-z0-9]{5,40}\.com\/[0-9]{2,9}\/$/$script,stylesheet,third-party,xmlhttprequest
 /\:\/\/[a-z0-9]{5,}\.com\/[A-Za-z0-9]{3,}\/$/$script,third-party,xmlhttprequest
 /(\W|_)[0-9]*(ads?|adv|banners?)(\W|_)*(88x31|100x28|100x70|120x60|120x90|120x240|120x600|125x125|160x600|180x150|200x200|300x50|300x60|300x250|300x300|300x600|320x50|336x280|350x250|720x300|728x90)[a-z]*(\W|_)/$~stylesheet
@@ -3356,7 +3333,6 @@ redirect.
 /(\W|_)coin(\W|_)*hive[0-9]*(\W|_)/$script,~stylesheet
 /ads/purl.js$script
 /ads?
-/apu.php?zoneid=*$important
 /html/blocked.html$popup,important
 /6rpck7aq$important
 /bundles/analytics
@@ -3533,10 +3509,6 @@ redirect.
 
 #Anti-Adblock/Scripts
 /load?^$important
-/ntfc.php?^$important
-/apu.php?^$important
-/adca.php^$important
-/splash.php?$important
 /adscript.js$script
 /stopadblock80.jpg$image,first-party
 /embed/footyshoes.gif
@@ -4770,13 +4742,6 @@ popuper.js^
 .tv/*third-party$script,important
 
 ##a[href$=".wz"][target="_blank"]
---##a[href$=".pro"][target="_blank"]
---##a[href$=".me"][target="_blank"]
---##a[href$=".bid"][target="_blank"]
---##a[href$=".biz"][target="_blank"]
---##a[href$=".xyz"][target="_blank"]
---##a[href$=".info"][target="_blank"]
---##a[href$=".club"][target="_blank"]
 ##a[href$=".style"][target="_blank"]
 ##a[href$=".ltd"][target="_blank"]
 ##a[href$=".link"][target="_blank"]
@@ -4944,9 +4909,6 @@ aliez.me###ads
 aliez.me###adbtm
 
 #Test
---##[src*="/index.css?"]
---##[src*="/style.css"]
---##[src*="/display.php?"]
 ##[src*="/next.php"]
 ##[src*="/?yadrd="]
 ##[src*="/pop.php?"]
@@ -5016,46 +4978,21 @@ aliez.me###adbtm
 *##+js(abort-on-property-write, UAParser)
 *##+js(abort-on-property-write, rAb)
 *##+js(abort-on-property-write, AdDelivery)
-*##+js(set-constant.js, check_adblock, true)
+*##+js(set-constant.js, check_adblock, false)
 *##[id^='adsIfrme']:has(:scope > iframe[src^='/ads/'])
 *##+js(bab-defuser.js)
 *##+js(abort-on-property-read.js, cursorAd)
 *##+js(set-constant.js, s1AdDetection, true)
 *##+js(gpt-defuser.js)
-*##+js(abort-on-property-write.js, _sp_)
-*##+js(nowebrtc.js)
-
---------------------------------------------------
-
-*##+js(abort-current-inline-script.js, atob, tabunder)
-*##+js(abort-current-inline-script.js, isSandboxed, fruitadblock)
-*##+js(abort-on-property-write.js, _0xd959)
-*##+js(abort-on-property-write.js, _pop)
-*##+js(abort-on-property-read.js, __htapop)
-*##+js(abort-on-property-read.js, AaDetector)
-*##+js(abort-current-inline-script.js, Math, zfgloaded)
-*##+js(abort-on-property-read.js, InitCloseButton)
-*##+js(abort-on-property-write, isAdblockOn)
-*##+js(abort-on-property-write, UAParser)
-*##+js(abort-on-property-write, rAb)
-*##+js(abort-on-property-write, AdDelivery)
-*##+js(set-constant.js, check_adblock, true)
-*##[id^='adsIfrme']:has(:scope > iframe[src^='/ads/'])
-*##+js(bab-defuser.js)
-*##+js(abort-on-property-read.js, cursorAd)
-*##+js(set-constant.js, s1AdDetection, true)
-*##+js(gpt-defuser.js)
-*##+js(abort-on-property-write.js, _sp_)
 *##+js(nowebrtc.js)
 
 --------------------------------------------------
 
 *##+js(set-constant.js, advertisementText, undefined)
 *##+js(std, show_popup)
-*##+js(acis, nwtThirdParties)
 *##+js(cookie-remover.js, page-views)
 *##+js(set-constant.js, isAdblock, false)
-*##+js(set-constant.js, canRunAds, true)
+*##+js(set-constant.js, canRunAds, false)
 *##+js(acis, _cInfo)
 *##+js(acis, _adform)
 *##+js(acis, adformLoader)
@@ -5083,19 +5020,14 @@ aliez.me###adbtm
 *##+js(acis, losAd)
 *##+js(acis, promotions)
 
---##+js(aeld, /^ad/)
---##+js(aeld, /^media/)
 *##+js(acis, jQuery, adscript)
 *##+js(noeval-if.js, enqueueAd)
 *##+js(acis, Fusion, loadAds)
 
 *##+js(acis, popunder)
-*##+js(acis, TID, J0)
-*##+js(aopw, SG_POPUPS_QUEUE)
 *##+js(acis, AdPortal)
 *##+js(acis, trackEvidonEvent)
 *##+js(set-constant.js, analyticsTrackGoogleAnalytics, noopFunc)
-*##+js(acis, _stq)
 *##+js(set-constant.js, Annons, noopFunc)
 *##+js(acis, AdsReloadConfig)
 *##+js(acis, phpads_deliver)
@@ -5112,7 +5044,6 @@ aliez.me###adbtm
 *##+js(acis, $, PopupManager)
 *##+js(acis, popunder)
 *##+js(abpr.js, disableSelection)
-
 *##+js(set-constant.js, adsAreBlocked, false)
 *##+js(acis, $, adblock)
 *##+js(acis, jQuery, overlay)
@@ -5125,11 +5056,8 @@ aliez.me###adbtm
 *##+js(set-constant.js, detectAdBlock, noopFunc)
 
 *##+js(aopr, adMessage)
---*##+js(acis, jQuery, adblocker)
---*##+js(aopr, app_vars.force_disable_adblock)
 *##+js(acis, jQuery, tweaker)
 *##+js(acis, document.getElementById, blocker)
-*##+js(acis, TID, J0)
 .*/sw.js$script
 .*/images/reklam$image
 
@@ -5138,3 +5066,27 @@ aliez.me###adbtm
 *##+js(setTimeout-defuser.js, checkStopBlock)
 *##+js(abort-on-property-write.js, KillAdBlock)
 *##+js(abort-on-property-write.js, importFAB)
+*##+js(set-constant.js, adBlockNotDetected, true)
+
+*##+js(abort-on-property-write.js, miner)
+*##+js(abort-current-inline-script.js, document.createElement, jsc.mgid.com)
+
+/\.cloudfront.*\/\?.*[a-zA-Z0-9]{5,16}/$script,3p
+.googletagmanager.*/$3p
+.histats.*/$script,important
+.adskeeper.*/$script,important
+.mgid.*/$important
+
+/afu.*/$important
+/apu.*/$important
+/ntfc.*/$important
+/adca.*/$important
+/stat.*/$important
+/splash.*/$important
+/share.*/$important
+/genads.*/$important
+/ajax.*/$important
+/next.*/$popup,important
+/tuname.*/$important,popup
+/puopen.*/$important
+/admin-ajax.*/$important
