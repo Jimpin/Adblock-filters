@@ -2313,7 +2313,6 @@ dirdamid.com##a[href$=".html"]
 ||adservice.com^
 ||adform.net^
 ||adtlgc.com^
-||addthis.com^
 ||aka-cdn.adtech.de^
 ||aws.amazon.com^
 ||amazon-adsystem.com^
@@ -2369,7 +2368,7 @@ dirdamid.com##a[href$=".html"]
 ||eu.npario-inc.net/DMP/*$script,important
 ||advert.vg.no^
 ||advertisement.vg.no^
-||m.addthisedge.com^
+||addthisedge.com^
 ||jssdk.pulse.schibsted.com/autoTracker.min.js$script,important
 ||gpjph.com^
 ||cdn.doublepimpssl.com^
@@ -5072,9 +5071,11 @@ aliez.me###adbtm
 *##+js(abort-current-inline-script.js, document.createElement, jsc.mgid.com)
 
 /\.cloudfront.*\/\?.*[a-zA-Z0-9]{5,16}/$script,3p
+/ajax.*/$3p
 .googletagmanager.*/$3p
 .histats.*/$script,important
 .adskeeper.*/$script,important
+.addthis.*/$script,important
 .mgid.*/$important
 .scund*/$important
 /afu.*/$important
@@ -5084,7 +5085,6 @@ aliez.me###adbtm
 /splash.*/$important
 /share.*/$important
 /genads.*/$important
-/ajax.*/$important
 /next.*/$popup,important
 /tuname.*/$important,popup
 /puopen.*/$important
