@@ -5081,7 +5081,7 @@ aliez.me###adbtm
 /afu.*/$script,popup
 /apu.*/$script,popup
 /ntfc.*/$script,popup
-/adca.*/$important
+/adca.*/$script,popup
 /splash.*/$important
 /genads.*/$important
 /next.*/$popup,important
