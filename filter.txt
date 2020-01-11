@@ -5078,7 +5078,8 @@ aliez.me###adbtm
 .addthis.*/$script,important
 .mgid.*/$important
 .scund*/$important
-/apu.*/$important
+/afu.*/$script
+/apu.*/$script
 /ntfc.*/$important
 /adca.*/$important
 /splash.*/$important
