@@ -5083,7 +5083,6 @@ aliez.me###adbtm
 /ntfc.*/$important
 /adca.*/$important
 /splash.*/$important
-/share.*/$important
 /genads.*/$important
 /next.*/$popup,important
 /tuname.*/$important,popup
