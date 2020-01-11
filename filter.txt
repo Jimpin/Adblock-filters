@@ -655,13 +655,14 @@ nyafilmer.*##script:inject(set-constant, blockerDetected, false)
 nyafilmer.*##script:inject(set-constant.js, blockerDetected, noopFunc)
 nyafilmer.*##script:inject(set-constant.js, window.blockerDetected, noopFunc)
 nyafilmer.*##script:inject(addEventListener-defuser.js, /^(?:click|mousedown)$/, _0x)
+@@||nyafilmer.*/wp-includes/js/jquery/$script,1p
 @@||nyafilmer.*/wp-content/themes/keremiya1/js/gallery.min.js$script,1p
 @@||nyafilmer.*/wp-content/themes/keremiya1/js/postTabs.min.js$script
 @@||nyafilmer.*/wp-content/uploads/*/*/ad.jpg
 @@||nyafilmer.*/wp-content/themes/keremiya1/images/tr-flag.png
 @@||api.peer5.com$script,domain=jawcloud.co
 @@||*.com^$first-party,inline-script,domain=jawcloud.co
-/nyafilmer.*\/[A-z]{0,}\.js/$script
+/nyafilmer.*\/[A-z]{0,}\.js/$script,1p
 /nyafilmer.*\/[A-z]{0,}\.html/$important
 ||nyafilmer.*/*.gif$image
 ||nyafilmer.*/branding/$image
@@ -5076,7 +5077,6 @@ aliez.me###adbtm
 .adskeeper.*/$script,important
 .mgid.*/$important
 .scund*/$important
-
 /afu.*/$important
 /apu.*/$important
 /ntfc.*/$important
