@@ -4737,7 +4737,7 @@ popuper.js^
 @@||maps.google.com^$script,image
 @@||mixer.com^$first-party,popup
 @@||m.media-amazon.com^$image
-
+@@_ajax?^$first-party
 |http*://*$first-party,websocket,important
 *.download/affiliate/*$popup
 .tv/*third-party$script,important
