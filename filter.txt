@@ -4988,7 +4988,6 @@ aliez.me###adbtm
 --------------------------------------------------
 
 *##+js(set-constant.js, advertisementText, undefined)
-*##+js(std, show_popup)
 *##+js(cookie-remover.js, page-views)
 *##+js(set-constant.js, isAdblock, false)
 *##+js(set-constant.js, canRunAds, false)
