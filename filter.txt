@@ -4988,7 +4988,6 @@ aliez.me###adbtm
 --------------------------------------------------
 
 *##+js(set-constant.js, advertisementText, undefined)
-*##+js(cookie-remover.js, page-views)
 *##+js(set-constant.js, isAdblock, false)
 *##+js(set-constant.js, canRunAds, false)
 *##+js(acis, _cInfo)
@@ -5016,7 +5015,6 @@ aliez.me###adbtm
 *##+js(acis, Exp, bamData)
 *##+js(set-constant.js, detect, noopFunc)
 *##+js(acis, losAd)
-*##+js(acis, promotions)
 
 *##+js(acis, jQuery, adscript)
 *##+js(noeval-if.js, enqueueAd)
@@ -5068,6 +5066,7 @@ aliez.me###adbtm
 
 *##+js(abort-on-property-write.js, miner)
 *##+js(abort-current-inline-script.js, document.createElement, jsc.mgid.com)
+*##+js(popads-dummy)
 
 /\.cloudfront.*\/\?.*[a-zA-Z0-9]{5,16}/$script,3p
 /ajax.*/$3p
