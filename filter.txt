@@ -568,6 +568,9 @@ humblebundle.com/monthly?hmb_source=humble_monthly_alert&hmb_medium=banner
 nyafilmer.*##+js(acis, jQuery, appendTo)
 nyafilmer.*##+js(acis, jQuery, adblocker)
 nyafilmer.*##+js(aopr, app_vars.force_disable_adblock)
+nyafilmer.*##+js(aopr, open)
+nyafilmer.*##+js(acis, document.getElementById, undefined)
+nyafilmer.*##+js(popads-dummy)
 nyafilmer.*##body > [id][onclick^="window.open("]
 nyafilmer.*##.Breadcrumb
 nyafilmer.*##.found-movies
@@ -785,6 +788,7 @@ fmovies.*##+js(acis, jQuery, adblocker)
 fmovies.*##+js(aopr, app_vars.force_disable_adblock)
 fmovies.*##+js(abort-current-inline-script.js, Math, zfgloaded)
 fmovies.*##+js(abort-on-property-read.js, AaDetector)
+fmovies.*##+js(popads-dummy)
 fmovies.*##+js(window.open-defuser.js)
 fmovies.*##+js(abort-on-property-read.js, _0xe317)
 fmovies.*##+js(abort-on-property-read.js, _0x1477)
@@ -842,6 +846,7 @@ fmovies.*##+js(addEventListener-defuser.js, /^(?:click|mousedown)$/, _0x)
 ||fmovies.*/ajax/film/tooltip/*$important
 ||fmovies.*/captcha.php$image
 mcloud.*###jwa
+mcloud.*##+js(popads-dummy)
 mcloud.*##+js(acis, jQuery, adblocker)
 mcloud.*##+js(aopr, app_vars.force_disable_adblock)
 ||mcloud.to/log/*$xmlhttprequest,first-party
@@ -851,6 +856,7 @@ mcloud.*##+js(aopr, app_vars.force_disable_adblock)
 ||fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700$stylesheet
 rapidvideo.*##+js(acis, jQuery, adblocker)
 rapidvideo.*##+js(aopr, app_vars.force_disable_adblock)
+rapidvideo.*##+js(popads-dummy)
 rapidvideo.*##script:inject(popads.net.js)
 rapidvideo.*##script:inject(noeval.js)
 rapidvideo.*##script:inject(abort-on-property-write.js, executed)
@@ -971,6 +977,7 @@ viafree.se##.avodp.pause-ad-showing .vjs-progress-control, .avodp.ad-playing .vj
 #Jokerlivestream.net
 jokerlivestream.*##+js(acis, jQuery, adblocker)
 jokerlivestream.*##+js(aopr, app_vars.force_disable_adblock)
+jokerlivestream.*##+js(popads-dummy)
 jokerlivestream.*###sofascore-live-stream
 jokerlivestream.*##.ad_stream_hd
 ||freegeoip.net^$xmlhttprequest,important
@@ -984,6 +991,7 @@ jokerlivestream.*##.ad_stream_hd
 #Fromhot.com
 fromhot.*##+js(acis, jQuery, adblocker)
 fromhot.*##+js(aopr, app_vars.force_disable_adblock)
+fromhot.*##+js(popads-dummy)
 ||*.html$popup,first-party,important,domain=sportingvideo.com
 ||webtv.ws/adds/*$important
 ||sportingvideo3.com^$other
@@ -994,6 +1002,7 @@ fromhot.*##+js(aopr, app_vars.force_disable_adblock)
 /images/bkg.png
 
 #Flashback.org
+flashback.org##+js(popads-dummy)
 flashback.org##.banner_text
 flashback.org###right-banner-container
 flashback.org###top-banner-row
@@ -1045,6 +1054,7 @@ rltracker.pro##.col-sm-12 > .row
 #0123movies.com
 0123movies.*##+js(acis, jQuery, adblocker)
 0123movies.*##+js(aopr, app_vars.force_disable_adblock)
+0123movies.*##+js(popads-dummy)
 0123movies.*##.alert-warning.alert
 0123movies.*##.content-ads
 0123movies.*###commentfb
@@ -1077,6 +1087,7 @@ rltracker.pro##.col-sm-12 > .row
 #Lookmovie.ag
 lookmovie.ag##+js(acis, jQuery, adblocker)
 lookmovie.ag##+js(aopr, app_vars.force_disable_adblock)
+lookmovie.ag##+js(popads-dummy)
 lookmovie.ag###donate-section
 lookmovie.ag##.wellcome-boy-message
 lookmovie.ag##[href="/qa"]
@@ -1097,6 +1108,7 @@ lookmovie.ag##a[href$="gstatic.com"][target="_blank"]
 #Dwatchseries.org
 dwatchseries.*##+js(acis, jQuery, adblocker)
 dwatchseries.*##+js(aopr, app_vars.force_disable_adblock)
+dwatchseries.*##+js(popads-dummy)
 dwatchseries.*###cookiedata
 dwatchseries.*###switch-mode
 dwatchseries.*##.footer-tags
@@ -1118,6 +1130,7 @@ dwatchseries.*##.jw-submenu-sharing.jw-settings-sharing.jw-reset.jw-button-color
 #Streamtajm.com
 streamtajm.*##+js(acis, jQuery, adblocker)
 streamtajm.*##+js(aopr, app_vars.force_disable_adblock)
+streamtajm.*##+js(popads-dummy)
 streamtajm.*##[href$=".html"]
 streamtajm.*##.container > div.row:nth-of-type(2)
 streamtajm.*##.rightside.col-sm-8.col-xs-12 > div:nth-of-type(6)
@@ -1144,6 +1157,7 @@ nxload.*##+js(aopr, app_vars.force_disable_adblock)
 #I0123movies.com
 i0123movies.*##+js(acis, jQuery, adblocker)
 i0123movies.*##+js(aopr, app_vars.force_disable_adblock)
+i0123movies.*##+js(popads-dummy)
 i0123movies.*###cookiedata
 i0123movies.*###switch-mode
 i0123movies.*##.footer-tags
@@ -1184,6 +1198,7 @@ ratsit.se##div.share-bar
 ratsit.se##.main-content-holder.content > .container > div.row:nth-of-type(1) > .col-md-12
 
 #Firstrowsports.tv
+firstsrowsports.*##+js(popads-dummy)
 firstsrowsports.*##.moderate
 firstsrowsports.*##.twitter-share-button
 firstsrowsports.*##.tritlacitka
@@ -1252,6 +1267,7 @@ rocket-league.com##[id="menucontainer"]
 #Onhockey.tv
 onhockey.tv##+js(acis, jQuery, adblocker)
 onhockey.tv##+js(aopr, app_vars.force_disable_adblock)
+onhockey.tv##+js(popads-dummy)
 onhockey.tv##td > table:nth-of-type(1) > tbody > tr > td:nth-of-type(3)
 onhockey.tv##td > table:nth-of-type(2) > tbody > tr
 onhockey.tv##table:nth-of-type(2) > tbody > tr > td:nth-of-type(3)
@@ -1283,6 +1299,7 @@ onhockey.tv##[src="pic/sad.gif"]
 #60fps.live
 60fps.live##+js(acis, jQuery, adblocker)
 60fps.live##+js(aopr, app_vars.force_disable_adblock)
+60fps.live##+js(popads-dummy)
 60fps.live###rapidwp-sidebar-one-wrapper
 60fps.live###afc_sidebar_3749
 60fps.live##.clearfix.rapidwp-featured-posts-area-bottom.rapidwp-featured-posts-area
@@ -1318,6 +1335,7 @@ onhockey.tv##[src="pic/sad.gif"]
 #Putlocker.me
 putlocker.*##+js(acis, jQuery, adblocker)
 putlocker.*##+js(aopr, app_vars.force_disable_adblock)
+putlocker.*##+js(popads-dummy)
 putlocker.*##+js(abort-current-inline-script.js, document.getElementById, scriptId)
 putlocker.*##+js(abort-current-inline-script.js, disableFunction, frame)
 putlocker.*##[class="ds_overlay_pop"]
@@ -1383,12 +1401,14 @@ viduplayer.*##[href$=".html"]
 ##[id="M354556PreloadC312487"]
 verystream.*##+js(acis, jQuery, adblocker)
 verystream.*##+js(aopr, app_vars.force_disable_adblock)
+verystream.*##+js(popads-dummy)
 vcstream.*##+js(acis, jQuery, adblocker)
 vcstream.*##+js(aopr, app_vars.force_disable_adblock)
+vcstream.*##+js(popads-dummy)
 ||verystream.net^$inline-script
 ||verystream.com/assets/*$script,first-party
 ||img.verystream.com/splash/*$image
-||verystream.com/gettoken/EZ8WGrGJfHf~1558772994~82.102.0.0~-kUwL74k?mime=true$media,first-party
+||verystream.com/gettoken/*$media,first-party
 ||ajax.cloudflare.com^$script,domain=putlocker.me
 ||cdnjs.cloudflare.com/ajax/libs/videojs-flash/*$script,domain=verystream.com
 ||cdnjs.cloudflare.com/ajax/libs/videojs-contrib-ads/*$stylesheet,important
@@ -1407,6 +1427,7 @@ vcstream.*##+js(aopr, app_vars.force_disable_adblock)
 #Bestmovies.to
 bestmovies.*##+js(acis, jQuery, adblocker)
 bestmovies.*##+js(aopr, app_vars.force_disable_adblock)
+bestmovies.*##+js(popads-dummy)
 bestmovies.*##.col-md-offset-2.col-sm-offset-0.col-xs-offset-0.col-md-8.col-sm-12.col-xs-12
 bestmovies.*###mv-keywords
 bestmovies.*##.container > .row
@@ -1426,6 +1447,7 @@ bestmovies.*##[class="btn-container"]
 #Moviesjoy.net
 moviesjoy.*##+js(acis, jQuery, adblocker)
 moviesjoy.*##+js(aopr, app_vars.force_disable_adblock)
+moviesjoy.*##+js(popads-dummy)
 moviesjoy.*##.inline_addthis_home.inline_addthis
 moviesjoy.*###footer > .container
 moviesjoy.*###pc-comment
@@ -1454,6 +1476,7 @@ openload.*##+js(aopr, app_vars.force_disable_adblock)
 ||vcstream.to/images/logo-brand.png$image,important
 loadvid.*##+js(acis, jQuery, adblocker)
 loadvid.*##+js(aopr, app_vars.force_disable_adblock)
+loadvid.*##+js(popads-dummy)
 loadvid.*##+js(abort-current-inline-script.js, fileID, adblock)
 loadvid.*##+js(abort-on-property-read.js, BetterJsPop)
 loadvid.*##+js(set-constant.js, adBlockNotDetected, true)
@@ -1472,11 +1495,10 @@ loadvid.*###overlay-vcplayer
 #Sport-stream.me
 sport-stream.*##+js(acis, jQuery, adblocker)
 sport-stream.*##+js(aopr, app_vars.force_disable_adblock)
+sport-stream.*##+js(popads-dummy)
 sport-stream.*##div.row:nth-of-type(1) > .button > span
 sport-stream.*##div.row:nth-of-type(1)
 sport-stream.*##a[href*=".com/"]:has-text(Stream in HD now!)
-sport-stream.*##+js(acis, jQuery, adblocker)
-sport-stream.*##+js(aopr, app_vars.force_disable_adblock)
 harleyquinnwidget.*##[href$=".html"]
 aliez.*##[href$=".html"]
 ##[id="adbtm"]
@@ -1496,6 +1518,7 @@ aliez.*##[href$=".html"]
 #Body/Frames
 goal.com##+js(acis, jQuery, adblocker)
 goal.com##+js(aopr, app_vars.force_disable_adblock)
+goal.com##+js(popads-dummy)
 goal.com##.commercial
 goal.com##.clearfix.widget-inline-editors-picks
 goal.com##.widget-semantic-player--displayed.widget-semantic-player
@@ -5066,7 +5089,6 @@ aliez.me###adbtm
 
 *##+js(abort-on-property-write.js, miner)
 *##+js(abort-current-inline-script.js, document.createElement, jsc.mgid.com)
-*##+js(popads-dummy)
 
 /\.cloudfront.*\/\?.*[a-zA-Z0-9]{5,16}/$script,3p
 /ajax.*/$3p
