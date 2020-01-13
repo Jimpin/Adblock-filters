@@ -567,6 +567,7 @@ humblebundle.com/monthly?hmb_source=humble_monthly_alert&hmb_medium=banner
 #Nyafilmer.lol
 nyafilmer.*##+js(acis, jQuery, appendTo)
 nyafilmer.*##+js(acis, jQuery, adblocker)
+nyafilmer.*##+js(noeval-if, window)
 nyafilmer.*##+js(aopr, app_vars.force_disable_adblock)
 nyafilmer.*##+js(aopr, open)
 nyafilmer.*##+js(acis, document.getElementById, undefined)
