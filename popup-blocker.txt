@@ -372,7 +372,6 @@ Popup domain-blockerlist
 ||*.online^$3p,popup
 ||*.ws^$3p,popup
 ||*.pro^$3p,popup
-||*.me^$3p,popup
 ||*.bid^$3p,popup
 ||*.biz^$3p,popup
 ||*.xyz^$3p,popup

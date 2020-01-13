@@ -683,7 +683,6 @@ nyafilmer.*##script:inject(addEventListener-defuser.js, /^(?:click|mousedown)$/,
 ||*.click^$third-party
 ||*.club^$third-party
 ||*.xyz^$third-party
-||*.me^$third-party
 ||*.vip^$third-party
 ||*.info^$third-party
 ||*.net^$frame,inline-script,script,image,xmlhttprequest,stylesheet,other,domain=jawcloud.co
@@ -1512,7 +1511,6 @@ aliez.*##[href$=".html"]
 ||rotumal.com^$important,popup
 ||static.tellerium.com^$popup,important
 ||1079020916.rsc.cdn77.org^$important
-/tuname.php$important,popup
 /redirect?tid=^$important
 
 #Body/Frames
@@ -1530,6 +1528,7 @@ dirdamid.com##a[href$=".html"]
 ###ad1
 ###ad2
 ###adv
+##.adv_block.col
 ##.adShoutBox
 ##.ad-01
 ##.ad-02
@@ -2806,6 +2805,7 @@ dirdamid.com##a[href$=".html"]
 ||static.adfarm1.adition.com^
 ||imagesrv.adition.com^
 ||cdn.cdnserv.pw/js/*$script
+||zemanta.com^$3p
 ||onclickprediction.com^
 ||trafforsrv.com^$important
 ||adexchangetracker.com^
@@ -3638,6 +3638,7 @@ redirect.
 /AdblockMessage.
 /antiadblockmsg.
 /simple-adblock-notice/*
+/wp-content/plugins/addthis/*$stylesheet
 /wp-content/plugins/ad-block-defender/*
 /wp-content/plugins/deadblocker/*
 /wp-content/uploads/an-temp/*$script,stylesheet
@@ -5006,7 +5007,6 @@ aliez.me###adbtm
 *##+js(abort-on-property-read.js, cursorAd)
 *##+js(set-constant.js, s1AdDetection, true)
 *##+js(gpt-defuser.js)
-*##+js(nowebrtc.js)
 
 --------------------------------------------------
 
@@ -5018,11 +5018,6 @@ aliez.me###adbtm
 *##+js(acis, adformLoader)
 *##+js(acis, adformtag, push)
 *##+js(acis, headerScripts, checkAdBlockers)
-*##+js(cookie-remover.js, /^p_f/)
-*##+js(remove-attr.js, data-access, [data-access="false"])
-*##+js(remove-attr.js, data-frequencymodel)
-*##+js(remove-attr.js, frequency-model)
-*##+js(set-constant.js, frequencyModelEnabled, undefined)
 
 --------------------
 
@@ -5045,7 +5040,6 @@ aliez.me###adbtm
 
 *##+js(acis, popunder)
 *##+js(acis, AdPortal)
-*##+js(acis, trackEvidonEvent)
 *##+js(set-constant.js, analyticsTrackGoogleAnalytics, noopFunc)
 *##+js(set-constant.js, Annons, noopFunc)
 *##+js(acis, AdsReloadConfig)
@@ -5054,7 +5048,6 @@ aliez.me###adbtm
 
 *##+js(set-constant.js, adblockEnabled, noopFunc)
 *##+js(set-constant.js, trackAdblock, noopFunc)
-*##+js(abort-current-inline-script.js, Number.isNaN)
 
 -------------------------------------------------
 
