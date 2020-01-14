@@ -567,11 +567,13 @@ humblebundle.com/monthly?hmb_source=humble_monthly_alert&hmb_medium=banner
 #Nyafilmer.lol
 nyafilmer.*##+js(acis, jQuery, appendTo)
 nyafilmer.*##+js(acis, jQuery, adblocker)
-nyafilmer.*##+js(noeval-if, window)
 nyafilmer.*##+js(aopr, app_vars.force_disable_adblock)
 nyafilmer.*##+js(aopr, open)
 nyafilmer.*##+js(acis, document.getElementById, undefined)
 nyafilmer.*##+js(popads-dummy)
+nyafilmer.*##^script:has-text(var _0x)
+nyafilmer.*##+js(acis, z)
+nyafilmer.*##+js(aopr, Object.prototype._isPopunderAvailable)
 nyafilmer.*##body > [id][onclick^="window.open("]
 nyafilmer.*##.Breadcrumb
 nyafilmer.*##.found-movies
@@ -655,7 +657,6 @@ nyafilmer.*##script:inject(abort-on-property-read.js, window.cRAds)
 nyafilmer.*##script:inject(abort-on-property-read.js, adb=1)
 nyafilmer.*##script:inject(abort-current-inline-script.js, OneSignal)
 nyafilmer.*##script:inject(abort-current-inline-script.js, decodeURI, getScriptFromCss)
-nyafilmer.*##script:inject(set-constant, blockerDetected, false)
 nyafilmer.*##script:inject(set-constant.js, blockerDetected, noopFunc)
 nyafilmer.*##script:inject(set-constant.js, window.blockerDetected, noopFunc)
 nyafilmer.*##script:inject(addEventListener-defuser.js, /^(?:click|mousedown)$/, _0x)
@@ -681,6 +682,8 @@ nyafilmer.*##script:inject(addEventListener-defuser.js, /^(?:click|mousedown)$/,
 ||nyafilmer.*/wp-content/themes/keremiya1/css/nya.light.css$first-party,stylesheet
 ||nyafilmer.*/wp-content/themes/keremiya1/js/script.js$script
 ||nyafilmer.*/wp-content/themes/keremiya1/js/license.12.js$script,first-party
+||nyafilmer.*^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' jawcloud.co *.jawcloud.co *.googleapis.com *.google.com *.gstatic.com;img-src *;worker-src 'none'
+nyafilmer.*,jawcloud.co,streamtajm.*##^script:has-text(_Hasync)
 ||*.click^$third-party
 ||*.club^$third-party
 ||*.xyz^$third-party
@@ -699,11 +702,15 @@ nyafilmer.*##script:inject(addEventListener-defuser.js, /^(?:click|mousedown)$/,
 ||imagetopng.*^$important
 jawcloud.co##+js(acis, jQuery, adblocker)
 jawcloud.co##+js(aopr, app_vars.force_disable_adblock)
+jawcloud.co##+js(acis, jawplayer, on)
 jawcloud.co##+js(popads-dummy.js)
 jawcloud.co##+js(abort-current-inline-script.js, document.getElementById, style.display)
 jawcloud.co##[class="overlay"]
 jawcloud.co##a[href$=".html"]
 @@||upvtt.com^$xmlhttprequest
+@@||jawcloud.co/playerjs/p2p/videojs-hls-quality-selector.min.js$script
+/p2p/*$script,domain=jawcloud.co
+||jawcloud.co^$csp=script-src 'self' 'unsafe-inline' blob: data: *.jawcloud.co upvtt.com *.gstatic.com
 ||jawcloud.co/playerjs/themes/newtheme/videojs.logobrand.css$stylesheet,first-party,important
 ||jawcloud.co/playerjs/themes/newtheme/videojs.chromecast.min.css$stylesheet,first-party,important
 ||jawcloud.co/playerjs/store.js$script,first-party
@@ -5012,9 +5019,6 @@ aliez.me###adbtm
 --------------------------------------------------
 
 *##+js(set-constant.js, advertisementText, undefined)
-*##+js(set-constant.js, isAdblock, false)
-*##+js(set-constant.js, canRunAds, false)
-*##+js(acis, _cInfo)
 *##+js(acis, _adform)
 *##+js(acis, adformLoader)
 *##+js(acis, adformtag, push)
@@ -5023,7 +5027,6 @@ aliez.me###adbtm
 --------------------
 
 *##+js(std, e, 10000)
-*##+js(aopr, _hjSettings)
 *##+js(acis, $, AdBlockDetector)
 *##+js(acis, _adftrack, push)
 *##+js(acis, twttr, trackPid)
@@ -5034,7 +5037,6 @@ aliez.me###adbtm
 *##+js(acis, Exp, bamData)
 *##+js(set-constant.js, detect, noopFunc)
 *##+js(acis, losAd)
-
 *##+js(acis, jQuery, adscript)
 *##+js(noeval-if.js, enqueueAd)
 *##+js(acis, Fusion, loadAds)
@@ -5046,7 +5048,6 @@ aliez.me###adbtm
 *##+js(acis, AdsReloadConfig)
 *##+js(acis, phpads_deliver)
 *##+js(aopw, banner_video)
-
 *##+js(set-constant.js, adblockEnabled, noopFunc)
 *##+js(set-constant.js, trackAdblock, noopFunc)
 
@@ -5056,7 +5057,6 @@ aliez.me###adbtm
 *##+js(set-constant.js, hasAdblock, false)
 *##+js(acis, $, PopupManager)
 *##+js(acis, popunder)
-*##+js(abpr.js, disableSelection)
 *##+js(set-constant.js, adsAreBlocked, false)
 *##+js(acis, $, adblock)
 *##+js(acis, jQuery, overlay)
@@ -5075,7 +5075,7 @@ aliez.me###adbtm
 .*/images/reklam$image
 
 ------------
-*##+js(set-constant.js, iExist, true)
+
 *##+js(setTimeout-defuser.js, checkStopBlock)
 *##+js(abort-on-property-write.js, KillAdBlock)
 *##+js(abort-on-property-write.js, importFAB)
