@@ -700,7 +700,6 @@ nyafilmer.*,jawcloud.co,streamtajm.*##^script:has-text(_Hasync)
 ||imagetopng.*^$important
 jawcloud.co##+js(acis, jQuery, adblocker)
 jawcloud.co##+js(aopr, app_vars.force_disable_adblock)
-jawcloud.co##+js(acis, jawplayer, on)
 jawcloud.co##+js(popads-dummy.js)
 jawcloud.co##+js(abort-current-inline-script.js, document.getElementById, style.display)
 jawcloud.co##[class="overlay"]
