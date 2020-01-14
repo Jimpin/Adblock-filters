@@ -657,8 +657,6 @@ nyafilmer.*##script:inject(abort-on-property-read.js, window.cRAds)
 nyafilmer.*##script:inject(abort-on-property-read.js, adb=1)
 nyafilmer.*##script:inject(abort-current-inline-script.js, OneSignal)
 nyafilmer.*##script:inject(abort-current-inline-script.js, decodeURI, getScriptFromCss)
-nyafilmer.*##script:inject(set-constant.js, blockerDetected, noopFunc)
-nyafilmer.*##script:inject(set-constant.js, window.blockerDetected, noopFunc)
 nyafilmer.*##script:inject(addEventListener-defuser.js, /^(?:click|mousedown)$/, _0x)
 @@||nyafilmer.*/wp-includes/js/jquery/$script,1p
 @@||nyafilmer.*/wp-content/themes/keremiya1/js/gallery.min.js$script,1p
@@ -4733,7 +4731,6 @@ popuper.js^
 @@||cdnjs.cloudflare.com/ajax/libs/font-awesome^
 @@||cdnjs.cloudflare.com/ajax/libs/*$script
 @@||static.twitchcdn.net/assets/*$script
-@@||jawcloud.co/playerjs/*$script,first-party
 @@||jawcloud.co/*/embed.js$script
 @@*player.min.js$script
 @@/js/page-landing-page.js?*$script
