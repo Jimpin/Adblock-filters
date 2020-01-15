@@ -978,6 +978,27 @@ viafree.se##.avodp.pause-ad-showing .vjs-progress-control, .avodp.ad-playing .vj
 ||tr.snapchat.com/p$subdocument
 ||sc-static.net^$script
 
+#Dplay.se
+dplay.se##+js(acis, jQuery, adblocker)
+dplay.se##+js(aopr, app_vars.force_disable_adblock)
+dplay.se##.navbar.popup-video-showing
+dplay.se##.ad-transition-background
+dplay.se##.pause-ad
+dplay.se##.ad-click-through
+dplay.se##.ad-countdown
+dplay.se##.ad-overlay
+dplay.se##[id="linkTag2"]
+dplay.se##+js(setTimeout-defuser.js, r, 0)
+@@||fwmrm.net/ad/$script
+@@||fwmrm.net/ad/$xmlhttprequest
+@@||fwmrm.net/ad/$image,xmlhttprequest
+@@||fwmrm.net/crossdomain.xml$xmlhttprequest
+||dnitv.com^$media,domain=dplay.se
+@@||freewheel-mtgx-tv.akamaized.net^$image
+||fwmrm.net^$image,important
+||demdex.net^$3p
+||telemetric.dk^$3p
+
 #Jokerlivestream.net
 jokerlivestream.*##+js(acis, jQuery, adblocker)
 jokerlivestream.*##+js(aopr, app_vars.force_disable_adblock)
@@ -5088,6 +5109,7 @@ aliez.me###adbtm
 .addthis.*/$script,important
 .mgid.*/$important
 .scund*/$important
+/jssdks.*$xhr
 /afu.*/$script,popup
 /apu.*/$script,popup
 /ntfc.*/$script,popup
