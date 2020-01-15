@@ -669,7 +669,7 @@ nyafilmer.*##script:inject(addEventListener-defuser.js, /^(?:click|mousedown)$/,
 /nyafilmer.*\/[A-z]{0,}\.html/$important
 ||nyafilmer.*/*.gif$image
 ||nyafilmer.*/branding/$image
-||nyafilmer.*/*.html$important
+||nyafilmer.*/*.html$popup,important
 ||nyafilmer.*$other,first-party
 ||nyafilmer.*/wp-admin/admin-ajax.php$xmlhttprequest,first-party
 ||nyafilmer.*/wp-includes/js/wp-embed.min.js$script,first-party
