@@ -569,11 +569,9 @@ nyafilmer.*##+js(acis, jQuery, appendTo)
 nyafilmer.*##+js(acis, jQuery, adblocker)
 nyafilmer.*##+js(aopr, app_vars.force_disable_adblock)
 nyafilmer.*##+js(aopr, open)
-nyafilmer.*##+js(aopr, console.clear)
 nyafilmer.*##+js(acis, Math, eval)
 nyafilmer.*##+js(setTimeout-defuser.js, z, 0)
 nyafilmer.*##+js(acis, document.getElementById, undefined)
-nyafilmer.*##+js(popads-dummy)
 nyafilmer.*##^script:has-text(var _0x)
 nyafilmer.*##+js(acis, z)
 nyafilmer.*##+js(aopr, Object.prototype._isPopunderAvailable)
@@ -702,12 +700,15 @@ nyafilmer.*,jawcloud.co,streamtajm.*##^script:has-text(_Hasync)
 ||n3-r2d2.piguiqproxy.com^$xmlhttprequest
 ||unrestern.info^$important
 ||imagetopng.*^$important
+jawcloud.co,nyafilmer.*##+js(popads-dummy.js)
+jawcloud.co,nyafilmer.*##+js(aopr, console.clear)
 jawcloud.co##+js(acis, jQuery, adblocker)
 jawcloud.co##+js(aopr, app_vars.force_disable_adblock)
-jawcloud.co##+js(popads-dummy.js)
+jawcloud.co##+js(aopr, AaDetector)
 jawcloud.co##+js(abort-current-inline-script.js, document.getElementById, style.display)
 jawcloud.co##[class="overlay"]
 jawcloud.co##a[href$=".html"]
+jawcloud.co##.banner
 @@||upvtt.com^$xmlhttprequest
 @@||jawcloud.co/playerjs/p2p/videojs-hls-quality-selector.min.js$script
 /p2p/*$script,domain=jawcloud.co
@@ -723,6 +724,7 @@ jawcloud.co##a[href$=".html"]
 ||jawcloud.co/playerjs/vast/videojs.ads.css$stylesheet,important
 ||jawcloud.co/playerjs/vast/videojs.ima.min.js$script,important
 ||jawcloud.co/playerjs/vast/videojs.ima.css$stylesheet,important
+||jawcloud.co/banner$image
 ||jawcloud.co/$image
 ||jawcloud.co^$popup,important
 ||tracker.$important,domain=jawcloud.co|nxload.com|streamango.com|
@@ -738,6 +740,7 @@ jawcloud.co##a[href$=".html"]
 ||*.com/modules/^$domain=nyafilmer.ga|swesub.net|gomovies.sc|fmovies.to|0123movies.com|dwatchseries.com|i0123movies.com|lookmovies.ag|firstsrowsports.tv|onhockey.tv|firstonetv.net|batmanstream.net
 ||*.com^$script,xmlhttprequest,stylesheet,third-party,domain=nyafilmer.ga|swesub.net|gomovies.sc|fmovies.to|0123movies.com|dwatchseries.com|i0123movies.com|lookmovies.ag|firstsrowsports.tv|onhockey.tv|firstonetv.net|batmanstream.net
 ||*.net/modules/^$domain=nyafilmer.ga|swesub.net|gomovies.sc|fmovies.to|0123movies.com|dwatchseries.com|i0123movies.com|lookmovies.ag|firstsrowsports.tv|onhockey.tv|firstonetv.net|batmanstream.net
+||cadsanz.com^$all
 dirdamid.com##a[href$=".html"][target="_blank"]
 wauzoust.com##[href$=".html"]
 ||wauzoust.com^$important
