@@ -570,6 +570,7 @@ nyafilmer.*##+js(acis, jQuery, adblocker)
 nyafilmer.*##+js(aopr, app_vars.force_disable_adblock)
 nyafilmer.*##+js(aopr, open)
 nyafilmer.*##+js(acis, Math, eval)
+nyafilmer.*##script:inject(set-constant.js, z, noopFunc)
 nyafilmer.*##+js(setTimeout-defuser.js, z, 0)
 nyafilmer.*##+js(acis, document.getElementById, undefined)
 nyafilmer.*##^script:has-text(var _0x)
@@ -667,7 +668,7 @@ nyafilmer.*##script:inject(addEventListener-defuser.js, /^(?:click|mousedown)$/,
 @@||api.peer5.com$script,domain=jawcloud.co
 @@||*.com^$first-party,inline-script,domain=jawcloud.co
 /nyafilmer.*\/[A-z]{0,}\.html/$important
-||nyafilmer.*/u*.js$script,1p,important
+--||nyafilmer.*/u*.js$script,1p,redirect=noopjs
 ||nyafilmer.*/*.gif$image
 ||nyafilmer.*/branding/$image
 ||nyafilmer.*/*.html$popup,important
@@ -5097,6 +5098,17 @@ aliez.me###adbtm
 
 *##+js(abort-on-property-write.js, miner)
 *##+js(abort-current-inline-script.js, document.createElement, jsc.mgid.com)
+
+*##+js(set, AdController, noopFunc)
+*##+js(set, load, noopFunc)
+*##+js(set, popunder, noopFunc)
+*##+js(set, ClickUnder, noopFunc)
+*##+js(set, Object.prototype.AdRequest, noopFunc)
+*##+js(set, atob, noopFunc)
+*##+js(set, showBlockIf, noopFunc)
+*##+js(aeld, load, nextFunction)
+*##+js(set, _pop, noopFunc)
+*##+js(set, Object.prototype.parseXML, noopFunc)
 
 /\.cloudfront.*\/\?.*[a-zA-Z0-9]{5,16}/$script,3p
 /ajax.*/$3p
