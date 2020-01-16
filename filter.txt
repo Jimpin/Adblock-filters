@@ -659,15 +659,15 @@ nyafilmer.*##script:inject(abort-on-property-read.js, adb=1)
 nyafilmer.*##script:inject(abort-current-inline-script.js, OneSignal)
 nyafilmer.*##script:inject(abort-current-inline-script.js, decodeURI, getScriptFromCss)
 nyafilmer.*##script:inject(addEventListener-defuser.js, /^(?:click|mousedown)$/, _0x)
-@@||nyafilmer.*^$script
+@@||nyafilmer.lol/wp-includes/js/*$script,1p
 @@||nyafilmer.*/wp-content/themes/keremiya1/js/gallery.min.js$script,1p
 @@||nyafilmer.*/wp-content/themes/keremiya1/js/postTabs.min.js$script
 @@||nyafilmer.*/wp-content/uploads/*/*/ad.jpg
 @@||nyafilmer.*/wp-content/themes/keremiya1/images/tr-flag.png
 @@||api.peer5.com$script,domain=jawcloud.co
 @@||*.com^$first-party,inline-script,domain=jawcloud.co
-||nyafilmer.*/u.js^$script,important
 /nyafilmer.*\/[A-z]{0,}\.html/$important
+||nyafilmer.*/u*.js$script,1p,important
 ||nyafilmer.*/*.gif$image
 ||nyafilmer.*/branding/$image
 ||nyafilmer.*/*.html$popup,important
@@ -3441,7 +3441,7 @@ redirect.
 /splash-zones-split.php$popup,important
 /advert2.
 &referrer=
-&act=ads_
+&act=ads_$script,redirect=noopjs
 &ad.vid=$~xmlhttprequest
 &ad_box_
 &ad_channel=
@@ -3643,7 +3643,6 @@ redirect.
 /ad.aspx?
 /ads.aspx?
 /ad163
-/ads.js
 /abdetect.js
 /abDetector.js
 /abp_detection/*
@@ -4622,7 +4621,6 @@ _atblockdetector/
 analytics.js^
 pagead-id.js^
 adx.js^
-ads.js^
 advert.js^
 advertisement.js^
 adservice.js^
