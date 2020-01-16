@@ -659,7 +659,7 @@ nyafilmer.*##script:inject(abort-on-property-read.js, adb=1)
 nyafilmer.*##script:inject(abort-current-inline-script.js, OneSignal)
 nyafilmer.*##script:inject(abort-current-inline-script.js, decodeURI, getScriptFromCss)
 nyafilmer.*##script:inject(addEventListener-defuser.js, /^(?:click|mousedown)$/, _0x)
-@@||nyafilmer.*/wp-includes/js/jquery/$script,1p
+@@||nyafilmer.lol^$script,1p
 @@||nyafilmer.*/wp-content/themes/keremiya1/js/gallery.min.js$script,1p
 @@||nyafilmer.*/wp-content/themes/keremiya1/js/postTabs.min.js$script
 @@||nyafilmer.*/wp-content/uploads/*/*/ad.jpg
