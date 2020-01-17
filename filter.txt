@@ -569,11 +569,8 @@ nyafilmer.*##+js(acis, jQuery, appendTo)
 nyafilmer.*##+js(acis, jQuery, adblocker)
 nyafilmer.*##+js(aopr, app_vars.force_disable_adblock)
 nyafilmer.*##+js(acis, Math, eval)
-nyafilmer.*##script:inject(set-constant.js, z, noopFunc)
-nyafilmer.*##+js(setTimeout-defuser.js, z, 0)
 nyafilmer.*##+js(acis, document.getElementById, undefined)
 nyafilmer.*##^script:has-text(var _0x)
-nyafilmer.*##+js(acis, z)
 nyafilmer.*##+js(aopr, Object.prototype._isPopunderAvailable)
 nyafilmer.*##body > [id][onclick^="window.open("]
 nyafilmer.*##.Breadcrumb
@@ -642,6 +639,7 @@ nyafilmer.*##.fb-xfbml-parse-ignore
 nyafilmer.*##.sort.tags > .title
 nyafilmer.*##.dialogbox
 nyafilmer.*##.dialogback
+nyafilmer.*##.button.fke
 nyafilmer.*##.bigbg
 nyafilmer.*##.twitter-tweet
 nyafilmer.*##.hide
@@ -709,7 +707,8 @@ jawcloud.co##[class="overlay"]
 jawcloud.co##a[href$=".html"]
 jawcloud.co##.banner
 @@||upvtt.com^$xmlhttprequest
-@@/p2p/*$script,domain=jawcloud.co
+@@||jawcloud.co/playerjs/p2p/videojs-hls-quality-selector.min.js$script,1p
+/p2p/*$script,domain=jawcloud.co
 ||jawcloud.co^$csp=script-src 'self' 'unsafe-inline' blob: data: *.jawcloud.co upvtt.com *.gstatic.com
 ||jawcloud.co/playerjs/themes/newtheme/videojs.logobrand.css$stylesheet,first-party,important
 ||jawcloud.co/playerjs/themes/newtheme/videojs.chromecast.min.css$stylesheet,first-party,important
