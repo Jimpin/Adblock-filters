@@ -906,7 +906,8 @@ fmoviesfree.*##div.widget:nth-of-type(2)
 ||fmoviesfree.*$xhr,1p
 ||*.xyz^$other
 ||mirafaren.pw^$all
-/[0-9]/$xhr,3p
+/[0-9]/$xhr,3p,domain=nyafilmer.lol|fmovies.to|fmoviesfree.page|gomovies.sc|streamtajm.com|
+/[0-9]/$script,3p,domain=nyafilmer.lol|fmovies.to|fmoviesfree.page|gomovies.sc|streamtajm.com|
 /link^$3p,popup
 mstream.*##[class="vjs-link"]
 mstream.*##[class="vjs-chrome-pip vjs-control vjs-button"]
@@ -4823,6 +4824,7 @@ popuper.js^
 @@||mixer.com^$first-party,popup
 @@||m.media-amazon.com^$image
 @@||steamstore-a.akamaihd.net/public/images/*$image
+@@||googlevideo.com/videoplayback?^$xhr,1p
 @@/jwplayer.js^$script,1p
 @@_ajax?^$first-party
 |http*://*$first-party,websocket,important
