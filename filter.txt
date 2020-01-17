@@ -903,6 +903,7 @@ fmoviesfree.*##div.widget:nth-of-type(2)
 ||fmoviesfree.*$xhr,1p
 ||*.xyz^$other
 ||mirafaren.pw^$all
+/[0-9]/$xhr,3p
 /link^$3p,popup
 mstream.*##[class="vjs-link"]
 mstream.*##[class="vjs-chrome-pip vjs-control vjs-button"]
