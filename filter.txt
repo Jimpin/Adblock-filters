@@ -734,9 +734,9 @@ jawcloud.co##.banner
 ||clksite.com^$script,redirect=noopjs
 ||mycdn.co^$script,redirect=noopjs,important
 ||cloudflareinsights.com^$script
-||*.com/modules/^$domain=nyafilmer.ga|swesub.net|gomovies.sc|fmovies.to|0123movies.com|dwatchseries.com|i0123movies.com|lookmovies.ag|firstsrowsports.tv|onhockey.tv|firstonetv.net|batmanstream.net
-||*.com^$script,xmlhttprequest,stylesheet,third-party,domain=nyafilmer.ga|swesub.net|gomovies.sc|fmovies.to|0123movies.com|dwatchseries.com|i0123movies.com|lookmovies.ag|firstsrowsports.tv|onhockey.tv|firstonetv.net|batmanstream.net
-||*.net/modules/^$domain=nyafilmer.ga|swesub.net|gomovies.sc|fmovies.to|0123movies.com|dwatchseries.com|i0123movies.com|lookmovies.ag|firstsrowsports.tv|onhockey.tv|firstonetv.net|batmanstream.net
+||*.com/modules/^$domain=nyafilmer.lol|swesub.net|gomovies.sc|fmovies.to|0123movies.com|dwatchseries.com|i0123movies.com|lookmovies.ag|firstsrowsports.tv|onhockey.tv|firstonetv.net|batmanstream.net
+||*.com^$script,xmlhttprequest,stylesheet,third-party,domain=nyafilmer.lol|swesub.net|gomovies.sc|fmovies.to|0123movies.com|dwatchseries.com|i0123movies.com|lookmovies.ag|firstsrowsports.tv|onhockey.tv|firstonetv.net|batmanstream.net
+||*.net/modules/^$domain=nyafilmer.lol|swesub.net|gomovies.sc|fmovies.to|0123movies.com|dwatchseries.com|i0123movies.com|lookmovies.ag|firstsrowsports.tv|onhockey.tv|firstonetv.net|batmanstream.net
 ||cadsanz.com^$all
 dirdamid.com##a[href$=".html"][target="_blank"]
 wauzoust.com##[href$=".html"]
@@ -779,7 +779,8 @@ vipleague.*##div.row:nth-of-type(4) > .text-center.col-12
 vipleague.*##.text-center.col-md-4.d-md-block.d-none
 vipleague.*##.text-white.bg-dark.text-justify.p-3.m-3.d-md-block.d-none.col-12
 ||clients6.google.com/rpc$xmlhttprequest,domain=www.vipleague.lc
-||cdn.jsdelivr.net/npm/lazy-ads@1/*$xmlhttprequest
+||cdn.jsdelivr.net/npm/yandex-metrica-watch/tag.js
+||cdn.jsdelivr.net/npm/lazy-ads*$xmlhttprequest
 ||cdn.jsdelivr.net/npm/webfontloader@1/webfontloader.min.js$xmlhttprequest
 ||mw19c3mi5a.com^$xmlhttprequest
 ||bcloudhost.com^$script
@@ -889,6 +890,39 @@ rapidvideo.*##script:inject(addEventListener-defuser.js, mousedown, preventDefau
 ||*.link^$script
 */log$xmlhttprequest,important
 
+#Fmoviesfree.page
+fmoviesfree.*##+js(popads-dummy.js)
+fmoviesfree.*##+js(aopr, console.clear)
+fmoviesfree.*##+js(acis, jQuery, adblocker)
+fmoviesfree.*##+js(aopr, app_vars.force_disable_adblock)
+fmoviesfree.*##+js(aopw, Fingerprint2)
+fmoviesfree.*##a[href$=".html"]
+fmoviesfree.*##.overlay
+fmoviesfree.*###footer
+fmoviesfree.*##div.widget:nth-of-type(2)
+||fmoviesfree.*$xhr,1p
+||*.xyz^$other
+||mirafaren.pw^$all
+/link^$3p,popup
+mstream.*##[class="vjs-link"]
+mstream.*##[class="vjs-chrome-pip vjs-control vjs-button"]
+mstream.*##[class="vjs-playback-rate vjs-menu-button vjs-menu-button-popup vjs-button"]
+mstream.*##+js(acis, jQuery, appendTo)
+mstream.*##+js(acis, jQuery, adblocker)
+mstream.*##+js(aopr, app_vars.force_disable_adblock)
+mstream.*##+js(aopr, open)
+mstream.*##+js(aopr, AaDetector)
+mstream.*##+js(popads-dummy.js)
+||mstream.*/view/*$image
+||mystream.io/img/*$image
+vidoo.*##+js(aopr, app_vars.force_disable_adblock)
+vidoo.*##+js(aopr, open)
+vidoo.*##+js(popads-dummy.js)
+@@||vidoo.tv/js/pop.js$script
+||vidoo.*/dl?op=view&file_code*$xhr,1p
+||vidoo.*$script,popup
+||abi.vidoo.tv/i/*$image
+
 #Firstonetv.net
 firstonetv.net##.columns.large-4
 firstonetv.net##.socialLinks
@@ -922,6 +956,7 @@ firstonetv.net##+js(abort-on-property-write.js, isBlocked)
 @@||firstonetv.net/js/swfobject:1496973630$script,first-party
 @@||firstonetv.net/js/what-input:1496971785$script,first-party
 ||firstonetv.net/js/*$script,domain=firstonetv.net
+||cdnjs.cloudflare.com/ajax/libs/video.js/*/lang/*$script
 ||cdnjs.cloudflare.com/ajax/libs/postscribe/*/postscribe.min.js
 ||firstonetv.net/api/easyshare.php$xmlhttprequest,first-party
 ||top10sportsites.com^
@@ -4786,6 +4821,8 @@ popuper.js^
 @@||maps.google.com^$script,image
 @@||mixer.com^$first-party,popup
 @@||m.media-amazon.com^$image
+@@||steamstore-a.akamaihd.net/public/images/*$image
+@@/jwplayer.js^$script,1p
 @@_ajax?^$first-party
 |http*://*$first-party,websocket,important
 *.download/affiliate/*$popup
