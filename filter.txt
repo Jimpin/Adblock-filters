@@ -567,15 +567,11 @@ humblebundle.com/monthly?hmb_source=humble_monthly_alert&hmb_medium=banner
 #Nyafilmer.lol
 nyafilmer.*##+js(acis, jQuery, appendTo)
 nyafilmer.*##+js(acis, jQuery, adblocker)
-nyafilmer.*##+js(aopr, app_vars.force_disable_adblock)
 nyafilmer.*##+js(aopr, open)
 nyafilmer.*##+js(acis, Math, eval)
-nyafilmer.*##+js(acis, z)
-nyafilmer.*##+js(setTimeout-defuser, z, 0)
 nyafilmer.*##+js(abort-current-inline-script.js, decodeURI, atob)
 nyafilmer.*##+js(acis, document.getElementById, undefined)
 nyafilmer.*##^script:has-text(var _0x)
-nyafilmer.*##+js(aopr, Object.prototype._isPopunderAvailable)
 nyafilmer.*##body > [id][onclick^="window.open("]
 nyafilmer.*##.Breadcrumb
 nyafilmer.*##.found-movies
@@ -596,7 +592,6 @@ nyafilmer.*##.closeSkin
 nyafilmer.*##.movie-preview-content > a[target="_blank"]
 nyafilmer.*###text-2
 nyafilmer.*##[href$=".html"]
-nyafilmer.*##a[href^="/"][href*=".html"][target="_blank"]:style(position: absolute!important; top: -3000px!important;)
 nyafilmer.*###content > div.content.wrapper.clearfix > div.content-left:nth-child(3) > div.film-content > h2.title:first-child
 nyafilmer.*##.clearfix.wrapper.footer
 nyafilmer.*##.header-social-icons
@@ -656,23 +651,19 @@ nyafilmer.*##[class="headerSpace"]
 nyafilmer.*##+js(abort-current-inline-script.js, p2pml.hlsjs.Engine, loader)
 nyafilmer.*##+js(abort-current-inline-script.js, document.getElementById, style.display)
 nyafilmer.*##script:inject(abort-on-property-read.js, BetterJsPop)
-nyafilmer.*##script:inject(abort-on-property-read.js, adsShowPopup)
-nyafilmer.*##script:inject(abort-on-property-read.js, window.cRAds)
-nyafilmer.*##script:inject(abort-on-property-read.js, adb=1)
 nyafilmer.*##script:inject(abort-current-inline-script.js, OneSignal)
 nyafilmer.*##script:inject(abort-current-inline-script.js, decodeURI, getScriptFromCss)
 nyafilmer.*##script:inject(addEventListener-defuser.js, /^(?:click|mousedown)$/, _0x)
-@@||nyafilmer.lol/wp-includes/js/*$script,1p
+@@||nyafilmer.*/wp-includes/js/*$script,1p
 @@||nyafilmer.*/wp-content/themes/keremiya1/js/gallery.min.js$script,1p
 @@||nyafilmer.*/wp-content/themes/keremiya1/js/postTabs.min.js$script
 @@||nyafilmer.*/wp-content/uploads/*/*/ad.jpg
 @@||nyafilmer.*/wp-content/themes/keremiya1/images/tr-flag.png
 @@||api.peer5.com$script,domain=jawcloud.co
 @@||*.com^$first-party,inline-script,domain=jawcloud.co
-/nyafilmer.*\/[A-z]{0,}\.html/$important
+||nyafilmer.*^$popup,important
 ||nyafilmer.*/*.gif$image
 ||nyafilmer.*/branding/$image
-||nyafilmer.*/*.html$popup,important
 ||nyafilmer.*$other,first-party
 ||nyafilmer.*/wp-admin/admin-ajax.php$xmlhttprequest,first-party
 ||nyafilmer.*/wp-includes/js/wp-embed.min.js$script,first-party
@@ -691,7 +682,6 @@ nyafilmer.*,jawcloud.co,streamtajm.*##^script:has-text(_Hasync)
 ||*.com/modules/gridlex/*/gridlex.min.css$stylesheet,domain=jawcloud.co,important
 ||*.com/modules/socket.io/*/socket.io.min.js*$script,domain=jawcloud.co,important
 ||i0.wp.com/nyafilmer.*/wp-content/themes/keremiya1/images/laddased_light.gif
-||biasdo.com/uploads/*/*-*-*-*-*.gif$image
 ||gstatic.com/cv/js/sender/v1/cast_sender.js$script,domain=jawcloud.co
 ||gstatic.com/cv/js/sender/v1/cast_sender.js$script,domain=vkpass.com,important
 ||n3-r2d2.piguiqproxy.com^$xmlhttprequest
