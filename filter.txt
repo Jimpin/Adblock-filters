@@ -567,6 +567,7 @@ nyafilmer.*##+js(acis, jQuery, appendTo)
 nyafilmer.*##+js(acis, jQuery, adblocker)
 nyafilmer.*##+js(aopr, open)
 nyafilmer.*##+js(acis, Math, eval)
+nyafilmer.*##+js(acis, z)
 nyafilmer.*##+js(abort-current-inline-script.js, decodeURI, atob)
 nyafilmer.*##+js(acis, document.getElementById, undefined)
 nyafilmer.*##^script:has-text(var _0x)
@@ -591,7 +592,6 @@ nyafilmer.*##.top
 nyafilmer.*##.closeSkin
 nyafilmer.*##.movie-preview-content > a[target="_blank"]
 nyafilmer.*###text-2
-nyafilmer.*##a[href^="/"][href*=".html"]
 nyafilmer.*##[href$=".html"]
 nyafilmer.*###content > div.content.wrapper.clearfix > div.content-left:nth-child(3) > div.film-content > h2.title:first-child
 nyafilmer.*##.clearfix.wrapper.footer
@@ -662,7 +662,7 @@ nyafilmer.*##script:inject(addEventListener-defuser.js, /^(?:click|mousedown)$/,
 @@||nyafilmer.*/wp-content/themes/keremiya1/images/tr-flag.png
 @@||api.peer5.com$script,domain=jawcloud.co
 @@||*.com^$first-party,inline-script,domain=jawcloud.co
-||nyafilmer.*/u.js^$script,important
+||nyafilmer.*/u*.js^$script,important
 ||nyafilmer.*^$popup,important
 ||nyafilmer.*/*.gif$image
 ||nyafilmer.*/branding/$image
@@ -677,7 +677,6 @@ nyafilmer.*##script:inject(addEventListener-defuser.js, /^(?:click|mousedown)$/,
 ||nyafilmer.*/wp-content/themes/keremiya1/js/script.js$script
 ||nyafilmer.*/wp-content/themes/keremiya1/js/license.12.js$script,first-party
 ||nyafilmer.*^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' jawcloud.co *.jawcloud.co *.googleapis.com *.google.com *.gstatic.com;img-src *;worker-src 'none'
-||nyafilmer.*^$csp=sandbox allow-forms allow-same-origin allow-scripts
 ||*.net^$frame,inline-script,script,image,xmlhttprequest,stylesheet,other,domain=jawcloud.co
 ||*.com^$frame,inline-script,script,image,xmlhttprequest,stylesheet,other,domain=jawcloud.co
 ||*.com/modules/gridlex/*/gridlex.min.css$stylesheet,domain=jawcloud.co,important
