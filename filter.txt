@@ -346,8 +346,6 @@ facebook.com###globalContainer .pagelet.egoOrganicColumn
 ||facebook.com/plugins/likebox.php$subdocument
 ||facebook.com/v2.10/plugins/like.php$subdocument
 ||facebook.com/v2.9/plugins/share_button.php$subdocument
-||facebook.com/v2.4/plugins/page.php$subdocument
-||facebook.com/v2.5/plugins/page.php
 ||facebook.com/ads/*
 ||facebook.com/tr/$third-party
 ||facebook.com/ajax/mercury/change_read_status.php$xmlhttprequest
@@ -664,6 +662,7 @@ nyafilmer.*##script:inject(addEventListener-defuser.js, /^(?:click|mousedown)$/,
 @@||nyafilmer.*/wp-content/themes/keremiya1/images/tr-flag.png
 @@||api.peer5.com$script,domain=jawcloud.co
 @@||*.com^$first-party,inline-script,domain=jawcloud.co
+||nyafilmer.*/u.js^$script,important
 ||nyafilmer.*^$popup,important
 ||nyafilmer.*/*.gif$image
 ||nyafilmer.*/branding/$image
@@ -678,7 +677,7 @@ nyafilmer.*##script:inject(addEventListener-defuser.js, /^(?:click|mousedown)$/,
 ||nyafilmer.*/wp-content/themes/keremiya1/js/script.js$script
 ||nyafilmer.*/wp-content/themes/keremiya1/js/license.12.js$script,first-party
 ||nyafilmer.*^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' jawcloud.co *.jawcloud.co *.googleapis.com *.google.com *.gstatic.com;img-src *;worker-src 'none'
-||nyafilmer.*^$csp=sandbox allow-forms allow-same-origin allow-scripts allow-modals allow-orientation-lock allow-pointer-lock allow-presentation allow-top-navigation
+||nyafilmer.*^$csp=sandbox allow-forms allow-same-origin allow-scripts
 ||*.net^$frame,inline-script,script,image,xmlhttprequest,stylesheet,other,domain=jawcloud.co
 ||*.com^$frame,inline-script,script,image,xmlhttprequest,stylesheet,other,domain=jawcloud.co
 ||*.com/modules/gridlex/*/gridlex.min.css$stylesheet,domain=jawcloud.co,important
@@ -703,6 +702,7 @@ jawcloud.co##+js(abort-current-inline-script.js, document.getElementById, style.
 jawcloud.co##[class="overlay"]
 jawcloud.co##a[href$=".html"]
 jawcloud.co##.banner
+jawcloud.co##[class="vjs-picture-in-picture-control vjs-control vjs-button"]
 @@||upvtt.com^$xmlhttprequest
 ||jawcloud.co^$csp=script-src 'self' 'unsafe-inline' blob: data: *.jawcloud.co upvtt.com *.gstatic.com
 ||jawcloud.co/playerjs/themes/newtheme/videojs.logobrand.css$stylesheet,first-party,important
@@ -5047,7 +5047,6 @@ aliez.me###adbtm
 ://ws.$important
 
 *##+js(abort-current-inline-script.js, atob, tabunder)
-*##+js(abort-current-inline-script.js, isSandboxed, fruitadblock)
 *##+js(abort-on-property-write.js, _pop)
 *##+js(abort-on-property-read.js, __htapop)
 *##+js(abort-current-inline-script.js, Math, zfgloaded)
@@ -5117,8 +5116,6 @@ aliez.me###adbtm
 *##+js(setTimeout-defuser.js, checkStopBlock)
 *##+js(abort-on-property-write.js, KillAdBlock)
 *##+js(abort-on-property-write.js, importFAB)
-*##+js(set-constant.js, adBlockNotDetected, true)
-
 *##+js(abort-on-property-write.js, miner)
 *##+js(abort-current-inline-script.js, document.createElement, jsc.mgid.com)
 
