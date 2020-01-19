@@ -664,7 +664,7 @@ nyafilmer.*##script:inject(addEventListener-defuser.js, /^(?:click|mousedown)$/,
 @@||api.peer5.com$script,domain=jawcloud.co
 @@||*.com^$first-party,inline-script,domain=jawcloud.co
 ||nyafilmer.*/u*.js^$script,important
-||nyafilmer.*^$popup,important
+||nyafilmer.*/*.html^$popup
 ||nyafilmer.*/*.gif$image
 ||nyafilmer.*/branding/$image
 ||nyafilmer.*$other,first-party
