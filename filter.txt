@@ -744,6 +744,7 @@ wauzoust.com##[href$=".html"]
 /beacon/performance?
 /favicon.png$image,important
 /index.css?^$third-party
+/ads.js?
 ?excludes=^#xhr
 @@*.m3u8$xhr
 @@*.ts$xhr
@@ -5047,12 +5048,12 @@ aliez.me###adbtm
 *##+js(abort-current-inline-script.js, atob, tabunder)
 *##+js(abort-on-property-write.js, _pop)
 *##+js(abort-on-property-read.js, __htapop)
-*##+js(abort-current-inline-script.js, Math, zfgloaded)
 *##+js(abort-on-property-read.js, InitCloseButton)
 *##+js(abort-on-property-write, isAdblockOn)
 *##+js(abort-on-property-write, UAParser)
 *##+js(abort-on-property-write, rAb)
 *##+js(abort-on-property-write, AdDelivery)
+
 *##[id^='adsIfrme']:has(:scope > iframe[src^='/ads/'])
 *##+js(bab-defuser.js)
 *##+js(abort-on-property-read.js, cursorAd)
@@ -5111,12 +5112,9 @@ aliez.me###adbtm
 
 ------------
 
-*##+js(setTimeout-defuser.js, checkStopBlock)
-*##+js(abort-on-property-write.js, KillAdBlock)
 *##+js(abort-on-property-write.js, importFAB)
 *##+js(abort-on-property-write.js, miner)
 *##+js(abort-current-inline-script.js, document.createElement, jsc.mgid.com)
-
 *##+js(set, AdController, noopFunc)
 *##+js(set, popunder, noopFunc)
 *##+js(set, ClickUnder, noopFunc)
