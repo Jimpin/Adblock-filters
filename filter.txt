@@ -563,10 +563,15 @@ humblebundle.com/monthly?hmb_source=humble_monthly_alert&hmb_medium=banner
 ###site-xpromo-banner > .js-page-banner-link.page-banner-link
 
 #Nyafilmer.lol
+nyafilmer.*##+js(abort-current-inline-script.js, p2pml.hlsjs.Engine, loader)
+nyafilmer.*##+js(abort-current-inline-script.js, document.getElementById, style.display)
+nyafilmer.*##script:inject(abort-on-property-read.js, BetterJsPop)
+nyafilmer.*##script:inject(abort-current-inline-script.js, OneSignal)
+nyafilmer.*##script:inject(abort-current-inline-script.js, decodeURI, getScriptFromCss)
+nyafilmer.*##script:inject(addEventListener-defuser.js, /^(?:click|mousedown)$/, _0x)
 nyafilmer.*##+js(acis, jQuery, appendTo)
 nyafilmer.*##+js(acis, jQuery, adblocker)
 nyafilmer.*##+js(aopr, open)
-nyafilmer.*##+js(acis, Math, eval)
 nyafilmer.*##+js(acis, z)
 nyafilmer.*##+js(abort-current-inline-script.js, decodeURI, atob)
 nyafilmer.*##+js(acis, document.getElementById, undefined)
@@ -650,12 +655,6 @@ nyafilmer.*##.g-recaptcha
 nyafilmer.*##.gameofthrones
 nyafilmer.*##.noselect.tab-buttons
 nyafilmer.*##[class="headerSpace"]
-nyafilmer.*##+js(abort-current-inline-script.js, p2pml.hlsjs.Engine, loader)
-nyafilmer.*##+js(abort-current-inline-script.js, document.getElementById, style.display)
-nyafilmer.*##script:inject(abort-on-property-read.js, BetterJsPop)
-nyafilmer.*##script:inject(abort-current-inline-script.js, OneSignal)
-nyafilmer.*##script:inject(abort-current-inline-script.js, decodeURI, getScriptFromCss)
-nyafilmer.*##script:inject(addEventListener-defuser.js, /^(?:click|mousedown)$/, _0x)
 @@||nyafilmer.*/wp-includes/js/*$script,1p
 @@||nyafilmer.*/wp-content/themes/keremiya1/js/gallery.min.js$script,1p
 @@||nyafilmer.*/wp-content/themes/keremiya1/js/postTabs.min.js$script
@@ -663,8 +662,7 @@ nyafilmer.*##script:inject(addEventListener-defuser.js, /^(?:click|mousedown)$/,
 @@||nyafilmer.*/wp-content/themes/keremiya1/images/tr-flag.png
 @@||api.peer5.com$script,domain=jawcloud.co
 @@||*.com^$first-party,inline-script,domain=jawcloud.co
---||nyafilmer.*/u*.js^$script
-||nyafilmer.*/*.html^$popup
+||nyafilmer.*/u*.js$script,1p
 ||nyafilmer.*/*.gif$image
 ||nyafilmer.*/branding/$image
 ||nyafilmer.*$other,first-party
