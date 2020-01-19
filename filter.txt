@@ -573,6 +573,7 @@ nyafilmer.*##+js(acis, document.getElementById, undefined)
 nyafilmer.*##^script:has-text(var _0x)
 nyafilmer.*##div:matches-css(width: 500px):matches-css(height: 350px):matches-css(z-index: 99999)
 nyafilmer.*##div:matches-css(z-index: 99998)
+nyafilmer.*##html:style(overflow: auto !important;) 
 nyafilmer.*##body > [id][onclick^="window.open("]
 nyafilmer.*##.Breadcrumb
 nyafilmer.*##.found-movies
