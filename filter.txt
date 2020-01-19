@@ -663,7 +663,7 @@ nyafilmer.*##script:inject(addEventListener-defuser.js, /^(?:click|mousedown)$/,
 @@||nyafilmer.*/wp-content/themes/keremiya1/images/tr-flag.png
 @@||api.peer5.com$script,domain=jawcloud.co
 @@||*.com^$first-party,inline-script,domain=jawcloud.co
-||nyafilmer.*/u*.js^$script,important
+||nyafilmer.*/u*.js^$script,redirect=noopjs
 ||nyafilmer.*/*.html^$popup
 ||nyafilmer.*/*.gif$image
 ||nyafilmer.*/branding/$image
