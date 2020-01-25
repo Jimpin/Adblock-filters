@@ -729,9 +729,9 @@ jawcloud.co##[class="vjs-picture-in-picture-control vjs-control vjs-button"]
 ||clksite.com^$script,redirect=noopjs
 ||mycdn.co^$script,redirect=noopjs,important
 ||cloudflareinsights.com^$script
-||*.com/modules/^$domain=nyafilmer.lol|swesub.net|gomovies.sc|fmovies.to|0123movies.com|dwatchseries.com|i0123movies.com|lookmovies.ag|firstsrowsports.tv|onhockey.tv|firstonetv.net|batmanstream.net
-||*.com^$script,xmlhttprequest,stylesheet,third-party,domain=nyafilmer.lol|swesub.net|gomovies.sc|fmovies.to|0123movies.com|dwatchseries.com|i0123movies.com|lookmovies.ag|firstsrowsports.tv|onhockey.tv|firstonetv.net|batmanstream.net
-||*.net/modules/^$domain=nyafilmer.lol|swesub.net|gomovies.sc|fmovies.to|0123movies.com|dwatchseries.com|i0123movies.com|lookmovies.ag|firstsrowsports.tv|onhockey.tv|firstonetv.net|batmanstream.net
+||*.com/modules/^$domain=nyafilmer.lol|swesub.net|gomovies.sc|fmovies.to|0123movies.com|dwatchseries.com|i0123movies.com|lookmovies.ag|firstsrowsports.tv|firstonetv.net|batmanstream.net
+||*.com^$script,xmlhttprequest,stylesheet,third-party,domain=nyafilmer.lol|swesub.net|gomovies.sc|fmovies.to|0123movies.com|dwatchseries.com|i0123movies.com|lookmovies.ag|firstsrowsports.tv|firstonetv.net|batmanstream.net
+||*.net/modules/^$domain=nyafilmer.lol|swesub.net|gomovies.sc|fmovies.to|0123movies.com|dwatchseries.com|i0123movies.com|lookmovies.ag|firstsrowsports.tv|firstonetv.net|batmanstream.net
 ||cadsanz.com^$all
 dirdamid.com##a[href$=".html"][target="_blank"]
 wauzoust.com##[href$=".html"]
