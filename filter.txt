@@ -377,6 +377,9 @@ svtplay.se#@#.no-cookies
 svtplay.se##.play_cookie-information
 @@||svtstatic.se^$image
 ||svtstatic.se/play/play6/images/*.png$image
+||helix.svt.se/events$xhr
+||message.*^$ping
+/manifest.mpd$xhr
 
 #Svenskafans.com
 svenskafans.com##+js(acis, jQuery, adblocker)
@@ -1111,6 +1114,36 @@ rltracker.pro##.da_col.stat_box.stats_box.main_box.fav_no_category
 rltracker.pro##.col-sm-12 > .row
 ||rltracker.pro/assets/rl_bg-e3c24a0ae6f6df8c56fbaf0509d4ffd1f7681364cef04adf85391d018520c93d.png$image
 
+#123movies.la
+123movies.*##+js(acis, jQuery, appendTo)
+123movies.*##+js(acis, jQuery, adblocker)
+123movies.*##+js(aopr, open)
+123movies.*##[href$=".html"]
+123movies.*##[id="overlay"]
+123movies.*##a[href^="/"][href*=".html"][target="_blank"]
+123movies.*##+js(abort-current-inline-script.js, p2pml.hlsjs.Engine, loader)
+123movies.*##+js(abort-current-inline-script.js, document.getElementById, style.display)
+123movies.*##script:inject(abort-on-property-read.js, BetterJsPop)
+123movies.*##script:inject(abort-current-inline-script.js, decodeURI, getScriptFromCss)
+123movies.*##.bottom-bnr
+123movies.*##[rel="nofollow noopener"]
+123movies.*##[class="15492952jw"]
+123movies.*##.play-notice > .alert-warning.alert
+123movies.*##.buttons
+123movies.*##.btn-successful.btn-lg.btn
+123movies.*##.row > .clearfix
+123movies.*###footer
+123movies.*##footer
+||123movies.*^$other
+||123movies.*/assets/js/custombanner.js$script
+||123movies.*/*.tm$script
+||123movies.*/*.it$script
+/assets/js/psbar.jquery.min.js$script
+||vidcloud9.com/js/app.js$script
+||foazasis.com^
+||caithamo.net^3p
+||connect.facebook.net^$3p
+
 #0123movies.com
 0123movies.*##+js(acis, jQuery, adblocker)
 0123movies.*##+js(aopr, app_vars.force_disable_adblock)
@@ -1148,6 +1181,15 @@ rltracker.pro##.col-sm-12 > .row
 lookmovie.ag##+js(acis, jQuery, adblocker)
 lookmovie.ag##+js(aopr, app_vars.force_disable_adblock)
 lookmovie.ag##+js(popads-dummy)
+lookmovie.ag##.plr-help-stripe
+lookmovie.ag##div:nth-of-type(6) > div:nth-of-type(1)
+lookmovie.ag##body > div:nth-of-type(6)
+lookmovie.ag##[class="show-recaptcha"]
+lookmovie.ag##[class="wellcome-boy-message"]
+lookmovie.ag##[id="overlay-article"]
+lookmovie.ag##[class="overlay-wrapper"]
+lookmovie.ag##[class="issues-overlay"]
+lookmovie.ag##+js(addEventListener-defuser.js, DOMContentLoaded, [native code])
 lookmovie.ag###donate-section
 lookmovie.ag##.wellcome-boy-message
 lookmovie.ag##[href="/qa"]
@@ -1156,8 +1198,6 @@ lookmovie.ag##.plr-ad-stripe
 lookmovie.ag##.bottom-message-container
 lookmovie.ag###social-share
 lookmovie.ag##script:inject(bab-defuser.js)
-lookmovie.ag##a[href$="google.com"][target="_blank"]
-lookmovie.ag##a[href$="gstatic.com"][target="_blank"]
 ||lookmovie.ag/favicon.ico$image,first-party
 ||cntr.lookmovie.ag^$xmlhttprequest
 ||metrika.lookmovie.ag/analytics.js$script
@@ -3243,6 +3283,7 @@ dirdamid.com##a[href$=".html"]
 ||imrworldwide.com^$important
 ||sb.scorecardresearch.com^
 ||cdn.krxd.net^
+||aenan.pw^
 ||uptoabc.com^$script
 ||sentry.io^$xmlhttprequest
 ||t7479e4d.com^$important
@@ -4820,6 +4861,9 @@ popuper.js^
 @@||googlevideo.com/videoplayback?^$xhr,1p
 @@/jwplayer.js^$script,1p
 @@_ajax?^$first-party
+@@/jwplayer.js$script,1p
+@@/assets/js/player.js$script
+@@/redirect^$media
 |http*://*$first-party,websocket,important
 *.download/affiliate/*$popup
 .tv/*third-party$script,important
