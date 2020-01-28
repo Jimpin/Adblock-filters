@@ -5059,11 +5059,6 @@ aliez.me###adbtm
 *##[id^='adsIfrme']:has(:scope > iframe[src^='/ads/'])
 *##+js(bab-defuser.js)
 *##+js(abort-on-property-read.js, cursorAd)
-*##+js(set-constant.js, s1AdDetection, true)
-*##+js(gpt-defuser.js)
-
---------------------------------------------------
-
 *##+js(set-constant.js, advertisementText, undefined)
 *##+js(acis, _adform)
 *##+js(acis, adformLoader)
@@ -5076,7 +5071,6 @@ aliez.me###adbtm
 *##+js(acis, $, AdBlockDetector)
 *##+js(acis, _adftrack, push)
 *##+js(acis, twttr, trackPid)
-
 *##+js(acis, preLoadAds, loadAd)
 *##+js(acis, preLoadAds, setup)
 *##+js(std, onerror, 1000)
@@ -5102,10 +5096,7 @@ aliez.me###adbtm
 *##+js(acis, popunder)
 *##+js(acis, $, adblock)
 *##+js(acis, jQuery, overlay)
-*##+js(set-constant.js, nocontext, noopFunc)
 *##+js(set-constant.js, checkAds, noopFunc)
-*##+js(abort-current-inline-script.js, document.getElementById, .ab_detected)
-
 *##+js(aopr, adMessage)
 *##+js(acis, jQuery, tweaker)
 *##+js(acis, document.getElementById, blocker)
@@ -5118,7 +5109,6 @@ aliez.me###adbtm
 *##+js(abort-on-property-write.js, miner)
 *##+js(abort-current-inline-script.js, document.createElement, jsc.mgid.com)
 *##+js(set, AdController, noopFunc)
-*##+js(set, popunder, noopFunc)
 *##+js(set, ClickUnder, noopFunc)
 *##+js(set, Object.prototype.AdRequest, noopFunc)
 *##+js(set, atob, noopFunc)
