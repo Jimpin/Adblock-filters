@@ -221,13 +221,10 @@ tv4.se##+js(acis, burtConfigs)
 tv4play.se##+js(acis, jQuery, adblocker)
 tv4play.se##+js(aopr, app_vars.force_disable_adblock)
 tv4play.se##.js-cookie-banner
-tv4play.se##.sc-iwsKbI
 tv4play.se###pause-img-holder
-tv4play.se##.Buttons__CmoreButton-rnqgox-1
 tv4play.se##.cmore-cta
 tv4play.se##.cmore-btn
-tv4play.se##.cmore-program.program-intro-info-row > .program-intro-info-row-cta > .cta-wrapper
-tv4play.se##.cmore.program-intro-suggested-episode-play-icon
+tv4play.se##[data-test="desktop-cmore-upsell"]
 tv4play.se###pause-img-holder
 tv4play.se##.pulse-ad-counter-slide.pulse-visible.pulse-ad-counter
 tv4play.se##.flash-ad-player-class
@@ -235,21 +232,23 @@ tv4play.se##message-bar
 tv4play.se##[class="bbhp-overlay-container"]
 tv4play.se##[id="__NEXT_DATA__"]
 tv4play.se###skin-cover
-tv4play.se##.hViZxS.rnqgox-1.rnqgox-0
-tv4play.se##.ePfghL.rw3kwv-0.sc-bdVaJa
-tv4play.se##.style__PlaylistMenuGradient-s5c4kl-8
-@@||personalization.services.tv4play.se/progress$xmlhttprequest,domain=www.tv4play.se
+--@@||personalization.services.tv4play.se/progress$xmlhttprequest,domain=www.tv4play.se
 @@||imageproxy.b17g.services^$image
 @@||yospace.com/csm/live/*.m3u8$xmlhttprequest
 @@||videoplaza.tv/proxy/distributor$xmlhttprequest
 @@||tv4play.se^$image
 ||tv4play.se/hic_qos$script,redirect=noopjs
 ||tv4play.se/program/typeahead$xmlhttprequest,domain=tv4play.se,important
+||tv4play.se/_next/static/*/pages/index.js$script
 ||tv4play.ooul.tv/nocache^$script,redirect=noopjs
 ||tv4play-se.c.richmetrics.com^$script,redirect=noopjs
 ||tv4-trailers-prod.*.com/api/impression$xmlhttprequest
 ||tv4-trailers.*.net/api/trailers$xmlhttprequest
 ||tv4-trailers-prod.*.com^$important
+||b17g.services/event$xhr,domain=www.tv4play.se
+||youborafds*.com/data$xhr,redirect=noop.txt
+||googletagmanager.com/gtm.js$script
+||personalization.services.tv4play.se/progress?client=web$xhr,domain=www.tv4play.se
 ||restapi-vimond-prod.b17g.net^$xmlhttprequest,domain=tv4play.se
 ||damoh.tv4play.se^$media,redirect=noopmp3-0.1s,domain=tv4.se|tv4play.se|fotbollskanalen.se
 ||damoh.tv4play.se^$image
@@ -278,6 +277,8 @@ tv4play.se##.style__PlaylistMenuGradient-s5c4kl-8
 ||*.mxcdn.net^
 */trailers$media,redirect=noopmp3-0.1s,domain=tv4.se|tv4play.se|fotbollskanalen.se
 */tv4play_plugin.$redirect=noopjs,script,domain=tv4.se|tv4play.se|fotbollskanalen.se
+||nuid.imrworldwide.com^$image,domain=www.tv4play.se
+/images/Animation_Playknapp2.png$image
 
 #Youtube.com
 youtube.*##+js(acis, jQuery, adblocker)
