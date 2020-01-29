@@ -218,6 +218,9 @@ tv4.se##.social-block-ad
 tv4.se##.social-buttons
 tv4.se##[class*="aside-ad"] 
 tv4.se##+js(acis, burtConfigs)
+tv4play.se##[data-testid="progress-handle"]
+tv4play.se##div:matches-css(width: 3px):matches-css(height: 2px)
+tv4play.se##[data-testid="ad-breaks-container"]
 tv4play.se##+js(acis, jQuery, adblocker)
 tv4play.se##+js(aopr, app_vars.force_disable_adblock)
 tv4play.se##.js-cookie-banner
@@ -244,6 +247,8 @@ tv4play.se###skin-cover
 ||tv4-trailers-prod.*.com/api/impression$xmlhttprequest
 ||tv4-trailers.*.net/api/trailers$xmlhttprequest
 ||tv4-trailers-prod.*.com^$important
+||overlayz.b17g.net/overlay/*$xhr,redirect=noop.txt
+||api.ipify.org^$xhr,redirect=noop.txt|
 ||b17g.services/event$xhr,domain=www.tv4play.se
 ||youborafds*.com/data$xhr,redirect=noop.txt
 ||googletagmanager.com/gtm.js$script
@@ -274,9 +279,9 @@ tv4play.se###skin-cover
 ||servedby.flashtalking.com^$domain=tv4play.se
 ||nqs.nice264.com^$xmlhttprequest,domain=tv4play.se,important
 ||*.mxcdn.net^
+||nuid.imrworldwide.com^$image,domain=www.tv4play.se
 */trailers$media,redirect=noopmp3-0.1s,domain=tv4.se|tv4play.se|fotbollskanalen.se
 */tv4play_plugin.$redirect=noopjs,script,domain=tv4.se|tv4play.se|fotbollskanalen.se
-||nuid.imrworldwide.com^$image,domain=www.tv4play.se
 /images/Animation_Playknapp2.png$image
 
 #Youtube.com
