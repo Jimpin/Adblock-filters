@@ -239,7 +239,6 @@ tv4play.se###skin-cover
 @@||tv4play.se^$image
 ||tv4play.se/hic_qos$script,redirect=noopjs
 ||tv4play.se/program/typeahead$xmlhttprequest,domain=tv4play.se,important
-||tv4play.se/_next/static/*/pages/index.js$script
 ||tv4play.ooul.tv/nocache^$script,redirect=noopjs
 ||tv4play-se.c.richmetrics.com^$script,redirect=noopjs
 ||tv4-trailers-prod.*.com/api/impression$xmlhttprequest
