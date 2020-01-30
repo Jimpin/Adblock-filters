@@ -382,7 +382,6 @@ svtplay.se##.play_cookie-information
 ||svtstatic.se/play/play6/images/*.png$image
 ||helix.svt.se/events$xhr
 ||message.*^$ping
-/manifest.mpd$xhr
 
 #Svenskafans.com
 svenskafans.com##+js(acis, jQuery, adblocker)
@@ -842,7 +841,7 @@ fmovies.*##+js(addEventListener-defuser.js, /^(?:click|mousedown)$/, _0x)
 ##p:nth-child(15) > span > a
 ##section:nth-child(15) > a
 ##article:nth-child(15) > div > a
-##.col-xs-11, .col-sm-4, .alert, .alert-warning
+##.col-sm-4, .alert, .alert-warning
 ##a[href="804548.html"]
 @@||ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js$script
 @@||fmovies.*/ajax/$xmlhttprequest,domain=fmovies.is|fmovies.se|fmovies.to|fmovies.ac
