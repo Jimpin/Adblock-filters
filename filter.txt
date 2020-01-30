@@ -211,8 +211,6 @@ player.twitch.tv##.player-overlay
 ||api.twitch.tv/kraken/user
 
 #Tv4play.se
-tv4.se##+js(acis, jQuery, adblocker)
-tv4.se##+js(aopr, app_vars.force_disable_adblock)
 tv4.se##.program-header-sponsors 
 tv4.se##.social-block-ad 
 tv4.se##.social-buttons
@@ -221,8 +219,6 @@ tv4.se##+js(acis, burtConfigs)
 tv4play.se##[data-testid="progress-handle"]
 tv4play.se##div:matches-css(width: 3px):matches-css(height: 2px)
 tv4play.se##[data-testid="ad-breaks-container"]
-tv4play.se##+js(acis, jQuery, adblocker)
-tv4play.se##+js(aopr, app_vars.force_disable_adblock)
 tv4play.se##.js-cookie-banner
 tv4play.se###pause-img-holder
 tv4play.se##.cmore-cta
@@ -235,15 +231,18 @@ tv4play.se##message-bar
 tv4play.se##[class="bbhp-overlay-container"]
 tv4play.se##[id="__NEXT_DATA__"]
 tv4play.se###skin-cover
---@@||personalization.services.tv4play.se/progress$xmlhttprequest,domain=www.tv4play.se
 @@||imageproxy.b17g.services^$image
 @@||yospace.com/csm/live/*.m3u8$xmlhttprequest
 @@||videoplaza.tv/proxy/distributor$xmlhttprequest
 @@||tv4play.se^$image
+--@@||personalization.services.tv4play.se/progress$xmlhttprequest,domain=www.tv4play.se
+--*/trailers$media,redirect=noopmp3-0.1s,domain=tv4.se|tv4play.se|fotbollskanalen.se
+--*/tv4play_plugin.$redirect=noopjs,script,domain=tv4.se|tv4play.se|fotbollskanalen.se
+--||tv4play.ooul.tv/nocache^$script,redirect=noopjs
 ||tv4play.se/hic_qos$script,redirect=noopjs
 ||tv4play.se/program/typeahead$xmlhttprequest,domain=tv4play.se,important
-||tv4play.ooul.tv/nocache^$script,redirect=noopjs
 ||tv4play-se.c.richmetrics.com^$script,redirect=noopjs
+||bumpers.tv4play.se^$media,redirect=noopmp3-0.1s,domain=tv4.se|tv4play.se|fotbollskanalen.se
 ||tv4-trailers-prod.*.com/api/impression$xmlhttprequest
 ||tv4-trailers.*.net/api/trailers$xmlhttprequest
 ||tv4-trailers-prod.*.com^$important
@@ -280,8 +279,6 @@ tv4play.se###skin-cover
 ||nqs.nice264.com^$xmlhttprequest,domain=tv4play.se,important
 ||*.mxcdn.net^
 ||nuid.imrworldwide.com^$image,domain=www.tv4play.se
-*/trailers$media,redirect=noopmp3-0.1s,domain=tv4.se|tv4play.se|fotbollskanalen.se
-*/tv4play_plugin.$redirect=noopjs,script,domain=tv4.se|tv4play.se|fotbollskanalen.se
 /images/Animation_Playknapp2.png$image
 
 #Youtube.com
