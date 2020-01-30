@@ -216,7 +216,6 @@ tv4.se##.social-block-ad
 tv4.se##.social-buttons
 tv4.se##[class*="aside-ad"] 
 tv4.se##+js(acis, burtConfigs)
-tv4play.se##[data-testid="progress-handle"]
 tv4play.se##div:matches-css(width: 3px):matches-css(height: 2px)
 tv4play.se##[data-testid="ad-breaks-container"]
 tv4play.se##.js-cookie-banner
@@ -235,7 +234,7 @@ tv4play.se###skin-cover
 @@||yospace.com/csm/live/*.m3u8$xmlhttprequest
 @@||videoplaza.tv/proxy/distributor$xmlhttprequest
 @@||tv4play.se^$image
---@@||personalization.services.tv4play.se/progress$xmlhttprequest,domain=www.tv4play.se
+@@||personalization.services.tv4play.se/progress$xmlhttprequest,domain=www.tv4play.se
 --*/trailers$media,redirect=noopmp3-0.1s,domain=tv4.se|tv4play.se|fotbollskanalen.se
 --*/tv4play_plugin.$redirect=noopjs,script,domain=tv4.se|tv4play.se|fotbollskanalen.se
 --||tv4play.ooul.tv/nocache^$script,redirect=noopjs
@@ -247,11 +246,10 @@ tv4play.se###skin-cover
 ||tv4-trailers.*.net/api/trailers$xmlhttprequest
 ||tv4-trailers-prod.*.com^$important
 ||overlayz.b17g.net/overlay/*$xhr,redirect=noop.txt
-||api.ipify.org^$xhr,redirect=noop.txt|
+||api.ipify.org^$xhr,redirect=noop.txt
 ||b17g.services/event$xhr,domain=www.tv4play.se
 ||youborafds*.com/data$xhr,redirect=noop.txt
 ||googletagmanager.com/gtm.js$script
-||personalization.services.tv4play.se/progress?client=web$xhr,domain=www.tv4play.se
 ||restapi-vimond-prod.b17g.net^$xmlhttprequest,domain=tv4play.se
 ||damoh.tv4play.se^$media,redirect=noopmp3-0.1s,domain=tv4.se|tv4play.se|fotbollskanalen.se
 ||damoh.tv4play.se^$image
