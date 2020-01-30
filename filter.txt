@@ -216,6 +216,9 @@ tv4.se##.social-block-ad
 tv4.se##.social-buttons
 tv4.se##[class*="aside-ad"] 
 tv4.se##+js(acis, burtConfigs)
+tv4play.se##[class="bbhp-jingle-video"]
+tv4play.se##[class="bbhp-ad-container"]
+tv4play.se##[style="visibility: hidden;"]
 tv4play.se##div:matches-css(width: 3px):matches-css(height: 2px)
 tv4play.se##[data-testid="ad-breaks-container"]
 tv4play.se##.js-cookie-banner
@@ -232,9 +235,9 @@ tv4play.se##[id="__NEXT_DATA__"]
 tv4play.se###skin-cover
 @@||imageproxy.b17g.services^$image
 @@||yospace.com/csm/live/*.m3u8$xmlhttprequest
-@@||videoplaza.tv/proxy/distributor$xmlhttprequest
 @@||tv4play.se^$image
 @@||personalization.services.tv4play.se/progress$xmlhttprequest,domain=www.tv4play.se
+--@@||videoplaza.tv/proxy/distributor$xmlhttprequest
 --*/trailers$media,redirect=noopmp3-0.1s,domain=tv4.se|tv4play.se|fotbollskanalen.se
 --*/tv4play_plugin.$redirect=noopjs,script,domain=tv4.se|tv4play.se|fotbollskanalen.se
 --||tv4play.ooul.tv/nocache^$script,redirect=noopjs
