@@ -3069,7 +3069,7 @@ dirdamid.com##a[href$=".html"]
 ||deloton.com^
 ||phokukse.com^$important
 ||baiduccdn1.com^
-||omtrdc.net^$third-party
+||omtrdc.net^$image
 ||toro-tags.com^
 ||bet365.com^$popup
 ||ssl2anyone3.com^
