@@ -194,7 +194,7 @@ player.twitch.tv##.player-overlay
 ||trowel.twitch.tv/?data=[base64string]
 ||api.dbh.doub.ly^$xmlhttprequest,important
 ||ad.doubleclick.net/ddm/ad/*/*/*'/;ord='*$domain=twitch.tv
-||c.amazon-adsystem.com^$script,redirect=noopjs
+||amazon-adsystem.com^$script,redirect=noopjs
 ||pubads.g.doubleclick.net^
 ||gstatic.com^$script,domain=twitch.tv
 ||custos.twitchcdn.net/v1.js$script,important
@@ -590,6 +590,7 @@ nyafilmer.*##div:matches-css(width: 500px):matches-css(height: 350px):matches-cs
 nyafilmer.*##div:matches-css(z-index: 99998)
 nyafilmer.*##html:style(overflow: auto !important;) 
 nyafilmer.*##body > [id][onclick^="window.open("]
+nyafilmer.*##body > iframe
 nyafilmer.*##.Breadcrumb
 nyafilmer.*##.found-movies
 nyafilmer.*##.header-social-icons
@@ -746,8 +747,9 @@ jawcloud.co##[class="vjs-picture-in-picture-control vjs-control vjs-button"]
 ||premixture.com^
 ||rubiginose.com^
 ||rp-srw.net^
+rubiginose.com##a[href$=".html"][target="_blank"]
 dirdamid.com##a[href$=".html"][target="_blank"]
-wauzoust.com##[href$=".html"]
+wauzoust.com##a[href$=".html"]
 ||wauzoust.com^$important
 ##[src="remtoaku.net"]
 ##[src="peehotim.com"]
@@ -2454,7 +2456,7 @@ dirdamid.com##a[href$=".html"]
 ||adform.net^
 ||adtlgc.com^
 ||aka-cdn.adtech.de^
-||aws.amazon.com^
+||amazonaws.com^$xmlhttprequest
 ||amazon-adsystem.com^
 ||adnigma.com^
 ||adyoulike.omnitagjs.com^
@@ -2615,7 +2617,6 @@ dirdamid.com##a[href$=".html"]
 ||jsfuel.com^
 ||spaceshipad.com^
 ||takethatad.com^
-||s3.amazonaws.com^
 ||zxcvads.com^
 ||tradeadsexchange.com^
 ||tradedoubler.com^
@@ -2844,6 +2845,9 @@ dirdamid.com##a[href$=".html"]
 ||djfhwosjck.bid^
 ||najsiejfnc.win^
 ||zndaowjdnf.stream^
+||unanimous.live^$3p
+||foolfishes.com^3p
+||4armn.com^$3p
 ||yqaywudifu.date^
 ||flowplayer.space^
 ||thersprens.com^
@@ -3472,6 +3476,9 @@ redirect.
 /(\W|_)affiliates?(\W|_)*(ads?|banners?|code|frame|icons?|id|impressions?|links?|marketing|partners?|program|promos?|tag|track(ers?|ing)?|widgets?)[0-9]*(\W|_)/$~stylesheet
 /(\W|_)advert(is(e|ements?|ers?|ing)?|orial|s)?[0-9]*(\W|_)/$~stylesheet
 /(\W|_)coin(\W|_)*hive[0-9]*(\W|_)/$script,~stylesheet
+/icon?feed_id=*&hash=*.jpg$image
+/metrics/save.img?event=impressions&bid_id=*.jpg$image
+/naimg/*.jpg$image
 /ads/purl.js$script
 /ads?
 /html/blocked.html$popup,important
@@ -4862,7 +4869,7 @@ popuper.js^
 @@/assets/application/
 @@/assets/vendor/
 @@||maxcdn.bootstrapcdn.com^
-@@||s3.amazonaws.com^$image
+@@||amazonaws.com^$image
 @@||analytics.google.com^
 @@||typekit.net^$script
 @@||cloudfront.net^$script,domain=oscar.go.com
@@ -4875,7 +4882,7 @@ popuper.js^
 @@||google.com^$frame,xmlhttprequest
 @@||maps.google.com^$script,image
 @@||mixer.com^$first-party,popup
-@@||m.media-amazon.com^$image
+@@||media-amazon.com^$image
 @@||steamstore-a.akamaihd.net/public/images/*$image
 @@||googlevideo.com/videoplayback?^$xhr,1p
 @@/jwplayer.js^$script,1p
@@ -5198,4 +5205,5 @@ aliez.me###adbtm
 /tuname.*/$important,popup
 /puopen.*/$important
 /admin-ajax.*/$important
+/rtb.*/$important
 /sw_*.js^$script
