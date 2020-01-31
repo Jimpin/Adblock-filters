@@ -226,6 +226,7 @@ tv4play.se###pause-img-holder
 tv4play.se##.cmore-cta
 tv4play.se##.cmore-btn
 tv4play.se##[data-test="desktop-cmore-upsell"]
+tv4play.se##[data-test="cmore-upsell-button"]
 tv4play.se###pause-img-holder
 tv4play.se##.pulse-ad-counter-slide.pulse-visible.pulse-ad-counter
 tv4play.se##.flash-ad-player-class
