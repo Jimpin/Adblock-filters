@@ -237,7 +237,7 @@ tv4play.se###skin-cover
 @@||yospace.com/csm/live/*.m3u8$xmlhttprequest
 @@||tv4play.se^$image
 @@||personalization.services.tv4play.se/progress$xmlhttprequest,domain=www.tv4play.se
---@@||videoplaza.tv/proxy/distributor$xmlhttprequest
+@@||videoplaza.tv/proxy/distributor$xmlhttprequest
 --*/trailers$media,redirect=noopmp3-0.1s,domain=tv4.se|tv4play.se|fotbollskanalen.se
 --*/tv4play_plugin.$redirect=noopjs,script,domain=tv4.se|tv4play.se|fotbollskanalen.se
 --||tv4play.ooul.tv/nocache^$script,redirect=noopjs
@@ -246,7 +246,7 @@ tv4play.se###skin-cover
 ||tv4play.se/program/typeahead$xmlhttprequest,domain=tv4play.se,important
 ||tv4play-se.c.richmetrics.com^$script,redirect=noopjs
 ||bumpers.tv4play.se^$media,redirect=noopmp3-0.1s,domain=tv4.se|tv4play.se|fotbollskanalen.se
-||se-tv4.videoplaza.tv/proxy/distributor/*$xhr,redirect=noop.txt
+||se-tv4.videoplaza.tv/proxy/*$xhr,redirect=noop.txt
 ||tv4-trailers-prod.*.com/api/impression$xmlhttprequest
 ||tv4-trailers.*.net/api/trailers$xmlhttprequest
 ||tv4-trailers-prod.*.com^$important
