@@ -241,10 +241,12 @@ tv4play.se###skin-cover
 --*/trailers$media,redirect=noopmp3-0.1s,domain=tv4.se|tv4play.se|fotbollskanalen.se
 --*/tv4play_plugin.$redirect=noopjs,script,domain=tv4.se|tv4play.se|fotbollskanalen.se
 --||tv4play.ooul.tv/nocache^$script,redirect=noopjs
+||tv4play.se^$other
 ||tv4play.se/hic_qos$script,redirect=noopjs
 ||tv4play.se/program/typeahead$xmlhttprequest,domain=tv4play.se,important
 ||tv4play-se.c.richmetrics.com^$script,redirect=noopjs
-||bumpers.tv4play.se^$media,redirect=noopmp3-0.1s,domain=tv4.se|tv4play.se|fotbollskanalen.se
+|bumpers.tv4play.se^$media,redirect=noopmp3-0.1s,domain=tv4.se|tv4play.se|fotbollskanalen.se
+||se-tv4.videoplaza.tv/proxy/distributor/*$xhr,redirect=noop.txt
 ||tv4-trailers-prod.*.com/api/impression$xmlhttprequest
 ||tv4-trailers.*.net/api/trailers$xmlhttprequest
 ||tv4-trailers-prod.*.com^$important
@@ -281,6 +283,7 @@ tv4play.se###skin-cover
 ||*.mxcdn.net^
 ||nuid.imrworldwide.com^$image,domain=www.tv4play.se
 /images/Animation_Playknapp2.png$image
+/pixel?google_nid=*$xhr
 
 #Youtube.com
 youtube.*##+js(acis, jQuery, adblocker)
@@ -296,6 +299,7 @@ youtube.*##.ytp-ce-covering-overlay
 youtube.*##.ytp-scrubber-container
 youtube.*##.ytp-ad-progress
 youtube.*##.ytp-ad-progress-list
+youtube.*##.ytp-fullerscreen-edu-chevron
 youtube.*###material-notice
 youtube.*##.pyv-afc-ads-container
 youtube.*###ticker
@@ -1871,6 +1875,7 @@ dirdamid.com##a[href$=".html"]
 ##[id="close_ads"]
 ##.dtcookie-overlay
 ##.dtcookie__wrap
+##.cookie-acceptance
 ###cookie-bar
 ##[class="cookieBanner"]
 ##[class="abAlertInner"]
@@ -1905,6 +1910,7 @@ dirdamid.com##a[href$=".html"]
 ###acceptCookie:not(body):not(html)
 ##.cookieBanner:not(body):not(html):not(#sprd-main)
 ###gdpr:not(body):not(html):not(input)
+##.is-showing.has-noScroll.modal
 ##.native-ad
 ##.native-ad-container
 ##.native-ad-item
@@ -1997,6 +2003,8 @@ dirdamid.com##a[href$=".html"]
 ##[id*="Popup"]
 ##[id*="MarketGid"]
 ###global-notification
+##.as-oil-content-overlay
+##.optanon-alert-box-bg
 ###site-xpromo-banner > .js-banner.banner
 ###js-site-xpromo-banner-container-top
 ###site-xpromo-banner > .js-banner.banner > .js-page-banner-link.page-banner-link
@@ -3078,6 +3086,7 @@ dirdamid.com##a[href$=".html"]
 ||bet365.com^$popup
 ||ssl2anyone3.com^
 ||rum-static.pingdom.net^
+||mparticle.com^$3p
 ||track.adform.net^$xmlhttprequest
 ||track.adform.net/adfserve/*$xmlhttprequest
 ||cdn.blatungo.com^$script,important
@@ -5168,6 +5177,7 @@ aliez.me###adbtm
 *##+js(set, showBlockIf, noopFunc)
 *##+js(set, _pop, noopFunc)
 *##+js(set, Object.prototype.parseXML, noopFunc)
+*##html:style(overflow: auto !important;)
 
 /\.cloudfront.*\/\?.*[a-zA-Z0-9]{5,16}/$script,3p
 /ajax.*/$3p
