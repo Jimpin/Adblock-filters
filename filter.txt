@@ -5206,5 +5206,5 @@ aliez.me###adbtm
 /tuname.*/$important,popup
 /puopen.*/$important
 /admin-ajax.*/$important
-/rtb.*/$important
+/rtb.*/$script,popup
 /sw_*.js^$script
