@@ -5173,7 +5173,7 @@ aliez.me###adbtm
 .addthis.*/$script,important
 .mgid.*/$important
 .scund*/$important
-/jssdks.*$xhr
+--/jssdks.*$xhr
 /afu.*/$script,popup
 /apu.*/$script,popup
 /ntfc.*/$script,popup
