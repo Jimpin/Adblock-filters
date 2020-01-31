@@ -1036,6 +1036,7 @@ dplay.se##.ad-countdown
 dplay.se##.ad-overlay
 dplay.se##[id="linkTag2"]
 dplay.se##+js(setTimeout-defuser.js, r, 0)
+dplay.se##div:matches-css(width: 3px):matches-css(height: 5px)
 @@||fwmrm.net/ad/$script,domain=dplay.se|mtv.se
 ||imasdk.googleapis.com/pal/sdkloader/pal.js$redirect=noop.js,script
 ||sentry.io^$3p
