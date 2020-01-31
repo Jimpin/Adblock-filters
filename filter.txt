@@ -2270,7 +2270,6 @@ dirdamid.com##a[href$=".html"]
 ##div.skiptranslate:nth-of-type(1)
 ##div.afs_ads
 ##[class="ad-marker"]
-##[rel="preconnect"]
 ##.adblocker-popup
 ##.adblocker-full-overlay
 ##.center_ad
@@ -4844,6 +4843,7 @@ popuper.js^
 @@||*.cloudfront.net/integrations/*$script
 @@||*.cloudfront.net/assets/build/*$script
 @@||tracking*.se
+@@?utm_medium=iframe_widget$popup
 @@/videos/$image
 @@/scripts/app.js?
 @@/assets/application/
@@ -5160,7 +5160,6 @@ aliez.me###adbtm
 *##+js(abort-current-inline-script.js, document.createElement, jsc.mgid.com)
 *##+js(set, AdController, noopFunc)
 *##+js(set, ClickUnder, noopFunc)
-*##+js(set, Object.prototype.AdRequest, noopFunc)
 *##+js(set, atob, noopFunc)
 *##+js(set, showBlockIf, noopFunc)
 *##+js(set, _pop, noopFunc)
