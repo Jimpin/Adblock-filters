@@ -5185,7 +5185,6 @@ aliez.me###adbtm
 *##+js(set, showBlockIf, noopFunc)
 *##+js(set, _pop, noopFunc)
 *##+js(set, Object.prototype.parseXML, noopFunc)
-*##html:style(overflow: auto !important;)
 
 /\.cloudfront.*\/\?.*[a-zA-Z0-9]{5,16}/$script,3p
 /ajax.*/$3p
