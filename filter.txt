@@ -1045,6 +1045,9 @@ dplay.se##[id="linkTag2"]
 dplay.se##+js(setTimeout-defuser.js, r, 0)
 dplay.se##div:matches-css(width: 3px):matches-css(height: 5px)
 @@||fwmrm.net/ad/$script,domain=dplay.se|mtv.se
+||doubleclick.net/dbm/vast$xhr
+||doubleclick.net/xbbe/bid/xpub$xhr
+||akamaihd.net^$media,domain=dplay.se
 ||imasdk.googleapis.com/pal/sdkloader/pal.js$redirect=noop.js,script
 ||sentry.io^$3p
 ||dnitv.com^$media,domain=dplay.se
@@ -4886,6 +4889,7 @@ popuper.js^
 @@||media-amazon.com^$image
 @@||steamstore-a.akamaihd.net/public/images/*$image
 @@||googlevideo.com/videoplayback?^$xhr,1p
+@@||github-production-upload-*^$xhr
 @@/jwplayer.js^$script,1p
 @@_ajax?^$first-party
 @@/jwplayer.js$script,1p
@@ -5185,6 +5189,7 @@ aliez.me###adbtm
 *##+js(set, showBlockIf, noopFunc)
 *##+js(set, _pop, noopFunc)
 *##+js(set, Object.prototype.parseXML, noopFunc)
+*##+js(abort-on-property-write.js, document.onclick)
 
 /\.cloudfront.*\/\?.*[a-zA-Z0-9]{5,16}/$script,3p
 /ajax.*/$3p
