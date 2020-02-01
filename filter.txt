@@ -1050,6 +1050,7 @@ dplay.se##div:matches-css(width: 3px):matches-css(height: 5px)
 ||akamaihd.net^$media,domain=dplay.se
 ||imasdk.googleapis.com/pal/sdkloader/pal.js$redirect=noop.js,script
 ||sentry.io^$3p
+||litix.io^$xhr
 ||dnitv.com^$media,domain=dplay.se
 ||demdex.net^$xhr
 ||telemetric.dk^$3p
