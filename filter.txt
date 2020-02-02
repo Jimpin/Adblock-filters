@@ -39,7 +39,6 @@ aftonbladet.se##div.abThemeBgTeaser:nth-of-type(61)
 aftonbladet.se##div.abThemeBgTeaser:nth-of-type(25)
 aftonbladet.se##div.abThemeBgTeaser:nth-of-type(28)
 aftonbladet.se##div.abThemeBgTeaser:nth-of-type(26)
-aftonbladet.se##html,body:style(overflow: auto !important;)
 aftonbladet.se##+js(sid, e.ping())
 aftonbladet.se##+js(sid, e.reportVisibility())
 aftonbladet.se###pymComponent0
@@ -313,6 +312,8 @@ youtube.*##[id="card"]
 youtube.*###dialog
 youtube.*##.ytp-button.ytp-miniplayer-button
 @@||youtube.com/player_api$third-party
+||youtube.com/error_204$xhr
+||youtube.com/csi_204$image
 ||youtube.com/subscribe_embed$third-party
 ||youtube.com/youtubei/*
 ||youtube.com/api/stats
@@ -325,8 +326,8 @@ youtube.*##.ytp-button.ytp-miniplayer-button
 *_ad_$media,domain=youtube.com,third-party
 ||google.*/jsapi?autoload=*%22ads%22$script
 ||gstatic.com/inputtools/images/*$image,important
-||static.doubleclick.net^$script,domain=www.youtube.com,important
-||clients1.google.com/generate_204$image,domain=www.youtube.com,important
+||static.doubleclick.net/instream/ad_status.js$other,redirect=noop.js
+||google.com/generate_204$image
 
 #Facebook.com
 facebook.com##+js(acis, jQuery, adblocker)
@@ -5206,6 +5207,7 @@ aliez.me###adbtm
 *##+js(set, _pop, noopFunc)
 *##+js(set, Object.prototype.parseXML, noopFunc)
 *##+js(abort-on-property-write.js, document.onclick)
+*##body:style(overflow: hidden; !important)
 
 /\.cloudfront.*\/\?.*[a-zA-Z0-9]{5,16}/$script,3p
 /ajax.*/$3p
