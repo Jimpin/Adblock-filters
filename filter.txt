@@ -5217,7 +5217,11 @@ aliez.me###adbtm
 *##+js(set, _pop, noopFunc)
 *##+js(set, Object.prototype.parseXML, noopFunc)
 *##+js(abort-on-property-write.js, document.onclick)
-*##style(scroll-behavior: auto !important;)
+
+###block-onscroll-onscroll
+##div[style="background: none repeat scroll 0 0"]
+##li[data-test-id="infinite-scroll-AD"]
+##li[data-test-id="infinite-scroll-PENCIL"]
 
 /\.cloudfront.*\/\?.*[a-zA-Z0-9]{5,16}/$script,3p
 /ajax.*/$3p
