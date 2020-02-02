@@ -4916,7 +4916,8 @@ popuper.js^
 @@||media-amazon.com^$image
 @@||steamstore-a.akamaihd.net/public/images/*$image
 @@||googlevideo.com/videoplayback?^$xhr,1p
-@@||github-production-upload-*^$xhr
+@@||upload*^$xhr
+@@||fonts.gstatic.com^$font
 @@/jwplayer.js^$script,1p
 @@_ajax?^$first-party
 @@/jwplayer.js$script,1p
