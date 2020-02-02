@@ -5217,6 +5217,7 @@ aliez.me###adbtm
 *##+js(set, _pop, noopFunc)
 *##+js(set, Object.prototype.parseXML, noopFunc)
 *##+js(abort-on-property-write.js, document.onclick)
+*##body:style(overflow-x: hidden !important; overflow-y: scroll !important; user-select: text !important;)
 
 ###block-onscroll-onscroll
 ##div[style="background: none repeat scroll 0 0"]
