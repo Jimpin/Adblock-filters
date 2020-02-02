@@ -322,12 +322,12 @@ youtube.*##.ytp-button.ytp-miniplayer-button
 ||youtube.com/get_midroll_info$important
 ||youtube.com/[[computeEmptyGif_()]]$image
 ||youtube.com/[[computeThumbnailUrl_(data.thumbnail)]]
-||youtube.com^$other,important
 *_ad_$media,domain=youtube.com,third-party
 ||google.*/jsapi?autoload=*%22ads%22$script
 ||gstatic.com/inputtools/images/*$image,important
 ||static.doubleclick.net/instream/ad_status.js$other,redirect=noop.js
 ||google.com/generate_204$image
+/manifest.json$other
 
 #Facebook.com
 facebook.com##+js(acis, jQuery, adblocker)
@@ -5218,6 +5218,7 @@ aliez.me###adbtm
 *##+js(set, Object.prototype.parseXML, noopFunc)
 *##+js(abort-on-property-write.js, document.onclick)
 
+*##[position="ntv-contentd"]
 ###block-onscroll-onscroll
 ##div[style="background: none repeat scroll 0 0"]
 ##li[data-test-id="infinite-scroll-AD"]
