@@ -2074,6 +2074,16 @@ dirdamid.com##a[href$=".html"]
 ##.navigation_ad
 ##.adsCategoryIcon
 ##.adsCategoryTitleLink
+##.adblock-content
+##[class="adblock-content"]
+##[class="adblock-headline"]
+##[class="adblock-forbes-logo"]
+##[class="adblock-headline-divider"]
+##[class="adblock-option--turn-off"]
+##[class="adblock-login_text"]
+##[class="adblock-privacy"]
+##adblock-modal
+##[class="unlock start"]
 ###AdBlockDialog
 ###abp-killer
 ###adBlockAlert
@@ -5208,7 +5218,7 @@ aliez.me###adbtm
 *##+js(set, Object.prototype.parseXML, noopFunc)
 *##+js(abort-on-property-write.js, document.onclick)
 *##html:style(overflow: auto !important;)
-*##body:style(overflow: visible !important;)
+*##body:style(overflow: hidden !important;)
 
 /\.cloudfront.*\/\?.*[a-zA-Z0-9]{5,16}/$script,3p
 /ajax.*/$3p
