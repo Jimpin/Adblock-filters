@@ -1896,6 +1896,19 @@ dirdamid.com##a[href$=".html"]
 ##IFRAME[name*="ads-center"]
 ###amp-floating-area
 ##a[href*="/bannerad"]
+##.page-loaded
+##.top-ad-container > fbs-ad
+##.top-ad-container
+##sharing > ul
+###teconsent
+##[class="truste_overlay"]
+##[class="truste_box_overlay"]
+##fbs-ad-rail
+##.ad-rail-container
+##fbs-embedly
+##.vestpocket
+##.adblock-unused.btf
+##.adblock-unused.bta
 ##div.sectionWrapper:nth-of-type(3) > .sectionTitle
 ##qxtyf_ftr
 ##.nf-wrapper > .sectionWrapper
@@ -2901,6 +2914,8 @@ dirdamid.com##a[href$=".html"]
 ||thousers.com^
 ||jwpltx.com^$third-party
 ||shalseey.com^$third-party
+||trustarc.com/$3p
+||cdn.embedly.com/widgets/media.html
 ||cloudfront.net^$media
 ||consent.dk^$third-party
 ||converdiant.com^$third-party
