@@ -5207,7 +5207,8 @@ aliez.me###adbtm
 *##+js(set, _pop, noopFunc)
 *##+js(set, Object.prototype.parseXML, noopFunc)
 *##+js(abort-on-property-write.js, document.onclick)
-*##body:style(overflow: hidden; !important)
+*##html:style(overflow: auto !important;)
+*##body:style(overflow: visible !important;)
 
 /\.cloudfront.*\/\?.*[a-zA-Z0-9]{5,16}/$script,3p
 /ajax.*/$3p
