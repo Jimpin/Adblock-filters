@@ -5216,7 +5216,6 @@ aliez.me###adbtm
 *##+js(set, atob, noopFunc)
 *##+js(set, showBlockIf, noopFunc)
 *##+js(set, _pop, noopFunc)
-*##+js(set, Object.prototype.parseXML, noopFunc)
 *##+js(abort-on-property-write.js, document.onclick)
 
 *##[position="ntv-contentd"]
