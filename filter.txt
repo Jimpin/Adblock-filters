@@ -2670,6 +2670,8 @@ dirdamid.com##a[href$=".html"]
 ||tagbucket.cc/_tags/jstags.js?
 ||adservice.google.se^
 ||id.google.se^
+||ripe.net^$xhr
+||freshchat.com^$all
 ||npmcdn.com^
 ||echo.scund.com^
 ||image.ibb.co^
