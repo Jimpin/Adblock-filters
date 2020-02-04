@@ -1905,6 +1905,14 @@ dirdamid.com##a[href$=".html"]
 ##[class="truste_overlay"]
 ##[class="truste_box_overlay"]
 ##fbs-ad-rail
+##[class="fbs-ad--top-wrapper fbs-ad--top-wrapper--sticky fbs-ad--top-wrapper--desktop"]
+##[class="fbs-ad--mobile-medianet-wrapper"]
+##[id="modal__box"]
+##[class="fbs-ad--mobile-wrapper"]
+##[class="channel channel--ad"]
+##[class="channel channel--lazy channel--right channel--normal fs-content csf-row et-rows"]
+##[class="channel channel--lazy channel--left channel--normal fs-content csf-row et-rows"]
+##[class="AD-POST AD-RC-300x250 AD-Rotate AD-label300x250 AD300 AD300Block AD300x250 AD300x250A AD300x600-wrapper AD355125"]
 ##.ad-rail-container
 ##fbs-embedly
 ##.vestpocket
@@ -5149,6 +5157,7 @@ aliez.me###adbtm
 ://sentry-$important
 ://sentry.$important
 ://ws.$important
+://wchat.*^$popup,important
 
 *##+js(abort-current-inline-script.js, atob, tabunder)
 *##+js(abort-on-property-write.js, _pop)
@@ -5245,3 +5254,10 @@ aliez.me###adbtm
 /admin-ajax.*/$important
 /rtb.*/$script,popup
 /sw_*.js^$script
+
+##.cc-color-override--1360619034.cc-right.cc-bottom.cc-theme-classic.cc-type-info.cc-floating.cc-window
+*##*:style(filter: none !important)
+*##*:style(-webkit-filter: none !important)
+*##*:style(-webkit-backdrop-filter: none !important) 
+*##*:style(backdrop-filter: none !important)
+*##div:matches-css(z-index: /9\d\d+/)

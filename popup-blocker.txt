@@ -196,6 +196,7 @@ iframe*$popup
 ||b3z29k1uxb.com^$popup,important
 ||ylqbiljjlyq.com^$popup,important
 ||212.83.183.149^$popup
+||wchat.*^$popup,important
 
 ##a[href="//z6naousb.com"]
 ##a[href="//google.com/favicon.ico"]
