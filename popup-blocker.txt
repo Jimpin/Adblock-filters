@@ -53,6 +53,7 @@ iframe*$popup
 @@$popup,domain=youtube.com
 @@$popup,domain=twitter.com
 @@$popup,domain=instagram.com
+@@||accounts.google.com^$popup
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #Blocked popups
 ##.pop-cookie
@@ -197,9 +198,6 @@ iframe*$popup
 ||ylqbiljjlyq.com^$popup,important
 ||212.83.183.149^$popup
 ||wchat.*^$popup,important
-
-##a[href="//z6naousb.com"]
-##a[href="//google.com/favicon.ico"]
 
 -ads-campaign/$popup
 .co/ads/$popup
@@ -360,9 +358,9 @@ _popunder+$popup
 ?zoneid=*_bannerid=$popup
 _popunder+$popup
 /load?^$popup
+/fp.eng?id=$popunder
 *.html?q^$important
-@@*$popunder
-@@||accounts.google.com^$popup
+/affiliate/*$popup
 
 #scripts
 pop.js^

@@ -19,8 +19,6 @@ aftonbladet.se##script:inject(setTimeout-defuser.js, (), 1000)
 aftonbladet.se##.abTheme-ad
 aftonbladet.se##.abTheme-adSportbladet
 aftonbladet.se##.abTheme-infeedad
-aftonbladet.se##.abThemeBgTeaser._34Te4._22anE:nth-of-type(49)
-aftonbladet.se##.abThemeBgTeaser._34Te4._22anE:nth-of-type(50)
 aftonbladet.se##.abBtnShare
 aftonbladet.se##article:has(a[data-sponsored="true"])
 aftonbladet.se##[id^="innerabAdArea-"]
@@ -33,7 +31,8 @@ aftonbladet.se##div:nth-of-type(27)
 aftonbladet.se##div:nth-of-type(29)
 aftonbladet.se##div:nth-of-type(30)
 aftonbladet.se##div:nth-of-type(31)
-aftonbladet.se##div.abThemeBgTeaser._2-Ff7:nth-of-type(23)
+aftonbladet.se##div:nth-of-type(32)
+aftonbladet.se##div.abThemeBgTeaser:nth-of-type(23)
 aftonbladet.se##div.abThemeBgTeaser:nth-of-type(39)
 aftonbladet.se##div.abThemeBgTeaser:nth-of-type(61)
 aftonbladet.se##div.abThemeBgTeaser:nth-of-type(25)
@@ -157,6 +156,7 @@ twitch.tv##.tw-mg-t-4.tw-absolute.tw-justify-content-center.tw-flex-row.tw-flex.
 twitch.tv##.tw-mg-t-4.tw-absolute.tw-justify-content-center.tw-flex-row.tw-flex.tw-align-items-center.tw-z-above.tw-left-0.tw-bottom-0.tw-right-0.tw-top-0.persistent-player__hover-controls
 twitch.tv##.tw-pd-1.tw-justify-content-between.tw-flex-row.tw-flex.tw-align-items-center.tw-border-l.tw-border-b.tw-border-r.fuel-bar
 twitch.tv##.tw-pd-1.tw-flex.tw-c-text
+twitch.tv##.fbc-badge-fence
 twitch.tv###root > div > div.twilight-root.tw-right-0.tw-bottom-0.tw-left-0.tw-overflow-hidden.tw-flex.tw-flex-column.tw-flex-nowrap.tw-absolute > div.tw-full-height.tw-flex.tw-flex-nowrap.tw-relative:nth-child(4) > main.twilight-main.tw-full-width.tw-full-height.tw-overflow-hidden.tw-flex.tw-flex-column.tw-flex-grow-1.tw-relative:nth-child(2) > div.root-scrollable.scrollable-area.scrollable-area--suppress-scroll-x:nth-child(2) > div.simplebar-scroll-content:last-child > div.simplebar-content.root-scrollable__content > div.root-scrollable__wrapper.tw-full-width.tw-relative > div.channel-page.tw-full-height:first-child > div.chennel-page-layout.tw-full-height.tw-flex.tw-flex-column.tw-flex-nowrap > div.tw-pd-t-2.tw-pd-x-3 > div.tw-animation.tw-animation--animate.tw-animation--delay-medium.tw-animation--duration-medium.tw-animation--fill-mode-both.tw-animation--timing-ease.tw-animation--slide-in-bottom:first-child
 twitch.tv###default-player > div.player-root > div.pl-overlay.pl-overlay__fullscreen:first-child
 twitch.tv##.tw-relative.chat-rules
@@ -293,6 +293,7 @@ youtube.*##.annotation.iv-branding
 youtube.*##.opened
 youtube.*###dialog
 youtube.*##.yt-alert-content
+youtube.*##[class="ytp-cued-thumbnail-overlay"]
 youtube.*##.ytp-ce-element
 youtube.*##.ytp-cards-teaser-text
 youtube.*##.ytp-ce-covering-overlay
@@ -590,7 +591,7 @@ nyafilmer.*##+js(acis, document.getElementById, undefined)
 nyafilmer.*##^script:has-text(var _0x)
 nyafilmer.*##div:matches-css(width: 500px):matches-css(height: 350px):matches-css(z-index: 99999)
 nyafilmer.*##div:matches-css(z-index: 99998)
-nyafilmer.*##html:style(overflow: auto !important;) 
+--nyafilmer.*##body:style(overflow: auto !important;) 
 nyafilmer.*##body > [id][onclick^="window.open("]
 nyafilmer.*##body > iframe
 nyafilmer.*##.Breadcrumb
@@ -1934,6 +1935,7 @@ dirdamid.com##a[href$=".html"]
 ##.cmp-animate.cmp-iframe-ready.cmp-overlay
 ##[data-entrycode="AdBlock"]
 ##.sectionWrapper > .videos[id] > li[class^="sniper"]:not(.videoblock):not(.videobox):not([id^="playlist_"])
+##div video[id]:first-child > source[src^="data:"]:xpath(../../..)
 ###ads
 ###abAlert
 ###acceptCookie:not(body):not(html)
@@ -2018,6 +2020,7 @@ dirdamid.com##a[href$=".html"]
 ###adtoma_panorama1
 ###adtoma_panorama_forum1
 ##div.wrapper_1:nth-child(6) > div.ad_right:nth-child(2)
+##.sectionWrapper > div[class]:has(:scope > div > .ad-link)
 ###ad_overlay
 ##.ad400
 ##.adsbygoogle
@@ -2119,6 +2122,11 @@ dirdamid.com##a[href$=".html"]
 ###detectadblock
 ###fnAdblockingOverlay
 ##.advert.box
+##sads
+###_evh-link
+##.-bottom-left.dynotifyjs-corner
+##.spinner-overlay
+###diamond-desktop-container-id
 ###message_adblock
 ##[class="closeSkin hide"]
 ##.abovePlayer
@@ -2243,7 +2251,8 @@ dirdamid.com##a[href$=".html"]
 ##[id="adbdetect"]
 ###jwa
 ##.text-warning
-##.cc-window, .cc-floating, .cc-type-info, .cc-theme-classic, .cc-bottom, .cc-right, .cc-color-override--1762072787
+##.cc-window, .cc-floating, .cc-type-info, .cc-theme-classic, .cc-bottom, .cc-right
+##.cc-right.cc-bottom.cc-theme-classic.cc-type-info.cc-floating.cc-window
 ##[class][data-sitename][data-header-version] > div[id^="detection-block"]
 ###js-abContainterMain
 ##.vjs-flyout-placeholder
@@ -2261,6 +2270,10 @@ dirdamid.com##a[href$=".html"]
 ###cookieChoiceInfo
 ###cookie-information:not(body):not(html)
 ###cookie-law-info-bar
+##.cookie-info-layer > div
+##.cookie-info-layer
+##.js-dismiss-alert.m-alert--dismissable.m-alert--info.m-alert.m-cookie-disclaimer__wrapper
+###legalLightBlock > .cont
 ##.jetpack_subscription_widget
 ##.jetpack-social-widget-item
 ##.jetpack_widget_social_icons
@@ -2935,7 +2948,7 @@ dirdamid.com##a[href$=".html"]
 ||thousers.com^
 ||jwpltx.com^$third-party
 ||shalseey.com^$third-party
-||trustarc.com/$3p
+||trustarc.com^$3p
 ||cdn.embedly.com/widgets/media.html
 ||cloudfront.net^$media
 ||consent.dk^$third-party
@@ -4926,15 +4939,14 @@ popuper.js^
 @@||media-amazon.com^$image
 @@||steamstore-a.akamaihd.net/public/images/*$image
 @@||googlevideo.com/videoplayback?^$xhr,1p
-@@||upload*^$xhr
 @@||fonts.gstatic.com^$font
+@@^upload*^$xhr
 @@/jwplayer.js^$script,1p
 @@_ajax?^$first-party
 @@/jwplayer.js$script,1p
 @@/assets/js/player.js$script
 @@/redirect^$media
 |http*://*$first-party,websocket,important
-*.download/affiliate/*$popup
 .tv/*third-party$script,important
 
 ##a[href$=".wz"][target="_blank"]
@@ -5162,6 +5174,7 @@ aliez.me###adbtm
 ://wchat.*^$popup,important
 
 *##+js(abort-current-inline-script.js, atob, tabunder)
+*##+js(set-constant.js, atob, trueFunc)
 *##+js(abort-on-property-write.js, _pop)
 *##+js(abort-on-property-read.js, __htapop)
 *##+js(abort-on-property-read.js, InitCloseButton)
@@ -5256,8 +5269,14 @@ aliez.me###adbtm
 /admin-ajax.*/$important
 /rtb.*/$script,popup
 /sw_*.js^$script
+/smpop-stable.js$script
 
-##.cc-color-override--1360619034.cc-right.cc-bottom.cc-theme-classic.cc-type-info.cc-floating.cc-window
+*##+js(aopr, _sp_._networkListenerData)
+*##+js(abort-on-property-write.js, AdDelivery)
+*##+js(abort-on-property-write.js, updateIframe)
+*##+js(abort-on-property-read.js, smpop)
+*##body:style(overflow: auto !important;) 
+
 *##*:style(filter: none !important)
 *##*:style(-webkit-filter: none !important)
 *##*:style(-webkit-backdrop-filter: none !important) 
