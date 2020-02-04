@@ -3710,6 +3710,7 @@ redirect.
 =home&refresh=
 
 #Anti-Adblock/Scripts
+/browser/stats$ping
 /load?^$important
 /adscript.js$script
 /stopadblock80.jpg$image,first-party
@@ -4940,7 +4941,7 @@ popuper.js^
 @@||steamstore-a.akamaihd.net/public/images/*$image
 @@||googlevideo.com/videoplayback?^$xhr,1p
 @@||fonts.gstatic.com^$font
-@@^upload*^$xhr
+@@upload-*^$xhr
 @@/jwplayer.js^$script,1p
 @@_ajax?^$first-party
 @@/jwplayer.js$script,1p
