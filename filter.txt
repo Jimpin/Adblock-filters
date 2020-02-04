@@ -1895,7 +1895,6 @@ dirdamid.com##a[href$=".html"]
 ##.Alert
 ##.ReactModal__Content
 ##.cookie
-##.cookies
 ##.alert
 ##.alertWrap
 ##.avalanche-message
