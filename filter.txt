@@ -5138,7 +5138,7 @@ popuper.js^
 /^https?:\/\/[^\/]+\/[a-zA-Z0-9]{32,}$/$third-party
 /\:\/\/[a-z0-9]{5,26}\.com\/?.*zoneid=[0-9]{7}/$third-party,popup
 
-.gif$third-party
+.gif$3p
 
 ##iframe[width="468"][height="60"]
 ##iframe[width="300"][height="250"]
@@ -5270,8 +5270,6 @@ aliez.me###adbtm
 *##+js(set, showBlockIf, noopFunc)
 *##+js(set, _pop, noopFunc)
 *##+js(abort-on-property-write.js, document.onclick)
-
-*##[position="ntv-contentd"]
 ###block-onscroll-onscroll
 ##li[data-test-id="infinite-scroll-AD"]
 ##li[data-test-id="infinite-scroll-PENCIL"]
