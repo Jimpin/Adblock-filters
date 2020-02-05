@@ -5297,12 +5297,6 @@ aliez.me###adbtm
 /sw_*.js^$script
 /smpop-stable.js$script
 
-*##+js(aopr, _sp_._networkListenerData)
-*##+js(abort-on-property-write.js, AdDelivery)
-*##+js(abort-on-property-write.js, updateIframe)
-*##+js(abort-on-property-read.js, smpop)
-*##style(overflow: auto !important;) 
-
 *##*:style(filter: none !important)
 *##*:style(-webkit-filter: none !important)
 *##*:style(-webkit-backdrop-filter: none !important) 
