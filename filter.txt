@@ -5303,7 +5303,7 @@ aliez.me###adbtm
 *##+js(abort-on-property-write.js, AdDelivery)
 *##+js(abort-on-property-write.js, updateIframe)
 *##+js(abort-on-property-read.js, smpop)
-*##body:style(overflow: auto !important;) 
+*##style(overflow: auto !important;) 
 
 *##*:style(filter: none !important)
 *##*:style(-webkit-filter: none !important)
