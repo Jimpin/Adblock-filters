@@ -5296,9 +5296,3 @@ aliez.me###adbtm
 /rtb.*/$script,popup
 /sw_*.js^$script
 /smpop-stable.js$script
-
-*##*:style(filter: none !important)
-*##*:style(-webkit-filter: none !important)
-*##*:style(-webkit-backdrop-filter: none !important) 
-*##*:style(backdrop-filter: none !important)
-*##div:matches-css(z-index: /9\d\d+/)
