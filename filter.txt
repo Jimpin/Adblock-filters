@@ -5273,7 +5273,6 @@ aliez.me###adbtm
 
 *##[position="ntv-contentd"]
 ###block-onscroll-onscroll
-##div[style="background: none repeat scroll 0 0"]
 ##li[data-test-id="infinite-scroll-AD"]
 ##li[data-test-id="infinite-scroll-PENCIL"]
 
