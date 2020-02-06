@@ -223,6 +223,10 @@ google.*###center_col > #resultStats + div + #res + #tads
 google.*###mclip_container:last-child
 google.*###resultspanel > #topads
 google.*###rhs_block
+google.*##div.kno-ftr
+google.*##.mod.yp1CPe
+google.*##div.mod:nth-of-type(6)
+google.*##div.mod:nth-of-type(7)
 ||google.com^$csp_report
 
 #Tv4play.se
