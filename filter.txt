@@ -7,9 +7,6 @@
 aftonbladet.se##+js(acis, jQuery, adblocker)
 aftonbladet.se##+js(aopr, app_vars.force_disable_adblock)
 aftonbladet.se###outsider
-aftonbladet.se##._1K2NA
-aftonbladet.se##.fEyKv
-aftonbladet.se##._17liG > iframe
 aftonbladet.se###MegaAd
 aftonbladet.se##html,body:style(overflow: auto !important;)
 aftonbladet.se##script:inject(abort-current-inline-script.js, preLoadAds)
@@ -17,27 +14,27 @@ aftonbladet.se##script:inject(abort-current-inline-script.js, preLoadAds, loadAd
 aftonbladet.se##script:inject(abort-current-inline-script.js, preLoadAds, setup)
 aftonbladet.se##script:inject(setTimeout-defuser.js, (), 1000)
 aftonbladet.se##.abTheme-ad
+aftonbladet.se##.abAdArea
 aftonbladet.se##.abTheme-adSportbladet
 aftonbladet.se##.abTheme-infeedad
 aftonbladet.se##.abBtnShare
+aftonbladet.se##.abAdWrapper
 aftonbladet.se##article:has(a[data-sponsored="true"])
+aftonbladet.se##div[data-reactroot] > div > div#MegaAd ~ div[class]:not(#header):not(.abThemeGradientPage)
+aftonbladet.se##body.abTheme-entertainment *> .abAside > div[style^="text"]:last-chil
 aftonbladet.se##[id^="innerabAdArea-"]
 aftonbladet.se##[id^="abAdArea"]
-aftonbladet.se##.abAdArea
 aftonbladet.se##.ab-responsive-ads-wrapper
+aftonbladet.se##.share-icons
 aftonbladet.se##.social-shares
-aftonbladet.se##div.abThemeBgTeaser:nth-of-type(23)
-aftonbladet.se##div.abThemeBgTeaser:nth-of-type(39)
-aftonbladet.se##div.abThemeBgTeaser:nth-of-type(61)
-aftonbladet.se##div.abThemeBgTeaser:nth-of-type(25)
-aftonbladet.se##div.abThemeBgTeaser:nth-of-type(28)
-aftonbladet.se##div.abThemeBgTeaser:nth-of-type(26)
 aftonbladet.se##+js(sid, e.ping())
 aftonbladet.se##+js(sid, e.reportVisibility())
 aftonbladet.se###pymComponent0
 aftonbladet.se##.outerContainer
 aftonbladet.se##a[href*=".se/kampanj?"]:has-text(/erbjudande/i)
 aftonbladet.se##.jw-reset.jw-controls > .jw-reset.jw-controls-right > .jw-reset.jw-dock > .jw-sharing-dock-btn.jw-reset.jw-background-color.jw-dock-button
+aftonbladet.se##div:nth-of-type(37)
+aftonbladet.se##div:nth-of-type(38)
 acast.*##+js(acis, jQuery, adblocker)
 acast.*##+js(aopr, app_vars.force_disable_adblock)
 live.aftonbladet.se###advert-topboard
@@ -53,6 +50,7 @@ bloggar.aftonbladet.se##.abInbetweenerHelsida:nth-of-type(1)
 bloggar.aftonbladet.se##.abInbetweenerHelsida:nth-of-type(2)
 aftonbladet.se##a[href="https://www.unibet.se/betting/sports/home"]
 aftonbladet.se##a[href="https://www.strivesport.com/se/home"]
+*##a[href^="/kampanj/casino"]
 ||stitcher.acast.com/livestitches/*$media,noopmp3=0.01s,domain=embed.acast.com
 @@/imgs.aftonbladet-cdn.se/*/images/
 @@/hyper-assets/preload*$script,domain=aftonbladet.se
