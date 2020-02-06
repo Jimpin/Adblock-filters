@@ -19,6 +19,7 @@ aftonbladet.se##.abTheme-adSportbladet
 aftonbladet.se##.abTheme-infeedad
 aftonbladet.se##.abBtnShare
 aftonbladet.se##.abAdWrapper
+aftonbladet.se##[style="min-height:600px"]
 aftonbladet.se##div[style*="border-color:#0067b5;border-width:4px 0px 0px 0px;"] + a
 aftonbladet.se##article:has(a[data-sponsored="true"])
 aftonbladet.se##div[data-reactroot] > div > div#MegaAd ~ div[class]:not(#header):not(.abThemeGradientPage)
@@ -51,13 +52,17 @@ bloggar.aftonbladet.se##.abInbetweenerHelsida:nth-of-type(1)
 bloggar.aftonbladet.se##.abInbetweenerHelsida:nth-of-type(2)
 aftonbladet.se##a[href="https://www.unibet.se/betting/sports/home"]
 aftonbladet.se##a[href="https://www.strivesport.com/se/home"]
-*##a[href^="/kampanj/casino"]
+*##a[href^="/brandstudio"]
+*##a[href^="/kampanj"]
+*##a[href^="/annons"]
+*##a[href^="/casino"]
 ||stitcher.acast.com/livestitches/*$media,noopmp3=0.01s,domain=embed.acast.com
 @@/imgs.aftonbladet-cdn.se/*/images/
 @@/hyper-assets/preload*$script,domain=aftonbladet.se
 @@/hyper-assets/app.$script,domain=aftonbladet.se
 @@/web/v1.2.41/index.js
 @@||aftonbladet.se^$generichide
+/gdpr-bundle.js$script
 /pulse-sdk-html*.min.js$script,domain=aftonbladet.se
 ||aftonbladet.se/cdn-cgi/scripts/*$script,domain=www.aftonbladet.se,important
 ||aftonbladet.se/tv/temp.mp4$media /rabattkod/*$image,domain=aftonbladet.se
