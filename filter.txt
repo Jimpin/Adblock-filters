@@ -216,22 +216,23 @@ tv4.se##.social-block-ad
 tv4.se##.social-buttons
 tv4.se##[class*="aside-ad"] 
 tv4.se##+js(acis, burtConfigs)
-tv4play.se##[class="bbhp-jingle-video"]
 tv4play.se##[class="bbhp-ad-container"]
+tv4play.se##[class="bbhp-jingle-video"]
+tv4play.se##[class="bbhp-overlay-container"]
 tv4play.se##[style="visibility: hidden;"]
 tv4play.se##div:matches-css(width: 3px):matches-css(height: 2px)
 tv4play.se##[data-testid="ad-breaks-container"]
+tv4play.se##[data-test="desktop-cmore-upsell"]
+tv4play.se##[data-test="cmore-upsell-button"]
 tv4play.se##.js-cookie-banner
 tv4play.se###pause-img-holder
 tv4play.se##.cmore-cta
 tv4play.se##.cmore-btn
-tv4play.se##[data-test="desktop-cmore-upsell"]
-tv4play.se##[data-test="cmore-upsell-button"]
 tv4play.se###pause-img-holder
 tv4play.se##.pulse-ad-counter-slide.pulse-visible.pulse-ad-counter
 tv4play.se##.flash-ad-player-class
 tv4play.se##message-bar
-tv4play.se##[class="bbhp-overlay-container"]
+tv4play.se##.auth-modal-overlay-override.ReactModal__Overlay--after-open.ReactModal__Overlay
 tv4play.se##[id="__NEXT_DATA__"]
 tv4play.se###skin-cover
 @@||imageproxy.b17g.services^$image
@@ -1889,7 +1890,6 @@ dirdamid.com##a[href$=".html"]
 ###user-message-container
 ###warning
 ##.Alert
-##.ReactModal__Content
 ##.cookie
 ##.alert
 ##.alertWrap
