@@ -232,7 +232,6 @@ tv4play.se###pause-img-holder
 tv4play.se##.pulse-ad-counter-slide.pulse-visible.pulse-ad-counter
 tv4play.se##.flash-ad-player-class
 tv4play.se##message-bar
-tv4play.se##.auth-modal-overlay-override.ReactModal__Overlay--after-open.ReactModal__Overlay
 tv4play.se##[id="__NEXT_DATA__"]
 tv4play.se###skin-cover
 @@||imageproxy.b17g.services^$image
