@@ -5315,7 +5315,6 @@ aliez.me###adbtm
 /sw_*.js^$script
 /smpop-stable.js$script
 
-##a[href*="/annons"]
 ##a[href*="/betting"]
 ##a[href*="/brandstudio"]
 ##a[href*="/casino"]
