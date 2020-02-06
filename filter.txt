@@ -5314,6 +5314,8 @@ aliez.me###adbtm
 /rtb.*/$script,popup
 /sw_*.js^$script
 /smpop-stable.js$script
+/privacy/notification?$xmlhttprequest
+/glimr.$script
 
 ##a[href*="/betting"]
 ##a[href*="/brandstudio"]
@@ -5323,6 +5325,8 @@ aliez.me###adbtm
 ##a[href*="/premium/erbjudanden/"]
 ##a[href*="/rabattkoder"]
 ##a[href*="/spel"]
+##a[href*="/content")
+##a[href*="/privacy")
 
 *##+js(acis, burtSegments)
 *##+js(aeld, click, trackClick)
