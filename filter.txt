@@ -85,7 +85,6 @@ aftonbladet.se##a[href="https://www.strivesport.com/se/home"]
 expressen.se##+js(acis, jQuery, adblocker)
 expressen.se##+js(aopr, app_vars.force_disable_adblock)
 expressen.se##+js(set, detect, noopFunc)
-expressen.se##a[href^="/premium/erbjudanden/"]
 expressen.se##a[href="https://www.expressen.se/premium/kampanj/standard"]
 expressen.se##.rotator--external.slider.rotator
 expressen.se##.site-footer__affiliates.site-footer__column--full-width
@@ -169,12 +168,11 @@ twitch.tv###root > div > div.twilight-root.tw-right-0.tw-bottom-0.tw-left-0.tw-o
 twitch.tv###default-player > div.player-root > div.pl-overlay.pl-overlay__fullscreen:first-child
 twitch.tv##.tw-relative.chat-rules
 twitch.tv##.pl-overlay__clickthrough
-twitch.tv##div:nth-of-type(5) > .pl-overlay
+twitch.tv##.pl-overlay
 twitch.tv##.player-ad-notice
 twitch.tv##.player-ad-overlay.player-overlay
 twitch.tv##.js-player-ad-overlay.player-ad-overlay
 twitch.tv##.js-paused-overlay.player-play-overlay.player-overlay
-twitch.tv##div:nth-of-type(4) > .pl-overlay
 twitch.tv##script:inject(twitch-videoad.js)
 twitch.tv##.tw-border-b.tw-align-items-center.gdpr-consent-banner
 twitch.tv##[id="TwitchMediaPlayerModule"]
@@ -196,14 +194,11 @@ player.twitch.tv##.player-overlay
 @@||irc-ws.chat.twitch.tv^$websocket,first-party
 @@||wss://pubsub-edge.twitch.tv
 ||twitch.tv/service-worker.js$important
-||ext-twitch.tv^$script
-||ext-twitch.tv^$subdocument
 ||trowel.twitch.tv/?data=[base64string]
 ||api.dbh.doub.ly^$xmlhttprequest,important
 ||ad.doubleclick.net/ddm/ad/*/*/*'/;ord='*$domain=twitch.tv
 ||amazon-adsystem.com^$script,redirect=noopjs
 ||pubads.g.doubleclick.net^
-||gstatic.com^$script,domain=twitch.tv
 ||custos.twitchcdn.net/v1.js$script,important
 ||spade.twitch.tv^$important
 ||polyfill.twitchsvc.net^$script,important
@@ -213,8 +208,6 @@ player.twitch.tv##.player-overlay
 ||api.twitch.tv/api/viewer/token.json
 ||static.twitchcdn.net/config/*$important
 ||static.twitchcdn.net/assets/vendor-*.js$script
-||api.mixpanel.com^
-||supervisor.ext-twitch.tv/supervisor/v1/index.html$important
 ||api.twitch.tv/kraken/user
 
 #Tv4play.se
@@ -246,9 +239,6 @@ tv4play.se###skin-cover
 @@||tv4play.se^$image
 @@||personalization.services.tv4play.se/progress$xmlhttprequest,domain=www.tv4play.se
 @@||videoplaza.tv/proxy/distributor$xmlhttprequest
---*/trailers$media,redirect=noopmp3-0.1s,domain=tv4.se|tv4play.se|fotbollskanalen.se
---*/tv4play_plugin.$redirect=noopjs,script,domain=tv4.se|tv4play.se|fotbollskanalen.se
---||tv4play.ooul.tv/nocache^$script,redirect=noopjs
 ||tv4play.se^$other
 ||tv4play.se/hic_qos$script,redirect=noopjs
 ||tv4play.se/program/typeahead$xmlhttprequest,domain=tv4play.se,important
@@ -342,8 +332,6 @@ youtube.*##.ytp-button.ytp-miniplayer-button
 facebook.com##+js(acis, jQuery, adblocker)
 facebook.com##+js(aopr, app_vars.force_disable_adblock)
 facebook.com##.adv
-facebook.com##._3ixn
-facebook.com##._nyb
 facebook.com##div[data-testid="fbfeed_story"]:if(a[href*="[is_sponsored]"])
 facebook.com##div[id^="substream_"] ._5jmm[data-dedupekey][data-cursor][data-xt][data-xt-vimpr="1"][data-ftr="1"][data-fte="1"]
 facebook.com##div[id^="substream_"] > div > div[id] div[id^="hyperfeed_story_id_"]:has(div._5pcp._5lel > span > div > div > a[href="#"])
@@ -434,6 +422,10 @@ svenskafans.com##.sticky_inner > .std_puff:nth-of-type(53)
 /oddstypes
 
 #Duckduckgo.com
+duckduckgo.com###footer_homepage
+duckduckgo.com##.content-info__items
+duckduckgo.com##.content-info__title
+duckduckgo.com##.js-badge-link.badge-link--full.badge-link
 duckduckgo.com##.js-onboarding-ed.onboarding-ed
 duckduckgo.com##.js-onboarding-ed-slide-1.js-onboarding-ed-slide.onboarding-ed__slide-1.onboarding-ed__slide
 duckduckgo.com##.js-onboarding-ed-slide-2.js-onboarding-ed-slide.onboarding-ed__slide-2.onboarding-ed__slide
@@ -448,7 +440,7 @@ fotbollskanalen.se##.b-export__footer.b-export__wrap
 ||tag.brainient.com^$object
 ||tag.brainient.com^$xmlhttprequest
 ||p.adsymptotic.com^$domain=sync.teads.tv
-||sync.teads.tv/iframe/redirect$subdocument,domain=www.fotbollskanalen.se
+||sync.teads.tv/iframe/redirect$subdocument
 
 #Blocket.se
 blocket.se##+js(acis, jQuery, adblocker)
@@ -754,10 +746,6 @@ jawcloud.co##[class="vjs-picture-in-picture-control vjs-control vjs-button"]
 ||*.com/modules/^$domain=nyafilmer.lol|swesub.net|gomovies.sc|fmovies.to|0123movies.com|dwatchseries.com|i0123movies.com|lookmovies.ag|firstsrowsports.tv|firstonetv.net|batmanstream.net
 ||*.com^$script,xmlhttprequest,stylesheet,third-party,domain=nyafilmer.lol|swesub.net|gomovies.sc|fmovies.to|0123movies.com|dwatchseries.com|i0123movies.com|lookmovies.ag|firstsrowsports.tv|firstonetv.net|batmanstream.net
 ||*.net/modules/^$domain=nyafilmer.lol|swesub.net|gomovies.sc|fmovies.to|0123movies.com|dwatchseries.com|i0123movies.com|lookmovies.ag|firstsrowsports.tv|firstonetv.net|batmanstream.net
-||cadsanz.com^$all
-||premixture.com^
-||rubiginose.com^
-||rp-srw.net^
 rubiginose.com##a[href$=".html"][target="_blank"]
 dirdamid.com##a[href$=".html"][target="_blank"]
 wauzoust.com##a[href$=".html"]
@@ -2651,6 +2639,10 @@ dirdamid.com##a[href$=".html"]
 ||disqus.com/embed.js$script
 ||disqus.com/forums/*/embed.js$script
 ||bidtheatre.com^
+||cadsanz.com^$all
+||premixture.com^
+||rubiginose.com^
+||rp-srw.net^
 ||lp4.io^
 ||2leep.com^
 ||nativepu.sh^
@@ -5305,12 +5297,13 @@ aliez.me###adbtm
 /sw_*.js^$script
 /smpop-stable.js$script
 
-##a[href^="/brandstudio"]
-##a[href^="/kampanj"]
-##a[href^="/annons"]
-##a[href^="/casino"]
 ##a[href*="/annons"]
+##a[href*="/betting"]
+##a[href*="/brandstudio"]
+##a[href*="/casino"]
+##a[href*="/kampanj"]
 ##a[href*="/lanapengar"]
+##a[href*="/premium/erbjudanden/"]
 ##a[href*="/rabattkoder"]
 ##a[href*="/spel"]
 
