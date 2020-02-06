@@ -210,6 +210,20 @@ player.twitch.tv##.player-overlay
 ||static.twitchcdn.net/assets/vendor-*.js$script
 ||api.twitch.tv/kraken/user
 
+#Google.*
+google.*##[onclick="ga(this,event)"]
+google.*##.ads-ad
+google.*##.section-result[data-result-ad-type]
+google.*##.widget-pane-section-result[data-result-ad-type]
+google.*##div[data-flt-ve="sponsored_search_ads"]
+google.*###pushdown
+google.*###center_col > #resultStats + #tads
+google.*###center_col > #resultStats + #tads + #res + #tads
+google.*###center_col > #resultStats + div + #res + #tads
+google.*###mclip_container:last-child
+google.*###resultspanel > #topads
+google.*###rhs_block
+
 #Tv4play.se
 tv4.se##.program-header-sponsors 
 tv4.se##.social-block-ad 
