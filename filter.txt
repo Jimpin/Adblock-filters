@@ -52,10 +52,6 @@ bloggar.aftonbladet.se##.abInbetweenerHelsida:nth-of-type(1)
 bloggar.aftonbladet.se##.abInbetweenerHelsida:nth-of-type(2)
 aftonbladet.se##a[href="https://www.unibet.se/betting/sports/home"]
 aftonbladet.se##a[href="https://www.strivesport.com/se/home"]
-*##a[href^="/brandstudio"]
-*##a[href^="/kampanj"]
-*##a[href^="/annons"]
-*##a[href^="/casino"]
 ||stitcher.acast.com/livestitches/*$media,noopmp3=0.01s,domain=embed.acast.com
 @@/imgs.aftonbladet-cdn.se/*/images/
 @@/hyper-assets/preload*$script,domain=aftonbladet.se
@@ -88,46 +84,65 @@ aftonbladet.se##a[href="https://www.strivesport.com/se/home"]
 #Expressen.se
 expressen.se##+js(acis, jQuery, adblocker)
 expressen.se##+js(aopr, app_vars.force_disable_adblock)
-expressen.se##^script:has-text(window.Exp.bamData)
+expressen.se##+js(set, detect, noopFunc)
+expressen.se##a[href^="/premium/erbjudanden/"]
+expressen.se##a[href="https://www.expressen.se/premium/kampanj/standard"]
+expressen.se##.rotator--external.slider.rotator
+expressen.se##.site-footer__affiliates.site-footer__column--full-width
 expressen.se##^script[id="ads-script"]
 expressen.se##^script:has-text(adsScript)
+expressen.se##^script:has-text(window.Exp.bamData)
 expressen.se##^script:has-text(window.ExpressenAnalytics)
+expressen.se##.site-header__widgets > .html-widget > a[target="_blank"]
+expressen.se##.article--sponsored
+expressen.se##.article__after-widgets > .html-widget
+expressen.se##.teaser:has(.teaser__third-party--bar)
+expressen.se##.teaser:has(.vignette:has-text(/(annons/i))
+expressen.se##.teaser__hero:has(iframe[src*="/tv/nyheter/live-start/live-tv-senaste-nyheterna"])
+expressen.se##.teaser > a[href*=".se"]
+expressen.se##.teaser--native-ad
+expressen.se##.teaser--sponsored
 expressen.se##[class="exp-video-player__ad-counter"]
 expressen.se##[class="exp-video-player__buffer-overlay"]
+expressen.se##.ad
+expressen.se##.consent
+expressen.se##.discount-ad
+expressen.se##.flashes--premium
+expressen.se##.flashes--visible
+expressen.se###rich-media-ads
+expressen.se##.widget-ad-marker
+expressen.se##.widget-area--collaboration
+expressen.se##aside.article-list > .ad-label--overlay
+expressen.se##aside.article-list > .ad-label--overlay + ul
+expressen.se##div.outsider-ads__sticky-context
+expressen.se##.outsider-ads.site-body__outsider
+expressen.se##[data-slot-name="insider"]
+expressen.se##.html-widget > div
+expressen.se##div.teaser:nth-of-type(17)
+expressen.se##div.teaser:nth-of-type(21)
 expressen.se##.exp-video-player__ad-video
 expressen.se##.exp-video-player__topbar
-expressen.se##.ad
-expressen.se###rich-media-ads
-expressen.se##.dfp-ad--insider.dfp-ad
-expressen.se##.dfp-ad--panorama.dfp-ad
-expressen.se##.dfp-ad--outsider.dfp-ad:nth-of-type(3) > .ad-placeholder.dfp-ad__slot.bam-ad-slot
-expressen.se###native-top-banner > div
-expressen.se##.lp_row8.slot > .dfp-ad--module.dfp-ad
-expressen.se##.lp_row12.slot > .dfp-ad--module.dfp-ad
-expressen.se##.lp_row23.slot > .dfp-ad--module.dfp-ad
-expressen.se##.lp_row32.slot > .dfp-ad--module.dfp-ad
-expressen.se##.dfp-ad--bottom.dfp-ad
-expressen.se##.lp_row3.slot > .dfp-ad--module.dfp-ad
-expressen.se##.dfp-ad--outsider.dfp-ad:nth-of-type(2)
-expressen.se##.dfp-ad--outsider.dfp-ad:nth-of-type(1)
-expressen.se##.native-ad-banner
-expressen.se##.teaser--native-ad
-expressen.se###rich-media-ads
 expressen.se##.slideshow__control
+##.terms-dialog
 ##[class="bam-ad-slot"]
 ##[class="page-list discount-ad"]
 ##div[id="lazy-container"]
+*##^script:has-text(window.ExpressenAnalytics)
 @@||expressen.se/videoplayer/*$xmlhttprequest,first-party
 ||expressen.se/_megamenu/*$xmlhttprequest
 ||expressen.se^$xmlhttprequest
-||expressen.se/js/advertisement__ce6e944065766cac31aa1b241bd1cc167.js$script,domain=www.expressen.se
+||expressen.se/js/advertisement__ce6e944065766cac31aa1b241bd1cc167.js$script
 ||expressen.se/img/icons/footer_ads.svg$image,first-party,important
-||expressen.se/img/icons/footer_cookie.svg$image,domain=www.expressen.se
-||expressen.se/img/placeholders/*$image,domain=www.expressen.se,important
-||facebook.com/tr/*$image,domain=www.expressen.se
-||jtp.expressen.se^$image,domain=www.expressen.se
+||expressen.se/img/icons/footer_cookie.svg$image
+||expressen.se/img/placeholders/*$image
+||facebook.com/tr/*$image
+||jtp.expressen.se^$image
 ||assets.expressen.se^$important
-||sync.richmetrics.com^$script,important
+||richmetrics.com^$all
+/iframewidget/view/widget?$subdocument
+.se/crypt/?lpkey$all
+.se/tv/annons/
+.info/*-nyheter/$document
 
 #Twitch.tv
 twitch.tv##+js(acis, jQuery, adblocker)
@@ -5289,3 +5304,20 @@ aliez.me###adbtm
 /rtb.*/$script,popup
 /sw_*.js^$script
 /smpop-stable.js$script
+
+##a[href^="/brandstudio"]
+##a[href^="/kampanj"]
+##a[href^="/annons"]
+##a[href^="/casino"]
+##a[href*="/annons"]
+##a[href*="/lanapengar"]
+##a[href*="/rabattkoder"]
+##a[href*="/spel"]
+
+*##+js(acis, burtSegments)
+*##+js(aeld, click, trackClick)
+*##+js(acis, Bau, preloadAds)
+*##+js(aeld, error, adsBlocked)
+*##+js(ra, data-ad-config)
+*##+js(ra, data-article-tracking-info)
+*##+js(ra, data-video-tracking-info)
