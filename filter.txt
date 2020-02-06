@@ -26,12 +26,6 @@ aftonbladet.se##[id^="abAdArea"]
 aftonbladet.se##.abAdArea
 aftonbladet.se##.ab-responsive-ads-wrapper
 aftonbladet.se##.social-shares
-aftonbladet.se##div:nth-of-type(24)
-aftonbladet.se##div:nth-of-type(27)
-aftonbladet.se##div:nth-of-type(29)
-aftonbladet.se##div:nth-of-type(30)
-aftonbladet.se##div:nth-of-type(31)
-aftonbladet.se##div:nth-of-type(32)
 aftonbladet.se##div.abThemeBgTeaser:nth-of-type(23)
 aftonbladet.se##div.abThemeBgTeaser:nth-of-type(39)
 aftonbladet.se##div.abThemeBgTeaser:nth-of-type(61)
@@ -43,12 +37,7 @@ aftonbladet.se##+js(sid, e.reportVisibility())
 aftonbladet.se###pymComponent0
 aftonbladet.se##.outerContainer
 aftonbladet.se##a[href*=".se/kampanj?"]:has-text(/erbjudande/i)
-aftonbladet.se##.j6Os_
-aftonbladet.se##._34Te4.K5r0I._2rWp1.abTheme-sportbladet.abThemeBgTeaser._2-Ff7 > div > .ZVYbV._30_8T._3dQEe.abThemeHighlightYellow._35Mm_._3xv_Q
-aftonbladet.se##._34Te4.K5r0I._2rWp1.abTheme-entertainment.abThemeBgTeaser._2-Ff7 > div > .ZVYbV._30_8T._3dQEe.abThemeHighlightYellow._35Mm_._3xv_Q
-aftonbladet.se###VideoAsset-2-236633 > .jw-reset.jw-controls > .jw-reset.jw-controls-right > .jw-reset.jw-dock > .jw-sharing-dock-btn.jw-reset.jw-background-color.jw-dock-button
-aftonbladet.se###VideoAsset-2-240224 > .jw-reset.jw-controls > .jw-reset.jw-controls-right > .jw-reset.jw-dock > .jw-sharing-dock-btn.jw-reset.jw-background-color.jw-dock-button
-aftonbladet.se##div:nth-of-type(16)
+aftonbladet.se##.jw-reset.jw-controls > .jw-reset.jw-controls-right > .jw-reset.jw-dock > .jw-sharing-dock-btn.jw-reset.jw-background-color.jw-dock-button
 acast.*##+js(acis, jQuery, adblocker)
 acast.*##+js(aopr, app_vars.force_disable_adblock)
 live.aftonbladet.se###advert-topboard
@@ -65,7 +54,7 @@ bloggar.aftonbladet.se##.abInbetweenerHelsida:nth-of-type(2)
 aftonbladet.se##a[href="https://www.unibet.se/betting/sports/home"]
 aftonbladet.se##a[href="https://www.strivesport.com/se/home"]
 ||stitcher.acast.com/livestitches/*$media,noopmp3=0.01s,domain=embed.acast.com
-@@https://imgs.aftonbladet-cdn.se/*/images/
+@@/imgs.aftonbladet-cdn.se/*/images/
 @@/hyper-assets/preload*$script,domain=aftonbladet.se
 @@/hyper-assets/app.$script,domain=aftonbladet.se
 @@/web/v1.2.41/index.js
@@ -85,9 +74,9 @@ aftonbladet.se##a[href="https://www.strivesport.com/se/home"]
 ||ssl.p.jwpcdn.com^*/jwpsrv.js$important,script,domain=aftonbladet.se,important
 ||svp.vg.no/svp/api/v1/time$xmlhttprequest,domain=aftonbladet.se,important
 ||ab-web-notifications.herokuapp.com^$xmlhttprequest,domain=aftonbladet.se,important
-||interaction.acast.com/adImpression$xmlhttprequest,domain=embed.acast.com,important
-||interaction.acast.com/progress$xmlhttprequest,domain=embed.acast.com,important
-||auth.acast.com/v1/getAnonymousToken$xmlhttprequest,domain=embed.acast.com,important
+||interaction.acast.com/adImpression$xmlhttprequest,redirect=noop.txt
+||interaction.acast.com/progress$xmlhttprequest,redirect=noop.txt
+||auth.acast.com/v1/getAnonymousToken$xmlhttprequest,domain=embed.acast.com
 ||cdn.acast.com/images/ad-banner-black.jpg$image,domain=embed.acast.com,important
 ||dc290.s407.meetrics.net^$image,important
 /embed/ab-
@@ -1015,7 +1004,7 @@ viafree.se##[class="cta-overlay vjs-hidden"]
 viafree.se##+js(setTimeout-defuser.js, r, 0)
 viafree.se##.avodp.pause-ad-showing .vjs-progress-control, .avodp.ad-playing .vjs-progress-control:style(display: initial !important;)
 @@||fwmrm.net/ad/$script
-@@||fwmrm.net/ad/$xmlhttprequest
+--@@||fwmrm.net/ad/$xmlhttprequest
 @@||fwmrm.net/ad/$image,xmlhttprequest
 @@||fwmrm.net/crossdomain.xml$xmlhttprequest
 ||viafree.se^$xmlhttprequest
