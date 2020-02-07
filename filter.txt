@@ -22,6 +22,8 @@ aftonbladet.se##.abTheme-infeedad
 aftonbladet.se##.abBtnShare
 aftonbladet.se##.abAdWrapper
 aftonbladet.se##[style="min-height:600px"]
+aftonbladet.se##[style="margin:0;font-size:14px;font-family:Arial, Helvetica, Verdana, Geneva, sans-serif;font-weight:bold;letter-spacing:0.2px;line-height:1.28;color:#0067b5"]
+aftonbladet.se##[style="text-decoration:none;box-sizing:border-box;display:flex"]
 aftonbladet.se##div[style*="border-color:#0067b5;border-width:4px 0px 0px 0px;"] + a
 aftonbladet.se##article:has(a[data-sponsored="true"])
 aftonbladet.se##div[data-reactroot] > div > div#MegaAd ~ div[class]:not(#header):not(.abThemeGradientPage)
