@@ -8,6 +8,8 @@ aftonbladet.se##+js(acis, jQuery, adblocker)
 aftonbladet.se##+js(aopr, app_vars.force_disable_adblock)
 aftonbladet.se###outsider
 aftonbladet.se###MegaAd
+aftonbladet.se##div:matches-css(width: 664px):matches-css(height: 2px)
+aftonbladet.se##div:matches-css(width: 662px):matches-css(height: 20px)
 aftonbladet.se##html,body:style(overflow: auto !important;)
 aftonbladet.se##script:inject(abort-current-inline-script.js, preLoadAds)
 aftonbladet.se##script:inject(abort-current-inline-script.js, preLoadAds, loadAd)
