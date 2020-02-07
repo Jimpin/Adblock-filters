@@ -217,7 +217,6 @@ player.twitch.tv##.player-overlay
 ||api.twitch.tv/kraken/user
 
 #Google.*
-google.*##[onclick="ga(this,event)"]
 google.*##.ads-ad
 google.*##.section-result[data-result-ad-type]
 google.*##.widget-pane-section-result[data-result-ad-type]
