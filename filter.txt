@@ -5229,6 +5229,7 @@ aliez.me###adbtm
 *##+js(abort-on-property-write, UAParser)
 *##+js(abort-on-property-write, rAb)
 *##+js(abort-on-property-write, AdDelivery)
+*.com##+js(aeld, DOMContentLoaded, [native code])
 
 *##[id^='adsIfrme']:has(:scope > iframe[src^='/ads/'])
 *##+js(bab-defuser.js)
