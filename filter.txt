@@ -28,6 +28,8 @@ aftonbladet.se##div[style*="border-color:#0067b5;border-width:4px 0px 0px 0px;"]
 aftonbladet.se##article:has(a[data-sponsored="true"])
 aftonbladet.se##div[data-reactroot] > div > div#MegaAd ~ div[class]:not(#header):not(.abThemeGradientPage)
 aftonbladet.se##body.abTheme-entertainment *> .abAside > div[style^="text"]:last-chil
+aftonbladet.se##div > div:nth-of-type(21)
+aftonbladet.se##.abAside > :nth-of-type(39)
 aftonbladet.se##[id^="innerabAdArea-"]
 aftonbladet.se##[id^="abAdArea"]
 aftonbladet.se##.ab-responsive-ads-wrapper
@@ -1711,7 +1713,6 @@ dirdamid.com##a[href$=".html"]
 ##[id="facebook-jssdk"]
 ##div[id^="ADV-SLOT-"]
 ##div[id^="MarketGid"]
-##div[id^="YFBMSN"]
 ##div[id^="acm-ad-tag-"]
 ##div[id^="ad-div-"]
 ##div[id^="ad-server-"]
@@ -1748,8 +1749,6 @@ dirdamid.com##a[href$=".html"]
 ##[id="close_ad"]
 ##[id="close_ads"]
 ##[id="Advertisement1"]
-##[id="ltas_overlay_Player1256537976911"]
-##[id="obrazek"]
 ##[id="remove-over"]
 ##[id="overover"]
 ##[id="hiddenBannerCanvas"]
@@ -1845,19 +1844,10 @@ dirdamid.com##a[href$=".html"]
 ##div[class*="squareAd"]
 ##div[class*="textAd"]
 ##div[class^="ads-"]
-##div[class^="ads"]
 ##div[class^="adtext"]
 ##div[class^="adTitle"]
 ##div[class^="advertise"]
 ##div[class^="advertising"]
-##div[class*="/AD"]
-##div[class*="/Ad"]
-##div[class*="/ad"]
-##div[class*="/AD"]
-##div[class*="/Ad"]
-##div[class*="/ad"]
-##div[class$="_ads"]
-##div[class^="ad_"]
 ##div[class^="BlockAdvert-"]
 ##div[class^="block-openx-"]
 ##div[class^="gemini-ad"]
@@ -1881,15 +1871,14 @@ dirdamid.com##a[href$=".html"]
 ##div[id*="FloatingBanner"]
 ##div.container:nth-child(3) > DIV.row > DIV.col-xs-12.text-center:nth-child(2)
 ##div.container:nth-child(3) > DIV.row > DIV.col-sm-12.hidden-xs.text-center:nth-child(10) > DIV.well.well-sm
-##div[id*="/Ad"]
-##div[id*="/ad"]
-##div[id*="/AD"]
-##div[id*="/Ad"]
-##div[id*="/ad"]
-##div[id$="_ad"]
-##div[id$="_ads"]
-##div[id^="ad-"]
-##div[id^="ad_"]
+##div[class*="/AD"]
+##div[class*="/Ad"]
+##div[class*="/ad"]
+##div[class*="/AD"]
+##div[class*="/Ad"]
+##div[class*="/ad"]
+##div[class$="_ads"]
+##div[class^="ad_"]
 ##div[id^="div-gpt-ad"]
 ##div[id^="taboola-"]
 ##div[id*="-upsell-"]
@@ -1966,7 +1955,6 @@ dirdamid.com##a[href$=".html"]
 ##.adblock-unused.btf
 ##.adblock-unused.bta
 ##div.sectionWrapper:nth-of-type(3) > .sectionTitle
-##qxtyf_ftr
 ##.nf-wrapper > .sectionWrapper
 ##.ad-container
 ##.gdpr_banner
@@ -2019,7 +2007,6 @@ dirdamid.com##a[href$=".html"]
 ##.nav__adbanner
 ##.nav_ad
 ##.nav_textads
-##[href^="https://refpa.top/L"]
 ##[class="tallstreambanner"]
 ##[id="fi1h4ne"]
 ##[id="floatLayer1"]
@@ -2038,6 +2025,7 @@ dirdamid.com##a[href$=".html"]
 ##zzzzz
 ##.js-pop.ad-link
 ##[class="ad-link js-pop"]
+##.clearfix div > .ad-link
 ##.hidden-sm.hidden-md
 ##.hidden-xs.notice.alert-default.alert
 ###hd-rightColVideoPage > div[class]:first-child
@@ -2303,6 +2291,13 @@ dirdamid.com##a[href$=".html"]
 ###js-abContainterMain
 ##.vjs-flyout-placeholder
 ##.social-shares
+##.banner-in
+##.cookie-consent-bar > div > .row
+##.region_redirect_popup_asset
+###_evidon-background
+###_evidon-barrier-wrapper
+##.zmgad-full-width
+##.zmgad-right-rail
 ##.cookie-holder
 ##.cookie-bar
 ##.cookie-bar-message:not(body):not(html)
@@ -2341,6 +2336,7 @@ dirdamid.com##a[href$=".html"]
 ##.sectionWrapper.abEnabled .sectionTitle + div
 ###modal_loading
 ###modal_overlay
+##.divascookies-banner-container
 ##.cc-cookies
 ##.cc-floating
 ##.cc_banner
@@ -5321,16 +5317,16 @@ aliez.me###adbtm
 /privacy/notification?$xmlhttprequest
 /glimr.$script
 
-##a[href*="/betting"]
-##a[href*="/brandstudio"]
-##a[href*="/casino"]
-##a[href*="/kampanj"]
-##a[href*="/lanapengar"]
-##a[href*="/premium/erbjudanden/"]
-##a[href*="/rabattkoder"]
-##a[href*="/spel"]
-##a[href*="/content")
-##a[href*="/privacy")
+*##a[href*="/betting"]
+*##a[href*="/brandstudio"]
+*##a[href*="/casino"]
+*##a[href*="/kampanj"]
+*##a[href*="/lanapengar"]
+*##a[href*="/premium/erbjudanden/"]
+*##a[href*="/rabattkoder"]
+*##a[href*="/spel"]
+*##a[href*="/content")
+*##a[href*="/privacy")
 
 *##+js(acis, burtSegments)
 *##+js(aeld, click, trackClick)
@@ -5339,3 +5335,4 @@ aliez.me###adbtm
 *##+js(ra, data-ad-config)
 *##+js(ra, data-article-tracking-info)
 *##+js(ra, data-video-tracking-info)
+*##[data-ad-client]
