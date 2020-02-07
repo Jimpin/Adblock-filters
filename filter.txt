@@ -221,6 +221,7 @@ google.*##.ads-ad
 google.*##.section-result[data-result-ad-type]
 google.*##.widget-pane-section-result[data-result-ad-type]
 google.*##div[data-flt-ve="sponsored_search_ads"]
+google.*###cnsi ~ [jsaction*=dismiss]
 google.*###pushdown
 google.*###center_col > #resultStats + #tads
 google.*###center_col > #resultStats + #tads + #res + #tads
@@ -232,7 +233,7 @@ google.*##div.kno-ftr
 google.*##.mod.yp1CPe
 google.*##div.mod:nth-of-type(6)
 google.*##div.mod:nth-of-type(7)
-||google.com^$csp_report
+||google.*^$csp_report
 
 #Tv4play.se
 tv4.se##.program-header-sponsors 
@@ -5228,7 +5229,7 @@ aliez.me###adbtm
 *##+js(abort-on-property-write, UAParser)
 *##+js(abort-on-property-write, rAb)
 *##+js(abort-on-property-write, AdDelivery)
-*.com##+js(aeld, DOMContentLoaded, [native code])
+*##+js(aeld, DOMContentLoaded, [native code])
 
 *##[id^='adsIfrme']:has(:scope > iframe[src^='/ads/'])
 *##+js(bab-defuser.js)
@@ -5310,7 +5311,6 @@ aliez.me###adbtm
 /next.*/$popup,important
 /tuname.*/$important,popup
 /puopen.*/$important
-/admin-ajax.*/$important
 /rtb.*/$script,popup
 /sw_*.js^$script
 /smpop-stable.js$script
@@ -5327,6 +5327,7 @@ aliez.me###adbtm
 *##a[href*="/spel"]
 *##a[href*="/content")
 *##a[href*="/privacy")
+
 
 *##+js(acis, burtSegments)
 *##+js(aeld, click, trackClick)
