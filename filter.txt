@@ -616,7 +616,6 @@ nyafilmer.*##+js(acis, document.getElementById, undefined)
 nyafilmer.*##^script:has-text(var _0x)
 nyafilmer.*##div:matches-css(width: 500px):matches-css(height: 350px):matches-css(z-index: 99999)
 nyafilmer.*##div:matches-css(z-index: 99998)
---nyafilmer.*##body:style(overflow: auto !important;) 
 nyafilmer.*##body > [id][onclick^="window.open("]
 nyafilmer.*##body > iframe
 nyafilmer.*##.Breadcrumb
@@ -707,7 +706,6 @@ nyafilmer.*##[class="headerSpace"]
 ||nyafilmer.*/*.gif$image
 ||nyafilmer.*/branding/$image
 ||nyafilmer.*$other,first-party
-||nyafilmer.*/wp-admin/admin-ajax.php$xmlhttprequest,first-party
 ||nyafilmer.*/wp-includes/js/wp-embed.min.js$script,first-party
 ||nyafilmer.*/wp-content/cache/wpfc-minified/90ad1b1558947f8bf61be541793793c5/*index.css
 ||nyafilmer.*/wp-content/themes/keremiya1/js/jopper.js$script,important
