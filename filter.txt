@@ -2069,6 +2069,9 @@ dirdamid.com##a[href$=".html"]
 ###global-notification
 ##.as-oil-content-overlay
 ##.optanon-alert-box-bg
+###floatingbar
+##[class="tipsy tipsy-w kepsy"]
+##[class="tipsy tipsy-e kepsy"]
 ###site-xpromo-banner > .js-banner.banner
 ###js-site-xpromo-banner-container-top
 ###site-xpromo-banner > .js-banner.banner > .js-page-banner-link.page-banner-link
@@ -5326,7 +5329,6 @@ aliez.me###adbtm
 *##a[href*="/content")
 *##a[href*="/privacy")
 
-
 *##+js(acis, burtSegments)
 *##+js(aeld, click, trackClick)
 *##+js(acis, Bau, preloadAds)
@@ -5335,3 +5337,9 @@ aliez.me###adbtm
 *##+js(ra, data-article-tracking-info)
 *##+js(ra, data-video-tracking-info)
 *##[data-ad-client]
+
+*##+js(nostif, document.querySelectorAll, 1000)
+*##+js(nostif, document.querySelector, 5000)
+*##+js(aopr, __ads)
+*##+js(acis, document.querySelector, erogesimg)
+*##+js(acis, document.querySelector, adblock)
