@@ -873,7 +873,6 @@ fmovies.*##+js(addEventListener-defuser.js, /^(?:click|mousedown)$/, _0x)
 ##p:nth-child(15) > span > a
 ##section:nth-child(15) > a
 ##article:nth-child(15) > div > a
-##.col-sm-4, .alert, .alert-warning
 ##a[href="804548.html"]
 @@||ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js$script
 @@||fmovies.*/ajax/$xmlhttprequest,domain=fmovies.is|fmovies.se|fmovies.to|fmovies.ac
@@ -5330,3 +5329,29 @@ aliez.me###adbtm
 *##a[href*="/spel"]
 *##a[href*="/content")
 *##a[href*="/privacy")
+
+*##a[href*="/betting"]
+*##a[href*="/brandstudio"]
+*##a[href*="/casino"]
+*##a[href*="/kampanj"]
+*##a[href*="/lanapengar"]
+*##a[href*="/premium/erbjudanden/"]
+*##a[href*="/rabattkoder"]
+*##a[href*="/spel"]
+*##a[href*="/content")
+*##a[href*="/privacy")
+
+*##+js(acis, burtSegments)
+*##+js(aeld, click, trackClick)
+*##+js(acis, Bau, preloadAds)
+*##+js(aeld, error, adsBlocked)
+*##+js(ra, data-ad-config)
+*##+js(ra, data-article-tracking-info)
+*##+js(ra, data-video-tracking-info)
+*##[data-ad-client]
+
+*##+js(nostif, document.querySelectorAll, 1000)
+*##+js(nostif, document.querySelector, 5000)
+*##+js(aopr, __ads)
+*##+js(acis, document.querySelector, erogesimg)
+*##+js(acis, document.querySelector, adblock)
