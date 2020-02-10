@@ -39,6 +39,7 @@ aftonbladet.se##+js(sid, e.ping())
 aftonbladet.se##+js(sid, e.reportVisibility())
 aftonbladet.se###pymComponent0
 aftonbladet.se##.outerContainer
+aftonbladet.se##a[href*="/tv"]
 aftonbladet.se##a[href*=".se/kampanj?"]:has-text(/erbjudande/i)
 aftonbladet.se##.jw-reset.jw-controls > .jw-reset.jw-controls-right > .jw-reset.jw-dock > .jw-sharing-dock-btn.jw-reset.jw-background-color.jw-dock-button
 aftonbladet.se##div:nth-of-type(37)
