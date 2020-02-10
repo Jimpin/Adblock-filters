@@ -305,6 +305,7 @@ tv4play.se###skin-cover
 ||nqs.nice264.com^$xmlhttprequest,domain=tv4play.se,important
 ||*.mxcdn.net^
 ||nuid.imrworldwide.com^$image,domain=www.tv4play.se
+/analytics;jsessionid=*$xhr
 /images/Animation_Playknapp2.png$image
 /pixel?google_nid=*$xhr
 
