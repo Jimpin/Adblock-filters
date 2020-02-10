@@ -1271,8 +1271,6 @@ dwatchseries.*##.jw-submenu-sharing.jw-settings-sharing.jw-reset.jw-button-color
 ||driveproxy.net^$important
 
 #Streamtajm.com
-streamtajm.*##+js(acis, jQuery, adblocker)
-streamtajm.*##+js(aopr, app_vars.force_disable_adblock)
 streamtajm.*##+js(popads-dummy)
 streamtajm.*##+js(acis, TID, J0)
 streamtajm.*##[href$=".html"]
@@ -5332,18 +5330,3 @@ aliez.me###adbtm
 *##a[href*="/spel"]
 *##a[href*="/content")
 *##a[href*="/privacy")
-
-*##+js(acis, burtSegments)
-*##+js(aeld, click, trackClick)
-*##+js(acis, Bau, preloadAds)
-*##+js(aeld, error, adsBlocked)
-*##+js(ra, data-ad-config)
-*##+js(ra, data-article-tracking-info)
-*##+js(ra, data-video-tracking-info)
-*##[data-ad-client]
-
-*##+js(nostif, document.querySelectorAll, 1000)
-*##+js(nostif, document.querySelector, 5000)
-*##+js(aopr, __ads)
-*##+js(acis, document.querySelector, erogesimg)
-*##+js(acis, document.querySelector, adblock)
