@@ -1274,6 +1274,7 @@ dwatchseries.*##.jw-submenu-sharing.jw-settings-sharing.jw-reset.jw-button-color
 streamtajm.*##+js(acis, jQuery, adblocker)
 streamtajm.*##+js(aopr, app_vars.force_disable_adblock)
 streamtajm.*##+js(popads-dummy)
+streamtajm.*##+js(acis, TID, J0)
 streamtajm.*##[href$=".html"]
 streamtajm.*##.container > div.row:nth-of-type(2)
 streamtajm.*##.rightside.col-sm-8.col-xs-12 > div:nth-of-type(6)
@@ -1284,6 +1285,7 @@ streamtajm.*##.rightside.col-sm-8.col-xs-12 > .table-bordered.table > tbody > tr
 streamtajm.*##div[style*="width: 750px; height: 100px; padding: 5px 5px 5px 0;"]
 streamtajm.*##.hidden-xs.col-md-5.col-sm-6.pull-right
 @@||streamtajm.*/images/dfhdcom.png$image
+||streamtajm.*^$csp=default-src 'self' 'unsafe-inline' *.googleapis.com stload.com nxload.com jawcloud.co;img-src *;worker-src 'none'
 ||*.net^$frame,image,other,domain=streamtajm.com
 ||*.com^$image,other,domain=streamtajm.com
 nxload.*##+js(acis, jQuery, adblocker)
@@ -5233,7 +5235,6 @@ aliez.me###adbtm
 *##+js(abort-on-property-write, UAParser)
 *##+js(abort-on-property-write, rAb)
 *##+js(abort-on-property-write, AdDelivery)
-*##+js(aeld, DOMContentLoaded, [native code])
 
 *##[id^='adsIfrme']:has(:scope > iframe[src^='/ads/'])
 *##+js(bab-defuser.js)
