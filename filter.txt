@@ -29,7 +29,7 @@ aftonbladet.se##div > h3:has-text(/annons/i)
 aftonbladet.se##[id="pymComponent4"]
 aftonbladet.se##article:has(a[data-sponsored="true"])
 aftonbladet.se##div[data-reactroot] > div > div#MegaAd ~ div[class]:not(#header):not(.abThemeGradientPage)
-aftonbladet.se##body.abTheme-entertainment *> .abAside > div[style^="text"]:last-chil
+aftonbladet.se##body.abTheme-entertainment *> .abAside > div[style^="text"]:last-child
 aftonbladet.se##div > div:nth-of-type(21)
 aftonbladet.se##.abAside > :nth-of-type(39)
 aftonbladet.se##[id^="innerabAdArea-"]
@@ -1913,7 +1913,6 @@ dirdamid.com##a[href$=".html"]
 ##.cookievarning-wrap:not(body):not(html)
 ##.disclaimer
 ##.e-banner
-##.gdpr
 ##.global-level-alert
 ##.gpsecGRCookieContainer
 ##.infobanner
