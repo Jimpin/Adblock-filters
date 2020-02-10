@@ -8,9 +8,9 @@ aftonbladet.se##+js(acis, jQuery, adblocker)
 aftonbladet.se##+js(aopr, app_vars.force_disable_adblock)
 aftonbladet.se###outsider
 aftonbladet.se###MegaAd
+aftonbladet.se##div:matches-css(width: 316px):matches-css(height: 2px)
 aftonbladet.se##div:matches-css(width: 664px):matches-css(height: 2px)
 aftonbladet.se##div:matches-css(width: 662px):matches-css(height: 20px)
---aftonbladet.se##html,body:style(overflow: auto !important;)
 aftonbladet.se##script:inject(abort-current-inline-script.js, preLoadAds)
 aftonbladet.se##script:inject(abort-current-inline-script.js, preLoadAds, loadAd)
 aftonbladet.se##script:inject(abort-current-inline-script.js, preLoadAds, setup)
@@ -25,6 +25,8 @@ aftonbladet.se##[style="min-height:600px"]
 aftonbladet.se##[style="margin:0;font-size:14px;font-family:Arial, Helvetica, Verdana, Geneva, sans-serif;font-weight:bold;letter-spacing:0.2px;line-height:1.28;color:#0067b5"]
 aftonbladet.se##[style="text-decoration:none;box-sizing:border-box;display:flex"]
 aftonbladet.se##div[style*="border-color:#0067b5;border-width:4px 0px 0px 0px;"] + a
+aftonbladet.se##div > h3:has-text(/annons/i)
+aftonbladet.se##[id="pymComponent4"]
 aftonbladet.se##article:has(a[data-sponsored="true"])
 aftonbladet.se##div[data-reactroot] > div > div#MegaAd ~ div[class]:not(#header):not(.abThemeGradientPage)
 aftonbladet.se##body.abTheme-entertainment *> .abAside > div[style^="text"]:last-chil
@@ -73,7 +75,7 @@ aftonbladet.se##a[href="https://www.strivesport.com/se/home"]
 ||adv.aftonbladet.se^$important
 ||ooul.tv/*/se-aftonbladet/aab/aftonbladet_$script,redirect=noopjs,domain=aftonbladet.se
 ||g.jwpsrv.com^$subdocument,important
-||cdn.brandmetrics.com^
+||brandmetrics.com^
 ||collector.schibsted.io^$xmlhttprequest,important
 ||ssl.p.jwpcdn.com/player/v/7.9.3/provider.cast.js$script,domain=aftonbladet.se,important
 ||ssl.p.jwpcdn.com^*/vast.js$script,important,domain=aftonbladet.se,important
