@@ -733,8 +733,6 @@ nyafilmer.*##[class="headerSpace"]
 jawcloud.co,nyafilmer.*,streamtajm.*##^script:has-text(_Hasync)
 jawcloud.co,nyafilmer.*##+js(popads-dummy.js)
 jawcloud.co,nyafilmer.*##+js(aopr, console.clear)
-jawcloud.co##+js(acis, jQuery, adblocker)
-jawcloud.co##+js(aopr, app_vars.force_disable_adblock)
 jawcloud.co##+js(aeld, contextmenu)
 jawcloud.co##+js(aopw, Fingerprint2)
 jawcloud.co##+js(acis, Math, zfgloaded)
@@ -5331,17 +5329,6 @@ aliez.me###adbtm
 *##a[href*="/content")
 *##a[href*="/privacy")
 
-*##a[href*="/betting"]
-*##a[href*="/brandstudio"]
-*##a[href*="/casino"]
-*##a[href*="/kampanj"]
-*##a[href*="/lanapengar"]
-*##a[href*="/premium/erbjudanden/"]
-*##a[href*="/rabattkoder"]
-*##a[href*="/spel"]
-*##a[href*="/content")
-*##a[href*="/privacy")
-
 *##+js(acis, burtSegments)
 *##+js(aeld, click, trackClick)
 *##+js(acis, Bau, preloadAds)
@@ -5351,8 +5338,6 @@ aliez.me###adbtm
 *##+js(ra, data-video-tracking-info)
 *##[data-ad-client]
 
-*##+js(nostif, document.querySelectorAll, 1000)
-*##+js(nostif, document.querySelector, 5000)
 *##+js(aopr, __ads)
 *##+js(acis, document.querySelector, erogesimg)
 *##+js(acis, document.querySelector, adblock)
