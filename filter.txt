@@ -1923,7 +1923,6 @@ dirdamid.com##a[href$=".html"]
 ##[class="abAlertInner"]
 ##[class="heatwarning"]
 ##[id="js-abContainterMain"]
-##[id="positionBox"]
 ##[onclick="fileice();"]
 ##[onclick="$(this).hide(); $('#offerlst').show('slow');"]
 ###hotVideosSection > .alpha
