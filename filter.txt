@@ -173,7 +173,7 @@ twitch.tv##.tw-mg-t-4.tw-absolute.tw-justify-content-center.tw-flex-row.tw-flex.
 twitch.tv##.tw-pd-1.tw-justify-content-between.tw-flex-row.tw-flex.tw-align-items-center.tw-border-l.tw-border-b.tw-border-r.fuel-bar
 twitch.tv##.tw-pd-1.tw-flex.tw-c-text
 twitch.tv##.fbc-badge-fence
-twitch.tv###root > div > div.twilight-root.tw-right-0.tw-bottom-0.tw-left-0.tw-overflow-hidden.tw-flex.tw-flex-column.tw-flex-nowrap.tw-absolute > div.tw-full-height.tw-flex.tw-flex-nowrap.tw-relative:nth-child(4) > main.twilight-main.tw-full-width.tw-full-height.tw-overflow-hidden.tw-flex.tw-flex-column.tw-flex-grow-1.tw-relative:nth-child(2) > div.root-scrollable.scrollable-area.scrollable-area--suppress-scroll-x:nth-child(2) > div.simplebar-scroll-content:last-child > div.simplebar-content.root-scrollable__content > div.root-scrollable__wrapper.tw-full-width.tw-relative > div.channel-page.tw-full-height:first-child > div.chennel-page-layout.tw-full-height.tw-flex.tw-flex-column.tw-flex-nowrap > div.tw-pd-t-2.tw-pd-x-3 > div.tw-animation.tw-animation--animate.tw-animation--delay-medium.tw-animation--duration-medium.tw-animation--fill-mode-both.tw-animation--timing-ease.tw-animation--slide-in-bottom:first-child
+twitch.tv###root > div > div.twilight-root.tw-right-0.tw-bottom-0.tw-left-0.tw-overflow-hidden.tw-flex.tw-flex-column.tw-flex-nowrap.tw-absolute > div.tw-full-height.tw-flex.tw-flex-nowrap.tw-relative:nth-child(4) > main.twilight-main.tw-full-width.tw-fl-height.tw-overflow-hidden.tw-flex.tw-flex-column.tw-flex-grow-1.tw-relative:nth-child(2) > div.root-scrollable.scrollable-area.scrollable-area--suppress-scroll-x:nth-child(2) > div.simplebar-scroll-content:last-child > div.simplebar-content.root-scrollable__content > div.root-scrollable__wrapper.tw-full-width.tw-relative > div.channel-page.tw-full-height:first-child > div.chennel-page-layout.tw-full-height.tw-flex.tw-flex-column.tw-flex-nowrap > div.tw-pd-t-2.tw-pd-x-3 > div.tw-animation.tw-animation--animate.tw-animation--delay-medium.tw-animation--duration-medium.tw-animation--fill-mode-both.tw-animation--timing-ease.tw-animation--slide-in-bottom:first-child
 twitch.tv###default-player > div.player-root > div.pl-overlay.pl-overlay__fullscreen:first-child
 twitch.tv##.tw-relative.chat-rules
 twitch.tv##.pl-overlay__clickthrough
@@ -1708,7 +1708,7 @@ dirdamid.com##a[href$=".html"]
 ##[class="ads adsbox doubleclick"]
 ##[class="vjs-black-poster"]
 ##[id="anim-container"]
-##[id="cliqz-adblokcer-css-rules"]
+##[id="cliqz-adblocker-css-rules"]
 ##[id="facebook-jssdk"]
 ##div[id^="ADV-SLOT-"]
 ##div[id^="MarketGid"]
@@ -1933,7 +1933,6 @@ dirdamid.com##a[href$=".html"]
 ##.page-loaded
 ##.top-ad-container > fbs-ad
 ##.top-ad-container
-##sharing > ul
 ###teconsent
 ##[class="truste_overlay"]
 ##[class="truste_box_overlay"]
