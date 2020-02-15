@@ -5159,6 +5159,7 @@ aliez.me###ads
 aliez.me###adbtm
 
 #Test
+##[src="/social-box/"]
 ##[src*="/next.php"]
 ##[src*="/?yadrd="]
 ##[src*="/pop.php?"]
