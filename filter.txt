@@ -5322,9 +5322,7 @@ aliez.me###adbtm
 *##a[href*="/privacy")
 
 *##+js(acis, burtSegments)
-*##+js(aeld, click, trackClick)
 *##+js(acis, Bau, preloadAds)
-*##+js(aeld, error, adsBlocked)
 *##+js(ra, data-ad-config)
 *##+js(ra, data-article-tracking-info)
 *##+js(ra, data-video-tracking-info)
