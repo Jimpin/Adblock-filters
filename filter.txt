@@ -322,6 +322,7 @@ youtube.*##.opened
 youtube.*###dialog
 youtube.*##.yt-alert-content
 youtube.*##[class="ytp-cued-thumbnail-overlay"]
+youtube.*##[class="style-scope yt-live-chat-viewer-engagement-message-renderer"]
 youtube.*##.ytp-ce-element
 youtube.*##.ytp-cards-teaser-text
 youtube.*##.ytp-ce-covering-overlay
