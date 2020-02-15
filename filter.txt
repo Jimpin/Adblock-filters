@@ -337,26 +337,21 @@ youtube.*##.masthead-ad-control
 youtube.*###video-masthead
 youtube.*###hats-container
 youtube.*##.opened
-youtube.*##[id="card"]
 youtube.*###dialog
 youtube.*##.ytp-button.ytp-miniplayer-button
 @@||youtube.com/player_api$third-party
 ||youtube.com/error_204$xhr
 ||youtube.com/csi_204$image
-||youtube.com/subscribe_embed$third-party
 ||youtube.com/youtubei/*
 ||youtube.com/api/stats
 ||youtube.com/pagead
 ||youtube.com/ptracking
 ||youtube.com/get_midroll_info$important
-||youtube.com/[[computeEmptyGif_()]]$image
-||youtube.com/[[computeThumbnailUrl_(data.thumbnail)]]
 *_ad_$media,domain=youtube.com,third-party
 ||google.*/jsapi?autoload=*%22ads%22$script
 ||gstatic.com/inputtools/images/*$image,important
 ||static.doubleclick.net/instream/ad_status.js$other,redirect=noop.js
 ||google.com/generate_204$image
-/manifest.json$other
 
 #Facebook.com
 facebook.com##+js(acis, jQuery, adblocker)
