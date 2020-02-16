@@ -331,6 +331,9 @@ youtube.*##.ytp-scrubber-container
 youtube.*##.ytp-ad-progress
 youtube.*##.ytp-ad-progress-list
 youtube.*##.ytp-fullerscreen-edu-chevron
+youtube.*##ytd-item-section-renderer.ytd-section-list-renderer.style-scope:nth-of-type(1)
+youtube.*##ytd-item-section-renderer.ytd-section-list-renderer.style-scope:nth-of-type(2)
+youtube.*##ytd-item-section-renderer.ytd-section-list-renderer.style-scope:nth-of-type(3)
 youtube.*###material-notice
 youtube.*##.pyv-afc-ads-container
 youtube.*###ticker
@@ -2151,6 +2154,7 @@ dirdamid.com##a[href$=".html"]
 ###anti_adblock
 ###detectadblock
 ###fnAdblockingOverlay
+##.loading.img-fluid.lazy
 ##.advert.box
 ##sads
 ###_evh-link
@@ -5086,6 +5090,7 @@ popuper.js^
 ?adslot=
 ?adsmarket=
 
+##[href="https://axofinans.se"]
 ##[href="/information#advertising"]
 ##[href*="/tuname.php"]
 ##[href="/sitemap"]
@@ -5335,3 +5340,8 @@ aliez.me###adbtm
 *##+js(aopr, __ads)
 *##+js(acis, document.querySelector, erogesimg)
 *##+js(acis, document.querySelector, adblock)
+
+###popup-poster_image
+###popup-poster_inner
+###popup-poster
+###footer_bottom_floating_line__cookies
