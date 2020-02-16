@@ -5318,6 +5318,7 @@ aliez.me###adbtm
 *##a[href*="/kampanj"]
 *##a[href*="/lanapengar"]
 *##a[href*="/premium/erbjudanden/"]
+*##a[href*="/rabattkod"]
 *##a[href*="/rabattkoder"]
 *##a[href*="/spel"]
 *##a[href*="/content")
