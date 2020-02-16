@@ -9,6 +9,7 @@ aftonbladet.se##+js(aopr, app_vars.force_disable_adblock)
 aftonbladet.se###outsider
 aftonbladet.se###MegaAd
 aftonbladet.se##div:matches-css(width: 316px):matches-css(height: 2px)
+aftonbladet.se##div:matches-css(width: 316px):matches-css(height: 58px)
 aftonbladet.se##div:matches-css(width: 664px):matches-css(height: 2px)
 aftonbladet.se##div:matches-css(width: 662px):matches-css(height: 20px)
 aftonbladet.se##script:inject(abort-current-inline-script.js, preLoadAds)
