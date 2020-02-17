@@ -283,7 +283,6 @@ tv4play.se###skin-cover
 ||api.ipify.org^$xhr,redirect=noop.txt
 ||b17g.services/event$xhr
 ||youborafds*.com/data$xhr,redirect=noop.txt,important
-||tv4-ys-intermediate.akamaized.net/prod/*$xhr,important
 ||googletagmanager.com/gtm.js$script
 ||restapi-vimond-prod.b17g.net^$xhr
 ||damoh.tv4play.se^$image
