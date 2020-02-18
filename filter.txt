@@ -1964,7 +1964,8 @@ dirdamid.com##a[href$=".html"]
 ###acceptCookie:not(body):not(html)
 ##.cookieBanner:not(body):not(html):not(#sprd-main)
 ###gdpr:not(body):not(html):not(input)
-##.is-showing.has-noScroll.modal
+##.is-showing.has-noScroll.modal:style(display: none !important;)
+##.disabled-vscroll:style(overflow: auto !important;)
 ##.native-ad
 ##.native-ad-container
 ##.native-ad-item
@@ -5341,6 +5342,9 @@ aliez.me###adbtm
 *###sidebar > .widget:not([id]):has(>.holder > a[href])
 *##.content:if(:scope > div:has-text(Annons))
 *##div:has(:scope > a:not([href*="/"]) > img:not([src*="/"]))
+
+*##style:(overflow-y: overlay !important;)
+*##style:(overflow-x: hidden !important;)
 
 ###popup-poster_image
 ###popup-poster_inner
