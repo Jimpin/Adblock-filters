@@ -5336,10 +5336,8 @@ aliez.me###adbtm
 *##div:has(:scope > a:not([href*="/"]) > img:not([src*="/"]))
 *##+js(nostif, warn)
 *##+js(aopr, adc)
-*##div[class][id]:not(.logo):if-not(*):has-text(/^$/)
 *###sidebar > .widget:not([id]):has(>.holder > a[href])
 *##.content:if(:scope > div:has-text(Annons))
-*##div:has(:scope > a:not([href*="/"]) > img:not([src*="/"]))
 
 *##html:style(overflow-y: auto !important;)
 *##html:style(overflow-x: hidden !important;)
