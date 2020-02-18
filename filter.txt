@@ -412,8 +412,6 @@ svtplay.se##.play_cookie-information
 ||message.*^$ping
 
 #Svenskafans.com
-svenskafans.com##+js(acis, jQuery, adblocker)
-svenskafans.com##+js(aopr, app_vars.force_disable_adblock)
 svenskafans.com###aspnetForm > div:nth-of-type(6) > div:nth-of-type(1)
 svenskafans.com###ctl00_bc_brDiv
 svenskafans.com###ctl00_cphMainContent_RC_pnlRightColumn > .ad_display_336
@@ -5335,6 +5333,14 @@ aliez.me###adbtm
 *##+js(aopr, __ads)
 *##+js(acis, document.querySelector, erogesimg)
 *##+js(acis, document.querySelector, adblock)
+
+*##div:has(:scope > a:not([href*="/"]) > img:not([src*="/"]))
+*##+js(nostif, warn)
+*##+js(aopr, adc)
+*##div[class][id]:not(.logo):if-not(*):has-text(/^$/)
+*###sidebar > .widget:not([id]):has(>.holder > a[href])
+*##.content:if(:scope > div:has-text(Annons))
+*##div:has(:scope > a:not([href*="/"]) > img:not([src*="/"]))
 
 ###popup-poster_image
 ###popup-poster_inner
