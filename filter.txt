@@ -1964,8 +1964,6 @@ dirdamid.com##a[href$=".html"]
 ###acceptCookie:not(body):not(html)
 ##.cookieBanner:not(body):not(html):not(#sprd-main)
 ###gdpr:not(body):not(html):not(input)
-##.is-showing.has-noScroll.modal:style(display: none !important;)
-##.disabled-vscroll:style(overflow: auto !important;)
 ##.native-ad
 ##.native-ad-container
 ##.native-ad-item
@@ -5345,6 +5343,14 @@ aliez.me###adbtm
 
 *##style:(overflow-y: overlay !important;)
 *##style:(overflow-x: hidden !important;)
+*##.is-showing.has-noScroll.modal:style(display: none !important;)
+*##.disabled-vscroll:style(overflow: auto !important;)
+
+##[class="cookie-acceptance__content"]
+##[data-end-point="/cookie/Acceptance"]
+##[data-js-cookie-acceptance=""]
+##[class="alert-banner js-alert-banner"]
+##[class="alert-banner__content padded-content"]
 
 ###popup-poster_image
 ###popup-poster_inner
