@@ -5341,6 +5341,8 @@ aliez.me###adbtm
 *##.content:if(:scope > div:has-text(Annons))
 *##div:has(:scope > a:not([href*="/"]) > img:not([src*="/"]))
 
+*##html:style(overflow-y: auto !important;)
+*##html:style(overflow-x: hidden !important;)
 *##style:(overflow-y: overlay !important;)
 *##style:(overflow-x: hidden !important;)
 *##.is-showing.has-noScroll.modal:style(display: none !important;)
