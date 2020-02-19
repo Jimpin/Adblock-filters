@@ -273,7 +273,7 @@ tv4play.se###skin-cover
 ||tv4play.se/program/typeahead$xmlhttprequest,domain=tv4play.se,important
 ||tv4play-se.c.richmetrics.com^$script,redirect=noop.js
 ||bonnier-html-player.b17g.services/bumpers/$media,redirect=noop-1s.mp4,domain=fotbollskanalen.se|tv4play.se
-||bumpers.tv4play.se^$media,redirect=noopmp3-0.1s,domain=tv4.se|tv4play.se|fotbollskanalen.se
+||bumpers.tv4play.se^$media,important,redirect=noopmp3-0.1s,domain=tv4.se|tv4play.se|fotbollskanalen.se
 ||damoh.tv4play.se^$media,redirect=noopmp3-0.1s,domain=tv4.se|tv4play.se|fotbollskanalen.se
 ||se-tv4.videoplaza.tv/proxy/*$xhr,redirect=noop.txt
 ||tv4-trailers-prod.*.com/api/impression$xmlhttprequest
