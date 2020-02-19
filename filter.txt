@@ -5318,7 +5318,7 @@ aliez.me###adbtm
 *##a[href*="/premium/erbjudanden/"]
 *##a[href*="/rabattkod"]
 *##a[href*="/rabattkoder"]
-*##a[href*="/spel"]
+*##a[href*="/spela"]
 *##a[href*="/content")
 *##a[href*="/privacy")
 
