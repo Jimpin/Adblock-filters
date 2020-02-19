@@ -4984,6 +4984,7 @@ popuper.js^
 @@_ajax?^$first-party
 @@/jwplayer.js$script,1p
 @@/assets/js/player.js$script
+@@||cdn.fbsbx.com^$image
 @@||redirect*^$xhr,media
 |http*://*$first-party,websocket,important
 .tv/*third-party$script,important
