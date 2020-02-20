@@ -466,13 +466,12 @@ fotbollskanalen.se##.b-export__footer.b-export__wrap
 ||sync.teads.tv/iframe/redirect$subdocument
 
 #Blocket.se
-blocket.se##+js(acis, jQuery, adblocker)
-blocket.se##+js(aopr, app_vars.force_disable_adblock)
 blocket.se###index_panorama
 blocket.se###li_panorama
 blocket.se###vi_panorama
 blocket.se###blocketd_visning_infor_kopet3
 blocket.se###blocketd_visning_infor_kopet2
+blocket.se##[style="height: 240px;"]
 blocket.se##.row.ptxs.clearfix.js_recommendations_container
 blocket.se##.mbs.h6.plural-headline
 blocket.se###ufti
