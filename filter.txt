@@ -4936,8 +4936,7 @@ popuper.js^
 @@||fonts.googleapis.com/css$third-party
 @@||phncdn.com/timings-$script
 @@||phncdn.com/head/$script
-@@||cdnjs.cloudflare.com/ajax/libs/font-awesome^
-@@||cdnjs.cloudflare.com/ajax/libs/*$script
+@@||cdnjs.cloudflare.com/ajax/libs/*$script,stylesheet,font
 @@||static.twitchcdn.net/assets/*$script
 @@||jawcloud.co/*/embed.js$script
 @@*player.min.js$script
@@ -4964,7 +4963,6 @@ popuper.js^
 @@||amazonaws.com^$image
 @@||analytics.google.com^
 @@||typekit.net^$script
-@@||cloudfront.net^$script,domain=oscar.go.com
 @@||loadvid.online/embed
 @@||viduplayer.com/srt/
 @@||clients1.google.com^$script
@@ -4980,6 +4978,7 @@ popuper.js^
 @@||fonts.gstatic.com^$font
 @@upload-*^$xhr
 @@/jwplayer.js^$script,1p
+@@/css/bootstrap.min.css$stylesheet
 @@_ajax?^$first-party
 @@/jwplayer.js$script,1p
 @@/assets/js/player.js$script
