@@ -22,6 +22,7 @@ aftonbladet.se##.abAside > div:nth-of-type(40)
 aftonbladet.se##div > div:nth-of-type(18)
 aftonbladet.se##div > div:nth-of-type(19)
 aftonbladet.se##div > div:nth-of-type(20)
+aftonbladet.se##div > div:nth-of-type(40)
 aftonbladet.se##[style="min-height:600px"]
 aftonbladet.se##[style="margin:0;font-size:14px;font-family:Arial, Helvetica, Verdana, Geneva, sans-serif;font-weight:bold;letter-spacing:0.2px;line-height:1.28;color:#0067b5"]
 aftonbladet.se##[style="text-decoration:none;box-sizing:border-box;display:flex"]
@@ -5330,11 +5331,8 @@ popuper.js^
 *##+js(aopr, __ads)
 *##+js(acis, document.querySelector, erogesimg)
 *##+js(acis, document.querySelector, adblock)
-*##div:has(:scope > a:not([href*="/"]) > img:not([src*="/"]))
 *##+js(nostif, warn)
 *##+js(aopr, adc)
-*###sidebar > .widget:not([id]):has(>.holder > a[href])
-*##div[class][id]:not(.logo):not(*):has-text(/^$/)
 
 *##html:style(overflow-y: auto !important;)
 *##html:style(overflow-x: hidden !important;)
