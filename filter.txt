@@ -18,6 +18,10 @@ aftonbladet.se##.abTheme-adSportbladet
 aftonbladet.se##.abTheme-infeedad
 aftonbladet.se##.abBtnShare
 aftonbladet.se##.abAdWrapper
+aftonbladet.se##.abAside > div:nth-of-type(40)
+aftonbladet.se##div > div:nth-of-type(18)
+aftonbladet.se##div > div:nth-of-type(19)
+aftonbladet.se##div > div:nth-of-type(20)
 aftonbladet.se##[style="min-height:600px"]
 aftonbladet.se##[style="margin:0;font-size:14px;font-family:Arial, Helvetica, Verdana, Geneva, sans-serif;font-weight:bold;letter-spacing:0.2px;line-height:1.28;color:#0067b5"]
 aftonbladet.se##[style="text-decoration:none;box-sizing:border-box;display:flex"]
