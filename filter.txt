@@ -735,10 +735,11 @@ jawcloud.co##+js(aopr, AaDetector)
 jawcloud.co##+js(abort-current-inline-script.js, document.getElementById, style.display)
 jawcloud.co##[class="overlay"]
 jawcloud.co##a[href$=".html"]
+jawcloud.co##.loloba
 jawcloud.co##.banner
 jawcloud.co##[class="vjs-picture-in-picture-control vjs-control vjs-button"]
 @@||upvtt.com^$xmlhttprequest
-||jawcloud.co^$csp=script-src 'self' 'unsafe-inline' blob: data: *.jawcloud.co upvtt.com *.gstatic.com
+||jawcloud.co^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.jawcloud.co upvtt.com *.gstatic.com
 ||jawcloud.co/playerjs/themes/newtheme/videojs.logobrand.css$stylesheet,first-party,important
 ||jawcloud.co/playerjs/themes/newtheme/videojs.chromecast.min.css$stylesheet,first-party,important
 ||jawcloud.co/playerjs/store.js$script,first-party
