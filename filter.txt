@@ -8,10 +8,6 @@ aftonbladet.se##+js(acis, jQuery, adblocker)
 aftonbladet.se##+js(aopr, app_vars.force_disable_adblock)
 aftonbladet.se###outsider
 aftonbladet.se###MegaAd
-aftonbladet.se##div:matches-css(width: 316px):matches-css(height: 2px)
-aftonbladet.se##div:matches-css(width: 316px):matches-css(height: 58px)
-aftonbladet.se##div:matches-css(width: 664px):matches-css(height: 2px)
-aftonbladet.se##div:matches-css(width: 662px):matches-css(height: 20px)
 aftonbladet.se##script:inject(abort-current-inline-script.js, preLoadAds)
 aftonbladet.se##script:inject(abort-current-inline-script.js, preLoadAds, loadAd)
 aftonbladet.se##script:inject(abort-current-inline-script.js, preLoadAds, setup)
@@ -5152,8 +5148,7 @@ popuper.js^
 
 ##iframe[width="468"][height="60"]
 ##iframe[width="300"][height="250"]
-aliez.me###ads
-aliez.me###adbtm
+###adbtm
 
 #Test
 ##[src="/social-box/"]
@@ -5331,12 +5326,11 @@ aliez.me###adbtm
 *##+js(aopr, __ads)
 *##+js(acis, document.querySelector, erogesimg)
 *##+js(acis, document.querySelector, adblock)
-
 *##div:has(:scope > a:not([href*="/"]) > img:not([src*="/"]))
 *##+js(nostif, warn)
 *##+js(aopr, adc)
 *###sidebar > .widget:not([id]):has(>.holder > a[href])
-*##.content:if(:scope > div:has-text(Annons))
+*##div[class][id]:not(.logo):not(*):has-text(/^$/)
 
 *##html:style(overflow-y: auto !important;)
 *##html:style(overflow-x: hidden !important;)
