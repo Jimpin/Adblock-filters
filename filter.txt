@@ -2120,6 +2120,15 @@ dirdamid.com##a[href$=".html"]
 ##[class="adblock-option--turn-off"]
 ##[class="adblock-login_text"]
 ##[class="adblock-privacy"]
+##a[href*="/clickthrgh.asp?"]
+##a[href*="adtraction.com"]
+##div[class="ad-banner"]
+##div[class="ad-wrapper"]
+##div[class="block-ad"]
+##div[id="adbox_bottom"]
+##div[id="adbox_content"]
+##div[id="bottomads"]
+##td[class="adbanner"]
 ##adblock-modal
 ##[class="unlock start"]
 ###AdBlockDialog
@@ -2261,6 +2270,45 @@ dirdamid.com##a[href$=".html"]
 ###top-banner-container
 ###top-flashmessage
 ###top-flashmessage.hidden-sm.hidden-xs
+##.toptot
+##.top_baer
+##.ubm_banner
+##.center_banners
+###fanbox
+###fan-exit
+###fanback
+##.errorOverlay
+###exposeMask
+###iGSupport
+##.dialog-inner
+##.smokebg
+##.smoke-base.smoke-visible.smoke-alert
+##.adsbygoogle
+###div-advert
+###float_content_right
+###hide_float_right
+##.har_ad
+##.side_AD
+##.top_banneAd
+###bar_container_r
+###bar_top_r
+###u_0_1z
+##.quangcaopc
+##.page_body_adaccess_all_banners
+###page_body_advertiseplace
+##.ads-120.center-margin
+##.promo-img
+##.left-advertise-bar
+##.banner.rotating
+##.headbanner
+##.ad.clearfix
+###cheadbanner
+###ctopbanner
+###bar_top_r
+###hide_float_right
+###bar_container_r
+##.left-advertise-bar
+##.goog-te-banner-frame.skiptranslate
 ##.footerlinkad > center
 ##.col-lg-12:nth-of-type(1) > .small
 ##.col-lg-12:nth-of-type(1) > .hidden-xs
@@ -2670,7 +2718,6 @@ dirdamid.com##a[href$=".html"]
 ||psadsoob.com^
 ||adblade.com^
 ||adsnative.com^
-||cdn.nmcdn.us^
 ||content-ad.net^
 ||content.ad^
 ||newsmaxfeednetwork.com^
@@ -5191,6 +5238,7 @@ popuper.js^
 ##[src*="/hit.php"]
 ##[src*="/track"]
 ##[src*="/splash-zones-split.php"]
+##[src*="/ad.doubleclick.net/"]
 ://ad.$important
 ://adv.$important
 ://ads.$important
