@@ -31,6 +31,7 @@ aftonbladet.se##[class="afs_ads"]
 aftonbladet.se##[style="width: 1px; height: 1px; position: absolute; background: transparent none repeat scroll 0% 0%;"]
 aftonbladet.se##div:matches-css(width: 314px):matches-css(height: 314px)
 aftonbladet.se##div:matches-css(width: 630px):matches-css(height: 600px)
+aftonbladet.se##div:matches-css(width: 662px):matches-css(height: 20px):matches-css(display:flex)
 aftonbladet.se##div[style*="border-color:#0067b5;border-width:4px 0px 0px 0px;"] + a
 aftonbladet.se##div > h3:has-text(/annons/i)
 aftonbladet.se##article:has(a[data-sponsored="true"])
@@ -69,6 +70,7 @@ aftonbladet.se##a[href="https://www.strivesport.com/se/home"]
 klart.se##+js(aopr, blockAdBlock)
 ||stitcher.acast.com/livestitches/*$media,noopmp3=0.01s,domain=embed.acast.com
 @@/imgs.aftonbladet-cdn.se/*/images/
+@@/gfx.aftonbladet-cdn.se^$image,1p
 @@/hyper-assets/preload*$script,domain=aftonbladet.se
 @@/hyper-assets/app.$script,domain=aftonbladet.se
 @@/web/v1.2.41/index.js
