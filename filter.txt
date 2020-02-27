@@ -5367,7 +5367,22 @@ popuper.js^
 *##a[href*="/content")
 *##a[href*="/privacy")
 
---------------------------
+*##+js(acis, burtSegments)
+*##+js(acis, Bau, preloadAds)
+*##+js(ra, data-ad-config)
+*##+js(ra, data-article-tracking-info)
+*##+js(ra, data-video-tracking-info)
+*##[data-ad-client]
+
+*##+js(aopr, __ads)
+*##+js(acis, document.querySelector, adblock)
+*##+js(nostif, warn)
+*##html:style(overflow-y: auto !important;)
+*##html:style(overflow-x: hidden !important;)
+*##style:(overflow-y: overlay !important;)
+*##style:(overflow-x: hidden !important;)
+*##.is-showing.has-noScroll.modal:style(display: none !important;)
+*##.disabled-vscroll:style(overflow: auto !important;)
 
 *##.in.fade.modal-backdrop
 *##a[onclick="closeMyAd()"]
