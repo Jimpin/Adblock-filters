@@ -8,9 +8,10 @@ aftonbladet.se##+js(acis, jQuery, adblocker)
 aftonbladet.se##+js(aopr, app_vars.force_disable_adblock)
 aftonbladet.se###outsider
 aftonbladet.se###MegaAd
-aftonbladet.se##script:inject(abort-current-inline-script.js, preLoadAds)
-aftonbladet.se##script:inject(abort-current-inline-script.js, preLoadAds, loadAd)
-aftonbladet.se##script:inject(abort-current-inline-script.js, preLoadAds, setup)
+aftonbladet.se##+js(acis, preLoadAds, loadAd)
+aftonbladet.se##+js(acis, preLoadAds, setup)
+aftonbladet.se##+js(aeld, message, adError)
+aftonbladet.se##^script:has-text(preLoadAds)
 aftonbladet.se##script:inject(setTimeout-defuser.js, (), 1000)
 aftonbladet.se##.abTheme-ad
 aftonbladet.se##.abAdArea
@@ -28,7 +29,6 @@ aftonbladet.se##[style="margin:0;font-size:14px;font-family:Arial, Helvetica, Ve
 aftonbladet.se##[style="text-decoration:none;box-sizing:border-box;display:flex"]
 aftonbladet.se##div[style*="border-color:#0067b5;border-width:4px 0px 0px 0px;"] + a
 aftonbladet.se##div > h3:has-text(/annons/i)
-aftonbladet.se##[id="pymComponent4"]
 aftonbladet.se##article:has(a[data-sponsored="true"])
 aftonbladet.se##div[data-reactroot] > div > div#MegaAd ~ div[class]:not(#header):not(.abThemeGradientPage)
 aftonbladet.se##body.abTheme-entertainment *> .abAside > div[style^="text"]:last-child
@@ -41,7 +41,6 @@ aftonbladet.se##.share-icons
 aftonbladet.se##.social-shares
 aftonbladet.se##+js(sid, e.ping())
 aftonbladet.se##+js(sid, e.reportVisibility())
-aftonbladet.se###pymComponent0
 aftonbladet.se##.outerContainer
 aftonbladet.se##a[href*="/tv/a"]
 aftonbladet.se##a[href*=".se/kampanj?"]:has-text(/erbjudande/i)
@@ -69,27 +68,25 @@ aftonbladet.se##a[href="https://www.strivesport.com/se/home"]
 @@/hyper-assets/app.$script,domain=aftonbladet.se
 @@/web/v1.2.41/index.js
 @@||aftonbladet.se^$generichide
-/gdpr-bundle.js$script
 /pulse-sdk-html*.min.js$script,domain=aftonbladet.se
-||aftonbladet.se/cdn-cgi/scripts/*$script,domain=www.aftonbladet.se,important
+/provider.cast.js$script
+/gdpr-bundle.js$script
 ||aftonbladet.se/tv/temp.mp4$media /rabattkod/*$image,domain=aftonbladet.se
+||engage-auth.schibsted.media^$script
 ||api.privacy.schibsted.com^$xmlhttprequest
 ||adv.aftonbladet.se^$important
 ||ooul.tv/*/se-aftonbladet/aab/aftonbladet_$script,redirect=noopjs,domain=aftonbladet.se
 ||g.jwpsrv.com^$subdocument,important
 ||brandmetrics.com^
 ||collector.schibsted.io^$xmlhttprequest,important
-||ssl.p.jwpcdn.com/player/v/7.9.3/provider.cast.js$script,domain=aftonbladet.se,important
-||ssl.p.jwpcdn.com^*/vast.js$script,important,domain=aftonbladet.se,important
-||ssl.p.jwpcdn.com^*/sharing.js$important,script,domain=aftonbladet.se,important
-||ssl.p.jwpcdn.com^*/jwpsrv.js$important,script,domain=aftonbladet.se,important
+||ssl.p.jwpcdn.com^*/*.js$script,domain=aftonbladet.se
 ||svp.vg.no/svp/api/v1/time$xmlhttprequest,domain=aftonbladet.se,important
 ||ab-web-notifications.herokuapp.com^$xmlhttprequest,domain=aftonbladet.se,important
 ||interaction.acast.com/adImpression$xmlhttprequest,redirect=noop.txt
 ||interaction.acast.com/progress$xmlhttprequest,redirect=noop.txt
 ||auth.acast.com/v1/getAnonymousToken$xmlhttprequest,domain=embed.acast.com
 ||cdn.acast.com/images/ad-banner-black.jpg$image,domain=embed.acast.com,important
-||dc290.s407.meetrics.net^$image,important
+||meetrics.net^$image,important
 ||delivery.adten.eu^$image,xhr
 /embed/ab-
 
