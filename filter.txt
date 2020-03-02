@@ -31,7 +31,6 @@ aftonbladet.se##[class="afs_ads"]
 aftonbladet.se##[style="width: 1px; height: 1px; position: absolute; background: transparent none repeat scroll 0% 0%;"]
 aftonbladet.se##div:matches-css(width: 314px):matches-css(height: 314px)
 aftonbladet.se##div:matches-css(width: 630px):matches-css(height: 600px)
-aftonbladet.se##div:matches-css(width: 662px):matches-css(height: 20px):matches-css(display:flex)
 aftonbladet.se##div[style*="border-color:#0067b5;border-width:4px 0px 0px 0px;"] + a
 aftonbladet.se##div > h3:has-text(/annons/i)
 aftonbladet.se##article:has(a[data-sponsored="true"])
@@ -483,6 +482,9 @@ blocket.se###boost_content
 blocket.se###eas_load_data_inverted_classifieds
 blocket.se##.MediumLayout__CenterWithPadding-q6qal1-1 > div:nth-of-type(1)
 blocket.se##.MediumLayout__PlacementWrapper-y8zw9h-1
+blocket.se##[aria-label="Blocket cookie inställningar"]
+blocket.se##div:matches-css(width: 1012px):matches-css(height: 24px)
+/ad-block-detection-script-tag-src.js$script,redirect=noop.js
 ||logs2.xiti.com^
 
 #Twitter.com
@@ -1721,6 +1723,8 @@ dirdamid.com##a[href$=".html"]
 ##div[id^="ads300_600-widget"]
 ##div[id^="advads-"]
 ##div[id^="advads_"]
+##[title="adblockertest"]
+##[class="pub_300x250 pub_300x250m pub_728x90 text-ad textAd text_ad text_ads text-ads text-ad-links -adv.js -adv.jpg"]
 ##div[id^="block-views-topheader-ad-block-"]
 ##div[id^="cns_ads_"]
 ##div[id^="crt-"][style]
