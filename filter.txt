@@ -73,6 +73,7 @@ klart.se##+js(aopr, blockAdBlock)
 @@/hyper-assets/preload*$script,domain=aftonbladet.se
 @@/hyper-assets/app.$script,domain=aftonbladet.se
 @@/web/v1.2.41/index.js
+@@||aftonbladet.se/sportbladet
 @@||aftonbladet.se^$generichide
 /pulse-sdk-html*.min.js$script,domain=aftonbladet.se
 /provider.cast.js$script
