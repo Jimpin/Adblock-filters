@@ -484,6 +484,7 @@ blocket.se##.MediumLayout__CenterWithPadding-q6qal1-1 > div:nth-of-type(1)
 blocket.se##.MediumLayout__PlacementWrapper-y8zw9h-1
 blocket.se##[aria-label="Blocket cookie inställningar"]
 blocket.se##div:matches-css(width: 1012px):matches-css(height: 24px)
+@@||blocket.se^$generichide
 /ad-block-detection-script-tag-src.js$script,redirect=noop.js
 ||logs2.xiti.com^
 
