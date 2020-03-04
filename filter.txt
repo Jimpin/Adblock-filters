@@ -161,6 +161,7 @@ expressen.se##.slideshow__control
 twitch.tv##+js(acis, jQuery, adblocker)
 twitch.tv##+js(aopr, app_vars.force_disable_adblock)
 twitch.tv##[id="root-player"]
+twitch.tv##div[data-test-selector="channel_panel_test_selector"] > a[href^="http://bit.ly/"]
 twitch.tv##[class="extensions-dock-card tw-align-items-center tw-border-radius-medium tw-flex tw-mg-b-1 tw-mg-l-0 tw-mg-r-1 tw-mg-t-0 tw-root--hover tw-root--theme-light"]
 twitch.tv##.player-alert
 twitch.tv##.recommended-channels
@@ -220,8 +221,6 @@ player.twitch.tv##.player-overlay
 ||api.twitch.tv/kraken/streams/*$xmlhttprequest
 ||sentinel.twitchsvc.net/error-report
 ||api.twitch.tv/api/viewer/token.json
-||static.twitchcdn.net/config/*$important
-||static.twitchcdn.net/assets/vendor-*.js$script
 ||api.twitch.tv/kraken/user
 
 #Google.*
