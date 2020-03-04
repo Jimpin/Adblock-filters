@@ -2783,7 +2783,6 @@ dirdamid.com##a[href$=".html"]
 ||echo.scund.com^
 ||image.ibb.co^
 ||fqsbi.com^
-||l.google.com^$third-party
 ||jsc.mgid.com^
 ||uxrvjeyyj.com^
 ||popads.net^$important
