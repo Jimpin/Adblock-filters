@@ -209,6 +209,7 @@ player.twitch.tv##.player-overlay
 @@||irc-ws.chat.twitch.tv^$websocket,first-party
 @@||wss://pubsub-edge.twitch.tv
 ||twitch.tv/service-worker.js$important
+||sci.twitch.tv^$all
 ||trowel.twitch.tv/?data=[base64string]
 ||api.dbh.doub.ly^$xmlhttprequest,important
 ||ad.doubleclick.net/ddm/ad/*/*/*'/;ord='*$domain=twitch.tv
