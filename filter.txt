@@ -158,8 +158,6 @@ expressen.se##.slideshow__control
 .info/*-nyheter/$document
 
 #Twitch.tv
-twitch.tv##+js(acis, jQuery, adblocker)
-twitch.tv##+js(aopr, app_vars.force_disable_adblock)
 twitch.tv##[id="root-player"]
 twitch.tv##div[data-test-selector="channel_panel_test_selector"] > a[href^="http://bit.ly/"]
 twitch.tv##[class="extensions-dock-card tw-align-items-center tw-border-radius-medium tw-flex tw-mg-b-1 tw-mg-l-0 tw-mg-r-1 tw-mg-t-0 tw-root--hover tw-root--theme-light"]
@@ -204,10 +202,12 @@ twitch.tv##script:inject(set-constant.js, adblock, false)
 twitch.tv##script:inject(abort-current-inline-script.js, twitch-videoad.js)
 twitch.tv##script:inject(abort-current-inline-script.js, blockDetector.detected, true)
 twitch.tv##a[href$="twitch.tv"][target="_blank"]
+twitch.tv##+js(cookie-remover.js, unique_id)
 player.twitch.tv##.player-overlay
 /\/[a-z0-9_-]{15,}\.[a-z0-9-]+\.[a-z]{2,}\/.*?\w{40,}/$domain=twitch.tv
 @@||irc-ws.chat.twitch.tv^$websocket,first-party
 @@||wss://pubsub-edge.twitch.tv
+||twitch.tv$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' wss: blob: *.twitch.tv google.com gstatic.com *.jtvnw.net *.ttvnw.net *.twitchcdn.net recaptcha.net
 ||twitch.tv/service-worker.js$important
 ||sci.twitch.tv^$all
 ||trowel.twitch.tv/?data=[base64string]
