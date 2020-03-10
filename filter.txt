@@ -339,6 +339,7 @@ youtube.*###masthead-ad
 youtube.*##.masthead-ad-control
 youtube.*###video-masthead
 youtube.*###hats-container
+youtube.*##.style-scope ytd-badge-supported-renderer:has-text(/annons/i)
 youtube.*##.opened
 youtube.*###dialog
 youtube.*##.ytp-button.ytp-miniplayer-button
@@ -2953,7 +2954,8 @@ dirdamid.com##a[href$=".html"]
 ||udorik.com^
 ||ufraton.com^
 ||attirerpage.com^
-||s2s.rafotech.com^
+||rafotech.com^
+||intab.*^
 ||trotux.com^
 ||startpageing123.com^
 ||funcionapage.com^
@@ -3597,6 +3599,7 @@ adonis_
 movie/ads
 redirect.
 /1675303/
+/adServe/banners?tid=*$all,important
 /redirect
 /click?pid=*
 /\:\/\/data.*\.com\/[a-zA-Z0-9]{30,}/$third-party,xmlhttprequest
