@@ -5367,6 +5367,7 @@ popuper.js^
 
 *##a[href*="/betting"]
 *##a[href*="/brandstudio"]
+*##a[href*="/branding")
 *##a[href*="/casino"]
 *##a[href*="/kampanj"]:has-text(/erbjudande/i)
 *##a[href*="/lanapengar"]
