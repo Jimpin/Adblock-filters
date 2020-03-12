@@ -258,6 +258,7 @@ tv4play.se##[data-testid="ad-breaks-container"]
 tv4play.se##[data-test="desktop-cmore-upsell"]
 tv4play.se##[data-test="cmore-upsell-button"]
 tv4play.se##.js-cookie-banner
+tv4play.se#@#.adBanner
 tv4play.se###pause-img-holder
 tv4play.se##.cmore-cta
 tv4play.se##.cmore-btn
@@ -267,13 +268,12 @@ tv4play.se##.flash-ad-player-class
 tv4play.se##message-bar
 tv4play.se###skin-cover
 @@||imageproxy.b17g.services^$image
-@@||yospace.com/csm/live/*.m3u8$xmlhttprequest
 @@||tv4play.se^$image
 @@||personalization.services.tv4play.se/progress$xmlhttprequest
 @@||videoplaza.tv/proxy/distributor$xmlhttprequest
+@@/ads/-image-ad_ads.html$xmlhttprequest
 ||tv4play.se^$other
 ||tv4play.se/hic_qos$script,redirect=noop.js
-||tv4play.se/program/typeahead$xmlhttprequest,domain=tv4play.se,important
 ||tv4play-se.c.richmetrics.com^$script,redirect=noop.js
 ||bonnier-html-player.b17g.services/bumpers/$media,redirect=noop-1s.mp4,domain=fotbollskanalen.se|tv4play.se
 ||bumpers.tv4play.se^$media,important,redirect=noopmp3-0.1s,domain=tv4.se|tv4play.se|fotbollskanalen.se
@@ -301,8 +301,8 @@ tv4play.se###skin-cover
 ||sb.scorecardresearch.com^$image
 ||bomcl.richmetrics.com^$script,redirect=noop.js
 ||panel2.research-int.se^$subdocument
-||videoplaza.tv/*/pulse-sdk-html5/*$important,domain=tv4.se|tv4play.se|fotbollskanalen.se
-||videoplaza.tv/proxy/tracker/$important,third-party
+||videoplaza.tv/*/pulse-sdk-html5/$important,redirect=noop.txt,xmlhttprequest,domain=tv4.se|tv4play.se|fotbollskanalen.se
+||videoplaza.tv/proxy/tracker/$image,important,domain=fotbollskanalen.se|tv4play.se
 ||nice264.com/data?$third-party
 ||m.burt.io^$script,important
 ||hgc-cf-cache-1.svonm.com^$xmlhttprequest,domain=tv4play.se,important
@@ -611,7 +611,7 @@ nyafilmer.*##script:inject(abort-on-property-read.js, BetterJsPop)
 nyafilmer.*##script:inject(abort-current-inline-script.js, OneSignal)
 nyafilmer.*##script:inject(abort-current-inline-script.js, decodeURI, getScriptFromCss)
 nyafilmer.*##script:inject(addEventListener-defuser.js, /^(?:click|mousedown)$/, _0x)
-nyafilmer.*##+js(noeval-if, href)
+--nyafilmer.*##+js(noeval-if, href)
 nyafilmer.*##+js(acis, jQuery, appendTo)
 nyafilmer.*##+js(acis, jQuery, adblocker)
 nyafilmer.*##+js(aopr, open)
@@ -3283,7 +3283,7 @@ dirdamid.com##a[href$=".html"]
 ||vendorlist.consensu.org^$third-party
 ||typekit.net^
 ||xtendmedia.com^
-||bugsnag.com^$third-party
+||bugsnag.com^$3p
 ||m73lae5cpmgrv38.com^
 ||franecki.net^
 ||reichelcormier.bid^
@@ -5395,6 +5395,7 @@ popuper.js^
 *##.is-showing.has-noScroll.modal:style(display: none !important;)
 *##.disabled-vscroll:style(overflow: auto !important;)
 
+*##+js(noeval-if, href)
 *##.in.fade.modal-backdrop
 *##a[onclick="closeMyAd()"]
 *##a[onclick="rdr(this);"]
