@@ -5395,7 +5395,7 @@ popuper.js^
 *##.is-showing.has-noScroll.modal:style(display: none !important;)
 *##.disabled-vscroll:style(overflow: auto !important;)
 
-*##+js(noeval-if, href)
+*.se##+js(noeval-if, href)
 *##.in.fade.modal-backdrop
 *##a[onclick="closeMyAd()"]
 *##a[onclick="rdr(this);"]
