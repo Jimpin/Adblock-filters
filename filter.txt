@@ -514,8 +514,8 @@ twitter.com##div[class*="wtf-module"]
 twitter.com##div[class*="trends"]
 twitter.com##a[aria-label="Games"]
 twitpic.com##div[id="announcement"]
-||twitter.com^$third-party
 ||twitter.com/settings/facebook/*
+/widgets.js^
 
 #Gomovies.sc
 gomovies.*##+js(acis, jQuery, adblocker)
