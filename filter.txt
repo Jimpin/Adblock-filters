@@ -285,7 +285,6 @@ tv4play.se###skin-cover
 ||overlayz.b17g.net/overlay/*$xhr,redirect=noop.txt
 ||api.ipify.org^$xhr,redirect=noop.txt
 ||b17g.services/event$xhr
-||youborafds*.com/data$xhr,redirect=noop.txt,important
 ||googletagmanager.com/gtm.js$script
 ||restapi-vimond-prod.b17g.net^$xhr
 ||damoh.tv4play.se^$image
@@ -294,12 +293,12 @@ tv4play.se###skin-cover
 ||cloudfront.net/creatives/assets/$image,media,domain=tv4.se|tv4play.se|fotbollskanalen.se
 ||ssl.*damoh.tv4play.se$script,redirect=noop.js
 ||richmetrics.com^$script
-||search.spotxchange.com^$xmlhttprequest
+||spotxchange.com^$xmlhttprequest
 ||overlayz.b17g.net/overlay/*$xmlhttprequest,domain=tv4.se|tv4play.se|fotbollskanalen.se
 ||pixel.glimr.io^$script,redirect=noop.js
 ||sitestat.com^$image
-||sb.scorecardresearch.com^$image
-||bomcl.richmetrics.com^$script,redirect=noop.js
+||scorecardresearch.com^$image
+||richmetrics.com^$script,redirect=noop.js
 ||panel2.research-int.se^$subdocument
 ||videoplaza.tv/*/pulse-sdk-html5/$important,redirect=noop.txt,xmlhttprequest,domain=tv4.se|tv4play.se|fotbollskanalen.se
 ||videoplaza.tv/proxy/tracker/$image,important,domain=fotbollskanalen.se|tv4play.se
@@ -309,7 +308,7 @@ tv4play.se###skin-cover
 ||servedby.flashtalking.com^
 ||nqs.nice264.com^$xmlhttprequest,domain=tv4play.se,important
 ||*.mxcdn.net^
-||nuid.imrworldwide.com^$image
+||imrworldwide.com^$image
 /tv4play_plugin.$script,redirect=noop.js
 /u/file~text_vtt~dummy.vtt/*/webvtt.vtt$xmlhttprequest
 /analytics;jsessionid=*$xhr
