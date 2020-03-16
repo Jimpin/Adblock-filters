@@ -275,13 +275,15 @@ tv4play.se###skin-cover
 ||tv4play.se^$other
 ||tv4play.se/hic_qos$script,redirect=noop.js
 ||tv4play-se.c.richmetrics.com^$script,redirect=noop.js
-||bonnier-html-player.b17g.services/bumpers/$media,redirect=noop-1s.mp4,domain=fotbollskanalen.se|tv4play.se
+||bonnier-html-player.b17g.services/bumpers/$media,redirect=noop-1s.mp4,domain=tv4play.se|fotbollskanalen.se
 ||bumpers.tv4play.se^$media,important,redirect=noopmp3-0.1s,domain=tv4.se|tv4play.se|fotbollskanalen.se
 ||damoh.tv4play.se^$media,redirect=noopmp3-0.1s,domain=tv4.se|tv4play.se|fotbollskanalen.se
 ||se-tv4.videoplaza.tv/proxy/*$xhr,redirect=noop.txt
 ||tv4-trailers-prod.*.com/api/impression$xmlhttprequest
 ||tv4-trailers.*.net/api/trailers$xmlhttprequest
 ||tv4-trailers-prod.*.com^$important
+||youboranqs*.com/ad*$xhr,redirect=noop.txt,domain=tv4play.se|fotbollskanalen.se
+||youboranqs*.com/ping?
 ||overlayz.b17g.net/overlay/*$xhr,redirect=noop.txt
 ||api.ipify.org^$xhr,redirect=noop.txt
 ||b17g.services/event$xhr
@@ -309,11 +311,13 @@ tv4play.se###skin-cover
 ||nqs.nice264.com^$xmlhttprequest,domain=tv4play.se,important
 ||*.mxcdn.net^
 ||imrworldwide.com^$image
-/tv4play_plugin.$script,redirect=noop.js
+/tv4play_plugin.js$script,redirect=noop.js
 /u/file~text_vtt~dummy.vtt/*/webvtt.vtt$xmlhttprequest
 /analytics;jsessionid=*$xhr
 /images/Animation_Playknapp2.png$image
 /pixel?google_nid=*$xhr
+-homad-*^$xhr,redirect=noop.txt,domain=tv4play.se|fotbollskanalen.se
+/revcontent/bundle.js
 
 #Youtube.com
 youtube.*##+js(acis, jQuery, adblocker)
