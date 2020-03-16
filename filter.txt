@@ -284,6 +284,9 @@ tv4play.se###skin-cover
 ||tv4-trailers-prod.*.com^$important
 ||youboranqs*.com/ad*$xhr,redirect=noop.txt,domain=tv4play.se|fotbollskanalen.se
 ||youboranqs*.com/ping?
+||youboranqs*.com/stop?$xhr,important
+||youboranqs*.com/joinTime?joinDuration=*$xhr,domain=www.tv4play.se
+||vp.videoplaza.tv/resources/bwtest.jpg$xhr
 ||overlayz.b17g.net/overlay/*$xhr,redirect=noop.txt
 ||api.ipify.org^$xhr,redirect=noop.txt
 ||b17g.services/event$xhr
