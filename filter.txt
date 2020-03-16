@@ -176,6 +176,7 @@ twitch.tv##.tw-mg-t-4.tw-absolute.tw-justify-content-center.tw-flex-row.tw-flex.
 twitch.tv##.tw-mg-t-4.tw-absolute.tw-justify-content-center.tw-flex-row.tw-flex.tw-align-items-center.tw-z-above.tw-left-0.tw-bottom-0.tw-right-0.tw-top-0.persistent-player__hover-controls
 twitch.tv##.tw-pd-1.tw-justify-content-between.tw-flex-row.tw-flex.tw-align-items-center.tw-border-l.tw-border-b.tw-border-r.fuel-bar
 twitch.tv##.tw-pd-1.tw-flex.tw-c-text
+twitch.tv##.tw-justify-content-center.tw-flex-row.tw-flex.tw-c-text-overlay.tw-c-background-accent-alt-2.tw-align-items-center.consent-banner
 twitch.tv##.fbc-badge-fence
 twitch.tv###root > div > div.twilight-root.tw-right-0.tw-bottom-0.tw-left-0.tw-overflow-hidden.tw-flex.tw-flex-column.tw-flex-nowrap.tw-absolute > div.tw-full-height.tw-flex.tw-flex-nowrap.tw-relative:nth-child(4) > main.twilight-main.tw-full-width.tw-fl-height.tw-overflow-hidden.tw-flex.tw-flex-column.tw-flex-grow-1.tw-relative:nth-child(2) > div.root-scrollable.scrollable-area.scrollable-area--suppress-scroll-x:nth-child(2) > div.simplebar-scroll-content:last-child > div.simplebar-content.root-scrollable__content > div.root-scrollable__wrapper.tw-full-width.tw-relative > div.channel-page.tw-full-height:first-child > div.chennel-page-layout.tw-full-height.tw-flex.tw-flex-column.tw-flex-nowrap > div.tw-pd-t-2.tw-pd-x-3 > div.tw-animation.tw-animation--animate.tw-animation--delay-medium.tw-animation--duration-medium.tw-animation--fill-mode-both.tw-animation--timing-ease.tw-animation--slide-in-bottom:first-child
 twitch.tv###default-player > div.player-root > div.pl-overlay.pl-overlay__fullscreen:first-child
@@ -444,7 +445,7 @@ svenskafans.com##.ad_display_336:nth-of-type(17)
 svenskafans.com##.sticky_inner > .std_puff:nth-of-type(52)
 svenskafans.com##.sticky_inner > .std_puff:nth-of-type(53)
 ||svenskafans.com/images/menu-logo/top/Bakgrund_toppmeny.png$image
-||svenskafans.com/WebResource.axd$domain=www.svenskafans.com,important
+||svenskafans.com/WebResource.axd$important
 ||svenskafans.com/css/feedbackpopup.css$stylesheet,domain=www.svenskafans.com,important
 ||svenskafans.com/js/awp.min.js$script,domain=www.svenskafans.com,important
 ||svenskafans.com/css/uniform.default.css$stylesheet,domain=www.svenskafans.com,important
@@ -618,7 +619,7 @@ nyafilmer.*##script:inject(abort-on-property-read.js, BetterJsPop)
 nyafilmer.*##script:inject(abort-current-inline-script.js, OneSignal)
 nyafilmer.*##script:inject(abort-current-inline-script.js, decodeURI, getScriptFromCss)
 nyafilmer.*##script:inject(addEventListener-defuser.js, /^(?:click|mousedown)$/, _0x)
---nyafilmer.*##+js(noeval-if, href)
+nyafilmer.*##+js(noeval-if, href)
 nyafilmer.*##+js(acis, jQuery, appendTo)
 nyafilmer.*##+js(acis, jQuery, adblocker)
 nyafilmer.*##+js(aopr, open)
