@@ -355,7 +355,6 @@ youtube.*##.ytp-button.ytp-miniplayer-button
 ||youtube.com/error_204$xhr
 ||youtube.com/csi_204$image
 ||youtube.com/youtubei/*
-||youtube.com/api/stats
 ||youtube.com/pagead
 ||youtube.com/ptracking
 ||youtube.com/get_midroll_info$important
