@@ -1455,7 +1455,6 @@ onhockey.tv##[src="pic/sad.gif"]
 60fps.live##.container > div:nth-of-type(2)
 60fps.live###playBtn
 @@/plugins/vlplayer/$script
-/custom
 ||60fps.live/wp-includes/js/wp-emoji-release.min.js$script
 ||60fps.live/wp-content/themes/rapidwp/assets/images/scroll-top.png$image
 ||cdn.totalsportek.com/wp-content/uploads/*/Watch-now.jpg$image
