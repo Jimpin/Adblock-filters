@@ -488,6 +488,7 @@ blocket.se##.mbs.h6.plural-headline
 blocket.se###ufti
 blocket.se###ufti-bg
 blocket.se###boost_content
+blocket.se##.slick-track
 blocket.se##.slick-current.slick-active.slick-slide:has-text(Listettan)
 blocket.se###eas_load_data_inverted_classifieds
 blocket.se##.MediumLayout__CenterWithPadding-q6qal1-1 > div:nth-of-type(1)
