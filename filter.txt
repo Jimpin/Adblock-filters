@@ -635,6 +635,7 @@ nyafilmer.*##body > iframe
 nyafilmer.*##.Breadcrumb
 nyafilmer.*##.found-movies
 nyafilmer.*##.header-social-icons
+nyafilmer.*##.smallnews
 nyafilmer.*##.nya-ann
 nyafilmer.*###menu-item-76123 > a[href^="/filter/"]
 nyafilmer.*###menu-item-76124 > a[href^="/filter/"]
