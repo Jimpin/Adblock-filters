@@ -495,7 +495,6 @@ blocket.se##.slick-track
 blocket.se##.slick-current.slick-active.slick-slide:has-text(Listettan)
 blocket.se###eas_load_data_inverted_classifieds
 blocket.se##div:has-text(cookies)
-blocket.se##[aria-label="Blocket cookie inställningar"]
 blocket.se##.MediumLayout__CenterWithPadding-q6qal1-1 > div:nth-of-type(1)
 blocket.se##.MediumLayout__PlacementWrapper-y8zw9h-1
 blocket.se##div:matches-css(width: 1012px):matches-css(height: 24px)
