@@ -318,7 +318,7 @@ tv4play.se###skin-cover
 ||nqs.nice264.com^$xmlhttprequest,domain=tv4play.se,important
 ||*.mxcdn.net^
 ||imrworldwide.com^$image
-/tv4play_plugin.js$script,redirect=noop.js
+/tv4play_plugin.$script,redirect=noop.js
 /u/file~text_vtt~dummy.vtt/*/webvtt.vtt$xmlhttprequest
 /analytics;jsessionid=*$xhr
 /images/Animation_Playknapp2.png$image
@@ -5377,6 +5377,7 @@ popuper.js^
 /smpop-stable.js$script
 /privacy/notification?$xmlhttprequest
 /glimr.$script
+/gdpr-bundle.$script
 
 *##a[href*="/betting"]
 *##a[href*="/brandstudio"]
@@ -5390,6 +5391,7 @@ popuper.js^
 *##a[href*="/spela"]
 *##a[href*="/content")
 *##a[href*="/privacy")
+*##a[href*="/clk."]
 
 *##+js(acis, burtSegments)
 *##+js(acis, Bau, preloadAds)
