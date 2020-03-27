@@ -36,6 +36,8 @@ aftonbladet.se##div:matches-css(width: 630px):matches-css(height: 600px)
 aftonbladet.se##div[style*="border-color:#0067b5;border-width:4px 0px 0px 0px;"] + a
 aftonbladet.se##div > h3:has-text(/annons/i)
 aftonbladet.se##article:has(a[data-sponsored="true"])
+aftonbladet.se##div.HLf1C:has-text(ANNONS)
+aftonbladet.se##div.HLf1C:has-text(lån)
 aftonbladet.se##div[data-reactroot] > div > div#MegaAd ~ div[class]:not(#header):not(.abThemeGradientPage)
 aftonbladet.se##body.abTheme-entertainment *> .abAside > div[style^="text"]:last-child
 aftonbladet.se##div > div:nth-of-type(21)
@@ -100,6 +102,7 @@ klart.se##+js(aopr, blockAdBlock)
 ||cdn.acast.com/images/ad-banner-black.jpg$image,domain=embed.acast.com,important
 ||meetrics.net^$image,important
 ||delivery.adten.eu^$image,xhr
+##[data-test="cookie-consent"]
 /embed/ab-
 
 #Expressen.se
