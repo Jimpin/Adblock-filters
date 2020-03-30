@@ -5327,7 +5327,6 @@ popuper.js^
 *##+js(acis, Exp, bamData)
 *##+js(acis, losAd)
 *##+js(acis, jQuery, adscript)
-*##+js(noeval-if.js, enqueueAd)
 *##+js(acis, Fusion, loadAds)
 
 *##+js(acis, popunder)
@@ -5369,7 +5368,6 @@ popuper.js^
 ##li[data-test-id="infinite-scroll-PENCIL"]
 
 /\.cloudfront.*\/\?.*[a-zA-Z0-9]{5,16}/$script,3p
-/ajax.*/$3p
 .googletagmanager.*/$3p
 .histats.*/$script,important
 .adskeeper.*/$script,important
