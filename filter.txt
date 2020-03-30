@@ -1026,14 +1026,11 @@ firstonetv.net##+js(abort-on-property-write.js, isBlocked)
 &&_=
 
 #Crackwatch.com
-crackwatch.com##+js(acis, jQuery, adblocker)
-crackwatch.com##+js(aopr, app_vars.force_disable_adblock)
 crackwatch.com##.Overlay
 crackwatch.com##.announcement
 crackwatch.com##div[style$="text-align: center;"] > div > a[rel="nofollow noopener noreferrer"] span[style*="background-image"][style*="base64"]:style(height: 1px!important; min-height: 1px!important; background-image: none!important;)
+crackwatch.com##.Footer
 ||instant-gaming.com/affgames/*$subdocument
-||crackwatch.com/cdn-cgi/trace$xhr
-||crackwatch.com/sockjs/*$websocket
 ||crackwatch.com/badf*.css$stylesheet,1p
 
 #Viafree.se
