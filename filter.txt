@@ -1245,6 +1245,8 @@ lookmovie.ag##+js(popads-dummy)
 lookmovie.ag##.plr-help-stripe
 lookmovie.ag##div:nth-of-type(6) > div:nth-of-type(1)
 lookmovie.ag##body > div:nth-of-type(6)
+lookmovie.ag##body > iframe
+lookmovie.ag##.notifyjs-corner
 lookmovie.ag##[class="show-recaptcha"]
 lookmovie.ag##[class="wellcome-boy-message"]
 lookmovie.ag##[id="overlay-article"]
@@ -1879,6 +1881,10 @@ dirdamid.com##a[href$=".html"]
 ##div[class*="adv-box"]
 ##div[class^="box-ad"]
 ##div[class^="commercial-unit-"]
+##.mobile-only-hide
+##.remove-ads-link
+##.remove-ads
+##.share
 ###disable-ads-container
 ###display-ads
 ###displayAd
@@ -3375,6 +3381,7 @@ dirdamid.com##a[href$=".html"]
 ||pheedroh.net^
 ||saturepermine.info^
 ||sooloaph.com^
+||clksite.com^$all,important
 ||tonsterandhantan.info^
 ||pxl2015x1.com^
 ||herdethi.net^
