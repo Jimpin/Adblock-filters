@@ -3255,6 +3255,8 @@ dirdamid.com##a[href$=".html"]
 ||liveinternet.ru^$important
 ||misrepush.com^$important
 ||adbetnet.com^$important
+||loantech.top^
+||ene.ba^
 ||adserving.unibet.com^
 ||deloton.com^
 ||phokukse.com^$important
@@ -5306,7 +5308,6 @@ popuper.js^
 *##+js(abort-on-property-write, AdDelivery)
 
 *##[id^='adsIfrme']:has(:scope > iframe[src^='/ads/'])
-*##+js(bab-defuser.js)
 *##+js(abort-on-property-read.js, cursorAd)
 *##+js(set-constant.js, advertisementText, undefined)
 *##+js(acis, _adform)
