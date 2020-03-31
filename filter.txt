@@ -361,6 +361,7 @@ youtube.*###dialog
 youtube.*##.ytp-button.ytp-miniplayer-button
 @@||youtube.com^$xhr
 @@||youtube.com/player_api$third-party
+||youtube.com/api/stats/qoe?event
 ||youtube.com/error_204$xhr
 ||youtube.com/csi_204$image
 ||youtube.com/youtubei/*
@@ -3499,8 +3500,8 @@ dirdamid.com##a[href$=".html"]
 ||tracker.*/wss$websocket
 ||tracker.*/$script
 ||tracker.*/$xmlhttprequest
-||lookpic.com/td.jpg
-||lookpic.com/yeah.gif
+||lookpic.com/*.jpg
+||lookpic.com/*.gif
 .consent-cookie.
 .cookie-law.$script
 .cookie-policy.
@@ -5236,6 +5237,7 @@ popuper.js^
 ###adbtm
 
 #Test
+photobucket.com#@#[id*="Preload"]
 ##[src="/social-box/"]
 ##[src*="/next.php"]
 ##[src*="/?yadrd="]
@@ -5414,6 +5416,7 @@ popuper.js^
 *##+js(aopr, __ads)
 *##+js(acis, document.querySelector, adblock)
 *##+js(nostif, warn)
+*##html:style(filter: none !important)
 *##html:style(overflow-y: auto !important;)
 *##html:style(overflow-x: hidden !important;)
 *##style:(overflow-y: overlay !important;)
