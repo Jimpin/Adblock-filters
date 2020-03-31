@@ -333,8 +333,6 @@ tv4play.se###skin-cover
 /revcontent/bundle.js
 
 #Youtube.com
-youtube.*##+js(acis, jQuery, adblocker)
-youtube.*##+js(aopr, app_vars.force_disable_adblock)
 youtube.*##.ad-div
 youtube.*##.annotation.iv-branding
 youtube.*##.opened
@@ -342,6 +340,7 @@ youtube.*###dialog
 youtube.*##.yt-alert-content
 youtube.*##[class="ytp-cued-thumbnail-overlay"]
 youtube.*##[class="style-scope yt-live-chat-viewer-engagement-message-renderer"]
+youtube.*##.ytp-fullerscreen-edu-text
 youtube.*##.ytp-ce-element
 youtube.*##.ytp-cards-teaser-text
 youtube.*##.ytp-ce-covering-overlay
@@ -360,6 +359,7 @@ youtube.*##.style-scope ytd-badge-supported-renderer:has-text(/annons/i)
 youtube.*##.opened
 youtube.*###dialog
 youtube.*##.ytp-button.ytp-miniplayer-button
+@@||youtube.com^$xhr
 @@||youtube.com/player_api$third-party
 ||youtube.com/error_204$xhr
 ||youtube.com/csi_204$image
