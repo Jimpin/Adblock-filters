@@ -315,7 +315,7 @@ tv4play.se###skin-cover
 ||videoplaza.tv/proxy/tracker/$image,important,domain=fotbollskanalen.se|tv4play.se
 ||nice264.com/data?$third-party
 ||m.burt.io^$script,important
-||hgc-cf-cache-1.svonm.com^$xmlhttprequest,domain=tv4play.se,important
+||svonm.com^$xmlhttprequest,domain=tv4play.se,important
 ||servedby.flashtalking.com^
 ||nqs.nice264.com^$xmlhttprequest,domain=tv4play.se,important
 ||*.mxcdn.net^
@@ -330,32 +330,33 @@ tv4play.se###skin-cover
 /revcontent/bundle.js
 
 #Youtube.com
-youtube.*##.ad-div
-youtube.*##.annotation.iv-branding
-youtube.*##.opened
-youtube.*###dialog
-youtube.*##.yt-alert-content
-youtube.*##[class="ytp-cued-thumbnail-overlay"]
-youtube.*##[class="style-scope yt-live-chat-viewer-engagement-message-renderer"]
-youtube.*##.ytp-fullerscreen-edu-text
-youtube.*##.ytp-ce-element
-youtube.*##.ytp-cards-teaser-text
-youtube.*##.ytp-ce-covering-overlay
-youtube.*##.ytp-scrubber-container
-youtube.*##.ytp-ad-progress
-youtube.*##.ytp-ad-progress-list
-youtube.*##.ytp-fullerscreen-edu-chevron
-youtube.*###material-notice
-youtube.*##.pyv-afc-ads-container
-youtube.*###ticker
-youtube.*###masthead-ad
-youtube.*##.masthead-ad-control
-youtube.*###video-masthead
-youtube.*###hats-container
-youtube.*##.style-scope ytd-badge-supported-renderer:has-text(/annons/i)
-youtube.*##.opened
-youtube.*###dialog
-youtube.*##.ytp-button.ytp-miniplayer-button
+youtube.com##.ad-div
+youtube.com##.annotation.iv-branding
+youtube.com##.opened
+youtube.com###dialog
+youtube.com##.yt-alert-content
+youtube.com##[class="ytp-cued-thumbnail-overlay"]
+youtube.com##[class="style-scope yt-live-chat-viewer-engagement-message-renderer"]
+youtube.com##.ytp-fullerscreen-edu-text
+youtube.com##.ytp-fullerscreen-edu-text
+youtube.com##.ytp-ce-element
+youtube.com##.ytp-cards-teaser-text
+youtube.com##.ytp-ce-covering-overlay
+youtube.com##.ytp-scrubber-container
+youtube.com##.ytp-ad-progress
+youtube.com##.ytp-ad-progress-list
+youtube.com##.ytp-fullerscreen-edu-chevron
+youtube.com###material-notice
+youtube.com##.pyv-afc-ads-container
+youtube.com###ticker
+youtube.com###masthead-ad
+youtube.com##.masthead-ad-control
+youtube.com###video-masthead
+youtube.com###hats-container
+youtube.com##.style-scope ytd-badge-supported-renderer:has-text(/annons/i)
+youtube.com##.opened
+youtube.com###dialog
+youtube.com##.ytp-button.ytp-miniplayer-button
 @@||youtube.com^$xhr
 @@||youtube.com/player_api$third-party
 ||youtube.com/api/stats/qoe?event
@@ -365,7 +366,7 @@ youtube.*##.ytp-button.ytp-miniplayer-button
 ||youtube.com/pagead
 ||youtube.com/ptracking
 ||youtube.com/get_midroll_info$important
-*_ad_$media,domain=youtube.com,third-party
+*_ad_$media,redirect=noop-0.1s.mp3
 ||google.*/jsapi?autoload=*%22ads%22$script
 ||gstatic.com/inputtools/images/*$image,important
 ||static.doubleclick.net/instream/ad_status.js$other,redirect=noop.js
@@ -2368,6 +2369,7 @@ dirdamid.com##a[href$=".html"]
 ###_evidon-barrier-wrapper
 ##.zmgad-full-width
 ##.zmgad-right-rail
+##.cookieinfo
 ##.cookie-holder
 ##.cookie-bar
 ##.cookie-bar-message:not(body):not(html)
@@ -5402,6 +5404,9 @@ photobucket.com#@#[id*="Preload"]
 *##a[href*="/clk."]
 *##a[href*="/wellobe."]
 *##a[href*="/viktklubb."]
+*##a[href*="/track."]
+*##a[href*="/tracker."]
+*##a[href*="/trackers."]
 
 *##+js(acis, burtSegments)
 *##+js(acis, Bau, preloadAds)
