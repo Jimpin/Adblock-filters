@@ -34,7 +34,6 @@ aftonbladet.se##[style="width: 1px; height: 1px; position: absolute; background:
 aftonbladet.se##div:matches-css(width: 314px):matches-css(height: 314px)
 aftonbladet.se##div:matches-css(width: 630px):matches-css(height: 600px)
 aftonbladet.se##div[style*="border-color:#0067b5;border-width:4px 0px 0px 0px;"] + a
-aftonbladet.se##div > h3:has-text(/annons/i)
 aftonbladet.se##article:has(a[data-sponsored="true"])
 aftonbladet.se##div[data-reactroot] > div > div#MegaAd ~ div[class]:not(#header):not(.abThemeGradientPage)
 aftonbladet.se##body.abTheme-entertainment *> .abAside > div[style^="text"]:last-child
