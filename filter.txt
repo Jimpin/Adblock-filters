@@ -5407,6 +5407,7 @@ photobucket.com#@#[id*="Preload"]
 *##a[href*="/track."]
 *##a[href*="/tracker."]
 *##a[href*="/trackers."]
+*##a[href*="/whitebox."]
 
 *##+js(acis, burtSegments)
 *##+js(acis, Bau, preloadAds)
