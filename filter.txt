@@ -48,7 +48,7 @@ aftonbladet.se##+js(nosiif, e.reportVisibility())
 aftonbladet.se##+js(nosiif, e.ping())
 aftonbladet.se##.outerContainer
 aftonbladet.se##a[href*="/tv/a"]
-aftonbladet.se##a[href*=".se/kampanj?"]:has-text(/erbjudande/i)
+aftonbladet.se##a[href*="/kampanj"]
 aftonbladet.se##.jw-reset.jw-controls > .jw-reset.jw-controls-right > .jw-reset.jw-dock > .jw-sharing-dock-btn.jw-reset.jw-background-color.jw-dock-button
 aftonbladet.se##div:nth-of-type(37)
 aftonbladet.se##div:nth-of-type(38)
@@ -5391,6 +5391,7 @@ photobucket.com#@#[id*="Preload"]
 *##a[href*="/brandstudio"]
 *##a[href*="/branding")
 *##a[href*="/casino"]
+*##a[href*="/casinoguide"]
 *##a[href*="/kampanj"]:has-text(/erbjudande/i)
 *##a[href*="/lanapengar"]
 *##a[href*="/premium/erbjudanden/"]
@@ -5398,7 +5399,7 @@ photobucket.com#@#[id*="Preload"]
 *##a[href*="/rabattkoder"]
 *##a[href*="/spela"]
 *##a[href*="/content")
-*##a[href*="/privacy")
+*##a[href*="/privacy"]
 *##a[href*="/clk."]
 *##a[href*="/wellobe."]
 *##a[href*="/viktklubb."]
