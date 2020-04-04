@@ -50,8 +50,6 @@ aftonbladet.se##.outerContainer
 aftonbladet.se##a[href*="/tv/a"]
 aftonbladet.se##a[href*=".se/kampanj?"]:has-text(/erbjudande/i)
 aftonbladet.se##.jw-reset.jw-controls > .jw-reset.jw-controls-right > .jw-reset.jw-dock > .jw-sharing-dock-btn.jw-reset.jw-background-color.jw-dock-button
-aftonbladet.se##.HLf1C:has-text(casino)
-aftonbladet.se##.HLf1C:has-text(rabattkoder)
 aftonbladet.se##div:nth-of-type(37)
 aftonbladet.se##div:nth-of-type(38)
 aftonbladet.se##a[href*="?utm_source=aftonbladet&utm_medium=textlink&utm_campaign=widget"]
