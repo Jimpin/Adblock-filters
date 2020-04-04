@@ -27,6 +27,8 @@ aftonbladet.se##[style="margin:0;font-size:14px;font-family:Arial, Helvetica, Ve
 aftonbladet.se##[style="text-decoration:none;box-sizing:border-box;display:flex;flex-direction:column;background-color:#ffffff;border-color:#e8e8e8;border-width:1px;margin:0px 0px 6px 0px;padding:16px;border-style:solid"]
 aftonbladet.se##[style="text-decoration:none;box-sizing:border-box;display:flex;flex-direction:column;border-color:#0067b5;border-width:4px 0px 0px 0px;margin:-16px -16px 0px -16px;padding:8px 16px 8px 16px;flex-grow:1;border-style:solid"]
 aftonbladet.se##[style="text-decoration:none;box-sizing:border-box;display:flex"]
+aftonbladet.se##[style="text-decoration:none;box-sizing:border-box;display:flex;flex-direction:column;border-color:#0067b5;border-width:4px 0px 0px 0px;margin:0px -16px 0px -16px;padding:8px 16px 8px 16px;flex-grow:1;border-style:solid"]
+aftonbladet.se##[style="text-decoration: none; box-sizing: border-box; display: flex; flex-direction: column; border-color: rgb(0, 103, 181); border-width: 4px 0px 0px; margin: 0px -16px; padding: 8px 16px; flex-grow: 1; border-style: solid;"]
 aftonbladet.se##[rahrefbattkod=""]
 aftonbladet.se##[style="background-color:#0067b5;border-radius:2px;margin:16px 0px 0px 0px;padding:5px 5px 4px 5px;align-self:flex-start;font-size:11px;font-family:Arial, Helvetica, Verdana, Geneva, sans-serif;font-weight:bold;line-height:1;text-transform:uppercase;color:#fefefe;-webkit-font-smoothing:antialiased"]
 aftonbladet.se##.svp-viewport-tiny.jw-floating-dismissible.jw-flag-small-player.jw-breakpoint-0.jw-skin-seven.jw-skin-svp-default.jw-stretch-uniform.jw-state-playing.jw-reset.jwplayer
