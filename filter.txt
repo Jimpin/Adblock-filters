@@ -17,11 +17,6 @@ aftonbladet.se##.abTheme-adSportbladet
 aftonbladet.se##.abTheme-infeedad
 aftonbladet.se##.abBtnShare
 aftonbladet.se##.abAdWrapper
-aftonbladet.se##.abAside > div:nth-of-type(40)
-aftonbladet.se##div > div:nth-of-type(18)
-aftonbladet.se##div > div:nth-of-type(19)
-aftonbladet.se##div > div:nth-of-type(20)
-aftonbladet.se##div > div:nth-of-type(40)
 aftonbladet.se##[style="min-height:600px"]
 aftonbladet.se##[style="margin:0;font-size:14px;font-family:Arial, Helvetica, Verdana, Geneva, sans-serif;font-weight:bold;letter-spacing:0.2px;line-height:1.28;color:#0067b5"]
 aftonbladet.se##[style="text-decoration:none;box-sizing:border-box;display:flex;flex-direction:column;background-color:#ffffff;border-color:#e8e8e8;border-width:1px;margin:0px 0px 6px 0px;padding:16px;border-style:solid"]
@@ -37,9 +32,6 @@ aftonbladet.se##.svp-viewport-tiny.jw-floating-dismissible.jw-flag-small-player.
 aftonbladet.se##[class="svp-player-recommended-box"]
 aftonbladet.se##[class="afs_ads"]
 aftonbladet.se##[style="width: 1px; height: 1px; position: absolute; background: transparent none repeat scroll 0% 0%;"]
-aftonbladet.se##div:matches-css(width: 314px):matches-css(height: 314px)
-aftonbladet.se##div:matches-css(width: 630px):matches-css(height: 600px)
-aftonbladet.se##div:matches-css(width: 316px):matches-css(height: 18px)
 aftonbladet.se##div[style*="border-color:#0067b5;border-width:4px 0px 0px 0px;"] + a
 aftonbladet.se##article:has(a[data-sponsored="true"])
 aftonbladet.se##div[data-reactroot] > div > div#MegaAd ~ div[class]:not(#header):not(.abThemeGradientPage)
@@ -57,8 +49,6 @@ aftonbladet.se##.outerContainer
 aftonbladet.se##a[href*="/tv/a"]
 aftonbladet.se##a[href*="/kampanj"]
 aftonbladet.se##.jw-reset.jw-controls > .jw-reset.jw-controls-right > .jw-reset.jw-dock > .jw-sharing-dock-btn.jw-reset.jw-background-color.jw-dock-button
-aftonbladet.se##div:nth-of-type(37)
-aftonbladet.se##div:nth-of-type(38)
 aftonbladet.se##a[href*="?utm_source=aftonbladet&utm_medium=textlink&utm_campaign=widget"]
 acast.*##+js(acis, jQuery, adblocker)
 acast.*##+js(aopr, app_vars.force_disable_adblock)
