@@ -1196,6 +1196,7 @@ rltracker.pro##.col-sm-12 > .row
 ||foazasis.com^
 ||caithamo.net^3p
 ||connect.facebook.net^$3p
+||chatbro.com^
 
 #0123movies.com
 0123movies.*##+js(acis, jQuery, adblocker)
