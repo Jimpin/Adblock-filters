@@ -703,6 +703,9 @@ nyafilmer.*##[class="skinMobile"]
 nyafilmer.*##[class="bigbg"]
 nyafilmer.*##.fb-xfbml-parse-ignore
 nyafilmer.*##.sort.tags > .title
+nyafilmer.*##[class="clear"]
+nyafilmer.*##[class="disqus_section"]
+nyafilmer.*##[class="iframeInfo"]
 nyafilmer.*##.dialogbox
 nyafilmer.*##.dialogback
 nyafilmer.*##.button.fke
@@ -726,8 +729,9 @@ nyafilmer.*##[class="headerSpace"]
 ||nyafilmer.*/*.gif$image
 ||nyafilmer.*/branding/$image
 ||nyafilmer.*$other,first-party
-||nyafilmer.*/wp-includes/js/wp-embed.min.js$script,first-party
-||nyafilmer.*/wp-content/cache/wpfc-minified/90ad1b1558947f8bf61be541793793c5/*index.css
+||nyafilmer.*/wp-includes/js/comment-reply.min.js$script
+||nyafilmer.*/wp-includes/js/wp-embed.min.js$script
+||nyafilmer.*/wp-content/cache/wpfc-minified/*/*index.css
 ||nyafilmer.*/wp-content/themes/keremiya1/js/jopper.js$script,important
 ||nyafilmer.*/wp-content/themes/keremiya1/nya.light.css?*$stylesheet,first-party
 ||nyafilmer.*/wp-content/themes/keremiya1/font/icon/keremiya.woff2$font
@@ -3474,7 +3478,7 @@ dirdamid.com##a[href$=".html"]
 ||pp.lp4.io^$image
 ||zukxd6fkxqn.com^$important
 ||serving-sys.com^
-||xml.revrtb.com^$important
+||revrtb.com^$important
 ||cdm.cursecdn.com^$script,important
 ||ipinfo.io^$important
 ||imrworldwide.com^$important
