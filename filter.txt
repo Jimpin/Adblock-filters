@@ -703,6 +703,7 @@ nyafilmer.*##[class="skinMobile"]
 nyafilmer.*##[class="bigbg"]
 nyafilmer.*##.fb-xfbml-parse-ignore
 nyafilmer.*##.sort.tags > .title
+nyafilmer.*##[type="text/javascript"]
 nyafilmer.*##[class="clear"]
 nyafilmer.*##[class="disqus_section"]
 nyafilmer.*##[class="iframeInfo"]
@@ -2685,6 +2686,7 @@ dirdamid.com##a[href$=".html"]
 ||defpush.com^$script
 ||panel2.research-int.se^
 ||sifomedia.*
+||gstatic.com/feedback/*$script
 ||herokuapp.com^
 ||bit.ly^$subdocument,inline-script
 ||unrulymedia.com^
@@ -5414,6 +5416,7 @@ photobucket.com#@#[id*="Preload"]
 *##a[href*="/tracker."]
 *##a[href*="/trackers."]
 *##a[href*="/whitebox."]
+*##a[href*="/track.adtraction.com/"]
 
 *##+js(acis, burtSegments)
 *##+js(acis, Bau, preloadAds)
