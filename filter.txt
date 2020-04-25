@@ -267,8 +267,6 @@ tv4play.se###pause-img-holder
 tv4play.se##.cmore-cta
 tv4play.se##.cmore-btn
 tv4play.se###__next > div:not(:first-child)
-tv4play.se##.pulse-ad-counter-slide.pulse-visible.pulse-ad-counter
-tv4play.se##.flash-ad-player-class
 tv4play.se##message-bar
 tv4play.se###skin-cover
 @@||tv4play.se^$image
@@ -276,9 +274,6 @@ tv4play.se###skin-cover
 ||tv4play.se^$other
 ||tv4play.se/hic_qos$script,redirect=noop.js
 ||richmetrics.com^$script,redirect=noop.js
-||bonnier-html-player.b17g.services/bumpers/$media,redirect=noop-1s.mp4,domain=tv4play.se|fotbollskanalen.se
-||bumpers.tv4play.se^$media,important,redirect=noopmp3-0.1s,domain=tv4.se|tv4play.se|fotbollskanalen.se
-||damoh.tv4play.se^$media,redirect=noopmp3-0.1s,domain=tv4.se|tv4play.se|fotbollskanalen.se
 ||vp.videoplaza.tv/resources/bwtest.jpg$xhr
 ||overlayz.b17g.net/overlay/*$xhr,redirect=noop.txt
 ||api.ipify.org^$xhr,redirect=noop.txt
@@ -294,12 +289,10 @@ tv4play.se###skin-cover
 ||scorecardresearch.com^$image
 ||richmetrics.com^$script,redirect=noop.js
 ||panel2.research-int.se^$subdocument
-
 ||nice264.com/data?$third-party
 ||m.burt.io^$script,important
-||svonm.com^$xmlhttprequest,domain=tv4play.se,important
+||svonm.com^$xmlhttprequest
 ||servedby.flashtalking.com^
-||nqs.nice264.com^$xmlhttprequest,domain=tv4play.se,important
 ||*.mxcdn.net^
 ||imrworldwide.com^$image
 */bumpers$media,redirect=noop-1s.mp4
@@ -309,7 +302,6 @@ tv4play.se###skin-cover
 /analytics;jsessionid=*$xhr
 /images/Animation_Playknapp2.png$image
 /pixel?google_nid=*$xhr
--homad-*^$xhr,redirect=noop.txt,domain=tv4play.se|fotbollskanalen.se
 /revcontent/bundle.js
 
 #Youtube.com
