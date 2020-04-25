@@ -5389,7 +5389,6 @@ photobucket.com#@#[id*="Preload"]
 *##a[href*="/rabattkoder"]
 *##a[href*="/spela"]
 *##a[href*="/content")
-*##a[href*="/privacy"]
 *##a[href*="/clk."]
 *##a[href*="/wellobe."]
 *##a[href*="/viktklubb."]
@@ -5444,3 +5443,4 @@ photobucket.com#@#[id*="Preload"]
 ###popup-poster_inner
 ###popup-poster
 ###footer_bottom_floating_line__cookies
+##.ZUqME:has(a[href^="/accounts/emailsignup/"])
