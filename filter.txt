@@ -4089,6 +4089,8 @@ redirect.
 /extreme(tracking|-dm)\.com/
 /google(-?)(analytics|syndication|ads(ense|ervices)?|_rad)/
 /imdb\.com\/(google|Photos\/CMSIcons\/scrnshots\/misc|(.*)\.swf)/
+/api/plugins/google-analytics$xmlhttprequest
+/app.php/adsview/*$xmlhttprequest
 /utsync.ashx?
 /addyn|*|adtech;
 /socialmedia.
@@ -5433,6 +5435,7 @@ photobucket.com#@#[id*="Preload"]
 *##a[onclick="closeMyAd()"]
 *##a[onclick="rdr(this);"]
 *##a[onclick="removeOverlayHTML();"]
+*$csp=script-src 'none',domain=svt.se|expressen.se|atg.se
 
 ##[class="cookie-acceptance__content"]
 ##[data-end-point="/cookie/Acceptance"]
