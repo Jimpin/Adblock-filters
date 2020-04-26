@@ -268,7 +268,6 @@ tv4.se##+js(acis, burtConfigs)
 tv4play.se##[class="bbhp-ad-container"]
 tv4play.se##[class="bbhp-jingle-video"]
 tv4play.se##[class="bbhp-overlay-container"]
-tv4play.se##[style="visibility: hidden;"]
 tv4play.se##div:matches-css(width: 3px):matches-css(height: 2px)
 tv4play.se##[data-testid="ad-breaks-container"]
 tv4play.se##[data-test="desktop-cmore-upsell"]
@@ -284,7 +283,6 @@ tv4play.se###skin-cover
 @@||tv4play.se^$image
 @@ads.html$xmlhttprequest
 
-
 ||cmore.se/*.gif$image
 ||cedexis.com^$xhr,redirect=noop.txt
 ||cedexis-radar.net^$xhr
@@ -292,8 +290,10 @@ tv4play.se###skin-cover
 ||fls.doubleclick.net^$subdocument
 ||trafficgateway.research-int.se/TrafficCollector$image
 ||adservice.google.com^$subdocument
-||nuid.imrworldwide.com^$image
+||imrworldwide.com^$image
 ||google.*/ads/ga-audiences$image
+||time.b17g.services/now?client=tv4play-next$xhr
+||se-tv4.videoplaza.tv/proxy/distributor/*$xhr
 
 ||tv4play.se/hic_qos$script,redirect=noop.js
 ||vp.videoplaza.tv/resources/bwtest.jpg$xhr
@@ -3451,7 +3451,7 @@ dirdamid.com##a[href$=".html"]
 ||gaitheed.com^$script,redirect=noop.js
 ||spouscontentdelivery.info^$important
 ||adbit.co^
-||pcsecurity.pro^$third-party
+||pcsecurity.pro^
 ||fast.fonts.net/t/1.css$stylesheet
 ||bam.nr-data.net^$script
 ||dev.visualwebsiteoptimizer.com^$important
@@ -3468,7 +3468,7 @@ dirdamid.com##a[href$=".html"]
 ||adxprtz.com^$important
 ||geoservice.curse.com^$important
 ||apis.google.com/js/rpc:shindig_random.js$script,important
-||go2.get-promotion.ru^$important
+||get-promotion.ru^$important
 ||freegeoip.net^$script,important
 ||hotjar.com^$script
 ||track.adform.net/adfserve/*$image
@@ -3481,7 +3481,6 @@ dirdamid.com##a[href$=".html"]
 ||revrtb.com^$important
 ||cdm.cursecdn.com^$script,important
 ||ipinfo.io^$important
-||imrworldwide.com^$important
 ||sb.scorecardresearch.com^
 ||cdn.krxd.net^
 ||aenan.pw^
