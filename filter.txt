@@ -32,7 +32,6 @@ aftonbladet.se##[style="background-color:#0067b5;border-radius:2px;margin:16px 0
 aftonbladet.se##.svp-viewport-tiny.jw-floating-dismissible.jw-flag-small-player.jw-breakpoint-0.jw-skin-seven.jw-skin-svp-default.jw-stretch-uniform.jw-state-playing.jw-reset.jwplayer
 aftonbladet.se##[class="svp-player-recommended-box"]
 aftonbladet.se##[class="afs_ads"]
-aftonbladet.se##[class="AxIVT"]
 aftonbladet.se##.abAside.I9Ui2 > div.HLf1C:has-text(ANNONS)
 aftonbladet.se##[style="width: 1px; height: 1px; position: absolute; background: transparent none repeat scroll 0% 0%;"]
 aftonbladet.se##div[style*="border-color:#0067b5;border-width:4px 0px 0px 0px;"] + a
@@ -282,27 +281,18 @@ tv4play.se##message-bar
 tv4play.se###skin-cover
 @@||tv4play.se^$image
 @@ads.html$xmlhttprequest
-
 ||cmore.se/*.gif$image
-||cedexis.com^$xhr,redirect=noop.txt
-||cedexis-radar.net^$xhr
-||radar.cedexis.com^$script
-||fls.doubleclick.net^$subdocument
 ||trafficgateway.research-int.se/TrafficCollector$image
 ||adservice.google.com^$subdocument
-||imrworldwide.com^$image
 ||google.*/ads/ga-audiences$image
 ||time.b17g.services/now?client=tv4play-next$xhr
 ||se-tv4.videoplaza.tv/proxy/distributor/*$xhr
-
-||tv4play.se/hic_qos$script,redirect=noop.js
+||playback-api.b17g.net/media/*$xhr,redirect=noop.txt
+||tv4play.se/hic_qos$redirect=noop.js,script
 ||vp.videoplaza.tv/resources/bwtest.jpg$xhr
 ||api.ipify.org^$xhr,redirect=noop.txt
-||googletagmanager.com/gtm.js$script
 ||damoh.tv4play.se^$image
 ||stat-api.tv4play.se^$image
-||richmetrics.com^$script
-||spotxchange.com^$xmlhttprequest
 ||overlayz.b17g.net/overlay/*$xmlhttprequest,domain=tv4.se|tv4play.se|fotbollskanalen.se
 ||pixel.glimr.io^$script,redirect=noop.js
 ||sitestat.com^$image
@@ -5460,3 +5450,12 @@ photobucket.com#@#[id*="Preload"]
 ###popup-poster_inner
 ###popup-poster
 ###footer_bottom_floating_line__cookies
+
+||cedexis.com^$xhr,redirect=noop.txt
+||cedexis-radar.net^$xhr
+||radar.cedexis.com^$script
+||fls.doubleclick.net^$subdocument
+||richmetrics.com^$script
+||spotxchange.com^$xmlhttprequest
+||googletagmanager.com/gtm.js$script
+||imrworldwide.com^$image
