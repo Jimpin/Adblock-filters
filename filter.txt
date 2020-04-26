@@ -287,7 +287,6 @@ tv4play.se###skin-cover
 ||google.*/ads/ga-audiences$image
 ||time.b17g.services/now?client=tv4play-next$xhr
 ||se-tv4.videoplaza.tv/proxy/distributor/*$xhr
-||playback-api.b17g.net/media/*$xhr,redirect=noop.txt
 ||tv4play.se/hic_qos$redirect=noop.js,script
 ||vp.videoplaza.tv/resources/bwtest.jpg$xhr
 ||api.ipify.org^$xhr,redirect=noop.txt
