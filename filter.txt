@@ -5434,7 +5434,6 @@ photobucket.com#@#[id*="Preload"]
 *##a[onclick="closeMyAd()"]
 *##a[onclick="rdr(this);"]
 *##a[onclick="removeOverlayHTML();"]
-*$csp=script-src 'none',domain=svt.se|expressen.se|atg.se
 
 ##[class="cookie-acceptance__content"]
 ##[data-end-point="/cookie/Acceptance"]
