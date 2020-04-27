@@ -922,7 +922,6 @@ rapidvideo.*##script:inject(addEventListener-defuser.js, mousedown, preventDefau
 ||streamango.com/assets/img/logo.png$image
 ||celeritascdn.com/script/compatibility.js$script
 ||*.link^$script
-*/log$xmlhttprequest,important
 
 #Fmoviesfree.page
 fmoviesfree.*##+js(popads-dummy.js)
