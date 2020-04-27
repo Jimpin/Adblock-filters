@@ -264,43 +264,24 @@ tv4.se##.social-block-ad
 tv4.se##.social-buttons
 tv4.se##[class*="aside-ad"] 
 tv4.se##+js(acis, burtConfigs)
-
 tv4play.se##[alt="ad"]
 tv4play.se##[id="pause-ad-img"]
 tv4play.se##[data-testid="custom-pause-ad-bar"]
-
-tv4play.se##[data-testid="ad-breaks-container"]
 tv4play.se##[data-test="desktop-cmore-upsell"]
 tv4play.se##[data-test="cmore-upsell-button"]
+tv4play.se###__next > div:not(:first-child)
+tv4play.se###pause-img-holder
 tv4play.se##.js-cookie-banner
 tv4play.se#@#.adBanner
-tv4play.se###pause-img-holder
-tv4play.se##.cmore-cta
-tv4play.se##.cmore-btn
-tv4play.se###__next > div:not(:first-child)
-tv4play.se###skin-cover
-@@||tv4play.se^$image
-@@ads.html$xmlhttprequest
-||cmore.se/*.gif$image
-||trafficgateway.research-int.se/TrafficCollector$image
-||adservice.google.com^$subdocument
-||google.*/ads/ga-audiences$image
-||time.b17g.services/now?client=tv4play-next$xhr
-||se-tv4.videoplaza.tv/proxy/distributor/*$xhr
+*/trailers$media,redirect=noop-0.1s.mp3,domain=tv4play.se|fotbollskanalen.se
+*/tv4play_plugin.$redirect=noop.js,script,domain=tv4play.se|fotbollskanalen.se
 ||tv4play.se/hic_qos$redirect=noop.js,script
-||api.ipify.org^$xhr,redirect=noop.txt
 ||damoh.tv4play.se^$image
 ||stat-api.tv4play.se^$image
-||overlayz.b17g.net/overlay/*$xmlhttprequest,domain=tv4.se|tv4play.se|fotbollskanalen.se
-||glimr.io^$script,redirect=noop.js
-||sitestat.com^$image
-||scorecardresearch.com^$image
-||research-int.se^$subdocument
-||servedby.flashtalking.com^
-||*.mxcdn.net^
-*/bumpers$redirect=noop-0.1s.mp4,media
-*/trailers$redirect=noop-0.1s.mp3,media
-*/tv4play_plugin.$redirect=noop.js,script
+||ad.doubleclick.net/ddm/$image,important
+||b17g.net^*/play/log$redirect=noop.txt,xmlhttprequest,domain=tv4play.se|fotbollskanalen.se
+||bonnier-html-player.b17g.services/bumpers/$media,redirect=noop-1s.mp4,domain=tv4play.se|fotbollskanalen.se
+||cloudfront.net/creatives/assets/$image,media,domain=fotbollskanalen.se|tv4play.se
 /u/file~text_vtt~dummy.vtt/*/webvtt.vtt$xmlhttprequest
 /analytics;jsessionid=*$xhr
 /images/Animation_Playknapp2.png$image
@@ -453,12 +434,13 @@ duckduckgo.com##.js-onboarding-ed-slide-3.js-onboarding-ed-slide.onboarding-ed__
 duckduckgo.com##.js-onboarding-ed-slide-4.js-onboarding-ed-slide.onboarding-ed__slide-4.onboarding-ed__slide
 
 #Fotbollskanalen.se
-fotbollskanalen.se##+js(acis, jQuery, adblocker)
-fotbollskanalen.se##+js(aopr, app_vars.force_disable_adblock)
+fotbollskanalen.se##.player-index-sponsor
+fotbollskanalen.se##.playerindex-ad
+fotbollskanalen.se##.top-item.brand
+fotbollskanalen.se###skin-cover
 fotbollskanalen.se##.ad-top
 fotbollskanalen.se##.b-export__footer.b-export__wrap
-||tag.brainient.com^$object
-||tag.brainient.com^$xmlhttprequest
+||tag.brainient.com^$all
 ||p.adsymptotic.com^$domain=sync.teads.tv
 ||sync.teads.tv/iframe/redirect$subdocument
 
