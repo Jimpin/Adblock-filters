@@ -272,6 +272,8 @@ tv4play.se###pause-img-holder
 tv4play.se##.js-cookie-banner
 tv4play.se#@#.adBanner
 tv4play.se##a[href="https://www.cmore.se/tv-program?utm_source=tv4play&utm_medium=partner&utm_campaign=test_cmore_topmeny_tv4play&utm_content=vinrod_se_utan_reklam_pa_cmore&utm_term=tv_program"]
+@@ads.html$xmlhttprequest,domain=fotbollskanalen.se|tv4play.se
+@@||sb.scorecardresearch.com/p$image,domain=tv4play.se|fotbollskanalen.se
 */trailers$media,redirect=noop-0.1s.mp3,domain=tv4play.se|fotbollskanalen.se
 */tv4play_plugin.$redirect=noop.js,script,domain=tv4play.se|fotbollskanalen.se
 ||tv4play.se/hic_qos$redirect=noop.js,script
