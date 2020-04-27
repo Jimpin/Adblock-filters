@@ -264,10 +264,11 @@ tv4.se##.social-block-ad
 tv4.se##.social-buttons
 tv4.se##[class*="aside-ad"] 
 tv4.se##+js(acis, burtConfigs)
-tv4play.se##[class="bbhp-ad-container"]
-tv4play.se##[class="bbhp-jingle-video"]
-tv4play.se##[class="bbhp-overlay-container"]
-tv4play.se##div:matches-css(width: 3px):matches-css(height: 2px)
+
+tv4play.se##[alt="ad"]
+tv4play.se##[id="pause-ad-img"]
+tv4play.se##[data-testid="custom-pause-ad-bar"]
+
 tv4play.se##[data-testid="ad-breaks-container"]
 tv4play.se##[data-test="desktop-cmore-upsell"]
 tv4play.se##[data-test="cmore-upsell-button"]
@@ -277,7 +278,6 @@ tv4play.se###pause-img-holder
 tv4play.se##.cmore-cta
 tv4play.se##.cmore-btn
 tv4play.se###__next > div:not(:first-child)
-tv4play.se##message-bar
 tv4play.se###skin-cover
 @@||tv4play.se^$image
 @@ads.html$xmlhttprequest
@@ -288,20 +288,17 @@ tv4play.se###skin-cover
 ||time.b17g.services/now?client=tv4play-next$xhr
 ||se-tv4.videoplaza.tv/proxy/distributor/*$xhr
 ||tv4play.se/hic_qos$redirect=noop.js,script
-||vp.videoplaza.tv/resources/bwtest.jpg$xhr
 ||api.ipify.org^$xhr,redirect=noop.txt
 ||damoh.tv4play.se^$image
 ||stat-api.tv4play.se^$image
 ||overlayz.b17g.net/overlay/*$xmlhttprequest,domain=tv4.se|tv4play.se|fotbollskanalen.se
-||pixel.glimr.io^$script,redirect=noop.js
+||glimr.io^$script,redirect=noop.js
 ||sitestat.com^$image
 ||scorecardresearch.com^$image
-||panel2.research-int.se^$subdocument
-||m.burt.io^$script,important
-||svonm.com^$xmlhttprequest
+||research-int.se^$subdocument
 ||servedby.flashtalking.com^
 ||*.mxcdn.net^
-*/bumpers$redirect=noop-1s.mp4,media
+*/bumpers$redirect=noop-0.1s.mp4,media
 */trailers$redirect=noop-0.1s.mp3,media
 */tv4play_plugin.$redirect=noop.js,script
 /u/file~text_vtt~dummy.vtt/*/webvtt.vtt$xmlhttprequest
@@ -485,6 +482,8 @@ blocket.se##.MediumLayout__CenterWithPadding-q6qal1-1 > div:nth-of-type(1)
 blocket.se##.MediumLayout__PlacementWrapper-y8zw9h-1
 blocket.se##div:matches-css(width: 1012px):matches-css(height: 24px)
 @@||blocket.se^$generichide
+@@||cdn.pro.blocket.cloud^$image
+@@||i.blocketcdn.se/pictures/*$image
 /ad-block-detection-script-tag-src.js$script,redirect=noop.js
 ||logs2.xiti.com^
 
