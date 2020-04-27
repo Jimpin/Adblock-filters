@@ -264,7 +264,8 @@ tv4.se##.social-block-ad
 tv4.se##.social-buttons
 tv4.se##[class*="aside-ad"] 
 tv4.se##+js(acis, burtConfigs)
-tv4play.se##[data-testid="custom-pause-ad-bar"]
+tv4play.se##div:matches-css(width: 3px)
+tv4play.se##[data-testid="progress-handle"]
 tv4play.se##[data-test="cmore-upsell-button"]
 tv4play.se###__next > div:not(:first-child)
 tv4play.se###pause-img-holder
@@ -279,6 +280,16 @@ tv4play.se#@#.adBanner
 ||b17g.net^*/play/log$redirect=noop.txt,xmlhttprequest,domain=tv4play.se|fotbollskanalen.se
 ||bonnier-html-player.b17g.services/bumpers/$media,redirect=noop-1s.mp4,domain=tv4play.se|fotbollskanalen.se
 ||cloudfront.net/creatives/assets/$image,media,domain=fotbollskanalen.se|tv4play.se
+
+||cmore.se/*.gif$image
+||cedexis.com^$xhr,redirect=noop.txt
+||cedexis-radar.net^$xhr
+||radar.cedexis.com^$script
+||fls.doubleclick.net^$subdocument
+||trafficgateway.research-int.se/TrafficCollector$image
+||adservice.google.com^$subdocument
+||google.*/ads/ga-audiences$image
+
 /u/file~text_vtt~dummy.vtt/*/webvtt.vtt$xmlhttprequest
 /analytics;jsessionid=*$xhr
 /images/Animation_Playknapp2.png$image
