@@ -264,10 +264,7 @@ tv4.se##.social-block-ad
 tv4.se##.social-buttons
 tv4.se##[class*="aside-ad"] 
 tv4.se##+js(acis, burtConfigs)
-tv4play.se##[alt="ad"]
-tv4play.se##[id="pause-ad-img"]
 tv4play.se##[data-testid="custom-pause-ad-bar"]
-tv4play.se##[data-test="desktop-cmore-upsell"]
 tv4play.se##[data-test="cmore-upsell-button"]
 tv4play.se###__next > div:not(:first-child)
 tv4play.se###pause-img-holder
