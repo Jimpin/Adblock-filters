@@ -2594,6 +2594,10 @@ dirdamid.com##a[href$=".html"]
 ||track.
 ||tracking2.
 ||ucounter.
+||omnitagjs.com^$xhr,important
+||vntsm.com^$xhr,image,important
+||stackpathcdn.com^$xhr
+||justpremium.com^$xhr,important
 ||adservice.com^
 ||adform.net^
 ||adtlgc.com^
@@ -3001,6 +3005,8 @@ dirdamid.com##a[href$=".html"]
 ||thersprens.com^
 ||gramombird.com^
 ||xeozir.com^
+||track.venatusmedia.com^$xhr
+||criteo.com^
 ||yaboshadi.com^
 ||yallboen.com^
 ||yeshhaod.com^
@@ -3151,7 +3157,6 @@ dirdamid.com##a[href$=".html"]
 ||weborama.fr^
 ||a.exosrv.com^
 ||js.wpnjs.com^
-||ad.doubleclick.net/ddm/*$image,important
 ||sport-stream365.com^
 ||dskrt.net^
 ||bodaybo.net^
@@ -3693,6 +3698,7 @@ redirect.
 /manifest.json$other,first-party
 /xmlrpc.php
 /ads_test.js
+/publishertag.prebid.js$script
 /js.php$important
 /pn.php$important
 /splash-zones-split.php$popup,important
@@ -5397,6 +5403,7 @@ photobucket.com#@#[id*="Preload"]
 *##a[href*="/trackers."]
 *##a[href*="/whitebox."]
 *##a[href*="/track.adtraction.com/"]
+*##a[href*="/pre."]
 
 *##+js(acis, burtSegments)
 *##+js(acis, Bau, preloadAds)
