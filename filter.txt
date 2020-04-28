@@ -265,7 +265,6 @@ tv4.se##.social-buttons
 tv4.se##[class*="aside-ad"] 
 tv4.se##+js(acis, burtConfigs)
 tv4play.se##div:matches-css(width: 3px)
-tv4play.se##[data-testid="progress-handle"]
 tv4play.se##[data-test="cmore-upsell-button"]
 tv4play.se###__next > div:not(:first-child)
 tv4play.se###pause-img-holder
