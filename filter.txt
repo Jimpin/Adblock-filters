@@ -339,6 +339,25 @@ youtube.com##.ytp-button.ytp-miniplayer-button
 ||static.doubleclick.net/instream/ad_status.js$other,redirect=noop.js
 ||google.com/generate_204$image
 
+#Spotify.com
+spotify.com##.ads-container
+||open.spotify.com/log/adevent$redirect=noop.txt,xhr
+||www.fastly-insights.com^$xhr,domain=open.spotify.com
+||cloudfront.net/mp3-ad/$media,redirect=noopmp3-0.1s,domain=open.spotify.com
+||akamaized.net/audio/*$media,redirect=noopmp3-0.1s,domain=open.spotify.com
+||audio-fa.scdn.co/audio/*$media,redirect=noopmp3-0.1s,domain=open.spotify.com
+||scdn.co/audio/$media,domain=open.spotify.com
+||spclient.wg.spotify.com/ads/*$xhr,domain=open.spotify.com
+||pixel-static.spotify.com^
+||pixel.spotify.com^
+||spotify.com^*/metric
+@@||imasdk.googleapis.com/js/core/bridge*.html$subdocument,domain=~spotify.com
+@@||edgekey.net^*/advertisement.js$domain=play.spotify.com
+@@||bam.nr-data.net^$script,domain=play.spotify.com
+@@||cdn.optimizely.com/js/*.js$domain=spotify.com
+@@||newrelic.com/nr-*.min.js$domain=play.spotify.com
+
+
 #Facebook.com
 facebook.com##+js(acis, jQuery, adblocker)
 facebook.com##+js(aopr, app_vars.force_disable_adblock)
