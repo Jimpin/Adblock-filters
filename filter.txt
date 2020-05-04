@@ -379,6 +379,7 @@ facebook.com##[data-referrer][zoompage-fontsize="13"] > .ego_column[zoompage-fon
 facebook.com###pagelet_ego_pane
 facebook.com###rightCol .pagelet.egoOrganicColumn
 facebook.com###globalContainer .pagelet.egoOrganicColumn
+@@||static.xx.fbcdn.net^$script
 ||facebook.com/plugins/like.php$subdocument
 ||facebook.com/plugins/likebox.php$subdocument
 ||facebook.com/v2.10/plugins/like.php$subdocument
