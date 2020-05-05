@@ -18,6 +18,8 @@ aftonbladet.se##.abTheme-infeedad
 aftonbladet.se##.abBtnShare
 aftonbladet.se##.abAdWrapper
 aftonbladet.se##[src*="/ab-box?"]
+aftonbladet.se##[data-test-tag="@spp/video-asset"]
+aftonbladet.se##[class="_1Wc3D"]
 aftonbladet.se##.AxIVT[style="min-height:600px"]
 aftonbladet.se##.-adv\.jpg.-adv\.js.text-ad-links.text-ads.text_ads.text_ad.textAd.text-ad.pub_728x90.pub_300x250m.pub_300x250
 aftonbladet.se##a[href*="/brandstudio/a/"]
@@ -70,8 +72,8 @@ aftonbladet.se##a[href="https://www.unibet.se/betting/sports/home"]
 aftonbladet.se##a[href="https://www.strivesport.com/se/home"]
 klart.se##+js(aopr, blockAdBlock)
 ||stitcher.acast.com/livestitches/*$media,noopmp3=0.01s,domain=embed.acast.com
-@@/imgs.aftonbladet-cdn.se/*/images/
-@@/gfx.aftonbladet-cdn.se^$image,1p
+@@||imgs.aftonbladet-cdn.se/*/images/
+@@||gfx.aftonbladet-cdn.se^$image,1p
 @@/hyper-assets/preload*$script,domain=aftonbladet.se
 @@/hyper-assets/app.$script,domain=aftonbladet.se
 @@/web/v1.2.41/index.js
