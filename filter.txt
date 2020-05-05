@@ -18,7 +18,6 @@ aftonbladet.se##.abTheme-infeedad
 aftonbladet.se##.abBtnShare
 aftonbladet.se##.abAdWrapper
 aftonbladet.se##[src*="/ab-box?"]
-aftonbladet.se##[data-test-tag="@spp/video-asset"]
 aftonbladet.se##[class="_1Wc3D"]
 aftonbladet.se##.AxIVT[style="min-height:600px"]
 aftonbladet.se##.-adv\.jpg.-adv\.js.text-ad-links.text-ads.text_ads.text_ad.textAd.text-ad.pub_728x90.pub_300x250m.pub_300x250
