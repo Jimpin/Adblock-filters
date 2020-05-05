@@ -17,6 +17,8 @@ aftonbladet.se##.abTheme-adSportbladet
 aftonbladet.se##.abTheme-infeedad
 aftonbladet.se##.abBtnShare
 aftonbladet.se##.abAdWrapper
+aftonbladet.se##[src*="/ab-box?"]
+aftonbladet.se##.AxIVT[style="min-height:600px"]
 aftonbladet.se##.-adv\.jpg.-adv\.js.text-ad-links.text-ads.text_ads.text_ad.textAd.text-ad.pub_728x90.pub_300x250m.pub_300x250
 aftonbladet.se##a[href*="/brandstudio/a/"]
 aftonbladet.se##div:matches-css(width: 314px):matches-css(height: 314px)
@@ -5421,6 +5423,7 @@ photobucket.com#@#[id*="Preload"]
 *##a[href*="/whitebox."]
 *##a[href*="/track.adtraction.com/"]
 *##a[href*="/pre."]
+*##a[href*="/click?p="]
 
 *##+js(acis, burtSegments)
 *##+js(acis, Bau, preloadAds)
