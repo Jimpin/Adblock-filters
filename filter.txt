@@ -3470,7 +3470,6 @@ dirdamid.com##a[href$=".html"]
 ||arrarcontentdelivery.info^$important
 ||ipreparty.info^
 ||bidder.criteo.com^$xmlhttprequest
-||ad.doubleclick.net/ddm/ad/*$important
 ||summerhamster.com^
 ||optimizely.com^
 ||adxprtz.com^$important
