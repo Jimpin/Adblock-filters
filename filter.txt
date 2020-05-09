@@ -5429,6 +5429,7 @@ photobucket.com#@#[id*="Preload"]
 *##a[href*="/track.adtraction.com/"]
 *##a[href*="/pre."]
 *##a[href*="/click?p="]
+*##a[href*="/create_click?partner_id="]
 
 *##+js(acis, burtSegments)
 *##+js(acis, Bau, preloadAds)
