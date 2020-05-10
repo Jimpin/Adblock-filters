@@ -283,11 +283,12 @@ tv4play.se##a[href="https://www.cmore.se/tv-program?utm_source=tv4play&utm_mediu
 --@@||*/*$image,domain=tv4.se|tv4play.se|fotbollskanalen.se|blocket.se|youtube.com|instagram.com|twitter.com|twitch.tv|
 */trailers$media,redirect=noop-0.1s.mp3,domain=tv4play.se|fotbollskanalen.se
 */tv4play_plugin.$redirect=noop.js,script,domain=tv4play.se|fotbollskanalen.se
+*/bumpers/$media,redirect=noop-1s.mp4
 ||tv4play.se/hic_qos$redirect=noop.js,script
 ||se-tv4.videoplaza.tv/proxy/distributor/*$redirect=noop.txt,domain=tv4play.se|fotbollskanalen.se,xhr
 ||infinity-c11.youboranqs01.com^$redirect=noop.txt,domain=tv4play.se|fotbollskanalen.se,xhr
 ||a-fds.youborafds01.com/data$redirect=noop.txt,xhr
-||damoh.tv4play.se^$image
+||damoh.*.se^$image
 ||stat-api.tv4play.se^$image
 ||b17g.net^*/play/log$redirect=noop.txt,xmlhttprequest,domain=tv4play.se|fotbollskanalen.se
 ||bonnier-html-player.b17g.services/bumpers/$media,redirect=noop-1s.mp4,domain=tv4play.se|fotbollskanalen.se
