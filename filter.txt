@@ -83,6 +83,7 @@ klart.se##+js(aopr, blockAdBlock)
 @@/web/v1.2.41/index.js
 @@||aftonbladet.se/sportbladet
 @@||aftonbladet.se^$generichide
+@@||sportbladetplay.se^$script
 /pulse-sdk-html*.min.js$script
 /provider.cast.js$script
 /gdpr-bundle.js$script
