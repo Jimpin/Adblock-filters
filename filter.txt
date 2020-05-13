@@ -327,6 +327,8 @@ youtube.com##.ytp-scrubber-container
 youtube.com##.ytp-ad-progress
 youtube.com##.ytp-ad-progress-list
 youtube.com##.ytp-fullerscreen-edu-chevron
+youtube.com##ytd-promoted-sparkles-text-search-renderer
+youtube.com##[id="survey"]
 youtube.com###material-notice
 youtube.com##.pyv-afc-ads-container
 youtube.com###ticker
