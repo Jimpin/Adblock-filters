@@ -24,6 +24,7 @@ aftonbladet.se##.-adv\.jpg.-adv\.js.text-ad-links.text-ads.text_ads.text_ad.text
 aftonbladet.se##a[href*="/brandstudio/a/"]
 aftonbladet.se##a[href*="/click?p="]
 aftonbladet.se##a[href*="/create_click?partner_id="]
+aftonbladet.se##div.HLf1C:matches-css(width: 664px):matches-css(height: 39.9167px)
 aftonbladet.se##div:matches-css(width: 314px):matches-css(height: 314px)
 aftonbladet.se##[style="margin:0;font-size:14px;font-family:Arial, Helvetica, Verdana, Geneva, sans-serif;font-weight:bold;letter-spacing:0.2px;line-height:1.28;color:#0067b5"]
 aftonbladet.se##[style="text-decoration:none; box-sizing:border-box;display:flex;flex-direction:column;background-color:#ffffff;border-color:#e8e8e8;border-width:1px;margin:0px 0px 6px 0px;padding:16px;border-style:solid"]
