@@ -3,6 +3,9 @@
 ! Homepage http://jimpin.zapto.org/
 ! License: CC BY-SA 4.0 | https://creativecommons.org/licenses/by-sa/4.0/
 
+||pym.nprapps.org^$3p
+||polyfill.io^$3p
+
 #Aftonbladet.se
 aftonbladet.se###outsider
 aftonbladet.se###MegaAd
