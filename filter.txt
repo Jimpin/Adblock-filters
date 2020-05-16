@@ -740,10 +740,10 @@ nyafilmer.*##[class="headerSpace"]
 @@||nyafilmer.*/wp-content/themes/keremiya1/images/tr-flag.png
 @@||api.peer5.com$script,domain=jawcloud.co
 @@||*.com^$first-party,inline-script,domain=jawcloud.co
+||nyafilmer.*/branding/*$image
 ||nyafilmer.*/sw_*.js$script,1p
 ||nyafilmer.*/u*.js$script,1p
 ||nyafilmer.*/*.gif$image
-||nyafilmer.*/branding/$image
 ||nyafilmer.*$other,first-party
 ||nyafilmer.*/wp-includes/js/comment-reply.min.js$script
 ||nyafilmer.*/wp-includes/js/wp-embed.min.js$script
@@ -759,9 +759,8 @@ nyafilmer.*##[class="headerSpace"]
 ||*.com^$frame,inline-script,script,image,xmlhttprequest,stylesheet,other,domain=jawcloud.co
 ||*.com/modules/gridlex/*/gridlex.min.css$stylesheet,domain=jawcloud.co,important
 ||*.com/modules/socket.io/*/socket.io.min.js*$script,domain=jawcloud.co,important
-||i0.wp.com/nyafilmer.*/wp-content/themes/keremiya1/images/laddased_light.gif
-||gstatic.com/cv/js/sender/v1/cast_sender.js$script,domain=jawcloud.co
-||gstatic.com/cv/js/sender/v1/cast_sender.js$script,domain=vkpass.com,important
+||i1.wp.com/nyafilmer.lol/branding/*$image
+||gstatic.com/cv/js/sender/v1/cast_sender.js$script
 ||n3-r2d2.piguiqproxy.com^$xmlhttprequest
 ||unrestern.info^$important
 ||imagetopng.*^$important
