@@ -2100,7 +2100,6 @@ dirdamid.com##a[href$=".html"]
 ##.cc-banner
 ##[id*="ScriptRoot"]
 ##[id*="Preload"]
-##[id*="Popup"]
 ##[id*="MarketGid"]
 ###global-notification
 ##.as-oil-content-overlay
