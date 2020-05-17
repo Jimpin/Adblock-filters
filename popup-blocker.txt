@@ -88,9 +88,6 @@ iframe*$popup
 ###popover-content
 ##.in.top.fade.popover
 ###popover
-##[id*="Popup"]
-##[id*="popup"]
-##[id^="popup"]
 ##[id*="Popup_Block"]
 ##[id*="popup_block"]
 ##li[class="ad-widget"]
