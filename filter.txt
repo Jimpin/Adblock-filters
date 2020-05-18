@@ -9,6 +9,12 @@
 #Aftonbladet.se
 aftonbladet.se###outsider
 aftonbladet.se###MegaAd
+
+
+aftonbladet.se​​##+js(nosiif, e.reportVisibility())
+aftonbladet.se​​##+js(nosiif, e.ping())
+aftonbladet.se​​##+js(nostif, onerror, 1000)​​
+aftonbladet.se​​##​+js(aeld, mousemove, g())​​
 aftonbladet.se##+js(acis, preLoadAds, loadAd)
 aftonbladet.se##+js(acis, preLoadAds, setup)
 aftonbladet.se##+js(aeld, message, adError)
@@ -278,6 +284,7 @@ tv4.se##.social-block-ad
 tv4.se##.social-buttons
 tv4.se##[class*="aside-ad"] 
 tv4.se##+js(acis, burtConfigs)
+tv4.se###cookie-banner
 tv4play.se##div:matches-css(width: 3px)
 tv4play.se##[data-test="cmore-upsell-button"]
 tv4play.se###__next > div:not(:first-child)
