@@ -3,14 +3,9 @@
 ! Homepage http://jimpin.zapto.org/
 ! License: CC BY-SA 4.0 | https://creativecommons.org/licenses/by-sa/4.0/
 
-||pym.nprapps.org^$3p
-||polyfill.io^$3p
-
 #Aftonbladet.se
 aftonbladet.se###outsider
 aftonbladet.se###MegaAd
-
-
 aftonbladet.se​​##+js(nosiif, e.reportVisibility())
 aftonbladet.se​​##+js(nosiif, e.ping())
 aftonbladet.se​​##+js(nostif, onerror, 1000)​​
@@ -30,6 +25,7 @@ aftonbladet.se##[src*="/ab-box?"]
 aftonbladet.se##[class="_1Wc3D"]
 aftonbladet.se##.HLf1C [style="min-height: 600px;"]
 aftonbladet.se##.-adv\.jpg.-adv\.js.text-ad-links.text-ads.text_ads.text_ad.textAd.text-ad.pub_728x90.pub_300x250m.pub_300x250
+aftonbladet.se##a[href*="/track.adtraction."]
 aftonbladet.se##a[href*="/wellobe."]
 aftonbladet.se##a[href*="/whitebox."]
 aftonbladet.se##a[href*="/viktklubb."]
@@ -3479,6 +3475,8 @@ dirdamid.com##a[href$=".html"]
 ||pushazer.com^
 ||koapsooh.click^
 ||aiwhebey.com^
+||pym.nprapps.org^$3p
+||polyfill.io^$3p
 ||gaitheed.com^$script,redirect=noop.js
 ||spouscontentdelivery.info^$important
 ||adbit.co^
@@ -5444,7 +5442,7 @@ photobucket.com#@#[id*="Preload"]
 *##a[href*="/track."]
 *##a[href*="/tracker."]
 *##a[href*="/trackers."]
-*##a[href*="/track.adtraction.com/"]
+*##a[href*="/track.adtraction."]
 *##a[href*="/pre."]
 *##a[href*="/click?p="]
 *##a[href*="/create_click?partner_id="]
