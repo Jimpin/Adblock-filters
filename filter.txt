@@ -257,6 +257,7 @@ instagram.com##[class]:style(-webkit-touch-callout: default !important; -webkit-
 instagram.com#?#footer[role="contentinfo"]+div[class]:has(> div[class] > a[href="/accounts/emailsignup/"])
 instagram.com###react-root > section > nav > div > div > section.xZ2Xk
 instagram.com##main[role="main"] .APQi1
+@@||instagram.com/static/*$script
 
 #Google.*
 google.*##.ads-ad
