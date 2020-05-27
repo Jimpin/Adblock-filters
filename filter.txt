@@ -5095,12 +5095,14 @@ popuper.js^
 @@||steamstore-a.akamaihd.net/public/images/*$image
 @@||googlevideo.com/videoplayback?^$xhr,1p
 @@||fonts.gstatic.com^$font
+@@/accounts/*$popup
 @@upload-*^$xhr
 @@/jwplayer.js^$script,1p
 @@/css/bootstrap.min.css$stylesheet
 @@_ajax?^$first-party
 @@/jwplayer.js$script,1p
 @@/assets/js/player.js$script
+@@//media*^$image
 @@||cdn.fbsbx.com^$image
 @@||redirect*^$xhr,media
 |http*://*$first-party,websocket,important
@@ -5415,7 +5417,7 @@ photobucket.com#@#[id*="Preload"]
 /adca.*/$script,popup
 /splash.*/$important
 /genads.*/$important
-/next.*/$popup,important
+/next.*/$popup
 /tuname.*/$important,popup
 /puopen.*/$important
 /rtb.*/$script,popup
