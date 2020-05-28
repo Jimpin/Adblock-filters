@@ -6,10 +6,10 @@
 #Aftonbladet.se
 aftonbladet.se###outsider
 aftonbladet.se###MegaAd
-aftonbladet.se​​##+js(nosiif, e.reportVisibility())
-aftonbladet.se​​##+js(nosiif, e.ping())
-aftonbladet.se​​##+js(nostif, onerror, 1000)​​
-aftonbladet.se​​##​+js(aeld, mousemove, g())​​
+aftonbladet.se##+js(nosiif, e.reportVisibility())
+aftonbladet.se##+js(nosiif, e.ping())
+aftonbladet.se##+js(nostif, onerror, 1000)
+aftonbladet.se##+js(aeld, mousemove, g())
 aftonbladet.se##+js(acis, preLoadAds, loadAd)
 aftonbladet.se##+js(acis, preLoadAds, setup)
 aftonbladet.se##+js(aeld, message, adError)
