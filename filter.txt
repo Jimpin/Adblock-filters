@@ -3476,7 +3476,6 @@ dirdamid.com##a[href$=".html"]
 ||pushazer.com^
 ||koapsooh.click^
 ||aiwhebey.com^
-||pym.nprapps.org^$3p
 ||polyfill.io^$3p
 ||gaitheed.com^$script,redirect=noop.js
 ||spouscontentdelivery.info^$important
