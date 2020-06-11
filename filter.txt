@@ -3253,6 +3253,11 @@ dirdamid.com##a[href$=".html"]
 ||pair.com^
 ||tp2.beap.gemini.yahoo.com^
 ||udc.yahoo.com^
+||raupsica.net^
+||viatepigan.com^
+||grooksom.com^
+||petchesa.net^
+||ofgogoatan.com^
 ||us.adserver.yahoo.com^
 ||alluc.ee^
 ||scorecardresearch.com/beacon.js$script,redirect=scorecardresearch.com/beacon.js,important
@@ -4139,6 +4144,7 @@ redirect.
 /pagead
 /chronopop
 /?uclick=
+/apu.php$xhr,script,frame
 /redirect-ads.php
 /tc-under.min.js
 /chrome.js$script
