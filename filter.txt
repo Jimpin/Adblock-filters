@@ -5099,6 +5099,7 @@ popuper.js^
 @@||steamstore-a.akamaihd.net/public/images/*$image
 @@||googlevideo.com/videoplayback?^$xhr,1p
 @@||fonts.gstatic.com^$font
+@@||radar.cedexis.com^$script
 @@/accounts/*$popup
 @@upload-*^$xhr
 @@/jwplayer.js^$script,1p
@@ -5499,7 +5500,6 @@ photobucket.com#@#[id*="Preload"]
 ###popup-poster
 ###footer_bottom_floating_line__cookies
 
-||cedexis.com^$xhr,redirect=noop.txt
 ||cedexis-radar.net^$xhr
 ||radar.cedexis.com^$script
 ||fls.doubleclick.net^$subdocument
