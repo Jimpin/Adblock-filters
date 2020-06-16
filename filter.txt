@@ -173,6 +173,7 @@ twitch.tv##div[data-test-selector="channel_panel_test_selector"] > a[href^="http
 twitch.tv##[class="extensions-dock-card tw-align-items-center tw-border-radius-medium tw-flex tw-mg-b-1 tw-mg-l-0 tw-mg-r-1 tw-mg-t-0 tw-root--hover tw-root--theme-light"]
 twitch.tv##.player-alert
 twitch.tv##.recommended-channels
+twitch.tv##.tw-justify-content-center.tw-full-width.tw-full-height.tw-flex.tw-c-text-alt-2.tw-align-items-center.core-error
 twitch.tv##.pl-pinned-panel--animate.pl-pinned-panel
 twitch.tv##.pl-notif
 twitch.tv##.pl-notif__text
