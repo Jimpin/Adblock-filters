@@ -27,6 +27,8 @@ aftonbladet.se##.HLf1C [style="min-height: 600px;"]
 aftonbladet.se##.-adv\.jpg.-adv\.js.text-ad-links.text-ads.text_ads.text_ad.textAd.text-ad.pub_728x90.pub_300x250m.pub_300x250
 aftonbladet.se##div:matches-css(width: 314px):matches-css(height: 314px)
 aftonbladet.se##[style="margin:0;font-size:14px;font-family:Arial, Helvetica, Verdana, Geneva, sans-serif;font-weight:bold;letter-spacing:0.2px;line-height:1.28;color:#0067b5"]
+aftonbladet.se##[style="text-decoration:none;box-sizing:border-box;display:flex;flex-direction:column;background-color:#ffffff;border-color:#e8e8e8;border-width:1px;margin:0px 0px 6px 0px;padding:16px;border-style:solid"]
+aftonbladet.se##[style="text-decoration:none;box-sizing:border-box;display:flex;flex-direction:column;background-color:#ffffff;border-color:#e8e8e8;border-width:1px;margin:0px 0 6px 0;padding:16px 16px 0px 16px;position:relative;overflow:hidden;border-style:solid"]
 aftonbladet.se##[style="text-decoration:none; box-sizing:border-box;display:flex;flex-direction:column;background-color:#ffffff;border-color:#e8e8e8;border-width:1px;margin:0px 0px 6px 0px;padding:16px;border-style:solid"]
 aftonbladet.se##[style="text-decoration:none; box-sizing: border-box; display: flex; flex-direction: column; background-color: transparent; border-color: rgb(0, 103, 181); border-width: 0px 0px 0px 4px; margin: 0px 0px 8px; padding: 10px 12px; border-style: solid;"]
 aftonbladet.se##[style="text-decoration:none; box-sizing: border-box; display: flex; flex-direction: column; background-color: transparent; border-color: rgb(0, 103, 181); border-width: 0px 0px 0px 4px; margin: 0px 0px 8px; padding: 10px 12px; border-style: solid;"]
@@ -51,8 +53,6 @@ aftonbladet.se##[id^="abAdArea"]
 aftonbladet.se##.ab-responsive-ads-wrapper
 aftonbladet.se##.share-icons
 aftonbladet.se##.social-shares
-aftonbladet.se##+js(nosiif, e.reportVisibility())
-aftonbladet.se##+js(nosiif, e.ping())
 aftonbladet.se##.outerContainer
 aftonbladet.se##a[href*="/tv/a"]
 aftonbladet.se##a[href*="/kampanj"]
@@ -86,15 +86,13 @@ klart.se##+js(aopr, blockAdBlock)
 /pulse-sdk-html*.min.js$script
 /provider.cast.js$script
 /gdpr-bundle.js$script
-||aftonbladet.se.senaste.$document
-||aftonbladet.se/kampanj/casinoguide$document
 ||aftonbladet.se/tv/temp.mp4$media /rabattkod/*$image,domain=aftonbladet.se
 ||engage-auth.schibsted.media^$script
 ||api.privacy.schibsted.com^$xmlhttprequest
 ||adv.aftonbladet.se^$important
 ||ooul.tv/*/se-aftonbladet/aab/aftonbladet_$script,redirect=noopjs,domain=aftonbladet.se
 ||g.jwpsrv.com^$subdocument,important
-||brandmetrics.com^
+||brandmetrics.com^$3p
 ||collector.schibsted.io^$xmlhttprequest,important
 ||ssl.p.jwpcdn.com^*/*.js$script,domain=aftonbladet.se
 ||svp.vg.no/svp/api/v1/time$xmlhttprequest,domain=aftonbladet.se,important
@@ -5473,6 +5471,8 @@ photobucket.com#@#[id*="Preload"]
 *##a[onclick="rdr(this);"]
 *##a[onclick="removeOverlayHTML();"]
 *##div>a:has-text(EXTERN LÄNK)
+*##div>a:has-text(CASINOGUIDEN)
+*##div>a:has-text(ANNONS)
 
 ##[class="cookie-acceptance__content"]
 ##[data-end-point="/cookie/Acceptance"]
