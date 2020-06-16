@@ -25,15 +25,6 @@ aftonbladet.se##[src*="/ab-box?"]
 aftonbladet.se##[class="_1Wc3D"]
 aftonbladet.se##.HLf1C [style="min-height: 600px;"]
 aftonbladet.se##.-adv\.jpg.-adv\.js.text-ad-links.text-ads.text_ads.text_ad.textAd.text-ad.pub_728x90.pub_300x250m.pub_300x250
-aftonbladet.se##a[href*="/track.adtraction."]
-aftonbladet.se##a[href*="/wellobe."]
-aftonbladet.se##a[href*="/whitebox."]
-aftonbladet.se##a[href*="/viktklubb."]
-aftonbladet.se##a[href*="/brandstudio/a/"]
-aftonbladet.se##a[href*="/click?p="]
-aftonbladet.se##a[href*="/create_click?partner_id="]
-aftonbladet.se##div.HLf1C:matches-css(width: 662px):matches-css(height: 20px)
-aftonbladet.se##div.HLf1C:matches-css(width: 664px):matches-css(height: 39.9167px)
 aftonbladet.se##div:matches-css(width: 314px):matches-css(height: 314px)
 aftonbladet.se##[style="margin:0;font-size:14px;font-family:Arial, Helvetica, Verdana, Geneva, sans-serif;font-weight:bold;letter-spacing:0.2px;line-height:1.28;color:#0067b5"]
 aftonbladet.se##[style="text-decoration:none; box-sizing:border-box;display:flex;flex-direction:column;background-color:#ffffff;border-color:#e8e8e8;border-width:1px;margin:0px 0px 6px 0px;padding:16px;border-style:solid"]
@@ -50,7 +41,6 @@ aftonbladet.se##[rahrefbattkod=""]
 aftonbladet.se##[style="background-color:#0067b5;border-radius:2px;margin:16px 0px 0px 0px;padding:5px 5px 4px 5px;align-self:flex-start;font-size:11px;font-family:Arial, Helvetica, Verdana, Geneva, sans-serif;font-weight:bold;line-height:1;text-transform:uppercase;color:#fefefe;-webkit-font-smoothing:antialiased"]
 aftonbladet.se##[class="svp-player-recommended-box"]
 aftonbladet.se##[class="afs_ads"]
-aftonbladet.se##.abAside.I9Ui2 > div.HLf1C:has-text(ANNONS)
 aftonbladet.se##[style="width: 1px; height: 1px; position: absolute; background: transparent none repeat scroll 0% 0%;"]
 aftonbladet.se##div[style*="border-color:#0067b5;border-width:4px 0px 0px 0px;"] + a
 aftonbladet.se##article:has(a[data-sponsored="true"])
@@ -5432,7 +5422,7 @@ photobucket.com#@#[id*="Preload"]
 /gdpr-bundle.$script
 
 *##a[href*="/betting"]
-*##a[href*="/brandstudio"]
+*##a[href*="/brandstudio/a/"]
 *##a[href*="/branding")
 *##a[href*="/casino"]
 *##a[href*="/casinoguide"]
@@ -5482,6 +5472,7 @@ photobucket.com#@#[id*="Preload"]
 *##a[onclick="closeMyAd()"]
 *##a[onclick="rdr(this);"]
 *##a[onclick="removeOverlayHTML();"]
+*##div>a:has-text(EXTERN LÄNK)
 
 ##[class="cookie-acceptance__content"]
 ##[data-end-point="/cookie/Acceptance"]
