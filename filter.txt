@@ -3247,6 +3247,10 @@ dirdamid.com##a[href$=".html"]
 ||grooksom.com^
 ||petchesa.net^
 ||ofgogoatan.com^
+||lumisterol.com^$3p
+||foolfishes.com^$3p
+||blockadsnot.com^$3p
+||ueuodgnrhb.com^$3p
 ||us.adserver.yahoo.com^
 ||alluc.ee^
 ||scorecardresearch.com/beacon.js$script,redirect=scorecardresearch.com/beacon.js,important
@@ -3739,6 +3743,8 @@ redirect.
 /pn.php$important
 /splash-zones-split.php$popup,important
 /advert2.
+/native.json
+/boba.min.js$script
 &referrer=
 &act=ads_$script,redirect=noop.js
 &ad.vid=$~xmlhttprequest
