@@ -240,8 +240,11 @@ player.twitch.tv##.player-overlay
 instagram.com##._he402
 instagram.com##.lOPC8
 instagram.com##.Yx5HN.RnEpo
+instagram.com##.x2Ilm
 instagram.com#@#html:style(overflow-y: auto !important;)
 instagram.com#@#html:style(overflow-x: hidden !important;)
+instagram.com##[style="height: 198px;"]
+instagram.com##a[href="/explore/people/"]
 instagram.com##[class]:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
 instagram.com#?#footer[role="contentinfo"]+div[class]:has(> div[class] > a[href="/accounts/emailsignup/"])
 instagram.com###react-root > section > nav > div > div > section.xZ2Xk
