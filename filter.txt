@@ -320,6 +320,7 @@ youtube.com##.opened
 youtube.com###dialog
 youtube.com##.yt-alert-content
 youtube.com##+js(json-prune, adPlacements)
+youtube.com##[class="ytp-paid-content-overlay"]
 youtube.com##[class="ytp-cued-thumbnail-overlay"]
 youtube.com##[class="style-scope yt-live-chat-viewer-engagement-message-renderer"]
 youtube.com##.ytp-fullerscreen-edu-text
@@ -1349,6 +1350,10 @@ i0123movies.*##.jw-submenu-sharing.jw-settings-sharing.jw-reset.jw-button-color.
 
 #Ratsit.se
 ratsit.se##.footer
+ratsit.se###CybotCookiebotDialogBodyUnderlay
+ratsit.se###paAdressen
+ratsit.se###engagemang-banner
+ratsit.se###merInfo
 ratsit.se##.main-content-holder--submenu-fixed.main-content-holder.content > .container > div.row:nth-of-type(1) > .col-md-12
 ratsit.se##.js-scale-this-ad.hidden-print.ad-panorama-bottom > .ad-report--medium
 ratsit.se##.sok-traffar-div-tab01 > .search-list-banner__bg.search-list-banner
@@ -2742,6 +2747,7 @@ dirdamid.com##a[href$=".html"]
 ||doubleclick.net^$script,image,subdocument
 ||consorcraightyc.info^
 ||cyneburg-yam.com^
+||tpb.party/static/custom_ads.js
 ||creative.wwwpromoter.com^
 ||disqus.com/count.js$script
 ||disqus.com/embed.js$script
