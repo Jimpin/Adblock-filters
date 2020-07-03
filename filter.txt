@@ -217,6 +217,7 @@ twitch.tv##a[href$="twitch.tv"][target="_blank"]
 twitch.tv##+js(cookie-remover.js, unique_id)
 player.twitch.tv##.player-overlay
 /\/[a-z0-9_-]{15,}\.[a-z0-9-]+\.[a-z]{2,}\/.*?\w{40,}/$domain=twitch.tv
+@@||www.twitch.tv/videos/*$csp
 @@||irc-ws.chat.twitch.tv^$websocket,first-party
 @@||wss://pubsub-edge.twitch.tv
 ||twitch.tv$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' wss: blob: *.twitch.tv google.com gstatic.com *.jtvnw.net *.ttvnw.net *.twitchcdn.net recaptcha.net
@@ -2488,6 +2489,8 @@ dirdamid.com##a[href$=".html"]
 ##[class="pop-block pop-border"]
 ##[class="pop-postroll-close"]
 ###preroll
+##.ot-fade-in.onetrust-pc-dark-filter
+##.ot-sdk-container > .ot-sdk-row
 ##.outbrain
 ##.outbrain-ads
 ##.overlay-content-arrows
