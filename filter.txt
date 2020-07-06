@@ -5338,7 +5338,7 @@ photobucket.com#@#[id*="Preload"]
 ://geo-$important
 ://geo.$important
 ://global.$important
-://log.$important
+://log.$3p
 ://sentry-$important
 ://sentry.$important
 ://ws.$important
@@ -5517,3 +5517,5 @@ photobucket.com#@#[id*="Preload"]
 ||spotxchange.com^$xmlhttprequest
 ||googletagmanager.com/gtm.js$script
 ||imrworldwide.com^$image
+
+@@||pinterest.com^$image
