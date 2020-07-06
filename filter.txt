@@ -319,6 +319,7 @@ youtube.com##.ad-div
 youtube.com##.annotation.iv-branding
 youtube.com##.opened
 youtube.com###dialog
+youtube.com###infoButton
 youtube.com##.yt-alert-content
 youtube.com##+js(json-prune, adPlacements)
 youtube.com##[class="ytp-paid-content-overlay"]
@@ -2129,6 +2130,7 @@ dirdamid.com##a[href$=".html"]
 ##.adContainer:nth-of-type(2)
 ##.adContainer:nth-of-type(12)
 ##a.btn-primary[rel="nofollow"]
+###cookieDisclaimer
 ##.scandalouspokemon
 ##milktruck
 ##.widget:nth-of-type(2) > .hd-buttons.row
@@ -5409,7 +5411,6 @@ photobucket.com#@#[id*="Preload"]
 *##+js(set, atob, noopFunc)
 *##+js(set, showBlockIf, noopFunc)
 *##+js(set, _pop, noopFunc)
-*##+js(abort-on-property-write.js, document.onclick)
 ###block-onscroll-onscroll
 ##li[data-test-id="infinite-scroll-AD"]
 ##li[data-test-id="infinite-scroll-PENCIL"]
