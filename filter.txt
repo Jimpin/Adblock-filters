@@ -5070,6 +5070,7 @@ popuper.js^
 @@||cdnjs.cloudflare.com/ajax/libs/*$script,stylesheet,font
 @@||static.twitchcdn.net/assets/*$script
 @@||jawcloud.co/*/embed.js$script
+@@||api.twitter.com^$xmlhttprequest,1p
 @@*player.min.js$script
 @@/js/page-landing-page.js?*$script
 @@||*^$popup,domain=totalsportek.com
