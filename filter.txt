@@ -24,7 +24,9 @@ aftonbladet.se##.abAdWrapper
 aftonbladet.se##[rel="noopener nofollow noreferrer"]
 aftonbladet.se##[src*="/ab-box?"]
 aftonbladet.se##[class="_1Wc3D"]
-aftonbladet.se##.HLf1C [style="min-height: 600px;"]
+aftonbladet.se##div.HLf1C:nth-of-type(31)
+aftonbladet.se##div.HLf1C:nth-of-type(32)
+aftonbladet.se##div.HLf1C [style="min-height: 600px;"]
 aftonbladet.se##.-adv\.jpg.-adv\.js.text-ad-links.text-ads.text_ads.text_ad.textAd.text-ad.pub_728x90.pub_300x250m.pub_300x250
 aftonbladet.se##div:matches-css(width: 314px):matches-css(height: 314px)
 aftonbladet.se##[style="margin:0;font-size:14px;font-family:Arial, Helvetica, Verdana, Geneva, sans-serif;font-weight:bold;letter-spacing:0.2px;line-height:1.28;color:#0067b5"]
