@@ -5093,8 +5093,7 @@ popuper.js^
 @@?utm_medium=iframe_widget$popup
 @@/videos/$image
 @@/scripts/app.js?
-@@/assets/application/
-@@/assets/vendor/
+@@/assets/*/js/^$script
 @@||maxcdn.bootstrapcdn.com^
 @@||amazonaws.com^$image
 @@||analytics.google.com^
