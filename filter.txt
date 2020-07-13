@@ -220,7 +220,7 @@ twitch.tv##a[href$="twitch.tv"][target="_blank"]
 twitch.tv##+js(cookie-remover.js, unique_id)
 player.twitch.tv##.player-overlay
 /\/[a-z0-9_-]{15,}\.[a-z0-9-]+\.[a-z]{2,}\/.*?\w{40,}/$domain=twitch.tv
-@@||www.twitch.tv/videos/*$csp
+@@||twitch.tv/videos/*$csp
 @@||irc-ws.chat.twitch.tv^$websocket,first-party
 @@||wss://pubsub-edge.twitch.tv
 ||twitch.tv$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' wss: blob: *.twitch.tv google.com gstatic.com *.jtvnw.net *.ttvnw.net *.twitchcdn.net recaptcha.net
@@ -1939,6 +1939,8 @@ dirdamid.com##a[href$=".html"]
 ##.dtcookie-overlay
 ##.dtcookie__wrap
 ##.cookie-acceptance
+###cookiePrompt
+###optanon-popup-bg
 ###cookie-bar
 ###cookie
 ###cookies
@@ -3029,6 +3031,7 @@ dirdamid.com##a[href$=".html"]
 ||ukatoe.com^
 ||uralap.com^
 ||utazwa.com^
+||sharethrough.com^
 ||utorido.com^
 ||uzotarak.com^
 ||venonita.com^
@@ -5113,6 +5116,7 @@ popuper.js^
 @@||fonts.gstatic.com^$font
 @@||radar.cedexis.com^$script
 @@/accounts/*$popup
+@@/assets/*$script
 @@upload-*^$xhr
 @@/jwplayer.js^$script,1p
 @@/css/bootstrap.min.css$stylesheet
