@@ -5524,3 +5524,7 @@ photobucket.com#@#[id*="Preload"]
 ||imrworldwide.com^$image
 
 @@||pinterest.com^$image
+
+##.light.as-oil
+###tyche_cmp_modal
+##.popup_overlay--2rgA3
