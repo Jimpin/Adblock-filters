@@ -383,10 +383,11 @@ spotify.com##.ads-container
 @@||cdn.optimizely.com/js/*.js$domain=spotify.com
 @@||newrelic.com/nr-*.min.js$domain=play.spotify.com
 
-
 #Facebook.com
-facebook.com##+js(acis, jQuery, adblocker)
-facebook.com##+js(aopr, app_vars.force_disable_adblock)
+facebook.com##[aria-label="Annonsörlänk"]
+facebook.com##[style="display: -webkit-box; -moz-box-orient: vertical; -webkit-line-clamp: 2;"]:has-text(Sponsrad)
+facebook.com#@#html:style(overflow-y: auto !important;)
+facebook.com#@#html:style(overflow-x: hidden !important;)
 facebook.com##.adv
 facebook.com##div[data-testid="fbfeed_story"]:if(a[href*="[is_sponsored]"])
 facebook.com##div[id^="substream_"] ._5jmm[data-dedupekey][data-cursor][data-xt][data-xt-vimpr="1"][data-ftr="1"][data-fte="1"]
@@ -412,8 +413,7 @@ facebook.com###globalContainer .pagelet.egoOrganicColumn
 ||facebook.com/v2.9/plugins/share_button.php$subdocument
 ||facebook.com/ads/*
 ||facebook.com/tr/$third-party
-||facebook.com/ajax/mercury/change_read_status.php$xmlhttprequest
-||facebook.com/video/autoplay/*$xmlhttprequest,domain=www.facebook.com,important
+||facebook.com/video/autoplay/*$xmlhttprequest
 ||facebook.com/xti.php$important
 ||facebook.com/whitepages/wpminiprofile.php$third-party
 ||facebook.com/widgets/activity.php?$third-party
@@ -422,9 +422,7 @@ facebook.com###globalContainer .pagelet.egoOrganicColumn
 ||facebook.com/campaign/landing.php?
 ||graph.facebook.com^$script,important
 ||badge.facebook.com^$third-party
-||fbsbx.com/security/hsts-pixel.gif$image,domain=www.facebook.com,important
-||messenger.com/ajax/messenger/context_banner/*$xmlhttprequest,domain=www.messenger.com,important
-||messenger.com/common/scribe_endpoint.php$domain=www.messenger.com,important
+||messenger.com/ajax/messenger/context_banner/*$xmlhttprequest
 ###fblike
 ##.ad-link
 
