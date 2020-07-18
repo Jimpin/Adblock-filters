@@ -300,7 +300,7 @@ tv4play.se##a[href="https://www.cmore.se/tv-program?utm_source=tv4play&utm_mediu
 ||a-fds.youborafds01.com/data$redirect=noop.txt,xhr
 ||damoh.*.se^$image
 ||stat-api.tv4play.se^$image
-||b17g.net^*/play/log$redirect=noop.txt,xmlhttprequest,domain=tv4play.se|fotbollskanalen.se
+||b17g.net^*/play/log$xmlhttprequest
 ||bonnier-html-player.b17g.services/bumpers/$media,redirect=noop-1s.mp4,domain=tv4play.se|fotbollskanalen.se
 ||cloudfront.net/creatives/assets/$image,media,domain=fotbollskanalen.se|tv4play.se
 ||cmore.se/*.gif$image
