@@ -61,6 +61,8 @@ aftonbladet.se##.outerContainer
 aftonbladet.se##a[href*="/tv/a"]
 aftonbladet.se##a[href*="/kampanj"]
 aftonbladet.se##.jw-reset.jw-controls > .jw-reset.jw-controls-right > .jw-reset.jw-dock > .jw-sharing-dock-btn.jw-reset.jw-background-color.jw-dock-button
+aftonbladet.se##[href="/kampanj/casinoguide"]
+aftonbladet.se##a[href*="/"]:has-text(Casino)
 aftonbladet.se##a[href*="?utm_source=aftonbladet&utm_medium=textlink&utm_campaign=widget"]
 acast.*##+js(acis, jQuery, adblocker)
 acast.*##+js(aopr, app_vars.force_disable_adblock)
@@ -5547,3 +5549,6 @@ photobucket.com#@#[id*="Preload"]
 ##.light.as-oil
 ###tyche_cmp_modal
 ##.popup_overlay--2rgA3
+
+###importantMessage
+##.cookie-information-text
