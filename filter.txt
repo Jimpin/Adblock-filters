@@ -996,6 +996,17 @@ vidoo.*##+js(popads-dummy.js)
 ||vidoo.*$script,popup
 ||abi.vidoo.tv/i/*$image
 
+#Hemnet.se
+hemnet.se###ad_unit_placeholder
+hemnet.se##.consent-modal__overlay--after-open.consent-modal__overlay
+hemnet.se##.listing__articles
+hemnet.se##.article-list-post a:has(span:has-text(Sponsrad))
+hemnet.se##.article-news__link:has(.news-article--sponsored)
+hemnet.se##.featured-news__link:has(.featured-news__ribbon--sponsored)
+hemnet.se##.recent-news__item:has(.recent-news__category:has-text(/sponsrad/i))
+hemnet.se##.result-article__link:has(.article__ribbon--sponsored)
+hemnet.se##.start-page-hero__caption:has(.start-page-hero__caption-category:has-text(/sponsrad av/i))
+
 #Firstonetv.net
 firstonetv.net##.columns.large-4
 firstonetv.net##.socialLinks
@@ -2217,6 +2228,8 @@ dirdamid.com##a[href$=".html"]
 ##.spinner-overlay
 ###diamond-desktop-container-id
 ###message_adblock
+###bannerOverlay
+###ensNotifyBanner
 ##[class="closeSkin hide"]
 ##.abovePlayer
 ##merfb
@@ -2388,6 +2401,7 @@ dirdamid.com##a[href$=".html"]
 ##.banner-in
 ##.cookieinfo
 ##.cookie-consent-bar > div > .row
+###ad_unit_placeholder
 ##.region_redirect_popup_asset
 ###_evidon-background
 ###_evidon-barrier-wrapper
@@ -4146,6 +4160,11 @@ redirect.
 /imdb\.com\/(google|Photos\/CMSIcons\/scrnshots\/misc|(.*)\.swf)/
 /api/plugins/google-analytics$xmlhttprequest
 /app.php/adsview/*$xmlhttprequest
+/new_construction_ads/*
+/packs/consent.
+/packs/survey.
+/snowplow$script
+/snowplow-tracker$script
 /utsync.ashx?
 /addyn|*|adtech;
 /socialmedia.
