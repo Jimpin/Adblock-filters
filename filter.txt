@@ -5552,3 +5552,4 @@ photobucket.com#@#[id*="Preload"]
 
 ###importantMessage
 ##.cookie-information-text
+##[data-testid="cookie-disclaimer"]
