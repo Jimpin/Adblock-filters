@@ -832,12 +832,11 @@ wauzoust.com##a[href$=".html"]
 @@/?stream=
 
 #Vipleague.lc
-vipleague.*##+js(acis, jQuery, adblocker)
-vipleague.*##+js(aopr, app_vars.force_disable_adblock)
 vipleague.*##ol
 vipleague.*##div.pt-1:nth-of-type(9)
 vipleague.*##b
 vipleague.*##h1
+vipleague.*##div:matches-css(z-index: 99999)
 vipleague.*##.h-100.w-100.position-relative
 vipleague.*##.green.button.big
 vipleague.*##.text-center.alert-secondary.alert.col-12
@@ -847,10 +846,7 @@ vipleague.*###UcZaxehzMw
 vipleague.*##.cc-color-override--1762072787.cc-right.cc-bottom.cc-theme-classic.cc-type-info.cc-floating.cc-window
 vipleague.*##.hidden-sm.hidden-xs.pull-right.col-lg-4.col-md-4
 vipleague.*##.hidden-sm.hidden-xs.col-xs-12 > .well-sm.well
-vipleague.*##script:inject(set-constant.js, AdBlockEnabled, false)
-vipleague.*##script:inject(set-constant.js, plyad, 0)
 vipleague.*##.position-relative.text-success
-vipleague.*##div.row:nth-of-type(4) > .text-center.col-12
 vipleague.*##.text-center.col-md-4.d-md-block.d-none
 vipleague.*##.text-white.bg-dark.text-justify.p-3.m-3.d-md-block.d-none.col-12
 ||clients6.google.com/rpc$xmlhttprequest,domain=www.vipleague.lc
