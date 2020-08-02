@@ -2861,6 +2861,7 @@ dirdamid.com##a[href$=".html"]
 ||adserving.unibet.com^
 ||cdn.bitmedianetwork.com^
 ||c.codeonclick.com^
+||vaebard.com^
 ||andlache.com^
 ||wsp.mgid.com^
 ||whos.amung.us^
@@ -3383,6 +3384,16 @@ dirdamid.com##a[href$=".html"]
 ||speednetwork14.adk2x.com^
 ||exdynsrv.com^$important
 ||best-prizes-now.*^
+||linkonclick.com^$important
+||yandex.^/jstracer
+||adfox.^$3p
+||live-stream365.com/uuusausa.js$script
+||utarget.^
+||trafficdok.com^
+||kursatarak.com^
+||yastatic.net^
+/pcode/adfox/loader.js$script
+/decript.php$xhr
 ||ccdnss.com^
 ||bidrev.net^
 ||paid.outbrain.com^
