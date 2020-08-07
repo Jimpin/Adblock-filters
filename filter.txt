@@ -3456,6 +3456,8 @@ dirdamid.com##a[href$=".html"]
 ||driftcasino.com^
 ||slotvpromo.club^
 ||admiralfs.com^
+||dummy.com^
+||rsaltsjt.com^
 ||columb03qp.com^
 ||rei3pl29.com^
 ||driftslot.com^
@@ -5550,6 +5552,9 @@ photobucket.com#@#[id*="Preload"]
 ||spotxchange.com^$xmlhttprequest
 ||googletagmanager.com/gtm.js$script
 ||imrworldwide.com^$image
+||alfasense.com^$xhr
+||exchange.buzzoola.com^$xhr
+/system/context.js$script
 
 @@||pinterest.com^$image
 
