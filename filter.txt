@@ -5386,7 +5386,7 @@ photobucket.com#@#[id*="Preload"]
 ://wchat.*^$popup,important
 
 *##+js(abort-current-inline-script.js, atob, tabunder)
-*##+js(set-constant.js, atob, trueFunc)
+--*##+js(set-constant.js, atob, trueFunc)
 *##+js(abort-on-property-write.js, _pop)
 *##+js(abort-on-property-read.js, __htapop)
 *##+js(abort-on-property-read.js, InitCloseButton)
