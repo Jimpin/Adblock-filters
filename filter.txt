@@ -6,6 +6,7 @@
 #Aftonbladet.se
 aftonbladet.se###outsider
 aftonbladet.se###MegaAd
+aftonbladet.se#@#+js(set-constant.js, atob, trueFunc)
 aftonbladet.se##+js(nosiif, e.reportVisibility())
 aftonbladet.se##+js(nosiif, e.ping())
 aftonbladet.se##+js(nostif, onerror, 1000)
