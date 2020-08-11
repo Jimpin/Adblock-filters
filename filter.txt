@@ -6,7 +6,8 @@
 #Aftonbladet.se
 aftonbladet.se###outsider
 aftonbladet.se###MegaAd
-aftonbladet.se#@#+js(set-constant.js, atob, trueFunc)
+aftonbladet.se,expressen.se#@#+js(set-constant.js, atob, trueFunc)
+aftonbladet.se,expressen.se#@#+js(set-constant.js, atob, noopFunc)
 aftonbladet.se##+js(nosiif, e.reportVisibility())
 aftonbladet.se##+js(nosiif, e.ping())
 aftonbladet.se##+js(nostif, onerror, 1000)
@@ -5386,7 +5387,9 @@ photobucket.com#@#[id*="Preload"]
 ://wchat.*^$popup,important
 
 *##+js(abort-current-inline-script.js, atob, tabunder)
---*##+js(set-constant.js, atob, trueFunc)
+*##+js(set-constant.js, atob, trueFunc)
+*##+js(set-constant.js, atob, noopFunc)
+*##+js(set-constant.js, Annons, noopFunc)
 *##+js(abort-on-property-write.js, _pop)
 *##+js(abort-on-property-read.js, __htapop)
 *##+js(abort-on-property-read.js, InitCloseButton)
@@ -5420,7 +5423,6 @@ photobucket.com#@#[id*="Preload"]
 *##+js(acis, popunder)
 *##+js(acis, AdPortal)
 *##+js(set-constant.js, analyticsTrackGoogleAnalytics, noopFunc)
-*##+js(set-constant.js, Annons, noopFunc)
 *##+js(acis, AdsReloadConfig)
 *##+js(acis, phpads_deliver)
 *##+js(aopw, banner_video)
