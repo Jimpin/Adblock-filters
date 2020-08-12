@@ -28,9 +28,10 @@ aftonbladet.se##.svp-pause-view--visible.svp-pause-view
 aftonbladet.se##[rel="noopener nofollow noreferrer"]
 aftonbladet.se##[src*="/ab-box?"]
 aftonbladet.se##[class="_1Wc3D"]
-aftonbladet.se##div.HLf1C:nth-of-type(31)
-aftonbladet.se##div.HLf1C:nth-of-type(32)
-aftonbladet.se##div.HLf1C [style="min-height: 600px;"]
+aftonbladet.se##div.HLf1C:has-text(clas)
+aftonbladet.se##div.HLf1C:has-text(sex)
+aftonbladet.se##[class="AxIVT"]
+aftonbladet.se##[data-invcode="se-aftonbladet-wde-ettan_bostadsboxen"]
 aftonbladet.se##.-adv\.jpg.-adv\.js.text-ad-links.text-ads.text_ads.text_ad.textAd.text-ad.pub_728x90.pub_300x250m.pub_300x250
 aftonbladet.se##div:matches-css(width: 314px):matches-css(height: 314px)
 aftonbladet.se##[style="margin:0;font-size:14px;font-family:Arial, Helvetica, Verdana, Geneva, sans-serif;font-weight:bold;letter-spacing:0.2px;line-height:1.28;color:#0067b5"]
@@ -86,7 +87,7 @@ aftonbladet.se##a[href="https://www.strivesport.com/se/home"]
 klart.se##+js(aopr, blockAdBlock)
 ||stitcher.acast.com/livestitches/*$media,noopmp3=0.01s,domain=embed.acast.com
 @@||imgs.aftonbladet-cdn.se/*/images/
-@@||gfx.aftonbladet-cdn.se^$image,1p
+@@||gfx.aftonbladet-cdn.se^$image
 @@/hyper-assets/preload*$script,domain=aftonbladet.se
 @@/hyper-assets/app.$script,domain=aftonbladet.se
 @@/web/v1.2.41/index.js
@@ -5316,7 +5317,6 @@ popuper.js^
 
 .now.sh$important
 .html$third-party,popup,domain=nyafilmer.lol|gomovies.sc|fmovies.to|123moviehub.co|swesub.net|i0123movies.com|putlocker.me|jawcloud.co|openload.co|bestmovies.to|nxload.com|streamango.com|rapidvideo.com|
-.gif$third-party
 
 /:\/\/www\.([a-z]{6,16})\.com\/([a-z]{1,4})\.js$/$third-party,script
 /^https?:\/\/[^\/]+\/[a-zA-Z0-9]{32,}$/$third-party
