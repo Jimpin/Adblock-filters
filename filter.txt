@@ -30,6 +30,8 @@ aftonbladet.se##[src*="/ab-box?"]
 aftonbladet.se##[class="_1Wc3D"]
 aftonbladet.se##div.HLf1C:has-text(clas)
 aftonbladet.se##div.HLf1C:has-text(sex)
+aftonbladet.se##.abAside div:has-text(spel 18 år)
+aftonbladet.se##.abAside > div:has-text(ANNONS)
 aftonbladet.se##[class="AxIVT"]
 aftonbladet.se##[data-invcode="se-aftonbladet-wde-ettan_bostadsboxen"]
 aftonbladet.se##.-adv\.jpg.-adv\.js.text-ad-links.text-ads.text_ads.text_ad.textAd.text-ad.pub_728x90.pub_300x250m.pub_300x250
