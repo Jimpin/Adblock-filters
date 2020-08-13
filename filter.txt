@@ -6,8 +6,6 @@
 #Aftonbladet.se
 aftonbladet.se###outsider
 aftonbladet.se###MegaAd
-aftonbladet.se,expressen.se#@#+js(set-constant.js, atob, trueFunc)
-aftonbladet.se,expressen.se#@#+js(set-constant.js, atob, noopFunc)
 aftonbladet.se##+js(nosiif, e.reportVisibility())
 aftonbladet.se##+js(nosiif, e.ping())
 aftonbladet.se##+js(nostif, onerror, 1000)
@@ -1704,6 +1702,7 @@ goal.com##+js(popads-dummy)
 goal.com##.commercial
 goal.com##.clearfix.widget-inline-editors-picks
 goal.com##.widget-semantic-player--displayed.widget-semantic-player
+atg.se##[data-test-id="hero-placeholder"]
 dolohen.com##a[href$=".html"]
 dirdamid.com##a[href$=".html"]
 ##[class$="-sns-box"]
@@ -5377,8 +5376,6 @@ photobucket.com#@#[id*="Preload"]
 ://wchat.*^$popup,important
 
 *##+js(abort-current-inline-script.js, atob, tabunder)
-*##+js(set-constant.js, atob, trueFunc)
-*##+js(set-constant.js, atob, noopFunc)
 *##+js(set-constant.js, Annons, noopFunc)
 *##+js(abort-on-property-write.js, _pop)
 *##+js(abort-on-property-read.js, __htapop)
