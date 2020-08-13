@@ -363,6 +363,8 @@ youtube.com##.ytp-button.ytp-miniplayer-button
 #Spotify.com
 spotify.com##.ads-container
 open.spotify.com###leaderboard-ad-element
+open.spotify.com##body > div:nth-of-type(2)
+@@||open.scdn.co/cdn/*$script,domain=open.spotify.com
 ||open.spotify.com/log/adevent$redirect=noop.txt,xhr
 ||fastly-insights.com^$xhr,domain=open.spotify.com
 ||cloudfront.net/mp3-ad/$media,redirect=noopmp3-0.1s
@@ -5432,7 +5434,6 @@ photobucket.com#@#[id*="Preload"]
 *##+js(abort-current-inline-script.js, document.createElement, jsc.mgid.com)
 *##+js(set, AdController, noopFunc)
 *##+js(set, ClickUnder, noopFunc)
-*##+js(set, atob, noopFunc)
 *##+js(set, showBlockIf, noopFunc)
 *##+js(set, _pop, noopFunc)
 ###block-onscroll-onscroll
@@ -5463,6 +5464,7 @@ photobucket.com#@#[id*="Preload"]
 /glimr.$script
 /gdpr-bundle.$script
 
+*#@#a[href*="/spelat"]
 *##a[href*="/betting"]
 *##a[href*="/brandstudio/a/"]
 *##a[href*="/branding")
