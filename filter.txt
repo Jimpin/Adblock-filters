@@ -35,7 +35,6 @@ aftonbladet.se##[class="AxIVT"]
 aftonbladet.se##[data-invcode="se-aftonbladet-wde-ettan_bostadsboxen"]
 aftonbladet.se##.-adv\.jpg.-adv\.js.text-ad-links.text-ads.text_ads.text_ad.textAd.text-ad.pub_728x90.pub_300x250m.pub_300x250
 aftonbladet.se##div:matches-css(width: 314px):matches-css(height: 314px)
-
 aftonbladet.se##[rahrefbattkod=""]
 aftonbladet.se##[style="background-color:#0067b5;border-radius:2px;margin:16px 0px 0px 0px;padding:5px 5px 4px 5px;align-self:flex-start;font-size:11px;font-family:Arial, Helvetica, Verdana, Geneva, sans-serif;font-weight:bold;line-height:1;text-transform:uppercase;color:#fefefe;-webkit-font-smoothing:antialiased"]
 aftonbladet.se##[class="svp-player-recommended-box"]
@@ -57,8 +56,10 @@ aftonbladet.se##.jw-reset.jw-controls > .jw-reset.jw-controls-right > .jw-reset.
 aftonbladet.se##[href="/kampanj/casinoguide"]
 aftonbladet.se##a[href*="/"]:has-text(Casino)
 aftonbladet.se##a[href*="?utm_source=aftonbladet&utm_medium=textlink&utm_campaign=widget"]
-acast.*##+js(acis, jQuery, adblocker)
-acast.*##+js(aopr, app_vars.force_disable_adblock)
+acast.com##[alt="Advertisement"]
+acast.com##[data-test-id="AirTimeAdControls__CountDown"]
+acast.com##[data-test-id="Link"]
+acast.com##[data-test-id="ImageLink"]
 live.aftonbladet.se###advert-topboard
 live.aftonbladet.se###advert-placeholder_1
 live.aftonbladet.se###advert-placeholder_2
@@ -1072,6 +1073,8 @@ viafree.se##.avodp.pause-ad-showing .vjs-progress-control, .avodp.ad-playing .vj
 @@||fwmrm.net/ad/$script
 @@||fwmrm.net/ad/$image,xmlhttprequest
 @@||fwmrm.net/crossdomain.xml$xmlhttprequest
+@@||mssl.fwmrm.net/p/MTG_Brightcove_HTML5/AdManager.js$script,domain=viafree.se
+@@||freewheel-mtgx-tv.akamaized.net^$xhr,domain=viafree.se
 ||freewheel-mtgx-tv.akamaized.net/*_*x*.mp4$xhr,redirect=noop.txt
 ||viafree.se^$xmlhttprequest
 ||viafree.se/collect$important
@@ -1085,7 +1088,6 @@ viafree.se##.avodp.pause-ad-showing .vjs-progress-control, .avodp.ad-playing .vj
 ||stickyadstv.com/www/delivery/swfIndex.php$xmlhttprequest
 ||tr.snapchat.com/p$subdocument
 ||sc-static.net^$script
-/MTG_Brightcove_HTML5/AdManager.js$script
 
 #Dplay.se
 dplay.se##+js(acis, jQuery, adblocker)
@@ -5467,7 +5469,7 @@ photobucket.com#@#[id*="Preload"]
 *#@#a[href*="/spelat"]
 *##a[href*="/betting"]
 *##a[href*="/brandstudio/a/"]
-*##a[href*="/branding")
+*##a[href*="/branding"]
 *##a[href*="/casino"]
 *##a[href*="/casinoguide"]
 *##a[href*="/kampanj"]:has-text(/erbjudande/i)
@@ -5476,7 +5478,7 @@ photobucket.com#@#[id*="Preload"]
 *##a[href*="/rabattkod"]
 *##a[href*="/rabattkoder"]
 *##a[href*="/spela"]
-*##a[href*="/content")
+*##a[href*="/content"]
 *##a[href*="/clk."]
 *##a[href*="/privacy."]
 *##a[href*="/AdwdGn/"]
