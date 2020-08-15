@@ -5149,7 +5149,6 @@ popuper.js^
 @@||cdn.fbsbx.com^$image
 @@||redirect*^$xhr,media
 |http*://*$first-party,websocket,important
-.tv/*third-party$script,important
 
 ##a[href$=".wz"][target="_blank"]
 ##a[href$=".style"][target="_blank"]
@@ -5507,8 +5506,6 @@ photobucket.com#@#[id*="Preload"]
 *##.is-showing.has-noScroll.modal:style(display: none !important;)
 *##.disabled-vscroll:style(overflow: auto !important;)
 
-*.se##+js(noeval-if, href)
-*.com##+js(noeval-if, href)
 *.me##+js(noeval-if, href)
 *.lol##+js(noeval-if, href)
 *.to##+js(noeval-if, href)
