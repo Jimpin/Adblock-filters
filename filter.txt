@@ -60,6 +60,9 @@ acast.com##[alt="Advertisement"]
 acast.com##[data-test-id="AirTimeAdControls__CountDown"]
 acast.com##[data-test-id="Link"]
 acast.com##[data-test-id="ImageLink"]
+acast.com##.kaNSQD.Container-sc-195bujq-1
+acast.com#@#[style="width: 100%; height: 100%; overflow: hidden;"]
+@@||acast.com^$stylesheet
 live.aftonbladet.se###advert-topboard
 live.aftonbladet.se###advert-placeholder_1
 live.aftonbladet.se###advert-placeholder_2
