@@ -740,7 +740,7 @@ nyafilmer.*##[class="headerSpace"]
 @@||nyafilmer.*/wp-content/themes/keremiya1/images/tr-flag.png
 @@||api.peer5.com$script,domain=jawcloud.co
 @@||*.com^$first-party,inline-script,domain=jawcloud.co
-||nyafilmer.*/branding/*$image
+||*.wp.com/*/branding/*$important
 ||nyafilmer.*/sw_*.js$script,1p
 ||nyafilmer.*/u*.js$script,1p
 ||nyafilmer.*/*.gif$image
@@ -5081,6 +5081,7 @@ Pop-under.js^
 popuper.js^
 
 #Allowed Scripts
+@@||*.wp.com/*/wp-content/uploads/*$image
 @@||google.com/recaptcha/*
 @@||gstatic.com/recaptcha/*
 @@||images-na.ssl-images-amazon.com/images/*$script
