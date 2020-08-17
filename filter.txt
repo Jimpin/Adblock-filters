@@ -4013,7 +4013,7 @@ redirect.
 /wp-content/plugins/ad-block-defender/*
 /wp-content/plugins/deadblocker/*
 /wp-content/uploads/an-temp/*$script,stylesheet
-/wp-admin/admin-ajax.php$xmlhttprequest
+/wp-admin/admin-ajax.php$xhr,3p
 /site/captcha?
 /play_error$xmlhttprequest
 /ad-loading.*$image
