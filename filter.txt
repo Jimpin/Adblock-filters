@@ -224,7 +224,6 @@ player.twitch.tv##.player-overlay
 @@||wss://pubsub-edge.twitch.tv
 ||twitch.tv$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' wss: blob: *.twitch.tv google.com gstatic.com *.jtvnw.net *.ttvnw.net *.twitchcdn.net recaptcha.net
 ||twitch.tv/service-worker.js$important
-||sci.twitch.tv^$all
 ||trowel.twitch.tv/?data=[base64string]
 ||api.dbh.doub.ly^$xmlhttprequest,important
 ||ad.doubleclick.net/ddm/ad/*/*/*'/;ord='*$domain=twitch.tv
