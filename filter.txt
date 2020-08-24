@@ -639,7 +639,6 @@ nyafilmer.*##script:inject(abort-on-property-read.js, BetterJsPop)
 nyafilmer.*##script:inject(abort-current-inline-script.js, OneSignal)
 nyafilmer.*##script:inject(abort-current-inline-script.js, decodeURI, getScriptFromCss)
 nyafilmer.*##script:inject(addEventListener-defuser.js, /^(?:click|mousedown)$/, _0x)
-nyafilmer.*##+js(noeval-if, href)
 nyafilmer.*##+js(acis, jQuery, appendTo)
 nyafilmer.*##+js(acis, jQuery, adblocker)
 nyafilmer.*##+js(aopr, open)
@@ -5512,9 +5511,6 @@ photobucket.com#@#[id*="Preload"]
 *##.disabled-vscroll:style(overflow: auto !important;)
 
 *.me##+js(noeval-if, href)
-*.lol##+js(noeval-if, href)
-*.to##+js(noeval-if, href)
-*.tv##+js(noeval-if, href)
 *##.in.fade.modal-backdrop
 *##a[onclick="closeMyAd()"]
 *##a[onclick="rdr(this);"]
