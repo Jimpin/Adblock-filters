@@ -431,8 +431,8 @@ svt.se##section.nyh_share
 svt.se##.SocialMediaShareButton 
 svt.se###nyh_cookie-message 
 svtplay.se###svtCookieInformationContainer 
+svtplay.se##.play_videolist__container-inner:style(overflow-x: hidden !important;)
 svtplay.se#@#.no-cookies 
-svtplay.se#@#html:style(overflow-x: hidden !important;)
 svtplay.se##.play_cookie-information
 @@||svtstatic.se^$image
 ||svtstatic.se/play/play6/images/*.png$image
