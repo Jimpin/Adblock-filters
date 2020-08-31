@@ -319,8 +319,6 @@ tv4play.se##a[href="https://www.cmore.se/tv-program?utm_source=tv4play&utm_mediu
 #Youtube.com
 youtube.com##.ad-div
 youtube.com##.annotation.iv-branding
-youtube.com##.opened
-youtube.com###dialog
 youtube.com###infoButton
 youtube.com##.yt-alert-content
 youtube.com##+js(json-prune, adPlacements)
@@ -346,9 +344,8 @@ youtube.com##.masthead-ad-control
 youtube.com###video-masthead
 youtube.com###hats-container
 youtube.com##.style-scope ytd-badge-supported-renderer:has-text(/annons/i)
-youtube.com##.opened
-youtube.com###dialog
 youtube.com##.ytp-button.ytp-miniplayer-button
+youtube.com#@#.page-loaded
 @@||youtube.com^$xhr
 @@||youtube.com/player_api$third-party
 ||youtube.com/api/stats/qoe?event
