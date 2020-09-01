@@ -497,6 +497,7 @@ blocket.se###li_panorama
 blocket.se###vi_panorama
 blocket.se###blocketd_visning_infor_kopet3
 blocket.se###blocketd_visning_infor_kopet2
+blocket.se##[style="height:240px"]
 blocket.se##[style="height: 240px;"]
 blocket.se##.row.ptxs.clearfix.js_recommendations_container
 blocket.se##.mbs.h6.plural-headline
