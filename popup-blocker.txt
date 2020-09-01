@@ -183,6 +183,7 @@ iframe*$popup
 ||traffichunt.com^$document,popup
 ||trhnt.com^$document,popup
 ||trhunt.com^$document,popup
+||postlnk.com^$document,popup
 ||adnety.com^$popup
 ||clicknety.com^$popup
 ||b54m4qbmt0b9.com^$popup

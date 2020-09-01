@@ -7045,6 +7045,11 @@ dirdamid.com##a[href$=".html"]
 ||taboola.com^
 ||s1.2mdn.net^
 ||s0.2mdn.net^
+||voapozol.com^
+||faigroas.net^
+||dollsdeclare.com^
+||graizoah.com^
+||postlnk.com^$document,1p
 ||track.adform.net^$script,redirect=noop.js
 ||lvgvax82bp.com^$script
 ||loldata.top^$important
