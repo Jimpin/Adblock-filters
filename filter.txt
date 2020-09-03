@@ -21,6 +21,7 @@ aftonbladet.se##.abTheme-adSportbladet
 aftonbladet.se##.abTheme-infeedad
 aftonbladet.se##.abBtnShare
 aftonbladet.se##.abAdWrapper
+aftonbladet.se##.abThemeBgTeaser
 aftonbladet.se##[data-sizes="[[320,250],[300,480]]"]
 aftonbladet.se##.type-advert
 aftonbladet.se###svpPauseContainer1
