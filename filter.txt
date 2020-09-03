@@ -21,6 +21,8 @@ aftonbladet.se##.abTheme-adSportbladet
 aftonbladet.se##.abTheme-infeedad
 aftonbladet.se##.abBtnShare
 aftonbladet.se##.abAdWrapper
+aftonbladet.se##[data-sizes="[[320,250],[300,480]]"]
+aftonbladet.se##.type-advert
 aftonbladet.se###svpPauseContainer1
 aftonbladet.se##.svp-pause-view--visible.svp-pause-view
 aftonbladet.se##[rel="noopener nofollow noreferrer"]
@@ -2216,6 +2218,10 @@ dirdamid.com##a[href$=".html"]
 ##.nativeadserversidecontentmodule
 ##.nature-ad
 ##.footer-social
+###sky-right
+###bottomads
+###textAd
+###adsbox
 ###epbar
 ##.fa-youtube
 ##.fa-twitter
@@ -4320,6 +4326,7 @@ dirdamid.com##a[href$=".html"]
 ##.nu2ad
 ##.nuffnangad
 ##.nui-ad-layout
+##iframe[width="728"][height="90"]
 ##.nw-ad
 ##.nw-ad-468x60
 ##.nw-ad-label
@@ -8529,7 +8536,6 @@ redirect.
 /hads-
 /pubcontent/
 /serve/load.js?
-/underscore.min.js^
 /js/lib.js^
 /json.php?ip=user_get_state
 /xupload.js$script
