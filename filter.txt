@@ -932,12 +932,6 @@ nyafilmer.*##[class="headerSpace"]
 ||nyafilmer.*/wp-content/themes/keremiya1/js/script.js$script
 ||nyafilmer.*/wp-content/themes/keremiya1/js/license.12.js$script,first-party
 ||nyafilmer.*^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' jawcloud.co *.jawcloud.co *.googleapis.com *.google.com *.gstatic.com;img-src *;worker-src 'none'
-||*.net^$frame,inline-script,script,image,xmlhttprequest,stylesheet,other,domain=jawcloud.co
-||*.com^$frame,inline-script,script,image,xmlhttprequest,stylesheet,other,domain=jawcloud.co
-||*.com/modules/gridlex/*/gridlex.min.css$stylesheet,domain=jawcloud.co,important
-||*.com/modules/socket.io/*/socket.io.min.js*$script,domain=jawcloud.co,important
-||i1.wp.com/nyafilmer.lol/branding/*$image
-||gstatic.com/cv/js/sender/v1/cast_sender.js$script
 ||n3-r2d2.piguiqproxy.com^$xmlhttprequest
 ||unrestern.info^$important
 ||imagetopng.*^$important
@@ -956,6 +950,7 @@ jawcloud.co##.loloba
 jawcloud.co##.banner
 jawcloud.co##[class="vjs-picture-in-picture-control vjs-control vjs-button"]
 @@||upvtt.com^$xmlhttprequest
+||jawcloud.co^$csp=sandbox allow-forms allow-same-origin allow-scripts allow-orientation-lock allow-pointer-lock allow-presentation allow-top-navigation
 ||jawcloud.co^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.jawcloud.co upvtt.com *.gstatic.com
 ||jawcloud.co/playerjs/themes/newtheme/videojs.logobrand.css$stylesheet,first-party,important
 ||jawcloud.co/playerjs/themes/newtheme/videojs.chromecast.min.css$stylesheet,first-party,important
@@ -972,7 +967,6 @@ jawcloud.co##[class="vjs-picture-in-picture-control vjs-control vjs-button"]
 ||jawcloud.co/$image
 ||jawcloud.co^$popup,important
 ||tracker.$important,domain=jawcloud.co|nxload.com|streamango.com|
-||bit.ly^$domain=jawcloud.co
 ||googletagmanager.com/gtag/*$script,domain=jawcloud.co
 ||inpagepush.com^$important
 ||vkpass.com/panel/js/license.26.js$script
