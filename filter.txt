@@ -950,7 +950,7 @@ jawcloud.co##.loloba
 jawcloud.co##.banner
 jawcloud.co##[class="vjs-picture-in-picture-control vjs-control vjs-button"]
 @@||upvtt.com^$xmlhttprequest
-||jawcloud.co^$csp=sandbox allow-forms allow-same-origin allow-scripts allow-orientation-lock allow-pointer-lock allow-presentation allow-top-navigation
+.net^$3p,important,domain=jawcloud.co
 ||jawcloud.co^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.jawcloud.co upvtt.com *.gstatic.com
 ||jawcloud.co/playerjs/themes/newtheme/videojs.logobrand.css$stylesheet,first-party,important
 ||jawcloud.co/playerjs/themes/newtheme/videojs.chromecast.min.css$stylesheet,first-party,important
