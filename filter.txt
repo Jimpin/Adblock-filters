@@ -6961,7 +6961,6 @@ dirdamid.com##a[href$=".html"]
 ||adform.net^
 ||adtlgc.com^
 ||aka-cdn.adtech.de^
-||amazonaws.com^$xmlhttprequest
 ||amazon-adsystem.com^
 ||adnigma.com^
 ||adyoulike.omnitagjs.com^
