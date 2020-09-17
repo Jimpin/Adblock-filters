@@ -2327,6 +2327,14 @@ dirdamid.com##a[href$=".html"]
 ##a.btn-primary[rel="nofollow"]
 ###cookieDisclaimer
 ##.scandalouspokemon
+##[class*="clearfix right-ads"]
+##[data-entrycode="AdBlock"][onclick="triggerGatewayModal(event, false, undefined, undefined, undefined);"]
+##[class="sponsor-text"]
+##[data-entrycode="RemAds-vidPg-AB"]
+##[class="adsbytrafficjunky"][data-spot-id]
+###p2vVideosVPage:has-text(Paid)
+##.newPaidSection.section-p2v
+##.nav-videoRecommended.more_recommended_btn.light.greyButton
 ##milktruck
 ##.widget:nth-of-type(2) > .hd-buttons.row
 ##.nyhet_wrapper_annons
@@ -8009,6 +8017,7 @@ adonis_
 movie/ads
 redirect.
 /1675303/
+/ads_batch^
 /adServe/banners?tid=*$all,important
 /redirect
 /click?pid=*
