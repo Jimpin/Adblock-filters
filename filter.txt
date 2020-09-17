@@ -113,11 +113,17 @@ klart.se##+js(aopr, blockAdBlock)
 /embed/ab-
 
 #Expressen.se
+expressen.se##+js(aeld, click, trackClick)
 expressen.se##+js(set, detect, noopFunc)
 expressen.se##a[href="https://www.expressen.se/premium/kampanj/standard"]
-expressen.se##.rotator--external.slider.rotator
 expressen.se##.site-footer__affiliates.site-footer__column--full-width
 expressen.se##^script[id="ads-script"]
+expressen.se##.rotator__link:style(width: unset !important;)
+expressen.se##.teaser:has(.teaser__third-party--bar)
+expressen.se##.teaser:has(.vignette:has-text(/(^erbjudande från|^annons|^happy green|^presenteras av|i samarbete med)/i))
+expressen.se##.teaser:has(a[href^="/brandstudio/"])
+expressen.se##.teaser__hero:has(iframe[src*="/tv/nyheter/live-start/live-tv-senaste-nyheterna"])
+expressen.se##p:has(strong:has-text(/^annons/i))
 expressen.se##^script:has-text(adsScript)
 expressen.se##^script:has-text(window.Exp.bamData)
 expressen.se##^script:has-text(window.ExpressenAnalytics)
@@ -133,6 +139,7 @@ expressen.se##.teaser--sponsored
 expressen.se##[class="exp-video-player__ad-counter"]
 expressen.se##[class="exp-video-player__buffer-overlay"]
 expressen.se##.ad
+expressen.se##.bam-ad-slot--pre-sized.bam-ad-slot--visible.bam-ad-slot
 expressen.se##.consent
 expressen.se##.discount-ad
 expressen.se##.flashes--premium
@@ -155,6 +162,7 @@ expressen.se##.slideshow__control
 ##[class="bam-ad-slot"]
 ##[class="page-list discount-ad"]
 ##div[id="lazy-container"]
+*##+js(acis, ExpressenAnalytics, push)
 *##^script:has-text(window.ExpressenAnalytics)
 @@||expressen.se/videoplayer/*$xmlhttprequest,first-party
 ||expressen.se/_megamenu/*$xmlhttprequest
