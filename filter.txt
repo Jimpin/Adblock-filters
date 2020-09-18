@@ -1241,6 +1241,8 @@ viafree.se##[id="linkTag2"]
 viafree.se##[class="cta-overlay vjs-hidden"]
 viafree.se##+js(setTimeout-defuser.js, r, 0)
 viafree.se##.avodp.pause-ad-showing .vjs-progress-control, .avodp.ad-playing .vjs-progress-control:style(display: initial !important;)
+viafree.se##[id="viafree-logo-text_svg__pattern0"]
+viafree.se##.css-ejg76y-ScrollGradient
 @@||fwmrm.net/ad/$script
 @@||fwmrm.net/ad/$image,xmlhttprequest
 @@||fwmrm.net/crossdomain.xml$xmlhttprequest
@@ -2276,6 +2278,9 @@ dirdamid.com##a[href$=".html"]
 ###p2vVideosVPage:has-text(Paid)
 ##.newPaidSection.section-p2v
 ##.nav-videoRecommended.more_recommended_btn.light.greyButton
+##.NotificationLine
+##.android_walking
+##.walking
 ##milktruck
 ##.widget:nth-of-type(2) > .hd-buttons.row
 ##.nyhet_wrapper_annons
