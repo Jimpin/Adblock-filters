@@ -9747,7 +9747,6 @@ photobucket.com#@#[id*="Preload"]
 -------------------------------------------------
 
 *##+js(setTimeout-defuser.js, adsbygoogle, 2000)
-*##+js(acis, $, PopupManager)
 *##+js(acis, popunder)
 *##+js(acis, $, adblock)
 *##+js(acis, jQuery, overlay)
