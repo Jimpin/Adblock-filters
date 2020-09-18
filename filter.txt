@@ -2086,6 +2086,7 @@ dirdamid.com##a[href$=".html"]
 ##.bannerContainer
 ##.blck-info
 ##.c-message
+##[data-test-id="consentButton"]
 ##.cookievarning-wrap:not(body):not(html)
 ##.disclaimer
 ##.e-banner
