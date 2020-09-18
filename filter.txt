@@ -9724,8 +9724,6 @@ photobucket.com#@#[id*="Preload"]
 
 --------------------
 
-*##+js(std, e, 10000)
-*##+js(acis, $, AdBlockDetector)
 *##+js(acis, _adftrack, push)
 *##+js(acis, twttr, trackPid)
 *##+js(acis, preLoadAds, loadAd)
@@ -9748,7 +9746,6 @@ photobucket.com#@#[id*="Preload"]
 
 *##+js(setTimeout-defuser.js, adsbygoogle, 2000)
 *##+js(acis, popunder)
-*##+js(acis, $, adblock)
 *##+js(acis, jQuery, overlay)
 *##+js(set-constant.js, checkAds, noopFunc)
 *##+js(aopr, adMessage)
