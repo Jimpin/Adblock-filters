@@ -2545,9 +2545,7 @@ dirdamid.com##a[href$=".html"]
 ##.zmgad-right-rail
 ##.cookieinfo
 ##.cookie-holder
-##.cookie-bar
 ##.cookie-bar-message:not(body):not(html)
-##.cookie-bar:not(body):not(html)
 ##.CookieBar
 ##.CookieMessage
 ##.CookieNotificationTopBar
