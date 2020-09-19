@@ -959,7 +959,7 @@ jawcloud.co##.loloba
 jawcloud.co##.banner
 jawcloud.co##[class="vjs-picture-in-picture-control vjs-control vjs-button"]
 @@||upvtt.com^$xmlhttprequest
-*$css,image,denyallow=nyafilmer.wtf,domain=jawcloud.co
+*$css,image,3p,denyallow=nyafilmer.wtf,domain=jawcloud.co
 ||jawcloud.co^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.jawcloud.co upvtt.com *.gstatic.com
 ||jawcloud.co/playerjs/themes/newtheme/videojs.logobrand.css$stylesheet,first-party,important
 ||jawcloud.co/playerjs/themes/newtheme/videojs.chromecast.min.css$stylesheet,first-party,important
