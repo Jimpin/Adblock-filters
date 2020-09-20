@@ -2334,6 +2334,8 @@ dirdamid.com##a[href$=".html"]
 ##div[id="bottomads"]
 ##td[class="adbanner"]
 ##adblock-modal
+##.ad-dog
+##div[id^="div-gpt-ad"]
 ##[class="unlock start"]
 ###AdBlockDialog
 ###abp-killer
@@ -6950,6 +6952,7 @@ dirdamid.com##a[href$=".html"]
 ||adsafety.net^
 ||adnxs.com^
 ||tapad.com^
+||pingback.issuu.com/ping$xmlhttprequest
 ||recommender.scarabresearch.com^
 ||bannerflow.com^
 ||trafficgateway.research-int.se^
@@ -8059,6 +8062,7 @@ redirect.
 /pn.php$important
 /splash-zones-split.php$popup,important
 /advert2.
+/index.html?message_id=*&preload_message=true
 /native.json
 /boba.min.js$script
 &referrer=
@@ -8509,6 +8513,9 @@ redirect.
 /sw_
 /front/menu_community$xmlhttprequest
 /js/holiday-promo.js$script
+/call/reader/api/*$xhr
+/prebid/*
+/stats.wp.com$script
 ,160x600;
 ,468x60-
 ,468x60;
@@ -9779,6 +9786,7 @@ photobucket.com#@#[id*="Preload"]
 *##html:style(overflow-x: hidden !important;)
 *##style:(overflow-y: overlay !important;)
 *##style:(overflow-x: hidden !important;)
+*##[class="js sp-message-open"]:style(position: inherit !important;)
 *##.is-showing.has-noScroll.modal:style(display: none !important;)
 *##.disabled-vscroll:style(overflow: auto !important;)
 
