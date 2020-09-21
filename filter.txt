@@ -880,6 +880,7 @@ nyafilmer.*##[style="text-align: center;"]
 nyafilmer.*##a[href^="/"][href*=".html"][target="_blank"]
 nyafilmer.*##.single-content > ul
 nyafilmer.*##h2.title
+nyafilmer.*##[style="position: static;"]
 nyafilmer.*##a[data-hover="LADDA NED"]
 nyafilmer.*##a[data-hover="SE NU"]
 nyafilmer.*##a[data-hover="STREAM NOW"]
@@ -963,6 +964,7 @@ jawcloud.co##a[href$=".html"]
 jawcloud.co##.loloba
 jawcloud.co##.banner
 jawcloud.co##[class="vjs-picture-in-picture-control vjs-control vjs-button"]
+jawcloud.co##^script:has-text(Inject=!)
 @@||upvtt.com^$xmlhttprequest
 ||jawcloud.co^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.jawcloud.co upvtt.com *.gstatic.com
 ||jawcloud.co/playerjs/themes/newtheme/videojs.logobrand.css$stylesheet,first-party,important
@@ -997,6 +999,7 @@ jawcloud.co##[class="vjs-picture-in-picture-control vjs-control vjs-button"]
 ||wauzoust.com^$csp=script-src 'none'
 ##[src="remtoaku.net"]
 ##[src="peehotim.com"]
+/*.net^$3p,important,domain=jawcloud.co
 /view.html$inline-script,iframe
 /pages/*/*.html$iframe,inline-script
 /wiki.html$iframe,inline-script
@@ -7578,6 +7581,7 @@ dirdamid.com##a[href$=".html"]
 ||contentabc.com^
 ||anybunny.mobi^
 ||nextoptim.com^
+||whaiweel.com^
 ||liveinternet.ru^$important
 ||misrepush.com^$important
 ||adbetnet.com^$important
