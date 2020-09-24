@@ -629,7 +629,6 @@ svtplay.se##.play_cookie-information
 @@||svtstatic.se^$image
 ||svtstatic.se/play/play6/images/*.png$image
 ||helix.svt.se/events$xhr
-||message.*^$ping
 
 #Svenskafans.com
 svenskafans.com###aspnetForm > div:nth-of-type(6) > div:nth-of-type(1)
@@ -1015,6 +1014,12 @@ jawcloud.co##^script:has-text(Inject=!)
 @@/?stream=
 
 #Vipleague.lc
+vipleague.*##+js(aeld, /^(?:click|mousedown|mousemove|touchstart|touchend|touchmove)$/, system.popunder)
+vipleague.*##+js(nano-sib)
+vipleague.*##.position-absolute:style(opacity: 0 !important;)
+vipleague.*##.btn-lg
+vipleague.*##.font-weight-bold
+vipleague.*,fbstreams.me,mlbstream.*,nbastream.io,nflstream.io,nhlstream.io##script + [id][style]
 vipleague.*##ol
 vipleague.*##div.pt-1:nth-of-type(9)
 vipleague.*##b
@@ -1024,14 +1029,16 @@ vipleague.*##.h-100.w-100.position-relative
 vipleague.*##.green.button.big
 vipleague.*##.text-center.alert-secondary.alert.col-12
 vipleague.*##div.row:nth-of-type(12) > .col-12
-vipleague.*###aMuEUnGWXx
-vipleague.*###UcZaxehzMw
 vipleague.*##.cc-color-override--1762072787.cc-right.cc-bottom.cc-theme-classic.cc-type-info.cc-floating.cc-window
 vipleague.*##.hidden-sm.hidden-xs.pull-right.col-lg-4.col-md-4
 vipleague.*##.hidden-sm.hidden-xs.col-xs-12 > .well-sm.well
 vipleague.*##.position-relative.text-success
 vipleague.*##.text-center.col-md-4.d-md-block.d-none
 vipleague.*##.text-white.bg-dark.text-justify.p-3.m-3.d-md-block.d-none.col-12
+@@||plytv.me^$subdocument
+||vipleague.*/loadchatdata$xhr,domain=www.vipleague.lc
+||vipleague.*/favicon-32x32.png$image
+/*^$xhr,frame,image,css,3p,domain=vipleague.lc
 ||clients6.google.com/rpc$xmlhttprequest,domain=www.vipleague.lc
 ||cdn.jsdelivr.net/npm/yandex-metrica-watch/tag.js
 ||cdn.jsdelivr.net/npm/lazy-ads*$xmlhttprequest
@@ -1040,9 +1047,8 @@ vipleague.*##.text-white.bg-dark.text-justify.p-3.m-3.d-md-block.d-none.col-12
 ||bcloudhost.com^$script
 ||oagwl3372h.com^$important
 ||refbanners.com/I
-||dyn.bannerflow.com^$important
 ||bannerflow.com^$important
-||mw19c3mi5a.com^$script,important
+||mw19c3mi5a.com^$important
 ||commercialvalue.org^$important
 ||linkedin.com^$third-party,script
 
@@ -1134,7 +1140,6 @@ rapidvideo.*##script:inject(addEventListener-defuser.js, mousedown, preventDefau
 ||content.fruithosted.net/splash/*$image
 ||streamango.com/assets/img/logo.png$image
 ||celeritascdn.com/script/compatibility.js$script
-||*.link^$script
 
 #Fmoviesfree.page
 fmoviesfree.*##+js(popads-dummy.js)
@@ -1147,8 +1152,8 @@ fmoviesfree.*##div.widget:nth-of-type(2)
 ||fmoviesfree.*$xhr,1p
 ||*.xyz^$other
 ||mirafaren.pw^$all
-/[0-9]/$xhr,3p,domain=nyafilmer.lol|fmovies.to|fmoviesfree.page|gomovies.sc|streamtajm.com|
-/[0-9]/$script,3p,domain=nyafilmer.lol|fmovies.to|fmoviesfree.page|gomovies.sc|streamtajm.com|
+/[0-9]/$xhr,3p,domain=nyafilmer.wtf|fmovies.to|fmoviesfree.page|gomovies.sc|streamtajm.com|
+/[0-9]/$script,3p,domain=nyafilmer.wtf|fmovies.to|fmoviesfree.page|gomovies.sc|streamtajm.com|
 /link^$3p,popup
 mstream.*##[class="vjs-link"]
 mstream.*##[class="vjs-chrome-pip vjs-control vjs-button"]
@@ -2421,6 +2426,12 @@ dirdamid.com##a[href$=".html"]
 ##.ad.show-for-large.placeholder.transparent
 ##a[title="Share on Twitter"]
 ##a[title="Share on Facebook"]
+##.email-overlay
+##.overlay-inner
+###contribute_footer
+###CybotCookiebotDialog
+###block-os-social-os-social-share
+##.os-article__left
 ##.widget_ad-widget
 ##.advertise_box
 ##.adv_wrap
