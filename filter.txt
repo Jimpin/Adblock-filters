@@ -5,6 +5,10 @@
 
 #Aftonbladet.se
 aftonbladet.se##html,body:style(overflow: auto !important;)
+aftonbladet.se##.jwplayer:has(.svp-sponsor-label):remove()
+aftonbladet.se##a[href*=".se/kampanj?"]:has-text(/erbjudande/i)
+aftonbladet.se##a[href*="aftonbladet.se/kampanj/artikel"]:upward(1)
+aftonbladet.se##a[href^="/tv/"]:has(span:has-text(/studio oddset/i)):upward(1)
 aftonbladet.se###outsider
 aftonbladet.se###MegaAd
 aftonbladet.se##+js(nosiif, e.reportVisibility())
@@ -29,6 +33,8 @@ aftonbladet.se##.abTheme-infeedad
 aftonbladet.se##.abBtnShare
 aftonbladet.se##.abAdWrapper
 aftonbladet.se##.abThemeBgTeaser
+aftonbladet.se##article:has(a[data-sponsored="true"])
+aftonbladet.se##div[class][style^="text"]:has(h3:has-text(/annons/i))
 aftonbladet.se##a[style*="border-color:#0067b5"]
 aftonbladet.se##[data-sizes="[[320,250],[300,480]]"]
 aftonbladet.se##.type-advert
@@ -61,8 +67,6 @@ aftonbladet.se##.ab-responsive-ads-wrapper
 aftonbladet.se##.share-icons
 aftonbladet.se##.social-shares
 aftonbladet.se##.outerContainer
-aftonbladet.se##a[href*="/tv/a"]
-aftonbladet.se##a[href*="/kampanj"]
 aftonbladet.se##.jw-reset.jw-controls > .jw-reset.jw-controls-right > .jw-reset.jw-dock > .jw-sharing-dock-btn.jw-reset.jw-background-color.jw-dock-button
 aftonbladet.se##[href="/kampanj/casinoguide"]
 aftonbladet.se##a[href*="/"]:has-text(Casino)
