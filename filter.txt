@@ -1244,6 +1244,7 @@ crackwatch.com##.Footer
 ||crackwatch.com/badf*.css$stylesheet,1p
 
 #Viafree.se
+viafree.se##.vjs-playing:upward(1) ~ .no-autoplay-overlay
 viafree.se##.navbar.popup-video-showing
 viafree.se##.ad-transition-background
 viafree.se##.pause-ad
@@ -1252,7 +1253,6 @@ viafree.se##.ad-countdown
 viafree.se##.ad-overlay
 viafree.se##.viafree-player.ad-playing
 viafree.se##.vjs-cuepoint-container
-viafree.se##.x-big-title
 viafree.se##.x-play-button-overlay
 viafree.se##.x-control-bar-overlay
 viafree.se##.x-play-button-overlay
@@ -1268,8 +1268,8 @@ viafree.se##.css-ejg76y-ScrollGradient
 @@||fwmrm.net/ad/$image,xmlhttprequest
 @@||fwmrm.net/crossdomain.xml$xmlhttprequest
 @@||mssl.fwmrm.net/p/MTG_Brightcove_HTML5/AdManager.js$script,domain=viafree.se
-||freewheel-mtgx-tv.akamaized.net^$media
-||viafree.se^$xmlhttprequest
+||freewheel-mtgx-tv.akamaized.net^$image,media,domain=viafree.se
+--||viafree.se^$xmlhttprequest
 ||viafree.se/collect$important
 ||freewheel-mtgx-tv.akamaized.net/static/*$image
 ||client-stream-events.mtg-api.com^$domain=viafree.se
