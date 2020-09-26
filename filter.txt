@@ -1260,12 +1260,11 @@ viafree.se##.css-ejg76y-ScrollGradient
 @@||fwmrm.net/ad/$image,xmlhttprequest
 @@||fwmrm.net/crossdomain.xml$xmlhttprequest
 @@||mssl.fwmrm.net/p/MTG_Brightcove_HTML5/AdManager.js$script,domain=viafree.se
-@@||freewheel-mtgx-tv.akamaized.net^$xhr,domain=viafree.se
-||freewheel-mtgx-tv.akamaized.net/*_*x*.mp4$xhr,redirect=noop.txt
+||freewheel-mtgx-tv.akamaized.net^$media
 ||viafree.se^$xmlhttprequest
 ||viafree.se/collect$important
-||freewheel-mtgx-tv.akamaized.net^$media
 ||freewheel-mtgx-tv.akamaized.net/static/*$image
+||client-stream-events.mtg-api.com^$domain=viafree.se
 ||fwmrm.net^$image,important
 ||fwmrm.net/*/mtg_play_flash/linktag2.js$script
 ||avod-fw-config.mtg-api.com^$xmlhttprequest,important
