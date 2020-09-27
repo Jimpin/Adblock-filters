@@ -2482,7 +2482,6 @@ dirdamid.com##a[href$=".html"]
 ##.home-socials
 ###notice
 ##[class="ym-viewport"]
-##[onclick="triggerGatewayModal(event);"]
 ##.pull-right.report.mbtn.item
 ##.thirdPartyRoot.previewOn.__Microsoft_Owa_MessageListAds_ListView_templates_cs_5
 ##.loading-background
