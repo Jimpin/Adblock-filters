@@ -521,7 +521,6 @@ youtube.com##.ad-div
 youtube.com##.annotation.iv-branding
 youtube.com###infoButton
 youtube.com###chips
-youtube.com###hover-overlays
 youtube.com##.yt-alert-content
 youtube.com##+js(json-prune, adPlacements)
 youtube.com##[class="ytp-paid-content-overlay"]
