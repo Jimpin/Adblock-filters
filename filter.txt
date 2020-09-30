@@ -4,7 +4,6 @@
 ! License: CC BY-SA 4.0 | https://creativecommons.org/licenses/by-sa/4.0/
 
 #Aftonbladet.se
-aftonbladet.se##html,body:style(overflow: auto !important;)
 aftonbladet.se##.jwplayer:has(.svp-sponsor-label):remove()
 aftonbladet.se##a[href*=".se/kampanj?"]:has-text(/erbjudande/i)
 aftonbladet.se##a[href*="aftonbladet.se/kampanj/artikel"]:upward(1)
@@ -18,9 +17,6 @@ aftonbladet.se##+js(aeld, mousemove, g())
 aftonbladet.se##+js(acis, preLoadAds, loadAd)
 aftonbladet.se##+js(acis, preLoadAds, setup)
 aftonbladet.se##+js(aeld, message, adError)
-aftonbladet.se##+js(no-setTimeout-if, onerror, 1000)
-aftonbladet.se##+js(no-setInterval-if, e.reportVisibility())​​
-aftonbladet.se##​+js(no-setInterval-if, e.ping())
 aftonbladet.se##+js(addEventListener-defuser, mousemove, g())​​
 aftonbladet.se##+js(addEventListener-defuser, message, adError)​​
 aftonbladet.se##+js(abort-current-inline-script, preLoadAds, setup)​​
