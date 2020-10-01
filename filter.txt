@@ -4,6 +4,7 @@
 ! License: CC BY-SA 4.0 | https://creativecommons.org/licenses/by-sa/4.0/
 
 #Aftonbladet.se
+aftonbladet.se##.jwplayer:has(.svp-sponsor-label):remove()
 aftonbladet.se##a[href*=".se/kampanj?"]:has-text(/erbjudande/i)
 aftonbladet.se##a[href*="aftonbladet.se/kampanj/artikel"]:upward(1)
 aftonbladet.se##a[href^="/tv/"]:has(span:has-text(/studio oddset/i)):upward(1)
