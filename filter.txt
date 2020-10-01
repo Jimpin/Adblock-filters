@@ -17,10 +17,6 @@ aftonbladet.se##+js(aeld, mousemove, g())
 aftonbladet.se##+js(acis, preLoadAds, loadAd)
 aftonbladet.se##+js(acis, preLoadAds, setup)
 aftonbladet.se##+js(aeld, message, adError)
-aftonbladet.se##+js(addEventListener-defuser, mousemove, g())​​
-aftonbladet.se##+js(addEventListener-defuser, message, adError)​​
-aftonbladet.se##+js(abort-current-inline-script, preLoadAds, setup)​​
-aftonbladet.se##+js(abort-current-inline-script, preLoadAds, loadAd)
 aftonbladet.se##^script:has-text(preLoadAds)
 aftonbladet.se##.abTheme-ad
 aftonbladet.se##.abAdArea
