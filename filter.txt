@@ -29,7 +29,6 @@ aftonbladet.se##article:has(a[data-sponsored="true"])
 aftonbladet.se##div[class][style^="text"]:has(h3:has-text(/annons/i))
 aftonbladet.se##a[style*="border-color:#0067b5"]
 aftonbladet.se##.type-advert
-aftonbladet.se###svpPauseContainer1
 aftonbladet.se##.svp-pause-view--visible.svp-pause-view
 aftonbladet.se##[rel="noopener nofollow noreferrer"]
 aftonbladet.se##[src*="/ab-box?"]
@@ -9695,7 +9694,6 @@ photobucket.com#@#[id*="Preload"]
 *##+js(acis, jQuery, adscript)
 *##+js(acis, Fusion, loadAds)
 
-*##+js(acis, popunder)
 *##+js(acis, AdPortal)
 *##+js(set-constant.js, analyticsTrackGoogleAnalytics, noopFunc)
 *##+js(acis, AdsReloadConfig)
