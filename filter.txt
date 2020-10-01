@@ -180,6 +180,7 @@ expressen.se##.slideshow__control
 #Twitch.tv
 twitch.tv##[src*="twitch.tv&pid="]
 twitch.tv##[class="extensions-dock-card tw-align-items-center tw-border-radius-medium tw-flex tw-mg-b-1 tw-mg-l-0 tw-mg-r-1 tw-mg-t-0 tw-root--hover tw-root--theme-light"]
+twitch.tv##[class*="tw-c-text-inherit"]
 twitch.tv##.player-alert
 twitch.tv##.recommended-channels
 twitch.tv##.tw-justify-content-center.tw-full-width.tw-full-height.tw-flex.tw-c-text-alt-2.tw-align-items-center.core-error
@@ -8360,7 +8361,6 @@ redirect.
 /blockadblock-$script
 /cdn-cgi/apps/head/*$script,~third-party
 /efes.js
-/vast.js
 /authorization.css$stylesheet
 /utag.handler.js
 /utag.loader-
@@ -8487,7 +8487,7 @@ redirect.
 /popunder1000.js^
 /cuteimage/*$image
 /genads.php?uid^
-/vast.js$important,script
+/vast.js$script
 /-image-ad_ads.html
 /1637045$important
 /1747886$important
