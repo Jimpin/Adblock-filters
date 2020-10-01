@@ -29,6 +29,7 @@ aftonbladet.se##article:has(a[data-sponsored="true"])
 aftonbladet.se##div[class][style^="text"]:has(h3:has-text(/annons/i))
 aftonbladet.se##a[style*="border-color:#0067b5"]
 aftonbladet.se##.type-advert
+aftonbladet.se###svpPauseContainer1
 aftonbladet.se##.svp-pause-view--visible.svp-pause-view
 aftonbladet.se##[rel="noopener nofollow noreferrer"]
 aftonbladet.se##[src*="/ab-box?"]
@@ -43,7 +44,6 @@ aftonbladet.se##[data-invcode="se-aftonbladet-wde-ettan_bostadsboxen"]
 aftonbladet.se##[rahrefbattkod=""]
 aftonbladet.se##[style="background-color:#0067b5;border-radius:2px;margin:16px 0px 0px 0px;padding:5px 5px 4px 5px;align-self:flex-start;font-size:11px;font-family:Arial, Helvetica, Verdana, Geneva, sans-serif;font-weight:bold;line-height:1;text-transform:uppercase;color:#fefefe;-webkit-font-smoothing:antialiased"]
 aftonbladet.se##[class="svp-player-recommended-box"]
-aftonbladet.se##[class="afs_ads"]
 aftonbladet.se##div[style*="border-color:#0067b5;border-width:4px 0px 0px 0px;"] + a
 aftonbladet.se##article:has(a[data-sponsored="true"])
 aftonbladet.se##div[data-reactroot] > div > div#MegaAd ~ div[class]:not(#header):not(.abThemeGradientPage)
