@@ -4,7 +4,6 @@
 ! License: CC BY-SA 4.0 | https://creativecommons.org/licenses/by-sa/4.0/
 
 #Aftonbladet.se
-aftonbladet.se##.jwplayer:has(.svp-sponsor-label):remove()
 aftonbladet.se##a[href*=".se/kampanj?"]:has-text(/erbjudande/i)
 aftonbladet.se##a[href*="aftonbladet.se/kampanj/artikel"]:upward(1)
 aftonbladet.se##a[href^="/tv/"]:has(span:has-text(/studio oddset/i)):upward(1)
@@ -32,7 +31,6 @@ aftonbladet.se##.abThemeBgTeaser
 aftonbladet.se##article:has(a[data-sponsored="true"])
 aftonbladet.se##div[class][style^="text"]:has(h3:has-text(/annons/i))
 aftonbladet.se##a[style*="border-color:#0067b5"]
-aftonbladet.se##[data-sizes="[[320,250],[300,480]]"]
 aftonbladet.se##.type-advert
 aftonbladet.se###svpPauseContainer1
 aftonbladet.se##.svp-pause-view--visible.svp-pause-view
@@ -46,8 +44,6 @@ aftonbladet.se##.abAside > div:has-text(ANNONS)
 aftonbladet.se##div.HLf1C:has-text(ANNONS)
 aftonbladet.se##[class="AxIVT"]
 aftonbladet.se##[data-invcode="se-aftonbladet-wde-ettan_bostadsboxen"]
-aftonbladet.se##.-adv\.jpg.-adv\.js.text-ad-links.text-ads.text_ads.text_ad.textAd.text-ad.pub_728x90.pub_300x250m.pub_300x250
-aftonbladet.se##div:matches-css(width: 314px):matches-css(height: 314px)
 aftonbladet.se##[rahrefbattkod=""]
 aftonbladet.se##[style="background-color:#0067b5;border-radius:2px;margin:16px 0px 0px 0px;padding:5px 5px 4px 5px;align-self:flex-start;font-size:11px;font-family:Arial, Helvetica, Verdana, Geneva, sans-serif;font-weight:bold;line-height:1;text-transform:uppercase;color:#fefefe;-webkit-font-smoothing:antialiased"]
 aftonbladet.se##[class="svp-player-recommended-box"]
