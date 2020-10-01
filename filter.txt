@@ -80,7 +80,7 @@ bloggar.aftonbladet.se##.abInbetweenerHelsida:nth-of-type(2)
 aftonbladet.se##a[href="https://www.unibet.se/betting/sports/home"]
 aftonbladet.se##a[href="https://www.strivesport.com/se/home"]
 klart.se##+js(aopr, blockAdBlock)
-||stitcher.acast.com/livestitches/*$media,noopmp3=0.01s,domain=embed.acast.com
+||stitcher.acast.com/livestitches/*$media,noop.mp3=0.01s,domain=embed.acast.com
 @@||imgs.aftonbladet-cdn.se/*/images/
 @@||gfx.aftonbladet-cdn.se^$image
 @@/hyper-assets/preload*$script,domain=aftonbladet.se
@@ -92,7 +92,7 @@ klart.se##+js(aopr, blockAdBlock)
 /pulse-sdk-html*.min.js$script
 /provider.cast.js$script
 /gdpr-bundle.js$script
-||aftonbladet.se/tv/temp.mp4$media /rabattkod/*$image,domain=aftonbladet.se
+||aftonbladet.se/tv/temp.mp4$media/rabattkod/*$image,domain=aftonbladet.se
 ||engage-auth.schibsted.media^$script
 ||api.privacy.schibsted.com^$xmlhttprequest
 ||adv.aftonbladet.se^$important
@@ -131,7 +131,6 @@ expressen.se##.site-header__widgets > .html-widget > a[target="_blank"]
 expressen.se##.article--sponsored
 expressen.se##.article__after-widgets > .html-widget
 expressen.se##.teaser:has(.teaser__third-party--bar)
-expressen.se##.teaser:has(.vignette:has-text(/(annons/i))
 expressen.se##.teaser__hero:has(iframe[src*="/tv/nyheter/live-start/live-tv-senaste-nyheterna"])
 expressen.se##.teaser > a[href*=".se"]
 expressen.se##.teaser--native-ad
@@ -215,7 +214,6 @@ twitch.tv##.player-ad-notice
 twitch.tv##.player-ad-overlay.player-overlay
 twitch.tv##.js-player-ad-overlay.player-ad-overlay
 twitch.tv##.js-paused-overlay.player-play-overlay.player-overlay
-twitch.tv##script:inject(twitch-videoad.js)
 twitch.tv##.tw-border-b.tw-align-items-center.gdpr-consent-banner
 twitch.tv##[id="TwitchMediaPlayerModule"]
 twitch.tv##.pl-error
@@ -224,12 +222,6 @@ twitch.tv##.extension-taskbar
 twitch.tv##.player .invisible
 twitch.tv##.player-play-overlay
 twitch.tv##.player-advertisement, .player-video object
-twitch.tv##script:inject(set-constant.js, blockDetector.detected, false)
-twitch.tv##script:inject(set-constant.js, twitch-videoad, false)
-twitch.tv##script:inject(set-constant.js, server_ads, false)
-twitch.tv##script:inject(set-constant.js, adblock, false)
-twitch.tv##script:inject(abort-current-inline-script.js, twitch-videoad.js)
-twitch.tv##script:inject(abort-current-inline-script.js, blockDetector.detected, true)
 twitch.tv##a[href$="twitch.tv"][target="_blank"]
 twitch.tv##+js(cookie-remover.js, unique_id)
 player.twitch.tv##.player-overlay
@@ -585,7 +577,6 @@ facebook.com##.adv
 facebook.com##div[data-testid="fbfeed_story"]:if(a[href*="[is_sponsored]"])
 facebook.com##div[id^="substream_"] ._5jmm[data-dedupekey][data-cursor][data-xt][data-xt-vimpr="1"][data-ftr="1"][data-fte="1"]
 facebook.com##div[id^="substream_"] > div > div[id] div[id^="hyperfeed_story_id_"]:has(div._5pcp._5lel > span > div > div > a[href="#"])
-facebook.com##[id^="hyperfeed_story_id_"]:if([id^="feed_subtitle_"] a[]:matches-css-after(content:/Gesponsert|Sponsored|Sponsrad/))
 facebook.com##.ego_spo
 facebook.com##.ego_column:if(a[href^="/campaign/landing"])
 facebook.com##.ego_section:has(a.adsCategoryTitleLink)
@@ -830,10 +821,6 @@ humblebundle.com/monthly?hmb_source=humble_monthly_alert&hmb_medium=banner
 #Nyafilmer.lol
 nyafilmer.*##+js(abort-current-inline-script.js, p2pml.hlsjs.Engine, loader)
 nyafilmer.*##+js(abort-current-inline-script.js, document.getElementById, style.display)
-nyafilmer.*##script:inject(abort-on-property-read.js, BetterJsPop)
-nyafilmer.*##script:inject(abort-current-inline-script.js, OneSignal)
-nyafilmer.*##script:inject(abort-current-inline-script.js, decodeURI, getScriptFromCss)
-nyafilmer.*##script:inject(addEventListener-defuser.js, /^(?:click|mousedown)$/, _0x)
 nyafilmer.*##+js(acis, jQuery, appendTo)
 nyafilmer.*##+js(acis, jQuery, adblocker)
 nyafilmer.*##+js(aopr, open)
@@ -1123,12 +1110,12 @@ mcloud.*##+js(popads-dummy)
 ||mcloud.to^$image
 ||fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700$stylesheet
 rapidvideo.*##+js(popads-dummy)
-rapidvideo.*##script:inject(popads.net.js)
-rapidvideo.*##script:inject(noeval.js)
-rapidvideo.*##script:inject(abort-on-property-write.js, executed)
-rapidvideo.*##script:inject(abort-current-inline-script.js, decodeURI, getScriptFromCss)
-rapidvideo.*##script:inject(set-constant.js, onload, noopFunc)
-rapidvideo.*##script:inject(addEventListener-defuser.js, mousedown, preventDefault)
+rapidvideo.*##+js(popads.net.js)
+rapidvideo.*##+js(noeval.js)
+rapidvideo.*##+js(abort-on-property-write.js, executed)
+rapidvideo.*##+js(abort-current-inline-script.js, decodeURI, getScriptFromCss)
+rapidvideo.*##+js(set-constant.js, onload, noopFunc)
+rapidvideo.*##+js(addEventListener-defuser.js, mousedown, preventDefault)
 ||rapidvideo.com/thumb/*$image
 ||rapidvideo.com/images/bgn.png$image
 ||rapidvideo.com/images/rapidvideo_logo_player.png$important
@@ -1378,10 +1365,10 @@ rltracker.pro##.col-sm-12 > .row
 123movies.*##[href$=".html"]
 123movies.*##[id="overlay"]
 123movies.*##a[href^="/"][href*=".html"][target="_blank"]
-123movies.*##+js(abort-current-inline-script.js, p2pml.hlsjs.Engine, loader)
-123movies.*##+js(abort-current-inline-script.js, document.getElementById, style.display)
-123movies.*##script:inject(abort-on-property-read.js, BetterJsPop)
-123movies.*##script:inject(abort-current-inline-script.js, decodeURI, getScriptFromCss)
+123movies.*##+js(acis, p2pml.hlsjs.Engine, loader)
+123movies.*##+js(acis, document.getElementById, style.display)
+123movies.*##+js(aopr, BetterJsPop)
+123movies.*##+js(acis, decodeURI, getScriptFromCss)
 123movies.*##.bottom-bnr
 123movies.*##[rel="nofollow noopener"]
 123movies.*##[class="15492952jw"]
@@ -1453,7 +1440,7 @@ lookmovie.ag##.telegram-button
 lookmovie.ag##.plr-ad-stripe
 lookmovie.ag##.bottom-message-container
 lookmovie.ag###social-share
-lookmovie.ag##script:inject(bab-defuser.js)
+lookmovie.ag##+js(bab-defuser.js)
 ||lookmovie.ag/favicon.ico$image,first-party
 ||cntr.lookmovie.ag^$xmlhttprequest
 ||metrika.lookmovie.ag/analytics.js$script
