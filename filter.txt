@@ -179,9 +179,6 @@ expressen.se##.slideshow__control
 
 #Twitch.tv
 twitch.tv##[src*="twitch.tv&pid="]
-twitch.tv##[style="display: none !important;"]
-twitch.tv##iframe[src*="ads"]
-twitch.tv##iframe[src*="blob"]
 twitch.tv##[id="root-player"]
 twitch.tv##div[data-test-selector="channel_panel_test_selector"] > a[href^="http://bit.ly/"]
 twitch.tv##[class="extensions-dock-card tw-align-items-center tw-border-radius-medium tw-flex tw-mg-b-1 tw-mg-l-0 tw-mg-r-1 tw-mg-t-0 tw-root--hover tw-root--theme-light"]
@@ -221,6 +218,7 @@ twitch.tv##.player .invisible
 twitch.tv##.player-play-overlay
 twitch.tv##.player-advertisement, .player-video object
 twitch.tv##a[href$="twitch.tv"][target="_blank"]
+twitch.tv##+js(twitch-videoad)
 twitch.tv##+js(cookie-remover.js, unique_id)
 player.twitch.tv##.player-overlay
 /\/[a-z0-9_-]{15,}\.[a-z0-9-]+\.[a-z]{2,}\/.*?\w{40,}/$domain=twitch.tv
