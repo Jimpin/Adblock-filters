@@ -216,13 +216,12 @@ twitch.tv##.player-play-overlay
 twitch.tv##.player-advertisement, .player-video object
 twitch.tv##a[href$="twitch.tv"][target="_blank"]
 twitch.tv##+js(twitch-videoad)
-twitch.tv##+js(cookie-remover.js, unique_id)
-twitch.tv##.player-overlay
 /\/[a-z0-9_-]{15,}\.[a-z0-9-]+\.[a-z]{2,}\/.*?\w{40,}/$domain=twitch.tv
 @@||twitch.tv/videos/*$csp
 @@||irc-ws.chat.twitch.tv^$websocket,first-party
 @@||wss://pubsub-edge.twitch.tv
 ||twitch.tv$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' wss: blob: *.twitch.tv google.com gstatic.com *.jtvnw.net *.ttvnw.net *.twitchcdn.net recaptcha.net *.amazon-adsystem.com twitch.tv&ex-hargs
+||amazon-adsystem.com/aax2/apstag.js$script,important,domain=twitch.tv
 ||twitch.tv/service-worker.js$important
 ||trowel.twitch.tv/?data=[base64string]
 ||api.dbh.doub.ly^$xmlhttprequest,important
