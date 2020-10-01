@@ -214,7 +214,6 @@ twitch.tv##.extension-taskbar
 twitch.tv##.player .invisible
 twitch.tv##.player-play-overlay
 twitch.tv##.player-advertisement, .player-video object
-twitch.tv##a[href$="twitch.tv"][target="_blank"]
 twitch.tv##+js(twitch-videoad)
 /\/[a-z0-9_-]{15,}\.[a-z0-9-]+\.[a-z]{2,}\/.*?\w{40,}/$domain=twitch.tv
 @@||twitch.tv/videos/*$csp
@@ -226,8 +225,6 @@ twitch.tv##+js(twitch-videoad)
 ||trowel.twitch.tv/?data=[base64string]
 ||api.dbh.doub.ly^$xmlhttprequest,important
 ||ad.doubleclick.net/ddm/ad/*/*/*'/;ord='*$domain=twitch.tv
-||amazon-adsystem.com^$script,redirect=noopjs,important
-||pubads.g.doubleclick.net^
 ||custos.twitchcdn.net/v1.js$script,important
 ||spade.twitch.tv^$important
 ||polyfill.twitchsvc.net^$script,important
