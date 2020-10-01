@@ -179,8 +179,6 @@ expressen.se##.slideshow__control
 
 #Twitch.tv
 twitch.tv##[src*="twitch.tv&pid="]
-twitch.tv##[id="root-player"]
-twitch.tv##div[data-test-selector="channel_panel_test_selector"] > a[href^="http://bit.ly/"]
 twitch.tv##[class="extensions-dock-card tw-align-items-center tw-border-radius-medium tw-flex tw-mg-b-1 tw-mg-l-0 tw-mg-r-1 tw-mg-t-0 tw-root--hover tw-root--theme-light"]
 twitch.tv##.player-alert
 twitch.tv##.recommended-channels
@@ -210,7 +208,6 @@ twitch.tv##.player-ad-overlay.player-overlay
 twitch.tv##.js-player-ad-overlay.player-ad-overlay
 twitch.tv##.js-paused-overlay.player-play-overlay.player-overlay
 twitch.tv##.tw-border-b.tw-align-items-center.gdpr-consent-banner
-twitch.tv##[id="TwitchMediaPlayerModule"]
 twitch.tv##.pl-error
 twitch.tv##.pl-age-restriction-overlay.pl-age-restriction-overlay--wall.player-overlay
 twitch.tv##.extension-taskbar
@@ -220,7 +217,7 @@ twitch.tv##.player-advertisement, .player-video object
 twitch.tv##a[href$="twitch.tv"][target="_blank"]
 twitch.tv##+js(twitch-videoad)
 twitch.tv##+js(cookie-remover.js, unique_id)
-player.twitch.tv##.player-overlay
+twitch.tv##.player-overlay
 /\/[a-z0-9_-]{15,}\.[a-z0-9-]+\.[a-z]{2,}\/.*?\w{40,}/$domain=twitch.tv
 @@||twitch.tv/videos/*$csp
 @@||irc-ws.chat.twitch.tv^$websocket,first-party
@@ -230,16 +227,12 @@ player.twitch.tv##.player-overlay
 ||trowel.twitch.tv/?data=[base64string]
 ||api.dbh.doub.ly^$xmlhttprequest,important
 ||ad.doubleclick.net/ddm/ad/*/*/*'/;ord='*$domain=twitch.tv
-||amazon-adsystem.com^$script,redirect=noopjs
+||amazon-adsystem.com^$script,redirect=noopjs,important
 ||pubads.g.doubleclick.net^
 ||custos.twitchcdn.net/v1.js$script,important
 ||spade.twitch.tv^$important
 ||polyfill.twitchsvc.net^$script,important
-||api.twitch.tv/steam/watching$xmlhttprequest
-||api.twitch.tv/kraken/streams/*$xmlhttprequest
 ||sentinel.twitchsvc.net/error-report
-||api.twitch.tv/api/viewer/token.json
-||api.twitch.tv/kraken/user
 
 #Instagram.com
 instagram.com##._he402
