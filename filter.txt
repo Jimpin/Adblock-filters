@@ -943,7 +943,7 @@ jawcloud.co##.banner
 jawcloud.co##[class="vjs-picture-in-picture-control vjs-control vjs-button"]
 jawcloud.co##^script:has-text(Inject=!)
 @@||upvtt.com^$xmlhttprequest
-||jawcloud.co^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.jawcloud.co upvtt.com *.gstatic.com
+||jawcloud.co^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.jawcloud.co upvtt.com *.gstatic.com;frame-src 'self'
 ||jawcloud.co/playerjs/themes/newtheme/videojs.logobrand.css$stylesheet,first-party,important
 ||jawcloud.co/playerjs/themes/newtheme/videojs.chromecast.min.css$stylesheet,first-party,important
 ||jawcloud.co/playerjs/store.js$script,first-party
@@ -951,10 +951,7 @@ jawcloud.co##^script:has-text(Inject=!)
 ||jawcloud.co/jawcloud-playerlogo_236x36.png$popup,important
 ||jawcloud.co/dl
 ||jawcloud.co/playerjs/jquery.js$script,important
-||jawcloud.co/playerjs/vast/videojs.ads.min.js$script,important
-||jawcloud.co/playerjs/vast/videojs.ads.css$stylesheet,important
-||jawcloud.co/playerjs/vast/videojs.ima.min.js$script,important
-||jawcloud.co/playerjs/vast/videojs.ima.css$stylesheet,important
+||jawcloud.co/playerjs/vast/
 ||jawcloud.co/banner$image
 ||jawcloud.co/$image
 ||jawcloud.co^$popup,important
@@ -8483,7 +8480,6 @@ redirect.
 /popunder1000.js^
 /cuteimage/*$image
 /genads.php?uid^
-/vast.js$script
 /-image-ad_ads.html
 /1637045$important
 /1747886$important
@@ -9825,9 +9821,5 @@ photobucket.com#@#[id*="Preload"]
 ##.cookie-information-text
 ##[data-testid="cookie-disclaimer"]
 
-||jwpcdn.com^*/freewheel.js$script,important
-||jwpcdn.com^*/gapro.js$script,important
-||jwpcdn.com^*/googima.js$script,important
-||jwpcdn.com^*/jwpsrv.js$script,important
-||jwpcdn.com^*/sharing.js$script,important
-||jwpcdn.com^*/vast.js$script,important
+||jwpcdn.com^/*.js$script
+*/player/plugins/vast-*.js$script
