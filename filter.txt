@@ -4,14 +4,15 @@
 ! License: CC BY-SA 4.0 | https://creativecommons.org/licenses/by-sa/4.0/
 
 #Aftonbladet.se
+aftonbladet.se##html,body:style(overflow: auto !important;)
 aftonbladet.se##.jwplayer:has(.svp-sponsor-label):remove()
 aftonbladet.se##a[href*=".se/kampanj?"]:has-text(/erbjudande/i)
 aftonbladet.se##a[href*="aftonbladet.se/kampanj/artikel"]:upward(1)
 aftonbladet.se##a[href^="/tv/"]:has(span:has-text(/studio oddset/i)):upward(1)
 aftonbladet.se###outsider
 aftonbladet.se###MegaAd
-aftonbladet.se##+js(nosiif, e.reportVisibility())
 aftonbladet.se##+js(nosiif, e.ping())
+aftonbladet.se##+js(nosiif, e.reportVisibility())
 aftonbladet.se##+js(nostif, onerror, 1000)
 aftonbladet.se##+js(aeld, mousemove, g())
 aftonbladet.se##+js(acis, preLoadAds, loadAd)
@@ -29,8 +30,6 @@ aftonbladet.se##article:has(a[data-sponsored="true"])
 aftonbladet.se##div[class][style^="text"]:has(h3:has-text(/annons/i))
 aftonbladet.se##a[style*="border-color:#0067b5"]
 aftonbladet.se##.type-advert
-aftonbladet.se##.svp-pause-view--visible.svp-pause-view
-aftonbladet.se##[rel="noopener nofollow noreferrer"]
 aftonbladet.se##[src*="/ab-box?"]
 aftonbladet.se##[class="_1Wc3D"]
 aftonbladet.se##div.HLf1C:has-text(clas)
@@ -82,13 +81,9 @@ klart.se##+js(aopr, blockAdBlock)
 @@||gfx.aftonbladet-cdn.se^$image
 @@/hyper-assets/preload*$script,domain=aftonbladet.se
 @@/hyper-assets/app.$script,domain=aftonbladet.se
-@@/web/v1.2.41/index.js
 @@||aftonbladet.se/sportbladet
 @@||aftonbladet.se^$generichide
 @@||sportbladetplay.se^$script
-/pulse-sdk-html*.min.js$script
-/provider.cast.js$script
-/gdpr-bundle.js$script
 ||aftonbladet.se/tv/temp.mp4$media/rabattkod/*$image,domain=aftonbladet.se
 ||engage-auth.schibsted.media^$script
 ||api.privacy.schibsted.com^$xmlhttprequest
@@ -107,6 +102,9 @@ klart.se##+js(aopr, blockAdBlock)
 ||meetrics.net^$image,important
 ||delivery.adten.eu^$image,xhr
 ##[data-test="cookie-consent"]
+/pulse-sdk-html*.min.js$script
+/provider.cast.
+/gdpr-bundle.
 /embed/ab-
 
 #Expressen.se
@@ -763,7 +761,7 @@ gomovies.*##.twitter-follow-button
 ||streamgo.me/assets^$image
 ||streamgo.me/templates/jwplayer/assets/juicycodes.js$script
 ||streamgo.me/templates/jwplayer/assets/jq.min.js$script
-||ssl.p.jwpcdn.com/player/plugins/related/v/6.1.1/related.js$script
+||jwpcdn.com/player/plugins/*/related.js$script
 ||c11ff582fa2fd7dc.com^
 ||a353364ec1bd19a.com^
 ||gomoviesto.disqus.com/embed.js$script,domain=gomovies.sc
@@ -9385,7 +9383,6 @@ popuper.js^
 @@/live/*.ts
 @@||*.cloudfront.net/*$image,domain=jimpin.zapto.org
 @@||cdn.svp.schibsted.io^$script
-@@||ssl.p.jwpcdn.com^$script,domain=aftonbladet.se
 @@||static.xx.fbcdn.net/rsrc.php/*$script,domain=facebook.com
 @@||redirector.googlevideo.com/videoplayback$media
 @@||sportingvideo*.com^$popup
@@ -9827,3 +9824,10 @@ photobucket.com#@#[id*="Preload"]
 ###importantMessage
 ##.cookie-information-text
 ##[data-testid="cookie-disclaimer"]
+
+||jwpcdn.com^*/freewheel.js$script,important
+||jwpcdn.com^*/gapro.js$script,important
+||jwpcdn.com^*/googima.js$script,important
+||jwpcdn.com^*/jwpsrv.js$script,important
+||jwpcdn.com^*/sharing.js$script,important
+||jwpcdn.com^*/vast.js$script,important
