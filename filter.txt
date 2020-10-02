@@ -5,10 +5,10 @@
 
 #Aftonbladet.se
 aftonbladet.se##html,body:style(overflow: auto !important;)
-aftonbladet.se##.jwplayer:has(.svp-sponsor-label):remove()
 aftonbladet.se##a[href*=".se/kampanj?"]:has-text(/erbjudande/i)
 aftonbladet.se##a[href*="aftonbladet.se/kampanj/artikel"]:upward(1)
 aftonbladet.se##a[href^="/tv/"]:has(span:has-text(/studio oddset/i)):upward(1)
+aftonbladet.se##.svp-sponsor-label
 aftonbladet.se###outsider
 aftonbladet.se###MegaAd
 aftonbladet.se##+js(nosiif, e.ping())
