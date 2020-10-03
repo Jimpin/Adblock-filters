@@ -806,6 +806,8 @@ humblebundle.com/monthly?hmb_source=humble_monthly_alert&hmb_medium=banner
 ###site-xpromo-banner > .js-page-banner-link.page-banner-link
 
 #Nyafilmer.lol
+nyafilmer.*##+js(nowoif)
+nyafilmer.*##+js(noeval-if, href)
 nyafilmer.*##+js(abort-current-inline-script.js, p2pml.hlsjs.Engine, loader)
 nyafilmer.*##+js(abort-current-inline-script.js, document.getElementById, style.display)
 nyafilmer.*##+js(acis, jQuery, appendTo)
@@ -901,6 +903,7 @@ nyafilmer.*##.g-recaptcha
 nyafilmer.*##.gameofthrones
 nyafilmer.*##.noselect.tab-buttons
 nyafilmer.*##[class="headerSpace"]
+nyafilmer.*#@#body:style(overflow: auto !important)
 @@||nyafilmer.*/wp-includes/js/*$script,1p
 @@||nyafilmer.*/wp-content/themes/keremiya1/js/gallery.min.js$script,1p
 @@||nyafilmer.*/wp-content/themes/keremiya1/js/postTabs.min.js$script
@@ -938,6 +941,7 @@ jawcloud.co##+js(aopr, AaDetector)
 jawcloud.co##+js(abort-current-inline-script.js, document.getElementById, style.display)
 jawcloud.co##[class="overlay"]
 jawcloud.co##a[href$=".html"]
+jawcloud.co##+js(aopr, open)
 jawcloud.co##.loloba
 jawcloud.co##.banner
 jawcloud.co##[class="vjs-picture-in-picture-control vjs-control vjs-button"]
@@ -987,6 +991,8 @@ jawcloud.co##^script:has-text(Inject=!)
 @@*.m3u8$xhr
 @@*.ts$xhr
 @@/?stream=
+*##a[href*="/engine."]
+||&guid=^$popup,important
 
 #Vipleague.lc
 vipleague.*##+js(aeld, /^(?:click|mousedown|mousemove|touchstart|touchend|touchmove)$/, system.popunder)
@@ -9423,26 +9429,26 @@ popuper.js^
 @@||redirect*^$xhr,media
 |http*://*$first-party,websocket,important
 
-##a[href$=".wz"][target="_blank"]
-##a[href$=".style"][target="_blank"]
-##a[href$=".ltd"][target="_blank"]
-##a[href$=".link"][target="_blank"]
-##a[href$=".pw"][target="_blank"]
-##a[href$=".site"][target="_blank"]
-##a[href$=".pink"][target="_blank"]
-##a[href$=".st"][target="_blank"]
-##a[href$=".click"][target="_blank"]
-##a[href$=".cricket"][target="_blank"]
-##a[href$=".download"][target="_blank"]
-##a[href$=".faith"][target="_blank"]
-##a[href$=".online"][target="_blank"]
-##a[href$=".racing"][target="_blank"]
-##a[href$=".website"][target="_blank"]
-##a[href$=".win"][target="_blank"]
-##a[href$=".trade"][target="_blank"]
-##a[href$=".space"][target="_blank"]
-##a[href$=".stream"][target="_blank"]
-##a[href$=".webcam"][target="_blank"]
+##a[href*=".wz"][target="_blank"]
+##a[href*=".style"][target="_blank"]
+##a[href*=".ltd"][target="_blank"]
+##a[href*=".link"][target="_blank"]
+##a[href*=".pw"][target="_blank"]
+##a[href*=".site"][target="_blank"]
+##a[href*=".pink"][target="_blank"]
+##a[href*=".st"][target="_blank"]
+##a[href*=".click"][target="_blank"]
+##a[href*=".cricket"][target="_blank"]
+##a[href*=".download"][target="_blank"]
+##a[href*=".faith"][target="_blank"]
+##a[href*=".online"][target="_blank"]
+##a[href*=".racing"][target="_blank"]
+##a[href*=".website"][target="_blank"]
+##a[href*=".win"][target="_blank"]
+##a[href*=".trade"][target="_blank"]
+##a[href*=".space"][target="_blank"]
+##a[href*=".stream"][target="_blank"]
+##a[href*=".webcam"][target="_blank"]
 *.ashx?ad=
 *.ashx?AdID=
 *.asp?coad
@@ -9501,7 +9507,7 @@ popuper.js^
 /http*0-9.com:\/\/.*/$third-party,popup
 /\/t[a-f0-9]{10,13}$/$third-party,popup
 
-||facebook.com^$domain=nyafilmer.ga|swesub.net|gomovies.sc|fmovies.to|openload.co
+||facebook.com^$3p,domain=nyafilmer.vip|swesub.net|gomovies.sc|fmovies.to|openload.co
 ||connect.facebook.net/signals/*$script
 ||graph.facebook.com^$important
 /ping?client_id=
@@ -9517,13 +9523,13 @@ popuper.js^
 ?adslot=
 ?adsmarket=
 
-##[href="https://axofinans.se"]
-##[href="/information#advertising"]
+##[href*="https://axofinans.se"]
+##[href*="/information#advertising"]
 ##[href*="/tuname.php"]
-##[href="/rss"]
-##[src="//imasdk.googleapis.com/"]
-##[src="//c.amazon-adsystem.com/"]
-##[href="https://cvp.twitch.tv/"]
+##[href*="/rss"]
+##[src*="//imasdk.googleapis.com/"]
+##[src*="//c.amazon-adsystem.com/"]
+##[href*="https://cvp.twitch.tv/"]
 
 ##[src^="/ads.js?"]
 ##[id="SGPqjeEwkKBf"]
@@ -9562,15 +9568,15 @@ popuper.js^
 
 ##[onclick="highlight(this);"]
 ##[onclick="triggerGatewayModal(event);"]
-##[href="http://acast.deliveryengine.adswizz.com/"]
-##[src="//acast.deliveryengine.adswizz.com/"]
-##[src="//utarget.pro/is_clickunder/"]
-##[src="//utarget.ru/ads.js"]
-##[src="https://xml.adbetnet.com/libs/b.js"]
-##[src="https://adbetnet.advertserve.com/js/libcode3.js"]
-##[src="//cdn.popcash.net/pop.js"]
-##[src="//primevideo.com/"]
-##[href="//bwaab.top/121a"]
+##[href*="http://acast.deliveryengine.adswizz.com/"]
+##[src*="//acast.deliveryengine.adswizz.com/"]
+##[src*="//utarget.pro/is_clickunder/"]
+##[src*="//utarget.ru/ads.js"]
+##[src*="https://xml.adbetnet.com/libs/b.js"]
+##[src*="https://adbetnet.advertserve.com/js/libcode3.js"]
+##[src*="//cdn.popcash.net/pop.js"]
+##[src*="//primevideo.com/"]
+##[href*="//bwaab."]
 ##[class=glx-image]
 ###videoadv
 *#blocked$popup,third-party
