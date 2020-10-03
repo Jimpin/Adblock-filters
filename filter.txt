@@ -243,6 +243,11 @@ instagram.com##main[role="main"] .APQi1
 @@||instagram.com/static/*$script
 
 #Google.*
+google.*##[id="reviewDialog"]
+google.*##[id="dstyle"]
+google.*##[jsname="bF1uUb"]
+google.*###cnsm
+google.*###cnsw
 google.*##.ads-ad
 google.*##.section-result[data-result-ad-type]
 google.*##.widget-pane-section-result[data-result-ad-type]
@@ -839,6 +844,7 @@ nyafilmer.*##a[href="/add-content/"]
 nyafilmer.*##.trigger.arrow-bottom.share-button.button
 nyafilmer.*##.top
 nyafilmer.*##.closeSkin
+nyafilmer.*##[src*="/async.js"]
 nyafilmer.*##.movie-preview-content > a[target="_blank"]
 nyafilmer.*###text-2
 nyafilmer.*##[href$=".html"]
@@ -7968,6 +7974,8 @@ redirect.
 /adServe/banners?tid=*$all,important
 /redirect
 /click?pid=*
+/async/ads-
+/asyncadload.
 /\:\/\/data.*\.com\/[a-zA-Z0-9]{30,}/$third-party,xmlhttprequest
 /\:\/\/[a-z0-9]{5,32}\.(bid|com)\/[0-9]{2,9}\.css$/$third-party,stylesheet
 /\:\/\/[a-z0-9]{5,40}\.com\/[0-9]{2,9}\/$/$script,stylesheet,third-party,xmlhttprequest
