@@ -1241,7 +1241,6 @@ viafree.se##.x-play-button-overlay
 viafree.se##.pause-ad-navigation
 viafree.se##[id="linkTag2"]
 viafree.se##[class="cta-overlay vjs-hidden"]
-viafree.se##+js(setTimeout-defuser.js, r, 0)
 viafree.se##.avodp.pause-ad-showing .vjs-progress-control, .avodp.ad-playing .vjs-progress-control:style(display: initial !important;)
 viafree.se##.SliderBlock_background_continueWatching.SliderBlock_background
 @@||fwmrm.net/ad/$script
