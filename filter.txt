@@ -1253,7 +1253,6 @@ viafree.se##.SliderBlock_background_continueWatching.SliderBlock_background
 ||client-stream-events.mtg-api.com^$domain=viafree.se
 ||fwmrm.net^$image,important
 ||fwmrm.net/*/mtg_play_flash/linktag2.js$script
-||avod-fw-config.mtg-api.com^$xmlhttprequest,important
 ||2mdn.net/videoplayback^$media,redirect=noopmp3-0.1s
 ||cdn.ravenjs.com^$script,domain=viafree.se
 ||stickyadstv.com/www/delivery/swfIndex.php$xmlhttprequest
