@@ -812,13 +812,14 @@ humblebundle.com/monthly?hmb_source=humble_monthly_alert&hmb_medium=banner
 
 #Nyafilmer.lol
 nyafilmer.*##+js(nowoif)
-nyafilmer.*##+js(noeval-if, href)
 nyafilmer.*##+js(abort-current-inline-script.js, p2pml.hlsjs.Engine, loader)
 nyafilmer.*##+js(abort-current-inline-script.js, document.getElementById, style.display)
 nyafilmer.*##+js(acis, jQuery, appendTo)
 nyafilmer.*##+js(acis, jQuery, adblocker)
 nyafilmer.*##+js(aopr, open)
 nyafilmer.*##+js(acis, z)
+nyafilmer.*##+js(aeld, DOMContentLoaded, rmattr)
+nyafilmer.*##script:has-text(var offtop=0;var sticky_sidebar=true;)
 nyafilmer.*##+js(abort-current-inline-script.js, decodeURI, atob)
 nyafilmer.*##+js(acis, document.getElementById, undefined)
 nyafilmer.*##^script:has-text(var _0x)
@@ -2276,6 +2277,8 @@ dirdamid.com##a[href$=".html"]
 ##[data-entrycode="RemAds-vidPg-AB"]
 ##[class="adsbytrafficjunky"][data-spot-id]
 ###p2vVideosVPage:has-text(Paid)
+##.adsbytrafficjunky
+###pb_template
 ##.newPaidSection.section-p2v
 ##.nav-videoRecommended.more_recommended_btn.light.greyButton
 ##.NotificationLine
@@ -9830,6 +9833,7 @@ photobucket.com#@#[id*="Preload"]
 ###tyche_cmp_modal
 ##.popup_overlay--2rgA3
 
+*##+js(set-constant, HTMLElement.prototype.attachShadow, null)
 ###importantMessage
 ##.cookie-information-text
 ##[data-testid="cookie-disclaimer"]
