@@ -28,6 +28,7 @@ aftonbladet.se##.abAdWrapper
 aftonbladet.se##.abThemeBgTeaser
 aftonbladet.se##article:has(a[data-sponsored="true"])
 aftonbladet.se##div[class][style^="text"]:has(h3:has-text(/annons/i))
+aftonbladet.se##[id*="abAdArea"]
 aftonbladet.se##a[style*="border-color:#0067b5"]
 aftonbladet.se##.type-advert
 aftonbladet.se##[src*="/ab-box?"]
@@ -84,6 +85,7 @@ klart.se##+js(aopr, blockAdBlock)
 @@||aftonbladet.se/sportbladet
 @@||aftonbladet.se^$generichide
 @@||sportbladetplay.se^$script
+@@||aftonbladet.se^$generichide
 ||aftonbladet.se/tv/temp.mp4$media/rabattkod/*$image,domain=aftonbladet.se
 ||engage-auth.schibsted.media^$script
 ||api.privacy.schibsted.com^$xmlhttprequest
@@ -1242,16 +1244,12 @@ viafree.se##[class="cta-overlay vjs-hidden"]
 viafree.se##+js(setTimeout-defuser.js, r, 0)
 viafree.se##.avodp.pause-ad-showing .vjs-progress-control, .avodp.ad-playing .vjs-progress-control:style(display: initial !important;)
 viafree.se##.SliderBlock_background_continueWatching.SliderBlock_background
-viafree.se##[id="viafree-logo-text_svg__pattern0"]
-viafree.se##.css-ejg76y-ScrollGradient
 @@||fwmrm.net/ad/$script
 @@||fwmrm.net/ad/$image,xmlhttprequest
 @@||fwmrm.net/crossdomain.xml$xmlhttprequest
 @@||mssl.fwmrm.net/p/MTG_Brightcove_HTML5/AdManager.js$script,domain=viafree.se
 ||freewheel-mtgx-tv.akamaized.net^$image,media,domain=viafree.se
---||viafree.se^$xmlhttprequest
 ||viafree.se/collect$important
-||freewheel-mtgx-tv.akamaized.net/static/*$image
 ||client-stream-events.mtg-api.com^$domain=viafree.se
 ||fwmrm.net^$image,important
 ||fwmrm.net/*/mtg_play_flash/linktag2.js$script
