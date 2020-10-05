@@ -495,6 +495,8 @@ youtube.com##.ad-div
 youtube.com##.annotation.iv-branding
 youtube.com###infoButton
 youtube.com###chips
+youtube.com##.opened
+youtube.com##ytd-popup-container.ytd-app.style-scope
 youtube.com##[class="ytp-gradient-bottom"]
 youtube.com##.yt-alert-content
 youtube.com##ytd-display-ad-renderer:upward(2)
@@ -1557,6 +1559,22 @@ firstrowsportes.*##.mainer > .cl
 ||web.automatedcomputers.com^$script
 ||t.mdn2015x4.com^$script
 /images/red-close-button-icon-32177.png
+
+#Gp.se
+gp.se##+js(ra, data-access, [data-access="false"])
+gp.se##+js(ra, data-frequencymodel)
+gp.se##+js(ra, frequency-model)
+gp.se##+js(set, frequencyModelEnabled, undefined)
+gp.se###stampenCookieInformationContainer
+gp.se###panorama_1 > .js-ad-tag.c-ad__tag
+gp.se##.o-grid__ad-column
+gp.se##.js-ad-tag:has-text(ANNONS)
+gp.se##.c-ad
+gp.se##.c-ad__floating
+gp.se##.rabble-widget
+@@||gp.se^$generichide
+/listicles.js$script
+/vendorList.js$script
 
 #Fotbollstransfers.com
 fotbolltransfers.com##[class='hstpnetworkads']
@@ -9798,6 +9816,7 @@ photobucket.com#@#[id*="Preload"]
 *##div>a:has-text(EXTERN LÄNK)
 *##div>a:has-text(CASINOGUIDEN)
 *##div>a:has-text(ANNONS)
+*##+js(json-prune, autoplay players.*.ga acl.ads players.*.autoplay)
 *$csp=object-src 'none' frame-ancestors 'none' frame-src 'none' block-all-mixed-content
 
 ##[class="cookie-acceptance__content"]
