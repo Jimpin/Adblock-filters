@@ -179,6 +179,7 @@ expressen.se##.slideshow__control
 #Twitch.tv
 twitch.tv##[src*="twitch.tv&pid="]
 twitch.tv##[class="extensions-dock-card tw-align-items-center tw-border-radius-medium tw-flex tw-mg-b-1 tw-mg-l-0 tw-mg-r-1 tw-mg-t-0 tw-root--hover tw-root--theme-light"]
+twitch.tv##+js(nostif, /[a-z]{0}/, 200)
 twitch.tv##.player-alert
 twitch.tv##.recommended-channels
 twitch.tv##.tw-justify-content-center.tw-full-width.tw-full-height.tw-flex.tw-c-text-alt-2.tw-align-items-center.core-error
@@ -496,7 +497,6 @@ youtube.com##.annotation.iv-branding
 youtube.com###infoButton
 youtube.com###chips
 youtube.com##.opened
-youtube.com##ytd-popup-container.ytd-app.style-scope
 youtube.com##[class="ytp-gradient-bottom"]
 youtube.com##.yt-alert-content
 youtube.com##ytd-display-ad-renderer:upward(2)
@@ -9610,7 +9610,7 @@ popuper.js^
 *#blocked$popup,third-party
 
 .now.sh$important
-.html$third-party,popup,domain=nyafilmer.lol|gomovies.sc|fmovies.to|123moviehub.co|swesub.net|i0123movies.com|putlocker.me|jawcloud.co|openload.co|bestmovies.to|nxload.com|streamango.com|rapidvideo.com|
+.html$third-party,popup,domain=nyafilmer.vip|gomovies.sc|fmovies.to|123moviehub.co|swesub.net|i0123movies.com|putlocker.me|jawcloud.co|openload.co|bestmovies.to|nxload.com|streamango.com|rapidvideo.com|
 
 /:\/\/www\.([a-z]{6,16})\.com\/([a-z]{1,4})\.js$/$third-party,script
 /^https?:\/\/[^\/]+\/[a-zA-Z0-9]{32,}$/$third-party
