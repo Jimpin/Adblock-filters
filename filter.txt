@@ -32,7 +32,6 @@ aftonbladet.se##[id*="abAdArea"]
 aftonbladet.se##a[style*="border-color:#0067b5"]
 aftonbladet.se##.type-advert
 aftonbladet.se##[src*="/ab-box?"]
-aftonbladet.se##[class="_1Wc3D"]
 aftonbladet.se##div.HLf1C:has-text(clas)
 aftonbladet.se##div.HLf1C:has-text(sex)
 aftonbladet.se##.abAside div:has-text(spel 18 år)
@@ -46,9 +45,8 @@ aftonbladet.se##[class="svp-player-recommended-box"]
 aftonbladet.se##div[style*="border-color:#0067b5;border-width:4px 0px 0px 0px;"] + a
 aftonbladet.se##article:has(a[data-sponsored="true"])
 aftonbladet.se##div[data-reactroot] > div > div#MegaAd ~ div[class]:not(#header):not(.abThemeGradientPage)
-aftonbladet.se##body.abTheme-entertainment *> .abAside > div[style^="text"]:last-child
+aftonbladet.se##.abAside > div[style^="text"]:last-child
 aftonbladet.se##[id^="innerabAdArea-"]
-aftonbladet.se##[id^="abAdArea"]
 aftonbladet.se##.ab-responsive-ads-wrapper
 aftonbladet.se##.share-icons
 aftonbladet.se##.social-shares
