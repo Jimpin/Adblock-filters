@@ -916,6 +916,7 @@ nyafilmer.*##.g-recaptcha
 nyafilmer.*##.gameofthrones
 nyafilmer.*##.noselect.tab-buttons
 nyafilmer.*##[class="headerSpace"]
+nyafilmer.*##.video-container > .side-info
 nyafilmer.*#@#body:style(overflow: auto !important)
 @@||nyafilmer.*/wp-includes/js/*$script,1p
 @@||nyafilmer.*/wp-content/themes/keremiya1/js/gallery.min.js$script,1p
@@ -1006,6 +1007,7 @@ jawcloud.co##^script:has-text(Inject=!)
 @@/?stream=
 *##a[href*="/engine."]
 ||&guid=^$popup,important
+/iframes2/*.html?$subdocument
 
 #Vipleague.lc
 vipleague.*##+js(aeld, /^(?:click|mousedown|mousemove|touchstart|touchend|touchmove)$/, system.popunder)
@@ -9829,6 +9831,7 @@ photobucket.com#@#[id*="Preload"]
 ###tyche_cmp_modal
 ##.popup_overlay--2rgA3
 
+*##[class*="a2a_"][rel="nofollow noopener"]
 *##+js(set-constant, HTMLElement.prototype.attachShadow, null)
 ###importantMessage
 ##.cookie-information-text
