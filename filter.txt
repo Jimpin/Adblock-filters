@@ -1418,6 +1418,11 @@ rltracker.pro##.col-sm-12 > .row
 /popunder1.js$important
 
 #Lookmovie.ag
+lookmovie.ag##+js(acis, Object.defineProperty, XMLHttpRequest)
+lookmovie.ag##+js(aeld, , _0x)
+lookmovie.ag##+js(aopr, AaDetector)
+lookmovie.ag##.view-top-ab
+lookmovie.ag##.notifyjs-corner
 lookmovie.ag##+js(popads-dummy)
 lookmovie.ag##.plr-help-stripe
 lookmovie.ag##div:nth-of-type(6) > div:nth-of-type(1)
@@ -1438,6 +1443,8 @@ lookmovie.ag##.plr-ad-stripe
 lookmovie.ag##.bottom-message-container
 lookmovie.ag###social-share
 lookmovie.ag##+js(bab-defuser.js)
+@@||lookmovie.ag^$ghide
+*$script,3p,denyallow=google.com|googleapis.com|gstatic.com|lookmovie.io|hcaptcha.com|nflxext.com,domain=lookmovie.ag
 ||lookmovie.ag/favicon.ico$image,first-party
 ||cntr.lookmovie.ag^$xmlhttprequest
 ||metrika.lookmovie.ag/analytics.js$script
@@ -1849,6 +1856,7 @@ goal.com##.widget-semantic-player--displayed.widget-semantic-player
 atg.se##[data-test-id="hero-placeholder"]
 dolohen.com##a[href$=".html"]
 dirdamid.com##a[href$=".html"]
+||api.github.com/_private/browser/stats$important
 ##[class$="-sns-box"]
 ##[class^="ads_"]:not(body)
 ###textAd
@@ -2224,9 +2232,6 @@ dirdamid.com##a[href$=".html"]
 ##.hidden-xs.notice.alert-default.alert
 ###hd-rightColVideoPage > div[class]:first-child
 ###hd-rightColVideoPage > none
-##[href^="https://plus.google.com/share?"]
-##[href^="//www.reddit.com/submit?"]
-##[href^="//twitter.com/share"]
 ##.rta
 ##.remodal[data-remodal-options="hashTracking: false"][data-remodal-id="login"]
 ##.removeAdsStyle
@@ -2265,8 +2270,7 @@ dirdamid.com##a[href$=".html"]
 ##.as-oil-content-overlay
 ##.optanon-alert-box-bg
 ###floatingbar
-##[class="tipsy tipsy-w kepsy"]
-##[class="tipsy tipsy-e kepsy"]
+##[class*="tipsy tipsy-w kepsy"]
 ###site-xpromo-banner > .js-banner.banner
 ###js-site-xpromo-banner-container-top
 ###site-xpromo-banner > .js-banner.banner > .js-page-banner-link.page-banner-link
@@ -2309,21 +2313,6 @@ dirdamid.com##a[href$=".html"]
 ##[id="top_ad_wrapper"]
 ##[id="top_ad_reflow_helper"]
 ##[id="top_ad_rendering"]
-##.openx
-##.openx-ad
-##.openx_10
-##.openx_11
-##.openx_15
-##.openx_16
-##.openx_17
-##.openx_3
-##.openx_4
-##.openx_ad
-##.openx_frame
-##.openxbuttons
-##[id="tru7iax"]
-##[id="pskpuio"]
-##[id="aoor2d4"]
 ##view_inner
 ##[class="vjs-poster"]
 ##.navigation_ad
@@ -2489,7 +2478,6 @@ dirdamid.com##a[href$=".html"]
 ##[id="get-code"]
 ##[class="code-close"]
 ##[class="code-main"]
-##[id="AIrirFzT"]
 ##.ab-wrapper.row
 ##.alpha.sniperModeEngaged
 ##.top-bar-adblock
@@ -2541,10 +2529,6 @@ dirdamid.com##a[href$=".html"]
 ##.col-lg-12:nth-of-type(1) > .desc
 ##body > .enesuch
 ##.sectionWrapper > .enesuch
-###RvwhndXlFy
-###d5psW774m
-###HmCsxGtWUK
-###qsRPYGaWcJ
 ##.heatwarning > iframe
 ##[class="overlay adblock_warning"]
 ##[class="modal fade modal-cuz"]
@@ -7864,9 +7848,6 @@ dirdamid.com##a[href$=".html"]
 ||tracker.*/$xmlhttprequest
 ||lookpic.com/*.jpg
 ||lookpic.com/*.gif
-|https://$image,script,stylesheet,subdocument,third-party,xmlhttprequest,domain=ahoypirate.in|bayception.pw|cruzing.xyz|mirror.superproxy.biz|noobnoob.rocks|pirateproxy.live|pirateproxy.rocks|pirateproxy.voto|prox1.info|proxyfrom.asia|proxyindia.net|superbay.link|superproxy.biz|thehiddenbay.com|thepiratebay.kiwi|thepiratebay.org|thepiratebay.vip|thepiratebay10.org|thepirateproxy.win|theproxybay.net|tpb.crushus.com|tpb.hid.li|tpb6.ukpass.co|tpproxy.website|unblocktheship.org
-$csp=script-src 'self' * 'unsafe-inline',domain=rarbgunblocked.org|rarbgway.org|rarbg.to|rarbg2019.org|rarbg2020.org|rarbg2021.org|rarbgaccess.org|rarbgmirror.com|rarbgmirror.org|rarbgmirrored.org|rarbgp2p.org|rarbgproxied.org|rarbgproxy.org|rarbgprx.org|rarbgto.org|ibit.to|unblocktheship.org|noobnoob.rocks|nosteamgames.ro|ahoypirate.in|proxyindia.net|superproxy.biz|tpb6.ukpass.co|proxyfrom.asia|tpb.hid.li|thepiratebay.vip|pirateproxy.live|thehiddenbay.com|cruzing.xyz|bayception.pw|superbay.link|pirateproxy.rocks|pirateproxy.voto|thepiratebay.kiwi|rarbgto.org|rarbgmirrored.org|rarbgmirror.org|rarbg.to|rarbgaccess.org|rarbgmirror.com|rarbgproxy.org|rarbgprx.org|downloadpirate.com|theproxybay.net|thepiratebay10.org|prox1.info|kickass.vip|torrent9.uno|torrentsearchweb.ws|pirateproxy.app|ukpass.co|prox.icu|proxybay.ga|pirateproxy.life|unblockthe.net
-$csp=worker-src 'none',domain=ahoypirate.in|bayception.pw|cruzing.xyz|mirror.superproxy.biz|noobnoob.rocks|pirateproxy.live|pirateproxy.rocks|pirateproxy.voto|prox1.info|proxyfrom.asia|proxyindia.net|superbay.link|superproxy.biz|thehiddenbay.com|thepiratebay.kiwi|pirate-bay.net|tpb.party|thepiratebay.org|thepiratebay.vip|thepiratebay10.org|thepirateproxy.win|theproxybay.net|tpb.crushus.com|tpb.hid.li|tpb6.ukpass.co|tpproxy.website|ukpirate.org|unblocktheship.org|flashx.cc|flashx.co|vidoza.co|vidoza.net
 .consent-cookie.
 .cookie-law.$script
 .cookie-policy.
@@ -9530,7 +9511,7 @@ popuper.js^
 *.co/ads?
 *.html?q^$important
 */redirect.aspx?
-*$popup,third-party,domain=gomovies.sc|fmovies.to|openload.co
+*$popup,3p,domain=gomovies.sc|fmovies.to|openload.co
 /ad.js$script
 /http*0-9.com:\/\/.*/$third-party,popup
 /\/t[a-f0-9]{10,13}$/$third-party,popup
@@ -9610,7 +9591,6 @@ popuper.js^
 *#blocked$popup,third-party
 
 .now.sh$important
-.html$third-party,popup,domain=nyafilmer.vip|gomovies.sc|fmovies.to|123moviehub.co|swesub.net|i0123movies.com|putlocker.me|jawcloud.co|openload.co|bestmovies.to|nxload.com|streamango.com|rapidvideo.com|
 
 /:\/\/www\.([a-z]{6,16})\.com\/([a-z]{1,4})\.js$/$third-party,script
 /^https?:\/\/[^\/]+\/[a-zA-Z0-9]{32,}$/$third-party
@@ -9708,7 +9688,6 @@ photobucket.com#@#[id*="Preload"]
 *##+js(acis, Exp, bamData)
 *##+js(acis, losAd)
 *##+js(acis, jQuery, adscript)
-*##+js(acis, Fusion, loadAds)
 
 *##+js(acis, AdPortal)
 *##+js(set-constant.js, analyticsTrackGoogleAnalytics, noopFunc)
@@ -9723,7 +9702,6 @@ photobucket.com#@#[id*="Preload"]
 *##+js(acis, popunder)
 *##+js(acis, jQuery, overlay)
 *##+js(set-constant.js, checkAds, noopFunc)
-*##+js(aopr, adMessage)
 *##+js(acis, jQuery, tweaker)
 *##+js(acis, document.getElementById, blocker)
 .*/sw.js$script
