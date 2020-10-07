@@ -1425,7 +1425,6 @@ lookmovie.ag##.view-top-ab
 lookmovie.ag##.notifyjs-corner
 lookmovie.ag##+js(popads-dummy)
 lookmovie.ag##.plr-help-stripe
-lookmovie.ag##div:nth-of-type(6) > div:nth-of-type(1)
 lookmovie.ag##body > div:nth-of-type(6)
 lookmovie.ag##body > iframe
 lookmovie.ag##.notifyjs-corner
