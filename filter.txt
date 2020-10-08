@@ -496,6 +496,7 @@ youtube.com##.annotation.iv-branding
 youtube.com###infoButton
 youtube.com###chips
 youtube.com##.opened
+youtube.com###offer-module
 youtube.com##[class="ytp-gradient-bottom"]
 youtube.com##.yt-alert-content
 youtube.com##ytd-display-ad-renderer:upward(2)
@@ -503,10 +504,9 @@ youtube.com##+js(json-prune, adPlacements)
 youtube.com##+js(json-prune, [].playerResponse.adPlacements [].playerResponse.playerAds playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds)
 youtube.com##+js(set-constant, ytInitialPlayerResponse.adPlacements, undefined)
 youtube.com##+js(set-constant, playerResponse.adPlacements, undefined)
-youtube.com##[class="ytp-paid-content-overlay"]
-youtube.com##[class="ytp-cued-thumbnail-overlay"]
+youtube.com##.ytp-paid-content-overlay
+youtube.com##.ytp-cued-thumbnail-overlay
 youtube.com##[class="style-scope yt-live-chat-viewer-engagement-message-renderer"]
-youtube.com##.ytp-fullerscreen-edu-text
 youtube.com##.ytp-fullerscreen-edu-text
 youtube.com##.ytp-ce-element
 youtube.com##.ytp-cards-teaser-text
