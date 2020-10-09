@@ -1045,7 +1045,7 @@ vipleague.*##.text-white.bg-dark.text-justify.p-3.m-3.d-md-block.d-none.col-12
 ||bannerflow.com^$important
 ||mw19c3mi5a.com^$important
 ||commercialvalue.org^$important
-||linkedin.com^$third-party,script
+||linkedin.com^$script,3p
 
 #Fmovies.to
 fmovies.*##+js(abort-current-inline-script.js, Math, zfgloaded)
@@ -1384,7 +1384,6 @@ rltracker.pro##.col-sm-12 > .row
 ||vidcloud9.com/js/app.js$script
 ||foazasis.com^
 ||caithamo.net^3p
-||connect.facebook.net^$3p
 ||chatbro.com^
 
 #0123movies.com
@@ -1747,8 +1746,6 @@ viduplayer.*##[href$=".html"]
 ##[class="ds_overlay_pop"]
 ##[class="widgetsads bannerAdsmainly"]
 ##[class="facebookCom"]
-##[id="M354556ScriptRootC312487"]
-##[id="M354556PreloadC312487"]
 verystream.*##+js(popads-dummy)
 vcstream.*##+js(popads-dummy)
 ||verystream.net^$inline-script
@@ -1876,7 +1873,6 @@ dirdamid.com##a[href$=".html"]
 ##.ad2
 ##.adtimes
 ##div.linkads
-##[class="_1U1rc-"]
 ###advertise
 ###adPopup
 ###ad_scroll_view
@@ -1886,7 +1882,6 @@ dirdamid.com##a[href$=".html"]
 ##.nyh_cookie-message
 ###sidebar-btf-0
 ##[id^="adblock"]
-##LI[id^="ad-"]
 ##.ad-banner-wrapper
 ##.adblocker-popup
 ##.adblocker-full-overlay
@@ -7501,7 +7496,7 @@ dirdamid.com##a[href$=".html"]
 ||bodaybo.net^
 ||adlabs.ru^
 ||mixmarket.biz^
-||x7xirtzmot.com^$script,redirect=noop.js
+||x7xirtzmot.com^$important
 ||hyphenion.com^$important
 ||ferreddo.com^$important
 ||r.remarketingpixel.com^
@@ -7616,7 +7611,7 @@ dirdamid.com##a[href$=".html"]
 ||go.mobtrks.com^
 ||go.trafficshop.com^
 ||go.verymuchad.com^
-||glimr.io^$third-party
+||glimr.io^$3p
 ||pvclouds.com^$important
 ||syndicpop.com^
 ||ecpms.net^
@@ -7632,7 +7627,7 @@ dirdamid.com##a[href$=".html"]
 ||adexc.net^
 ||pascal5.science^
 ||exchange.buzzoola.com/adv/*
-||amazonaws.com/*/264.js$script
+||amazonaws.com/*.js$script,3p
 ||disqus.com/count.js$script
 ||disqus.com/embed.js$script
 ||disqus.com/forums/*/embed.js$script
@@ -9437,28 +9432,25 @@ popuper.js^
 @@//media*^$image
 @@||cdn.fbsbx.com^$image
 @@||redirect*^$xhr,media
-|http*://*$first-party,websocket,important
 
-##a[href*=".wz"][target="_blank"]
-##a[href*=".style"][target="_blank"]
-##a[href*=".ltd"][target="_blank"]
-##a[href*=".link"][target="_blank"]
-##a[href*=".pw"][target="_blank"]
-##a[href*=".site"][target="_blank"]
-##a[href*=".pink"][target="_blank"]
-##a[href*=".st"][target="_blank"]
-##a[href*=".click"][target="_blank"]
-##a[href*=".cricket"][target="_blank"]
-##a[href*=".download"][target="_blank"]
-##a[href*=".faith"][target="_blank"]
-##a[href*=".online"][target="_blank"]
-##a[href*=".racing"][target="_blank"]
-##a[href*=".website"][target="_blank"]
-##a[href*=".win"][target="_blank"]
-##a[href*=".trade"][target="_blank"]
-##a[href*=".space"][target="_blank"]
-##a[href*=".stream"][target="_blank"]
-##a[href*=".webcam"][target="_blank"]
+*##a[href*=".wz"][target="_blank"]
+*##a[href*=".style"][target="_blank"]
+*##a[href*=".ltd"][target="_blank"]
+*##a[href*=".link"][target="_blank"]
+*##a[href*=".pw"][target="_blank"]
+*##a[href*=".site"][target="_blank"]
+*##a[href*=".pink"][target="_blank"]
+*##a[href*=".click"][target="_blank"]
+*##a[href*=".cricket"][target="_blank"]
+*##a[href*=".download"][target="_blank"]
+*##a[href*=".faith"][target="_blank"]
+*##a[href*=".online"][target="_blank"]
+*##a[href*=".racing"][target="_blank"]
+*##a[href*=".website"][target="_blank"]
+*##a[href*=".win"][target="_blank"]
+*##a[href*=".trade"][target="_blank"]
+*##a[href*=".space"][target="_blank"]
+*##a[href*=".webcam"][target="_blank"]
 *.ashx?ad=
 *.ashx?AdID=
 *.asp?coad
@@ -9673,7 +9665,6 @@ photobucket.com#@#[id*="Preload"]
 
 *##[id^='adsIfrme']:has(:scope > iframe[src^='/ads/'])
 *##+js(abort-on-property-read.js, cursorAd)
-*##+js(set-constant.js, advertisementText, undefined)
 *##+js(acis, _adform)
 *##+js(acis, adformLoader)
 *##+js(acis, adformtag, push)
@@ -9695,7 +9686,6 @@ photobucket.com#@#[id*="Preload"]
 *##+js(acis, AdsReloadConfig)
 *##+js(acis, phpads_deliver)
 *##+js(aopw, banner_video)
-*##+js(set-constant.js, trackAdblock, noopFunc)
 
 -------------------------------------------------
 
