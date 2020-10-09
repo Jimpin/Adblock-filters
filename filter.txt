@@ -9795,7 +9795,6 @@ photobucket.com#@#[id*="Preload"]
 *##div>a:has-text(EXTERN LÄNK)
 *##div>a:has-text(CASINOGUIDEN)
 *##div>a:has-text(ANNONS)
-*##+js(json-prune, autoplay players.*.ga acl.ads players.*.autoplay)
 *$csp=object-src 'none' frame-ancestors 'none' frame-src 'none' block-all-mixed-content
 
 ##[class="cookie-acceptance__content"]
@@ -9832,7 +9831,6 @@ photobucket.com#@#[id*="Preload"]
 
 ##.pub_300x250.pub_300x250m.pub_728x90.text-ad.textAd.text_ad.text_ads.text-ads.text-ad-links:style(display: block !important;)
 *##[class*="a2a_"][rel="nofollow noopener"]
-*##+js(set-constant, HTMLElement.prototype.attachShadow, null)
 ###importantMessage
 ##.cookie-information-text
 ##[data-testid="cookie-disclaimer"]
