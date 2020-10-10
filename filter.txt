@@ -2519,6 +2519,8 @@ dirdamid.com##a[href$=".html"]
 ##.banner.rotating
 ##.headbanner
 ##.ad.clearfix
+##[id="popsByTrafficJunky"]
+##[data-adblock-spot-id*="1"]
 ###cheadbanner
 ###ctopbanner
 ###bar_top_r
