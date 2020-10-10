@@ -525,12 +525,10 @@ youtube.com###masthead-ad
 youtube.com##.masthead-ad-control
 youtube.com###video-masthead
 youtube.com###hats-container
-youtube.com##.style-scope ytd-badge-supported-renderer:has-text(/annons/i)
 youtube.com##.ytp-button.ytp-miniplayer-button
 youtube.com##[class="style-scope yt-formatted-string"]:has-text(egistrering)
 youtube.com##a[href*="/"]:has-text(bit.ly)
 youtube.com##a[href*="/"]:has-text(stod)
-youtube.com##script:has-text(if (window.ytcsi) {window.ytcsi.tick("nc_pj", null, '');})
 youtube.com##span.yt-formatted-string.style-scope:has-text(casino)
 youtube.com#@#.page-loaded
 @@||youtube.com^$xhr
