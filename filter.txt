@@ -178,7 +178,11 @@ expressen.se##.slideshow__control
 #Twitch.tv
 twitch.tv##[src*="twitch.tv&pid="]
 twitch.tv##[class="extensions-dock-card tw-align-items-center tw-border-radius-medium tw-flex tw-mg-b-1 tw-mg-l-0 tw-mg-r-1 tw-mg-t-0 tw-root--hover tw-root--theme-light"]
+twitch.tv##:has([src*=".amazon-adsystem.com"])
 twitch.tv##+js(nostif, /[a-z]{0}/, 200)
+twitch.tv##[data-a-target=prime-offers-icon]
+twitch.tv##[data-a-target=try-prime-link]
+twitch.tv##.prime-offers__pill
 twitch.tv##.player-alert
 twitch.tv##.recommended-channels
 twitch.tv##.tw-justify-content-center.tw-full-width.tw-full-height.tw-flex.tw-c-text-alt-2.tw-align-items-center.core-error
@@ -196,6 +200,7 @@ twitch.tv##.tw-mg-t-4.tw-absolute.tw-justify-content-center.tw-flex-row.tw-flex.
 twitch.tv##.tw-pd-1.tw-justify-content-between.tw-flex-row.tw-flex.tw-align-items-center.tw-border-l.tw-border-b.tw-border-r.fuel-bar
 twitch.tv##.tw-pd-1.tw-flex.tw-c-text
 twitch.tv##.tw-justify-content-center.tw-flex-row.tw-flex.tw-c-text-overlay.tw-c-background-accent-alt-2.tw-align-items-center.consent-banner
+twitch.tv##.side-info-container
 twitch.tv##.fbc-badge-fence
 twitch.tv###root > div > div.twilight-root.tw-right-0.tw-bottom-0.tw-left-0.tw-overflow-hidden.tw-flex.tw-flex-column.tw-flex-nowrap.tw-absolute > div.tw-full-height.tw-flex.tw-flex-nowrap.tw-relative:nth-child(4) > main.twilight-main.tw-full-width.tw-fl-height.tw-overflow-hidden.tw-flex.tw-flex-column.tw-flex-grow-1.tw-relative:nth-child(2) > div.root-scrollable.scrollable-area.scrollable-area--suppress-scroll-x:nth-child(2) > div.simplebar-scroll-content:last-child > div.simplebar-content.root-scrollable__content > div.root-scrollable__wrapper.tw-full-width.tw-relative > div.channel-page.tw-full-height:first-child > div.chennel-page-layout.tw-full-height.tw-flex.tw-flex-column.tw-flex-nowrap > div.tw-pd-t-2.tw-pd-x-3 > div.tw-animation.tw-animation--animate.tw-animation--delay-medium.tw-animation--duration-medium.tw-animation--fill-mode-both.tw-animation--timing-ease.tw-animation--slide-in-bottom:first-child
 twitch.tv###default-player > div.player-root > div.pl-overlay.pl-overlay__fullscreen:first-child
@@ -531,6 +536,7 @@ youtube.com##a[href*="/"]:has-text(bit.ly)
 youtube.com##a[href*="/"]:has-text(stod)
 youtube.com##span.yt-formatted-string.style-scope:has-text(casino)
 youtube.com#@#.page-loaded
+@@||youtube.com^$csp
 @@||youtube.com^$xhr
 @@||youtube.com/player_api$third-party
 ||youtube.com/api/stats/qoe?event
@@ -1111,13 +1117,16 @@ mcloud.*##+js(popads-dummy)
 ||mcloud.to/ping$important
 ||mcloud.to^$image
 ||fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700$stylesheet
-rapidvideo.*##+js(popads-dummy)
-rapidvideo.*##+js(popads.net.js)
-rapidvideo.*##+js(noeval.js)
-rapidvideo.*##+js(abort-on-property-write.js, executed)
-rapidvideo.*##+js(abort-current-inline-script.js, decodeURI, getScriptFromCss)
-rapidvideo.*##+js(set-constant.js, onload, noopFunc)
-rapidvideo.*##+js(addEventListener-defuser.js, mousedown, preventDefault)
+rapidvideo.com##+js(noeval.js)
+rapidvideo.com##+js(popads.net.js)
+rapidvideo.com##+js(popads-dummy)
+rapidvideo.com##+js(abort-current-inline-script.js, atob, tabunder)
+rapidvideo.com##+js(abort-current-inline-script.js, parseInt, tabunder)
+rapidvideo.com##+js(abort-on-property-write.js, executed)
+rapidvideo.com##+js(abort-on-property-write.js, executed)
+rapidvideo.com##+js(abort-current-inline-script.js, decodeURI, getScriptFromCss)
+rapidvideo.com##+js(set-constant.js, onload, noopFunc)
+rapidvideo.com##+js(addEventListener-defuser.js, mousedown, preventDefault)
 ||rapidvideo.com/thumb/*$image
 ||rapidvideo.com/images/bgn.png$image
 ||rapidvideo.com/images/rapidvideo_logo_player.png$important
@@ -1158,6 +1167,8 @@ mstream.*##+js(aopr, AaDetector)
 mstream.*##+js(popads-dummy.js)
 ||mstream.*/view/*$image
 ||mystream.io/img/*$image
+vidoza.net##+js(abort-current-inline-script, Math, zfgloaded)
+vidoo.*##+js(abort-current-inline-script, Math, zfgloaded)
 vidoo.*##+js(aopr, open)
 vidoo.*##+js(popads-dummy.js)
 @@||vidoo.tv/js/pop.js$script
@@ -1194,20 +1205,6 @@ firstonetv.net##.end.group-item-grid-default.columns.medium-4.large-3.item:nth-o
 firstonetv.net##+js(abort-on-property-write.js, isBlocked)
 @@||firstonetv.net/js/player:*$script
 @@||firstonetv.net/js/stream:*$script
-@@||firstonetv.net/js/api:1496971785$script,first-party
-@@||firstonetv.net/js/site:1520350521$script,first-party
-@@||firstonetv.net/js/foundation:1496971785$script,first-party
-@@||firstonetv.net/js/greensock:1496971785$script,first-party
-@@||firstonetv.net/js/jquery.showmore.src:1496971785$script,first-party
-@@||firstonetv.net/js/layerslider.transitions:1496971785$script,first-party
-@@||firstonetv.net/js/layerslider.kreaturamedia.jquery:1496971785$script,first-party
-@@||firstonetv.net/js/jquery.kyco.easyshare:1517667382$script,first-party
-@@||firstonetv.net/js/jquery.appear:1496971785$script,first-party
-@@||firstonetv.net/js/jquery:1496971785$script,first-party
-@@||firstonetv.net/js/jquery-ui:1496971786$script,first-party
-@@||firstonetv.net/js/owl.carousel.min:1496971785$script,first-party
-@@||firstonetv.net/js/swfobject:1496973630$script,first-party
-@@||firstonetv.net/js/what-input:1496971785$script,first-party
 ||firstonetv.net/js/*$script,domain=firstonetv.net
 ||cdnjs.cloudflare.com/ajax/libs/video.js/*/lang/*$script
 ||cdnjs.cloudflare.com/ajax/libs/postscribe/*/postscribe.min.js
@@ -1381,7 +1378,7 @@ rltracker.pro##.col-sm-12 > .row
 /assets/js/psbar.jquery.min.js$script
 ||vidcloud9.com/js/app.js$script
 ||foazasis.com^
-||caithamo.net^3p
+||caithamo.net^
 ||chatbro.com^
 
 #0123movies.com
@@ -1744,7 +1741,10 @@ viduplayer.*##[href$=".html"]
 ##[class="ds_overlay_pop"]
 ##[class="widgetsads bannerAdsmainly"]
 ##[class="facebookCom"]
-verystream.*##+js(popads-dummy)
+verystream.com##+js(popads-dummy)
+verystream.com##+js(nano-setTimeout-booster)
+verystream.com##+js(abort-on-property-read.js, adblock)
+verystream.com##+js(abort-on-property-read.js, open)
 vcstream.*##+js(popads-dummy)
 ||verystream.net^$inline-script
 ||verystream.com/assets/*$script,first-party
@@ -1799,6 +1799,12 @@ vidcloud.*##[href$=".html"]
 ||moviesjoy.net^$popup,third-party
 ||use.fontawesome.com/releases/v5.3.1/css/all.css$stylesheet,domain=moviesjoy.net
 ||google.com/js/bg/*$script
+openload.co##+js(abort-current-inline-script, $, contextmenu)
+openload.co##+js(abort-on-property-read, BetterJsPop)
+openload.co##+js(abort-current-inline-script, atob, decodeURIComponent)
+openload.co##+js(set-constant, sadbl, false)
+openload.co##^script:has-text(popAdsLoaded)
+openload.co##+js(abort-current-inline-script.js, adblock, adblock2)
 ||openload.co/r3/*$xmlhttprequest,first-party
 ||openload.co/assets/img/blocked.png$image
 ||openload.co/assets/img/logo.png$image
@@ -2264,10 +2270,13 @@ dirdamid.com##a[href$=".html"]
 ##.optanon-alert-box-bg
 ###floatingbar
 ##[class*="tipsy tipsy-w kepsy"]
+##.wid-banner-container
+##.wid-cams-widget
+##.wid-spot-container
 ###site-xpromo-banner > .js-banner.banner
 ###js-site-xpromo-banner-container-top
-###site-xpromo-banner > .js-banner.banner > .js-page-banner-link.page-banner-link
 ###site-xpromo-banner > .js-banner.banner
+##.underplayerAd
 ###smartbanner.android
 ###smartbanner.ios
 ###smartbanner.windows
@@ -6967,13 +6976,13 @@ dirdamid.com##a[href$=".html"]
 ||mybestmv.com/adServe/*$script,important
 ||peevopoy.com^$important
 ||checkru.net^$important
-||azartcasinogames.com^$important
-||kazinoazart.club^$important
-||cazinoazartplay.club^$important
-||aplaycasino2.com^$important
-||rotator.promokrot.com^$important
+||azartcasinogames.com^
+||kazinoazart.club^
+||cazinoazartplay.club^
+||aplaycasino2.com^
+||promokrot.com^
 ||glumtitu.net^$script
-||cbbp1.com^important
+||cbbp1.com^
 ||poolgmsd.com^$important
 ||peehotim.com^$important
 ||eu.npario-inc.net/DMP/*$script,important
@@ -9372,7 +9381,7 @@ popuper.js^
 @@||ajax.googleapis.com/ajax/libs/jquery/
 @@||data-live.flightradar24.com/zones/*$script
 @@||openload.co/embed
-@@||openload.co/assets/js/script.*.js$domain=openload.co
+@@||openload.co/assets/js/script.*.js
 @@||oloadcdn.net^$domain=openload.co,xmlhttprequest
 @@||fonts.googleapis.com/css$third-party
 @@||phncdn.com/timings-$script
@@ -9824,3 +9833,251 @@ photobucket.com#@#[id*="Preload"]
 ##[data-testid="cookie-disclaimer"]
 ||jwpcdn.com^/*.js$script
 */player/plugins/vast-*.js$script
+
+*/jquery.magnific-popup.min.js
+
+*##+js(aopr, jwplayer.utils.Timer)
+*##+js(abort-on-property-write.js, spot)
+*##+js(aopr, VAST)
+*##+js(set, clientSide.adbDetect, null)
+*##+js(abort-on-property-read, zone_2547)
+*##+js(abort-on-property-read, AdDelivery.prototype.requestTrafficJunkyAds)
+*##+js(abort-on-property-read.js, _goat)
+*##+js(abort-on-property-write.js, loadAdFromHeaderTab)
+*##+js(aopr, ExoLoader.serve)
+*##+js(window.open-defuser, 1, .php?)
+*##iframe[src*="/ads-iframe-display.php"]
+*##iframe[src*="https://pc.html"]
+###main-nav > li > a[rel="nofollow noopener"][onclick^="pageTracker"]
+##div[id*="ScriptRootC"]
+##.video_ad
+###right_ad
+###left_ad
+##.poplayer
+##.video-boxad
+##li.releated_video:has-text(AD)
+##div[id^="ts_ad_native_"]
+###dmmad
+##.p-articleDMM
+###ad_html
+##.self-gg
+##.float-ads
+##.float-ads-backgroud
+##.noPopunder
+##.tj-add-text
+##.vjs-inplayer-closeandplay
+##.attentionMsg
+##.poper
+##.inplayer.hidden-xs
+
+||referrer.disqus.com^
+||glitter.services.disqus.com^
+||links.services.disqus.com^
+||viglink.com^
+||disqus.com/api/*/listrelated.json?
+||mmaaxx.com^
+||imagetwist.com^
+||aaddcount.com^
+||ie8eamus.com^
+||dbbp1.net^
+||thterras.com^
+||b54m4qbmt0b9.com^
+||keqi7dh3df.com^
+||fabrkrup.com^
+||k77hof1z7k.com^
+||rlomrjxrpsev.com^
+||hxwxxhfydbifuq.com^
+||stunninglover.com^
+||areyouahuman.com^
+||adexchangecloud.com^
+||ssdsylfzav.com^
+||mn1nm.com^
+||clcknads.pro^
+||k77hof1z7k.com^
+||puserving.com^
+||for-ward.jp^
+||eroterest.net^
+||fam-ad.com^
+||sprout-ad.com^
+||shinobi.*^
+||click-plus.net^
+||icapabloidsety.club^
+||9nwg9sib9e.com^
+||trafficshop.com^
+||hdpreview.com^
+||youav.com^
+||adxpansion.com^
+||dbbp1.net^
+||etahub.com^
+||javmost.com^
+||popmyads.com^
+||adsco.re^
+||juicyads.com^
+||popads.net^
+||vebadu.com^
+||newsatads.com^
+||terrapsps.com^
+||bmw999888.com^
+||jxf0088.com^
+||shen2211.com^
+||88files.net^
+||cccc555.net^
+||picuphost.com^
+||puhtml.com^
+||mws3034.tk^
+||livejasmin.com＾
+||fhyl02.com^
+||trafficfactory.biz^
+||trafficstars.com^
+||iwanttodeliver.com^
+||zarlomgog.com^
+||riverhit.com^
+||streamsb.net^
+||exofrwe.com^
+||8xkr.xyz^
+||ofphanpytor.com^
+||xmtrading.com^
+||affiliateone.*^
+||dmm.com^
+||notifications-online.systems^
+||push-notification.tools^
+||vhldwuv6om.com^
+||adqy6rzwcs.com^
+||muqson0kgr.com^
+||passeseuro.com^
+||pvclouds.com^
+||mvvecbfomk.com^
+||ujlpbcsx.com^
+||mvvecbfomk.com^
+||wjevvjxwg.com^
+||ujlpbcsx.com^
+||fkbwtoopwg.com^
+||smartsuppchat.com^
+||aaacompany.net^
+||admesia.com^
+||promo-bc.com^
+||vcdn.io^
+||advnet.xyz^
+||trmnsite.com^
+||reberr.pro^
+||adflare.*^
+||alistcloud.com^
+||hgub2polye.com^
+||webgekeniuos.com^
+||doublepimp.com^
+||spankbang.com^
+||adtng.com^
+||pgl.yoyo.org/adservers/
+||ootqfqjhzfrtn.com^
+||sosbyncpkyw.com^
+||stats.wp.com^
+||counevan.pro^
+||wpush.org^
+||defutohy.pro^
+||adxadserv.com^
+||asgclickkl.com^
+||adxadserv.com^
+||jutyledu.pro^
+||dxlive.com^
+||bn.dxlive.com^
+||sex-and-flirt.com^
+||adxpansion.com^
+||pub.sitetag.us^
+||adxxx.com^
+||cnzz.com^
+||adqy6rzwcs.com^
+||mm9841.com^
+||adservme.com^
+||menhv.com^
+||shailsha.com^
+||menhv.com^
+||bangdom.com^
+||wpu.sh^
+||muqson0kgr.com^
+||logger.pw^
+||newdonate.com^
+||lifeideas.site^
+||cachlambanhdongian.com^
+||adxadtracker.com^
+||ca.clcknads.pro^
+||trackingpro.pro^
+||b3z29k1uxb.com^
+||fd7qz88ckd.com^
+||ptawe.com^
+||ppfpocea.com^
+||zog.link^
+||utubejobs.com^
+||adxpansion.com^
+||adsession.com^
+||vipicmou.net^
+||fhgh9sd.com^
+||honeycshfferufrew.com^
+||xineday.com^
+||waust.at^
+||alexa.com^
+||javlibrary.com^
+||ytsyyey.com^
+||frefla.com^
+||wpnjs.com^
+||ad999.biz^
+||redlele.com^
+||lamp-shade.net^
+||ad-tag.biz^
+||octopuspop.com^
+||advinci.co^
+||vkcdnservice.com^
+||qqqwes.com^
+||520click.com^
+||sitetag.us^
+||realsrv.com^
+||remarketingpixel.com^
+||mrddz.xyz^
+||ahqpqpdjpj.com^
+||urtirepor.com^
+||ddmax20.xyz^
+||olkrzytv.com^
+||intelligenceadx.com^
+||bngpt.com^
+||yadro.ru^
+||socialbars-web1.com^
+||doublepimp.com^
+||visitstats.com^
+||86a6b542l7.com^
+||paishuno.net^
+||revbigo.com^
+||adxadserv.com^
+||infloots.pro^
+||contextrio.pro^
+||dotuate.pro^
+||contextrio.pro^
+||dotuate.pro^
+||fingahvf.top^
+||wpncdn.com^
+||fstats.xyz^
+||alexametrics.com^
+||boudja.com^
+||charmour.club^
+||smothere.pro^
+||newsupdatewe.info^
+||siterdm.com^
+||mediad2.^
+||genieessp.com^
+||suncityad.com^
+||greedseed.world^
+||queen-casino.info^
+||jskyservices.com^
+||rekovers.ru^
+||mobbahjug.com^
+||addtoany.com^$3p
+||fmax.xyz^
+||coolcpms.com^
+||bebreloomr.com^
+||onstunkyr.com^
+||e2wysbacctt1.com^
+||y2020ad.xyz^
+||theniceads.com^
+||aoredi.com^
+||o333o.com^
+||jads.co^
+||7vid.net^
+||optvn.com^
