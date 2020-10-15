@@ -591,26 +591,7 @@ svtplay.se##.play_cookie-information
 ||helix.svt.se/events$xhr
 
 #Svenskafans.com
-svenskafans.com###aspnetForm > div:nth-of-type(6) > div:nth-of-type(1)
-svenskafans.com###ctl00_bc_brDiv
-svenskafans.com###ctl00_cphMainContent_RC_pnlRightColumn > .ad_display_336
-svenskafans.com###ctl00_cphMainContent_RC_pnlRightColumn > .ad_info
-svenskafans.com###center_column_container > .ad_info
-svenskafans.com##.ad_info:nth-of-type(4)
-svenskafans.com##.ad_info:nth-of-type(6)
-svenskafans.com##.ad_info:nth-of-type(7)
-svenskafans.com##.ad_display:nth-of-type(9)
-svenskafans.com##.ad_info:nth-of-type(11)
-svenskafans.com##.ad_info:nth-of-type(14)
-svenskafans.com##.ad_info:nth-of-type(15)
-svenskafans.com##.ad_info:nth-of-type(19)
-svenskafans.com##.ad_info:nth-of-type(21)
-svenskafans.com##div.puff__ad-heading
-svenskafans.com##.puff--ad.esmg-hb-slot
-svenskafans.com##.ad_display
-svenskafans.com##.ad_display_336:nth-of-type(17)
-svenskafans.com##.sticky_inner > .std_puff:nth-of-type(52)
-svenskafans.com##.sticky_inner > .std_puff:nth-of-type(53)
+svenskafans.com##script:has-text(.loadAd)
 ||svenskafans.com/images/menu-logo/top/Bakgrund_toppmeny.png$image
 ||svenskafans.com/WebResource.axd$important
 ||svenskafans.com/css/feedbackpopup.css$stylesheet,domain=www.svenskafans.com,important
@@ -619,6 +600,7 @@ svenskafans.com##.sticky_inner > .std_puff:nth-of-type(53)
 ||connect.facebook.net/sv_SE/all.js$script,domain=www.svenskafans.com,important
 ||platform.twitter.com/widgets.js$script,domain=www.svenskafans.com,important
 ||sak.userreport.com^
+##[class*="cookie"]
 /sticky*.$stylesheet,domain=svenskafans.com
 /js/smart-app-banner.$script,domain=svenskafans.com
 /oddstypes
@@ -646,6 +628,7 @@ fotbollskanalen.se##.b-export__footer.b-export__wrap
 ||sync.teads.tv/iframe/redirect$subdocument
 
 #Blocket.se
+blocket.se##[id*="pulse2an_"]
 blocket.se###index_panorama
 blocket.se###li_panorama
 blocket.se###vi_panorama
@@ -668,6 +651,7 @@ blocket.se##div:matches-css(width: 1012px):matches-css(height: 24px)
 @@||blocket.se^$generichide
 @@||cdn.pro.blocket.cloud^$image
 @@||i.blocketcdn.se/pictures/*$image
+##[class*="SchibstedBanner__Wrapper"]
 /ad-block-detection-script-tag-src.js$script,redirect=noop.js
 ||logs2.xiti.com^
 
