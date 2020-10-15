@@ -9713,7 +9713,6 @@ photobucket.com#@#[id*="Preload"]
 *##a[href*="/betting"]
 *##a[href*="/brandstudio/a/"]
 *##a[href*="/branding"]
-*##a[href*="/casino"]
 *##a[href*="/casinoguide"]
 *##a[href*="/kampanj"]:has-text(/erbjudande/i)
 *##a[href*="/lanapengar"]
