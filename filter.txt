@@ -7,7 +7,7 @@
 aftonbladet.se##html,body:style(overflow: auto !important;)
 aftonbladet.se##a[href*=".se/kampanj?"]:has-text(/erbjudande/i)
 aftonbladet.se##a[href*="aftonbladet.se/kampanj/artikel"]:upward(1)
-aftonbladet.se##a[href^="/tv/"]:has(span:has-text(/studio oddset/i)):upward(1)
+aftonbladet.se##a[href*="/tv/"]:has(span:has-text(/studio oddset/i)):upward(1)
 aftonbladet.se##.svp-sponsor-label
 aftonbladet.se###outsider
 aftonbladet.se###MegaAd
@@ -18,7 +18,7 @@ aftonbladet.se##+js(aeld, mousemove, g())
 aftonbladet.se##+js(acis, preLoadAds, loadAd)
 aftonbladet.se##+js(acis, preLoadAds, setup)
 aftonbladet.se##+js(aeld, message, adError)
-aftonbladet.se##^script:has-text(preLoadAds)
+aftonbladet.se##script:has-text(preLoadAds)
 aftonbladet.se##.abTheme-ad
 aftonbladet.se##.abAdArea
 aftonbladet.se##.abTheme-adSportbladet
@@ -27,7 +27,7 @@ aftonbladet.se##.abBtnShare
 aftonbladet.se##.abAdWrapper
 aftonbladet.se##.abThemeBgTeaser
 aftonbladet.se##article:has(a[data-sponsored="true"])
-aftonbladet.se##div[class][style^="text"]:has(h3:has-text(/annons/i))
+aftonbladet.se##div[class][style*="text"]:has(h3:has-text(/annons/i))
 aftonbladet.se##[id^="abAdArea"]
 aftonbladet.se##a[style*="border-color:#0067b5"]
 aftonbladet.se##.type-advert
@@ -113,16 +113,16 @@ expressen.se##+js(aeld, click, trackClick)
 expressen.se##+js(set, detect, noopFunc)
 expressen.se##a[href="https://www.expressen.se/premium/kampanj/standard"]
 expressen.se##.site-footer__affiliates.site-footer__column--full-width
-expressen.se##^script[id="ads-script"]
+expressen.se##script[id="ads-script"]
 expressen.se##.rotator__link:style(width: unset !important;)
 expressen.se##.teaser:has(.teaser__third-party--bar)
 expressen.se##.teaser:has(.vignette:has-text(/(^erbjudande från|^annons|^happy green|^presenteras av|i samarbete med)/i))
 expressen.se##.teaser:has(a[href^="/brandstudio/"])
 expressen.se##.teaser__hero:has(iframe[src*="/tv/nyheter/live-start/live-tv-senaste-nyheterna"])
 expressen.se##p:has(strong:has-text(/^annons/i))
-expressen.se##^script:has-text(adsScript)
-expressen.se##^script:has-text(window.Exp.bamData)
-expressen.se##^script:has-text(window.ExpressenAnalytics)
+expressen.se##script:has-text(adsScript)
+expressen.se##script:has-text(window.Exp.bamData)
+expressen.se##script:has-text(window.ExpressenAnalytics)
 expressen.se##.site-header__widgets > .html-widget > a[target="_blank"]
 expressen.se##.article--sponsored
 expressen.se##.article__after-widgets > .html-widget
@@ -158,7 +158,7 @@ expressen.se##.slideshow__control
 ##[class="page-list discount-ad"]
 ##div[id="lazy-container"]
 *##+js(acis, ExpressenAnalytics, push)
-*##^script:has-text(window.ExpressenAnalytics)
+*##script:has-text(window.ExpressenAnalytics)
 @@||expressen.se/videoplayer/*$xmlhttprequest,first-party
 ||expressen.se/_megamenu/*$xmlhttprequest
 ||expressen.se^$xmlhttprequest
@@ -233,10 +233,6 @@ google.*###center_col > #resultStats + div + #res + #tads
 google.*###mclip_container:last-child
 google.*###resultspanel > #topads
 google.*###rhs_block
-google.*##div.kno-ftr
-google.*##.mod.yp1CPe
-google.*##div.mod:nth-of-type(6)
-google.*##div.mod:nth-of-type(7)
 ##.goglad
 ##.goog_ad
 ##.googad
@@ -592,6 +588,7 @@ svtplay.se##.play_cookie-information
 
 #Svenskafans.com
 svenskafans.com##script:has-text(.loadAd)
+svenskafans.com##[class*="ad-"]
 ||svenskafans.com/images/menu-logo/top/Bakgrund_toppmeny.png$image
 ||svenskafans.com/WebResource.axd$important
 ||svenskafans.com/css/feedbackpopup.css$stylesheet,domain=www.svenskafans.com,important
@@ -780,7 +777,7 @@ nyafilmer.*##div:has-text(Stop using Adblocker!)
 nyafilmer.*##script:has-text(var offtop=0;var sticky_sidebar=true;)
 nyafilmer.*##+js(abort-current-inline-script.js, decodeURI, atob)
 nyafilmer.*##+js(acis, document.getElementById, undefined)
-nyafilmer.*##^script:has-text(var _0x)
+nyafilmer.*##script:has-text(var _0x)
 nyafilmer.*##div:matches-css(width: 500px):matches-css(height: 350px):matches-css(z-index: 99999)
 nyafilmer.*##div:matches-css(z-index: 99998)
 nyafilmer.*##body > [id][onclick^="window.open("]
@@ -895,7 +892,7 @@ nyafilmer.*#@#body:style(overflow: auto !important)
 ||n3-r2d2.piguiqproxy.com^$xmlhttprequest
 ||unrestern.info^$important
 ||imagetopng.*^$important
-jawcloud.co,nyafilmer.*,streamtajm.*##^script:has-text(_Hasync)
+jawcloud.co,nyafilmer.*,streamtajm.*##script:has-text(_Hasync)
 jawcloud.co,nyafilmer.*##+js(popads-dummy.js)
 jawcloud.co,nyafilmer.*##+js(aopr, console.clear)
 jawcloud.co##+js(aeld, contextmenu)
@@ -911,7 +908,7 @@ jawcloud.co##+js(aopr, open)
 jawcloud.co##.loloba
 jawcloud.co##.banner
 jawcloud.co##[class="vjs-picture-in-picture-control vjs-control vjs-button"]
-jawcloud.co##^script:has-text(Inject=!)
+jawcloud.co##script:has-text(Inject=!)
 @@||upvtt.com^$xmlhttprequest
 ||jawcloud.co^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.jawcloud.co upvtt.com *.gstatic.com;frame-src 'self'
 ||jawcloud.co/playerjs/themes/newtheme/videojs.logobrand.css$stylesheet,first-party,important
@@ -1752,7 +1749,7 @@ openload.co##+js(abort-current-inline-script, $, contextmenu)
 openload.co##+js(abort-on-property-read, BetterJsPop)
 openload.co##+js(abort-current-inline-script, atob, decodeURIComponent)
 openload.co##+js(set-constant, sadbl, false)
-openload.co##^script:has-text(popAdsLoaded)
+openload.co##script:has-text(popAdsLoaded)
 openload.co##+js(abort-current-inline-script.js, adblock, adblock2)
 ||openload.co/r3/*$xmlhttprequest,first-party
 ||openload.co/assets/img/blocked.png$image
