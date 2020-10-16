@@ -39,7 +39,6 @@ aftonbladet.se##h3[style*="background-color:#0067b5;border-radius:2px;margin:16p
 aftonbladet.se##.type-advert
 aftonbladet.se##[src*="/ab-box?"]
 aftonbladet.se##div.HLf1C:has-text(clas)
-aftonbladet.se##div.HLf1C:has-text(sex)
 aftonbladet.se##.abAside div:has-text(spel 18 år)
 aftonbladet.se##.abAside > div:has-text(ANNONS)
 aftonbladet.se##div.HLf1C:has-text(ANNONS)
@@ -80,7 +79,6 @@ bloggar.aftonbladet.se##.abInbetweenerHelsida:nth-of-type(2)
 aftonbladet.se##a[href="https://www.unibet.se/betting/sports/home"]
 aftonbladet.se##a[href="https://www.strivesport.com/se/home"]
 klart.se##+js(aopr, blockAdBlock)
-||stitcher.acast.com/livestitches/*$media,noop.mp3=0.01s,domain=embed.acast.com
 @@||imgs.aftonbladet-cdn.se/*/images/
 @@||gfx.aftonbladet-cdn.se^$image
 @@/hyper-assets/preload*$script,domain=aftonbladet.se
@@ -88,7 +86,6 @@ klart.se##+js(aopr, blockAdBlock)
 @@||aftonbladet.se/sportbladet
 @@||aftonbladet.se^$generichide
 @@||sportbladetplay.se^$script
-@@||aftonbladet.se^$generichide
 ||aftonbladet.se.senaste.$document
 ||aftonbladet.se/kampanj/casinoguide$document
 ||aftonbladet.se/tv/temp.mp4$media/rabattkod/*$image,domain=aftonbladet.se
@@ -188,6 +185,7 @@ twitch.tv##+js(nostif, /[a-z]{0}/, 200)
 twitch.tv##[data-a-target=prime-offers-icon]
 twitch.tv##[data-a-target=try-prime-link]
 twitch.tv##.prime-offers__pill
+twitch.tv##[class="tw-align-items-center tw-border-radius-medium tw-c-background-base tw-flex tw-flex-column tw-justify-content-center tw-pd-t-1"]
 twitch.tv##.recommended-channels
 twitch.tv##+js(twitch-videoad)
 /\/[a-z0-9_-]{15,}\.[a-z0-9-]+\.[a-z]{2,}\/.*?\w{40,}/$domain=twitch.tv
@@ -9787,6 +9785,7 @@ photobucket.com#@#[id*="Preload"]
 
 */jquery.magnific-popup.min.js
 
+*##+js(abort-current-inline-script, decodeURI, _POP)
 *##+js(aopr, jwplayer.utils.Timer)
 *##+js(abort-on-property-write.js, spot)
 *##+js(aopr, VAST)
