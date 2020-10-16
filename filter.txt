@@ -9819,6 +9819,12 @@ photobucket.com#@#[id*="Preload"]
 ##.attentionMsg
 ##.poper
 ##.inplayer.hidden-xs
+##[id="POPUP_CONTAINER"]
+##^script:has-text(__perfMark('app_html_start');)
+##^script:has-text(ads_dot)
+##[src*="/js/xads.js"]
+##form:has-text(Learn More)
+##.sticky-center.adunit
 
 ||referrer.disqus.com^
 ||glitter.services.disqus.com^
