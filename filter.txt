@@ -9,6 +9,7 @@ aftonbladet.se##.jwplayer:has(.svp-sponsor-label):remove()
 aftonbladet.se##a[href*=".se/kampanj?"]:has-text(/erbjudande/i)
 aftonbladet.se##a[href*="aftonbladet.se/kampanj/artikel"]:upward(1)
 aftonbladet.se##a[href*="/tv/"]:has(span:has-text(/studio oddset/i)):upward(1)
+aftonbladet.se##a[href*="/relationer/"]
 aftonbladet.se##.svp-sponsor-label
 aftonbladet.se###outsider
 aftonbladet.se###MegaAd
@@ -1191,11 +1192,10 @@ viafree.se##[id="linkTag2"]
 viafree.se##[class="cta-overlay vjs-hidden"]
 viafree.se##.avodp.pause-ad-showing .vjs-progress-control, .avodp.ad-playing .vjs-progress-control:style(display: initial !important;)
 viafree.se##.SliderBlock_background_continueWatching.SliderBlock_background
-@@||fwmrm.net/ad/$script
-@@||fwmrm.net/ad/$image,xmlhttprequest
+@@||fwmrm.net/ad/l/1$domain=viafree.se
 @@||fwmrm.net/crossdomain.xml$xmlhttprequest
 @@||mssl.fwmrm.net/p/MTG_Brightcove_HTML5/AdManager.js$script,domain=viafree.se
-||freewheel-mtgx-tv.akamaized.net^$image,media,domain=viafree.se
+||freewheel-mtgx-tv.akamaized.net/*.mp4$media,important
 ||viafree.se/collect$important
 ||client-stream-events.mtg-api.com^$domain=viafree.se
 ||fwmrm.net^$image,important
@@ -9825,6 +9825,7 @@ photobucket.com#@#[id*="Preload"]
 ##[src*="/js/xads.js"]
 ##form:has-text(Learn More)
 ##.sticky-center.adunit
+##.hx_cookie-banner-main.js-main-cookie-banner
 
 ||referrer.disqus.com^
 ||glitter.services.disqus.com^
