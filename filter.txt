@@ -8387,6 +8387,7 @@ redirect.
 /nativeads.js$script,important
 /nl-ntx.gif$image
 /likebox.
+/naughtyworms.gif
 /mp_emediate/inc/annons.html
 /cookie-notice/$script
 /pagead
