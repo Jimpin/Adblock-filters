@@ -116,6 +116,8 @@ klart.se##+js(aopr, blockAdBlock)
 expressen.se##^script:has-text(adblock)
 expressen.se##+js(aeld, click, trackClick)
 expressen.se##+js(set, detect, noopFunc)
+expressen.se##+js(acis, ExpressenAnalytics, push)
+expressen.se##^script:has-text(window.ExpressenAnalytics)
 expressen.se##a[href="https://www.expressen.se/premium/kampanj/standard"]
 expressen.se##.site-footer__affiliates.site-footer__column--full-width
 expressen.se##^script[id="ads-script"]
@@ -161,8 +163,6 @@ expressen.se##.slideshow__control
 ##.terms-dialog
 ##[class="bam-ad-slot"]
 ##[class="page-list discount-ad"]
-*##+js(acis, ExpressenAnalytics, push)
-*##^script:has-text(window.ExpressenAnalytics)
 @@||expressen.se/videoplayer/*$xmlhttprequest,first-party
 ||expressen.se/_megamenu/*$xmlhttprequest
 ||expressen.se^$xmlhttprequest
@@ -1136,36 +1136,6 @@ hemnet.se##.recent-news__item:has(.recent-news__category:has-text(/sponsrad/i))
 hemnet.se##.result-article__link:has(.article__ribbon--sponsored)
 hemnet.se##.start-page-hero__caption:has(.start-page-hero__caption-category:has-text(/sponsrad av/i))
 
-#Firstonetv.net
-firstonetv.net##.columns.large-4
-firstonetv.net##.socialLinks
-firstonetv.net##.related.content-with-sidebar.content > .secBg.row > .columns.large-12
-firstonetv.net##.clearfix.post-like-btn
-firstonetv.net##.dropdown.medium-horizontal.vertical.menu > li:nth-of-type(4) > a[href="/Contact"]
-firstonetv.net##.dropdown.medium-horizontal.vertical.menu > li:nth-of-type(3) > a[href="/F-A-Q"]
-firstonetv.net###layerslider > .ls-inner > .ls-animating.ls-slide > .ls-l:nth-of-type(1)
-firstonetv.net##.owl-stage-outer
-firstonetv.net##.sidebar.secBg
-firstonetv.net###streamRow > div.large-4.columns:last-child > aside.secBg.sidebar
-firstonetv.net##.facebook_container
-firstonetv.net##.facebook_message
-firstonetv.net##div:nth-child(18)
-firstonetv.net##.end.group-item-grid-default.columns.medium-4.large-3.item:nth-of-type(55) > .thumb-border.post > .post-thumb > .hover-posts
-firstonetv.net##+js(abort-on-property-write.js, isBlocked)
-@@||firstonetv.net/js/player:*$script
-@@||firstonetv.net/js/stream:*$script
-||firstonetv.net/js/*$script,domain=firstonetv.net
-||cdnjs.cloudflare.com/ajax/libs/video.js/*/lang/*$script
-||cdnjs.cloudflare.com/ajax/libs/postscribe/*/postscribe.min.js
-||firstonetv.net/api/easyshare.php$xmlhttprequest,first-party
-||top10sportsites.com^
-||fastcounter.de^
-||imasdk.googleapis.com^$third-party
-/evercookie_
-/pagead2.
-/ucount.php?
-&&_=
-
 #Crackwatch.com
 crackwatch.com##.Overlay
 crackwatch.com##.announcement
@@ -1205,6 +1175,8 @@ viafree.se##.SliderBlock_background_continueWatching.SliderBlock_background
 ||stickyadstv.com/www/delivery/swfIndex.php$xmlhttprequest
 ||tr.snapchat.com/p$subdocument
 ||sc-static.net^$script
+||top10sportsites.com^
+||fastcounter.de^
 
 #Dplay.se
 dplay.se##[class^="notificationArea"]
@@ -1349,16 +1321,13 @@ rltracker.pro##.col-sm-12 > .row
 ||0123movies.com/ip.temp/at_008/images/xmas/background.jpg$image
 ||0123movies.com/ajax.php$xmlhttprequest
 ||cdn.0123movies.com^$popup,first-party
-||oload.cloud^$important
-||easylist.club^$important
-||ag2hqdyt.site$important
-||ekoatchooze.com$important
-||orgalso.com$important
-||preferrain.com^$important
-||secure.rating-widget.com^$important
 /images/*.gif$popup
 /ados.js$important
 /popunder1.js$important
+/evercookie_
+/pagead2.
+/ucount.php?
+&&_=
 
 #Lookmovie.ag
 lookmovie.ag##+js(acis, Object.defineProperty, XMLHttpRequest)
@@ -1437,7 +1406,7 @@ streamtajm.*##.hidden-xs.col-md-5.col-sm-6.pull-right
 ||nxload.com/player_clappr/*$font
 ||nxload.com/dl$xmlhttprequest
 ||pushsar.com^
-||badslads.com^$script
+||badslads.com^
 
 #I0123movies.com
 i0123movies.*##+js(popads-dummy)
@@ -7036,6 +7005,13 @@ dirdamid.com##a[href$=".html"]
 ||shglegle.com^$important
 ||getcontent.net^$important
 ||gialnk.com^
+||oload.cloud^
+||easylist.club^
+||ag2hqdyt.site^
+||ekoatchooze.com^
+||orgalso.com^
+||preferrain.com^
+||secure.rating-widget.com^
 ||delivery.youplay.se/report$image,important
 ||rum-static.pingdom.net^
 ||dev.visualwebsiteoptimizer.com^$script,important
@@ -7087,10 +7063,10 @@ dirdamid.com##a[href$=".html"]
 ||velocecdn.com^
 ||adserving.unibet.com^
 ||cdn.bitmedianetwork.com^
-||c.codeonclick.com^
+||codeonclick.com^
 ||vaebard.com^
 ||andlache.com^
-||wsp.mgid.com^
+||mgid.com^
 ||whos.amung.us^
 ||tawk.to^$important
 ||deloplen.com^$important
@@ -7098,8 +7074,6 @@ dirdamid.com##a[href$=".html"]
 ||amung.us^
 ||admags.xyz^
 ||mellowads.com
-||c.mgid.com^
-||jsc.mgid.com^
 ||xslt.alexa.com^
 ||adclixx.net^
 ||sylwenys.pw^
@@ -7288,15 +7262,15 @@ dirdamid.com##a[href$=".html"]
 ||djfhwosjck.bid^
 ||najsiejfnc.win^
 ||zndaowjdnf.stream^
-||unanimous.live^$3p
-||foolfishes.com^3p
-||4armn.com^$3p
+||unanimous.live^
+||foolfishes.com^
+||4armn.com^
 ||yqaywudifu.date^
 ||flowplayer.space^
 ||thersprens.com^
 ||gramombird.com^
 ||xeozir.com^
-||track.venatusmedia.com^$xhr
+||track.venatusmedia.com^
 ||criteo.com^
 ||yaboshadi.com^
 ||yallboen.com^
@@ -7340,26 +7314,26 @@ dirdamid.com##a[href$=".html"]
 ||st.chatango.com^
 ||thousers.com^
 ||jwpltx.com^$third-party
-||shalseey.com^$third-party
-||trustarc.com^$3p
+||shalseey.com^
+||trustarc.com^
 ||cdn.embedly.com/widgets/media.html
 ||cloudfront.net^$media
 ||consent.dk^$third-party
 ||converdiant.com^$third-party
 ||conviva.com^$third-party
-||cookie-disclaimer.onewp.net^$third-party
-||cookie-script.com^$third-party
-||cookieinformation.com^$third-party
-||cookieinfoscript.com^$third-party
-||cookienotice.co^$third-party
-||cookiepro.com^$third-party,domain=sd.se
-||cookies.orangegames.com^$third-party
+||cookie-disclaimer.onewp.net^
+||cookie-script.com^
+||cookieinformation.com^
+||cookieinfoscript.com^
+||cookienotice.co^
+||cookiepro.com^
+||cookies.orangegames.com^
 ||cornucopia.cornubot.se/js/cookie*.$script
-||createsend.com^$third-party
-||createsend1.com^$third-party
+||createsend.com^
+||createsend1.com^
 ||creatives.ancoraplatform.com/ptphb*.$script
-||curemedia.se^$third-party
-||custosgroup.com^$third-party
+||curemedia.se^
+||custosgroup.com^
 ||tedintrattirin.pro^$important
 ||notify-monad.com^$important
 ||pegloang.com^$important
@@ -7374,7 +7348,7 @@ dirdamid.com##a[href$=".html"]
 ||static.adfarm1.adition.com^
 ||imagesrv.adition.com^
 ||cdn.cdnserv.pw/js/*$script
-||zemanta.com^$3p
+||zemanta.com^
 ||onclickprediction.com^
 ||trafforsrv.com^$important
 ||adexchangetracker.com^
@@ -7405,7 +7379,7 @@ dirdamid.com##a[href$=".html"]
 ||adsymptotic.com^
 ||ig0nr8hhhb.com^
 ||stampshire.info^
-||fridrici.info^$xmlhttprequest
+||fridrici.info^
 ||elanatality.info^
 ||mzqxeqrmgzxv.com^
 ||ncjjybttngffe.com^
@@ -7472,7 +7446,7 @@ dirdamid.com##a[href$=".html"]
 ||st.cdnco.us^
 ||static.ak.fbcdn.net^
 ||puserving.com^
-||b.codeonclick.com^
+||codeonclick.com^
 ||alicdn.com^$important
 ||adtelligent.com^
 ||addroplet.com^
@@ -7506,10 +7480,9 @@ dirdamid.com##a[href$=".html"]
 ||grooksom.com^
 ||petchesa.net^
 ||ofgogoatan.com^
-||lumisterol.com^$3p
-||foolfishes.com^$3p
-||blockadsnot.com^$3p
-||ueuodgnrhb.com^$3p
+||lumisterol.com^
+||blockadsnot.com^
+||ueuodgnrhb.com^
 ||us.adserver.yahoo.com^
 ||alluc.ee^
 ||scorecardresearch.com/beacon.js$script,redirect=scorecardresearch.com/beacon.js,important
@@ -7603,7 +7576,6 @@ dirdamid.com##a[href$=".html"]
 ||1xbet.com^
 ||1xcuq.top^
 ||loadercdn.com^
-||servicer.mgid.com^
 ||cm.mgid.com^
 ||imgg-cdn.steepto.com^
 ||hibiaygg.com^
@@ -7621,8 +7593,6 @@ dirdamid.com##a[href$=".html"]
 ||trafficdok.com^
 ||kursatarak.com^
 ||yastatic.net^
-/pcode/adfox/loader.js$script
-/decript.php$xhr
 ||ccdnss.com^
 ||bidrev.net^
 ||paid.outbrain.com^
@@ -8021,6 +7991,8 @@ redirect.
 /index.html?message_id=*&preload_message=true
 /native.json
 /boba.min.js$script
+/pcode/adfox/loader.js$script
+/decript.php$xhr
 &referrer=
 &act=ads_$script,redirect=noop.js
 &ad.vid=$~xmlhttprequest
@@ -10025,7 +9997,7 @@ photobucket.com#@#[id*="Preload"]
 ||jskyservices.com^
 ||rekovers.ru^
 ||mobbahjug.com^
-||addtoany.com^$3p
+||addtoany.com^
 ||fmax.xyz^
 ||coolcpms.com^
 ||bebreloomr.com^
