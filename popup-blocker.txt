@@ -5,6 +5,16 @@
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #Popup-Blocker                                  (This Popup-Blocker will block all third-party popups, if you want to enable third-party popups on some websites you can whitelist the website below)
+/popup0*^$popup,popunder,important
+/popup1*^$popup,popunder,important
+/popup2*^$popup,popunder,important
+/popup3*^$popup,popunder,important
+/popup4*^$popup,popunder,important
+/popup5*^$popup,popunder,important
+/popup6*^$popup,popunder,important
+/popup7*^$popup,popunder,important
+/popup8*^$popup,popunder,important
+/popup9*^$popup,popunder,important
 *$popunder,popup,3p
 |javascript:*setTimeout$popup
 |javascript:*window.location$popup
@@ -174,8 +184,7 @@ iframe*$popup
 ||ad.doubleclick.net^$popup
 ||doubleclick.net^$popup
 ||constintptr.com$popup,important
-||popads.net^$popup
-||popads.net^$iframe
+||popads.net^$popup,frame
 ||traffichunt.com^$document,popup
 ||trhnt.com^$document,popup
 ||trhunt.com^$document,popup
@@ -357,7 +366,8 @@ Popup domain-blockerlist
 ||*.mom^$popup,3p
 
 ##Allowed elements
-@@*$popup,1p
+@@||account*^$1p
+@@||login*^$1p
 @@utm_source=*^$popup
 @@/sports/*$popup
 @@/embed/*.php^$popup
