@@ -10014,7 +10014,7 @@ photobucket.com#@#[id*="Preload"]
 ##.hx_cookie-banner-main.js-main-cookie-banner
 
 
-*$script,xhr,3p,denyallow=,domain=jsdelivr.net|jwpcdn.com|fbcdn.net|facebook.net|fastly.net|fastlylb.net|jquery.com|hcaptcha.com|recaptcha.net|cloudflare.com|cloudflare.net|google.com|googleapis.com|gstatic.com|addtoany.com
+*$script,xhr,denyallow=,domain=jsdelivr.net|jwpcdn.com|fbcdn.net|facebook.net|fastly.net|fastlylb.net|jquery.com|hcaptcha.com|recaptcha.net|cloudflare.com|cloudflare.net|google.com|googleapis.com|gstatic.com|addtoany.com
 
 /?*&callback=callback_json_*$script
 
