@@ -98,10 +98,10 @@ klart.se##+js(aopr, blockAdBlock)
 ||brandmetrics.com^$3p
 ||collector.schibsted.io^$xmlhttprequest,important
 ||jwpcdn.com^*/*.js$script,domain=aftonbladet.se
-||svp.vg.no/svp/api/v1/time$xmlhttprequest,domain=aftonbladet.se,important
-||ab-web-notifications.herokuapp.com^$xmlhttprequest,domain=aftonbladet.se,important
-||interaction.acast.com/adImpression$xmlhttprequest,redirect=noop.txt
-||interaction.acast.com/progress$xmlhttprequest,redirect=noop.txt
+||svp.vg.no/svp/api/v1/time$xmlhttprequest
+||ab-web-notifications.herokuapp.com^$xhr
+||interaction.acast.com/adImpression$xhr,redirect-rule=nooptext
+||interaction.acast.com/progress$xhr,redirect-rule=nooptext
 ||auth.acast.com/v1/getAnonymousToken$xmlhttprequest,domain=embed.acast.com
 ||cdn.acast.com/images/ad-banner-black.jpg$image,domain=embed.acast.com,important
 ||meetrics.net^$image,important
@@ -438,9 +438,9 @@ tv4play.se##a[href="https://www.cmore.se/tv-program?utm_source=tv4play&utm_mediu
 */tv4play_plugin.$script,redirect-rule=noopjs,domain=tv4play.se|fotbollskanalen.se
 */bumpers/$media,redirect-rule=noopmp3-0.1s
 ||tv4play.se/hic_qos$script,redirect-rule=noopjs
-||se-tv4.videoplaza.tv/proxy/distributor/*$redirect=noop.txt,domain=tv4play.se|fotbollskanalen.se,xhr
-||infinity-c11.youboranqs01.com^$redirect=noop.txt,domain=tv4play.se|fotbollskanalen.se,xhr
-||a-fds.youborafds01.com/data$redirect=noop.txt,xhr
+||se-tv4.videoplaza.tv/proxy/distributor/*$xhr,redirect-rule=nooptext,domain=tv4play.se|fotbollskanalen.se,xhr
+||infinity-c11.youboranqs01.com^$xhr,redirect-rule=nooptext,domain=tv4play.se|fotbollskanalen.se,xhr
+||a-fds.youborafds01.com/data$xhr,redirect-rule=nooptext
 ||damoh.*.se^$image
 ||cdn.cookielaw.org^
 ||stat-api.tv4play.se^$xhr,image
@@ -448,7 +448,7 @@ tv4play.se##a[href="https://www.cmore.se/tv-program?utm_source=tv4play&utm_mediu
 ||bonnier-html-player.b17g.services/bumpers/$media,redirect-rule=noopmp4-0.1s,domain=tv4play.se|fotbollskanalen.se
 ||cloudfront.net/creatives/assets/$image,media,domain=fotbollskanalen.se|tv4play.se
 ||cmore.se/*.gif$image
-||cedexis.com^$xhr,redirect=noop.txt
+||cedexis.com^$xhr,redirect-rule=nooptext
 ||cedexis-radar.net^$xhr
 ||radar.cedexis.com^$script
 ||fls.doubleclick.net^$subdocument
@@ -523,7 +523,7 @@ spotify.com##.ads-container
 open.spotify.com###leaderboard-ad-element
 open.spotify.com##body > div:nth-of-type(2)
 @@||open.scdn.co/cdn/*$script,domain=open.spotify.com
-||open.spotify.com/log/adevent$redirect=noop.txt,xhr
+||open.spotify.com/log/adevent$xhr,redirect-rule=nooptext
 ||fastly-insights.com^$xhr,domain=open.spotify.com
 ||cloudfront.net/mp3-ad/$media,redirect-rule=noopmp3-0.1s
 ||akamaized.net/audio/*$media,redirect-rule=noopmp3-0.1s
@@ -736,8 +736,7 @@ get123movies.*##footer
 get123movies.*##.alert-warning.alert
 get123movies.*##.text-center.alert.ann-home
 ||rotumal.com^$important
-||123movieshub.*^$xmlhttprequest
-||123movieshub.com^$popup
+||123movies*^$xmlhttprequest
 ||123movies*^$popup
 
 #Imdb.com
@@ -1048,9 +1047,6 @@ fmovies.*##+js(addEventListener-defuser.js, /^(?:click|mousedown)$/, _0x)
 @@||fmovies.*/ajax/$xmlhttprequest,domain=fmovies.is|fmovies.se|fmovies.to|fmovies.ac
 @@||cloudflare.com^$css,domain=fmovies.is|fmovies.se|fmovies.to|fmovies.ac
 @@||static1.akacdn.ru/assets/$css,domain=fmovies.is|fmovies.se|fmovies.to|fmovies.ac
-@@||disquscdn.com^$css,domain=fmovies.is|fmovies.se|fmovies.to|fmovies.ac
-@@||disquscdn.com^$script,domain=fmovies.is|fmovies.se|fmovies.to|fmovies.ac
-@@||disqus.com^$script,domain=fmovies.is|fmovies.se|fmovies.to|fmovies.ac
 @@/assets/js/video-js/
 ||fmovies.*/sw.js
 ||fmovies.*/clear.gif$image
@@ -1270,7 +1266,7 @@ rltracker.pro##.decide.col-sm-12
 rltracker.pro##.patreon_overlay
 rltracker.pro##.da_col.stat_box.stats_box.main_box.fav_no_category
 rltracker.pro##.col-sm-12 > .row
-||rltracker.pro/assets/rl_bg-e3c24a0ae6f6df8c56fbaf0509d4ffd1f7681364cef04adf85391d018520c93d.png$image
+||rltracker.pro/assets/rl*.png$image
 
 #123movies.la
 123movies.*##+js(acis, jQuery, appendTo)
@@ -1469,8 +1465,7 @@ firstrowsportes.*##.slot-728-90
 firstrowsportes.*##.footer
 firstrowsportes.*##.mainer > .cl
 ##[src=free-icons-download.net/]
-||hdgameslive.com^$subdocument,domain=www.hdgameslive.com
-||hdgameslive.com^$inline-script,domain=www.hdgameslive.com
+||hdgameslive.com^$inline-script,document
 ||free-icons-download.net/images/*$important
 ||p.pxl2015x1.com/pixel/*$image,domain=hdgameslive.com
 ||priests.top^
@@ -1668,7 +1663,7 @@ vcstream.*##+js(popads-dummy)
 ||img.verystream.com/splash/*$image
 ||verystream.com/gettoken/*$media,first-party
 ||ajax.cloudflare.com^$script,domain=putlocker.me
-||cdnjs.cloudflare.com/ajax/libs/videojs-flash/*$script,domain=verystream.com
+||cdnjs.cloudflare.com/ajax/libs/videojs-flash/*$script
 ||cdnjs.cloudflare.com/ajax/libs/videojs-contrib-ads/*$css,important
 ||verystream.com/player/loader.png$image,first-party
 ||vcstream.to/images/dablock.png$image
@@ -6848,6 +6843,7 @@ dirdamid.com##a[href$=".html"]
 ||omnitagjs.com^$xhr,important
 ||vntsm.com^$xhr,image,important
 ||stackpathcdn.com^$xhr
+||datadoghq-browser-agent.com^
 ||justpremium.com^$xhr,important
 ||adservice.com^
 ||adform.net^
@@ -7017,7 +7013,7 @@ dirdamid.com##a[href$=".html"]
 ||dev.visualwebsiteoptimizer.com^$script,important
 ||fastly.net/ads/$image,redirect=2x2-transparent.png
 ||fastly.net/ads/$script,redirect-rule=noopjs
-||fastly.net/ads/$xmlhttprequest,redirect=nooptext
+||fastly.net/ads/$xhr,redirect-rule=nooptext
 ||doubleclick.net/instream/ad_status.js$script,redirect=doubleclick.net/instream/ad_status.js
 ||ad.doubleclick.net^$xhr
 ||syndication.exosrv.com/splash-zones-split.php$popup
@@ -7976,7 +7972,7 @@ dirdamid.com##a[href$=".html"]
 ||srv.stackadapt.com^$important
 ||rudy.adsnative.com^$important
 ||ad.mail.ru^$important
-||exosrv.com^$xmlhttprequest,redirect=nooptext
+||exosrv.com^$xhr,redirect-rule=nooptext
 ||tracker.*/wss$websocket
 ||tracker.*/$script
 ||tracker.*/$xmlhttprequest
@@ -9575,7 +9571,7 @@ popuper.js^
 @@//media*^$image
 @@*/js/main.js$script
 @@*/js/pages.*.js$script
-@@*/js/core.locales.en-US.js$script
+@@*/js/core.*js$script
 @@*/js/vendor.js$script
 @@*/js/*.chunk.js$script
 @@*/js/runtime*.js$script
@@ -10018,7 +10014,7 @@ photobucket.com#@#[id*="Preload"]
 ##.hx_cookie-banner-main.js-main-cookie-banner
 
 
-*$script,3p,denyallow=jsdelivr.net|jwpcdn.com|fbcdn.net|facebook.net|fastly.net|fastlylb.net|jquery.com|hcaptcha.com|recaptcha.net|cloudflare.com|cloudflare.net|google.com|googleapis.com|gstatic.com|addtoany.com|
+*$xhr,3p,denyallow=jsdelivr.net|jwpcdn.com|fbcdn.net|facebook.net|fastly.net|fastlylb.net|jquery.com|hcaptcha.com|recaptcha.net|cloudflare.com|cloudflare.net|google.com|googleapis.com|gstatic.com|addtoany.com
 
 /?*&callback=callback_json_*$script
 
