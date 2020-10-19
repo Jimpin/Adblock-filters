@@ -9568,8 +9568,10 @@ popuper.js^
 @@/jwplayer.js$script,1p
 @@/assets/js/player.js$script
 @@//media*^$image
-@@/js/main.js$script,1p
-@@/css/main.css$css,1p
+@@*/js/main.js$script
+@@*/js/pages.*.js$script
+@@*/js/core.locales.en-US.js$script
+@@*/js/vendor.js$script
 @@||cdn.fbsbx.com^$image
 @@||redirect*^$xhr,media
 
