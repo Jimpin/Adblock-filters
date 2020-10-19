@@ -602,7 +602,6 @@ svenskafans.com##[class*="ad-"]
 ||connect.facebook.net/sv_SE/all.js$script,domain=www.svenskafans.com,important
 ||platform.twitter.com/widgets.js$script,domain=www.svenskafans.com,important
 ||sak.userreport.com^
-##[class*="cookie"]
 /sticky*.$stylesheet,domain=svenskafans.com
 /js/smart-app-banner.$script,domain=svenskafans.com
 /oddstypes
