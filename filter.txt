@@ -64,7 +64,7 @@ acast.com##[data-test-id="Link"]
 acast.com##[data-test-id="ImageLink"]
 acast.com##.kaNSQD.Container-sc-195bujq-1
 acast.com#@#[style="width: 100%; height: 100%; overflow: hidden;"]
-@@||acast.com^$stylesheet
+@@||acast.com^$css
 live.aftonbladet.se##.wallpaper-background-container
 live.aftonbladet.se###advert-topboard
 live.aftonbladet.se###advert-placeholder_1
@@ -596,13 +596,13 @@ svenskafans.com##^script:has-text(.loadAd)
 svenskafans.com##[class*="ad-"]
 ||svenskafans.com/images/menu-logo/top/Bakgrund_toppmeny.png$image
 ||svenskafans.com/WebResource.axd$important
-||svenskafans.com/css/feedbackpopup.css$stylesheet,domain=www.svenskafans.com,important
-||svenskafans.com/js/awp.min.js$script,domain=www.svenskafans.com,important
-||svenskafans.com/css/uniform.default.css$stylesheet,domain=www.svenskafans.com,important
+||svenskafans.com/css/feedbackpopup.css$css
+||svenskafans.com/js/awp.min.js$script
+||svenskafans.com/css/uniform.default.css$css
 ||connect.facebook.net/sv_SE/all.js$script,domain=www.svenskafans.com,important
 ||platform.twitter.com/widgets.js$script,domain=www.svenskafans.com,important
 ||sak.userreport.com^
-/sticky*.$stylesheet,domain=svenskafans.com
+/sticky*.$css,domain=svenskafans.com
 /js/smart-app-banner.$script,domain=svenskafans.com
 /oddstypes
 
@@ -713,8 +713,8 @@ gomovies.*##.twitter-follow-button
 ##a[href="https://123movieshd.sc"]
 ||gomovies.*/ajaxsearch/search_suggestions/*$xmlhttprequest
 ||gomovies.*^$xmlhttprequest,domain=gomovies.sc
-||gomovies.*/wp-content/themes/assets/css/jquery.cluetip.css$stylesheet
-||gomovies.*/wp-content/themes/assets/css/jquery.qtip.min.css$stylesheet
+||gomovies.*/wp-content/themes/assets/css/jquery.cluetip.css$css
+||gomovies.*/wp-content/themes/assets/css/jquery.qtip.min.css$css
 ||123movieshd.sc^$frame
 ||disqus.com^$domain=gomovies.sc
 ||spotscenered.info$important
@@ -884,7 +884,7 @@ nyafilmer.*#@#body:style(overflow: auto !important)
 ||nyafilmer.*/wp-includes/js/wp-embed.min.js$script
 ||nyafilmer.*/wp-content/cache/wpfc-minified/*/*index.css
 ||nyafilmer.*/wp-content/themes/keremiya1/js/jopper.js$script,important
-||nyafilmer.*/wp-content/themes/keremiya1/nya.light.css?*$stylesheet,first-party
+||nyafilmer.*/wp-content/themes/keremiya1/nya.light.css?*$css,first-party
 ||nyafilmer.*/wp-content/themes/keremiya1/font/icon/keremiya.woff2$font
 ||nyafilmer.*/wp-content/themes/keremiya1/css/nya.light.css$first-party,stylesheet
 ||nyafilmer.*/wp-content/themes/keremiya1/js/script.js$script
@@ -912,8 +912,8 @@ jawcloud.co##[class="vjs-picture-in-picture-control vjs-control vjs-button"]
 jawcloud.co##^script:has-text(Inject=!)
 @@||upvtt.com^$xmlhttprequest
 ||jawcloud.co^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.jawcloud.co upvtt.com *.gstatic.com;frame-src 'self'
-||jawcloud.co/playerjs/themes/newtheme/videojs.logobrand.css$stylesheet,first-party,important
-||jawcloud.co/playerjs/themes/newtheme/videojs.chromecast.min.css$stylesheet,first-party,important
+||jawcloud.co/playerjs/themes/newtheme/videojs.logobrand.css$css
+||jawcloud.co/playerjs/themes/newtheme/videojs.chromecast.min.css$css
 ||jawcloud.co/playerjs/store.js$script,first-party
 ||jawcloud.co/js^$important
 ||jawcloud.co/jawcloud-playerlogo_236x36.png$popup,important
@@ -1043,9 +1043,9 @@ fmovies.*##+js(addEventListener-defuser.js, /^(?:click|mousedown)$/, _0x)
 ##a[href="804548.html"]
 @@||ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js$script
 @@||fmovies.*/ajax/$xmlhttprequest,domain=fmovies.is|fmovies.se|fmovies.to|fmovies.ac
-@@||cloudflare.com^$stylesheet,domain=fmovies.is|fmovies.se|fmovies.to|fmovies.ac
-@@||static1.akacdn.ru/assets/$stylesheet,domain=fmovies.is|fmovies.se|fmovies.to|fmovies.ac
-@@||disquscdn.com^$stylesheet,domain=fmovies.is|fmovies.se|fmovies.to|fmovies.ac
+@@||cloudflare.com^$css,domain=fmovies.is|fmovies.se|fmovies.to|fmovies.ac
+@@||static1.akacdn.ru/assets/$css,domain=fmovies.is|fmovies.se|fmovies.to|fmovies.ac
+@@||disquscdn.com^$css,domain=fmovies.is|fmovies.se|fmovies.to|fmovies.ac
 @@||disquscdn.com^$script,domain=fmovies.is|fmovies.se|fmovies.to|fmovies.ac
 @@||disqus.com^$script,domain=fmovies.is|fmovies.se|fmovies.to|fmovies.ac
 @@/assets/js/video-js/
@@ -1063,7 +1063,7 @@ mcloud.*##+js(popads-dummy)
 ||mcloud.to/embed/*$first-party
 ||mcloud.to/ping$important
 ||mcloud.to^$image
-||fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700$stylesheet
+||fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700$css
 rapidvideo.com##+js(noeval.js)
 rapidvideo.com##+js(popads.net.js)
 rapidvideo.com##+js(popads-dummy)
@@ -1078,10 +1078,10 @@ rapidvideo.com##+js(addEventListener-defuser.js, mousedown, preventDefault)
 ||rapidvideo.com/images/bgn.png$image
 ||rapidvideo.com/images/rapidvideo_logo_player.png$important
 ||rapidvideo.com/js/jquery.validate.min.js$script
-||rapidvideo.com/css/opensans.css$stylesheet
+||rapidvideo.com/css/opensans.css$css
 ||rapidvideo.com/?c=$xmlhttprequest,domain=rapidvideo.com
 ||rapidvideo.com/images/rapidvideo_logo_player.png$important
-||gaitheed.com/wp-content/bootstrap-iconpicker/$stylesheet
+||gaitheed.com/wp-content/bootstrap-iconpicker/$css
 ||mc.yandex.ru^$important
 ||playercdn.net/thumb/*$image,domain=www.rapidvideo.com
 ||mcloud.to^$image
@@ -1140,7 +1140,7 @@ crackwatch.com##.announcement
 crackwatch.com##div[style$="text-align: center;"] > div > a[rel="nofollow noopener noreferrer"] span[style*="background-image"][style*="base64"]:style(height: 1px!important; min-height: 1px!important; background-image: none!important;)
 crackwatch.com##.Footer
 ||instant-gaming.com/affgames/*$subdocument
-||crackwatch.com/badf*.css$stylesheet,1p
+||crackwatch.com/badf*.css$css,1p
 
 #Viafree.se
 viafree.se##.vjs-playing:upward(1) ~ .no-autoplay-overlay
@@ -1666,7 +1666,7 @@ vcstream.*##+js(popads-dummy)
 ||verystream.com/gettoken/*$media,first-party
 ||ajax.cloudflare.com^$script,domain=putlocker.me
 ||cdnjs.cloudflare.com/ajax/libs/videojs-flash/*$script,domain=verystream.com
-||cdnjs.cloudflare.com/ajax/libs/videojs-contrib-ads/*$stylesheet,important
+||cdnjs.cloudflare.com/ajax/libs/videojs-contrib-ads/*$css,important
 ||verystream.com/player/loader.png$image,first-party
 ||vcstream.to/images/dablock.png$image
 ||t18.viduplayer.com/i/
@@ -1711,7 +1711,7 @@ vcstream.*##[href$=".html"]
 vidcloud.*##[href$=".html"]
 @@||moviesjoy.net/watch-tv/^$popup
 ||moviesjoy.net^$popup,third-party
-||use.fontawesome.com/releases/v5.3.1/css/all.css$stylesheet,domain=moviesjoy.net
+||use.fontawesome.com/releases/v5.3.1/css/all.css$css,domain=moviesjoy.net
 ||google.com/js/bg/*$script
 openload.co##+js(abort-current-inline-script, $, contextmenu)
 openload.co##+js(abort-on-property-read, BetterJsPop)
@@ -7928,7 +7928,7 @@ dirdamid.com##a[href$=".html"]
 ||spouscontentdelivery.info^$important
 ||adbit.co^
 ||pcsecurity.pro^
-||fast.fonts.net/t/1.css$stylesheet
+||fast.fonts.net/t/1.css$css
 ||bam.nr-data.net^$script
 ||dev.visualwebsiteoptimizer.com^$important
 ||unpkg.com^$script
@@ -8425,7 +8425,7 @@ redirect.
 /AdblockMessage.
 /antiadblockmsg.
 /simple-adblock-notice/*
-/wp-content/plugins/addthis/*$stylesheet
+/wp-content/plugins/addthis/*$css
 /wp-content/plugins/ad-block-defender/*
 /wp-content/plugins/deadblocker/*
 /wp-content/uploads/an-temp/*$script,stylesheet
@@ -8502,7 +8502,7 @@ redirect.
 /blockadblock-$script
 /cdn-cgi/apps/head/*$script,~third-party
 /efes.js
-/authorization.css$stylesheet
+/authorization.css$css
 /utag.handler.js
 /utag.loader-
 /utag.loader.
@@ -9503,10 +9503,10 @@ popuper.js^
 @@||gstatic.com/recaptcha/*
 @@||images-na.ssl-images-amazon.com/images/*$script
 @@||stream.nbcsports.com^
-@@||statics-neu.onestore.ms^$stylesheet,domain=microsoft.com
+@@||statics-neu.onestore.ms^$css,domain=microsoft.com
 @@||ajax.cloudflare.com/cdn-cgi/scripts/$third-party,script
 @@||ajax.googleapis.com^$script
-@@||media-amazon.com^$stylesheet
+@@||media-amazon.com^$css
 @@/cdn-cgi/apps/head/*.js
 @@||ajax.cloudflare.com/cdn-cgi/scripts/$script,third-party
 @@||ajax.googleapis.com/ajax/libs/jquery/
@@ -9558,16 +9558,18 @@ popuper.js^
 @@||googlevideo.com/videoplayback?^$xhr,1p
 @@||fonts.gstatic.com^$font
 @@||radar.cedexis.com^$script
-@@||cedexis.net^$stylesheet,1p
+@@||cedexis.net^$css,1p
 @@/accounts/*$popup
 @@/assets/*$script
 @@upload-*^$xhr
 @@/jwplayer.js^$script,1p
-@@/css/bootstrap.min.css$stylesheet
+@@/css/bootstrap.min.css$css
 @@_ajax?^$first-party
 @@/jwplayer.js$script,1p
 @@/assets/js/player.js$script
 @@//media*^$image
+@@/js/main.js$script,1p
+@@/css/main.css$css,1p
 @@||cdn.fbsbx.com^$image
 @@||redirect*^$xhr,media
 
