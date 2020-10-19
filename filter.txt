@@ -775,6 +775,7 @@ nyafilmer.*##+js(aopr, open)
 nyafilmer.*##+js(acis, z)
 nyafilmer.*##+js(aeld, DOMContentLoaded, rmattr)
 nyafilmer.*##div:has-text(Stop using Adblocker!)
+nyafilmer.*##[type="text/javascript"][src*=".js"]
 nyafilmer.*##^script:has-text(var offtop=0;var sticky_sidebar=true;)
 nyafilmer.*##+js(abort-current-inline-script.js, decodeURI, atob)
 nyafilmer.*##+js(acis, document.getElementById, undefined)
@@ -955,6 +956,8 @@ jawcloud.co##^script:has-text(Inject=!)
 @@*.m3u8$xhr
 @@*.ts$xhr
 @@/?stream=
+##[id="keremiya-js-extra"]
+##[id="hcaptcha-script-js"]
 *##a[href*="/engine."]
 ||&guid=^$popup,important
 /iframes2/*.html?$subdocument
@@ -9559,12 +9562,14 @@ popuper.js^
 @@||fonts.gstatic.com^$font
 @@||radar.cedexis.com^$script
 @@||cedexis.net^$css,1p
+@@||cdn.fbsbx.com^$image
+@@||redirect*^$xhr,media
 @@/accounts/*$popup
 @@/assets/*$script
 @@upload-*^$xhr
 @@/jwplayer.js^$script,1p
 @@/css/bootstrap.min.css$css
-@@_ajax?^$first-party
+@@_ajax?^$1p
 @@/jwplayer.js$script,1p
 @@/assets/js/player.js$script
 @@//media*^$image
@@ -9572,8 +9577,10 @@ popuper.js^
 @@*/js/pages.*.js$script
 @@*/js/core.locales.en-US.js$script
 @@*/js/vendor.js$script
-@@||cdn.fbsbx.com^$image
-@@||redirect*^$xhr,media
+@@*/js/*.chunk.js$script
+@@*/js/runtime*.js$script
+@@/jwplayer*.js$script
+@@bundle*.js$script
 
 *##a[href*=".wz"][target="_blank"]
 *##a[href*=".style"][target="_blank"]
