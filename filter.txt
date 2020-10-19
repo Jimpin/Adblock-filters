@@ -9766,7 +9766,6 @@ photobucket.com#@#[id*="Preload"]
 *##+js(abort-on-property-read, zone_2547)
 *##+js(abort-on-property-read, AdDelivery.prototype.requestTrafficJunkyAds)
 *##+js(abort-on-property-read.js, _goat)
-*##+js(abort-on-property-write.js, loadAdFromHeaderTab)
 *##+js(aopr, ExoLoader.serve)
 *##+js(window.open-defuser, 1, .php?)
 *##iframe[src*="/ads-iframe-display.php"]
