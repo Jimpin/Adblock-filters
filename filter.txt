@@ -186,6 +186,7 @@ twitch.tv##+js(nostif, /[a-z]{0}/, 200)
 twitch.tv##[data-a-target=prime-offers-icon]
 twitch.tv##[data-a-target=try-prime-link]
 twitch.tv##.prime-offers__pill
+twitch.tv##.tw-mg-t-5.tw-absolute.onsite-notifications-toast-manager
 twitch.tv##[class="tw-align-items-center tw-border-radius-medium tw-c-background-base tw-flex tw-flex-column tw-justify-content-center tw-pd-t-1"]
 twitch.tv##.recommended-channels
 twitch.tv##+js(twitch-videoad)
@@ -770,6 +771,7 @@ nyafilmer.*##+js(abort-current-inline-script.js, p2pml.hlsjs.Engine, loader)
 nyafilmer.*##+js(abort-current-inline-script.js, document.getElementById, style.display)
 nyafilmer.*##+js(acis, jQuery, appendTo)
 nyafilmer.*##+js(acis, jQuery, adblocker)
+nyafilmer.*##+js(no-setTimeout-if, jQuery, 1000)
 nyafilmer.*##+js(aopr, open)
 nyafilmer.*##+js(acis, z)
 nyafilmer.*##+js(aeld, DOMContentLoaded, rmattr)
@@ -10012,9 +10014,6 @@ photobucket.com#@#[id*="Preload"]
 ##form:has-text(Learn More)
 ##.sticky-center.adunit
 ##.hx_cookie-banner-main.js-main-cookie-banner
-
-
-*$script,xhr,denyallow=,domain=jsdelivr.net|jwpcdn.com|fbcdn.net|facebook.net|fastly.net|fastlylb.net|jquery.com|hcaptcha.com|recaptcha.net|cloudflare.com|cloudflare.net|google.com|googleapis.com|gstatic.com|addtoany.com
 
 /?*&callback=callback_json_*$script
 
