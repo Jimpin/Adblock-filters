@@ -1472,10 +1472,9 @@ firstrowsportes.*##.mainer > .cl
 ||hdgameslive.com^$inline-script,domain=www.hdgameslive.com
 ||free-icons-download.net/images/*$important
 ||p.pxl2015x1.com/pixel/*$image,domain=hdgameslive.com
-||pray.priests.top/2404/nl-lgbtx.gif$image
-||pray.priests.top/2404/lnk/nl-lnk.gif$image
-||web.automatedcomputers.com^$script
-||t.mdn2015x4.com^$script
+||priests.top^
+||web.automatedcomputers.com^
+||t.mdn2015x4.com^
 /images/red-close-button-icon-32177.png
 
 #Gp.se
@@ -9714,7 +9713,6 @@ photobucket.com#@#[id*="Preload"]
 *##div>a:has-text(EXTERN LÄNK)
 *##div>a:has-text(CASINOGUIDEN)
 *##div>a:has-text(ANNONS)
-*$csp=object-src 'none' frame-ancestors 'none' frame-src 'none' block-all-mixed-content
 
 ##[class="cookie-acceptance__content"]
 ##[data-end-point="/cookie/Acceptance"]
