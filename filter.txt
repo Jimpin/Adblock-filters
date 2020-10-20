@@ -116,6 +116,7 @@ klart.se##+js(aopr, blockAdBlock)
 expressen.se##^script:has-text(adblock)
 expressen.se##+js(aeld, click, trackClick)
 expressen.se##+js(set, detect, noopFunc)
+expressen.se##+js(json-prune, autoplay)
 expressen.se##+js(acis, ExpressenAnalytics, push)
 expressen.se##^script:has-text(window.ExpressenAnalytics)
 expressen.se##a[href="https://www.expressen.se/premium/kampanj/standard"]
@@ -171,9 +172,12 @@ expressen.se##.slideshow__control
 ||expressen.se/img/icons/footer_cookie.svg$image
 ||expressen.se/img/placeholders/*$image
 ||facebook.com/tr/*$image
-||jtp.expressen.se^$image
+||precis.expressen.se/recommendations$xmlhttprequest
+||jtp.expressen.se/notify$image
 ||assets.expressen.se^$important
 ||richmetrics.com^$all
+/closest-native$xmlhttprequest,domain=expressen.se
+/analytics-post-
 /iframewidget/view/widget?$subdocument
 .se/crypt/?lpkey$all
 .se/tv/annons/
@@ -1451,6 +1455,21 @@ ratsit.se##.row.rapport-palette-person
 ratsit.se##.lazy.ad-report--medium
 ratsit.se##div.share-bar
 ratsit.se##.main-content-holder.content > .container > div.row:nth-of-type(1) > .col-md-12
+
+#Reddit.com
+reddit.com##.size-compact.Post:has([class*="promoted"])
+reddit.com##div[id*="sidebar"][data-before-content="advertisement"]:upward(3)
+reddit.com##div[class][data-before-content="advertisement"]:not([id])
+reddit.com##.premium-banner
+reddit.com##.promotedlink
+reddit.com##.md-container-small.reddit-infobar
+reddit.com##div[id^="sidebar-atf-"]
+reddit.com##div[id^="sidebar-btf-"]
+@@||reddit.com/r/*/comments/
+||reddit.com/api/request_promo.json
+||reddit.com/api/jail/$xmlhttprequest,1p
+||reddit.com/counters/$xmlhttprequest
+||redditmedia.com/gtm/jail?
 
 #Firstrowsports.tv
 firstsrowsports.*##+js(popads-dummy)
@@ -10023,5 +10042,11 @@ photobucket.com#@#[id*="Preload"]
 *##+js(aopr, _wwwp)
 *##+js(aeld, , exoJsPop101)
 
+*##div[id*="sidebar"][data-before-content="advertisement"]:upward(3)
 *##:xpath(//*[contains(text(),"Sponsored")]):upward(2)
 *##:xpath(//*[contains(text(),"Sponsrad")]):upward(2)
+
+*$script,redirect-rule=noopjs
+*$xhr,redirect-rule=nooptext
+*$media,redirect-rule=noopmp3-0.1s
+*$media,redirect-rule=noopmp4-1s
