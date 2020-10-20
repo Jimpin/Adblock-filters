@@ -514,7 +514,6 @@ youtube.com#@#.page-loaded
 @@||youtube.com/player_api$third-party
 ||youtube.com/api/stats/qoe?
 ||youtube.com/csi_204$image
-||youtube.com/youtubei/*
 ||youtube.com/pagead
 ||youtube.com/ptracking
 ||youtube.com/get_midroll_info$important
