@@ -10043,8 +10043,6 @@ photobucket.com#@#[id*="Preload"]
 *##+js(aeld, , exoJsPop101)
 
 *##div[id*="sidebar"][data-before-content="advertisement"]:upward(3)
-*##:xpath(//*[contains(text(),"Sponsored")]):upward(2)
-*##:xpath(//*[contains(text(),"Sponsrad")]):upward(2)
 
 *$script,redirect-rule=noopjs
 *$xhr,redirect-rule=nooptext
