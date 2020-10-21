@@ -540,10 +540,10 @@ open.spotify.com##body > div:nth-of-type(2)
 ||spotify.com^*/metric
 
 #Facebook.com
+facebook.com##body > .AdBox.Ad.advert:style(display:block!important;)
+facebook.com##+js(remove-class, _31e, body > ._li)
 facebook.com##[aria-label="Annonsörlänk"]
 facebook.com##[style="display: -webkit-box; -moz-box-orient: vertical; -webkit-line-clamp: 2;"]:has-text(Sponsrad)
-facebook.com#@#html:style(overflow-y: auto !important;)
-facebook.com#@#html:style(overflow-x: hidden !important;)
 facebook.com##.adv
 facebook.com##div[data-testid="fbfeed_story"]:if(a[href*="[is_sponsored]"])
 facebook.com##div[id^="substream_"] ._5jmm[data-dedupekey][data-cursor][data-xt][data-xt-vimpr="1"][data-ftr="1"][data-fte="1"]
@@ -561,6 +561,8 @@ facebook.com##[data-referrer][zoompage-fontsize="13"] > .ego_column[zoompage-fon
 facebook.com###pagelet_ego_pane
 facebook.com###rightCol .pagelet.egoOrganicColumn
 facebook.com###globalContainer .pagelet.egoOrganicColumn
+facebook.com#@#html:style(overflow-y: auto !important;)
+facebook.com#@#html:style(overflow-x: hidden !important;)
 @@||static.xx.fbcdn.net^$script
 ||facebook.com/plugins/like.php$subdocument
 ||facebook.com/plugins/likebox.php$subdocument
@@ -10002,7 +10004,6 @@ photobucket.com#@#[id*="Preload"]
 *##+js(abort-on-property-read, AdDelivery.prototype.requestTrafficJunkyAds)
 *##+js(abort-on-property-read.js, _goat)
 *##+js(aopr, ExoLoader.serve)
-*##+js(window.open-defuser, 1, .php?)
 *##iframe[src*="/ads-iframe-display.php"]
 *##iframe[src*="https://pc.html"]
 ###main-nav > li > a[rel="nofollow noopener"][onclick^="pageTracker"]
@@ -10026,7 +10027,6 @@ photobucket.com#@#[id*="Preload"]
 ##.attentionMsg
 ##.poper
 ##.inplayer.hidden-xs
-##[id="POPUP_CONTAINER"]
 ##^script:has-text(__perfMark('app_html_start');)
 ##^script:has-text(ads_dot)
 ##[src*="/js/xads.js"]
