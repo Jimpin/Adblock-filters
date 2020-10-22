@@ -1169,7 +1169,6 @@ viafree.se##.avodp.pause-ad-showing .vjs-progress-control, .avodp.ad-playing .vj
 viafree.se##.SliderBlock_background_continueWatching.SliderBlock_background
 @@||fwmrm.net/ad/$domain=viafree.se
 @@||fwmrm.net/crossdomain.xml$xmlhttprequest
-||fwmrm.net/p/MTG_Brightcove_HTML5/AdManager.js$script,important
 ||freewheel-mtgx-tv.akamaized.net/*.mp4$media,important
 ||viafree.se/collect$important
 ||client-stream-events.mtg-api.com^$domain=viafree.se
