@@ -775,21 +775,17 @@ humblebundle.com/monthly?hmb_source=humble_monthly_alert&hmb_medium=banner
 nyafilmer.*##+js(nowoif)
 nyafilmer.*##+js(abort-current-inline-script.js, p2pml.hlsjs.Engine, loader)
 nyafilmer.*##+js(abort-current-inline-script.js, document.getElementById, style.display)
-nyafilmer.*##+js(acis, jQuery, appendTo)
-nyafilmer.*##+js(acis, jQuery, adblocker)
 nyafilmer.*##+js(no-setTimeout-if, jQuery, 1000)
 nyafilmer.*##+js(aopr, open)
 nyafilmer.*##+js(acis, z)
 nyafilmer.*##+js(aeld, DOMContentLoaded, rmattr)
 nyafilmer.*##div:has-text(Stop using Adblocker!)
-nyafilmer.*##[type="text/javascript"][src*=".js"]
 nyafilmer.*##^script:has-text(var offtop=0;var sticky_sidebar=true;)
 nyafilmer.*##+js(abort-current-inline-script.js, decodeURI, atob)
 nyafilmer.*##+js(acis, document.getElementById, undefined)
 nyafilmer.*##^script:has-text(var _0x)
 nyafilmer.*##div:matches-css(width: 500px):matches-css(height: 350px):matches-css(z-index: 99999)
 nyafilmer.*##div:matches-css(z-index: 99998)
-nyafilmer.*##body > [id][onclick^="window.open("]
 nyafilmer.*##body > iframe
 nyafilmer.*##.Breadcrumb
 nyafilmer.*##.found-movies
@@ -859,7 +855,8 @@ nyafilmer.*##[class="skinMobile"]
 nyafilmer.*##[class="bigbg"]
 nyafilmer.*##.fb-xfbml-parse-ignore
 nyafilmer.*##.sort.tags > .title
-nyafilmer.*##[type="text/javascript"]
+nyafilmer.*##[type="text/javascript"][src*=".js"]
+nyafilmer.*##^script:has-text(var offtop=0;var sticky_sidebar=true;)
 nyafilmer.*##[class="clear"]
 nyafilmer.*##[class="disqus_section"]
 nyafilmer.*##[class="iframeInfo"]
@@ -960,9 +957,6 @@ jawcloud.co##^script:has-text(Inject=!)
 /index.css?^$third-party
 /ads.js?
 ?excludes=^#xhr
-@@*.m3u8$xhr
-@@*.ts$xhr
-@@/?stream=
 ##[id="keremiya-js-extra"]
 ##[id="hcaptcha-script-js"]
 *##a[href*="/engine."]
@@ -6746,100 +6740,101 @@ dirdamid.com##a[href$=".html"]
 ##.vs_dfp_standard_postbit_ad
 ##.vsw-ads
 ##.vswA
-##a[href^="https://www.amazon.co.uk"]
-##a[href^="https://auiviilbp2.com"]
-##a[href^="https://ad.atdmt.com/"]
-##a[href^="https://adhealers.com/"]
-##a[href^="https://ads.ad4game.com/"]
-##a[href^="https://adswick.com/"]
-##a[href^="https://bs.serving-sys.com"]
-##a[href^="https://googleadservices.com/"]
-##a[href^="https://plus.google.com/share?"]
-##a[href^="https://go.ad2up.com/"]
-##a[href^="https://go.onclasrv.com/"]
-##a[href^="https://mk-ads.com/"]
-##a[href^="https://paid.outbrain.com/network/redir?"]
-##a[href^="https://pubads.g.doubleclick.net/"]
-##a[href^="https://secure.adnxs.com"]
-##a[href^="https://servedbyadbutler.com/"]
-##a[href^="https://trklvs.com/"]
-##a[href^="https://gaitheed.com/"]
-##a[href^="http://adshost2.com/"]
-##a[href^="http://adxpansion.com"]
-##a[href^="http://ad.doubleclick.net/"]
-##a[href^="http://adclick.g.doubleclick.net/"]
-##a[href^="http://adexprt.me/"]
-##a[href^="http://adrunnr.com/"]
-##a[href^="http://api.content.ad/"]
-##a[href^="http://bs.serving-sys.com/"]
-##a[href^="http://buysellads.com/"]
-##a[href^="http://clkads.com/adServe/"]
-##a[href^="http://cdn.adsrvmedia.net/"]
-##a[href^="http://cdn.adstract.com/"]
-##a[href^="http://cdn3.adbrau.com/"]
-##a[href^="http://cdn3.adexprts.com/"]
-##a[href^="http://clickserv.sitescout.com/"]
-##a[href^="http://clk.directrev.com/"]
-##a[href^="http://clkmon.com/adServe/"]
-##a[href^="http://feedads.g.doubleclick.net/"]
-##a[href^="http://fusionads.net"]
-##a[href^="http://g1.v.fwmrm.net/ad/"]
-##a[href^="http://go.ad2up.com/"]
-##a[href^="http://go.oclaserver.com/"]
-##a[href^="http://marketgid.com"]
-##a[href^="http://mgid.com/"]
-##a[href^="http://onclickads.net/"]
-##a[href^="http://paid.outbrain.com/network/redir?"]
-##a[href^="http://pubads.g.doubleclick.net/"]
-##a[href^="http://pwrads.net/"]
-##a[href^="http://srvpub.com/"]
-##a[href^="http://syndication.exoclick.com/"]
-##a[href^="http://t.mdn2015x1.com/"]
-##a[href^="http://t.mdn2015x2.com/"]
-##a[href^="http://t.mdn2015x3.com/"]
-##a[href^="http://track.adform.net/"]
-##a[href^="//reddit.com/submit?"]
-##a[href^="//twitter.com/share"]
-##a[href^="//go.onclasrv.com/"]
-##a[href^="//srv.buysellads.com/"]
-##a[href^="//adskeeper.co.uk/"]
-##a[href^="//zenhppyad.com/"]
-##a[href^="//mgid.com/"]
-##a[href^="//00ae8b5a9c1d597.com/"]
-##a[href^="//5e1fcb75b6d662d.com/"]
-##a[href^="//88d7b6aa44fb8eb.com/"]
-##a[href^="//bwnjijl7w.com/"]
-##a[href^="//db52cc91beabf7e8.com/"]
-##a[href^="//z6naousb.com/"]
-##a[href^="//000webhost.com/"]
-##a[href*="/wp-admin/admin-ajax.php]
-##a[href*="/Click/"]
-##a[href*="/click/"]
-##a[href*="/link/?"]
-##a[href*="?AD="]
-##a[href*="?ad="]
-##a[href*="ADCLICK"]
-##a[href*="adclick"]
-##a[href*="AdID="]
-##a[href*="ADV="]
-##a[href*="/ads."]
-##a[href*="/adv/"]
-##a[href*="/advert"]
-##a[href*="http^://ad."]
-##a[href*="http^://ads."]
-##a[href*="affiliate"]
-##a[href*=".adk2x.com/"]
-##a[href*=".clkcln.com/"]
-##a[href*=".clksite.com/"]
-##a[href*=".revimedia.com/"]
-##a[href*="/adServe/banners?"]
-##a[href*="/cmd.php?ad="]
-##a[href*="=Adtracker"]
-##a[href*="=adscript"]
-##a[href*="=exoclick"]
-##a[href*="a2g-secure.com"]
-##a[href*="ad2upapp.com/"]
-##a[href*="5iclx7wa4q.com"]
+##[href^="https://go.affiliatexe.com/"]
+##[href^="https://www.amazon.co.uk"]
+##[href^="https://auiviilbp2.com"]
+##[href^="https://ad.atdmt.com/"]
+##[href^="https://adhealers.com/"]
+##[href^="https://ads.ad4game.com/"]
+##[href^="https://adswick.com/"]
+##[href^="https://bs.serving-sys.com"]
+##[href^="https://googleadservices.com/"]
+##[href^="https://plus.google.com/share?"]
+##[href^="https://go.ad2up.com/"]
+##[href^="https://go.onclasrv.com/"]
+##[href^="https://mk-ads.com/"]
+##[href^="https://paid.outbrain.com/network/redir?"]
+##[href^="https://pubads.g.doubleclick.net/"]
+##[href^="https://secure.adnxs.com"]
+##[href^="https://servedbyadbutler.com/"]
+##[href^="https://trklvs.com/"]
+##[href^="https://gaitheed.com/"]
+##[href^="http://adshost2.com/"]
+##[href^="http://adxpansion.com"]
+##[href^="http://ad.doubleclick.net/"]
+##[href^="http://adclick.g.doubleclick.net/"]
+##[href^="http://adexprt.me/"]
+##[href^="http://adrunnr.com/"]
+##[href^="http://api.content.ad/"]
+##[href^="http://bs.serving-sys.com/"]
+##[href^="http://buysellads.com/"]
+##[href^="http://clkads.com/adServe/"]
+##[href^="http://cdn.adsrvmedia.net/"]
+##[href^="http://cdn.adstract.com/"]
+##[href^="http://cdn3.adbrau.com/"]
+##[href^="http://cdn3.adexprts.com/"]
+##[href^="http://clickserv.sitescout.com/"]
+##[href^="http://clk.directrev.com/"]
+##[href^="http://clkmon.com/adServe/"]
+##[href^="http://feedads.g.doubleclick.net/"]
+##[href^="http://fusionads.net"]
+##[href^="http://g1.v.fwmrm.net/ad/"]
+##[href^="http://go.ad2up.com/"]
+##[href^="http://go.oclaserver.com/"]
+##[href^="http://marketgid.com"]
+##[href^="http://mgid.com/"]
+##[href^="http://onclickads.net/"]
+##[href^="http://paid.outbrain.com/network/redir?"]
+##[href^="http://pubads.g.doubleclick.net/"]
+##[href^="http://pwrads.net/"]
+##[href^="http://srvpub.com/"]
+##[href^="http://syndication.exoclick.com/"]
+##[href^="http://t.mdn2015x1.com/"]
+##[href^="http://t.mdn2015x2.com/"]
+##[href^="http://t.mdn2015x3.com/"]
+##[href^="http://track.adform.net/"]
+##[href^="//reddit.com/submit?"]
+##[href^="//twitter.com/share"]
+##[href^="//go.onclasrv.com/"]
+##[href^="//srv.buysellads.com/"]
+##[href^="//adskeeper.co.uk/"]
+##[href^="//zenhppyad.com/"]
+##[href^="//mgid.com/"]
+##[href^="//00ae8b5a9c1d597.com/"]
+##[href^="//5e1fcb75b6d662d.com/"]
+##[href^="//88d7b6aa44fb8eb.com/"]
+##[href^="//bwnjijl7w.com/"]
+##[href^="//db52cc91beabf7e8.com/"]
+##[href^="//z6naousb.com/"]
+##[href^="//000webhost.com/"]
+##[href*="/wp-admin/admin-ajax.php]
+##[href*="/Click/"]
+##[href*="/click/"]
+##[href*="/link/?"]
+##[href*="?AD="]
+##[href*="?ad="]
+##[href*="ADCLICK"]
+##[href*="adclick"]
+##[href*="AdID="]
+##[href*="ADV="]
+##[href*="/ads."]
+##[href*="/adv/"]
+##[href*="/advert"]
+##[href*="http^://ad."]
+##[href*="http^://ads."]
+##[href*="affiliate"]
+##[href*=".adk2x.com/"]
+##[href*=".clkcln.com/"]
+##[href*=".clksite.com/"]
+##[href*=".revimedia.com/"]
+##[href*="/adServe/banners?"]
+##[href*="/cmd.php?ad="]
+##[href*="=Adtracker"]
+##[href*="=adscript"]
+##[href*="=exoclick"]
+##[href*="a2g-secure.com"]
+##[href*="ad2upapp.com/"]
+##[href*="5iclx7wa4q.com"]
 
 #Ads/Trackers
 |about:blank$third-party
@@ -9585,19 +9580,14 @@ popuper.js^
 @@/accounts/*$popup
 @@/assets/*$script
 @@upload-*^$xhr
-@@/jwplayer.js^$script,1p
 @@/css/bootstrap.min.css$css
 @@_ajax?^$1p
-@@/jwplayer.js$script,1p
+@@/jwplayer*.js$script,1p
 @@/assets/js/player.js$script
 @@//media*^$image
-@@*/js/main.js$script
-@@*/js/pages.*.js$script
-@@*/js/core.*js$script
-@@*/js/vendor.js$script
-@@*/js/*.chunk.js$script
-@@*/js/runtime*.js$script
-@@/jwplayer*.js$script
+@@*.m3u8$xhr
+@@*.ts$xhr
+@@/?stream=
 @@bundle*.js$script
 
 *##a[href*=".wz"][target="_blank"]
