@@ -1188,8 +1188,6 @@ dplay.se##[id="linkTag2"]
 dplay.se##+js(setTimeout-defuser.js, r, 0)
 dplay.se##div:matches-css(width: 3px):matches-css(height: 5px)
 @@||fwmrm.net/ad/$script,domain=dplay.se|mtv.se
-||doubleclick.net/dbm/vast$xhr
-||doubleclick.net/xbbe/bid/xpub$xhr
 ||akamaihd.net^$media,domain=dplay.se
 ||imasdk.googleapis.com/pal/sdkloader/pal.js$script,redirect-rule=noopjs
 ||sentry.io^$3p
@@ -6972,8 +6970,7 @@ dirdamid.com##a[href$=".html"]
 ||googleads.g.doubleclick.net^
 ||googlesyndication.com^
 ||doubleclick.net/instream/ad_status.js$script,redirect=doubleclick.net/instream/ad_status.js,important
-||doubleclick.net^$popup
-||doubleclick.net^$script,image,subdocument
+||doubleclick.net^
 ||consorcraightyc.info^
 ||cyneburg-yam.com^
 ||tpb.party/static/custom_ads.js
