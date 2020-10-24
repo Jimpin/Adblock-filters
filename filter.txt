@@ -9841,7 +9841,6 @@ photobucket.com#@#[id*="Preload"]
 *##+js(acis, popunder)
 *##+js(acis, jQuery, overlay)
 *##+js(set-constant.js, checkAds, noopFunc)
-*##+js(acis, jQuery, tweaker)
 *##+js(acis, document.getElementById, blocker)
 .*/sw.js$script
 .*/images/reklam$image
