@@ -227,6 +227,7 @@ instagram.com##main[role="main"] .APQi1
 #Google.*
 google.*##[id="reviewDialog"]
 google.*##[id="dstyle"]
+google.*##a[href*="/aclk?"][data-al]:upward(2)
 google.*##[jsname="bF1uUb"]
 google.*###cnsm
 google.*###cnsw
@@ -477,7 +478,7 @@ youtube.com##[class="ytp-gradient-bottom"]
 youtube.com##.yt-alert-content
 youtube.com##ytd-display-ad-renderer:upward(2)
 youtube.com##+js(json-prune, adPlacements)
-youtube.com##+js(json-prune, [].playerResponse.adPlacements [].playerResponse.playerAds playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds)
+youtube.com##+js(json-prune, 0.playerResponse.adPlacements 0.playerResponse.playerAds playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds)
 youtube.com##+js(set-constant, ytInitialPlayerResponse.adPlacements, undefined)
 youtube.com##+js(set-constant, playerResponse.adPlacements, undefined)
 youtube.com##.ytp-paid-content-overlay
@@ -509,7 +510,7 @@ youtube.com##[class="style-scope yt-formatted-string"]:has-text(egistrering)
 youtube.com##a[href*="/"]:has-text(bit.ly)
 youtube.com##a[href*="/"]:has-text(stod)
 youtube.com##span.yt-formatted-string.style-scope:has-text(casino)
-youtube.com#@#.page-loaded
+youtube.com##.page-loaded
 @@||youtube.com^$csp
 @@||youtube.com/player_api$third-party
 ||youtube.com/api/stats/qoe?
