@@ -1514,12 +1514,10 @@ fotbolltransfers.com##div[class^="ad"]
 fotbolltransfers.com##[id="6545344"]
 fotbolltransfers.com##.ad11
 fotbolltransfers.com##.ad23
-fotbolltransfers.com##[class="ad5"]
-fotbolltransfers.com##[class="ad9"]
-fotbolltransfers.com##[class="ad49"]
+fotbolltransfers.com##[class*="ad"]
 fotbolltransfers.com##noscript
-fotbolltransfers.com##[href="http://bit.ly/2kEpkw8"]
-||d.suntcontent.se^
+fotbolltransfers.com##[href^="http://bit.ly/"]
+||suntcontent.se^
 ||s.vi-serve.com/tagLoader.js$script
 ||adnami.io^
 ||lwadm.com^
@@ -1594,9 +1592,7 @@ onhockey.tv##[src="pic/sad.gif"]
 9now.com.au##[class="vjs-mouse-display"]
 9now.com.au##[class="vjs-time-tooltip"]
 9now.com.au##[class="vjs-ima3-ad-container"]
-9now.com.au##[class="_2tYyJb _27q-Z2"]
 9now.com.au##[class="vjs-cuepoint"]
-9now.com.au##[class="_3ThzAM _1trrlC"]
 9now.com.au##[class="vjs-cuepoints-bar"]
 9now.com.au##._1wpX_O._2G1QMe._35peaY
 9now.com.au##[id="LOCSTORAGE"]
@@ -1622,7 +1618,7 @@ putlocker.*##body > .widgetsads
 putlocker.*##.tcc
 putlocker.*##[async="async"]
 putlocker.*##[class="linkads"]
-putlocker.*##[src="//native.propellerclick.com/1?z=2607284&eid="]
+putlocker.*##[src*="//native.propellerclick.com/"]
 putlocker.*##[class="single_ads_player clear"]
 putlocker.*##[type="text/css"]
 putlocker.*##[name="google-site-verification"]
@@ -1635,8 +1631,6 @@ putlocker.*##.footer-subs.col-lg-4
 putlocker.*##footer
 verystream.*##[href$=".html"]
 viduplayer.*##[href$=".html"]
-##[rel="dns-prefetch"]
-##[rel="preconnect"]
 ##[href="http://dcxitlzzmyxbwn.com/"]
 ##[id="videolink"]
 ##[src="/assets/62f8f9e4/js/bootstrap.min.js"]
@@ -9581,6 +9575,7 @@ popuper.js^
 @@/jwplayer*.js$script,1p
 @@/assets/js/player.js$script
 @@//media*^$image
+@@/vendors/omniture/*$script
 @@*.m3u8$xhr
 @@*.ts$xhr
 @@/?stream=
