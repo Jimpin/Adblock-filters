@@ -477,7 +477,6 @@ youtube.com###offer-module
 youtube.com##[class="ytp-gradient-bottom"]
 youtube.com##.yt-alert-content
 youtube.com##ytd-display-ad-renderer:upward(2)
-youtube.com##+js(json-prune, adPlacements)
 youtube.com##+js(json-prune, 0.playerResponse.adPlacements 0.playerResponse.playerAds playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds)
 youtube.com##+js(set-constant, ytInitialPlayerResponse.adPlacements, undefined)
 youtube.com##+js(set-constant, playerResponse.adPlacements, undefined)
