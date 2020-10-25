@@ -7409,6 +7409,7 @@ dirdamid.com##a[href$=".html"]
 ||sosbyncpkyw.com^
 ||stats.wp.com^
 ||counevan.pro^
+||pushebrod.com^
 ||wpush.org^
 ||defutohy.pro^
 ||adxadserv.com^
@@ -9972,11 +9973,18 @@ photobucket.com#@#[id*="Preload"]
 ###importantMessage
 ##.cookie-information-text
 ##[data-testid="cookie-disclaimer"]
+##.cp-modal-popup-container:remove()
 ||jwpcdn.com^/*.js$script
 */player/plugins/vast-*.js$script
 
 */jquery.magnific-popup.min.js
 
+*##+js(aopr, AdservingModule)
+*##+js(aeld, DOMContentLoaded, adlinkfly)
+*##+js(ra, href, #clickfakeplayer)
+*##+js(aopw, adcashMacros)
+*##+js(acis, document.querySelectorAll, adConfig)
+*##+js(aopr, Aloader.serve)
 *##+js(abort-current-inline-script, decodeURI, _POP)
 *##+js(aopr, jwplayer.utils.Timer)
 *##+js(abort-on-property-write.js, spot)

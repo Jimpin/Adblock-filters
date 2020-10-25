@@ -24,6 +24,27 @@
 |about:blank$3p
 *#blocked$popup,3p
 *$document,3p
+*##+js(nowebrtc)
+*##+js(acis, document.querySelector, popupBlocked)
+*##+js(aopw, _pop)
+*##+js(set, $.magnificPopup.open, noopFunc)
+*##+js(aeld, click, popMagic)
+*##+js(nostif, byepopup, 5000)
+*##+js(acis, decodeURI, zfgloadedpopup)
+*##+js(aopw, popUpUrl)
+*##+js(acis, $, urlForPopup)
+*##+js(set, btoa, null)
+*##+js(aopw, adcashMacros)
+*##+js(nostif, ad-block-popup)
+*##+js(popads-dummy)
+*##+js(acis, open, popupad)
+*##+js(aopw, popup_ads)
+*##+js(acis, document.addEventListener, Popup)
+*##+js(nostif, adblock_popup, 500)
+*##+js(aopr, popjs.init)
+*##+js(acis, Math, /XMLHttpRequest|break/)
+*##+js(acis, puShown , /doOpen|popundr/)
+*##+js(acis, Object.defineProperty, vocabulary)
 &popunder=$popup
 &program=revshare&$popup
 &popunder=^
