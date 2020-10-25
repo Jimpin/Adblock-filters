@@ -794,6 +794,7 @@ nyafilmer.*##.smallnews
 nyafilmer.*##.nya-ann
 nyafilmer.*##.newbox
 nyafilmer.*##.passinfo.info.message
+nyafilmer.*##[class="single-content sidebar"]
 nyafilmer.*##[href*="/tv-calendar/"]
 nyafilmer.*###menu-item-76123 > a[href^="/filter/"]
 nyafilmer.*###menu-item-76124 > a[href^="/filter/"]
@@ -898,9 +899,6 @@ nyafilmer.*#@#body:style(overflow: auto !important)
 ||nyafilmer.*/wp-content/themes/keremiya1/js/script.js$script
 ||nyafilmer.*/wp-content/themes/keremiya1/js/license.12.js$script,first-party
 ||nyafilmer.*^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' jawcloud.co *.jawcloud.co *.googleapis.com *.google.com *.gstatic.com;img-src *;worker-src 'none'
-||n3-r2d2.piguiqproxy.com^$xmlhttprequest
-||unrestern.info^$important
-||imagetopng.*^$important
 jawcloud.co,nyafilmer.*##^script:has-text(_Hasync)
 jawcloud.co,nyafilmer.*##+js(popads-dummy.js)
 jawcloud.co,nyafilmer.*##+js(aopr, console.clear)
@@ -7550,6 +7548,9 @@ dirdamid.com##a[href$=".html"]
 ||createsend.com^
 ||createsend1.com^
 ||creatives.ancoraplatform.com/ptphb*.$script
+||piguiqproxy.com^
+||unrestern.info^
+||imagetopng.*^
 ||curemedia.se^
 ||custosgroup.com^
 ||tedintrattirin.pro^$important
@@ -7571,7 +7572,7 @@ dirdamid.com##a[href$=".html"]
 ||trafforsrv.com^$important
 ||adexchangetracker.com^
 ||fm6dz864.top^$script,important
-||amazonaws.com^*/ad_loader$important,script
+||amazonaws.com^*/ad_loader$important
 ||ohleiludieje.*^$script,important
 ||videospider.*^$important
 ||bitonclick.com^
@@ -7648,7 +7649,7 @@ dirdamid.com##a[href$=".html"]
 ||x7xirtzmot.com^$important
 ||hyphenion.com^$important
 ||ferreddo.com^$important
-||r.remarketingpixel.com^
+||remarketingpixel.com^
 ||zeusadx.com^$important
 ||zaful.com^
 ||armantark.com^
@@ -7684,7 +7685,7 @@ dirdamid.com##a[href$=".html"]
 ||utarget.pro^$important
 ||z.cdn.adbetnet.com^$important
 ||cdn.cdnco.us^
-||fbcdn2.com^$script
+||fbcdn2.com^
 ||venturead.com^
 ||maxonclick.com^
 ||tracking.revimedia.com^
@@ -7713,7 +7714,7 @@ dirdamid.com##a[href$=".html"]
 ||wedeegut.net^$important
 ||toroadvertisingmedia.com^
 ||promotions.betsafe.com^
-||mt.rtmark.net^
+||rtmark.net^
 ||dmm.com^
 ||liveburst.com^
 ||adnium.com^
@@ -7958,7 +7959,7 @@ dirdamid.com##a[href$=".html"]
 ||track.adform.net/adfserve/*$image
 ||popads.net/pop.js^$important
 ||vacaneedasap.com^$important
-||pp.lp4.io^$image
+||lp4.io^$image
 ||zukxd6fkxqn.com^$important
 ||serving-sys.com^
 ||revrtb.com^$important
