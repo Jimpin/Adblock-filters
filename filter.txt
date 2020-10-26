@@ -660,6 +660,7 @@ blocket.se##div:matches-css(width: 1012px):matches-css(height: 24px)
 @@||cdn.pro.blocket.cloud^$image
 @@||i.blocketcdn.se/pictures/*$image
 ##[class*="SchibstedBanner__Wrapper"]
+/blocket_puff.html$subdocument
 /ad-block-detection-script-tag-src.js$script,redirect-rule=noopjs
 ||logs2.xiti.com^
 

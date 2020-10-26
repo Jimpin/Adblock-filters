@@ -42,7 +42,6 @@
 *##+js(acis, document.addEventListener, Popup)
 *##+js(nostif, adblock_popup, 500)
 *##+js(aopr, popjs.init)
-*##+js(acis, Math, /XMLHttpRequest|break/)
 *##+js(acis, puShown , /doOpen|popundr/)
 *##+js(acis, Object.defineProperty, vocabulary)
 &popunder=$popup
