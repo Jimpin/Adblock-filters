@@ -7027,6 +7027,8 @@ dirdamid.com##a[href$=".html"]
 ||doubleclick.net/instream/ad_status.js$script,redirect=doubleclick.net/instream/ad_status.js
 ||ad.doubleclick.net^$xhr
 ||syndication.exosrv.com/splash-zones-split.php$popup
+||fastpopclick.com^
+||fastpopunder.com^
 ||adswithsalt.com^
 ||jeinvegpool.com^$important
 ||ratexchange.net^
@@ -7806,6 +7808,7 @@ dirdamid.com##a[href$=".html"]
 ||speednetwork14.adk2x.com^
 ||exdynsrv.com^$important
 ||best-prizes-now.*^
+||swesomepop.com^
 ||linkonclick.com^$important
 ||yandex.^/jstracer
 ||adfox.^$3p
@@ -7881,6 +7884,11 @@ dirdamid.com##a[href$=".html"]
 ||columb03qp.com^
 ||rei3pl29.com^
 ||driftslot.com^
+||popadscdn.net^
+||popcash.net^
+||pophahwot.com^
+||poponclick.info^
+||popsoffer.com^
 ||columb.email^
 ||admiral-casino.in^
 ||lucky-vulcan.com^
@@ -9585,7 +9593,6 @@ popuper.js^
 @@*.m3u8$xhr
 @@*.ts$xhr
 @@/?stream=
-@@bundle*.js$script
 
 *##a[href*=".wz"][target="_blank"]
 *##a[href*=".style"][target="_blank"]
