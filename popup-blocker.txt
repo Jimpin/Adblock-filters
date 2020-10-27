@@ -34,7 +34,6 @@
 *##+js(acis, decodeURI, zfgloadedpopup)
 *##+js(aopw, popUpUrl)
 *##+js(acis, $, urlForPopup)
-*##+js(set, btoa, null)
 *##+js(aopw, adcashMacros)
 *##+js(nostif, ad-block-popup)
 *##+js(popads-dummy)
