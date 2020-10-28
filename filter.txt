@@ -200,10 +200,8 @@ twitch.tv##+js(twitch-videoad)
 @@||wss://pubsub-edge.twitch.tv
 ||twitch.tv$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' wss: blob: *.twitch.tv google.com gstatic.com *.jtvnw.net *.ttvnw.net *.twitchcdn.net recaptcha.net *.amazon-adsystem.com twitch.tv&ex-hargs
 ||amazon-adsystem.com/*/apstag.js$script,important,domain=twitch.tv
-||twitch.tv/service-worker.js$important
 ||trowel.twitch.tv/?data=[base64string]
-||api.dbh.doub.ly^$xmlhttprequest,important
-||ad.doubleclick.net/ddm/ad/*/*/*'/;ord='*$domain=twitch.tv
+||ad.doubleclick.net/ddm/ad/*/*/*'/;ord='*$important
 ||custos.twitchcdn.net/v1.js$script,important
 ||spade.twitch.tv^$important
 ||polyfill.twitchsvc.net^$script,important
