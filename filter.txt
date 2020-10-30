@@ -194,7 +194,7 @@ twitch.tv##.tw-mg-t-5.tw-absolute.onsite-notifications-toast-manager
 twitch.tv##[class="tw-align-items-center tw-border-radius-medium tw-c-background-base tw-flex tw-flex-column tw-justify-content-center tw-pd-t-1"]
 twitch.tv##.recommended-channels
 twitch.tv##+js(twitch-videoad)
-twitch.tv##+js(abort-on-property-write, importScripts)
+twitch.tv##+js(aopw, importScripts)
 /\/[a-z0-9_-]{15,}\.[a-z0-9-]+\.[a-z]{2,}\/.*?\w{40,}/$domain=twitch.tv
 @@||twitch.tv/videos/*$csp
 @@||irc-ws.chat.twitch.tv^$websocket,first-party
