@@ -1042,11 +1042,6 @@ fmovies.*##+js(addEventListener-defuser.js, /^(?:click|mousedown)$/, _0x)
 ##p:nth-child(15) > span > a
 ##section:nth-child(15) > a
 ##article:nth-child(15) > div > a
-##a[href="804548.html"]
-@@||ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js$script
-@@||fmovies.*/ajax/$xmlhttprequest,domain=fmovies.is|fmovies.se|fmovies.to|fmovies.ac
-@@||cloudflare.com^$css,domain=fmovies.is|fmovies.se|fmovies.to|fmovies.ac
-@@||static1.akacdn.ru/assets/$css,domain=fmovies.is|fmovies.se|fmovies.to|fmovies.ac
 @@/assets/js/video-js/
 ||fmovies.*/sw.js
 ||fmovies.*/clear.gif$image
@@ -1088,6 +1083,23 @@ rapidvideo.com##+js(addEventListener-defuser.js, mousedown, preventDefault)
 ||content.fruithosted.net/splash/*$image
 ||streamango.com/assets/img/logo.png$image
 ||celeritascdn.com/script/compatibility.js$script
+streamtape.*##+js(nowoif)
+streamtape.*##+js(aopw, _pop)
+streamtape.*##+js(window.open-defuser)
+streamtape.*##+js(abort-current-inline-script, Math, /emZnbG9hZGVk|break;case \$\./)
+streamtape.*##+js(abort-on-property-write, _pop)
+streamtape.*##+js(set-constant, googleAd, true)
+streamtape.*##+js(acis, document.createElement, 'script')
+streamtape.*##+js(ra, target, #downloadvideo)
+streamtape.*##+js(set, btoa, null)
+streamtape.*##+js(set, towait, 0)
+streamtape.*##[class*="bn-container"], div[style*="z-index: 300000;"]
+streamtape.*##iframe[src^="data:"]
+streamtape.*#$#.pub_300x250.pub_300x250m.pub_728x90.text-ad.textAd.text_ad.text_ads.text-ads.text-ad-links { display: block !important; }
+streamtape.*#@#.google-ad
+||streamtape.com/mainstream2.js
+||in-page-push.com^$important
+/tag.min.js$3p
 
 #Fmoviesfree.page
 fmoviesfree.*##+js(popads-dummy.js)
@@ -7515,11 +7527,18 @@ dirdamid.com##a[href$=".html"]
 ||cdn.jsdelivr.net/cookieconsent3/*
 ||lucklayed.info^
 ||aaucwbe.com^
+||ptairtug.net^
+||tathitch.net^
+||nortaumi.net^
+||ouftukoo.net^
+||azoaltou.com^
+||advinci.uno^
+||pignuwoa.com^
 ||msecnd.net^
 ||eclkmpbn.com^
 ||eclkspsa.com^
 ||ads.com^$important
-||acceptable.a-ads.com^$important
+||acceptable.*.com^
 ||ethfw0370q.com^
 ||y1jxiqds7v.com^
 ||1phads.com^
@@ -7634,7 +7653,6 @@ dirdamid.com##a[href$=".html"]
 ||ueuodgnrhb.com^
 ||us.adserver.yahoo.com^
 ||alluc.ee^
-||scorecardresearch.com/beacon.js$script,redirect=scorecardresearch.com/beacon.js,important
 ||horse.brotchen.top^$important
 ||allartand.club^$important
 ||aspampbrr.online^$important
@@ -8012,6 +8030,7 @@ dirdamid.com##a[href$=".html"]
 .xiti
 .adskeeper
 .adsco
+.uno$3p
 .popads
 .coinhive
 -ads.js?
@@ -8549,7 +8568,6 @@ redirect.
 /pagead
 /chronopop
 /?uclick=
-/apu.php$xhr,script,frame
 /redirect-ads.php
 /tc-under.min.js
 /chrome.js$script
@@ -8574,7 +8592,7 @@ redirect.
 /ntv.json
 /ren.gif?sid=
 /gid.js?pub=
-/popunder1000.js^
+/popunder*.js^
 /cuteimage/*$image
 /genads.php?uid^
 /-image-ad_ads.html
@@ -9716,14 +9734,12 @@ photobucket.com#@#[id*="Preload"]
 ://ad.$script,xhr
 ://adv.$script,xhr
 ://ads.$script,xhr
-://font.$third-party
-://fonts.$third-party
 ://hw-$important
 ://go.$important
 ://adserve.$important
 ://srv.$important
 ://serve.$important
-://p.$third-party
+://p.$3p
 ://ice.$important
 ://stats.$important
 ://wsp.$important
@@ -9801,10 +9817,10 @@ photobucket.com#@#[id*="Preload"]
 .mgid.*/$important
 .scund*/$important
 /jssdks.*$xhr
-/afu.*/$script,popup
-/apu.*/$script,popup
-/ntfc.*/$script,popup
-/adca.*/$script,popup
+/afu.*/$3p
+/apu.*/$3p
+/ntfc.*/$3p
+/adca.*/$3p
 /splash.*/$important
 /genads.*/$important
 /next.*/$popup
@@ -9975,3 +9991,17 @@ photobucket.com#@#[id*="Preload"]
 *$xhr,redirect-rule=nooptext
 *$media,redirect-rule=noopmp3-0.1s
 *$media,redirect-rule=noopmp4-1s
+
+/error.png$image
+/view*$3p
+/wiki*$3p
+/article*$3p
+/page*$3p
+/web*.$3p
+/data*$3p
+/menu*$3p
+/ajax*$3p
+/resource*$3p
+/config*$3p
+/custom*$3p
+/validator*$3p
