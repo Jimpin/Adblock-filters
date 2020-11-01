@@ -9994,10 +9994,10 @@ photobucket.com#@#[id*="Preload"]
 
 /error.png$image
 /config*$xhr,css,frame,3p
+/page*$xhr,script,frame,3p
 /view*$3p
 /wiki*$3p
 /article*$3p
-/page*$3p
 /web*.$3p
 /data*$3p
 /menu*$3p
