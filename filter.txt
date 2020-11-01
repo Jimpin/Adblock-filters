@@ -938,9 +938,6 @@ jawcloud.co##^script:has-text(Inject=!)
 ||clksite.com^$script,redirect-rule=noopjs
 ||mycdn.co^$script
 ||cloudflareinsights.com^$script
-||*.com/modules/^$domain=nyafilmer.lol|swesub.net|gomovies.sc|fmovies.to|0123movies.com|dwatchseries.com|i0123movies.com|lookmovies.ag|firstsrowsports.tv|firstonetv.net|batmanstream.net
-||*.com^$script,xmlhttprequest,stylesheet,third-party,domain=nyafilmer.lol|swesub.net|gomovies.sc|fmovies.to|0123movies.com|dwatchseries.com|i0123movies.com|lookmovies.ag|firstsrowsports.tv|firstonetv.net|batmanstream.net
-||*.net/modules/^$domain=nyafilmer.lol|swesub.net|gomovies.sc|fmovies.to|0123movies.com|dwatchseries.com|i0123movies.com|lookmovies.ag|firstsrowsports.tv|firstonetv.net|batmanstream.net
 ||deloplen.com^$csp=script-src 'none'
 ||rubiginose.com^$csp=script-src 'none'
 ||dirdamid.com^$csp=script-src 'none'
@@ -1103,8 +1100,6 @@ fmoviesfree.*##div.widget:nth-of-type(2)
 ||fmoviesfree.*$xhr,1p
 ||*.xyz^$other
 ||mirafaren.pw^$all
-/[0-9]/$xhr,3p,domain=nyafilmer.wtf|fmovies.to|fmoviesfree.page|gomovies.sc|streamtajm.com|
-/[0-9]/$script,3p,domain=nyafilmer.wtf|fmovies.to|fmoviesfree.page|gomovies.sc|streamtajm.com|
 /link^$3p,popup
 mstream.*##[class="vjs-link"]
 mstream.*##[class="vjs-chrome-pip vjs-control vjs-button"]
@@ -8060,10 +8055,11 @@ redirect.
 /click?pid=*
 /async/ads-
 /asyncadload.
-/\:\/\/data.*\.com\/[a-zA-Z0-9]{30,}/$third-party,xmlhttprequest
-/\:\/\/[a-z0-9]{5,32}\.(bid|com)\/[0-9]{2,9}\.css$/$third-party,stylesheet
-/\:\/\/[a-z0-9]{5,40}\.com\/[0-9]{2,9}\/$/$script,stylesheet,third-party,xmlhttprequest
-/\:\/\/[a-z0-9]{5,}\.com\/[A-Za-z0-9]{3,}\/$/$script,third-party,xmlhttprequest
+/\.com\/[0-9a-z]{2}\/[0-9a-z]{2}\/[0-9a-z]{2}\/[0-9a-z]{32}\.js/$script,3p
+/\:\/\/data.*\.com\/[a-zA-Z0-9]{30,}/$xhr,3p
+/\:\/\/[a-z0-9]{5,32}\.(bid|com)\/[0-9]{2,9}\.css$/$stylesheet,3p
+/\:\/\/[a-z0-9]{5,40}\.com\/[0-9]{2,9}\/$/$script,stylesheet,xhr,3p
+/\:\/\/[a-z0-9]{5,}\.com\/[A-Za-z0-9]{3,}\/$/$script,xhr,3p
 /(\W|_)[0-9]*(ads?|adv|banners?)(\W|_)*(88x31|100x28|100x70|120x60|120x90|120x240|120x600|125x125|160x600|180x150|200x200|300x50|300x60|300x250|300x300|300x600|320x50|336x280|350x250|720x300|728x90)[a-z]*(\W|_)/$~stylesheet
 /(\W|_)[0-9]*(advanced|advice|ajax|anchored|article|api|applet|async|auto|background|banners?|beacons?|bing|blogs?|book|boost|bottom|box|brand|buny|cache|cam|carousel|commercial|common|community|companion|components?|content|contextual|contrib|cookies?|core|counters?|covers?|custom|default|deliver|deploy|dfp|display|door|downloads?|dynamic|event|evil|expanding|external|facebook|featured|files?|flash|float(er|ing)?|footers?|generic|get|global|head(ers?)?|holiday|home|house|html|iframes?|imgs?|images?
 /(\W|_)(ads?|api|jquery|js|plugins?)(\W|_)dfp(\W|_)/$~stylesheet
@@ -9451,12 +9447,9 @@ popuper.js^
 
 #Allowed Scripts
 @@||*.wp.com/*/wp-content/uploads/*$image
-@@||google.com/recaptcha/*
-@@||gstatic.com/recaptcha/*
 @@||images-na.ssl-images-amazon.com/images/*$script
 @@||stream.nbcsports.com^
-@@||statics-neu.onestore.ms^$css,domain=microsoft.com
-@@||ajax.cloudflare.com/cdn-cgi/scripts/$third-party,script
+@@||statics-neu.onestore.ms^
 @@||ajax.googleapis.com^$script
 @@||media-amazon.com^$css
 @@/cdn-cgi/apps/head/*.js
@@ -9475,7 +9468,6 @@ popuper.js^
 @@||api.twitter.com^$xmlhttprequest,1p
 @@*player.min.js$script
 @@/js/page-landing-page.js?*$script
-@@||*^$popup,domain=totalsportek.com
 @@/live/*/index.m3u8
 @@/live/*.ts
 @@||*.cloudfront.net/*$image,domain=jimpin.zapto.org
@@ -9487,7 +9479,6 @@ popuper.js^
 @@||*.cloudfront.net/integrations/*$script
 @@||*.cloudfront.net/assets/build/*$script
 @@||tracking*.se
-@@||sb.scorecardresearch.com/p$image
 @@?utm_medium=iframe_widget$popup
 @@/videos/$image
 @@/scripts/app.js?
@@ -9508,7 +9499,6 @@ popuper.js^
 @@||media-amazon.com^$image
 @@||steamstore-a.akamaihd.net/public/images/*$image
 @@||googlevideo.com/videoplayback?^$xhr,1p
-@@||fonts.gstatic.com^$font
 @@||radar.cedexis.com^$script
 @@||cedexis.net^$css,1p
 @@||cdn.fbsbx.com^$image
@@ -9622,6 +9612,7 @@ popuper.js^
 ##[href*="/information#advertising"]
 ##[href*="/tuname.php"]
 ##[href*="/rss"]
+##[src*="/s.php?"]
 ##[src*="//imasdk.googleapis.com/"]
 ##[src*="//c.amazon-adsystem.com/"]
 ##[href*="https://cvp.twitch.tv/"]
@@ -9908,7 +9899,7 @@ photobucket.com#@#[id*="Preload"]
 ##.popup_overlay--2rgA3
 
 ##.pub_300x250.pub_300x250m.pub_728x90.text-ad.textAd.text_ad.text_ads.text-ads.text-ad-links:style(display: block !important;)
-*##[class*="a2a_"][rel="nofollow noopener"]
+##[class*="a2a_"][rel="nofollow noopener"]
 ###importantMessage
 ##.cookie-information-text
 ##[data-testid="cookie-disclaimer"]
