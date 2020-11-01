@@ -9993,6 +9993,7 @@ photobucket.com#@#[id*="Preload"]
 *$media,redirect-rule=noopmp4-1s
 
 /error.png$image
+/config*$xhr,css,frame,3p
 /view*$3p
 /wiki*$3p
 /article*$3p
@@ -10002,6 +10003,5 @@ photobucket.com#@#[id*="Preload"]
 /menu*$3p
 /ajax*$3p
 /resource*$3p
-/config*$3p
 /custom*$3p
 /validator*$3p
