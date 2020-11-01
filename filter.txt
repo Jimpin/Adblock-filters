@@ -1177,6 +1177,19 @@ viafree.se##.SliderBlock_background_continueWatching.SliderBlock_background
 ||top10sportsites.com^
 ||fastcounter.de^
 
+#Teknikensvarld.se
+teknikensvarld.se##.t-single.-content-hide .entry-content, .t-single.-content-hide .entry-content .paywall-gradient-overlay:style(height: auto !important; overflow: visible !important;)
+teknikensvarld.se##.paywall
+teknikensvarld.se##.paywall-gradient-overlay
+teknikensvarld.se##[class*="ad insider__"]
+teknikensvarld.se##[class*="ad module__"]
+teknikensvarld.se##.widget-area--section__widget.widget-area--section.widget-area
+teknikensvarld.se##.promotion-banner
+teknikensvarld.se##.fullpage-ad
+teknikensvarld.se##.panorama__wrapper.ad
+/plogger/
+/collect/*$ping
+
 #Dplay.se
 dplay.se##[class^="notificationArea"]
 dplay.se##.navbar.popup-video-showing
@@ -9958,6 +9971,13 @@ photobucket.com#@#[id*="Preload"]
 *##+js(aeld, , exoJsPop101)
 
 *##div[id*="sidebar"][data-before-content="advertisement"]:upward(3)
+
+##.gdpr-banner
+##[class*="ad outsider__"]
+##[class*="ad insider__"]
+##[class*="ad module__"]
+##[id*="rich-media-ads"]
+##[id*="ads-script"]
 
 *$script,redirect-rule=noopjs
 *$xhr,redirect-rule=nooptext
