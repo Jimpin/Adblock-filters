@@ -989,7 +989,7 @@ vipleague.*##.text-white.bg-dark.text-justify.p-3.m-3.d-md-block.d-none.col-12
 @@||plytv.me^$subdocument
 ||vipleague.*/loadchatdata$xhr,domain=www.vipleague.lc
 ||vipleague.*/favicon-32x32.png$image
-/*^$xhr,frame,image,css,3p,domain=vipleague.lc
+/*^$xhr,frame,css,3p,domain=vipleague.lc
 ||clients6.google.com/rpc$xmlhttprequest,domain=www.vipleague.lc
 ||cdn.jsdelivr.net/npm/yandex-metrica-watch/tag.js
 ||cdn.jsdelivr.net/npm/lazy-ads*$xmlhttprequest
@@ -7676,6 +7676,7 @@ dirdamid.com##a[href$=".html"]
 ||bet365.com^$popup
 ||ssl2anyone3.com^
 ||rum-static.pingdom.net^
+||eacla.com^$3p
 ||mparticle.com^$3p
 ||track.adform.net^$xmlhttprequest
 ||track.adform.net/adfserve/*$xmlhttprequest
