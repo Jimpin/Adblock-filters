@@ -438,7 +438,6 @@ tv4play.se#@#.adBanner
 tv4play.se##a[href="https://www.cmore.se/tv-program?utm_source=tv4play&utm_medium=partner&utm_campaign=test_cmore_topmeny_tv4play&utm_content=vinrod_se_utan_reklam_pa_cmore&utm_term=tv_program"]
 @@||tv4-video-tracking.b17g.services/event$xmlhttprequest,domain=tv4play.se
 @@ads.html$xmlhttprequest,domain=tv4play.se|fotbollskanalen.se
-@@||*/*$image,domain=blocket.se|youtube.com|instagram.com|twitter.com
 */trailers$media,redirect-rule=noopmp3-0.1s,domain=tv4play.se|fotbollskanalen.se
 */tv4play_plugin.$script,redirect-rule=noopjs,domain=tv4play.se|fotbollskanalen.se
 */bumpers/$media,redirect-rule=noopmp3-0.1s
@@ -622,6 +621,7 @@ duckduckgo.com##.js-onboarding-ed-slide-1.js-onboarding-ed-slide.onboarding-ed__
 duckduckgo.com##.js-onboarding-ed-slide-2.js-onboarding-ed-slide.onboarding-ed__slide-2.onboarding-ed__slide
 duckduckgo.com##.js-onboarding-ed-slide-3.js-onboarding-ed-slide.onboarding-ed__slide-3.onboarding-ed__slide
 duckduckgo.com##.js-onboarding-ed-slide-4.js-onboarding-ed-slide.onboarding-ed__slide-4.onboarding-ed__slide
+||duckduckgo.com/t/
 
 #Fotbollskanalen.se
 fotbollskanalen.se##.player-index-sponsor
@@ -641,6 +641,8 @@ blocket.se###li_panorama
 blocket.se###vi_panorama
 blocket.se###blocketd_visning_infor_kopet3
 blocket.se###blocketd_visning_infor_kopet2
+blocket.se##body:style(overflow: auto !important;)
+blocket.se##div[class^="AppLinks__"]
 blocket.se##[style="height:240px"]
 blocket.se##[style="height: 240px;"]
 blocket.se##.row.ptxs.clearfix.js_recommendations_container
@@ -658,7 +660,10 @@ blocket.se##div:matches-css(width: 1012px):matches-css(height: 24px)
 @@||blocket.se^$generichide
 @@||cdn.pro.blocket.cloud^$image
 @@||i.blocketcdn.se/pictures/*$image
-##[class*="SchibstedBanner__Wrapper"]
+##.in.flex-modal.hgr-popup.ng-isolate-scope.fade.modal
+##.in.fade.hgr-popup.modal-backdrop
+##.bg-governor-bay
+##[class*="SchibstedBanner__"]
 /blocket_puff.html$subdocument
 /ad-block-detection-script-tag-src.js$script,redirect-rule=noopjs
 ||logs2.xiti.com^
@@ -9471,7 +9476,7 @@ popuper.js^
 @@||ajax.googleapis.com^$script
 @@||media-amazon.com^$css
 @@/cdn-cgi/apps/head/*.js
-@@||ajax.cloudflare.com/cdn-cgi/scripts/$script,third-party
+@@||ajax.cloudflare.com/cdn-cgi/scripts/$script
 @@||ajax.googleapis.com/ajax/libs/jquery/
 @@||data-live.flightradar24.com/zones/*$script
 @@||openload.co/embed
@@ -10002,6 +10007,6 @@ photobucket.com#@#[id*="Preload"]
 /data*$3p
 /menu*$3p
 /ajax*$3p
-/resource*$3p
+/resources/*$3p
 /custom*$3p
 /validator*$3p
