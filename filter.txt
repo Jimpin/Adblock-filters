@@ -193,6 +193,18 @@ twitch.tv##.prime-offers__pill
 twitch.tv##.tw-mg-t-5.tw-absolute.onsite-notifications-toast-manager
 twitch.tv##[class="tw-align-items-center tw-border-radius-medium tw-c-background-base tw-flex tw-flex-column tw-justify-content-center tw-pd-t-1"]
 twitch.tv##.recommended-channels
+twitch.tv##.pl-age-restriction-overlay.pl-age-restriction-overlay--wall.player-overlay
+twitch.tv##.extension-taskbar
+twitch.tv##.player .invisible
+twitch.tv##.player-play-overlay
+twitch.tv##.player-advertisement, .player-video object
+twitch.tv##+js(set-constant.js, blockDetector.detected, false)
+twitch.tv##+js(set-constant.js, twitch-videoad, false)
+twitch.tv##+js(set-constant.js, server_ads, false)
+twitch.tv##+js(set-constant.js, adblock, false)
+twitch.tv##+js(abort-current-inline-script.js, twitch-videoad.js)
+twitch.tv##+js(abort-current-inline-script.js, blockDetector.detected, true)
+twitch.tv##a[href$="twitch.tv"][target="_blank"]
 twitch.tv##+js(twitch-videoad)
 twitch.tv##+js(aopw, importScripts)
 /\/[a-z0-9_-]{15,}\.[a-z0-9-]+\.[a-z]{2,}\/.*?\w{40,}/$domain=twitch.tv
@@ -9998,12 +10010,12 @@ photobucket.com#@#[id*="Preload"]
 *$media,redirect-rule=noopmp4-1s
 
 /error.png$image
-/config*$xhr,css,frame,3p
-/page*$xhr,script,frame,3p
+/config*$image,css,frame,3p
+/pages*$xhr,frame,3p
+/web*$xhr,script,frame,3p
 /view*$3p
 /wiki*$3p
 /article*$3p
-/web*.$3p
 /data*$3p
 /menu*$3p
 /ajax*$3p
