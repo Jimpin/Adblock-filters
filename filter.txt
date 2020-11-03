@@ -10013,7 +10013,7 @@ photobucket.com#@#[id*="Preload"]
 /error.png$image
 /config*$image,css,frame,3p
 /pages*$xhr,frame,3p
-/web*$xhr,script,frame,3p
+/web*$script,frame,3p
 /view*$3p
 /wiki*$3p
 /article*$3p
