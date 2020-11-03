@@ -27,6 +27,7 @@ aftonbladet.se##.abTheme-adSportbladet
 aftonbladet.se##.abTheme-infeedad
 aftonbladet.se##.abBtnShare
 aftonbladet.se##.abAdWrapper
+aftonbladet.se##.advert-companion.advert
 aftonbladet.se##article:has(a[data-sponsored="true"])
 aftonbladet.se##div[class][style*="text"]:has(h3:has-text(/annons/i))
 aftonbladet.se##[id*="abAdArea"]
@@ -202,8 +203,8 @@ twitch.tv##+js(set-constant.js, blockDetector.detected, false)
 twitch.tv##+js(set-constant.js, twitch-videoad, false)
 twitch.tv##+js(set-constant.js, server_ads, false)
 twitch.tv##+js(set-constant.js, adblock, false)
-twitch.tv##+js(abort-current-inline-script.js, twitch-videoad.js)
-twitch.tv##+js(abort-current-inline-script.js, blockDetector.detected, true)
+twitch.tv##+js(acis, twitch-videoad.js)
+twitch.tv##+js(acis, blockDetector.detected, true)
 twitch.tv##a[href$="twitch.tv"][target="_blank"]
 twitch.tv##+js(twitch-videoad)
 twitch.tv##+js(aopw, importScripts)
