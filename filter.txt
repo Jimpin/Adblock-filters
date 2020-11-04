@@ -8097,26 +8097,7 @@ redirect.
 /\:\/\/[a-z0-9]{5,32}\.(bid|com)\/[0-9]{2,9}\.css$/$stylesheet,3p
 /\:\/\/[a-z0-9]{5,40}\.com\/[0-9]{2,9}\/$/$script,stylesheet,xhr,3p
 /\:\/\/[a-z0-9]{5,}\.com\/[A-Za-z0-9]{3,}\/$/$script,xhr,3p
-/(\W|_)[0-9]*(ads?|adv|banners?)(\W|_)*(88x31|100x28|100x70|120x60|120x90|120x240|120x600|125x125|160x600|180x150|200x200|300x50|300x60|300x250|300x300|300x600|320x50|336x280|350x250|720x300|728x90)[a-z]*(\W|_)/$~stylesheet
-/(\W|_)[0-9]*(advanced|advice|ajax|anchored|article|api|applet|async|auto|background|banners?|beacons?|bing|blogs?|book|boost|bottom|box|brand|buny|cache|cam|carousel|commercial|common|community|companion|components?|content|contextual|contrib|cookies?|core|counters?|covers?|custom|default|deliver|deploy|dfp|display|door|downloads?|dynamic|event|evil|expanding|external|facebook|featured|files?|flash|float(er|ing)?|footers?|generic|get|global|head(ers?)?|holiday|home|house|html|iframes?|imgs?|images?
-/(\W|_)(ads?|api|jquery|js|plugins?)(\W|_)dfp(\W|_)/$~stylesheet
-/(\W|_)adsense(\W|_)*(manager|widget)?(\W|_)/$~stylesheet
-/(\W|_)google(\W|_)*(ads?|adsense|adservices?|afd|analyticator|analytics?|dfp|remarketing)(\W|_)/$~stylesheet
-/(\W|_)onesignal(base|include|service|tracking)?(\W|_)/$~stylesheet
-/(\W|_)s[-_.]redirect[0-9]*(\W|_)/
-/(\W|_)((app|apple|google|play|windows)[-_]?store|google[-_]?play|android|app|ios)(\W|_)*(badges?|promos?|promotions?)(\W|_)/$~stylesheet
-/(\W|_)(badges?|banners?|promos?|promotions?)(\W|_)*((app|google|play|windows)[-_]?store|google[-_]?play|android|ios|itunes)(\W|_)/$~stylesheet
-/(\W|_)get[-_.]?(adobe[-_.]?(flash|reader)|flash[-_.]?player|ios[-_.]?app)(\W|_)/$~stylesheet
-/(\W|_)eu[-_]?cookie[-_]*(laws?)?[0-9]*(\W|_)/$~stylesheet
-/(\W|_)cookies?(\W|_)*disabled(\W|_)/$~stylesheet
-/(\W|_)(cgi[-_]?bin|hits?|increment|pagevisit|pixels?|show|stats?|views?|visit)(\W|_)*count(ers?)?[0-9]*(\W|_)/$~stylesheet
-/(\W|_)click(\W|_)*(logging|metrics|streams?|track(ers?|ing)?)[0-9]*(\W|_)/$~stylesheet
-/(\W|_)follow(\W|_)*(bar|btns?|buttons?|icn|icos?|icons?|logos?|me|popins?|popovers?|popunders?|popups?|sprites?|us)[0-9]*(\W|_)/$~stylesheet
-/(\W|_)tracking(\W|_)*(analytics?|banners?|enabled|min|pixels?|scripts?|server?|widgets?)[0-9]*(\W|_)/$~stylesheet
-/(\W|_)(commercial|logos?|mobile|partners?|share|thirsty)[0-9]*(\W|_)*affiliates?[0-9]*(\W|_)/$~stylesheet
-/(\W|_)affiliates?(\W|_)*(ads?|banners?|code|frame|icons?|id|impressions?|links?|marketing|partners?|program|promos?|tag|track(ers?|ing)?|widgets?)[0-9]*(\W|_)/$~stylesheet
-/(\W|_)advert(is(e|ements?|ers?|ing)?|orial|s)?[0-9]*(\W|_)/$~stylesheet
-/(\W|_)coin(\W|_)*hive[0-9]*(\W|_)/$script,~stylesheet
+/(\W|_)coin(\W|_)*hive[0-9]*(\W|_)/$all
 /icon?feed_id=*&hash=*.jpg$image
 /metrics/save.img?event=impressions&bid_id=*.jpg$image
 /naimg/*.jpg$image
@@ -9925,6 +9906,7 @@ photobucket.com#@#[id*="Preload"]
 ||alfasense.com^$xhr
 ||exchange.buzzoola.com^$xhr
 /system/context.js$script
+/error.png$image
 
 @@||pinterest.com^$image
 
@@ -10009,17 +9991,3 @@ photobucket.com#@#[id*="Preload"]
 *$xhr,redirect-rule=nooptext
 *$media,redirect-rule=noopmp3-0.1s
 *$media,redirect-rule=noopmp4-1s
-
-/error.png$image
-/config*$image,css,frame,3p
-/pages*$xhr,frame,3p
-/web*$script,frame,3p
-/view*$3p
-/wiki*$3p
-/article*$3p
-/data*$3p
-/menu*$3p
-/ajax*$3p
-/resources/*$3p
-/custom*$3p
-/validator*$3p
