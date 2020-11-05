@@ -1187,12 +1187,12 @@ viafree.se##[id="linkTag2"]
 viafree.se##[class="cta-overlay vjs-hidden"]
 viafree.se##.avodp.pause-ad-showing .vjs-progress-control, .avodp.ad-playing .vjs-progress-control:style(display: initial !important;)
 viafree.se##.SliderBlock_background_continueWatching.SliderBlock_background
-@@||fwmrm.net/ad/$domain=viafree.se
-@@||fwmrm.net/crossdomain.xml$xmlhttprequest
-||freewheel-mtgx-tv.akamaized.net/*.mp4$media,important
+@@||fwmrm.net/ad/$image
+@@||fwmrm.net/crossdomain.xml$xhr
+||freewheel-mtgx-tv.akamaized.net^$image,media
+||fwmrm.net/$image
 ||viafree.se/collect$important
 ||client-stream-events.mtg-api.com^$domain=viafree.se
-||fwmrm.net^$image,important
 ||fwmrm.net/*/mtg_play_flash/linktag2.js$script
 ||2mdn.net/videoplayback^$media,redirect-rule=noopmp3-0.1s
 ||cdn.ravenjs.com^$script,domain=viafree.se
