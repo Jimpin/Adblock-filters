@@ -1187,7 +1187,7 @@ viafree.se##[id="linkTag2"]
 viafree.se##[class="cta-overlay vjs-hidden"]
 viafree.se##.avodp.pause-ad-showing .vjs-progress-control, .avodp.ad-playing .vjs-progress-control:style(display: initial !important;)
 viafree.se##.SliderBlock_background_continueWatching.SliderBlock_background
-@@||fwmrm.net/ad/$image
+@@||fwmrm.net/ad/$image,xhr
 @@||fwmrm.net/crossdomain.xml$xhr
 ||freewheel-mtgx-tv.akamaized.net^$image,media
 ||fwmrm.net/$image
@@ -7873,7 +7873,6 @@ dirdamid.com##a[href$=".html"]
 ||slot-v-casinoclub.com^
 ||azartcasinogames.club^
 ||slotv-777.club^
-||*/ad/$3p
 ||*/lola-ad-campaign*.jpg$image
 ||cloudfront.net/deploy/
 ||slotvemail.club^
