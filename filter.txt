@@ -213,7 +213,8 @@ twitch.tv##+js(aopw, importScripts)
 @@||twitch.tv$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' wss: blob: *.twitch.tv google.com gstatic.com *.jtvnw.net *.ttvnw.net *.twitchcdn.net recaptcha.net *.amazon-adsystem.com twitch.tv&ex-hargs
 ||amazon-adsystem.com/*/apstag.js$script,important,domain=twitch.tv
 ||ad.doubleclick.net/ddm/ad/*/*/*'/;ord='*$important
-||spade.twitch.tv^$important
+||countess.twitch.tv^
+||spade.twitch.tv^
 ||sentinel.twitchsvc.net/error-report
 
 #Instagram.com
@@ -9732,7 +9733,6 @@ photobucket.com#@#[id*="Preload"]
 ://adserve.$important
 ://srv.$important
 ://serve.$important
-://p.$3p
 ://ice.$important
 ://stats.$important
 ://wsp.$important
