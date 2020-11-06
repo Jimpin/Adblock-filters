@@ -199,8 +199,6 @@ twitch.tv##.extension-taskbar
 twitch.tv##.player .invisible
 twitch.tv##.player-play-overlay
 twitch.tv##.player-advertisement, .player-video object
-twitch.tv##+js(set-constant.js, blockDetector.detected, false)
-twitch.tv##+js(set-constant.js, twitch-videoad, false)
 twitch.tv##+js(set-constant.js, server_ads, false)
 twitch.tv##+js(set-constant.js, adblock, false)
 twitch.tv##+js(acis, twitch-videoad.js)
@@ -214,7 +212,6 @@ twitch.tv##+js(aopw, importScripts)
 @@||wss://pubsub-edge.twitch.tv
 ||twitch.tv$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' wss: blob: *.twitch.tv google.com gstatic.com *.jtvnw.net *.ttvnw.net *.twitchcdn.net recaptcha.net *.amazon-adsystem.com twitch.tv&ex-hargs
 ||amazon-adsystem.com/*/apstag.js$script,important,domain=twitch.tv
-||trowel.twitch.tv/?data=[base64string]
 ||ad.doubleclick.net/ddm/ad/*/*/*'/;ord='*$important
 ||custos.twitchcdn.net/v1.js$script,important
 ||spade.twitch.tv^$important
@@ -9801,8 +9798,6 @@ photobucket.com#@#[id*="Preload"]
 *##+js(abort-current-inline-script.js, document.createElement, jsc.mgid.com)
 *##+js(set, AdController, noopFunc)
 *##+js(set, ClickUnder, noopFunc)
-*##+js(set, showBlockIf, noopFunc)
-*##+js(set, _pop, noopFunc)
 ###block-onscroll-onscroll
 ##li[data-test-id="infinite-scroll-AD"]
 ##li[data-test-id="infinite-scroll-PENCIL"]
@@ -9870,6 +9865,7 @@ photobucket.com#@#[id*="Preload"]
 *##[class="js sp-message-open"]:style(position: inherit !important;)
 *##.is-showing.has-noScroll.modal:style(display: none !important;)
 *##.disabled-vscroll:style(overflow: auto !important;)
+*##[class="sp-message-open"]:style(position: unset !important;)
 
 *.me##+js(noeval-if, href)
 *##.in.fade.modal-backdrop
@@ -9886,6 +9882,8 @@ photobucket.com#@#[id*="Preload"]
 ##[class="alert-banner js-alert-banner"]
 ##[class="alert-banner__content padded-content"]
 
+##[src*="/cse.js?"]
+##[type="text/javascript"][src*="/recaptcha__en.js"]
 ##.iubenda-cs-content
 ###twt
 ###fbh
