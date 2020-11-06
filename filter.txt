@@ -214,7 +214,6 @@ twitch.tv##+js(aopw, importScripts)
 ||amazon-adsystem.com/*/apstag.js$script,important,domain=twitch.tv
 ||ad.doubleclick.net/ddm/ad/*/*/*'/;ord='*$important
 ||spade.twitch.tv^$important
-||polyfill.twitchsvc.net^$script,important
 ||sentinel.twitchsvc.net/error-report
 
 #Instagram.com
