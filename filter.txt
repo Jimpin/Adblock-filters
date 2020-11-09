@@ -2047,6 +2047,7 @@ dirdamid.com##a[href$=".html"]
 ###acceptCookie:not(body):not(html)
 ##.cookieBanner:not(body):not(html):not(#sprd-main)
 ###gdpr:not(body):not(html):not(input)
+##.cc-banner.cc-bottom:not(body):not(html)
 ##.native-ad
 ##.native-ad-container
 ##.native-ad-item
@@ -2309,6 +2310,7 @@ dirdamid.com##a[href$=".html"]
 ##.ad_bigbox
 ##[href^="https://www.000webhost.com/"]
 ##.closeAdBlock
+##.adtrue-holder:not(body):not(html)
 ###AdFloater
 ###bottomDisplayAd
 ###mainDisplayAd
@@ -7519,6 +7521,10 @@ dirdamid.com##a[href$=".html"]
 ||connectioncdn.com^$important
 ||myornamenti.com^$popup,important
 ||ws.sharethis.com^
+||speedsagesleepy.com^
+||nunhoefey.com^
+||onmarshtompor.com^
+||louchees.net^
 ||collector.schibsted.io^
 ||static.adfarm1.adition.com^
 ||imagesrv.adition.com^
@@ -7608,6 +7614,7 @@ dirdamid.com##a[href$=".html"]
 ||dskrt.net^
 ||bodaybo.net^
 ||adlabs.ru^
+||mathtag.com^
 ||mixmarket.biz^
 ||x7xirtzmot.com^$important
 ||hyphenion.com^$important
@@ -8087,6 +8094,7 @@ redirect.
 /click?pid=*
 /async/ads-
 /asyncadload.
+/1clkn/*^$3p
 /\.com\/[0-9a-z]{2}\/[0-9a-z]{2}\/[0-9a-z]{2}\/[0-9a-z]{32}\.js/$script,3p
 /\:\/\/data.*\.com\/[a-zA-Z0-9]{30,}/$xhr,3p
 /\:\/\/[a-z0-9]{5,32}\.(bid|com)\/[0-9]{2,9}\.css$/$stylesheet,3p
@@ -8572,6 +8580,7 @@ redirect.
 /svvt/*
 /hover?
 /add/*
+/piwik.js
 /anti-ad-buster.js
 /include/js/ga-
 /includes/analytics.
@@ -9833,7 +9842,6 @@ photobucket.com#@#[id*="Preload"]
 *##a[href*="/premium/erbjudanden/"]
 *##a[href*="/rabattkod"]
 *##a[href*="/rabattkoder"]
-*##a[href*="/spela"]
 *##a[href*="/clk."]
 *##a[href*="/privacy."]
 *##a[href*="/AdwdGn/"]
