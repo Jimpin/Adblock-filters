@@ -137,11 +137,9 @@ iframe*$popup
 ###popup_domination_lightbox_wrapper
 ###popupadunit
 ##.in.top.fade.popover
-###popover
 ##[id*="Popup_Block"]
 ##[id*="popup_block"]
 ##li[class="ad-widget"]
-##div[id*="Popup"]
 ##div[id="wptouch-head" class="metabox-holder"]
 ##div[id="stay_connected"]
 ##div[id="pw-footer"]
