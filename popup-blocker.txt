@@ -15,7 +15,6 @@
 /popup7*^$popup,popunder,important
 /popup8*^$popup,popunder,important
 /popup9*^$popup,popunder,important
-*$popunder,3p
 |javascript:*setTimeout$popup
 |javascript:*window.location$popup
 |blob:$popup
