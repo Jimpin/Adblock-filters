@@ -7746,6 +7746,7 @@ dirdamid.com##a[href$=".html"]
 ||adexc.net^
 ||pascal5.science^
 ||exchange.buzzoola.com/adv/*
+||instana.io^$3p
 ||amazonaws.com/*.js$script,3p
 ||disqus.com/count.js$script
 ||disqus.com/embed.js$script
@@ -9843,7 +9844,6 @@ photobucket.com#@#[id*="Preload"]
 *##a[href*="/rabattkod"]
 *##a[href*="/rabattkoder"]
 *##a[href*="/clk."]
-*##a[href*="/privacy."]
 *##a[href*="/AdwdGn/"]
 *##a[href*="/track."]
 *##a[href*="/tracker."]
@@ -9943,7 +9943,7 @@ photobucket.com#@#[id*="Preload"]
 *##+js(abort-on-property-read, AdDelivery.prototype.requestTrafficJunkyAds)
 *##+js(abort-on-property-read.js, _goat)
 *##+js(aopr, ExoLoader.serve)
-*##iframe[src*="/ads-iframe-display.php"]
+*##iframe[src*="/ads-iframe"]
 *##iframe[src*="https://pc.html"]
 ###main-nav > li > a[rel="nofollow noopener"][onclick^="pageTracker"]
 ##div[id*="ScriptRootC"]
