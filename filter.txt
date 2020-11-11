@@ -890,7 +890,7 @@ nyafilmer.*##.gameofthrones
 nyafilmer.*##.noselect.tab-buttons
 nyafilmer.*##[class="headerSpace"]
 nyafilmer.*##.video-container > .side-info
-nyafilmer.*#@#body:style(overflow: auto !important)
+nyafilmer.*#@#body:style(overflow: auto !important;)
 @@||nyafilmer.*/wp-includes/js/*$script,1p
 @@||nyafilmer.*/wp-content/themes/keremiya1/js/gallery.min.js$script,1p
 @@||nyafilmer.*/wp-content/themes/keremiya1/js/postTabs.min.js$script
@@ -9863,11 +9863,9 @@ photobucket.com#@#[id*="Preload"]
 *##+js(aopr, __ads)
 *##+js(acis, document.querySelector, adblock)
 *##+js(nostif, warn)
-*##html:style(filter: none !important)
+*##html:style(filter: none !important;)
 *##html:style(overflow-y: auto !important;)
-*##html:style(overflow-x: hidden !important;)
 *##style:(overflow-y: overlay !important;)
-*##style:(overflow-x: hidden !important;)
 *##[class="js sp-message-open"]:style(position: inherit !important;)
 *##.is-showing.has-noScroll.modal:style(display: none !important;)
 *##.disabled-vscroll:style(overflow: auto !important;)
