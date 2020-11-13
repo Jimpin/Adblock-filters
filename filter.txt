@@ -2507,7 +2507,6 @@ dirdamid.com##a[href$=".html"]
 ##.fbar
 ###taw
 ##.consent
-##.consent-banner:contains(cookies)
 ##div.skiptranslate:nth-of-type(1)
 ##div.afs_ads
 ##[class="ad-marker"]
@@ -9950,6 +9949,7 @@ photobucket.com#@#[id*="Preload"]
 *##+js(aopr, ExoLoader.serve)
 *##iframe[src*="/ads-iframe"]
 *##iframe[src*="https://pc.html"]
+*##.consent-banner:contains(cookies)
 ###main-nav > li > a[rel="nofollow noopener"][onclick^="pageTracker"]
 ##div[id*="ScriptRootC"]
 ##.video_ad
