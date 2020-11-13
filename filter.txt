@@ -891,7 +891,6 @@ nyafilmer.*##.noselect.tab-buttons
 nyafilmer.*##[class="headerSpace"]
 nyafilmer.*##.video-container > .side-info
 nyafilmer.*#@#body:style(overflow: auto !important;)
-nyafilmer.*#@#html:style(overflow-y: auto !important;)
 @@||nyafilmer.*/wp-includes/js/*$script,1p
 @@||nyafilmer.*/wp-content/themes/keremiya1/js/gallery.min.js$script,1p
 @@||nyafilmer.*/wp-content/themes/keremiya1/js/postTabs.min.js$script
@@ -9939,6 +9938,7 @@ photobucket.com#@#[id*="Preload"]
 *##+js(aopr, jwplayer.utils.Timer)
 *##+js(abort-on-property-write.js, spot)
 *##+js(aopr, VAST)
+*##+js(abort-on-property-read, S9tt)
 *##+js(set, clientSide.adbDetect, null)
 *##+js(abort-on-property-read, zone_2547)
 *##+js(abort-on-property-read, AdDelivery.prototype.requestTrafficJunkyAds)
