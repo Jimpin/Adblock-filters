@@ -206,7 +206,7 @@ twitch.tv##+js(acis, blockDetector.detected, true)
 twitch.tv##a[href$="twitch.tv"][target="_blank"]
 twitch.tv##+js(twitch-videoad)
 twitch.tv##+js(aopw, importScripts)
-/\/[a-z0-9_-]{15,}\.[a-z0-9-]+\.[a-z]{2,}\/.*?\w{40,}/$domain=twitch.tv
+/\/[a-z0-9_-]{15,}\.[a-z0-9-]+\.[a-z]{2,}\/.*?\w{40,}/$script,3p,domain=twitch.tv
 @@||twitch.tv/videos/*$csp
 @@||irc-ws.chat.twitch.tv^$websocket,first-party
 @@||wss://pubsub-edge.twitch.tv
@@ -2507,6 +2507,7 @@ dirdamid.com##a[href$=".html"]
 ##.fbar
 ###taw
 ##.consent
+##.consent-banner:contains(cookies)
 ##div.skiptranslate:nth-of-type(1)
 ##div.afs_ads
 ##[class="ad-marker"]
@@ -9611,8 +9612,8 @@ popuper.js^
 */redirect.aspx?
 *$popup,3p,domain=gomovies.sc|fmovies.to|openload.co
 /ad.js$script
-/http*0-9.com:\/\/.*/$third-party,popup
-/\/t[a-f0-9]{10,13}$/$third-party,popup
+/http*0-9.com:\/\/.*/$3p,popup
+/\/t[a-f0-9]{10,13}$/$3p,popup
 
 ||facebook.com^$3p,domain=nyafilmer.vip|swesub.net|gomovies.sc|fmovies.to|openload.co
 ||connect.facebook.net/signals/*$script
@@ -9824,7 +9825,7 @@ photobucket.com#@#[id*="Preload"]
 /afu.*/$3p
 /apu.*/$3p
 /ntfc.*/$3p
-/adca.*/$3p
+/loadCastFramework*/$3p
 /splash.*/$important
 /genads.*/$important
 /next.*/$popup
