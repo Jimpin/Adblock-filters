@@ -9810,14 +9810,17 @@ photobucket.com#@#[id*="Preload"]
 ##li[data-test-id="infinite-scroll-AD"]
 ##li[data-test-id="infinite-scroll-PENCIL"]
 
-/\.cloudfront.*\/\?.*[a-zA-Z0-9]{5,16}/$script,3p
+/\.cloudfront.*\/\?.*[a-zA-Z0-9]{5,16}/$script,3p,important
+/\.cloudfront.*/$xhr,3p
+/\.amazonaws.*/$xhr,3p
 .googletagmanager.*/$3p
 .histats.*/$script,important
 .adskeeper.*/$script,important
 .addthis.*/$script,important
 .mgid.*/$important
 .scund*/$important
-/jssdks.*$xhr
+/?acncd*$important
+/jssdks.*$3p
 /afu.*/$3p
 /apu.*/$3p
 /ntfc.*/$3p
