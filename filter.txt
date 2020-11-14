@@ -9810,8 +9810,7 @@ photobucket.com#@#[id*="Preload"]
 ##li[data-test-id="infinite-scroll-AD"]
 ##li[data-test-id="infinite-scroll-PENCIL"]
 
-/\.cloudfront.*\/\?.*[a-zA-Z0-9]{5,16}/$script,3p,important
-/\.cloudfront.*/$xhr,3p
+/\.cloudfront.*\/\?.*[a-zA-Z0-9]{5,16}/$script,3p
 /\.amazonaws.*/$xhr,3p
 .googletagmanager.*/$3p
 .histats.*/$script,important
@@ -9868,7 +9867,6 @@ photobucket.com#@#[id*="Preload"]
 *##+js(nostif, warn)
 *##html:style(filter: none !important;)
 *##html:style(overflow-y: auto !important;)
-*##body:style(overflow: auto !important;)
 *##body:style(overflow-y: auto !important;)
 *##style:(overflow-y: overlay !important;)
 *##[class="js sp-message-open"]:style(position: inherit !important;)
