@@ -12,6 +12,7 @@ aftonbladet.se##a[href*="/tv/"]:has(span:has-text(/studio oddset/i)):upward(1)
 aftonbladet.se##a[href*="/relationer/"]
 aftonbladet.se##.svp-sponsor-label
 aftonbladet.se###outsider
+aftonbladet.se##.outerContainer
 aftonbladet.se###MegaAd
 aftonbladet.se##+js(nosiif, e.ping())
 aftonbladet.se##+js(nosiif, e.reportVisibility())
@@ -48,17 +49,15 @@ aftonbladet.se##[class="AxIVT"]
 aftonbladet.se##[data-invcode*="se-aftonbladet-"]
 aftonbladet.se##[rahrefbattkod=""]
 aftonbladet.se##[class="svp-player-recommended-box"]
-aftonbladet.se##article:has(a[data-sponsored="true"])
-aftonbladet.se##div[data-reactroot] > div > div#MegaAd ~ div[class]:not(#header):not(.abThemeGradientPage)
 aftonbladet.se##.abAside > div[style^="text"]:last-child
 aftonbladet.se##[id^="innerabAdArea-"]
 aftonbladet.se##.ab-responsive-ads-wrapper
 aftonbladet.se##.share-icons
 aftonbladet.se##.social-shares
-aftonbladet.se##.outerContainer
 aftonbladet.se##[href="/kampanj/casinoguide"]
 aftonbladet.se##a[href*="/"]:has-text(Casino)
 aftonbladet.se##a[href*="?utm_source=aftonbladet&utm_medium=textlink&utm_campaign=widget"]
+aftonbladet.se#@#div[data-reactroot] > div > div#MegaAd ~ div[class]:not(#header):not(.abThemeGradientPage)
 acast.com##[alt="Advertisement"]
 acast.com##[data-test-id="AirTimeAdControls__CountDown"]
 acast.com##[data-test-id="Link"]
