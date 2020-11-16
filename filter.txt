@@ -9614,9 +9614,8 @@ popuper.js^
 /http*0-9.com:\/\/.*/$3p,popup
 /\/t[a-f0-9]{10,13}$/$3p,popup
 
-||facebook.com^$3p,domain=nyafilmer.vip|swesub.net|gomovies.sc|fmovies.to|openload.co
 ||connect.facebook.net/signals/*$script
-||graph.facebook.com^$important
+||graph.facebook.com^
 /ping?client_id=
 /jsonp.php?b=*
 /?*=:&ids=*&r=
@@ -9676,14 +9675,11 @@ popuper.js^
 
 ##[onclick="highlight(this);"]
 ##[onclick="triggerGatewayModal(event);"]
-##[href*="http://acast.deliveryengine.adswizz.com/"]
-##[src*="//acast.deliveryengine.adswizz.com/"]
-##[src*="//utarget.pro/is_clickunder/"]
-##[src*="//utarget.ru/ads.js"]
-##[src*="https://xml.adbetnet.com/libs/b.js"]
-##[src*="https://adbetnet.advertserve.com/js/libcode3.js"]
-##[src*="//cdn.popcash.net/pop.js"]
-##[src*="//primevideo.com/"]
+##[src*="/is_clickunder"]
+##[src*="/b.js"]
+##[src*="/js/libcode3.js"]
+##[src*="/cdn.popcash.net/pop.js"]
+##[src*="/primevideo.com/"]
 ##[href*="//bwaab."]
 ##[class=glx-image]
 ###videoadv
