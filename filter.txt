@@ -428,7 +428,7 @@ google.*###rhs_block
 ##.googlepostads
 ##.googlepublisherads
 ##.googley_ads
-||google.*^$csp_report
+||google.*^$csp
 
 #Tv4play.se
 tv4.se##.program-header-sponsors 
@@ -898,7 +898,6 @@ nyafilmer.*#@#body:style(overflow: auto !important)
 @@||nyafilmer.*/wp-content/themes/keremiya1/images/tr-flag.png
 @@||api.peer5.com$script,domain=jawcloud.co
 @@||*.com^$first-party,inline-script,domain=jawcloud.co
-||*.wp.com/*/branding/*$important
 ||nyafilmer.*/sw_*.js$script,1p
 ||nyafilmer.*/u*.js$script,1p
 ||nyafilmer.*/*.gif$image
@@ -969,6 +968,7 @@ jawcloud.co##^script:has-text(Inject=!)
 /index.css?^$third-party
 /ads.js?
 ?excludes=^#xhr
+.wp.com/*/branding/*$important
 ##[id="keremiya-js-extra"]
 ##[id="hcaptcha-script-js"]
 *##a[href*="/engine."]
@@ -1682,8 +1682,6 @@ viduplayer.*##[href$=".html"]
 ##[href="https://jwplayer.com/learn-more"]
 ##[class="app-download"]
 ##[id="MG_ID"]
-##?.fb-page??
-##?.fb-like
 ##[class="custom_loading_sign"]
 ##[class="adtimes"]
 ##[class="linkads"]
@@ -1909,7 +1907,7 @@ dirdamid.com##a[href$=".html"]
 ##[class="active_peer"]
 ##[class="count_peer"]
 ##[class="small-info"]
-##[class="dropdownTrigger]
+##[class="dropdownTrigger"]
 ##[class="marker-overlays js-noFade"]
 ##[class="iconSphere"]
 ##[class="close"]
@@ -2526,7 +2524,7 @@ dirdamid.com##a[href$=".html"]
 ##[class="pop-wrap"]
 ##[class="pop-main"]
 ##[class="pop-block"]
-##[class="pop-html">
+##[class="pop-html"]
 ##[id="postroll"]
 ##[class="sad-face"]
 ##[class="pop-block pop-border"]
@@ -6755,7 +6753,7 @@ dirdamid.com##a[href$=".html"]
 ##[href^="//db52cc91beabf7e8.com/"]
 ##[href^="//z6naousb.com/"]
 ##[href^="//000webhost.com/"]
-##[href*="/wp-admin/admin-ajax.php]
+##[href*="/wp-admin/admin-ajax.php"]
 ##[href*="/Click/"]
 ##[href*="/click/"]
 ##[href*="/link/?"]
@@ -8383,7 +8381,8 @@ redirect.
 /abtest_ab.js
 /ad-blocker.js
 /ad-blocking-alert/*
-/adb.min.js /adb_detector.
+/adb.min.js
+/adb_detector.
 /*adblock*.js$script
 /*adblock*/*.js$script
 /ad-blocking-advisor/*
@@ -9865,13 +9864,10 @@ photobucket.com#@#[id*="Preload"]
 *##html:style(filter: none !important;)
 *##html:style(overflow-y: auto !important;)
 *##body:style(overflow-y: auto !important;)
-*##style:(overflow-y: overlay !important;)
 *##[class="js sp-message-open"]:style(position: inherit !important;)
 *##.is-showing.has-noScroll.modal:style(display: none !important;)
 *##.disabled-vscroll:style(overflow: auto !important;)
 *##[class="sp-message-open"]:style(position: unset !important;)
-
-*.me##+js(noeval-if, href)
 *##.in.fade.modal-backdrop
 *##a[onclick="closeMyAd()"]
 *##a[onclick="rdr(this);"]
