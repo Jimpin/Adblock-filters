@@ -209,7 +209,7 @@ twitch.tv##+js(aopw, importScripts)
 @@||twitch.tv/videos/*$csp
 @@||irc-ws.chat.twitch.tv^$websocket,first-party
 @@||wss://pubsub-edge.twitch.tv
-@@||twitch.tv$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' wss: blob: *.twitch.tv google.com gstatic.com *.jtvnw.net *.ttvnw.net *.twitchcdn.net recaptcha.net *.amazon-adsystem.com twitch.tv&ex-hargs
+||twitch.tv$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' wss: blob: *.twitch.tv google.com gstatic.com *.jtvnw.net *.ttvnw.net *.twitchcdn.net recaptcha.net *.amazon-adsystem.com twitch.tv&ex-hargs
 ||amazon-adsystem.com/*/apstag.js$script,important,domain=twitch.tv
 ||ad.doubleclick.net/ddm/ad/*/*/*'/;ord='*$important
 ||countess.twitch.tv^
@@ -7757,6 +7757,7 @@ dirdamid.com##a[href$=".html"]
 ||typekit.net^
 ||xtendmedia.com^
 ||bugsnag.com^$3p
+||app.link^$3p
 ||m73lae5cpmgrv38.com^
 ||franecki.net^
 ||reichelcormier.bid^
@@ -7774,13 +7775,13 @@ dirdamid.com##a[href$=".html"]
 ||promos.bwin.com^
 ||speednetwork14.adk2x.com^
 ||exdynsrv.com^$important
-||best-prizes-now.*^
+||best-prizes-now.*
 ||swesomepop.com^
 ||linkonclick.com^$important
-||yandex.^/jstracer
-||adfox.^$3p
+||yandex.*/jstracer
+||adfox.*$3p
 ||live-stream365.com/uuusausa.js$script
-||utarget.^
+||utarget.*
 ||trafficdok.com^
 ||kursatarak.com^
 ||yastatic.net^
