@@ -525,6 +525,7 @@ youtube.com##.page-loaded
 ||youtube.com/get_midroll_info$important
 *_ad_$media,redirect-rule=noopmp3-0.1s
 ||google.*/jsapi?autoload=*$script
+||gstaticadssl*.google.com^$font,3p
 ||gstatic.com/inputtools/images/*$image,important
 ||static.doubleclick.net/instream/ad_status.js$script,redirect-rule=noopjs
 ||google.com/generate_204$image
