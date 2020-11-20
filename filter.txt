@@ -878,7 +878,6 @@ nyafilmer.*##[class="bigbg"]
 nyafilmer.*##.fb-xfbml-parse-ignore
 nyafilmer.*##.sort.tags > .title
 nyafilmer.*##[type="text/javascript"][src*=".js"]
-nyafilmer.*##^script:has-text(var offtop=0;var sticky_sidebar=true;)
 nyafilmer.*##[class="clear"]
 nyafilmer.*##[class="disqus_section"]
 nyafilmer.*##[class="iframeInfo"]
@@ -1746,6 +1745,10 @@ moviesjoy.*###pc-comment
 moviesjoy.*###pc-share
 moviesjoy.*###pop-share
 moviesjoy.*###film_comments
+moviesjoy.*###gift-top
+moviesjoy.*##.text-home-main
+moviesjoy.*##.show.modalshare-1.premodal-share.premodal.modal
+moviesjoy.*##.show.modal-backdrop
 moviesjoy.*##[class="follow"]
 vcstream.*##.pub_300x250.pub_300x250m.pub_728x90.text-ad.textAd.text_ad.text_ads.text-ads.text-ad-links:style(display:block!important;)
 vcstream.*##[href$=".html"]
