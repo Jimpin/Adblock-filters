@@ -190,11 +190,16 @@ twitch.tv##+js(nostif, /[a-z]{0}/, 200)
 twitch.tv##[data-a-target=prime-offers-icon]
 twitch.tv##[data-a-target=try-prime-link]
 twitch.tv##.prime-offers__pill
-twitch.tv##.tw-mg-t-5.tw-absolute.onsite-notifications-toast-manager
+twitch.tv##.blue-bar.c-text.full-width
+twitch.tv##.twilight-root .toast-manager__container
+twitch.tv##main.tw-flex > div[class]:not([data-test-selector]) > div[data-test-selector="test_selector_prime_tracking_button_wrapper"]
 twitch.tv##[class="tw-align-items-center tw-border-radius-medium tw-c-background-base tw-flex tw-flex-column tw-justify-content-center tw-pd-t-1"]
 twitch.tv##.recommended-channels
 twitch.tv##.pl-age-restriction-overlay.pl-age-restriction-overlay--wall.player-overlay
 twitch.tv##.extension-taskbar
+twitch.tv##.noty_bar
+twitch.tv###noty_bottomCenter_layout_container
+twitch.tv##.side-info-container
 twitch.tv##.player .invisible
 twitch.tv##.player-play-overlay
 twitch.tv##.player-advertisement, .player-video object
@@ -891,8 +896,6 @@ nyafilmer.*##[class="headerSpace"]
 nyafilmer.*##.video-container > .side-info
 nyafilmer.*#@#body:style(overflow: auto !important)
 @@||nyafilmer.*/wp-includes/js/*$script,1p
-@@||nyafilmer.*/wp-content/themes/keremiya1/js/gallery.min.js$script,1p
-@@||nyafilmer.*/wp-content/themes/keremiya1/js/postTabs.min.js$script
 @@||nyafilmer.*/wp-content/uploads/*/*/ad.jpg
 @@||nyafilmer.*/wp-content/themes/keremiya1/images/tr-flag.png
 @@||api.peer5.com$script,domain=jawcloud.co
@@ -2599,6 +2602,7 @@ dirdamid.com##a[href$=".html"]
 ##.grv_is_sponsored
 ##.gsAd
 ##.gsfAd
+##.gsInformer
 ##.gsl-ads
 ##.gt_ad
 ##.gt_ad_300x250
@@ -8152,11 +8156,12 @@ redirect.
 /icon-twitter.
 /icon-rss.
 /captcha.php?
-/geo.php$xmlhttprequest
+/geo.php$xhr
 /ck.php?
 /Of.asp
 /js/popup-controller.js$script
-/manifest.json$other,first-party
+/gs_informerClient.min.$3p
+/gs_informerClient.s$3p
 /xmlrpc.php
 /ads_test.js
 /publishertag.prebid.js$script
@@ -8170,6 +8175,8 @@ redirect.
 /pcode/adfox/loader.js$script
 /decript.php$xhr
 &referrer=
+&accept_cookies=
+&gdpr_consent=
 &act=ads_$script,redirect-rule=noopjs
 &ad.vid=$~xmlhttprequest
 &ad_box_
@@ -8397,6 +8404,11 @@ redirect.
 /wp-content/plugins/addthis/*$css
 /wp-content/plugins/ad-block-defender/*
 /wp-content/plugins/deadblocker/*
+/wp-content/plugins/digiproveblog/*$domain=~wordpress.org
+/wp-content/plugins/disable-right-click/*
+/wp-content/plugins/jcwp-copy-paste-blocker/*
+/wp-content/plugins/right-click-disable-orignal/*
+/wp-content/plugins/wp-content-copy-protection/assets/js/script.min.js
 /wp-content/uploads/an-temp/*$script,stylesheet
 /wp-admin/admin-ajax.php$xhr,3p
 /site/captcha?
@@ -9331,28 +9343,47 @@ supervisor/
 -ad/source/
 -ad03.
 -agree-cookies/
--social-share/
+-consent-banner-
+-consent-banner.
 -cookie-banner-
+-cookie-banner.
 -cookie-cnil.
--cookie-consent.
--cookie-consent/
+-cookie-consent-$~script
+-cookie-consent.$~script
+-cookie-consent.js
+-cookie-consent/$~script
+-cookie-dialog.
 -cookie-filter/$script
 -cookie-law-popup.
--cookie-law.$script
+-cookie-law.$~script
 -cookie-law/$script
+-cookie-manager?
 -cookie-message.js
 -cookie-msg-bar.
+-cookie-notice-
 -cookie-notice.
+-cookie-notice/
 -cookie-policy.
+-cookie-popup.
 -cookie-popup/
 -cookieconsent-
+-CookieDisclaimer-
 -CookieInfo.
 -cookiePolicy.
 -cookies-bar/
 -cookies-notice/
 -cookies-policy.
+-cookies-policy/
+-eu-cookie/$script
 -eu-cookies/$script
 -eucookie.
+-gdpr-compliance/
+-gdpr-cookie-$~script
+-gdpr-min.
+-gdpr-popup.
+-gdpr-public.
+-informativa-cookie.
+-legalconcerns_cookies.
 -privacy-cookie-
 -adblocker-detection/
 _atblockdetector/
@@ -9942,6 +9973,7 @@ photobucket.com#@#[id*="Preload"]
 *##.consent-banner:contains(cookies)
 ###main-nav > li > a[rel="nofollow noopener"][onclick^="pageTracker"]
 ##div[id*="ScriptRootC"]
+##div[id*="gsInformerID-"]
 ##.video_ad
 ###right_ad
 ###left_ad
@@ -9989,3 +10021,11 @@ photobucket.com#@#[id*="Preload"]
 *$xhr,redirect-rule=nooptext
 *$media,redirect-rule=noopmp3-0.1s
 *$media,redirect-rule=noopmp4-1s
+
+/?pu=$script,3p
+/?pus=$script,3p
+/proxy_*.php?init_widget=$script
+/proxy_*.php?init_form=$script
+/proxy_*.php?init_widget=$script
+/proxy_*.php?init_button=$script
+/proxy_*.php?p___=*&part_url=*.php?callback=
