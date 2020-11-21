@@ -8956,7 +8956,8 @@ popuper.js^
 @@||static.twitchcdn.net/assets/*$script
 @@||jawcloud.co/*/embed.js$script
 @@||api.twitter.com^$xmlhttprequest,1p
-@@||*.cloudfront.net/*$image,domain=jimpin.zapto.org
+@@||cloudfront.net/assets/*$media,3p
+@@||cloudfront.net/*$image,domain=jimpin.zapto.org
 @@||cdn.svp.schibsted.io^$script
 @@||static.xx.fbcdn.net/rsrc.php/*$script,domain=facebook.com
 @@||redirector.googlevideo.com/videoplayback$media
