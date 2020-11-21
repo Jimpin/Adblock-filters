@@ -9276,7 +9276,6 @@ photobucket.com#@#[id*="Preload"]
 ##li[data-test-id="infinite-scroll-PENCIL"]
 
 /\.cloudfront.*\/\?.*[a-zA-Z0-9]{5,16}/$script,3p
-/\.amazonaws.*/$script,3p
 .googletagmanager.*/$3p
 .histats.*/$script,important
 .adskeeper.*/$script,important
