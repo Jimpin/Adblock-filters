@@ -9289,14 +9289,13 @@ photobucket.com#@#[id*="Preload"]
 /apu.*/$3p
 /ntfc.*/$3p
 /loadCastFramework*/$3p
-/splash.*/$important
 /genads.*/$important
 /next.*/$popup
-/tuname.*/$important,popup
+/tuname.*/$important
 /puopen.*/$important
 /sw_*.js^$script
 /smpop-stable.js$script
-/privacy/notification?$xmlhttprequest
+/privacy/notification?$xhr
 /glimr.$script
 /gdpr-bundle.$script
 
@@ -9387,7 +9386,6 @@ photobucket.com#@#[id*="Preload"]
 ##.cp-modal-popup-container:remove()
 ||jwpcdn.com^/*.js$script
 */player/plugins/vast-*.js$script
-
 */jquery.magnific-popup.min.js
 
 *##+js(aopr, AdservingModule)
@@ -9445,7 +9443,6 @@ photobucket.com#@#[id*="Preload"]
 *##+js(aopr, _wm)
 *##+js(aopr, _wwwp)
 *##+js(aeld, , exoJsPop101)
-
 *##div[id*="sidebar"][data-before-content="advertisement"]:upward(3)
 
 ##.gdpr-banner

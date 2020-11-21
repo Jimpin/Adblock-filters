@@ -50,9 +50,8 @@
 &popundersPerIP=$popup
 &zoneid=*&ad_$popup
 /popunder.$all
-||popup^$inline-script.popup,popunder,3p
-||pop.*$inline-script.popup,popunder,3p
-||popup.*$inline-script.popup,popunder,3p
+||pop.*$inline-script,popup,popunder,3p
+||popup.*$inline-script,popup,popunder,3p
 -ads-campaign/$popup
 iframe*$popup
 <div class="popup"> 
@@ -60,10 +59,9 @@ iframe*$popup
 .popup
 .popups
 /popup
-/popups
 -popups
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-#Whitelisted domains                            (Adding domains here will allow all popups on that website) Add = @@$popup,domain=homepageurl.here below.
+#Whitelisted domains
 @@$popup,domain=facebook.com
 @@$popup,domain=messenger.com
 @@$popup,domain=superstart.se
@@ -382,8 +380,7 @@ _popunder+$popup
 /load?^$popup
 /fp.eng?id=$popunder
 *&action=$popup,3p
-*&utm_campaign=*-pop|$popup
-*&utm_campaign$popup,3p
+*&utm_campaign=*$popup,3p
 *&tracker_id=$popup,3p
 *=displayads&$popup
 *.html?q^$popup,3p
