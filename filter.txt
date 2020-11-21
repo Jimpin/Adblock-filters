@@ -9557,6 +9557,7 @@ popuper.js^
 @@||radar.cedexis.com^$script
 @@||cedexis.net^$css,1p
 @@||cdn.fbsbx.com^$image
+@@||pinterest.com^$image
 @@||redirect*^$xhr,media
 @@/accounts/*$popup
 @@/assets/*$script
@@ -9897,6 +9898,7 @@ photobucket.com#@#[id*="Preload"]
 *##html:style(filter: none !important;)
 *##html:style(overflow-y: auto !important;)
 *##body:style(overflow-y: auto !important;)
+*##html:style(overflow-x: hidden !important;)
 *##[class="js sp-message-open"]:style(position: inherit !important;)
 *##.is-showing.has-noScroll.modal:style(display: none !important;)
 *##.disabled-vscroll:style(overflow: auto !important;)
@@ -9937,8 +9939,6 @@ photobucket.com#@#[id*="Preload"]
 ||exchange.buzzoola.com^$xhr
 /system/context.js$script
 /error.png$image
-
-@@||pinterest.com^$image
 
 ##.light.as-oil
 ###tyche_cmp_modal
