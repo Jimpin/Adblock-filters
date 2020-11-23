@@ -10,6 +10,7 @@ aftonbladet.se##a[href*=".se/kampanj?"]:has-text(/erbjudande/i)
 aftonbladet.se##a[href*="aftonbladet.se/kampanj/artikel"]:upward(1)
 aftonbladet.se##a[href*="/tv/"]:has(span:has-text(/studio oddset/i)):upward(1)
 aftonbladet.se##a[href*="/relationer/"]
+aftonbladet.se##.sch-datacontroller--minimal.sch-datacontroller--subheader.sch-datacontroller
 aftonbladet.se##.svp-sponsor-label
 aftonbladet.se###outsider
 aftonbladet.se##.outerContainer
@@ -8584,6 +8585,7 @@ redirect.
 /?uclick=
 /redirect-ads.php
 /tc-under.min.js
+/amplitude-*.js$script
 /chrome.js$script
 /compatibility.js$script
 /_graphics/annons/*
@@ -8865,7 +8867,6 @@ named.min.js^
 vttrenderer.js^
 www-pagead-id.js^
 feed.js^
-remote.js^
 outbrain.js^
 count.js^
 webhelper.js^
