@@ -1,10 +1,10 @@
 ! Title: Jimpin's Popup-Blocker
 ! Version: 1.0
 ! Homepage http://jimpin.zapto.org/
-! License: CC BY-SA 4.0 | https://creativecommons.org/licenses/by-sa/4.0/
+! License: GPL-3.0 License | https://github.com/Jimpin/Adblock-filters/blob/master/LICENSE
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-#Popup-Blocker                                  (This Popup-Blocker will block all third-party popups, if you want to enable third-party popups on some websites you can whitelist the website below)
+#Popup-Blocker
 /popup0*^$popup,popunder,important
 /popup1*^$popup,popunder,important
 /popup2*^$popup,popunder,important
