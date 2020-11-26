@@ -9078,6 +9078,8 @@ popuper.js^
 *.com/redirect?
 *.co/ads/
 *.co/ads?
+*/sw.js$script
+*/images/reklam$image
 *.html?q^$important
 */redirect.aspx?
 *$popup,3p,domain=gomovies.sc|fmovies.to|openload.co
@@ -9108,16 +9110,8 @@ popuper.js^
 ##[src*="//imasdk.googleapis.com/"]
 ##[src*="//c.amazon-adsystem.com/"]
 ##[href*="https://cvp.twitch.tv/"]
-
 ##[src^="/ads.js?"]
 ##[id="SGPqjeEwkKBf"]
-
-||*.ltd^$popup,important
-
-||google.com/favicon.ico$popup,important
-
-/^(https?|wss?):\/\/([0-9a-z\-]+\.)?([0-9a-z\-]+\.)(accountant|bid|cf|club|cricket|date|download|faith|fun|ga|gdn|gq|loan|men|ml|network|ovh|party|pro|pw|racing|review|rocks|science|site|space|stream|tk|top|trade|webcam|win|xyz|zone)\/(.*)/$third-party,websocket
-
 ##[src*="/ad.htm"]
 ##[src*="/ad0.htm"]
 ##[src*="/ad1.htm"]
@@ -9157,6 +9151,10 @@ popuper.js^
 *#blocked$popup,third-party
 
 .now.sh$important
+*.ltd^$popup,important
+
+/^(https?|wss?):\/\/([0-9a-z\-]+\.)?([0-9a-z\-]+\.)(accountant|bid|cf|club|cricket|date|download|faith|fun|ga|gdn|gq|loan|men|ml|network|ovh|party|pro|pw|racing|review|rocks|science|site|space|stream|tk|top|trade|webcam|win|xyz|zone)\/(.*)/$third-party,websocket
+
 
 /:\/\/www\.([a-z]{6,16})\.com\/([a-z]{1,4})\.js$/$third-party,script
 /^https?:\/\/[^\/]+\/[a-zA-Z0-9]{32,}$/$third-party
@@ -9222,7 +9220,6 @@ photobucket.com#@#[id*="Preload"]
 ://sentry.$important
 ://ws.$important
 ://wchat.*^$popup,important
-
 *##+js(abort-current-inline-script.js, atob, tabunder)
 *##+js(set-constant.js, Annons, noopFunc)
 *##+js(abort-on-property-write.js, _pop)
@@ -9232,42 +9229,27 @@ photobucket.com#@#[id*="Preload"]
 *##+js(abort-on-property-write, UAParser)
 *##+js(abort-on-property-write, rAb)
 *##+js(abort-on-property-write, AdDelivery)
-
 *##[id^='adsIfrme']:has(:scope > iframe[src^='/ads/'])
 *##+js(abort-on-property-read.js, cursorAd)
 *##+js(acis, _adform)
 *##+js(acis, adformLoader)
 *##+js(acis, adformtag, push)
 *##+js(acis, headerScripts, checkAdBlockers)
-
---------------------
-
-*##+js(acis, _adftrack, push)
-*##+js(acis, twttr, trackPid)
 *##+js(acis, preLoadAds, loadAd)
 *##+js(acis, preLoadAds, setup)
 *##+js(std, onerror, 1000)
 *##+js(acis, Exp, bamData)
 *##+js(acis, losAd)
 *##+js(acis, jQuery, adscript)
-
 *##+js(acis, AdPortal)
 *##+js(set-constant.js, analyticsTrackGoogleAnalytics, noopFunc)
 *##+js(acis, AdsReloadConfig)
 *##+js(acis, phpads_deliver)
 *##+js(aopw, banner_video)
-
--------------------------------------------------
-
 *##+js(setTimeout-defuser.js, adsbygoogle, 2000)
 *##+js(acis, popunder)
 *##+js(acis, jQuery, overlay)
 *##+js(set-constant.js, checkAds, noopFunc)
-.*/sw.js$script
-.*/images/reklam$image
-
-------------
-
 *##+js(abort-on-property-write.js, importFAB)
 *##+js(abort-on-property-write.js, miner)
 *##+js(abort-current-inline-script.js, document.createElement, jsc.mgid.com)
@@ -9326,12 +9308,8 @@ photobucket.com#@#[id*="Preload"]
 *##+js(ra, data-article-tracking-info)
 *##+js(ra, data-video-tracking-info)
 *##[data-ad-client]
-
-*##+js(aopr, __ads)
-*##+js(acis, document.querySelector, adblock)
 *##+js(nostif, warn)
 *##html:style(filter: none !important;)
-*##html:style(overflow-y: auto !important;)
 *##body:style(overflow-y: auto !important;)
 *##html:style(overflow-x: hidden !important;)
 *##[class="js sp-message-open"]:style(position: inherit !important;)
