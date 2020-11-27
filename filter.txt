@@ -205,12 +205,7 @@ twitch.tv##.side-info-container
 twitch.tv##.player .invisible
 twitch.tv##.player-play-overlay
 twitch.tv##.player-advertisement, .player-video object
-twitch.tv##+js(set-constant.js, server_ads, false)
-twitch.tv##+js(set-constant.js, adblock, false)
-twitch.tv##+js(acis, twitch-videoad.js)
-twitch.tv##+js(acis, blockDetector.detected, true)
 twitch.tv##a[href$="twitch.tv"][target="_blank"]
-twitch.tv##+js(twitch-videoad)
 twitch.tv##+js(aopw, importScripts)
 /\/[a-z0-9_-]{15,}\.[a-z0-9-]+\.[a-z]{2,}\/.*?\w{40,}/$script,3p,domain=twitch.tv
 @@||twitch.tv/videos/*$csp
