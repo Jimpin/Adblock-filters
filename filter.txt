@@ -9297,14 +9297,12 @@ photobucket.com#@#[id*="Preload"]
 *##a[href*="/pre."]
 *##a[href*="/click?p="]
 *##a[href*="/create_click?partner_id="]
-
 *##+js(acis, burtSegments)
 *##+js(acis, Bau, preloadAds)
 *##+js(ra, data-ad-config)
 *##+js(ra, data-article-tracking-info)
 *##+js(ra, data-video-tracking-info)
 *##[data-ad-client]
-*##+js(nostif, warn)
 *##html:style(filter: none !important;)
 *##body:style(overflow-y: auto !important;)
 *##html:style(overflow-x: hidden !important;)
