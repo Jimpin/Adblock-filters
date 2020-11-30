@@ -2138,7 +2138,6 @@ dirdamid.com##a[href$=".html"]
 ##.adLong:nth-of-type(11)
 ##.cc-banner
 ##[id*="ScriptRoot"]
-##[id*="Preload"]
 ##[id*="MarketGid"]
 ###global-notification
 ##.as-oil-content-overlay
@@ -9082,12 +9081,10 @@ popuper.js^
 /ad.js$script
 /http*0-9.com:\/\/.*/$3p,popup
 /\/t[a-f0-9]{10,13}$/$3p,popup
-
-||connect.facebook.net/signals/*$script
-||graph.facebook.com^
-/ping?client_id=
-/jsonp.php?b=*
-/?*=:&ids=*&r=
+/:\/\/www\.([a-z]{6,16})\.com\/([a-z]{1,4})\.js$/$script,3p
+/^https?:\/\/[^\/]+\/[a-zA-Z0-9]{32,}$/$3p
+/\:\/\/[a-z0-9]{5,26}\.com\/?.*zoneid=[0-9]{7}/$3p
+/(|link)track(|ing)\.(|js)/
 
 ?adid=
 ?adpds_
@@ -9126,14 +9123,11 @@ popuper.js^
 ##[src*="https://ad."]
 ##[src*="https://ads."]
 ##[src*="http^://serve."]
-##[src*="http^://syndication."]
-
-/(|link)track(|ing)\.(|js)/			
+##[src*="http^://syndication."]			
 ##[src*="AccessLog"]			
 ##[class*="accessLog"]
 ##div[id*="accessLog"]
 ##div[class*="accessLog"]
-
 ##[onclick="highlight(this);"]
 ##[onclick="triggerGatewayModal(event);"]
 ##[src*="/is_clickunder"]
@@ -9144,24 +9138,9 @@ popuper.js^
 ##[href*="//bwaab."]
 ##[class=glx-image]
 ###videoadv
-*#blocked$popup,third-party
-
-.now.sh$important
-*.ltd^$popup,important
-
-/^(https?|wss?):\/\/([0-9a-z\-]+\.)?([0-9a-z\-]+\.)(accountant|bid|cf|club|cricket|date|download|faith|fun|ga|gdn|gq|loan|men|ml|network|ovh|party|pro|pw|racing|review|rocks|science|site|space|stream|tk|top|trade|webcam|win|xyz|zone)\/(.*)/$third-party,websocket
-
-
-/:\/\/www\.([a-z]{6,16})\.com\/([a-z]{1,4})\.js$/$third-party,script
-/^https?:\/\/[^\/]+\/[a-zA-Z0-9]{32,}$/$third-party
-/\:\/\/[a-z0-9]{5,26}\.com\/?.*zoneid=[0-9]{7}/$third-party,popup
-
 ##iframe[width="468"][height="60"]
 ##iframe[width="300"][height="250"]
 ###adbtm
-
-#Test
-photobucket.com#@#[id*="Preload"]
 ##[src="/social-box/"]
 ##[src*="/next.php"]
 ##[src*="/?yadrd="]
@@ -9225,7 +9204,6 @@ photobucket.com#@#[id*="Preload"]
 *##+js(abort-on-property-write, UAParser)
 *##+js(abort-on-property-write, rAb)
 *##+js(abort-on-property-write, AdDelivery)
-*##[id^='adsIfrme']:has(:scope > iframe[src^='/ads/'])
 *##+js(abort-on-property-read.js, cursorAd)
 *##+js(acis, _adform)
 *##+js(acis, adformLoader)
@@ -9251,9 +9229,71 @@ photobucket.com#@#[id*="Preload"]
 *##+js(abort-current-inline-script.js, document.createElement, jsc.mgid.com)
 *##+js(set, AdController, noopFunc)
 *##+js(set, ClickUnder, noopFunc)
-###block-onscroll-onscroll
-##li[data-test-id="infinite-scroll-AD"]
-##li[data-test-id="infinite-scroll-PENCIL"]
+*##+js(aopr, AdservingModule)
+*##+js(aeld, DOMContentLoaded, adlinkfly)
+*##+js(ra, href, #clickfakeplayer)
+*##+js(aopw, adcashMacros)
+*##+js(acis, document.querySelectorAll, adConfig)
+*##+js(aopr, Aloader.serve)
+*##+js(abort-current-inline-script, decodeURI, _POP)
+*##+js(aopr, jwplayer.utils.Timer)
+*##+js(abort-on-property-write.js, spot)
+*##+js(aopr, VAST)
+*##+js(abort-on-property-read, S9tt)
+*##+js(set, clientSide.adbDetect, null)
+*##+js(abort-on-property-read, zone_2547)
+*##+js(abort-on-property-read, AdDelivery.prototype.requestTrafficJunkyAds)
+*##+js(abort-on-property-read.js, _goat)
+*##+js(aopr, ExoLoader.serve)
+*##+js(nostif, /location\.replace|setRefreshAdFloat|setRotateAdSlice/)
+*##+js(nowoif, adshell)
+*##+js(aopr, _wm)
+*##+js(aopr, _wwwp)
+*##+js(aeld, , exoJsPop101)
+*##div[id*="sidebar"][data-before-content="advertisement"]:upward(3)
+*##iframe[src*="/ads-iframe"]
+*##iframe[src*="https://pc.html"]
+*##.consent-banner:contains(cookies)
+*##+js(acis, burtSegments)
+*##+js(acis, Bau, preloadAds)
+*##+js(ra, data-ad-config)
+*##+js(ra, data-article-tracking-info)
+*##+js(ra, data-video-tracking-info)
+*##[data-ad-client]
+*##html:style(filter: none !important;)
+*##body:style(overflow-y: auto !important;)
+*##html:style(overflow-x: hidden !important;)
+*##[class="js sp-message-open"]:style(position: inherit !important;)
+*##.is-showing.has-noScroll.modal:style(display: none !important;)
+*##.disabled-vscroll:style(overflow: auto !important;)
+*##[class="sp-message-open"]:style(position: unset !important;)
+*##.in.fade.modal-backdrop
+*##a[onclick="closeMyAd()"]
+*##a[onclick="rdr(this);"]
+*##a[onclick="removeOverlayHTML();"]
+*##div>a:has-text(EXTERN LÄNK)
+*##div>a:has-text(CASINOGUIDEN)
+*##div>a:has-text(ANNONS)
+*##[id^='adsIfrme']:has(:scope > iframe[src^='/ads/'])
+*#@#a[href*="/spelat"]
+*##a[href*="/betting"]
+*##a[href*="/brandstudio/a/"]
+*##a[href*="/branding"]
+*##a[href*="/casinoguide"]
+*##a[href*="/kampanj"]:has-text(/erbjudande/i)
+*##a[href*="/lanapengar"]
+*##a[href*="/premium/erbjudanden/"]
+*##a[href*="/rabattkod"]
+*##a[href*="/rabattkoder"]
+*##a[href*="/clk."]
+*##a[href*="/AdwdGn/"]
+*##a[href*="/track."]
+*##a[href*="/tracker."]
+*##a[href*="/trackers."]
+*##a[href*="/track.adtraction."]
+*##a[href*="/pre."]
+*##a[href*="/click?p="]
+*##a[href*="/create_click?partner_id="]
 
 /\.cloudfront.*\/\?.*[a-zA-Z0-9]{5,16}/$script,3p
 .googletagmanager.*/$3p
@@ -9278,52 +9318,14 @@ photobucket.com#@#[id*="Preload"]
 /glimr.$script
 /gdpr-bundle.$script
 
-*#@#a[href*="/spelat"]
-*##a[href*="/betting"]
-*##a[href*="/brandstudio/a/"]
-*##a[href*="/branding"]
-*##a[href*="/casinoguide"]
-*##a[href*="/kampanj"]:has-text(/erbjudande/i)
-*##a[href*="/lanapengar"]
-*##a[href*="/premium/erbjudanden/"]
-*##a[href*="/rabattkod"]
-*##a[href*="/rabattkoder"]
-*##a[href*="/clk."]
-*##a[href*="/AdwdGn/"]
-*##a[href*="/track."]
-*##a[href*="/tracker."]
-*##a[href*="/trackers."]
-*##a[href*="/track.adtraction."]
-*##a[href*="/pre."]
-*##a[href*="/click?p="]
-*##a[href*="/create_click?partner_id="]
-*##+js(acis, burtSegments)
-*##+js(acis, Bau, preloadAds)
-*##+js(ra, data-ad-config)
-*##+js(ra, data-article-tracking-info)
-*##+js(ra, data-video-tracking-info)
-*##[data-ad-client]
-*##html:style(filter: none !important;)
-*##body:style(overflow-y: auto !important;)
-*##html:style(overflow-x: hidden !important;)
-*##[class="js sp-message-open"]:style(position: inherit !important;)
-*##.is-showing.has-noScroll.modal:style(display: none !important;)
-*##.disabled-vscroll:style(overflow: auto !important;)
-*##[class="sp-message-open"]:style(position: unset !important;)
-*##.in.fade.modal-backdrop
-*##a[onclick="closeMyAd()"]
-*##a[onclick="rdr(this);"]
-*##a[onclick="removeOverlayHTML();"]
-*##div>a:has-text(EXTERN LÄNK)
-*##div>a:has-text(CASINOGUIDEN)
-*##div>a:has-text(ANNONS)
-
+###block-onscroll-onscroll
+##li[data-test-id="infinite-scroll-AD"]
+##li[data-test-id="infinite-scroll-PENCIL"]
 ##[class="cookie-acceptance__content"]
 ##[data-end-point="/cookie/Acceptance"]
 ##[data-js-cookie-acceptance=""]
 ##[class="alert-banner js-alert-banner"]
 ##[class="alert-banner__content padded-content"]
-
 ##[src*="/cse.js?"]
 ##[type="text/javascript"][src*="/recaptcha__en.js"]
 ##.iubenda-cs-content
@@ -9336,6 +9338,12 @@ photobucket.com#@#[id*="Preload"]
 ###popup-poster_inner
 ###popup-poster
 ###footer_bottom_floating_line__cookies
+
+||connect.facebook.net/signals/*$script
+||graph.facebook.com^
+/ping?client_id=
+/jsonp.php?b=*
+/?*=:&ids=*&r=
 
 ||fls.doubleclick.net^$subdocument
 ||richmetrics.com^$script
@@ -9350,7 +9358,6 @@ photobucket.com#@#[id*="Preload"]
 ##.light.as-oil
 ###tyche_cmp_modal
 ##.popup_overlay--2rgA3
-
 ##.pub_300x250.pub_300x250m.pub_728x90.text-ad.textAd.text_ad.text_ads.text-ads.text-ad-links:style(display: block !important;)
 ##[class*="a2a_"][rel="nofollow noopener"]
 ###importantMessage
@@ -9360,26 +9367,6 @@ photobucket.com#@#[id*="Preload"]
 ||jwpcdn.com^/*.js$script
 */player/plugins/vast-*.js$script
 */jquery.magnific-popup.min.js
-
-*##+js(aopr, AdservingModule)
-*##+js(aeld, DOMContentLoaded, adlinkfly)
-*##+js(ra, href, #clickfakeplayer)
-*##+js(aopw, adcashMacros)
-*##+js(acis, document.querySelectorAll, adConfig)
-*##+js(aopr, Aloader.serve)
-*##+js(abort-current-inline-script, decodeURI, _POP)
-*##+js(aopr, jwplayer.utils.Timer)
-*##+js(abort-on-property-write.js, spot)
-*##+js(aopr, VAST)
-*##+js(abort-on-property-read, S9tt)
-*##+js(set, clientSide.adbDetect, null)
-*##+js(abort-on-property-read, zone_2547)
-*##+js(abort-on-property-read, AdDelivery.prototype.requestTrafficJunkyAds)
-*##+js(abort-on-property-read.js, _goat)
-*##+js(aopr, ExoLoader.serve)
-*##iframe[src*="/ads-iframe"]
-*##iframe[src*="https://pc.html"]
-*##.consent-banner:contains(cookies)
 ###main-nav > li > a[rel="nofollow noopener"][onclick^="pageTracker"]
 ##div[id*="ScriptRootC"]
 ##div[id*="gsInformerID-"]
@@ -9408,16 +9395,6 @@ photobucket.com#@#[id*="Preload"]
 ##form:has-text(Learn More)
 ##.sticky-center.adunit
 ##.hx_cookie-banner-main.js-main-cookie-banner
-
-/?*&callback=callback_json_*$script
-
-*##+js(nostif, /location\.replace|setRefreshAdFloat|setRotateAdSlice/)
-*##+js(nowoif, adshell)
-*##+js(aopr, _wm)
-*##+js(aopr, _wwwp)
-*##+js(aeld, , exoJsPop101)
-*##div[id*="sidebar"][data-before-content="advertisement"]:upward(3)
-
 ##.gdpr-banner
 ##[class*="ad outsider__"]
 ##[class*="ad insider__"]
@@ -9430,6 +9407,7 @@ photobucket.com#@#[id*="Preload"]
 *$media,redirect-rule=noopmp3-0.1s
 *$media,redirect-rule=noopmp4-1s
 
+/?*&callback=callback_json_*$script
 /?pu=$script,3p
 /?pus=$script,3p
 /proxy_*.php?init_widget=$script
