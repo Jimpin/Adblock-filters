@@ -1809,7 +1809,6 @@ goal.com##+js(popads-dummy)
 goal.com##.commercial
 goal.com##.clearfix.widget-inline-editors-picks
 goal.com##.widget-semantic-player--displayed.widget-semantic-player
-atg.se##[data-test-id="hero-placeholder"]
 dolohen.com##a[href$=".html"]
 dirdamid.com##a[href$=".html"]
 ||api.github.com/_private/browser/stats$important
@@ -2766,6 +2765,8 @@ dirdamid.com##a[href$=".html"]
 ##.herald-ad
 ##.hero-ad
 ##.hero-ad-special
+##[data-test-id="hero-placeholder"]
+##[data-test-id="startpage-hero"]
 ##.hi5-ad
 ##.hidden-ad
 ##.hide-ad
