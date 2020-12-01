@@ -1366,35 +1366,35 @@ rltracker.pro##.col-sm-12 > .row
 &&_=
 
 #Lookmovie.ag
-lookmovie.ag##+js(acis, Object.defineProperty, XMLHttpRequest)
-lookmovie.ag##+js(aeld, , _0x)
-lookmovie.ag##+js(aopr, AaDetector)
-lookmovie.ag##.view-top-ab
-lookmovie.ag##.notifyjs-corner
-lookmovie.ag##+js(popads-dummy)
-lookmovie.ag##.plr-help-stripe
-lookmovie.ag##body > div:nth-of-type(6)
-lookmovie.ag##body > iframe
-lookmovie.ag##.notifyjs-corner
-lookmovie.ag##[class="show-recaptcha"]
-lookmovie.ag##[class="wellcome-boy-message"]
-lookmovie.ag##[id="overlay-article"]
-lookmovie.ag##[class="overlay-wrapper"]
-lookmovie.ag##[class="issues-overlay"]
-lookmovie.ag##+js(addEventListener-defuser.js, DOMContentLoaded, [native code])
-lookmovie.ag###donate-section
-lookmovie.ag##.wellcome-boy-message
-lookmovie.ag##[href="/qa"]
-lookmovie.ag##.telegram-button
-lookmovie.ag##.plr-ad-stripe
-lookmovie.ag##.bottom-message-container
-lookmovie.ag###social-share
-lookmovie.ag##+js(bab-defuser.js)
-@@||lookmovie.ag^$ghide
+lookmovie.*##+js(acis, Object.defineProperty, XMLHttpRequest)
+lookmovie.*##+js(aeld, , _0x)
+lookmovie.*##+js(aopr, AaDetector)
+lookmovie.*##.view-top-ab
+lookmovie.*##.nord-vpn.home-banner
+lookmovie.*##.notifyjs-corner
+lookmovie.*##+js(popads-dummy)
+lookmovie.*##.plr-help-stripe
+lookmovie.*##body > div:nth-of-type(6)
+lookmovie.*##body > iframe
+lookmovie.*##[class="show-recaptcha"]
+lookmovie.*##[class="wellcome-boy-message"]
+lookmovie.*##[id="overlay-article"]
+lookmovie.*##[class="overlay-wrapper"]
+lookmovie.*##[class="issues-overlay"]
+lookmovie.*##+js(addEventListener-defuser.js, DOMContentLoaded, [native code])
+lookmovie.*###donate-section
+lookmovie.*##.wellcome-boy-message
+lookmovie.*##[href="/qa"]
+lookmovie.*##.telegram-button
+lookmovie.*##.plr-ad-stripe
+lookmovie.*##.bottom-message-container
+lookmovie.*###social-share
+lookmovie.*##+js(bab-defuser.js)
+@@||lookmovie.*^$ghide
 *$script,3p,denyallow=google.com|googleapis.com|gstatic.com|lookmovie.io|hcaptcha.com|nflxext.com,domain=lookmovie.ag
-||lookmovie.ag/favicon.ico$image,first-party
-||cntr.lookmovie.ag^$xmlhttprequest
-||metrika.lookmovie.ag/analytics.js$script
+||lookmovie.*/favicon.ico$image,first-party
+||cntr.lookmovie.*^$xmlhttprequest
+||metrika.lookmovie.*/analytics.js$script
 ||2captcha.com^
 ||captchadecoder.com^
 ||anti-captcha.com^
@@ -7376,6 +7376,7 @@ dirdamid.com##a[href$=".html"]
 ||adtng.com^
 ||pgl.yoyo.org/adservers/
 ||ootqfqjhzfrtn.com^
+||cdn.weglot.com^
 ||sosbyncpkyw.com^
 ||stats.wp.com^
 ||counevan.pro^
