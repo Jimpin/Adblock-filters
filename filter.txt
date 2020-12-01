@@ -431,6 +431,14 @@ google.*###rhs_block
 ##.googlepublisherads
 ##.googley_ads
 ||google.*^$csp
+||google.*/pagead/*$important
+||googleadservices.com^
+||googleads*.doubleclick.net^
+||google-analytics.com^
+||googleanalytics.com^
+||googlesyndication.com^
+||googletagmanager.com^
+||googletagservices.com^
 
 #Tv4play.se
 tv4.se##.program-header-sponsors 
@@ -941,7 +949,6 @@ jawcloud.co##^script:has-text(Inject=!)
 ||jawcloud.co/$image
 ||jawcloud.co^$popup,important
 ||tracker.$important,domain=jawcloud.co|nxload.com|streamango.com|
-||googletagmanager.com/gtag/*$script,domain=jawcloud.co
 ||inpagepush.com^$important
 ||vkpass.com/panel/js/license.26.js$script
 ||propellerads.com^$important
@@ -1777,7 +1784,6 @@ loadvid.*##+js(setTimeout-defuser.js, _creatBait)
 loadvid.*###overlay-vcplayer
 ||loadvid.online/images/dablock.png$important
 ||loadvid.online/images/logo-brand.png$image,important
-||googletagmanager.com/gtag/$third-party
 ||photo.vidcloudcdn.com^$image,important
 ||cdnjs.cloudflare.com/ajax/libs/fuckadblock^
 ||onclicksuper.com/jump/next.php$popup,important
@@ -6914,12 +6920,10 @@ dirdamid.com##a[href$=".html"]
 ||facebook.com/plugins/like$third-party
 ||analytics.codigo.se^$script,redirect-rule=noopjs
 ||adsby.bidtheatre.com^$script,redirect-rule=noopjs
-||google.*/pagead/*$important
-||google-analytics.com^$script,redirect-rule=noopjs
-||googletagservices.com/tag/js/gpt.js$script,redirect=googletagservices.com/gpt.js,important
-||googleadservices.com^
-||googleads.g.doubleclick.net^
-||googlesyndication.com^
+||gorgeousground.com^
+||gostats.com^
+||gothamads.com^
+||gotraffic.net^
 ||doubleclick.net/instream/ad_status.js$script,redirect=doubleclick.net/instream/ad_status.js,important
 ||doubleclick.net^
 ||consorcraightyc.info^
@@ -7125,6 +7129,8 @@ dirdamid.com##a[href$=".html"]
 ||drogomet.com^
 ||dulderbulder.com^
 ||durazopa.com^
+||adcash.com^
+||adcast.deviantart.com^
 ||egolina.com^
 ||ekolamis.com^
 ||farfarida.com^
@@ -7281,6 +7287,7 @@ dirdamid.com##a[href$=".html"]
 ||fabrkrup.com^
 ||k77hof1z7k.com^
 ||rlomrjxrpsev.com^
+||amplitude.com^
 ||hxwxxhfydbifuq.com^
 ||stunninglover.com^
 ||areyouahuman.com^
@@ -7304,12 +7311,17 @@ dirdamid.com##a[href$=".html"]
 ||adxpansion.com^
 ||dbbp1.net^
 ||etahub.com^
+||adincube.com^
+||adinjector.net^
+||adinterax.com^
+||adisfy.com^
 ||javmost.com^
 ||popmyads.com^
 ||adsco.re^
 ||juicyads.com^
 ||popads.net^
 ||vebadu.com^
+||adbot.com^
 ||newsatads.com^
 ||terrapsps.com^
 ||bmw999888.com^
@@ -7394,8 +7406,9 @@ dirdamid.com##a[href$=".html"]
 ||newdonate.com^
 ||lifeideas.site^
 ||cachlambanhdongian.com^
+||adhigh.net^
 ||adxadtracker.com^
-||ca.clcknads.pro^
+||clcknads.pro^
 ||trackingpro.pro^
 ||b3z29k1uxb.com^
 ||fd7qz88ckd.com^
