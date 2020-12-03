@@ -126,6 +126,11 @@ expressen.se##+js(acis, adblock)
 expressen.se##+js(acis, ExpressenAnalytics, push)
 expressen.se##aside.article-list > .ad-label--overlay
 expressen.se##aside.article-list > .ad-label--overlay + ul
+expressen.se##[data-position*="26"]:matches-css(width: 640px)
+expressen.se##[data-position*="56"]:matches-css(width: 640px)
+expressen.se##[data-position*="59"]:matches-css(width: 640px)
+expressen.se##[data-position*="81"]:matches-css(width: 640px)
+expressen.se##[data-position*="96"]:matches-css(width: 640px)
 expressen.se##.outsider-ads__sticky-context
 expressen.se##.outsider-ads.site-body__outsider
 expressen.se##a[href="https://www.expressen.se/premium/kampanj/standard"]
