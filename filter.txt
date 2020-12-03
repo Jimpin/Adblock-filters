@@ -116,23 +116,24 @@ klart.se##+js(aopr, blockAdBlock)
 
 #Expressen.se
 expressen.se##^script:has-text(adblock)
-expressen.se##+js(aeld, click, trackClick)
-expressen.se##+js(set, detect, noopFunc)
-expressen.se##+js(json-prune, autoplay)
-expressen.se##+js(acis, ExpressenAnalytics, push)
-expressen.se##^script:has-text(window.ExpressenAnalytics)
-expressen.se##a[href="https://www.expressen.se/premium/kampanj/standard"]
-expressen.se##.site-footer__affiliates.site-footer__column--full-width
-expressen.se##^script[id="ads-script"]
-expressen.se##.rotator__link:style(width: unset !important;)
-expressen.se##.teaser:has(.teaser__third-party--bar)
-expressen.se##.teaser:has(.vignette:has-text(/(^erbjudande från|^annons|^happy green|^presenteras av|i samarbete med)/i))
-expressen.se##.teaser:has(a[href^="/brandstudio/"])
-expressen.se##.teaser__hero:has(iframe[src*="/tv/nyheter/live-start/live-tv-senaste-nyheterna"])
-expressen.se##p:has(strong:has-text(/^annons/i))
 expressen.se##^script:has-text(adsScript)
 expressen.se##^script:has-text(window.Exp.bamData)
 expressen.se##^script:has-text(window.ExpressenAnalytics)
+expressen.se##+js(aeld, click, trackClick)
+expressen.se##+js(set, detect, noopFunc)
+expressen.se##+js(json-prune, autoplay)
+expressen.se##+js(acis, adblock)
+expressen.se##+js(acis, ExpressenAnalytics, push)
+expressen.se##aside.article-list > .ad-label--overlay
+expressen.se##aside.article-list > .ad-label--overlay + ul
+expressen.se##.outsider-ads__sticky-context
+expressen.se##.outsider-ads.site-body__outsider
+expressen.se##a[href="https://www.expressen.se/premium/kampanj/standard"]
+expressen.se##.main:style(width: 100% !important;)
+expressen.se##.site-footer__affiliates.site-footer__column--full-width
+expressen.se##^script[id="ads-script"]
+expressen.se##.rotator__link:style(width: unset !important;)
+expressen.se##p:has(strong:has-text(/^annons/i))
 expressen.se##.site-header__widgets > .html-widget > a[target="_blank"]
 expressen.se##.article--sponsored
 expressen.se##.article__after-widgets > .html-widget
@@ -140,7 +141,9 @@ expressen.se##.teaser:has(.teaser__third-party--bar)
 expressen.se##.teaser__hero:has(iframe[src*="/tv/nyheter/live-start/live-tv-senaste-nyheterna"])
 expressen.se##.teaser > a[href*=".se"]
 expressen.se##.teaser--native-ad
+expressen.se##.teaser--native, .native-article
 expressen.se##.teaser--sponsored
+expressen.se##.teaser > a[href*="/kampanj."], .teaser > a[href*="/brandstudio"], .teaser > a[href*="/brand-studio"]
 expressen.se##[class="exp-video-player__ad-counter"]
 expressen.se##[class="exp-video-player__buffer-overlay"]
 expressen.se##.ad
@@ -150,33 +153,31 @@ expressen.se##.discount-ad
 expressen.se##.flashes--premium
 expressen.se##.flashes--visible
 expressen.se###rich-media-ads
-expressen.se##.widget-ad-marker
-expressen.se##.widget-area--collaboration
-expressen.se##aside.article-list > .ad-label--overlay
-expressen.se##aside.article-list > .ad-label--overlay + ul
-expressen.se##div.outsider-ads__sticky-context
-expressen.se##.outsider-ads.site-body__outsider
+expressen.se##.widget--collaboration
+expressen.se##.widget-ad-marker, .widget-ad-marker + a
+expressen.se##.pressrelease-teaser
+expressen.se##.promotion-banner
+expressen.se##.rotator--external
 expressen.se##[data-slot-name="insider"]
-expressen.se##.html-widget > div
-expressen.se##div.teaser:nth-of-type(17)
-expressen.se##div.teaser:nth-of-type(21)
+expressen.se##.html-widget > div[style^="text-align: center; font-size: 10px;"]
 expressen.se##.exp-video-player__ad-video
 expressen.se##.exp-video-player__topbar
 expressen.se##.slideshow__control
+expressen.se##a[href*="/spel.exp"], a[href*="/lanapengar.exp"], a[href*="/rabattkoder.exp"], a[href*="/annons"]
+expressen.se##figure[data-article-data*="/sponsrat"], figure[data-article-data*="/annons"], figure[data-article-data*="/brand-studio"]
 ##.terms-dialog
 ##[class="bam-ad-slot"]
 ##[class="page-list discount-ad"]
-@@||expressen.se/videoplayer/*$xmlhttprequest,first-party
+@@||expressen.se/videoplayer/*$xmlhttprequest,1p
 ||expressen.se/_megamenu/*$xmlhttprequest
 ||expressen.se^$xmlhttprequest
-||expressen.se/js/advertisement__ce6e944065766cac31aa1b241bd1cc167.js$script
+||expressen.se/js/advertisement*.js$script
 ||expressen.se/img/icons/footer_ads.svg$image,first-party,important
 ||expressen.se/img/icons/footer_cookie.svg$image
 ||expressen.se/img/placeholders/*$image
 ||facebook.com/tr/*$image
 ||precis.expressen.se/recommendations$xmlhttprequest
 ||jtp.expressen.se/notify$image
-||assets.expressen.se^$important
 ||richmetrics.com^$all
 /closest-native$xmlhttprequest,domain=expressen.se
 /analytics-post-
@@ -9330,6 +9331,13 @@ popuper.js^
 *##a[href*="/pre."]
 *##a[href*="/click?p="]
 *##a[href*="/create_click?partner_id="]
+*##.teaser:has(a[href*="/annons"])
+*##.teaser:has(a[href*="/brand-studio"])
+*##.teaser:has(a[href*="/brandstudio"])
+*##.teaser:has(a[href*="/kampanj."])
+*##.teaser:has(a[href*="/lanapengar."])
+*##.teaser:has(a[href*="/rabattkoder."])
+*##.teaser:has(a[href*="/spel.expressen.se"])
 
 /\.cloudfront.*\/\?.*[a-zA-Z0-9]{5,16}/$script,3p
 .googletagmanager.*/$3p
