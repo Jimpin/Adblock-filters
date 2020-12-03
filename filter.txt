@@ -7527,6 +7527,8 @@ dirdamid.com##a[href$=".html"]
 ||imagetopng.*^
 ||curemedia.se^
 ||custosgroup.com^
+||bidgear.com^
+||curedonswab.com^
 ||tedintrattirin.pro^$important
 ||notify-monad.com^$important
 ||pegloang.com^$important
@@ -8121,6 +8123,7 @@ redirect.
 /icon?feed_id=*&hash=*.jpg$image
 /metrics/save.img?event=impressions&bid_id=*.jpg$image
 /naimg/*.jpg$image
+/pw/*.js$script
 /ads/purl.js$script
 /ads?
 /html/blocked.html$popup,important
@@ -9448,3 +9451,13 @@ popuper.js^
 /proxy_*.php?init_widget=$script
 /proxy_*.php?init_button=$script
 /proxy_*.php?p___=*&part_url=*.php?callback=
+
+##li:has(.content-label:has-text(/annons/i)):remove()
+
+*##+js(nostif, n.modal)
+*##+js(nosiif, runAdBlockPaywall, 1000)
+*##+js(acis, exactmetrics_scroll_tracking_load)
+*##+js(acis, jQuery, themifyPopup)
+*##+js(set, mi_track_user, false)
+*##.no-scroll:style(overflow: initial !important;)
+*##div[class^="lowerBadge"]
