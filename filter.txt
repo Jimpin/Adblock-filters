@@ -521,6 +521,7 @@ youtube.com##.masthead-ad-control
 youtube.com###video-masthead
 youtube.com###hats-container
 youtube.com##.ytp-button.ytp-miniplayer-button
+youtube.com###contents > .ytd-search-pyv-renderer.style-scope:contains(Annons)
 youtube.com##[class="style-scope yt-formatted-string"]:has-text(egistrering)
 youtube.com##a[href*="/"]:has-text(bit.ly)
 youtube.com##a[href*="/"]:has-text(stod)
