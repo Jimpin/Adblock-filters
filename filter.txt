@@ -8424,6 +8424,22 @@ redirect.
 /wp-content/uploads/an-temp/*$script,stylesheet
 /wp-admin/admin-ajax.php$xhr,3p
 /site/captcha?
+/se-wordpress-agilis-solum/assets/js/ad-collapse
+/se-wordpress-gdpr
+/se-wordpress-google-analytics
+/se-wordpress-native-carousel
+/se-wordpress-newsletters
+/se-wordpress-sunt
+/seenthis-hub/
+/selections/native
+/sf_tracking.js
+/sg_reklam
+/sh404sefsocial/
+/shared/crm-campaign-handler.js
+/sidebar-ads.php
+/sifo_analytics.
+/sifo_msr.
+/siforesponsivemeasure.js
 /play_error$xmlhttprequest
 /ad-loading.*$image
 /adblock-alerter/*
@@ -9278,6 +9294,7 @@ popuper.js^
 *##[data-ad-client]
 *##html:style(filter: none !important;)
 *##body:style(overflow-y: auto !important;)
+*##body:style(overflow-y: hidden !important;)
 *##html:style(overflow-x: hidden !important;)
 *##[class="js sp-message-open"]:style(position: inherit !important;)
 *##.is-showing.has-noScroll.modal:style(display: none !important;)
