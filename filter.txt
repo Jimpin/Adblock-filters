@@ -160,6 +160,7 @@ expressen.se##.flashes--visible
 expressen.se###rich-media-ads
 expressen.se##.widget--collaboration
 expressen.se##.widget-ad-marker, .widget-ad-marker + a
+expressen.se##.linked-image-widget
 expressen.se##.pressrelease-teaser
 expressen.se##.promotion-banner
 expressen.se##.rotator--external
@@ -904,7 +905,6 @@ nyafilmer.*##.gameofthrones
 nyafilmer.*##.noselect.tab-buttons
 nyafilmer.*##[class="headerSpace"]
 nyafilmer.*##.video-container > .side-info
-nyafilmer.*#@#body:style(overflow-y: auto !important;)
 nyafilmer.*#@#body:style(overflow-y: auto !important)
 @@||nyafilmer.*/wp-includes/js/*$script,1p
 @@||nyafilmer.*/wp-content/uploads/*/*/ad.jpg
