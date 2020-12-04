@@ -905,7 +905,6 @@ nyafilmer.*##.gameofthrones
 nyafilmer.*##.noselect.tab-buttons
 nyafilmer.*##[class="headerSpace"]
 nyafilmer.*##.video-container > .side-info
-nyafilmer.*#@#body:style(overflow-y: auto !important)
 @@||nyafilmer.*/wp-includes/js/*$script,1p
 @@||nyafilmer.*/wp-content/uploads/*/*/ad.jpg
 @@||nyafilmer.*/wp-content/themes/keremiya1/images/tr-flag.png
@@ -9302,6 +9301,8 @@ popuper.js^
 *##+js(ra, data-video-tracking-info)
 *##[data-ad-client]
 *##html:style(filter: none !important;)
+*##body:style(overflow-y: auto !important)
+*##body:style(overflow-y: hidden !important)
 *##body:style(overflow-y: auto !important;)
 *##body:style(overflow-y: hidden !important;)
 *##html:style(overflow-x: hidden !important;)
