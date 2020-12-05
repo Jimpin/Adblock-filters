@@ -585,7 +585,7 @@ facebook.com##[data-referrer][zoompage-fontsize="13"] > .ego_column[zoompage-fon
 facebook.com###pagelet_ego_pane
 facebook.com###rightCol .pagelet.egoOrganicColumn
 facebook.com###globalContainer .pagelet.egoOrganicColumn
-facebook.com#@#body:style(overflow-y: auto !important;)
+facebook.com#@#body:style(overflow-y: auto !important)
 @@||static.xx.fbcdn.net^$script
 ||facebook.com/plugins/like.php$subdocument
 ||facebook.com/plugins/likebox.php$subdocument
@@ -595,13 +595,9 @@ facebook.com#@#body:style(overflow-y: auto !important;)
 ||facebook.com/tr/$third-party
 ||facebook.com/video/autoplay/*$xmlhttprequest
 ||facebook.com/xti.php$important
-||facebook.com/whitepages/wpminiprofile.php$third-party
-||facebook.com/widgets/activity.php?$third-party
-||facebook.com/widgets/fan.php?$third-party
-||facebook.com/widgets/like.php?$third-party
 ||facebook.com/campaign/landing.php?
 ||graph.facebook.com^$script,important
-||badge.facebook.com^$third-party
+||badge.facebook.com^$3p
 ||messenger.com/ajax/messenger/context_banner/*$xmlhttprequest
 ###fblike
 ##.ad-link
