@@ -905,6 +905,7 @@ nyafilmer.*##.gameofthrones
 nyafilmer.*##.noselect.tab-buttons
 nyafilmer.*##[class="headerSpace"]
 nyafilmer.*##.video-container > .side-info
+nyafilmer.*#@#html,body:style(overflow: auto !important)
 @@||nyafilmer.*/wp-includes/js/*$script,1p
 @@||nyafilmer.*/wp-content/uploads/*/*/ad.jpg
 @@||nyafilmer.*/wp-content/themes/keremiya1/images/tr-flag.png
