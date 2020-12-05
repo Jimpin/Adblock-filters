@@ -905,7 +905,6 @@ nyafilmer.*##.gameofthrones
 nyafilmer.*##.noselect.tab-buttons
 nyafilmer.*##[class="headerSpace"]
 nyafilmer.*##.video-container > .side-info
-nyafilmer.*#@#html,body:style(overflow: auto !important)
 @@||nyafilmer.*/wp-includes/js/*$script,1p
 @@||nyafilmer.*/wp-content/uploads/*/*/ad.jpg
 @@||nyafilmer.*/wp-content/themes/keremiya1/images/tr-flag.png
@@ -9301,10 +9300,15 @@ popuper.js^
 *##+js(ra, data-article-tracking-info)
 *##+js(ra, data-video-tracking-info)
 *##[data-ad-client]
-*##html:style(filter: none !important;)
-*##html,body:style(overflow: auto !important)
-*##html,body:style(overflow: auto !important;)
-*##html:style(overflow-x: hidden !important;)
+
+*##html:style(filter: none !important)
+*##html:style(overflow-y: auto !important)
+*##html:style(overflow-y: auto !important;)
+*##body:style(overflow-y: hidden !important)
+*##body:style(overflow-y: hidden !important;)
+*##body:style(overflow-x: hidden !important)
+*##body:style(overflow-x: hidden !important;)
+
 *##[class="js sp-message-open"]:style(position: inherit !important;)
 *##.is-showing.has-noScroll.modal:style(display: none !important;)
 *##.disabled-vscroll:style(overflow: auto !important;)
