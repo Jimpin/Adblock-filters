@@ -4,7 +4,7 @@
 ! License: GPL-3.0 License | https://github.com/Jimpin/Adblock-filters/blob/master/LICENSE
 
 #Aftonbladet.se
-aftonbladet.se##html,body:style(overflow: auto !important;)
+aftonbladet.se##html,body:style(overflow-y: auto !important;)
 aftonbladet.se##.jwplayer:has(.svp-sponsor-label):remove()
 aftonbladet.se##a[href*=".se/kampanj?"]:has-text(/erbjudande/i)
 aftonbladet.se##a[href*="aftonbladet.se/kampanj/artikel"]:upward(1)
@@ -9301,8 +9301,8 @@ popuper.js^
 *##+js(ra, data-video-tracking-info)
 *##[data-ad-client]
 *##html:style(filter: none !important;)
-*##body:style(overflow-y: auto !important)
-*##body:style(overflow-y: auto !important;)
+*##html,body:style(overflow: auto !important)
+*##html,body:style(overflow: auto !important;)
 *##html:style(overflow-x: hidden !important;)
 *##[class="js sp-message-open"]:style(position: inherit !important;)
 *##.is-showing.has-noScroll.modal:style(display: none !important;)
