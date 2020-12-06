@@ -9298,7 +9298,7 @@ popuper.js^
 *##+js(ra, data-video-tracking-info)
 *##[data-ad-client]
 *##html:style(filter: none !important)
-*##html:style(overflow-y: auto !important)
+*##body:style(overflow-y: auto !important)
 *##body:style(overflow-x: hidden !important)
 *##body:style(overflow-x: hidden !important;)
 *##[class="js sp-message-open"]:style(position: inherit !important;)
