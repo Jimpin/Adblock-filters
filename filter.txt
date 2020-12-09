@@ -15,6 +15,7 @@ aftonbladet.se##.sch-datacontroller--permanent.sch-datacontroller--cobranded.sch
 aftonbladet.se##.sch-datacontroller--minimal.sch-datacontroller--subheader.sch-datacontroller
 aftonbladet.se##.sch-datacontroller--subheader.sch-datacontroller--cobranded.sch-datacontroller
 aftonbladet.se##.svp-sponsor-label
+aftonbladet.se##div._2j7q7:nth-of-type(2)
 aftonbladet.se###outsider
 aftonbladet.se##.outerContainer
 aftonbladet.se###MegaAd
