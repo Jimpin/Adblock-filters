@@ -9297,8 +9297,7 @@ popuper.js^
 *##+js(ra, data-video-tracking-info)
 *##[data-ad-client]
 *##html:style(filter: none !important)
-
-*##[class="js sp-message-open"]:style(position: inherit !important;)
+*##[class="js sp-message-open"]:style(position: unset !important;)
 *##.is-showing.has-noScroll.modal:style(display: none !important;)
 *##.disabled-vscroll:style(overflow: auto !important;)
 *##[class="sp-message-open"]:style(position: unset !important;)
@@ -9460,5 +9459,5 @@ popuper.js^
 *##+js(acis, exactmetrics_scroll_tracking_load)
 *##+js(acis, jQuery, themifyPopup)
 *##+js(set, mi_track_user, false)
-*##.no-scroll:style(overflow: initial !important;)
+*##.no-scroll:style(overflow-x: hidden !important;)
 *##div[class^="lowerBadge"]
