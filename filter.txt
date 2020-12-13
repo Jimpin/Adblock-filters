@@ -1236,7 +1236,6 @@ dplay.se##div:matches-css(width: 3px):matches-css(height: 5px)
 @@||fwmrm.net/ad/$script,domain=dplay.se|mtv.se
 ||akamaihd.net^$media,domain=dplay.se
 ||imasdk.googleapis.com/pal/sdkloader/pal.js$script,redirect-rule=noopjs
-||sentry.io^$3p
 ||litix.io^$xhr
 ||dnitv.com^$media,domain=dplay.se
 ||demdex.net^$xhr
@@ -7968,7 +7967,6 @@ dirdamid.com##a[href$=".html"]
 ||cdn.krxd.net^
 ||aenan.pw^
 ||uptoabc.com^$script
-||sentry.io^$xhr
 ||t7479e4d.com^$important
 ||ltassrv.com^$important
 ||spiffymachine.com^$important
@@ -9231,8 +9229,6 @@ popuper.js^
 ://geo.$important
 ://global.$important
 ://log.$3p
-://sentry-$important
-://sentry.$important
 ://ws.$important
 ://wchat.*^$popup,important
 *##+js(abort-current-inline-script.js, atob, tabunder)
