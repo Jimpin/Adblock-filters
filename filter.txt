@@ -9347,7 +9347,6 @@ popuper.js^
 /afu.*/$3p
 /apu.*/$3p
 /ntfc.*/$3p
-/loadCastFramework*/$3p
 /genads.*/$important
 /next.*/$popup
 /tuname.*/$important
