@@ -819,6 +819,7 @@ nyafilmer.*##div:matches-css(z-index: 99998)
 nyafilmer.*##div:matches-css(z-index: 99999)
 nyafilmer.*##[data-deferred="1"]
 nyafilmer.*##[type="text/javascript"][src*=".com"]
+nyafilmer.*##[class*="sn48us"]
 nyafilmer.*##script:has-text(hide_donation)
 nyafilmer.*##body > iframe
 nyafilmer.*##.Breadcrumb
