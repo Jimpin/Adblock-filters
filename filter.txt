@@ -9120,6 +9120,7 @@ popuper.js^
 *.html?q^$important
 */redirect.aspx?
 *$popup,3p,domain=gomovies.sc|fmovies.to|openload.co
+/optimizelyjs/*
 /ad.js$script
 /http*0-9.com:\/\/.*/$3p,popup
 /\/t[a-f0-9]{10,13}$/$3p,popup
@@ -9235,13 +9236,13 @@ popuper.js^
 ://log.$3p
 ://ws.$important
 ://wchat.*^$popup,important
+://lightning.*/launch/
 *##+js(abort-current-inline-script.js, atob, tabunder)
 *##+js(set-constant.js, Annons, noopFunc)
 *##+js(abort-on-property-write.js, _pop)
 *##+js(abort-on-property-read.js, __htapop)
 *##+js(abort-on-property-read.js, InitCloseButton)
 *##+js(abort-on-property-write, isAdblockOn)
-*##+js(abort-on-property-write, UAParser)
 *##+js(abort-on-property-write, rAb)
 *##+js(abort-on-property-write, AdDelivery)
 *##+js(abort-on-property-read.js, cursorAd)
