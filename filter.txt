@@ -541,6 +541,7 @@ youtube.com##.page-loaded
 @@||youtube.com/player_api$third-party
 ||youtube.com/api/stats/qoe?
 ||youtube.com/csi_204$image
+||youtube.com/error_204$xhr
 ||youtube.com/pagead
 ||youtube.com/ptracking
 ||youtube.com/get_midroll_info$important
@@ -7417,6 +7418,7 @@ dirdamid.com##a[href$=".html"]
 ||newdonate.com^
 ||lifeideas.site^
 ||cachlambanhdongian.com^
+||d.ghostery.com^
 ||adhigh.net^
 ||adxadtracker.com^
 ||clcknads.pro^
@@ -9017,7 +9019,9 @@ popuper.js^
 @@||maps.google.com^$script,image
 @@||mixer.com^$first-party,popup
 @@||media-amazon.com^$image
-@@||steamstore-a.akamaihd.net/public/images/*$image
+@@||cdn.cloudflare.steamstatic.com^$image
+@@||steamcdn-a.akamaihd.net^$image
+@@||steamstore-a.akamaihd.net^$image
 @@||googlevideo.com/videoplayback?^$xhr,1p
 @@||radar.cedexis.com^$script
 @@||cedexis.net^$css,1p
@@ -9469,3 +9473,6 @@ popuper.js^
 ##[id="skinAdTarget"]
 ##[id="superadunit"][class="hidden"]
 ###gdpr-cookie-message
+
+|http://$script,image,xmlhttprequest,3p,domain=skidrowreloaded.com
+|https://$script,image,xmlhttprequest,3p,domain=skidrowreloaded.com
