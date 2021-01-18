@@ -1821,6 +1821,21 @@ aliez.*##[href$=".html"]
 ||1079020916.rsc.cdn77.org^$important
 /redirect?tid=^$important
 
+#Skidrowreloaded.com
+skidrowreloaded.com##+js(aeld, click, popunder)
+skidrowreloaded.com##+js(noeval)
+skidrowreloaded.com##+js(popads.net)
+skidrowreloaded.com##+js(acis, decodeURI, _POP)
+skidrowreloaded.com##+js(aopw, _pop)
+skidrowreloaded.com##+js(aopr, Buu.serve)
+skidrowreloaded.com##+js(aeld, click, [native code])
+skidrowreloaded.com##+js(aeld, , _blank)
+skidrowreloaded.com##+js(acis, $, open)
+skidrowreloaded.com##iframe[src="about:blank"]
+|http://$script,image,xmlhttprequest,frame,3p,domain=skidrowreloaded.com
+|https://$script,image,xmlhttprequest,frame,3p,domain=skidrowreloaded.com
+*^$popunder,domain=skidrowreloaded.com,3p
+
 #Body/Frames
 goal.com##+js(popads-dummy)
 goal.com##.commercial
@@ -9479,8 +9494,6 @@ popuper.js^
 ##[id="superadunit"][class="hidden"]
 ###gdpr-cookie-message
 
-|http://$script,image,xmlhttprequest,frame,3p,domain=skidrowreloaded.com
-|https://$script,image,xmlhttprequest,frame,3p,domain=skidrowreloaded.com
 .biz^$frame,xhr,image,ping,popup,3p,important
 .fun^$frame,xhr,image,ping,popup,3p,important
 .online^$frame,xhr,image,ping,popup,3p,important
