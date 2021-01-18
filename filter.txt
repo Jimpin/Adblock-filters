@@ -6826,6 +6826,7 @@ dirdamid.com##a[href$=".html"]
 ||track.
 ||tracking2.
 ||ucounter.
+||adserpub.com^
 ||omnitagjs.com^$xhr,important
 ||vntsm.com^$xhr,image,important
 ||stackpathcdn.com^$xhr
@@ -9478,5 +9479,14 @@ popuper.js^
 ##[id="superadunit"][class="hidden"]
 ###gdpr-cookie-message
 
-|http://$script,image,xmlhttprequest,popup,3p,domain=skidrowreloaded.com
-|https://$script,image,xmlhttprequest,popup,3p,domain=skidrowreloaded.com
+|http://$script,image,xmlhttprequest,frame,3p,domain=skidrowreloaded.com
+|https://$script,image,xmlhttprequest,frame,3p,domain=skidrowreloaded.com
+.biz^$frame,xhr,image,ping,popup,3p,important
+.fun^$frame,xhr,image,ping,popup,3p,important
+.online^$frame,xhr,image,ping,popup,3p,important
+.pro^$frame,xhr,image,ping,popup,3p,important
+.site^$frame,xhr,image,ping,popup,3p,important
+.top^$frame,xhr,image,ping,popup,3p,important
+.trade^$frame,xhr,image,ping,popup,3p,important
+.xyz^$frame,xhr,image,ping,popup,3p,important
+.ws^$frame,xhr,image,ping,popup,3p,important

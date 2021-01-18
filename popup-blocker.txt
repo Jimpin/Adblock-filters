@@ -60,23 +60,10 @@ iframe*$popup
 .popups
 /popup
 -popups
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-#Whitelisted domains
-@@$popup,domain=facebook.com
-@@$popup,domain=messenger.com
-@@$popup,domain=superstart.se
-@@$popup,domain=about:addons
-@@$popup,domain=addons.mozilla.org
-@@$popup,domain=moz-extension:
-@@$popup,domain=google.com
-@@$popup,domain=google.se
-@@$popup,domain=outlook.com
-@@$popup,domain=gmail.com
-@@$popup,domain=github.com
-@@$popup,domain=youtube.com
-@@$popup,domain=twitter.com
-@@$popup,domain=instagram.com
-@@||accounts.google.com^
+
+/?cs=^$popup,important
+/utx?^$popup,important
+/?f=^$popup,important
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #Blocked popups
 ##.pop-cookie
