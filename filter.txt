@@ -9494,12 +9494,12 @@ popuper.js^
 ##[id="superadunit"][class="hidden"]
 ###gdpr-cookie-message
 
-.biz^$frame,xhr,image,ping,popup,3p,important
-.fun^$frame,xhr,image,ping,popup,3p,important
-.online^$frame,xhr,image,ping,popup,3p,important
-.pro^$frame,xhr,image,ping,popup,3p,important
-.site^$frame,xhr,image,ping,popup,3p,important
-.top^$frame,xhr,image,ping,popup,3p,important
-.trade^$frame,xhr,image,ping,popup,3p,important
-.xyz^$frame,xhr,image,ping,popup,3p,important
-.ws^$frame,xhr,image,ping,popup,3p,important
+.biz^$frame,xhr,image,ping,popup,3p
+.fun^$frame,xhr,image,ping,popup,3p
+.online^$frame,xhr,image,ping,popup,3p
+.pro^$frame,xhr,image,ping,popup,3p
+.site^$frame,xhr,image,ping,popup,3p
+.top^$frame,xhr,image,ping,popup,3p
+.trade^$frame,xhr,image,ping,popup,3p
+.xyz^$frame,xhr,image,ping,popup,3p
+.ws^$frame,xhr,image,ping,popup,3p
