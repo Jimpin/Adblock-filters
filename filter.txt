@@ -155,6 +155,8 @@ expressen.se##.teaser > a[href*="/kampanj."], .teaser > a[href*="/brandstudio"],
 expressen.se##[class="exp-video-player__ad-counter"]
 expressen.se##[class="exp-video-player__buffer-overlay"]
 expressen.se##.ad
+expressen.se##.pa-dialog
+expressen.se##.campaign
 expressen.se##.bam-ad-slot--pre-sized.bam-ad-slot--visible.bam-ad-slot
 expressen.se##.consent
 expressen.se##.discount-ad
@@ -531,6 +533,7 @@ youtube.com##.masthead-ad-control
 youtube.com###video-masthead
 youtube.com###hats-container
 youtube.com##.ytp-button.ytp-miniplayer-button
+youtube.com##.GoogleActiveViewElement.ytd-watch-next-secondary-results-renderer.style-scope:has-text(Annons)
 youtube.com###contents > .ytd-search-pyv-renderer.style-scope:contains(Annons)
 youtube.com##[class="style-scope yt-formatted-string"]:has-text(egistrering)
 youtube.com##a[href*="/"]:has-text(bit.ly)
@@ -9019,6 +9022,8 @@ popuper.js^
 @@||cloudfront.net/assets/*$media,3p
 @@||cloudfront.net/*$image,domain=jimpin.zapto.org
 @@||cdn.svp.schibsted.io^$script
+@@||steamstatic.com^$image
+@@||youtube.com/embed/*$subdocument
 @@||static.xx.fbcdn.net/rsrc.php/*$script,domain=facebook.com
 @@||redirector.googlevideo.com/videoplayback$media
 @@||sportingvideo*.com^$popup
