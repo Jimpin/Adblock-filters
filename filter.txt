@@ -1848,7 +1848,6 @@ dolohen.com##a[href$=".html"]
 dirdamid.com##a[href$=".html"]
 ||api.github.com/_private/browser/stats$important
 ##[class$="-sns-box"]
-##[class^="ads_"]:not(body)
 ###textAd
 ###ad1
 ###ad2
