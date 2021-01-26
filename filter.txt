@@ -821,6 +821,7 @@ nyafilmer.*##^script:has-text(var _0x)
 nyafilmer.*##div:matches-css(width: 500px):matches-css(height: 350px):matches-css(z-index: 99999)
 nyafilmer.*##div:matches-css(z-index: 99998)
 nyafilmer.*##div:matches-css(z-index: 99999)
+nyafilmer.*##.importantinfo
 nyafilmer.*##[data-deferred="1"]
 nyafilmer.*##[type="text/javascript"][src*=".com"]
 nyafilmer.*##[class*="sn48us"]
@@ -963,6 +964,7 @@ jawcloud.co##^script:has-text(Inject=!)
 ||jawcloud.co/banner$image
 ||jawcloud.co/$image
 ||jawcloud.co^$popup,important
+||gstatic.com/cast/*$script,domain=jawcloud.co
 ||tracker.$important,domain=jawcloud.co|nxload.com|streamango.com|
 ||inpagepush.com^$important
 ||vkpass.com/panel/js/license.26.js$script
