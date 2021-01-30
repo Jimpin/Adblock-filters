@@ -1168,6 +1168,29 @@ vidoo.*##+js(popads-dummy.js)
 ||vidoo.*$script,popup
 ||abi.vidoo.tv/i/*$image
 
+#Dn.se
+dn.se##+js(acis, DN, initAds)
+dn.se##+js(ra, data-auto-play)
+dn.se##.sponsored-teaser
+dn.se##body:style(position: unset !important;)
+/streamsense.$important,script
+/initLogging$script
+/check-paywall
+
+#Di.se
+di.se##+js(acis, Di, initAds)
+di.se##+js(acis, diConf)
+di.se##+js(nostif, #triggerModal)
+di.se##+js(set, getAdblockerStatus, noopFunc)
+di.se##+js(nosiif, runAdBlockPaywall, 1000)
+di.se##.bandit-box__teaser--native,.service-box,.discount-box,.di_panorama__isAdLabel,.di_panorama-wrapper,.di_teaser-flak-container--native,.di_teaser-flak-planbokskoll,.di_stock-service,.native-box,.di_teaser--native
+di.se##.di_start__teaser-placeholder[data-content-url*="/ads/"]
+di.se##[class^="gdpr-policy"]
+di.se##.ad_container
+di.se##.start__articles-ad
+&autoplay$frame,queryprune=autoplay
+/getnative$xhr
+
 #Hemnet.se
 hemnet.se###ad_unit_placeholder
 hemnet.se##.consent-modal__overlay--after-open.consent-modal__overlay
@@ -1624,37 +1647,6 @@ onhockey.tv##[src="pic/sad.gif"]
 ||crossout.net^$important
 ||am15.net/ssp/banner$important
 ||d.sportlevel.com^$important
-
-#60fps.live
-60fps.live##+js(popads-dummy)
-60fps.live###rapidwp-sidebar-one-wrapper
-60fps.live###afc_sidebar_3749
-60fps.live##.clearfix.rapidwp-featured-posts-area-bottom.rapidwp-featured-posts-area
-60fps.live##.clearfix.rapidwp-sidebar-two-wrapper-inside
-60fps.live##.container > div:nth-of-type(2)
-60fps.live###playBtn
-@@/plugins/vlplayer/$script
-||60fps.live/wp-includes/js/wp-emoji-release.min.js$script
-||60fps.live/wp-content/themes/rapidwp/assets/images/scroll-top.png$image
-||cdn.totalsportek.com/wp-content/uploads/*/Watch-now.jpg$image
-||assets.bilsyndication.com^
-||biltag.bilsyndication.com^
-||youpits.com/chat.html$subdocument
-||buymeacoffee.com/assets/img/*$image
-||udmserve.net^$important
-
-#9now.com.au
-9now.com.au##[class="aamIframeLoaded"]
-9now.com.au##[class="vjs-mouse-display"]
-9now.com.au##[class="vjs-time-tooltip"]
-9now.com.au##[class="vjs-ima3-ad-container"]
-9now.com.au##[class="vjs-cuepoint"]
-9now.com.au##[class="vjs-cuepoints-bar"]
-9now.com.au##._1wpX_O._2G1QMe._35peaY
-9now.com.au##[id="LOCSTORAGE"]
-@@||metrics.brightcove.com^$domain=9now.com.au
-@@||edge.api.brightcove.com/playback/*$xmlhttprequest,domain=9now.com.au
-@@||tremorhub.com/$script,domain=9now.com.au
 
 #Putlocker.me
 putlocker.*##+js(popads-dummy)
@@ -2582,6 +2574,8 @@ dirdamid.com##a[href$=".html"]
 ##[data-entrycode="RemAds-topRtSq"]
 ##[class="reset"]
 ##.abEnabled > iframe
+##.campaign-holder
+##.gdpr-header
 ##.policy-label
 ##.privacypolicymessagebox_header_cookies
 ##.p_window > .ii
@@ -6131,6 +6125,7 @@ dirdamid.com##a[href$=".html"]
 ##.td_topads
 ##.tdad125
 ##.tealiumAdSlot
+##.teaser--native
 ##.teaser--native-ad
 ##.teaser-ad
 ##.teaser-advertisement
@@ -9346,7 +9341,7 @@ popuper.js^
 *##[id^='adsIfrme']:has(:scope > iframe[src^='/ads/'])
 *#@#a[href*="/spelat"]
 *##a[href*="/betting"]
-*##a[href*="/brandstudio/a/"]
+*##a[href*="/brandstudio"]
 *##a[href*="/branding"]
 *##a[href*="/casinoguide"]
 *##a[href*="/kampanj"]:has-text(/erbjudande/i)
