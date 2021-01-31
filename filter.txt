@@ -46,11 +46,16 @@ aftonbladet.se##div[style*="border-color:#0067b5;"] ~ a
 aftonbladet.se##h3[style*="background-color:#0067b5;border-radius:2px;margin:16px 0px 0px 0px;"]
 aftonbladet.se##.type-advert
 aftonbladet.se##[src*="/ab-box?"]
+aftonbladet.se##[data-engage-entity-id*="sdrn:aftonbladet:article"][href*="family"]
+aftonbladet.se##[data-engage-entity-id*="sdrn:aftonbladet:article"][href*="wellness"]
+aftonbladet.se##[data-engage-entity-id*="sdrn:aftonbladet:article"][href*="wellobe"]
+aftonbladet.se##div.HLf1C:has-text(ANNONS)
 aftonbladet.se##div.HLf1C:has-text(clas)
 aftonbladet.se##div.HLf1C:has-text(HELGEN)
+aftonbladet.se##div.HLf1C:has-text(SISTA CHANSEN)
+aftonbladet.se##div.HLf1C:has-text(50% rabatt)
 aftonbladet.se##.abAside div:has-text(spel 18 år)
 aftonbladet.se##.abAside > div:has-text(ANNONS)
-aftonbladet.se##div.HLf1C:has-text(ANNONS)
 aftonbladet.se##[class="AxIVT"]
 aftonbladet.se##[data-invcode*="se-aftonbladet-"]
 aftonbladet.se##[rahrefbattkod=""]
@@ -60,7 +65,7 @@ aftonbladet.se##[id^="innerabAdArea-"]
 aftonbladet.se##.ab-responsive-ads-wrapper
 aftonbladet.se##.share-icons
 aftonbladet.se##.social-shares
-aftonbladet.se##[href="/kampanj/casinoguide"]
+aftonbladet.se##a[href="/kampanj/casinoguide"]
 aftonbladet.se##a[href*="/"]:has-text(Casino)
 aftonbladet.se##a[href*="?utm_source=aftonbladet&utm_medium=textlink&utm_campaign=widget"]
 aftonbladet.se#@#div[data-reactroot] > div > div#MegaAd ~ div[class]:not(#header):not(.abThemeGradientPage)
