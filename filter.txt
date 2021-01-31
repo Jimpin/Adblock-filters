@@ -7581,6 +7581,7 @@ dirdamid.com##a[href$=".html"]
 ||onclickprediction.com^
 ||trafforsrv.com^$important
 ||adexchangetracker.com^
+||nickeeha.net^
 ||fm6dz864.top^$script,important
 ||amazonaws.com^*/ad_loader$important
 ||ohleiludieje.*^$script,important
@@ -9248,7 +9249,6 @@ popuper.js^
 ://adv.$script,xhr
 ://ads.$script,xhr
 ://hw-$important
-://go.$important
 ://adserve.$important
 ://srv.$important
 ://serve.$important
