@@ -9,7 +9,6 @@ aftonbladet.se##.jwplayer:has(.svp-sponsor-label):remove()
 aftonbladet.se##a[href*=".se/kampanj?"]:has-text(/erbjudande/i)
 aftonbladet.se##a[href*="aftonbladet.se/kampanj/artikel"]:upward(1)
 aftonbladet.se##a[href*="/tv/"]:has(span:has-text(/studio oddset/i)):upward(1)
-aftonbladet.se##a[href*="/relationer/"]
 aftonbladet.se##.sch-datacontroller__wrapper
 aftonbladet.se##.sch-datacontroller--permanent.sch-datacontroller--cobranded.sch-datacontroller
 aftonbladet.se##.sch-datacontroller--minimal.sch-datacontroller--subheader.sch-datacontroller
