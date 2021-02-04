@@ -56,7 +56,6 @@ aftonbladet.se##div.HLf1C:has-text(SISTA CHANSEN)
 aftonbladet.se##div.HLf1C:has-text(50% rabatt)
 aftonbladet.se##.abAside div:has-text(spel 18 år)
 aftonbladet.se##.abAside > div:has-text(ANNONS)
-aftonbladet.se##[class="AxIVT"]
 aftonbladet.se##[data-invcode*="se-aftonbladet-"]
 aftonbladet.se##[rahrefbattkod=""]
 aftonbladet.se##[class="svp-player-recommended-box"]
@@ -69,6 +68,7 @@ aftonbladet.se##a[href="/kampanj/casinoguide"]
 aftonbladet.se##a[href*="/"]:has-text(Casino)
 aftonbladet.se##a[href*="?utm_source=aftonbladet&utm_medium=textlink&utm_campaign=widget"]
 aftonbladet.se#@#div[data-reactroot] > div > div#MegaAd ~ div[class]:not(#header):not(.abThemeGradientPage)
+
 acast.com##[alt="Advertisement"]
 acast.com##[data-test-id="AirTimeAdControls__CountDown"]
 acast.com##[data-test-id="Link"]
