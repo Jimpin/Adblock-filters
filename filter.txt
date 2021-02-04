@@ -49,6 +49,7 @@ aftonbladet.se##[data-engage-entity-id*="sdrn:aftonbladet:article"][href*="famil
 aftonbladet.se##[data-engage-entity-id*="sdrn:aftonbladet:article"][href*="matdryck"]
 aftonbladet.se##[data-engage-entity-id*="sdrn:aftonbladet:article"][href*="wellness"]
 aftonbladet.se##[data-engage-entity-id*="sdrn:aftonbladet:article"][href*="wellobe"]
+aftonbladet.se##.AxIVT[style="min-height: 600px;"]
 aftonbladet.se##div.HLf1C:has-text(ANNONS)
 aftonbladet.se##div.HLf1C:has-text(clas)
 aftonbladet.se##div.HLf1C:has-text(HELGEN)
