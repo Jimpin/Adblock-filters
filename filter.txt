@@ -1342,6 +1342,8 @@ yallasport.co###ads
 ||cdn.popcash.net^$important
 
 #Speedtest.net
+speedtest.net###_evidon-background
+speedtest.net##.evidon-barrier
 speedtest.net##.container-leaderboard.a-container
 speedtest.net##.top-placeholder.pure-u-1
 speedtest.net##.lowerboard.a-container-lowerboard.a-container
