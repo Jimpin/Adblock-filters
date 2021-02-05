@@ -69,7 +69,6 @@ aftonbladet.se##a[href="/kampanj/casinoguide"]
 aftonbladet.se##a[href*="/"]:has-text(Casino)
 aftonbladet.se##a[href*="?utm_source=aftonbladet&utm_medium=textlink&utm_campaign=widget"]
 aftonbladet.se#@#div[data-reactroot] > div > div#MegaAd ~ div[class]:not(#header):not(.abThemeGradientPage)
-
 acast.com##[alt="Advertisement"]
 acast.com##[data-test-id="AirTimeAdControls__CountDown"]
 acast.com##[data-test-id="Link"]
@@ -9024,6 +9023,7 @@ popuper.js^
 @@||stream.nbcsports.com^
 @@||statics-neu.onestore.ms^
 @@||ajax.googleapis.com^$script
+@@||amazonaws.com/pollsystem*$script,3p
 @@||media-amazon.com^$css
 @@||ajax.cloudflare.com/cdn-cgi/scripts/$script
 @@||ajax.googleapis.com/ajax/libs/jquery/
