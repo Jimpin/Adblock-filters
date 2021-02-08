@@ -484,7 +484,8 @@ tv4play.se###pause-img-holder
 tv4play.se##.js-cookie-banner
 tv4play.se#@#.adBanner
 tv4play.se##a[href="https://www.cmore.se/tv-program?utm_source=tv4play&utm_medium=partner&utm_campaign=test_cmore_topmeny_tv4play&utm_content=vinrod_se_utan_reklam_pa_cmore&utm_term=tv_program"]
-&browser=mozillafirefox$xmlhttprequest,queryprune=/^browser/
+@@||cedexis.net^$3p,domain=tv4play.se|fotbollskanalen.se
+&browser=mozillafirefox$xhr,queryprune=/^browser/
 */aab/tv4play$script
 */trailers$media,redirect-rule=noopmp3-0.1s
 */tv4play_plugin.$script,redirect-rule=noopjs
@@ -9067,7 +9068,6 @@ popuper.js^
 @@||steamcdn-a.akamaihd.net^$image
 @@||steamstore-a.akamaihd.net^$image
 @@||googlevideo.com/videoplayback?^$xhr,1p
-@@||cedexis.net^$3p
 @@||cdn.fbsbx.com^$image
 @@||pinterest.com^$image
 @@||redirect*^$xhr,media
