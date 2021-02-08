@@ -500,7 +500,6 @@ tv4play.se##a[href="https://www.cmore.se/tv-program?utm_source=tv4play&utm_mediu
 ||bonnier-html-player.b17g.services/bumpers/$media,redirect-rule=noopmp4-0.1s,domain=tv4play.se|fotbollskanalen.se
 ||cloudfront.net/creatives/assets/$image,media,domain=fotbollskanalen.se|tv4play.se
 ||cmore.se/*.gif$image
-||cedexis.com^$xhr,redirect-rule=nooptext
 ||cedexis-radar.net^$xhr
 ||radar.cedexis.com^$script
 ||fls.doubleclick.net^$subdocument
@@ -9067,8 +9066,7 @@ popuper.js^
 @@||steamcdn-a.akamaihd.net^$image
 @@||steamstore-a.akamaihd.net^$image
 @@||googlevideo.com/videoplayback?^$xhr,1p
-@@||radar.cedexis.com^$script
-@@||cedexis.net^$css,1p
+@@||cedexis.net^$3p
 @@||cdn.fbsbx.com^$image
 @@||pinterest.com^$image
 @@||redirect*^$xhr,media
