@@ -7217,6 +7217,7 @@ dirdamid.com##a[href$=".html"]
 ||mozefakt.com^
 ||mujilora.com^
 ||muligov.com^
+||icoawhou.com^
 ||namitol.com^
 ||nanuyalailai.com^
 ||oddomane.com^
