@@ -238,8 +238,9 @@ twitch.tv##.player-advertisement, .player-video object
 twitch.tv##a[href$="twitch.tv"][target="_blank"]
 twitch.tv##+js(aopw, importScripts)
 /\/[a-z0-9_-]{15,}\.[a-z0-9-]+\.[a-z]{2,}\/.*?\w{40,}/$script,3p,domain=twitch.tv
+@@||twitch.tv/drops/*$1p
 @@||twitch.tv/videos/*$csp
-@@||irc-ws.chat.twitch.tv^$websocket,first-party
+@@||irc-ws.chat.twitch.tv^$websocket,1p
 @@||wss://pubsub-edge.twitch.tv
 ||twitch.tv$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' wss: blob: *.twitch.tv google.com gstatic.com *.jtvnw.net *.ttvnw.net *.twitchcdn.net recaptcha.net *.amazon-adsystem.com twitch.tv&ex-hargs
 ||amazon-adsystem.com/*/apstag.js$script,important,domain=twitch.tv
@@ -868,6 +869,7 @@ nyafilmer.*##a[href="/add-content/"]
 nyafilmer.*##.trigger.arrow-bottom.share-button.button
 nyafilmer.*##.top
 nyafilmer.*##.closeSkin
+nyafilmer.*##.info-content
 nyafilmer.*##[src*="/async.js"]
 nyafilmer.*##.movie-preview-content > a[target="_blank"]
 nyafilmer.*###text-2
@@ -9515,6 +9517,13 @@ popuper.js^
 ##[id="skinAdTarget"]
 ##[id="superadunit"][class="hidden"]
 ###gdpr-cookie-message
+
+/icon.png?a*$3p,important
+/image.png?a*$3p,important
+/warning.png?a*$3p,important
+/logo.png?a*$3p,important
+/star.png?a*$3p,important
+/header.png?a*$3p,important
 
 .biz^$frame,xhr,image,ping,popup,3p
 .fun^$frame,xhr,image,ping,popup,3p
