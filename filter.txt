@@ -1245,7 +1245,6 @@ viafree.se##.x-play-button-overlay
 viafree.se##.pause-ad-navigation
 viafree.se##[id="linkTag2"]
 viafree.se##[class*="ScrollGradient"]
-viafree.se##[fill*="url(#viafree-logo-text_svg__pattern0)"]
 viafree.se##[class="cta-overlay vjs-hidden"]
 viafree.se##.avodp.pause-ad-showing .vjs-progress-control, .avodp.ad-playing .vjs-progress-control:style(display: initial !important;)
 viafree.se##.SliderBlock_background_continueWatching.SliderBlock_background
