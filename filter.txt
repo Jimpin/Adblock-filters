@@ -1243,6 +1243,7 @@ viafree.se##.x-play-button-overlay
 viafree.se##.x-control-bar-overlay
 viafree.se##.x-play-button-overlay
 viafree.se##.pause-ad-navigation
+viafree.se##[style="width: 74px;height: 74px;float: right;"]
 viafree.se##[id="linkTag2"]
 viafree.se##[class*="ScrollGradient"]
 viafree.se##[class="cta-overlay vjs-hidden"]
@@ -6843,11 +6844,7 @@ dirdamid.com##a[href$=".html"]
 ##[href*="5iclx7wa4q.com"]
 
 #Ads/Trackers
-|about:blank$third-party
-||analytic.
-||analytics-
-||analytics.
-||analytics1.
+|about:blank$3p
 ||count.
 ||counter.
 ||counter2.
@@ -6970,7 +6967,6 @@ dirdamid.com##a[href$=".html"]
 ||lvgvax82bp.com^$script
 ||loldata.top^$important
 ||facebook.com/plugins/like$third-party
-||analytics.codigo.se^$script,redirect-rule=noopjs
 ||adsby.bidtheatre.com^$script,redirect-rule=noopjs
 ||gorgeousground.com^
 ||gostats.com^
@@ -8129,7 +8125,6 @@ dirdamid.com##a[href$=".html"]
 -ads.js?
 hic_qos?adv_partner^
 survey/source^
-analytics.
 affiliates.
 adsense.
 appnexus.
@@ -9329,7 +9324,6 @@ popuper.js^
 *##+js(abort-on-property-write.js, spot)
 *##+js(aopr, VAST)
 *##+js(abort-on-property-read, S9tt)
-*##+js(set, clientSide.adbDetect, null)
 *##+js(abort-on-property-read, zone_2547)
 *##+js(abort-on-property-read, AdDelivery.prototype.requestTrafficJunkyAds)
 *##+js(abort-on-property-read.js, _goat)
@@ -9348,7 +9342,6 @@ popuper.js^
 *##+js(ra, data-ad-config)
 *##+js(ra, data-article-tracking-info)
 *##+js(ra, data-video-tracking-info)
-*##[data-ad-client]
 *##html:style(filter: none !important)
 *##[class="sp-message-open"]:style(overflow: auto !important; position: initial !important;)
 *##[class="js sp-message-open"]:style(position: unset !important;)
@@ -9362,7 +9355,6 @@ popuper.js^
 *##div>a:has-text(CASINOGUIDEN)
 *##div>a:has-text(ANNONS)
 *##[id^='adsIfrme']:has(:scope > iframe[src^='/ads/'])
-*#@#a[href*="/spelat"]
 *##a[href*="/betting"]
 *##a[href*="/brandstudio"]
 *##a[href*="/branding"]
@@ -9431,8 +9423,6 @@ popuper.js^
 ||connect.facebook.net/signals/*$script
 ||graph.facebook.com^
 /ping?client_id=
-/jsonp.php?b=*
-/?*=:&ids=*&r=
 ||fls.doubleclick.net^$subdocument
 ||richmetrics.com^$script
 ||spotxchange.com^$xmlhttprequest
@@ -9508,7 +9498,6 @@ popuper.js^
 *##+js(nostif, n.modal)
 *##+js(nosiif, runAdBlockPaywall, 1000)
 *##+js(acis, exactmetrics_scroll_tracking_load)
-*##+js(acis, jQuery, themifyPopup)
 *##+js(set, mi_track_user, false)
 *##.no-scroll:style(overflow-x: hidden !important;)
 *##div[class^="lowerBadge"]
@@ -9516,13 +9505,6 @@ popuper.js^
 ##[id="skinAdTarget"]
 ##[id="superadunit"][class="hidden"]
 ###gdpr-cookie-message
-
-/icon.png?a*$3p,important
-/image.png?a*$3p,important
-/warning.png?a*$3p,important
-/logo.png?a*$3p,important
-/star.png?a*$3p,important
-/header.png?a*$3p,important
 
 .biz^$frame,xhr,image,ping,popup,3p
 .fun^$frame,xhr,image,ping,popup,3p
