@@ -645,13 +645,14 @@ svtplay.se##.play_cookie-information
 #Svenskafans.com
 svenskafans.com##^script:has-text(.loadAd)
 svenskafans.com##[class*="ad-"]
+@@||lwadm.com^$script,3p,domain=www.svenskafans.com
 ||svenskafans.com/images/menu-logo/top/Bakgrund_toppmeny.png$image
 ||svenskafans.com/WebResource.axd$important
 ||svenskafans.com/css/feedbackpopup.css$css
 ||svenskafans.com/js/awp.min.js$script
 ||svenskafans.com/css/uniform.default.css$css
-||connect.facebook.net/sv_SE/all.js$script,domain=www.svenskafans.com,important
-||platform.twitter.com/widgets.js$script,domain=www.svenskafans.com,important
+||connect.facebook.net/sv_SE/all.js$script,domain=svenskafans.com
+||platform.twitter.com/widgets.js$script,domain=svenskafans.com
 ||sak.userreport.com^
 /sticky*.$css,domain=svenskafans.com
 /js/smart-app-banner.$script,domain=svenskafans.com
@@ -6968,6 +6969,7 @@ dirdamid.com##a[href$=".html"]
 ||loldata.top^$important
 ||facebook.com/plugins/like$third-party
 ||adsby.bidtheatre.com^$script,redirect-rule=noopjs
+||js-sec.indexww.com^
 ||gorgeousground.com^
 ||gostats.com^
 ||gothamads.com^
