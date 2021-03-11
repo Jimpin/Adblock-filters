@@ -23,7 +23,6 @@
 |about:blank$3p
 *#blocked$popup,3p
 *$document,3p
-*##+js(nowebrtc)
 *##+js(aopr, popunderSetup)
 *##+js(acis, document.querySelector, popupBlocked)
 *##+js(aopw, _pop)
@@ -188,11 +187,11 @@ iframe*$popup
 ||popupdomination.com^$3p
 ||popuptraffic.com^$3p
 ||popwin.net^$3p
-||go.oclasrv.com/apu.php$script,redirect=noopjs
-||go.onclasrv.com/apu.php$script,redirect=noopjs
-||onclkds.com/apu.php$script,redirect=noopjs
-||xxlargepop.com/apu.php$script,redirect=noopjs
-||onclicksuper.com^$popup,important
+||go.oclasrv.com
+||go.onclasrv.com
+||onclkds.com
+||xxlargepop.com
+||onclicksuper.com^$popup
 ||adnetworkperformance.com^$popup
 ||advertserve.com^$popup
 ||adexchangeprediction.com^$popup
@@ -201,7 +200,7 @@ iframe*$popup
 ||bet365.com^$popup
 ||harleyquinnwidget.net^$popup
 ||rotumal.com^$important,popup
-||static.tellerium.com^$popup,important
+||static.tellerium.com^$popup
 ||deloton.com^$popup
 ||doubleclick.net^$popup
 ||go.trafficshop.com^$popup
@@ -221,7 +220,7 @@ iframe*$popup
 ||perfecttoolmedia.com^$popup
 ||promotions.betsafe.com^$popup
 ||asdad.xyz$popup,important
-||jf71qh5v14.com^$popup,important
+||jf71qh5v14.com^$popup
 ||popads.net^$popup
 ||popcash.net^$popup
 ||vipleague.mobi^$popup
@@ -253,7 +252,7 @@ iframe*$popup
 ||b3z29k1uxb.com^$popup,important
 ||ylqbiljjlyq.com^$popup,important
 ||212.83.183.149^$popup
-||wchat.*^$popup,important
+||wchat.*^$important
 
 -ads-campaign/$popup
 .co/ads/$popup
@@ -348,13 +347,13 @@ _popunder+$popup
 /wp-content/plugins/wonderplugin-popup/engine/wonderplugin-popup-engine.js
 /wp-content/plugins/yeloni-free-exit-popup/common/loader.js
 /wp-popup-scheduler/*
-://*.info$popup
-://*.online$popup
-://*.pro$popup
-://*.top$popup
-://*.stream$popup
-://*.click$popup
-://*.xyz$popup
+://*.info$popup,3p
+://*.online$popup,3p
+://*.pro$popup,3p
+://*.top$popup,3p
+://*.stream$popup,3p
+://*.click$popup,3p
+://*.xyz$popup,3p
 /1675303/
 =popunder&$popup
 =popunders&$popup
@@ -394,11 +393,6 @@ _popunder+$popup
 /random*.php$popup
 /?join_overlay=$popup
 /sitestats/openwindow/$popup
-
-#scripts
-pop.js^
-popup.min.js?
-popupManager.js^
 
 Popup domain-blockerlist
 ||*.online^$3p,popup

@@ -6950,7 +6950,7 @@ dirdamid.com##a[href$=".html"]
 ||elasticad.net^
 ||pushwhy.com^$important
 ||rtmark.net^$important
-||luckypushh.com^$script,important
+||luckypushh.com^$important
 ||tradedoubler.com^
 ||trafficfactory.biz^
 ||traffichaus.com^
