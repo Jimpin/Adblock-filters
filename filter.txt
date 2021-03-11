@@ -7643,6 +7643,7 @@ dirdamid.com##a[href$=".html"]
 ||ncjjybttngffe.com^
 ||ads.puffnetwork.com^
 ||modulepush.com^
+||33across.com^
 ||a.realsrv.com^
 ||hartookr.link^$important
 ||chauksoa.net^$important
