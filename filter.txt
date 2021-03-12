@@ -597,6 +597,7 @@ facebook.com##.adv
 facebook.com##div[data-testid="fbfeed_story"]:if(a[href*="[is_sponsored]"])
 facebook.com##div[id^="substream_"] ._5jmm[data-dedupekey][data-cursor][data-xt][data-xt-vimpr="1"][data-ftr="1"][data-fte="1"]
 facebook.com##div[id^="substream_"] > div > div[id] div[id^="hyperfeed_story_id_"]:has(div._5pcp._5lel > span > div > div > a[href="#"])
+facebook.com##[data-pagelet*="FeedUnit"]:contains(Läs mer)
 facebook.com##.ego_spo
 facebook.com##.ego_column:if(a[href^="/campaign/landing"])
 facebook.com##.ego_section:has(a.adsCategoryTitleLink)
