@@ -191,7 +191,6 @@ expressen.se##figure[data-article-data*="/sponsrat"], figure[data-article-data*=
 ||expressen.se/img/icons/footer_ads.svg$image,first-party,important
 ||expressen.se/img/icons/footer_cookie.svg$image
 ||expressen.se/img/placeholders/*$image
-||facebook.com/tr/*$image
 ||precis.expressen.se/recommendations$xmlhttprequest
 ||jtp.expressen.se/notify$image
 ||richmetrics.com^$all
@@ -594,20 +593,8 @@ facebook.com##+js(remove-class, _31e, body > ._li)
 facebook.com##[aria-label="Annonsörlänk"]
 facebook.com##[style="display: -webkit-box; -moz-box-orient: vertical; -webkit-line-clamp: 2;"]:has-text(Sponsrad)
 facebook.com##.adv
-facebook.com##div[data-testid="fbfeed_story"]:if(a[href*="[is_sponsored]"])
-facebook.com##div[id^="substream_"] ._5jmm[data-dedupekey][data-cursor][data-xt][data-xt-vimpr="1"][data-ftr="1"][data-fte="1"]
-facebook.com##div[id^="substream_"] > div > div[id] div[id^="hyperfeed_story_id_"]:has(div._5pcp._5lel > span > div > div > a[href="#"])
+facebook.com##[class="l9j0dhe7"]:contains(Sponsrad)
 facebook.com##[data-pagelet*="FeedUnit"]:contains(Läs mer)
-facebook.com##.ego_spo
-facebook.com##.ego_column:if(a[href^="/campaign/landing"])
-facebook.com##.ego_section:has(a.adsCategoryTitleLink)
-facebook.com##.ego_column:if(a[href^="/campaign/landing"])
-facebook.com##.clearfix.fbChatOrderedList > div > div:nth-of-type(2) > div
-facebook.com###stream_pagelet [id^="hyperfeed_story_id_"]:has(span._4dcu)
-facebook.com###stream_pagelet div[id^="hyperfeed_story_id_"]:if(h6:has-text(People You May Know)) 
-facebook.com###stream_pagelet div[id^="hyperfeed_story_id_"]:has(a.uiStreamSponsoredLink)
-facebook.com###stream_pagelet > #pagelet_megaphone
-facebook.com##[data-referrer][zoompage-fontsize="13"] > .ego_column[zoompage-fontsize]:first-child
 facebook.com###pagelet_ego_pane
 facebook.com###rightCol .pagelet.egoOrganicColumn
 facebook.com###globalContainer .pagelet.egoOrganicColumn
@@ -618,11 +605,11 @@ facebook.com#@#body:style(overflow-y: auto !important)
 ||facebook.com/v2.10/plugins/like.php$subdocument
 ||facebook.com/v2.9/plugins/share_button.php$subdocument
 ||facebook.com/ads/*
-||facebook.com/tr/$third-party
+||facebook.com/tr/*
 ||facebook.com/video/autoplay/*$xmlhttprequest
 ||facebook.com/xti.php$important
 ||facebook.com/campaign/landing.php?
-||graph.facebook.com^$script,important
+||graph.facebook.com^$script
 ||badge.facebook.com^$3p
 ||messenger.com/ajax/messenger/context_banner/*$xmlhttprequest
 ###fblike
