@@ -557,6 +557,7 @@ youtube.com##[class="style-scope yt-formatted-string"]:has-text(egistrering)
 youtube.com##a[href*="/"]:has-text(bit.ly)
 youtube.com##a[href*="/"]:has-text(stod)
 youtube.com##span.yt-formatted-string.style-scope:has-text(casino)
+youtube.com###clarify-box:has-text(COVID)
 youtube.com##.page-loaded
 @@||youtube.com^$csp
 @@||youtube.com/player_api$third-party
@@ -9497,6 +9498,11 @@ popuper.js^
 ##[id="skinAdTarget"]
 ##[id="superadunit"][class="hidden"]
 ###gdpr-cookie-message
+
+##.jconfirm-bg
+##.jconfirm-cell
+##.jconfirm-open
+##.jconfirm-scrollpane
 
 .biz^$frame,xhr,image,ping,popup,3p
 .fun^$frame,xhr,image,ping,popup,3p

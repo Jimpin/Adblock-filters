@@ -383,7 +383,6 @@ _popunder+$popup
 /?link=$popup,3p
 /?key=$popup,3p
 /affiliates/$popup,3p
-/land/$popup,3p
 /partners/$popup,3p
 /network/redir?$popup,3p
 /referrals?$popup,3p
