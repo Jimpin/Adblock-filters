@@ -398,7 +398,6 @@ google.*###rhs_block
 ##.googleads_300x250
 ##.googleads_title
 ##.googleadsense
-##.googleadvertisemen120x600
 ##.googleadvertisement
 ##.googleadwrap
 ||google.*^$csp
@@ -648,8 +647,6 @@ blocket.se##div:matches-css(width: 1012px):matches-css(height: 24px)
 
 #Twitter.com
 twtmore.com##div[class="bsa_wrap"]
-twitter.com##li[data-name="connect"]
-twitter.com##li[data-global-action="discover"]
 twitter.com##div[id="first_ad"]
 twitter.com##div[id="dynstrip"]
 twitter.com##div[id="ad-placeholder-Top"]
@@ -768,6 +765,7 @@ nyafilmer.*##^script:has-text(var offtop=0;var sticky_sidebar=true;)
 nyafilmer.*##+js(abort-current-inline-script.js, decodeURI, atob)
 nyafilmer.*##+js(acis, document.getElementById, undefined)
 nyafilmer.*##^script:has-text(var _0x)
+nyafilmer.*##.topinfo
 nyafilmer.*##div:matches-css(width: 500px):matches-css(height: 350px):matches-css(z-index: 99999)
 nyafilmer.*##div:matches-css(z-index: 99998)
 nyafilmer.*##div:matches-css(z-index: 99999)
@@ -954,7 +952,7 @@ vipleague.*##+js(nano-sib)
 vipleague.*##.position-absolute:style(opacity: 0 !important;)
 vipleague.*##.btn-lg
 vipleague.*##.font-weight-bold
-vipleague.*,fbstreams.me,mlbstream.*,nbastream.io,nflstream.io,nhlstream.io##^script + [id][style]
+vipleague.*##^script + [id][style]
 vipleague.*##ol
 vipleague.*##div.pt-1:nth-of-type(9)
 vipleague.*##b
@@ -971,9 +969,9 @@ vipleague.*##.position-relative.text-success
 vipleague.*##.text-center.col-md-4.d-md-block.d-none
 vipleague.*##.text-white.bg-dark.text-justify.p-3.m-3.d-md-block.d-none.col-12
 @@||plytv.me^$subdocument
+/*^$xhr,frame,css,3p,domain=vipleague.lc
 ||vipleague.*/loadchatdata$xhr,domain=www.vipleague.lc
 ||vipleague.*/favicon-32x32.png$image
-/*^$xhr,frame,css,3p,domain=vipleague.lc
 ||clients6.google.com/rpc$xmlhttprequest,domain=www.vipleague.lc
 ||cdn.jsdelivr.net/npm/yandex-metrica-watch/tag.js
 ||cdn.jsdelivr.net/npm/lazy-ads*$xmlhttprequest
@@ -1062,7 +1060,6 @@ rapidvideo.com##+js(addEventListener-defuser.js, mousedown, preventDefault)
 ||rapidvideo.com/css/opensans.css$css
 ||rapidvideo.com/?c=$xmlhttprequest,domain=rapidvideo.com
 ||rapidvideo.com/images/rapidvideo_logo_player.png$important
-||gaitheed.com/wp-content/bootstrap-iconpicker/$css
 ||mc.yandex.ru^$important
 ||playercdn.net/thumb/*$image,domain=www.rapidvideo.com
 ||mcloud.to^$image
@@ -1097,7 +1094,6 @@ fmoviesfree.*##.overlay
 fmoviesfree.*###footer
 fmoviesfree.*##div.widget:nth-of-type(2)
 ||fmoviesfree.*$xhr,1p
-||*.xyz^$other
 ||mirafaren.pw^$all
 /link^$3p,popup
 mstream.*##[class="vjs-link"]
@@ -6995,7 +6991,6 @@ dirdamid.com##a[href$=".html"]
 ||fqsbi.com^
 ||jsc.mgid.com^
 ||uxrvjeyyj.com^
-||popads.net^$important
 ||betssongroupaffiliates.com^
 ||freecontent.bid^
 ||medleyads.com^
@@ -7906,7 +7901,7 @@ dirdamid.com##a[href$=".html"]
 ||koapsooh.click^
 ||aiwhebey.com^
 ||polyfill.io^$3p
-||gaitheed.com^$script,redirect-rule=noopjs
+||gaitheed.com^
 ||spouscontentdelivery.info^$important
 ||adbit.co^
 ||pcsecurity.pro^
@@ -7928,7 +7923,7 @@ dirdamid.com##a[href$=".html"]
 ||freegeoip.net^$script,important
 ||hotjar.com^$script
 ||track.adform.net/adfserve/*$image
-||popads.net/pop.js^$important
+||popads.net/pop.js^$script
 ||vacaneedasap.com^$important
 ||lp4.io^$image
 ||zukxd6fkxqn.com^$important
@@ -8539,32 +8534,14 @@ redirect.
 /networks/tag_config.js
 /wp-popup-scheduler/*
 /wp-srv/ad/*
-/wp_ad_250_
-/wp_pro_ad_system/*
+/wp_ad_250_*
 /wp-content/ads/*
 /wp-content/mbp-banner/*
-/wp-content/plugins/amazon-product-in-a-post-plugin/*
-/wp-content/plugins/automatic-social-locker/*
-/wp-content/plugins/banner-manager/*
-/wp-content/plugins/bhcb/lock.js
-/wp-content/plugins/bookingcom-banner-creator/*
-/wp-content/plugins/bookingcom-text2links/*
-/wp-content/plugins/fasterim-optin/*
-/wp-content/plugins/useful-banner-manager/*
-/wp-content/plugins/wp-bannerize/*
 /wp-content/plugins/ad-block-defender/*
 /wp-content/plugins/deadblocker/*
 /wp-content/plugins/anti-block/*
 /wp-content/plugins/anti_ad_blocker/*
 /wp-content/plugins/boxzilla/assets/js/script.min.js
-/wp-content/plugins/facebook-likebox-responsive-slider/templates/assets/js/facebook_likebox_slider.min.js
-/wp-content/plugins/popup-builder/javascript/jquery.sgcolorbox-min.js
-/wp-content/plugins/popups/public/assets/js/min/public-min.js
-/wp-content/plugins/wonderplugin-popup/engine/wonderplugin-popup-engine.js
-/wp-content/plugins/yeloni-free-exit-popup/common/loader.js
-/wp-content/uploads/useful_banner_manager_banners/*
-/wp-content/uploads/an-temp/*$script,stylesheet
-/wp-popup-scheduler/*
 /click(stream|track|log|andtrack|hype|through|jscript|tag|tale|ability)/
 /extreme(tracking|-dm)\.com/
 /google(-?)(analytics|syndication|ads(ense|ervices)?|_rad)/
@@ -8574,16 +8551,11 @@ redirect.
 /new_construction_ads/*
 /packs/consent.
 /packs/survey.
-/snowplow$script
-/snowplow-tracker$script
-/utsync.ashx?
-/addyn|*|adtech;
 /socialmedia.
-/nativeads.js$script,important
-/nl-ntx.gif$image
+/nativeads.js$script
 /likebox.
 /naughtyworms.gif
-/mp_emediate/inc/annons.html
+/inc/annons.html
 /cookie-notice/$script
 /pagead
 /chronopop
@@ -8618,9 +8590,6 @@ redirect.
 /cuteimage/*$image
 /genads.php?uid^
 /-image-ad_ads.html
-/1637045$important
-/1747886$important
-/1560200$important
 /ads1.htm$subdocument,important
 /ads/purl.js$script
 /12672
