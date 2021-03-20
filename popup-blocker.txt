@@ -243,7 +243,6 @@ iframe*$popup
 ||b54m4qbmt0b9.com^$popup
 ||inxy.run^$popup
 ||z6naousb.com^$popup
-||nyafilmerhd.*/*.html$popup,first-party,important
 ||rizk.com^$popup,important
 ||*.site^$popup,important
 ||b3z29k1uxb.com^$popup,important
@@ -371,7 +370,6 @@ _popunder+$popup
 /search.php$popup,3p
 /affiliate/*$popup
 /?ref=$popup,3p
-/serve/$popup,3p
 /redirects/$popup,3p
 /redirect?given=$popup,popunder
 /index.html?affID=$popup,3p

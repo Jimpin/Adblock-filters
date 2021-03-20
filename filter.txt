@@ -7745,6 +7745,7 @@ dirdamid.com##a[href$=".html"]
 ||vendorlist.consensu.org^$third-party
 ||typekit.net^
 ||xtendmedia.com^
+||cookielaw.org^$3p
 ||bugsnag.com^$3p
 ||app.link^$3p
 ||m73lae5cpmgrv38.com^
@@ -8944,7 +8945,9 @@ popuper.js^
 @@||cdn.fbsbx.com^$image
 @@||pinterest.com^$image
 @@||redirect*^$xhr,media
+@@||cdn.cookielaw.org/consent/*$xhr
 @@*player.min.js$script
+@@/scripttemplates/otSDK*.js$script
 @@/cdn-cgi/apps/head/*.js
 @@/js/page-landing-page.js?*$script
 @@/live/*/index.m3u8
