@@ -107,7 +107,6 @@ klart.se##+js(aopr, blockAdBlock)
 ||ooul.tv/*/se-aftonbladet/aab/aftonbladet_$script,redirect-rule=noopjs
 ||jwpsrv.com^$subdocument,important
 ||brandmetrics.com^$3p
-||collector.schibsted.io^$xmlhttprequest,important
 ||jwpcdn.com^*/*.js$script,domain=aftonbladet.se
 ||svp.vg.no/svp/api/v1/time$xmlhttprequest
 ||ab-web-notifications.herokuapp.com^$xhr
@@ -900,7 +899,7 @@ jawcloud.co##.loloba
 jawcloud.co##.banner
 jawcloud.co##[class="vjs-picture-in-picture-control vjs-control vjs-button"]
 jawcloud.co##^script:has-text(Inject=!)
-@@||upvtt.com^$xmlhttprequest
+@@||upvtt.com^$xhr
 ||jawcloud.co^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.jawcloud.co upvtt.com *.gstatic.com;frame-src 'self'
 ||jawcloud.co/playerjs/themes/newtheme/videojs.logobrand.css$css
 ||jawcloud.co/playerjs/themes/newtheme/videojs.chromecast.min.css$css
@@ -7530,7 +7529,6 @@ dirdamid.com##a[href$=".html"]
 ||nunhoefey.com^
 ||onmarshtompor.com^
 ||louchees.net^
-||collector.schibsted.io^
 ||static.adfarm1.adition.com^
 ||imagesrv.adition.com^
 ||cdn.cdnserv.pw/js/*$script
@@ -8962,6 +8960,7 @@ popuper.js^
 @@||cdn.fbsbx.com^$image
 @@||pinterest.com^$image
 @@||redirect*^$xhr,media
+@@||youbora.com/*/js/adapters/jwplayer$script
 @@||cookielaw.org/consent/$other,xmlhttprequest
 @@||cdn.cookielaw.org/consent/*$xhr
 @@||consent.cookiebot.com/*.js$script
