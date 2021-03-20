@@ -8950,6 +8950,8 @@ popuper.js^
 @@||consent.cookiebot.com/*.js$script
 @@*player.min.js$script
 @@/scripttemplates/otSDK*.js$script
+@@/js/lib/cookieconsent*.js$script
+@@/js/libs/cookieconsent.min.js$script
 @@/cdn-cgi/apps/head/*.js
 @@/js/page-landing-page.js?*$script
 @@/live/*/index.m3u8
