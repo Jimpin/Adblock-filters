@@ -101,8 +101,8 @@ klart.se##+js(aopr, blockAdBlock)
 ||aftonbladet.se.senaste.$document
 ||aftonbladet.se/kampanj/casinoguide$document
 ||aftonbladet.se/tv/temp.mp4$media/rabattkod/*$image,domain=aftonbladet.se
+||schibsted.io/*/publishing/*$important
 ||engage-auth.schibsted.media^$script
-||api.privacy.schibsted.com^$xmlhttprequest
 ||adv.aftonbladet.se^$important
 ||ooul.tv/*/se-aftonbladet/aab/aftonbladet_$script,redirect-rule=noopjs
 ||jwpsrv.com^$subdocument,important
@@ -8987,6 +8987,7 @@ popuper.js^
 @@/assets/js/player.js$script
 @@//media*^$image
 @@/vendors/omniture/*$script
+@@/sdrn:schibsted:client:*
 @@*.m3u8$xhr
 @@*.ts$xhr
 @@/?stream=
