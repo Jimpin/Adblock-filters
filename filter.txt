@@ -536,7 +536,11 @@ facebook.com##[aria-label="Annonsörlänk"]
 facebook.com##[style="display: -webkit-box; -moz-box-orient: vertical; -webkit-line-clamp: 2;"]:has-text(Sponsrad)
 facebook.com##.adv
 facebook.com##[class="l9j0dhe7"]:contains(Sponsrad)
+facebook.com##[data-pagelet*="FeedUnit"]:contains(Köp nu)
 facebook.com##[data-pagelet*="FeedUnit"]:contains(Läs mer)
+facebook.com##[data-pagelet*="FeedUnit"]:contains(Prova)
+facebook.com##[data-pagelet*="FeedUnit"]:contains(Se mer)
+facebook.com##[data-pagelet*="FeedUnit"]:contains(Villkor)
 facebook.com###pagelet_ego_pane
 facebook.com###rightCol .pagelet.egoOrganicColumn
 facebook.com###globalContainer .pagelet.egoOrganicColumn
