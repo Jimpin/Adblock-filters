@@ -29,7 +29,6 @@ aftonbladet.se##^script:has-text(preLoadAds)
 aftonbladet.se##.abTheme-ad
 aftonbladet.se##.abAdArea
 aftonbladet.se##.abThemeBgTeaser
-aftonbladet.se##.abThemeBorder
 aftonbladet.se##.abTheme-adSportbladet
 aftonbladet.se##.abTheme-infeedad
 aftonbladet.se##.abBtnShare
