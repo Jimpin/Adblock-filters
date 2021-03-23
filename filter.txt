@@ -535,9 +535,11 @@ facebook.com##+js(remove-class, _31e, body > ._li)
 facebook.com##[aria-label="Annonsörlänk"]
 facebook.com##[style="display: -webkit-box; -moz-box-orient: vertical; -webkit-line-clamp: 2;"]:has-text(Sponsrad)
 facebook.com##[data-pagelet*="FeedUnit"]:contains(Beställ här)
+facebook.com##[data-pagelet*="FeedUnit"]:contains(Bli medlem)
 facebook.com##[data-pagelet*="FeedUnit"]:contains(Köp nu)
 facebook.com##[data-pagelet*="FeedUnit"]:contains(Läs mer)
 facebook.com##[data-pagelet*="FeedUnit"]:contains(Prova)
+facebook.com##[data-pagelet*="FeedUnit"]:contains(REA)
 facebook.com##[data-pagelet*="FeedUnit"]:contains(Se mer)
 facebook.com##[data-pagelet*="FeedUnit"]:contains(Villkor)
 facebook.com###pagelet_ego_pane
