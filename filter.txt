@@ -538,6 +538,7 @@ facebook.com##[data-pagelet*="FeedUnit"]:contains(Beställ här)
 facebook.com##[data-pagelet*="FeedUnit"]:contains(Bli medlem)
 facebook.com##[data-pagelet*="FeedUnit"]:contains(Köp nu)
 facebook.com##[data-pagelet*="FeedUnit"]:contains(Läs mer)
+facebook.com##[data-pagelet*="FeedUnit"]:contains(Premiär)
 facebook.com##[data-pagelet*="FeedUnit"]:contains(Prova)
 facebook.com##[data-pagelet*="FeedUnit"]:contains(REA)
 facebook.com##[data-pagelet*="FeedUnit"]:contains(Se mer)
@@ -1592,6 +1593,20 @@ onhockey.tv##[src="pic/sad.gif"]
 ||crossout.net^$important
 ||am15.net/ssp/banner$important
 ||d.sportlevel.com^$important
+
+#Mixdrop.co
+mixdrop.*##+js(addEventListener-defuser, click, dtnoppu)
+mixdrop.*##+js(set, MDCore.adblock, 0)
+mixdrop.*##+js(aopr, atob)
+mixdrop.*##+js(nowoif)
+mixdrop.*##+js(aopw, _pop)
+mixdrop.*##+js(aopr, popjs)
+mixdrop.*##+js(acis, $, String.fromCharCode)
+mixdrop.co##.s-wrapper
+@@||mixdrop.*^$script,1p
+||mixdrop.*/sw.js$script,important
+*##div[onclick^="$(this).remove"]
+/^https?:\/\/([a-z0-9]{8,10}\.)?[-a-z0-9]{5,}\.(click|co|com|bid|link|net|online|top|club)\/([a-z0-9]{2}\/){3}[a-f0-9]{32}\.js$/$script,popup,3p
 
 #Putlocker.me
 putlocker.*##+js(popads-dummy)
