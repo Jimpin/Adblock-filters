@@ -284,127 +284,10 @@ google.*###center_col > #resultStats + div + #res + #tads
 google.*###mclip_container:last-child
 google.*###resultspanel > #topads
 google.*###rhs_block
-##.goglad
-##.goog_ad
-##.googad
-##.googads
-##.google-ad
-##.google-ad-container
-##.google-ad-content
-##.google-ad-fix
-##.google-ad-iframe
-##.google-ad-image
-##.google-ad-manager__slot
-##.google-ad-pad
-##.google-ad-placeholder
-##.google-ad-side_ad
-##.google-ad-sidebar
-##.google-ad-space
-##.google-ad-space-vertical
-##.google-ad-square-sidebar
-##.google-ad-top-outer
-##.google-ad-widget
-##.google-ad-wrapper-ui
-##.google-ads
-##.google-ads-boxout
-##.google-ads-container
-##.google-ads-footer-01
-##.google-ads-footer-02
-##.google-ads-group
-##.google-ads-leaderboard
-##.google-ads-long
-##.google-ads-obj
-##.google-ads-responsive
-##.google-ads-right
-##.google-ads-rodape
-##.google-ads-sidebar
-##.google-ads-slim
-##.google-ads-widget
-##.google-ads-wrapper
-##.google-ads2
-##.google-adsbygoogle
-##.google-adsense
-##.google-advertisement
-##.google-advertisement_txt
-##.google-right-ad
-##.google-side-ad
-##.google-sponsored
-##.google-sponsored-ads
-##.google-sponsored-link
-##.google-sponsored-links
-##.google-text-ads
-##.google-user-ad
-##.googleAd
-##.googleAd-content
-##.googleAd-list
-##.googleAdBox
-##.googleAdContainer
-##.googleAdContainerSingle
-##.googleAdFoot
-##.googleAdSearch
-##.googleAdSense
-##.googleAdSenseModule
-##.googleAdTopTipDetails
-##.googleAdWrapper
-##.googleAdd
-##.googleAds
-##.googleAds336
-##.googleAds728
-##.googleAds_article_page_above_comments
-##.googleAdsense
-##.googleAdv1
-##.googleBannerWrapper
-##.googleContentAds
-##.googleInsideAd
-##.googleProfileAd
-##.googleSearchAd_content
-##.googleSearchAd_sidebar
-##.googleSideAd
-##.google_728x90
-##.google_ad
-##.google_ad3
-##.google_ad_bg
-##.google_ad_btn
-##.google_ad_container
-##.google_ad_first
-##.google_ad_label
-##.google_ad_right
-##.google_ad_wide
-##.google_admanager
-##.google_ads
-##.google_ads_content
-##.google_ads_sidebar
-##.google_adsense
-##.google_adsense1
-##.google_adsense_footer
-##.google_adsense1_footer
-##.google_adsense_sidebar_left
-##.google_top_adsense
-##.google_top_adsense1
-##.google_top_adsense_footer
-##.google_top_adsense1_footer
-##.googlead
-##.googlead-sidebar
-##.googleadArea
-##.googlead_iframe
-##.googlead_outside
-##.googleadbottom
-##.googleadcontainer
-##.googleadiframe
-##.googleads
-##.googleads-bottommiddle
-##.googleads-container
-##.googleads-height
-##.googleads-topmiddle
-##.googleads_300x250
-##.googleads_title
-##.googleadsense
-##.googleadvertisement
-##.googleadwrap
 ||google.*^$csp
 ||google.*/pagead/*$important
 ||googleadservices.com^
-||googleads*.doubleclick.net^
+||googleads*^
 ||google-analytics.com^
 ||googleanalytics.com^
 ||googlesyndication.com^
@@ -561,7 +444,6 @@ facebook.com#@#body:style(overflow-y: auto !important)
 ||facebook.com/campaign/landing.php?
 ||graph.facebook.com^$script
 ||badge.facebook.com^$3p
-||messenger.com/ajax/messenger/context_banner/*$xmlhttprequest
 ###fblike
 ##.ad-link
 
@@ -583,7 +465,7 @@ svtplay.se##.play_cookie-information
 #Svenskafans.com
 svenskafans.com##^script:has-text(.loadAd)
 svenskafans.com##[class*="ad-"]
-@@||lwadm.com^$script,3p,domain=www.svenskafans.com
+@@||lwadm.com^$script,3p,domain=svenskafans.com
 ||svenskafans.com/images/menu-logo/top/Bakgrund_toppmeny.png$image
 ||svenskafans.com/WebResource.axd$important
 ||svenskafans.com/css/feedbackpopup.css$css
@@ -652,29 +534,6 @@ blocket.se##div:matches-css(width: 1012px):matches-css(height: 24px)
 /blocket_puff.html$subdocument
 /ad-block-detection-script-tag-src.js$script,redirect-rule=noopjs
 ||logs2.xiti.com^
-
-#Twitter.com
-twtmore.com##div[class="bsa_wrap"]
-twitter.com##div[id="first_ad"]
-twitter.com##div[id="dynstrip"]
-twitter.com##div[id="ad-placeholder-Top"]
-twitter.com##div[data-component-term="user_recommendations"]
-twitter.com##div[data-component-term="similar_user_recommendations"]
-twitter.com##div[data-component-term="newest_list_members"]
-twitter.com##div[class="vert_ads"]
-twitter.com##div[class="user-rec-inner"]
-twitter.com##div[class="stream-item"][style="display: block; overflow: hidden; height: 38.7888px; padding-top: 0px; margin-top: 0px; padding-bottom: 0px; margin-bottom: 0px;"]
-twitter.com##div[class="promptbird"]
-twitter.com##div[class="promo-component"]
-twitter.com##div[class="onebox"]
-twitter.com##div[class="gdhp-video-container"]
-twitter.com##div[class="gdhp-celebrity-banner-large-container"]
-twitter.com##div[class="ad_panel"]
-twitter.com##div[class*="wtf-module"]
-twitter.com##div[class*="trends"]
-twitter.com##a[aria-label="Games"]
-twitpic.com##div[id="announcement"]
-||twitter.com/settings/facebook/*
 
 #Gomovies.sc
 gomovies.*##.hm-button
@@ -876,6 +735,7 @@ nyafilmer.*##.video-container > .side-info
 @@||nyafilmer.*/wp-content/uploads/*/*/ad.jpg
 @@||nyafilmer.*/wp-content/themes/keremiya1/images/tr-flag.png
 @@||api.peer5.com$script,domain=jawcloud.co
+@@||upvtt.com^$xhr
 @@||*.com^$first-party,inline-script,domain=jawcloud.co
 ||nyafilmer.*/sw_*.js$script,1p
 ||nyafilmer.*/u*.js$script,1p
@@ -908,7 +768,6 @@ jawcloud.co##.loloba
 jawcloud.co##.banner
 jawcloud.co##[class="vjs-picture-in-picture-control vjs-control vjs-button"]
 jawcloud.co##^script:has-text(Inject=!)
-@@||upvtt.com^$xhr
 ||jawcloud.co^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.jawcloud.co upvtt.com *.gstatic.com;frame-src 'self'
 ||jawcloud.co/playerjs/themes/newtheme/videojs.logobrand.css$css
 ||jawcloud.co/playerjs/themes/newtheme/videojs.chromecast.min.css$css
@@ -934,8 +793,6 @@ jawcloud.co##^script:has-text(Inject=!)
 ||rubiginose.com^$csp=script-src 'none'
 ||dirdamid.com^$csp=script-src 'none'
 ||wauzoust.com^$csp=script-src 'none'
-##[src="remtoaku.net"]
-##[src="peehotim.com"]
 /*.net^$3p,important,domain=jawcloud.co
 /view.html$inline-script,frame
 /pages/*/*.html$frame,inline-script
@@ -982,9 +839,8 @@ vipleague.*##.text-white.bg-dark.text-justify.p-3.m-3.d-md-block.d-none.col-12
 ||vipleague.*/favicon-32x32.png$image
 ||clients6.google.com/rpc$xmlhttprequest,domain=www.vipleague.lc
 ||cdn.jsdelivr.net/npm/yandex-metrica-watch/tag.js
-||cdn.jsdelivr.net/npm/lazy-ads*$xmlhttprequest
-||cdn.jsdelivr.net/npm/webfontloader@1/webfontloader.min.js$xmlhttprequest
-||mw19c3mi5a.com^$xmlhttprequest
+||cdn.jsdelivr.net/npm/*$xhr
+||mw19c3mi5a.com^$important
 ||bcloudhost.com^$script
 ||oagwl3372h.com^$important
 ||refbanners.com/I
@@ -1641,34 +1497,6 @@ putlocker.*##.footer-subs.col-lg-4
 putlocker.*##footer
 verystream.*##[href$=".html"]
 viduplayer.*##[href$=".html"]
-##[href="http://dcxitlzzmyxbwn.com/"]
-##[id="videolink"]
-##[src="/assets/62f8f9e4/js/bootstrap.min.js"]
-##[class="single_ads_player clear"]
-##[class="single_ads_player_area clear"]
-##[class="linkads"]
-##[class="jw-preview jw-reset"]
-##[class="dz-hidden-input"]
-##[src="https://gomostream.com/dsPlayer/dropzone.js"]
-##[src="https://gomostream.com/gomo.jpg"]
-##[id="vplayer_sharing"]
-##[class="jw-plugin jw-reset jw-plugin-sharing"]
-##[href="https://oevo.com/download"]
-##[href="https://jwplayer.com/learn-more"]
-##[class="app-download"]
-##[id="MG_ID"]
-##[class="custom_loading_sign"]
-##[class="adtimes"]
-##[class="linkads"]
-##[class="jw-dock jw-reset"]
-##[class="loadcc clear"]
-##[class="loadccareatop clear"]
-##[class="loadccareabottombottom clear"]
-##[class="loadccareabottomtop clear"]
-##[class="loadccareabottom clear"]
-##[class="ds_overlay_pop"]
-##[class="widgetsads bannerAdsmainly"]
-##[class="facebookCom"]
 verystream.com##+js(popads-dummy)
 verystream.com##+js(nano-setTimeout-booster)
 verystream.com##+js(abort-on-property-read.js, adblock)
@@ -1691,7 +1519,7 @@ vcstream.*##+js(popads-dummy)
 ||phengung.net^$important
 ||coothupu.net^$important
 ||yandexcdn.com^$important
-||zopim.com^$script,important
+||zopim.com^$important
 
 #Bestmovies.to
 bestmovies.*##+js(popads-dummy)
@@ -1880,8 +1708,6 @@ dirdamid.com##a[href$=".html"]
 ##[class="wsa-close"]
 ##[class="wsa-follow"]
 ##[class="wsa-share"]
-##[class][data-sitename][data-header-version] > div[id^="detection-block"]
-##div.wrapper:nth-child(11) > div.container:last-child > div.sectionWrapper:nth-child(5) 
 ##.movie-preview-content > a
 ##[class="closeloloba"]
 ##[class="loloba"]
@@ -1921,16 +1747,6 @@ dirdamid.com##a[href$=".html"]
 ###display_ads_footer
 ###display_ads_footer_last
 ###displayad_bottom-page
-##div[id$="Ad-Proxy"]
-##div[id*="AdWrapper"]
-##div[id*="FloatingBanner"]
-##div[class*="/AD"]
-##div[class*="/Ad"]
-##div[class*="/ad"]
-##div[class*="/AD"]
-##div[class*="/Ad"]
-##div[class*="/ad"]
-##div[class$="_ads"]
 ##div[class^="ad_"]
 ##div[id^="div-gpt-ad"]
 ##div[id^="taboola-"]
@@ -2000,14 +1816,11 @@ dirdamid.com##a[href$=".html"]
 ##[id="modal__box"]
 ##[class="fbs-ad--mobile-wrapper"]
 ##[class="channel channel--ad"]
-##[class="channel channel--lazy channel--right channel--normal fs-content csf-row et-rows"]
-##[class="channel channel--lazy channel--left channel--normal fs-content csf-row et-rows"]
 ##.ad-rail-container
 ##fbs-embedly
 ##.vestpocket
 ##.adblock-unused.btf
 ##.adblock-unused.bta
-##div.sectionWrapper:nth-of-type(3) > .sectionTitle
 ##.nf-wrapper > .sectionWrapper
 ##.ad-container
 ##.gdpr_banner
@@ -2163,16 +1976,6 @@ dirdamid.com##a[href$=".html"]
 ##view_inner
 ##[class="vjs-poster"]
 ##.navigation_ad
-##.adsCategoryIcon
-##.adsCategoryTitleLink
-##.adblock-content
-##[class="adblock-content"]
-##[class="adblock-headline"]
-##[class="adblock-forbes-logo"]
-##[class="adblock-headline-divider"]
-##[class="adblock-option--turn-off"]
-##[class="adblock-login_text"]
-##[class="adblock-privacy"]
 ##a[href*="/clickthrgh.asp?"]
 ##a[href*="adtraction.com"]
 ##div[class="ad-banner"]
@@ -2186,32 +1989,6 @@ dirdamid.com##a[href$=".html"]
 ##.ad-dog
 ##div[id^="div-gpt-ad"]
 ##[class="unlock start"]
-###AdBlockDialog
-###abp-killer
-###adBlockAlert
-###adBlockAlertWrap
-###adBlockDetect
-###adBlockerModal
-###adb-actived
-###adb-enabled
-###adb-enabled3
-###adb-warning
-###adblock-alert
-###adblock-box
-###adblock-modal
-###adblock-msg
-###adblock-overlay
-###adblockDetect
-###adblock_detected
-###adblocker_announce
-###ad-link-text
-##.adlink2
-###adblocker_message
-###adblocker_modal_overlay
-###advertisementjsalert
-###anti_adblock
-###detectadblock
-###fnAdblockingOverlay
 ##.loading.img-fluid.lazy
 ##.advert.box
 ##sads
@@ -2235,36 +2012,9 @@ dirdamid.com##a[href$=".html"]
 ##iframe[id^="welcome"]
 ##.footer-title
 ##.logoFooterWrapper
-###adkit_billboard
-###adkit_mrec1
-###adkit_mrec2
 ##.AdblockMessage
 ##.AdblockMessage_msg
 ##.alpha.adWrapper
-##.ad-block-enabled
-##.ad-block-message
-##.ad-blocked
-##.ad-blocker-warning
-##.ad-blocking-advisor-wrapper
-##.adBlockDetectedSign
-##.adBlockNotification
-##.adBlockNotificationOverlay
-##.adBlockWarning
-##.adb-enabled
-##.adbd-background
-##.adbd-message
-##.adbd-wrapper
-##.adblock-modal
-##.adblock-modal-content
-##.adblock-notification-wrapper
-##.adblock-warning-teaser
-##.adblockOverlay
-##.adblock_detector
-##.adblock_enabled
-##.adblock_floating_message
-##.adblocker-message
-##.adblocker-wrap
-##.ad.show-for-large.placeholder.transparent
 ##a[title="Share on Twitter"]
 ##a[title="Share on Facebook"]
 ##.email-overlay
@@ -2282,16 +2032,6 @@ dirdamid.com##a[href$=".html"]
 ##.closeAdBlock
 ##.adtrue-holder:not(body):not(html)
 ###AdFloater
-###bottomDisplayAd
-###mainDisplayAd
-###advert-notice
-##.ads_player
-###adchecker
-###adchecker_btn
-###ads_notify
-###adchecker
-###adchecker_btn
-###ads_notify
 ###banner-ad-container
 ##.ad-choices
 ##.banner.ad-container
@@ -2301,11 +2041,6 @@ dirdamid.com##a[href$=".html"]
 ##.red_alert
 ##.responsive-banner
 ##.floating-watch-now
-##.deadblocker-header-bar
-##.deadblocker-header-bar-inner
-##.dispositifAdblock
-##.dispositifAdblockContent
-##.dispositifAdblockMessageBox
 ##.js-checkad-warning
 ##.kill-adblock-container
 ##.noadblock
@@ -2355,9 +2090,6 @@ dirdamid.com##a[href$=".html"]
 ###bar_container_r
 ###bar_top_r
 ###u_0_1z
-##.quangcaopc
-##.page_body_adaccess_all_banners
-###page_body_advertiseplace
 ##.ads-120.center-margin
 ##.promo-img
 ##.left-advertise-bar
@@ -2427,10 +2159,6 @@ dirdamid.com##a[href$=".html"]
 ##[class="adblock ad advertisement"]
 ##[class="publicidad"]
 ##[class="close"]
-##[id="addy_overlayer"]
-##[id="addy_overlayer_countdown"]
-##[id="addy_overlayer_close"]
-##[id="addy_overlayer_content"]
 ##[id="like_overlay"]
 ##[id="addy_footer"]
 ###newsletter_popup
@@ -3622,7 +3350,6 @@ dirdamid.com##a[href$=".html"]
 ##.mg_box_ads
 ##.mgid-wrapper
 ##.micro_ad
-
 ##.modal-ad
 ##.module--ad
 ##.module-ad
@@ -3925,7 +3652,6 @@ dirdamid.com##a[href$=".html"]
 ##.pagefair-acceptable
 ##.pagenavindexcontentad
 ##.pair_ads
-
 ##.panel-ad
 ##.panel-ad-mr
 ##.panel-advert
