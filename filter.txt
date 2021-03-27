@@ -1920,6 +1920,11 @@ dirdamid.com##a[href$=".html"]
 ##.ad_right
 ##.actionnow
 ##[class*="actionnow"]
+##[id*="adtrue_tag"]
+##[class*="adtrue-holder"]
+##[class*="cnotice"]
+##[class*="side-div cnotice"]
+##script:contains(cnotice)
 ###adtoma_panorama1
 ###adtoma_panorama_forum1
 ##.sectionWrapper > div[class]:has(:scope > div > .ad-link)
