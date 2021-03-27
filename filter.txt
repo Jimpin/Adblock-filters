@@ -28,12 +28,15 @@ aftonbladet.se##+js(aeld, message, adError)
 aftonbladet.se##^script:has-text(preLoadAds)
 aftonbladet.se##.abTheme-ad
 aftonbladet.se##.abAdArea
+aftonbladet.se##.abThemeBorder:has-text(www)
+aftonbladet.se##.abThemeBgLight3:matches-css(height: 3px)
 aftonbladet.se##.abThemeBgTeaser
 aftonbladet.se##.abTheme-adSportbladet
 aftonbladet.se##.abTheme-infeedad
 aftonbladet.se##.abBtnShare
 aftonbladet.se##.abAdWrapper
 aftonbladet.se##.advert-companion.advert
+aftonbladet.se##.abBtn:has-text(KOPIERA LÄNK)
 aftonbladet.se##article:has(a[data-sponsored="true"])
 aftonbladet.se##div[class][style*="text"]:has(h3:has-text(/annons/i))
 aftonbladet.se##[id*="abAdArea"]
@@ -70,9 +73,12 @@ aftonbladet.se##[id^="innerabAdArea-"]
 aftonbladet.se##.ab-responsive-ads-wrapper
 aftonbladet.se##.share-icons
 aftonbladet.se##.social-shares
+aftonbladet.se##[href*="twitter.com/sportbladet"]
+aftonbladet.se##[href*="facebook.com/sportbladet"]
 aftonbladet.se##a[href="/kampanj/casinoguide"]
 aftonbladet.se##a[href*="/"]:has-text(Casino)
 aftonbladet.se##a[href*="?utm_source=aftonbladet&utm_medium=textlink&utm_campaign=widget"]
+aftonbladet.se##[title*="Dela på"]
 aftonbladet.se#@#div[data-reactroot] > div > div#MegaAd ~ div[class]:not(#header):not(.abThemeGradientPage)
 acast.com##[alt="Advertisement"]
 acast.com##[data-test-id="AirTimeAdControls__CountDown"]
@@ -93,8 +99,6 @@ bloggar.aftonbladet.se##.collapse.row:nth-of-type(2)
 bloggar.aftonbladet.se###sidebar-panorama-1 > .columns.widget-area
 bloggar.aftonbladet.se##.abInbetweenerHelsida:nth-of-type(1)
 bloggar.aftonbladet.se##.abInbetweenerHelsida:nth-of-type(2)
-aftonbladet.se##a[href="https://www.unibet.se/betting/sports/home"]
-aftonbladet.se##a[href="https://www.strivesport.com/se/home"]
 klart.se##+js(aopr, blockAdBlock)
 @@||imgs.aftonbladet-cdn.se/*/images/
 @@||gfx.aftonbladet-cdn.se^$image
@@ -2088,6 +2092,7 @@ dirdamid.com##a[href$=".html"]
 ##.smokebg
 ##.smoke-base.smoke-visible.smoke-alert
 ##.adsbygoogle
+##[class*="abBlueLink"]
 ###div-advert
 ###float_content_right
 ###hide_float_right
