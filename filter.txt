@@ -248,7 +248,7 @@ twitch.tv##+js(aopw, importScripts)
 @@||twitch.tv/videos/*$csp
 @@||irc-ws.chat.twitch.tv^$websocket,1p
 @@||wss://pubsub-edge.twitch.tv
-||twitch.tv$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' wss: blob: *.twitch.tv google.com gstatic.com *.jtvnw.net *.ttvnw.net *.twitchcdn.net recaptcha.net *.amazon-adsystem.com twitch.tv&ex-hargs
+||twitch.tv^$csp=script-src * 'unsafe-inline' blob:
 ||amazon-adsystem.com/*/apstag.js$script,important,domain=twitch.tv
 ||ad.doubleclick.net/ddm/ad/*/*/*'/;ord='*$important
 ||countess.twitch.tv^
@@ -674,7 +674,7 @@ nyafilmer.*##.info-content
 nyafilmer.*##[src*="/async.js"]
 nyafilmer.*##.movie-preview-content > a[target="_blank"]
 nyafilmer.*###text-2
-nyafilmer.*##[href$=".html"]
+nyafilmer.*##[href*=".html"]
 nyafilmer.*###content > div.content.wrapper.clearfix > div.content-left:nth-child(3) > div.film-content > h2.title:first-child
 nyafilmer.*##.clearfix.wrapper.footer
 nyafilmer.*##.header-social-icons
