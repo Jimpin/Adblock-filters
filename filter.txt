@@ -5224,6 +5224,7 @@ popuper.js^
 *$xhr,redirect-rule=nooptext
 *$media,redirect-rule=noopmp3-0.1s
 *$media,redirect-rule=noopmp4-1s
+*$frame,redirect-rule=noopframe
 
 /?*&callback=callback_json_*$script
 /?pu=$script,3p
