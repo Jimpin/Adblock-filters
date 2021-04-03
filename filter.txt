@@ -712,27 +712,20 @@ nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##.gameofthrones
 nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##.noselect.tab-buttons
 nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##[class="headerSpace"]
 nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##.video-container > .side-info
-@@/wp-content/uploads/*/*/ad.jpg
-@@/wp-content/themes/keremiya1/images/tr-flag.png
 @@||api.peer5.com$script,domain=jawcloud.co
 @@||upvtt.com^$xhr
-@@||*.com^$first-party,inline-script,domain=jawcloud.co
+@@||*.com^$inline-script,1p,domain=jawcloud.co
 /sw_*.js$script,1p
 /u*.js$script,1p
+/images/tipsy.gif$3p
 /wp-includes/js/comment-reply.min.js$script
 /wp-includes/js/wp-embed.min.js$script
 /wp-content/cache/wpfc-minified/*/*index.css
-/wp-content/themes/keremiya1/js/jopper.js$script,important
-/wp-content/themes/keremiya1/nya.light.css?*$css,1p
-/wp-content/themes/keremiya1/font/icon/keremiya.woff2$font
-/wp-content/themes/keremiya1/js/script.js$script
-/wp-content/themes/keremiya1/js/license.12.js$script,first-party
-*$other,denyallow=nyafilm
-||nyafilmer.*^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' jawcloud.co *.jawcloud.co *.googleapis.com *.google.com *.gstatic.com;img-src *;worker-src 'none'
-||nyafilmer1.*^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' jawcloud.co *.jawcloud.co *.googleapis.com *.google.com *.gstatic.com;img-src *;worker-src 'none'
-||nyafilmer2.*^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' jawcloud.co *.jawcloud.co *.googleapis.com *.google.com *.gstatic.com;img-src *;worker-src 'none'
-||nyafilmer3.*^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' jawcloud.co *.jawcloud.co *.googleapis.com *.google.com *.gstatic.com;img-src *;worker-src 'none'
-||nyafilmerhd.*^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' jawcloud.co *.jawcloud.co *.googleapis.com *.google.com *.gstatic.com;img-src *;worker-src 'none'
+||nyafilmer.*^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: jawcloud.co *.jawcloud.co *.peer5.com *.googleapis.com *.google.com *.gstatic.com;img-src *;worker-src 'none'
+||nyafilmer1.*^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: jawcloud.co *.jawcloud.co *.peer5.com *.googleapis.com *.google.com *.gstatic.com;img-src *;worker-src 'none'
+||nyafilmer2.*^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: jawcloud.co *.jawcloud.co *.peer5.com *.googleapis.com *.google.com *.gstatic.com;img-src *;worker-src 'none'
+||nyafilmer3.*^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: jawcloud.co *.jawcloud.co *.peer5.com *.googleapis.com *.google.com *.gstatic.com;img-src *;worker-src 'none'
+||nyafilmerhd.*^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: jawcloud.co *.jawcloud.co *.peer5.com *.googleapis.com *.google.com *.gstatic.com;img-src *;worker-src 'none'
 jawcloud.co,nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##^script:has-text(_Hasync)
 jawcloud.co,nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##+js(popads-dummy.js)
 jawcloud.co,nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##+js(aopr, console.clear)
@@ -4451,6 +4444,7 @@ redirect.
 /laddased
 /favicon.ico$popup,important
 /googlead.js$script
+/gtag/js?
 /js-ad.php
 /js.php?sid=
 /js/advertising/*
@@ -5153,7 +5147,7 @@ popuper.js^
 ###tyche_cmp_modal
 ##.popup_overlay--2rgA3
 ##.pub_300x250.pub_300x250m.pub_728x90.text-ad.textAd.text_ad.text_ads.text-ads.text-ad-links:style(display: block !important;)
-##[class*="a2a_"][rel="nofollow noopener"]
+##[class*="a2a_"]
 ###importantMessage
 ##.cookie-information-text
 ##[data-testid="cookie-disclaimer"]
