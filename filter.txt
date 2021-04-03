@@ -230,6 +230,7 @@ twitch.tv##[data-a-target=try-prime-link]
 twitch.tv##.prime-offers__pill
 twitch.tv##.blue-bar.c-text.full-width
 twitch.tv##.twilight-root .toast-manager__container
+twitch.tv##.tw-c-background-overlay
 twitch.tv##main.tw-flex > div[class]:not([data-test-selector]) > div[data-test-selector="test_selector_prime_tracking_button_wrapper"]
 twitch.tv##[class="tw-align-items-center tw-border-radius-medium tw-c-background-base tw-flex tw-flex-column tw-justify-content-center tw-pd-t-1"]
 twitch.tv##.recommended-channels
@@ -248,8 +249,8 @@ twitch.tv##+js(aopw, importScripts)
 @@||twitch.tv/videos/*$csp
 @@||irc-ws.chat.twitch.tv^$websocket,1p
 @@||wss://pubsub-edge.twitch.tv
-||twitch.tv^$csp=script-src * 'unsafe-inline' blob:
-||amazon-adsystem.com/*/apstag.js$script,important,domain=twitch.tv
+||twitch.tv^$csp=frame-src * 'unsafe-inline' blob:
+||amazon-adsystem.com/*/apstag.js$script,important
 ||ad.doubleclick.net/ddm/ad/*/*/*'/;ord='*$important
 ||countess.twitch.tv^
 ||spade.twitch.tv^
@@ -2138,6 +2139,8 @@ dirdamid.com##a[href$=".html"]
 ##.social-shares
 ##.banner-in
 ##.cookieinfo
+###cookiebanner-mask
+##.cookiebanner
 ##.cookie-consent-bar > div > .row
 ###ad_unit_placeholder
 ##.region_redirect_popup_asset
