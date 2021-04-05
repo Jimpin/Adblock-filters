@@ -715,7 +715,6 @@ nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##.video-contain
 @@||api.peer5.com$script,domain=jawcloud.co
 @@||upvtt.com^$xhr
 @@||*.com^$inline-script,1p,domain=jawcloud.co
-/sw_*.js$script,1p
 /u*.js$script,1p
 /images/tipsy.gif$3p
 /wp-includes/js/comment-reply.min.js$script
@@ -4445,6 +4444,7 @@ redirect.
 /favicon.ico$popup,important
 /googlead.js$script
 /gtag/js?
+/ntfc.php?
 /js-ad.php
 /js.php?sid=
 /js/advertising/*
@@ -4859,6 +4859,7 @@ popuper.js^
 @@upload-*^$xhr
 @@/css/bootstrap.min.css$css
 @@_ajax?^$1p
+@@/util/*$script,1p
 @@/jwplayer*.js$script,1p
 @@/assets/js/player.js$script
 @@//media*^$image
@@ -5018,7 +5019,6 @@ popuper.js^
 *##+js(setTimeout-defuser.js, adsbygoogle, 2000)
 *##+js(acis, popunder)
 *##+js(acis, jQuery, overlay)
-*##+js(set-constant.js, checkAds, noopFunc)
 *##+js(abort-on-property-write.js, importFAB)
 *##+js(abort-on-property-write.js, miner)
 *##+js(abort-current-inline-script.js, document.createElement, jsc.mgid.com)
@@ -5027,9 +5027,7 @@ popuper.js^
 *##+js(aopr, AdservingModule)
 *##+js(aeld, DOMContentLoaded, adlinkfly)
 *##+js(ra, href, #clickfakeplayer)
-*##+js(aopw, adcashMacros)
 *##+js(acis, document.querySelectorAll, adConfig)
-*##+js(aopr, Aloader.serve)
 *##+js(abort-current-inline-script, decodeURI, _POP)
 *##+js(aopr, jwplayer.utils.Timer)
 *##+js(abort-on-property-write.js, spot)
@@ -5062,9 +5060,6 @@ popuper.js^
 *##a[onclick="closeMyAd()"]
 *##a[onclick="rdr(this);"]
 *##a[onclick="removeOverlayHTML();"]
-*##div>a:has-text(EXTERN LÄNK)
-*##div>a:has-text(CASINOGUIDEN)
-*##div>a:has-text(ANNONS)
 *##[id^='adsIfrme']:has(:scope > iframe[src^='/ads/'])
 *##a[href*="/betting"]
 *##a[href*="/brandstudio"]
@@ -5092,7 +5087,6 @@ popuper.js^
 *##.teaser:has(a[href*="/rabattkoder."])
 *##.teaser:has(a[href*="/spel.expressen.se"])
 /\.cloudfront.*\/\?.*[a-zA-Z0-9]{5,16}/$script,3p
-.googletagmanager.*/$3p
 .histats.*/$script,important
 .adskeeper.*/$script,important
 .addthis.*/$script,important
@@ -5206,7 +5200,6 @@ popuper.js^
 /proxy_*.php?p___=*&part_url=*.php?callback=
 
 ##li:has(.content-label:has-text(/annons/i)):remove()
-
 *##+js(nostif, n.modal)
 *##+js(nosiif, runAdBlockPaywall, 1000)
 *##+js(acis, exactmetrics_scroll_tracking_load)
@@ -5214,11 +5207,9 @@ popuper.js^
 *##.no-scroll:style(overflow-x: hidden !important;)
 *##div[class^="lowerBadge"]
 *##+js(acis, Math, break;case $.)
-
 ##[id="skinAdTarget"]
 ##[id="superadunit"][class="hidden"]
 ###gdpr-cookie-message
-
 ##.jconfirm-bg
 ##.jconfirm-cell
 ##.jconfirm-open
