@@ -4838,6 +4838,7 @@ popuper.js^
 @@||consent.cookiebot.com/*.js$script
 @@*_cookie_$script
 @@*player.min.js$script
+@@/otBannerSdk.js$script
 @@/scripttemplates/otSDK*.js$script
 @@/js/lib/cookieconsent*.js$script
 @@/js/libs/cookieconsent.min.js$script
