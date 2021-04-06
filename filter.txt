@@ -230,7 +230,6 @@ twitch.tv##[data-a-target=try-prime-link]
 twitch.tv##.prime-offers__pill
 twitch.tv##.blue-bar.c-text.full-width
 twitch.tv##.twilight-root .toast-manager__container
-twitch.tv##.tw-c-background-overlay
 twitch.tv##main.tw-flex > div[class]:not([data-test-selector]) > div[data-test-selector="test_selector_prime_tracking_button_wrapper"]
 twitch.tv##[class="tw-align-items-center tw-border-radius-medium tw-c-background-base tw-flex tw-flex-column tw-justify-content-center tw-pd-t-1"]
 twitch.tv##.recommended-channels
@@ -713,6 +712,7 @@ nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##.noselect.tab-
 nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##[class="headerSpace"]
 nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##.video-container > .side-info
 @@||api.peer5.com$script,domain=jawcloud.co
+@@||wp.com/nyafilmer*/wp-content/uploads/$image
 @@||upvtt.com^$xhr
 @@||*.com^$inline-script,1p,domain=jawcloud.co
 /u*.js$script,1p
