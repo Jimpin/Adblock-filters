@@ -26,18 +26,10 @@
 *##+js(aopr, popunderSetup)
 *##+js(acis, document.querySelector, popupBlocked)
 *##+js(aopw, _pop)
-*##+js(set, $.magnificPopup.open, noopFunc)
-*##+js(aeld, click, popMagic)
-*##+js(nostif, byepopup, 5000)
 *##+js(acis, decodeURI, zfgloadedpopup)
 *##+js(aopw, popUpUrl)
-*##+js(acis, $, urlForPopup)
-*##+js(nostif, ad-block-popup)
 *##+js(popads-dummy)
-*##+js(acis, open, popupad)
 *##+js(aopw, popup_ads)
-*##+js(acis, document.addEventListener, Popup)
-*##+js(nostif, adblock_popup, 500)
 *##+js(acis, puShown , /doOpen|popundr/)
 &popunder=$popup
 &program=revshare&$popup
@@ -56,7 +48,6 @@ iframe*$popup
 .popups
 /popup
 -popups
-
 /?cs=^$popup,important
 /utx?^$popup,important
 /?f=^$popup,important
@@ -85,9 +76,6 @@ iframe*$popup
 ##.popup_block_Cookies
 ##.popup_block_cookie
 ##.popup_cookie
-#div(id=topbar)
-#div(id=dropin)
-#div(id=AdFloater)
 ##DIV[id="popup3"][class="popup_block"]
 ##.pop-up-ad
 ##.popAdContainer
@@ -119,22 +107,12 @@ iframe*$popup
 ##.in.top.fade.popover
 ##[id*="Popup_Block"]
 ##[id*="popup_block"]
-##li[class="ad-widget"]
-##div[id="wptouch-head" class="metabox-holder"]
-##div[id="stay_connected"]
-##div[id="pw-footer"]
 ##div[id="popup_content"]
-##div[id="dm_donations"]
-##div[id="discovery-top"]
-##div[id="discovery"]
-##div[componentid="80"]
-##div[componentid="10"]
-##div[class="donation"]
 ##.pub_728x90
 ##.pub_300x250m
 ##.pub_300x250
 
-/[^er]pop(up|under|over|percode)s?/^$script,popup,popunder
+/[^er]pop(up|under|over|percode)s?/^$3p
 
 ###facebook-popup
 ###fb-fan-pop
@@ -150,11 +128,6 @@ iframe*$popup
 ##.policy-popup
 ##.popupBase.notification
 ###yf3-popup-container
-||*/*popup*.*$image
-||*/*popup*/*popup*.*$image
-||*/*/popup.gif$image
-||*/*/popup.jpg$image
-||*/*/popup.png$image
 ||pop-rev.com^$3p
 ||popads.media^$3p
 ||popads.net^$3p
@@ -193,10 +166,9 @@ iframe*$popup
 ||advertserve.com^$popup
 ||adexchangeprediction.com^$popup
 ||adk2x.com^$popup
-||adserving.unibet.com^$popup
-||bet365.com^$popup
+||adserving.unibet.com^$popup,3p
+||bet365.com^$popup,3p
 ||harleyquinnwidget.net^$popup
-||rotumal.com^$important,popup
 ||static.tellerium.com^$popup
 ||deloton.com^$popup
 ||doubleclick.net^$popup
@@ -221,7 +193,7 @@ iframe*$popup
 ||popads.net^$popup
 ||popcash.net^$popup
 ||vipleague.mobi^$popup
-||p250403.inclk.com^$popup
+||inclk.com^$popup
 ||thousers.com^$popup
 ||vipleague.mobi^$popup
 ||m73lae5cpmgrv38.com^$popup
@@ -234,17 +206,12 @@ iframe*$popup
 ||doubleclick.net^$popup
 ||constintptr.com$popup,important
 ||popads.net^$popup,frame
-||traffichunt.com^$document,popup
-||trhnt.com^$document,popup
-||trhunt.com^$document,popup
-||postlnk.com^$document,popup
 ||adnety.com^$popup
 ||clicknety.com^$popup
 ||b54m4qbmt0b9.com^$popup
 ||inxy.run^$popup
 ||z6naousb.com^$popup
 ||rizk.com^$popup,important
-||*.site^$popup,important
 ||b3z29k1uxb.com^$popup,important
 ||ylqbiljjlyq.com^$popup,important
 ||212.83.183.149^$popup
@@ -330,18 +297,6 @@ _popunder+$popup
 /?placement=*&redirect$popup
 /?redirect&placement=$popup
 /xdirect.html?$popup
-/wp-content/plugins/m-wp-popup/*$~stylesheet
-/wp-content/plugins/platinumpopup/*
-/wp-content/plugins/wp-super-popup-pro/*
-/wp-content/plugins/wp-super-popup/*$~stylesheet
-/wp-content/plugins/arscode-ninja-popups/js/ninjapopups.min.js
-/wp-content/plugins/boxzilla/assets/js/script.min.js
-/wp-content/plugins/dc-facebook-like-box-popup-increase-facebook-fans
-/wp-content/plugins/exit-popup/js/exit-popup.js
-/wp-content/plugins/arscode-ninja-popups/*
-/wp-content/plugins/facebook-fanbox-popup/*
-/wp-content/plugins/wonderplugin-popup/engine/wonderplugin-popup-engine.js
-/wp-content/plugins/yeloni-free-exit-popup/common/loader.js
 /wp-popup-scheduler/*
 ://*.info$popup,3p
 ://*.online$popup,3p
@@ -360,7 +315,6 @@ _popunder+$popup
 ?zoneid=*_bannerid=$popup
 _popunder+$popup
 /load?^$popup
-/fp.eng?id=$popunder
 *&action=$popup,3p
 *&utm_campaign=*$popup,3p
 *&tracker_id=$popup,3p

@@ -1645,15 +1645,6 @@ dirdamid.com##a[href$=".html"]
 ##[id="anim-container"]
 ##[id="cliqz-adblocker-css-rules"]
 ##[id="facebook-jssdk"]
-##div[id^="ADV-SLOT-"]
-##div[id^="MarketGid"]
-##div[id^="acm-ad-tag-"]
-##div[id^="ad-div-"]
-##div[id^="ad-server-"]
-##div[id^="ad_script_"]
-##div[id^="adrotate_widgets-"]
-##div[id^="ads*-widget"]
-##div[id^="advads"]
 ##[title="adblockertest"]
 ##[class="pub_300x250 pub_300x250m pub_728x90 text-ad textAd text_ad text_ads text-ads text-ad-links -adv.js -adv.jpg"]
 ##div[id^="MarketGid"]
@@ -1668,9 +1659,6 @@ dirdamid.com##a[href$=".html"]
 ##[id="remove-over"]
 ##[id="overover"]
 ##[id="hiddenBannerCanvas"]
-##[id="l1pUIPopUpsUserClickArea"]
-##[id="l1pAdContainer"]
-##[id*="l1pUI"]
 ##[id^="detection-block"]
 ##[class="amung_div"]
 ##[id="pop-share"]
@@ -1681,7 +1669,7 @@ dirdamid.com##a[href$=".html"]
 ##.movie-preview-content > a
 ##[class="closeloloba"]
 ##[class="loloba"]
-##div[class^="app_gdpr-"]
+##[class*="app_gdpr-"]
 ##[class="download_http"]
 ##[class="download_p2p"]
 ##[class="upload_p2p"]
@@ -1766,7 +1754,7 @@ dirdamid.com##a[href$=".html"]
 ##[id="js-abContainterMain"]
 ###hotVideosSection > .alpha
 ###videoSearchResult > .alpha
-##IFRAME[name*="ads-center"]
+##[name*="ads-center"]
 ###amp-floating-area
 ##a[href*="/bannerad"]
 ##.page-loaded
@@ -4226,9 +4214,9 @@ redirect.
 /6rpck7aq$important
 /bundles/analytics
 /css/analytics.js$script
-/css/logo.png$image,first-party
-/css/stat.js$script,first-party
-/css/swfobject.js$script,first-party
+/css/logo.png$image
+/css/stat.js$script
+/css/swfobject.js$script
 /favicon.ico$image,important
 /icon-facebook.
 /icon-twitter.
@@ -4411,13 +4399,9 @@ redirect.
 /wp-content/plugins/addthis/*$css
 /wp-content/plugins/ad-block-defender/*
 /wp-content/plugins/deadblocker/*
-/wp-content/plugins/digiproveblog/*$domain=~wordpress.org
 /wp-content/plugins/disable-right-click/*
-/wp-content/plugins/jcwp-copy-paste-blocker/*
-/wp-content/plugins/right-click-disable-orignal/*
-/wp-content/plugins/wp-content-copy-protection/assets/js/script.min.js
 /wp-content/uploads/an-temp/*$script,stylesheet
-/wp-admin/admin-ajax.php$xhr,3p
+/wp-admin/admin-ajax.php$xhr
 /site/captcha?
 /fuckadb.js
 /fuckadblock-$script
@@ -4447,13 +4431,6 @@ redirect.
 /js/clickunder/*
 /js/pop-up.js$3p
 /js/vk.php$3p
-/js/an-detect.min.js$script
-/js/an-scripts.js$script
-/js/an-scripts.min.js$script
-/js/script.packed.js$script,1p
-/js/license.60.js$script,1p
-/js/license.adbl.js$script,1p
-/js/license.js$script,1p
 /pfe/current/
 /deadblocker/*
 /htcheck.
@@ -4533,6 +4510,7 @@ _loghuman=
 _metricscollection.
 _metricstagging.
 _pixel?
+/ruxitagentjs_
 _setanalyticsfields&
 _stat.php?id=
 _statistics_counter.
@@ -4543,20 +4521,6 @@ _track/visit.
 _tracking.php?
 _visitorapi.
 supervisor/
--300x100ad2.
--ad-001-
--ad-180x150px.
--ad-200x200-
--ad-24x24.
--ad-300x250.
--ad-300x450.
--ad-300x600-
--ad-303x481-
--ad-313x232.
--ad-336x280-
--ad-340x400-
--ad-400.
--ad-472x365.
 -ad-banner-
 -ad-banner.
 -ad-big.
@@ -4712,7 +4676,6 @@ tag.js^
 smart.js^
 loader.js?
 ot.js?
-cookie.min.js?
 polls-js.js?
 as.js^
 tab.js^
@@ -4734,7 +4697,6 @@ count.js^
 webhelper.js^
 defuser.js^
 sanitizer.js^
-v1.js^
 ima3.js^
 widgetapi.js^
 alll.js^
@@ -4897,7 +4859,6 @@ popuper.js^
 ##[src*="/s.php?"]
 ##[src*="//imasdk.googleapis.com/"]
 ##[src*="//c.amazon-adsystem.com/"]
-##[href*="https://cvp.twitch.tv/"]
 ##[src^="/ads.js?"]
 ##[src*="/ad.htm"]
 ##[src*="/ad0.htm"]
@@ -4976,10 +4937,7 @@ popuper.js^
 ://adserve.$important
 ://srv.$important
 ://serve.$important
-://ice.$important
 ://stats.$important
-://wsp.$important
-://fc.$important
 ://geo-$important
 ://geo.$important
 ://global.$important
@@ -4987,15 +4945,15 @@ popuper.js^
 ://ws.$important
 ://wchat.*^$popup,important
 ://lightning.*/launch/
-*##+js(abort-current-inline-script.js, atob, tabunder)
+*##+js(acis, atob, tabunder)
 *##+js(set-constant.js, Annons, noopFunc)
-*##+js(abort-on-property-write.js, _pop)
-*##+js(abort-on-property-read.js, __htapop)
-*##+js(abort-on-property-read.js, InitCloseButton)
-*##+js(abort-on-property-write, isAdblockOn)
-*##+js(abort-on-property-write, rAb)
-*##+js(abort-on-property-write, AdDelivery)
-*##+js(abort-on-property-read.js, cursorAd)
+*##+js(aopw, _pop)
+*##+js(aopr, __htapop)
+*##+js(aopr, InitCloseButton)
+*##+js(aopw, isAdblockOn)
+*##+js(aopw, rAb)
+*##+js(aopw, AdDelivery)
+*##+js(aopr, cursorAd)
 *##+js(acis, _adform)
 *##+js(acis, adformLoader)
 *##+js(acis, adformtag, push)
@@ -5014,29 +4972,27 @@ popuper.js^
 *##+js(setTimeout-defuser.js, adsbygoogle, 2000)
 *##+js(acis, popunder)
 *##+js(acis, jQuery, overlay)
-*##+js(abort-on-property-write.js, importFAB)
-*##+js(abort-on-property-write.js, miner)
-*##+js(abort-current-inline-script.js, document.createElement, jsc.mgid.com)
+*##+js(aopw, importFAB)
+*##+js(aopw, miner)
+*##+js(acis, document.createElement, jsc.mgid.com)
 *##+js(set, AdController, noopFunc)
 *##+js(set, ClickUnder, noopFunc)
 *##+js(aopr, AdservingModule)
 *##+js(aeld, DOMContentLoaded, adlinkfly)
 *##+js(ra, href, #clickfakeplayer)
 *##+js(acis, document.querySelectorAll, adConfig)
-*##+js(abort-current-inline-script, decodeURI, _POP)
+*##+js(acis, decodeURI, _POP)
 *##+js(aopr, jwplayer.utils.Timer)
 *##+js(abort-on-property-write.js, spot)
 *##+js(aopr, VAST)
-*##+js(abort-on-property-read, S9tt)
-*##+js(abort-on-property-read, zone_2547)
-*##+js(abort-on-property-read, AdDelivery.prototype.requestTrafficJunkyAds)
-*##+js(abort-on-property-read.js, _goat)
+*##+js(aopr, S9tt)
+*##+js(aopr, zone_2547)
+*##+js(aopr, AdDelivery.prototype.requestTrafficJunkyAds)
+*##+js(aopr, _goat)
 *##+js(aopr, ExoLoader.serve)
-*##+js(nostif, /location\.replace|setRefreshAdFloat|setRotateAdSlice/)
 *##+js(nowoif, adshell)
 *##+js(aopr, _wm)
 *##+js(aopr, _wwwp)
-*##+js(aeld, , exoJsPop101)
 *##div[id*="sidebar"][data-before-content="advertisement"]:upward(3)
 *##iframe[src*="/ads-iframe"]
 *##iframe[src*="https://pc.html"]
@@ -5198,7 +5154,6 @@ popuper.js^
 *##+js(nostif, n.modal)
 *##+js(nosiif, runAdBlockPaywall, 1000)
 *##+js(acis, exactmetrics_scroll_tracking_load)
-*##+js(set, mi_track_user, false)
 *##.no-scroll:style(overflow-x: hidden !important;)
 *##div[class^="lowerBadge"]
 *##+js(acis, Math, break;case $.)
