@@ -4833,13 +4833,11 @@ popuper.js^
 @@||pinterest.com^$image
 @@||redirect*^$xhr,media
 @@||youbora.com/*/js/adapters/jwplayer$script
-@@||cookielaw.org/consent/$other,xmlhttprequest
-@@||cdn.cookielaw.org/consent/*$xhr
+@@||cookielaw.org/scripttemplates/$script
+@@||cookielaw.org/consent/$other,xhr
 @@||consent.cookiebot.com/*.js$script
 @@*_cookie_$script
 @@*player.min.js$script
-@@/otBannerSdk.js$script
-@@/scripttemplates/otSDK*.js$script
 @@/js/lib/cookieconsent*.js$script
 @@/js/libs/cookieconsent.min.js$script
 @@/js/cookielawinfo.js$script
