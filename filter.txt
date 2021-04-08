@@ -282,7 +282,6 @@ google.*##.section-result[data-result-ad-type]
 google.*##.widget-pane-section-result[data-result-ad-type]
 google.*##div[data-flt-ve="sponsored_search_ads"]
 google.*###cnsi ~ [jsaction*=dismiss]
-google.*##div:matches-css(z-index: 9998)
 google.*###pushdown
 google.*###center_col > #resultStats + #tads
 google.*###center_col > #resultStats + #tads + #res + #tads
