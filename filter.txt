@@ -714,12 +714,12 @@ nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##.video-contain
 @@||wp.com/nyafilmer*/wp-content/uploads/$image
 @@||upvtt.com^$xhr
 @@||*.com^$inline-script,1p,domain=jawcloud.co
-/u*.js$script,1p
+||nyafilmer*/u*.js$script,1p
+||nyafilmer*$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: jawcloud.co *.jawcloud.co *.peer5.com *.googleapis.com *.google.com *.gstatic.com;img-src *;worker-src 'none'
 /images/tipsy.gif$3p
 /wp-includes/js/comment-reply.min.js$script
 /wp-includes/js/wp-embed.min.js$script
 /wp-content/cache/wpfc-minified/*/*index.css
-||nyafilmer*$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: jawcloud.co *.jawcloud.co *.peer5.com *.googleapis.com *.google.com *.gstatic.com;img-src *;worker-src 'none'
 jawcloud.co,nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##^script:has-text(_Hasync)
 jawcloud.co,nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##+js(popads-dummy.js)
 jawcloud.co,nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##+js(aopr, console.clear)
@@ -1300,6 +1300,21 @@ ratsit.se##.row.rapport-palette-person
 ratsit.se##.lazy.ad-report--medium
 ratsit.se##div.share-bar
 ratsit.se##.main-content-holder.content > .container > div.row:nth-of-type(1) > .col-md-12
+
+#Hitta.se
+hitta.se##[class*="Styled__RightCol-"]
+hitta.se##[id*="localdisplay_fluid"]
+hitta.se##[style="min-height: 116px;"]
+hitta.se##[style="min-height: 250px;"]
+hitta.se##[data-test="notification-container"]
+##[id*="desktop_privatelist_skyscraper"]
+##[class*="style_dummyAd"]
+##[id*="desktop_privatelist_panorama"]
+##[class*="StyledAdSlot"]
+##[data-test="google_banners"]
+##[data-test="google_pubmatic"]
+##[class*="badgead"]
+##.adunit
 
 #Reddit.com
 reddit.com##.size-compact.Post:has([class*="promoted"])
