@@ -1946,6 +1946,8 @@ dirdamid.com##a[href$=".html"]
 ##.nyhet_wrapper_annons
 ##.adtoma_container
 ##.eu_coookie_toolbar
+##[class*="td-post-sharing-"]
+###disqus_thread > iframe
 ##[id="cboxOverlay"]
 ##[id="top_ad_wrapper"]
 ##[id="top_ad_reflow_helper"]
@@ -2622,6 +2624,7 @@ dirdamid.com##a[href$=".html"]
 ##.promoted_content_ad
 ##.promotionTextAd
 ##.promotional-feature-ads
+###rang2
 ##.regularad
 ##.reklam
 ##.reklam2
@@ -2954,6 +2957,7 @@ dirdamid.com##a[href$=".html"]
 ||secure.adnxs.com^
 ||goo.gl^
 ||adservice.google.com^
+||net.*^$image
 ||m2.nsimg.net^
 ||2mdnsys.com^
 ||clckads.com^
@@ -3378,7 +3382,6 @@ dirdamid.com##a[href$=".html"]
 ||viglink.com^
 ||disqus.com/api/*/listrelated.json?
 ||mmaaxx.com^
-||imagetwist.com^
 ||aaddcount.com^
 ||ie8eamus.com^
 ||dbbp1.net^
@@ -4237,7 +4240,12 @@ redirect.
 /icon-rss.
 /captcha.php?
 /geo.php$xhr
+/js/googima.js$script
 /js/popup-controller.js$script
+/get/*$subdocument,3p
+/adblock_detector2.js$script
+/b9ng.js$script
+/ZeroClipboard.js$script
 /xmlrpc.php
 /ads_test.js
 /publishertag.prebid.js$script
