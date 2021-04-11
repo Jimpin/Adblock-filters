@@ -224,7 +224,6 @@ outlook.live.com##[class*="_3_"]:has-text(.)
 
 #Twitch.tv
 twitch.tv##[src*=".amazon-adsystem.com"]
-twitch.tv##+js(nostif, /[a-z]{0}/, 200)
 twitch.tv##[data-a-target=prime-offers-icon]
 twitch.tv##[data-a-target=try-prime-link]
 twitch.tv##.prime-offers__pill
@@ -242,8 +241,8 @@ twitch.tv##.player .invisible
 twitch.tv##.player-play-overlay
 twitch.tv##.player-advertisement, .player-video object
 twitch.tv##a[href$="twitch.tv"][target="_blank"]
+twitch.tv##[src*="HTMLCanvasElement.prototype.toBlob,IntersectionObserver"]
 twitch.tv##+js(aopw, importScripts)
-/\/[a-z0-9_-]{15,}\.[a-z0-9-]+\.[a-z]{2,}\/.*?\w{40,}/$script,3p,domain=twitch.tv
 @@||twitch.tv/drops/*$1p
 @@||twitch.tv/videos/*$csp
 @@||irc-ws.chat.twitch.tv^$websocket,1p
@@ -1636,6 +1635,7 @@ dirdamid.com##a[href$=".html"]
 ###advertise
 ###adPopup
 ###ad_scroll_view
+##.sharebuttons
 ##.sharethis-inline-share-buttons
 ##.js-advert--responsive.o-advert--box-desktop.o-advert--fixed-size.o-advert
 ##.cookie-overlay
@@ -1809,7 +1809,7 @@ dirdamid.com##a[href$=".html"]
 ###ads
 ###abAlert
 ###acceptCookie:not(body):not(html)
-##.cookieBanner:not(body):not(html):not(#sprd-main)
+##.cookieBanner:not(body):not(html)
 ###gdpr:not(body):not(html):not(input)
 ##.cc-banner.cc-bottom:not(body):not(html)
 ##.native-ad
@@ -4850,8 +4850,6 @@ popuper.js^
 
 *##a[href*=".wz"][target="_blank"]
 *##a[href*=".style"][target="_blank"]
-*##a[href*=".ltd"][target="_blank"]
-*##a[href*=".link"][target="_blank"]
 *##a[href*=".pw"][target="_blank"]
 *##a[href*=".site"][target="_blank"]
 *##a[href*=".pink"][target="_blank"]
