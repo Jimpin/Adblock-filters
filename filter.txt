@@ -1524,7 +1524,7 @@ bestmovies.*##[class="btn-container"]
 ||go.squawinto.com^$important
 ||track.amzinguidance.com^$important
 
-#Moviesjoy.net
+#Moviesjoy
 moviesjoy.*##+js(popads-dummy)
 moviesjoy.*##.inline_addthis_home.inline_addthis
 moviesjoy.*###footer > .container
@@ -3712,6 +3712,7 @@ dirdamid.com##a[href$=".html"]
 ||9amq5z4y1y.com^
 ||adsymptotic.com^
 ||ig0nr8hhhb.com^
+||kmisln.com^
 ||stampshire.info^
 ||fridrici.info^
 ||elanatality.info^
@@ -4514,6 +4515,7 @@ redirect.
 /funcript*.php?pub=*&v=
 /puopen.php?
 /puscript
+/ruxitagentjs_
 /top*.html
 =counter&
 =defaultimpression&
@@ -4534,7 +4536,6 @@ _loghuman=
 _metricscollection.
 _metricstagging.
 _pixel?
-/ruxitagentjs_
 _setanalyticsfields&
 _stat.php?id=
 _statistics_counter.
@@ -4965,6 +4966,7 @@ popuper.js^
 ://global.$important
 ://log.$3p
 ://ws.$important
+://see.$important
 ://wchat.*^$popup,important
 ://lightning.*/launch/
 *##+js(acis, atob, tabunder)
