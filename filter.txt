@@ -1140,10 +1140,11 @@ rltracker.pro##.col-sm-12 > .row
 123movies.*##.row > .clearfix
 123movies.*###footer
 123movies.*##footer
-||123movies.*^$other
-||123movies.*/assets/js/custombanner.js$script
-||123movies.*/*.tm$script
-||123movies.*/*.it$script
+||123movie*^$csp=script-src 'self' 'unsafe-inline' *.google-analytics.com *.cloudflare.com *.gstatic.com *.google.com *.recaptcha.net
+||123movie*^$other
+||123movie*/assets/js/custombanner.js$script
+||123movie*/*.tm$script
+||123movie*/*.it$script
 /assets/js/psbar.jquery.min.js$script
 ||vidcloud9.com/js/app.js$script
 ||foazasis.com^
@@ -3896,6 +3897,10 @@ dirdamid.com##a[href$=".html"]
 ||exchange.buzzoola.com/adv/*
 ||instana.io^$3p
 ||amazonaws.com/*.js$script,3p
+||arc.io^$3p
+||izooto.com^$3p
+||fsvdfv.ruxouly.pw^
+||torrindex.net/images/*$image
 ||disqus.com/count.js$script
 ||disqus.com/embed.js$script
 ||disqus.com/forums/*/embed.js$script
