@@ -781,8 +781,10 @@ jawcloud.co##^script:has-text(Inject=!)
 
 #Vipleague.lc
 vipleague.*##+js(aeld, /^(?:click|mousedown|mousemove|touchstart|touchend|touchmove)$/, system.popunder)
-vipleague.*##+js(nano-sib)
+vipleague.*##+js(addEventListener-defuser, /^(?:click|mousedown)$/, _0x)
 vipleague.*##.position-absolute:style(opacity: 0 !important;)
+vipleague.*##+js(addEventListener-defuser, /^(?:mousedown|pointerdown)$/, 297)
+vipleague.*##+js(nano-sib)
 vipleague.*##.btn-lg
 vipleague.*##.font-weight-bold
 vipleague.*##^script + [id][style]
