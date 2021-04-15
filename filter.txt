@@ -1606,8 +1606,9 @@ skidrowreloaded.com##+js(aeld, click, [native code])
 skidrowreloaded.com##+js(aeld, , _blank)
 skidrowreloaded.com##+js(acis, $, open)
 skidrowreloaded.com##iframe[src="about:blank"]
-|http://$script,image,xmlhttprequest,frame,3p,domain=skidrowreloaded.com
-|https://$script,image,xmlhttprequest,frame,3p,domain=skidrowreloaded.com
+||skidrowreloaded.com^$csp=script-src 'self' 'unsafe-inline' *.google-analytics.com *.cloudflare.com *.gstatic.com *.google.com *.solvemedia.com *.recaptcha.net
+|http://$script,image,xhr,3p,domain=skidrowreloaded.com
+|https://$script,image,xhr,3p,domain=skidrowreloaded.com
 *^$popunder,domain=skidrowreloaded.com,3p
 
 #Body/Frames
@@ -4434,7 +4435,6 @@ redirect.
 /wp-content/plugins/deadblocker/*
 /wp-content/plugins/disable-right-click/*
 /wp-content/uploads/an-temp/*$script,stylesheet
-/wp-admin/admin-ajax.php$xhr
 /site/captcha?
 /fuckadb.js
 /fuckadblock-$script
