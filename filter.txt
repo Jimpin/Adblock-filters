@@ -365,9 +365,6 @@ youtube.com##.ytp-scrubber-container
 youtube.com##.ytp-ad-progress
 youtube.com##.ytp-ad-progress-list
 youtube.com##.ytp-fullerscreen-edu-chevron
-youtube.com##ytd-promoted-sparkles-text-search-renderer
-youtube.com##ytd-video-masthead-ad-advertiser-info-renderer,ytm-promoted-sparkles-web-renderer
-youtube.com##.masthead-ad-control,.ad-div,.pyv-afc-ads-container
 youtube.com###promotion-shelf
 youtube.com##[id="survey"]
 youtube.com###material-notice
@@ -399,7 +396,7 @@ youtube.com##.page-loaded
 ||google.*/jsapi?autoload=*$script
 ||gstatic.com/inputtools/images/*$image,important
 ||static.doubleclick.net/instream/ad_status.js$script,redirect-rule=noopjs
-||google.com/generate_204$image
+/generate_204$image
 
 #Spotify.com
 spotify.com##.ads-container
@@ -4743,8 +4740,6 @@ ads.min.js^
 autoplayrenderer.js^
 speedyg.js^
 transcript.js^
-endscreen.js^
-captions.js^
 fs.js^
 form.js?
 awp.min.js^
@@ -4802,7 +4797,6 @@ popuper.js^
 @@||cdn.svp.schibsted.io^$script
 @@||steamstatic.com^$image
 @@||youtube.com/embed/*$subdocument
-@@||static.xx.fbcdn.net/rsrc.php/*$script,domain=facebook.com
 @@||redirector.googlevideo.com/videoplayback$media
 @@||sportingvideo*.com^$popup
 @@||*.cloudfront.net/build/assets/*$script
@@ -4815,17 +4809,15 @@ popuper.js^
 @@||loadvid.online/embed
 @@||viduplayer.com/srt/
 @@||clients1.google.com^$script
-@@||unpkg.com^$script,domain=valuta.se
-@@||policy.app.cookieinformation.com^$script,domain=valuta.se
+@@||policy.app.cookieinformation.com^$script
 @@||apis.google.com^$script
 @@||google.com^$frame,xmlhttprequest
 @@||maps.google.com^$script,image
-@@||mixer.com^$first-party,popup
 @@||media-amazon.com^$image
 @@||cdn.cloudflare.steamstatic.com^$image
 @@||steamcdn-a.akamaihd.net^$image
 @@||steamstore-a.akamaihd.net^$image
-@@||googlevideo.com/videoplayback?^$xhr,1p
+@@||googlevideo.com/videoplayback?^$xhr
 @@||cdn.fbsbx.com^$image
 @@||pinterest.com^$image
 @@||redirect*^$xhr,media
