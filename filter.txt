@@ -5078,7 +5078,6 @@ popuper.js^
 /afu.*/$3p
 /ntfc.*/$3p
 /genads.*/$important
-/next.*/$popup
 /tuname.*/$important
 /puopen.*/$important
 /sw_*.js^$script

@@ -22,15 +22,12 @@
 |dddata:text$popup
 |about:blank$3p
 *#blocked$popup,3p
-*$document,3p
 *##+js(aopr, popunderSetup)
 *##+js(acis, document.querySelector, popupBlocked)
 *##+js(aopw, _pop)
 *##+js(acis, decodeURI, zfgloadedpopup)
-*##+js(aopw, popUpUrl)
 *##+js(popads-dummy)
 *##+js(aopw, popup_ads)
-*##+js(acis, puShown , /doOpen|popundr/)
 &popunder=$popup
 &program=revshare&$popup
 &popunder=^
