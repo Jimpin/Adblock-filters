@@ -2194,11 +2194,14 @@ dirdamid.com##a[href$=".html"]
 ##.center_ad
 ###iframe_preview
 ##.adban
+##[class*="twitter button"]
+##[class*="facebook button"]
 ##[class="close"]
 ##[class="banr"]
 ##[class="ban468"]
 ##[id="bannerClose"]
 ##.social-home
+##.likes__row
 ##.jw-reset.jw-rightclick-link
 ##[id="midroll_ads"]
 ##[id="midroll"]
