@@ -277,7 +277,7 @@ instagram.com##main[role="main"] .APQi1
 @@||instagram.com/static/*$script
 
 #Google
-google.*##html:style(overflow: auto !important;)
+google.*##html:style(overflow-y: auto !important;)
 google.*##[id="reviewDialog"]
 google.*##[id="dstyle"]
 google.*##a[href*="/aclk?"][data-al]:upward(2)
