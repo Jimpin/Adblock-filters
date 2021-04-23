@@ -220,6 +220,7 @@ outlook.live.com##[class*="_2F6r"]:has-text(Premium)
 outlook.live.com##[class*="_3_"]:has-text(.)
 /analytics-ping.js$xhr
 ||browser.events.data.microsoft.com/OneCollector/*$xhr,important
+||amcdn.msftauth.net^
 ||pipe.aria.microsoft.com/collector/
 ||vortex.data.microsoft.com^
 
