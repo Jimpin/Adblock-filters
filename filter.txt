@@ -230,16 +230,13 @@ twitch.tv##[data-a-target=prime-offers-icon]
 twitch.tv##[data-a-target=try-prime-link]
 twitch.tv##.prime-offers__pill
 twitch.tv##.blue-bar.c-text.full-width
-twitch.tv##.twilight-root .toast-manager__container
 twitch.tv##main.tw-flex > div[class]:not([data-test-selector]) > div[data-test-selector="test_selector_prime_tracking_button_wrapper"]
 twitch.tv##[class="tw-align-items-center tw-border-radius-medium tw-c-background-base tw-flex tw-flex-column tw-justify-content-center tw-pd-t-1"]
 twitch.tv##.recommended-channels
 twitch.tv##[id="amazon-video-ads-iframe"]
-twitch.tv##[style*="margin: 0px;"]
 twitch.tv##[style="width: 100%; height: 100%; border: 0px none; display: none;"]
 twitch.tv##[class*="avap-ads-container"]
 twitch.tv##[data-test-selector="ad-banner-default-text"]
-twitch.tv##.tw-c-text-overlay
 twitch.tv##script:has-text(AD)
 twitch.tv##.pl-age-restriction-overlay.pl-age-restriction-overlay--wall.player-overlay
 twitch.tv##.extension-taskbar
