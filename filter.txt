@@ -1078,6 +1078,8 @@ flashback.org##+js(popads-dummy)
 flashback.org##.banner_text
 flashback.org###right-banner-container
 flashback.org###top-banner-row
+flashback.org###site-left > .hidden-xs
+flashback.org###top-banner-wrapper
 flashback.org##.go-top
 flashback.org###site-message-donation
 ||static.flashback.org/img/banners/ad_*$image
