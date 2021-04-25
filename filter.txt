@@ -606,6 +606,8 @@ nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##+js(acis, z)
 nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##+js(aeld, DOMContentLoaded, rmattr)
 nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##div:has-text(Stop using Adblocker!)
 nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##^script:has-text(var offtop=0;var sticky_sidebar=true;)
+nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##style
+nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##script:contains(async)
 nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##+js(abort-current-inline-script.js, decodeURI, atob)
 nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##+js(acis, document.getElementById, undefined)
 nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##^script:has-text(var _0x)
@@ -689,7 +691,7 @@ nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##div.tags:nth-o
 nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##[class="vjs-control vjs-logo"]
 nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##[class="sub-menu flexcroll"]
 nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##[class="skinMobile"]
-nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##[class="bigbg"]
+nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##[class*="bigbg"]
 nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##.fb-xfbml-parse-ignore
 nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##.sort.tags > .title
 nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##[type="text/javascript"][src*=".js"]
@@ -1096,20 +1098,23 @@ yallasport.co###ads
 ||cdn.popcash.net^$important
 
 #Speedtest.net
+speedtest.net##+js(abort-on-property-read, _sp_)
+speedtest.net##+js(set-constant, isBlocked, false)
 speedtest.net###_evidon-background
 speedtest.net##.evidon-barrier
 speedtest.net##.container-leaderboard.a-container
 speedtest.net##.top-placeholder.pure-u-1
 speedtest.net##.lowerboard.a-container-lowerboard.a-container
 speedtest.net##.privacy-update
-speedtest.net##div.pure-u-1-6:nth-of-type(7)
 speedtest.net##.u-align-center.u-c.pure-u-2-3 > .menu-footer-inline.menu-footer
 speedtest.net##.u-c.pure-u-custom-ad-rectangle
+speedtest.net#@#+js(aopr, Object.prototype.adUnits)
 @@*$websocket,domain=speedtest.net
 @@/hello^$xmlhttprequest,domain=speedtest.net
 @@/ping^$xmlhttprequest,domain=speedtest.net
 @@/download^$xmlhttprequest,domain=speedtest.net
 @@/upload^$xmlhttprequest,domain=speedtest.net
+/javascript/prebid^$script
 
 #Rltracker.pro
 rltracker.pro##.vm-placement > [src="javascript:'<html><body></body></html>'"]
