@@ -4874,6 +4874,8 @@ popuper.js^
 @@//media*^$image
 @@/vendors/omniture/*$script
 @@/sdrn:schibsted:client:*
+@@/manifest.json
+@@/translations/*.json
 @@*.m3u8$xhr
 @@*.ts$xhr
 @@/?stream=
@@ -5037,13 +5039,10 @@ popuper.js^
 *##+js(abort-on-property-write.js, spot)
 *##+js(aopr, VAST)
 *##+js(aopr, S9tt)
-*##+js(aopr, zone_2547)
 *##+js(aopr, AdDelivery.prototype.requestTrafficJunkyAds)
 *##+js(aopr, _goat)
 *##+js(aopr, ExoLoader.serve)
 *##+js(nowoif, adshell)
-*##+js(aopr, _wm)
-*##+js(aopr, _wwwp)
 *##div[id*="sidebar"][data-before-content="advertisement"]:upward(3)
 *##iframe[src*="/ads-iframe"]
 *##iframe[src*="https://pc.html"]
@@ -5208,6 +5207,7 @@ popuper.js^
 *##div[class^="lowerBadge"]
 *##+js(aopr, Object.prototype.adUnits)
 *##+js(nowebrtc)
+*.html#type=page&event=load&url=$important
 ##[id="skinAdTarget"]
 ##[id="superadunit"][class="hidden"]
 ###gdpr-cookie-message
@@ -5215,6 +5215,7 @@ popuper.js^
 ##.jconfirm-cell
 ##.jconfirm-open
 ##.jconfirm-scrollpane
+/*.json^$3p
 
 .biz^$frame,xhr,image,ping,popup,3p
 .fun^$frame,xhr,image,ping,popup,3p
