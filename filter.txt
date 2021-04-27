@@ -5215,7 +5215,6 @@ popuper.js^
 ##.jconfirm-cell
 ##.jconfirm-open
 ##.jconfirm-scrollpane
-/*.json^$3p
 
 .biz^$frame,xhr,image,ping,popup,3p
 .fun^$frame,xhr,image,ping,popup,3p
