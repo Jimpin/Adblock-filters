@@ -598,8 +598,6 @@ humblebundle.com/monthly?hmb_source=humble_monthly_alert&hmb_medium=banner
 #Nyafilmer
 nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##body:style(overflow: auto !important)
 nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##+js(nowoif)
-nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##+js(abort-current-inline-script.js, p2pml.hlsjs.Engine, loader)
-nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##+js(abort-current-inline-script.js, document.getElementById, style.display)
 nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##+js(no-setTimeout-if, jQuery, 1000)
 nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##+js(aopr, open)
 nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##+js(acis, z)
@@ -612,7 +610,6 @@ nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##+js(abort-curr
 nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##+js(acis, document.getElementById, undefined)
 nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##^script:has-text(var _0x)
 nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##.topinfo
-nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##div:matches-css(width: 500px):matches-css(height: 350px):matches-css(z-index: 99999)
 nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##div:matches-css(z-index: 99998)
 nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##div:matches-css(z-index: 99999)
 nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##.importantinfo
@@ -5000,8 +4997,6 @@ popuper.js^
 ://lightning.*/launch/
 *##+js(acis, atob, tabunder)
 *##+js(set-constant.js, Annons, noopFunc)
-*##+js(aopw, _pop)
-*##+js(aopr, __htapop)
 *##+js(aopr, InitCloseButton)
 *##+js(aopw, isAdblockOn)
 *##+js(aopw, rAb)
@@ -5010,7 +5005,6 @@ popuper.js^
 *##+js(acis, _adform)
 *##+js(acis, adformLoader)
 *##+js(acis, adformtag, push)
-*##+js(acis, headerScripts, checkAdBlockers)
 *##+js(acis, preLoadAds, loadAd)
 *##+js(acis, preLoadAds, setup)
 *##+js(std, onerror, 1000)
@@ -5025,8 +5019,6 @@ popuper.js^
 *##+js(setTimeout-defuser.js, adsbygoogle, 2000)
 *##+js(acis, popunder)
 *##+js(acis, jQuery, overlay)
-*##+js(aopw, importFAB)
-*##+js(aopw, miner)
 *##+js(acis, document.createElement, jsc.mgid.com)
 *##+js(set, AdController, noopFunc)
 *##+js(set, ClickUnder, noopFunc)
@@ -5034,7 +5026,6 @@ popuper.js^
 *##+js(aeld, DOMContentLoaded, adlinkfly)
 *##+js(ra, href, #clickfakeplayer)
 *##+js(acis, document.querySelectorAll, adConfig)
-*##+js(acis, decodeURI, _POP)
 *##+js(aopr, jwplayer.utils.Timer)
 *##+js(abort-on-property-write.js, spot)
 *##+js(aopr, VAST)
