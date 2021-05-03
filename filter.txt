@@ -50,7 +50,6 @@ aftonbladet.se##div[style*="border-color:#0067b5;"] ~ a
 aftonbladet.se##h3[style*="background-color:#0067b5;border-radius:2px;margin:16px 0px 0px 0px;"]
 aftonbladet.se##.type-advert
 aftonbladet.se##[src*="/ab-box?"]
-aftonbladet.se##[data-engage-entity-id*="sdrn:aftonbladet:article:"][href*="/family"]
 aftonbladet.se##[data-engage-entity-id*="sdrn:aftonbladet:article:"][href*="/wellobe"]
 aftonbladet.se##[data-engage-entity-id*="sdrn:aftonbladet:article:"][href*="/matdryck"]
 aftonbladet.se##[data-engage-entity-id*="sdrn:aftonbladet:article:"][href*="/wellness"]
@@ -971,7 +970,9 @@ di.se##.start__articles-ad
 /getnative$xhr
 
 #Hemnet.se
+hemnet.se##html:style(overflow-y: auto !important;)
 hemnet.se###ad_unit_placeholder
+hemnet.se##.hcl-modal-overlay--after-open.hcl-modal-overlay
 hemnet.se##.consent-modal__overlay--after-open.consent-modal__overlay
 hemnet.se##.listing__articles
 hemnet.se##.article-list-post a:has(span:has-text(Sponsrad))
