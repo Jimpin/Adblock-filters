@@ -239,6 +239,7 @@ twitch.tv##.extension-taskbar
 twitch.tv##.noty_bar
 twitch.tv###noty_bottomCenter_layout_container
 twitch.tv##.side-info-container
+twitch.tv##.tw-absolute.top-bar
 twitch.tv##.player .invisible
 twitch.tv##.player-play-overlay
 twitch.tv##.player-advertisement, .player-video object
