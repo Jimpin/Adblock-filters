@@ -1611,6 +1611,7 @@ skidrowreloaded.com##+js(aopr, Buu.serve)
 skidrowreloaded.com##+js(aeld, click, [native code])
 skidrowreloaded.com##+js(aeld, , _blank)
 skidrowreloaded.com##+js(acis, $, open)
+skidrowreloaded.com##+js(no-fetch-if, /^/)
 skidrowreloaded.com##iframe[src="about:blank"]
 ||skidrowreloaded.com^$csp=script-src 'self' 'unsafe-inline' *.google-analytics.com *.cloudflare.com *.gstatic.com *.google.com *.solvemedia.com *.recaptcha.net
 |http://$script,image,xhr,3p,domain=skidrowreloaded.com
@@ -5201,6 +5202,12 @@ popuper.js^
 *##div[class^="lowerBadge"]
 *##+js(aopr, Object.prototype.adUnits)
 *##+js(nowebrtc)
+*##+js(no-floc)
+*##+js(no-fetch-if, /async.js)
+*##+js(no-fetch-if, adsbygoogle.js)
+*##+js(no-fetch-if, googlesyndication, method:HEAD)
+*##+js(no-fetch-if, popunder)
+*##+js(no-fetch-if, ads)
 *.html#type=page&event=load&url=$important
 ##[id="skinAdTarget"]
 ##[id="superadunit"][class="hidden"]
