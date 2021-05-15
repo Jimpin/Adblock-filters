@@ -5202,13 +5202,7 @@ popuper.js^
 *##div[class^="lowerBadge"]
 *##+js(aopr, Object.prototype.adUnits)
 *##+js(nowebrtc)
-*##+js(no-floc)
-*##+js(no-fetch-if, /async.js)
-*##+js(no-fetch-if, adsbygoogle.js)
-*##+js(no-fetch-if, googlesyndication, method:HEAD)
-*##+js(no-fetch-if, popunder)
-*##+js(no-fetch-if, ads)
-*.html#type=page&event=load&url=$important
+*html#type=page&event=load&url=$important
 ##[id="skinAdTarget"]
 ##[id="superadunit"][class="hidden"]
 ###gdpr-cookie-message
