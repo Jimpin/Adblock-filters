@@ -54,15 +54,16 @@ aftonbladet.se##[data-engage-entity-id*="sdrn:aftonbladet:article:"][href*="/wel
 aftonbladet.se##[data-engage-entity-id*="sdrn:aftonbladet:article:"][href*="/matdryck"]
 aftonbladet.se##[data-engage-entity-id*="sdrn:aftonbladet:article:"][href*="/wellness"]
 aftonbladet.se##.AxIVT[style="min-height: 600px;"]
-aftonbladet.se##div.HLf1C:has-text(ANNONS)
-aftonbladet.se##div.HLf1C:has-text(HELGEN)
-aftonbladet.se##div.HLf1C:has-text(Hudterapeut)
-aftonbladet.se##div.HLf1C:has-text(SISTA CHANSEN)
-aftonbladet.se##div.HLf1C:has-text(Så får du)
-aftonbladet.se##div.HLf1C:has-text(TEST)
-aftonbladet.se##div.HLf1C:has-text(TIPS)
-aftonbladet.se##div.HLf1C:has-text(WELLOBE)
-aftonbladet.se##div.HLf1C:has-text(50% rabatt)
+aftonbladet.se##div.HLf1C:contains(annonslänkar)
+aftonbladet.se##div.HLf1C:contains(ANNONS)
+aftonbladet.se##div.HLf1C:contains(HELGEN)
+aftonbladet.se##div.HLf1C:contains(Hudterapeut)
+aftonbladet.se##div.HLf1C:contains(SISTA CHANSEN)
+aftonbladet.se##div.HLf1C:contains(Så får du)
+aftonbladet.se##div.HLf1C:contains(TEST)
+aftonbladet.se##div.HLf1C:contains(TIPS)
+aftonbladet.se##div.HLf1C:contains(WELLOBE)
+aftonbladet.se##div.HLf1C:contains(50% rabatt)
 aftonbladet.se##.abAside div:has-text(spel 18 år)
 aftonbladet.se##.abAside > div:has-text(ANNONS)
 aftonbladet.se##[data-invcode*="se-aftonbladet-"]
