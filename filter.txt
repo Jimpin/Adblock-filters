@@ -16,6 +16,11 @@ aftonbladet.se##.sch-datacontroller--subheader.sch-datacontroller--cobranded.sch
 aftonbladet.se##.svp-sponsor-label
 aftonbladet.se##div._2j7q7:nth-of-type(2)
 aftonbladet.se##.css-1exe4c0
+aftonbladet.se##[id*="adPlacement_"]
+aftonbladet.se##[class*="lp_is_"]
+aftonbladet.se##.css-1mp5k9p
+aftonbladet.se###superright-side
+aftonbladet.se##div.css-zjik7
 aftonbladet.se###outsider
 aftonbladet.se##.outerContainer
 aftonbladet.se###MegaAd
