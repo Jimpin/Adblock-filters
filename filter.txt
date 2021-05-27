@@ -14,6 +14,16 @@ aftonbladet.se##.sch-datacontroller--permanent.sch-datacontroller--cobranded.sch
 aftonbladet.se##.sch-datacontroller--minimal.sch-datacontroller--subheader.sch-datacontroller
 aftonbladet.se##.sch-datacontroller--subheader.sch-datacontroller--cobranded.sch-datacontroller
 aftonbladet.se##.svp-sponsor-label
+aftonbladet.se##[href*="aftonbladet.se/a/"]
+aftonbladet.se##div.css-1p9ud9z:contains(ANNONS)
+aftonbladet.se##div.css-1p9ud9z:contains(annonslänkar)
+aftonbladet.se##div.css-og0dt7:contains(ANNONS)
+aftonbladet.se##div.css-og0dt7:contains(annonslänkar)
+aftonbladet.se##.css-1bhf25k:contains(ANNONS)
+aftonbladet.se##.css-1o0kvkl:contains(ANNONS)
+aftonbladet.se##.css-16rjyuz:contains(ANNONS)
+aftonbladet.se##.css-1saqyiq:contains(Lokalt)
+aftonbladet.se##.css-1tvx7fw
 aftonbladet.se##div._2j7q7:nth-of-type(2)
 aftonbladet.se##.css-1exe4c0
 aftonbladet.se##[id*="adPlacement_"]
@@ -32,46 +42,8 @@ aftonbladet.se##+js(acis, preLoadAds, loadAd)
 aftonbladet.se##+js(acis, preLoadAds, setup)
 aftonbladet.se##+js(aeld, message, adError)
 aftonbladet.se##^script:has-text(preLoadAds)
-aftonbladet.se##.abTheme-ad
-aftonbladet.se##.abAdArea
-aftonbladet.se##.abThemeBorder:has-text(www)
-aftonbladet.se##.abThemeBgLight3:matches-css(height: 3px)
-aftonbladet.se##.abThemeBgTeaser
-aftonbladet.se##.abTheme-adSportbladet
-aftonbladet.se##.abTheme-infeedad
-aftonbladet.se##.abBtnShare
-aftonbladet.se##.abAdWrapper
-aftonbladet.se##.advert-companion.advert
-aftonbladet.se##.abBtn:has-text(KOPIERA LÄNK)
 aftonbladet.se##article:has(a[data-sponsored="true"])
 aftonbladet.se##div[class][style*="text"]:has(h3:has-text(/annons/i))
-aftonbladet.se##[id*="abAdArea"]
-aftonbladet.se##a[style*="border-color: rgb(0, 103, 181)"]
-aftonbladet.se##a[style*="border-color:#0067b5"]
-aftonbladet.se##div[style*="border-color: rgb(0, 103, 181);"]
-aftonbladet.se##div[style*="border-color: rgb(0, 103, 181);"] ~ a
-aftonbladet.se##div[style*="border-color:#0067b5;"]
-aftonbladet.se##div[style*="border-color:#0067b5;"] ~ a
-aftonbladet.se##h3[style*="background-color:#0067b5;border-radius:2px;margin:16px 0px 0px 0px;"]
-aftonbladet.se##.type-advert
-aftonbladet.se##[src*="/ab-box?"]
-aftonbladet.se##[data-engage-entity-id*="sdrn:aftonbladet:article:"][href*="/wellobe"]
-aftonbladet.se##[data-engage-entity-id*="sdrn:aftonbladet:article:"][href*="/matdryck"]
-aftonbladet.se##[data-engage-entity-id*="sdrn:aftonbladet:article:"][href*="/wellness"]
-aftonbladet.se##.AxIVT[style="min-height: 600px;"]
-aftonbladet.se##div.HLf1C:contains(annonslänkar)
-aftonbladet.se##div.HLf1C:contains(ANNONS)
-aftonbladet.se##div.HLf1C:contains(HELGEN)
-aftonbladet.se##div.HLf1C:contains(Hudterapeut)
-aftonbladet.se##div.HLf1C:contains(SISTA CHANSEN)
-aftonbladet.se##div.HLf1C:contains(Så får du)
-aftonbladet.se##div.HLf1C:contains(TEST)
-aftonbladet.se##div.HLf1C:contains(TIPS)
-aftonbladet.se##div.HLf1C:contains(WELLOBE)
-aftonbladet.se##div.HLf1C:contains(50% rabatt)
-aftonbladet.se##.abAside div:has-text(spel 18 år)
-aftonbladet.se##.abAside > div:has-text(ANNONS)
-aftonbladet.se##[data-invcode*="se-aftonbladet-"]
 aftonbladet.se##[rahrefbattkod=""]
 aftonbladet.se##[class="svp-player-recommended-box"]
 aftonbladet.se##.abAside > div[style^="text"]:last-child
@@ -81,10 +53,6 @@ aftonbladet.se##.share-icons
 aftonbladet.se##.social-shares
 aftonbladet.se##[href*="twitter.com/sportbladet"]
 aftonbladet.se##[href*="facebook.com/sportbladet"]
-aftonbladet.se##a[href="/kampanj/casinoguide"]
-aftonbladet.se##a[href*="/"]:has-text(Casino)
-aftonbladet.se##a[href*="?utm_source=aftonbladet&utm_medium=textlink&utm_campaign=widget"]
-aftonbladet.se##[title*="Dela på"]
 aftonbladet.se#@#div[data-reactroot] > div > div#MegaAd ~ div[class]:not(#header):not(.abThemeGradientPage)
 acast.com##[alt="Advertisement"]
 acast.com##[data-test-id="AirTimeAdControls__CountDown"]
