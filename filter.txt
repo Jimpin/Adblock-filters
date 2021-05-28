@@ -1653,7 +1653,7 @@ dirdamid.com##a[href$=".html"]
 ##div[id^="MarketGid"]
 ##div[id*="ScriptRootC"]
 ##div[id*="PreloadC"]
-##[class="Advertisement"]
+##[class*="Advertisement"]
 ##[id="mask-overlay"]
 ##[id="pc-fav"]
 ##[id="close_ad"]
@@ -1964,6 +1964,7 @@ dirdamid.com##a[href$=".html"]
 ##.loading.img-fluid.lazy
 ##.advert
 ##.advert.box
+##[id*="advert-modul"]
 ##sads
 ###_evh-link
 ##.-bottom-left.dynotifyjs-corner
