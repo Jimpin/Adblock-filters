@@ -26,7 +26,7 @@ aftonbladet.se##.css-1o0kvkl:contains(ANNONS)
 aftonbladet.se##.css-16rjyuz:contains(ANNONS)
 aftonbladet.se##.css-1saqyiq:contains(Lokalt)
 aftonbladet.se##.css-1tvx7fw
-aftonbladet.se##div._2j7q7:nth-of-type(2)
+aftonbladet.se##._2-iJ1
 aftonbladet.se##.css-1exe4c0
 aftonbladet.se##[id*="adPlacement_"]
 aftonbladet.se##[class*="lp_is_"]
@@ -70,6 +70,7 @@ live.aftonbladet.se###advert-topboard
 live.aftonbladet.se###advert-placeholder_1
 live.aftonbladet.se###advert-placeholder_2
 live.aftonbladet.se###advert-placeholder_3
+live.aftonbladet.se##[class*=" null"]
 bloggar.aftonbladet.se##.ab-responsive-adverts-widget-5a208a052f344-appnexus.se-aftonbladet-wde-bloggar_panoramauppe.ab-appnexus-ads-wrapper.ab-responsive-ads-wrapper
 bloggar.aftonbladet.se###ab-responsive-adverts-widget-5a3b71566cade
 bloggar.aftonbladet.se###ab-responsive-adverts-widget-5a3b720ea786b
