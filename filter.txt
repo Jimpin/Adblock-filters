@@ -83,12 +83,12 @@ bloggar.aftonbladet.se##.abInbetweenerHelsida:nth-of-type(2)
 klart.se##+js(aopr, blockAdBlock)
 @@||imgs.aftonbladet-cdn.se/*/images/
 @@||gfx.aftonbladet-cdn.se^$image
-@@/www.aftonbladet.se\/cnp-assets\/[0-9]+./$script,domain=aftonbladet.se
 @@/hyper-assets/preload*$script,domain=aftonbladet.se
 @@/hyper-assets/app.$script,domain=aftonbladet.se
 @@||aftonbladet.se/sportbladet
 @@||aftonbladet.se^$generichide
 @@||sportbladetplay.se^$script
+/www.aftonbladet.se\/cnp-assets\/[0-9]+./$script,important
 ||aftonbladet.se.senaste.$document
 ||aftonbladet.se/kampanj/casinoguide$document
 ||aftonbladet.se/tv/temp.mp4$media/rabattkod/*$image
