@@ -4870,7 +4870,6 @@ popuper.js^
 @@/assets/js/player.js$script
 @@//media*^$image
 @@/vendors/omniture/*$script
-@@/sdrn:schibsted:client:*
 @@/manifest.json
 @@/translations/*.json
 @@*.m3u8$xhr
