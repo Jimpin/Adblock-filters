@@ -88,7 +88,6 @@ klart.se##+js(aopr, blockAdBlock)
 @@||aftonbladet.se/sportbladet
 @@||aftonbladet.se^$generichide
 @@||sportbladetplay.se^$script
-/www.aftonbladet.se\/cnp-assets\/[0-9]+./$script,important
 ||aftonbladet.se.senaste.$document
 ||aftonbladet.se/kampanj/casinoguide$document
 ||aftonbladet.se/tv/temp.mp4$media/rabattkod/*$image
