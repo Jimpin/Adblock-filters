@@ -3,8 +3,6 @@
 ! Homepage http://jimpin.zapto.org/
 ! License: GPL-3.0 License | https://github.com/Jimpin/Adblock-filters/blob/master/LICENSE
 
-utm_$document,removeparam=/^utm_/,domain=aftonbladet.se|alltommat.se|booli.se|damernasvarld.se|expressen.se|skonahem.com|teknikensvarld.se|tv.nu
-
 #Aftonbladet.se
 aftonbladet.se##html,body:style(overflow-y: auto !important;)
 aftonbladet.se##+js(nostif, TAKEOVER)
@@ -85,6 +83,7 @@ bloggar.aftonbladet.se##.abInbetweenerHelsida:nth-of-type(2)
 klart.se##+js(aopr, blockAdBlock)
 @@||imgs.aftonbladet-cdn.se/*/images/
 @@||gfx.aftonbladet-cdn.se^$image
+@@/www.aftonbladet.se\/cnp-assets\/[0-9]+./$script,domain=aftonbladet.se
 @@/hyper-assets/preload*$script,domain=aftonbladet.se
 @@/hyper-assets/app.$script,domain=aftonbladet.se
 @@||aftonbladet.se/sportbladet
@@ -98,6 +97,7 @@ klart.se##+js(aopr, blockAdBlock)
 ||engage-auth.schibsted.media^$script
 ||adv.aftonbladet.se^$important
 ||ooul.tv/*/se-aftonbladet/aab/aftonbladet_$script
+||youbora.com^*/sp.min.js$important
 ||jwpsrv.com^$subdocument,important
 ||brandmetrics.com^$3p
 ||jwpcdn.com^*/*.js$script,domain=aftonbladet.se
@@ -109,8 +109,10 @@ klart.se##+js(aopr, blockAdBlock)
 ||cdn.acast.com/images/ad-banner-black.jpg$image,domain=embed.acast.com,important
 ||meetrics.net^$image,important
 ||delivery.adten.eu^$image,xhr
+||report-uri.com^$3p
 ##[data-test="cookie-consent"]
-/www.*\/cnp-assets\/[0-9]+./$script
+utm_$document,removeparam=/^utm_/
+/deprecated-linkpulse-tracking.js
 /pulse-sdk-html*.min.js$script
 /provider.cast.
 /gdpr-bundle.
@@ -4794,6 +4796,7 @@ Pop-under.js^
 popuper.js^
 
 #Allowed Scripts
+@@||youbora.com/*/js/adapters/jwplayer$script
 @@||*.wp.com/*/wp-content/uploads/*$image
 @@||images-na.ssl-images-amazon.com/images/*$script
 @@||stream.nbcsports.com^
