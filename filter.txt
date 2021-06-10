@@ -3,8 +3,12 @@
 ! Homepage http://jimpin.zapto.org/
 ! License: GPL-3.0 License | https://github.com/Jimpin/Adblock-filters/blob/master/LICENSE
 
+utm_$document,removeparam=/^utm_/,domain=aftonbladet.se|alltommat.se|booli.se|damernasvarld.se|expressen.se|skonahem.com|teknikensvarld.se|tv.nu
+
 #Aftonbladet.se
 aftonbladet.se##html,body:style(overflow-y: auto !important;)
+aftonbladet.se##+js(nostif, TAKEOVER)
+aftonbladet.se##body:style(overflow:unset!important)
 aftonbladet.se##.jwplayer:has(.svp-sponsor-label):remove()
 aftonbladet.se##a[href*=".se/kampanj?"]:has-text(/erbjudande/i)
 aftonbladet.se##a[href*="aftonbladet.se/kampanj/artikel"]:upward(1)
@@ -88,24 +92,25 @@ klart.se##+js(aopr, blockAdBlock)
 @@||sportbladetplay.se^$script
 ||aftonbladet.se.senaste.$document
 ||aftonbladet.se/kampanj/casinoguide$document
-||aftonbladet.se/tv/temp.mp4$media/rabattkod/*$image,domain=aftonbladet.se
+||aftonbladet.se/tv/temp.mp4$media/rabattkod/*$image
+||cmp.aftonbladet.se^
 ||schibsted.io/*/publishing/*$important
 ||engage-auth.schibsted.media^$script
 ||adv.aftonbladet.se^$important
-||ooul.tv/*/se-aftonbladet/aab/aftonbladet_$script,redirect-rule=noopjs
+||ooul.tv/*/se-aftonbladet/aab/aftonbladet_$script
 ||jwpsrv.com^$subdocument,important
 ||brandmetrics.com^$3p
 ||jwpcdn.com^*/*.js$script,domain=aftonbladet.se
 ||svp.vg.no/svp/api/v1/time$xmlhttprequest
 ||ab-web-notifications.herokuapp.com^$xhr
-||interaction.acast.com/adImpression$xhr,redirect-rule=nooptext
+||interaction.acast.com/adImpression$xhr
 ||interaction.acast.com/progress$xhr,redirect-rule=nooptext
 ||auth.acast.com/v1/getAnonymousToken$xmlhttprequest,domain=embed.acast.com
 ||cdn.acast.com/images/ad-banner-black.jpg$image,domain=embed.acast.com,important
 ||meetrics.net^$image,important
 ||delivery.adten.eu^$image,xhr
 ##[data-test="cookie-consent"]
-/ab-box?$domain=www.aftonbladet.se,subdocument
+/www.*\/cnp-assets\/[0-9]+./$script
 /pulse-sdk-html*.min.js$script
 /provider.cast.
 /gdpr-bundle.
@@ -4459,10 +4464,17 @@ redirect.
 /promo-banner.js?cache=
 /front-index-pc.js?
 /vortex-simple-*.js$script
+/xhr-ads.min.js$script
 /iframe-*.html$subdocument
 /laddased
 /favicon.ico$popup,important
 /googlead.js$script
+/google-analytics-for-wordpress$important,script
+/google-analytics-premium$important,script
+/keremiya1/js/addtoany.js$important,script
+/messagingNoTcfApi.js
+/metrics/bambuser
+/appnexus$script
 /gtag/js?
 /ntfc.php?
 /js-ad.php
