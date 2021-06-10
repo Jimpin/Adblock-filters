@@ -19,6 +19,7 @@ aftonbladet.se##.svp-sponsor-label
 aftonbladet.se##[href*="aftonbladet.se/a/"]
 aftonbladet.se##div.HLf1C:contains(annonslänkar)
 aftonbladet.se##div.HLf1C:contains(ANNONS)
+aftonbladet.se##div.css-12rqvkh
 aftonbladet.se##div.css-1p9ud9z:contains(ANNONS)
 aftonbladet.se##div.css-1p9ud9z:contains(annonslänkar)
 aftonbladet.se##div.css-og0dt7:contains(ANNONS)
