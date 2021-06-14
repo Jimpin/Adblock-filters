@@ -19,26 +19,21 @@ aftonbladet.se##.svp-sponsor-label
 aftonbladet.se##[href*="aftonbladet.se/a/"]
 aftonbladet.se##div.HLf1C:contains(annonslänkar)
 aftonbladet.se##div.HLf1C:contains(ANNONS)
-aftonbladet.se##div.css-12rqvkh
-aftonbladet.se##div.css-1p9ud9z:contains(ANNONS)
-aftonbladet.se##div.css-1p9ud9z:contains(annonslänkar)
-aftonbladet.se##div.css-og0dt7:contains(ANNONS)
-aftonbladet.se##div.css-og0dt7:contains(annonslänkar)
-aftonbladet.se##.css-1bhf25k:contains(ANNONS)
-aftonbladet.se##.css-1o0kvkl:contains(ANNONS)
-aftonbladet.se##.css-16rjyuz:contains(ANNONS)
-aftonbladet.se##.css-1saqyiq:contains(Lokalt)
-aftonbladet.se##.css-1tvx7fw
 aftonbladet.se##._2-iJ1
-aftonbladet.se##.css-1exe4c0
 aftonbladet.se##[id*="adPlacement_"]
 aftonbladet.se##[class*="lp_is_"]
 aftonbladet.se##.css-1mp5k9p
 aftonbladet.se###superright-side
-aftonbladet.se##div.css-zjik7
 aftonbladet.se###outsider
 aftonbladet.se##.outerContainer
 aftonbladet.se###MegaAd
+aftonbladet.se###main > div > div > div:has([data-ad-subtype])
+aftonbladet.se###main > div > div > div:has(h3:has-text(/^annons/i))
+aftonbladet.se##a:has(span:has-text(/^annons/i))
+aftonbladet.se##aside > div:has([data-ad-subtype])
+aftonbladet.se##aside > div:has(h3:has-text(/^annons/i))
+aftonbladet.se##section > div:has([data-ad-subtype])
+aftonbladet.se##section > div:has(h3:has-text(/^annons/i))
 aftonbladet.se##+js(nosiif, e.ping())
 aftonbladet.se##+js(nosiif, e.reportVisibility())
 aftonbladet.se##+js(nostif, onerror, 1000)
