@@ -112,6 +112,7 @@ klart.se##+js(aopr, blockAdBlock)
 ||report-uri.com^$3p
 ##[data-test="cookie-consent"]
 utm_$document,removeparam=/^utm_/
+/www.*\/cnp-assets\/[1-9][0-9]{0,2}\./$script
 /deprecated-linkpulse-tracking.js
 /pulse-sdk-html*.min.js$script
 /provider.cast.
