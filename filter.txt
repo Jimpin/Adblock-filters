@@ -33,6 +33,7 @@ aftonbladet.se###main > div > div > div:has(h3:has-text(/^annons/i))
 aftonbladet.se##a:has(span:has-text(/^annons/i))
 aftonbladet.se##aside > div:has([data-ad-subtype])
 aftonbladet.se##aside > div:has(h3:has-text(/^annons/i))
+aftonbladet.se##section > div:has([data-ad-subtype][style="min-height: 320px;"])
 aftonbladet.se##section > div:has(h3:has-text(/^annons/i))
 aftonbladet.se##+js(nosiif, e.ping())
 aftonbladet.se##+js(nosiif, e.reportVisibility())
@@ -56,6 +57,7 @@ aftonbladet.se##[id*="integration-enrichment"]
 aftonbladet.se##div.css-1p9ud9z:matches-css(height: 10px)
 aftonbladet.se##[href*="twitter.com/sportbladet"]
 aftonbladet.se##[href*="facebook.com/sportbladet"]
+aftonbladet.se#@#section > div:has([data-ad-subtype])
 aftonbladet.se#@#div[data-reactroot] > div > div#MegaAd ~ div[class]:not(#header):not(.abThemeGradientPage)
 acast.com##[alt="Advertisement"]
 acast.com##[data-test-id="AirTimeAdControls__CountDown"]
@@ -69,6 +71,8 @@ live.aftonbladet.se###advert-topboard
 live.aftonbladet.se###advert-placeholder_1
 live.aftonbladet.se###advert-placeholder_2
 live.aftonbladet.se###advert-placeholder_3
+live.aftonbladet.se##.type-advert
+live.aftonbladet.se##.hide
 live.aftonbladet.se##[class*=" null"]
 bloggar.aftonbladet.se##.ab-responsive-adverts-widget-5a208a052f344-appnexus.se-aftonbladet-wde-bloggar_panoramauppe.ab-appnexus-ads-wrapper.ab-responsive-ads-wrapper
 bloggar.aftonbladet.se###ab-responsive-adverts-widget-5a3b71566cade
