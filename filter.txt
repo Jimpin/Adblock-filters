@@ -20,14 +20,10 @@ aftonbladet.se##[href*="aftonbladet.se/a/"]
 aftonbladet.se##div.HLf1C:contains(annonslänkar)
 aftonbladet.se##div.HLf1C:contains(ANNONS)
 aftonbladet.se##._2-iJ1
-aftonbladet.se##[id*="adPlacement_"]
 aftonbladet.se##[class*=css-1p]:contains(annonslänkar)
 aftonbladet.se##[class*="lp_is_"]
-aftonbladet.se###superright-side
-aftonbladet.se###outsider
-aftonbladet.se##.outerContainer
-aftonbladet.se###MegaAd
-aftonbladet.se###megaAd-placeholder
+aftonbladet.se###megaAd-placeholder, #superright-side, a[href^="/brandstudio"], a[href*="/rabattkod"], a[href*="/casinoguide"], #main > div > div:first-child, [id^="adPlacement"]
+aftonbladet.se##[data-ad-subtype]:upward(1):style(min-height:unset!important)
 aftonbladet.se###main > div > div > div:has([data-ad-subtype])
 aftonbladet.se###main > div > div > div:has(h3:has-text(/^annons/i))
 aftonbladet.se##a:has(span:has-text(/^annons/i))
@@ -46,15 +42,11 @@ aftonbladet.se##^script:has-text(preLoadAds)
 aftonbladet.se##article:has(a[data-sponsored="true"])
 aftonbladet.se##div[class][style*="text"]:has(h3:has-text(/annons/i))
 aftonbladet.se##div[class][style*="text"]:has(h3:has-text(/annonslänkar/i))
-aftonbladet.se##[rahrefbattkod=""]
 aftonbladet.se##[class="svp-player-recommended-box"]
 aftonbladet.se##.abAside > div[style^="text"]:last-child
-aftonbladet.se##[id^="innerabAdArea-"]
 aftonbladet.se##.ab-responsive-ads-wrapper
 aftonbladet.se##.share-icons
 aftonbladet.se##.social-shares
-aftonbladet.se##[id*="integration-enrichment"]
-aftonbladet.se##div.css-1p9ud9z:matches-css(height: 10px)
 aftonbladet.se##[href*="twitter.com/sportbladet"]
 aftonbladet.se##[href*="facebook.com/sportbladet"]
 aftonbladet.se#@#section > div:has([data-ad-subtype])
@@ -114,6 +106,9 @@ klart.se##+js(aopr, blockAdBlock)
 utm_$document,removeparam=/^utm_/
 /www.*\/cnp-assets\/[1-9][0-9]{0,2}\./$script
 /deprecated-linkpulse-tracking.js
+/player-plugin-ad$3p
+/player-plugin-sponsor$3p
+/player-plugin-tracking$3p
 /pulse-sdk-html*.min.js$script
 /provider.cast.
 /gdpr-bundle.
@@ -5160,6 +5155,7 @@ popuper.js^
 ##.float-ads
 ##.float-ads-backgroud
 ##.noPopunder
+##.ab_responsive_ads
 ##.tj-add-text
 ##.vjs-inplayer-closeandplay
 ##.attentionMsg
