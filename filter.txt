@@ -207,6 +207,7 @@ outlook.live.com##[class*="_3_"]:has-text(.)
 ||vortex.data.microsoft.com^
 
 #Twitch.tv
+twitch.tv##+js(window.open-defuser, amazon-adsystem)
 twitch.tv##[data-a-target=prime-offers-icon]
 twitch.tv##[data-a-target=try-prime-link]
 twitch.tv##.prime-offers__pill
@@ -1171,10 +1172,10 @@ rltracker.pro##.col-sm-12 > .row
 /ucount.php?
 &&_=
 
-#Lookmovie.ag
-lookmovie.*##+js(acis, Object.defineProperty, XMLHttpRequest)
+#Lookmovie.io
+lookmovie.*##+js(abort-current-inline-script, Object.defineProperty, XMLHttpRequest)
+lookmovie.*##+js(abort-on-property-read, adBlockDetected)
 lookmovie.*##+js(aeld, , _0x)
-lookmovie.*##+js(aopr, AaDetector)
 lookmovie.*##.view-top-ab
 lookmovie.*##.nord-vpn.home-banner
 lookmovie.*##.notifyjs-corner
