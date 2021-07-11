@@ -4087,7 +4087,8 @@ dirdamid.com##a[href$=".html"]
 ||fast.fonts.net/t/1.css$css
 ||bam.nr-data.net^$script
 ||dev.visualwebsiteoptimizer.com^$important
-||unpkg.com^$script
+||unpkg.com^
+||agacelebir.com^$important
 ||pndelfast.com^$important
 ||jsc.mgid.com^$important
 ||metricfast.com^$important
@@ -4440,6 +4441,7 @@ redirect.
 /adblocker_message_
 /AdblockMessage.
 /antiadblockmsg.
+/player*/ad*.php$all
 /simple-adblock-notice/*
 /wp-content/plugins/addthis/*$css
 /wp-content/plugins/ad-block-defender/*
@@ -5211,8 +5213,8 @@ popuper.js^
 .fun^$frame,xhr,image,ping,popup,3p
 .online^$frame,xhr,image,ping,popup,3p
 .pro^$frame,xhr,image,ping,popup,3p
-.site^$frame,xhr,image,ping,popup,3p
+.site^$image,ping,popup,3p
 .top^$frame,xhr,image,ping,popup,3p
 .trade^$frame,xhr,image,ping,popup,3p
-.xyz^$frame,xhr,image,ping,popup,3p
+.xyz^$image,ping,popup,3p
 .ws^$frame,xhr,image,ping,popup,3p
