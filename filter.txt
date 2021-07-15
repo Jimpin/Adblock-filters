@@ -11,6 +11,7 @@ aftonbladet.se##.jwplayer:has(.svp-sponsor-label):remove()
 aftonbladet.se##a[href*=".se/kampanj?"]:has-text(/erbjudande/i)
 aftonbladet.se##a[href*="aftonbladet.se/kampanj/artikel"]:upward(1)
 aftonbladet.se##a[href*="/tv/"]:has(span:has-text(/studio oddset/i)):upward(1)
+aftonbladet.se##[href*="/amazon/"]
 aftonbladet.se##.sch-datacontroller__wrapper
 aftonbladet.se##.sch-datacontroller--permanent.sch-datacontroller--cobranded.sch-datacontroller
 aftonbladet.se##.sch-datacontroller--minimal.sch-datacontroller--subheader.sch-datacontroller
@@ -23,6 +24,10 @@ aftonbladet.se##[class*=css-1p]:contains(annonslänkar)
 aftonbladet.se##[class*="lp_is_"]
 aftonbladet.se###megaAd-placeholder, #MegaAd, #outsider, #superright-side, a[href*="/kampanj.aftonbladet.se"], a[href*="/brandstudio"], a[href*="/rabattkod"], a[href*="/casinoguide"], #main > div > div:first-child, [id*="innerabAdArea-"], [id*="adPlacement"]
 aftonbladet.se##[data-ad-subtype]:upward(1):style(min-height:unset!important)
+aftonbladet.se##h2:has-text(ANNONS)
+aftonbladet.se##[class="css-1bhf25k"]:contains(CASINO)
+aftonbladet.se##[class="css-1o0kvkl"]:contains(RABATTKODER)
+aftonbladet.se##[class="css-a3h57q"]:contains(ANNONS)
 aftonbladet.se###main > div > div > div:has([data-ad-subtype])
 aftonbladet.se###main > div > div > div:has(h3:has-text(/^annons/i))
 aftonbladet.se##a:has(span:has-text(/^annons/i))
@@ -2994,6 +2999,8 @@ dirdamid.com##a[href$=".html"]
 ||advertisement.vg.no^
 ||addthisedge.com^
 ||jssdk.pulse.schibsted.com/autoTracker.min.js$script,important
+||ssl.p.jwpcdn.com/*/sharing.js$script
+||ssl.p.jwpcdn.com/*/jwpsrv.js$script
 ||gpjph.com^
 ||cdn.doublepimpssl.com^
 ||cdn1.ads.contentabc.com^
@@ -3980,6 +3987,10 @@ dirdamid.com##a[href$=".html"]
 ||adxprtz.com^
 ||sloyalty.com^
 ||livestatisc.com^
+||tookawie.com^$xhr
+||agacelebir.com^$important
+||geoip.redirect-ads.com^
+||bettingpremier.com^
 ||sylwenys.pw^
 ||biasdo.com^
 ||azloto.com^
@@ -4251,6 +4262,8 @@ redirect.
 /pw/*.js$script
 /ads/purl.js$script
 /ads?
+/player*/ad*.php$xhr,1p
+/bet365$popup
 /html/blocked.html$popup,important
 /6rpck7aq$important
 /bundles/analytics
@@ -4817,7 +4830,6 @@ popuper.js^
 @@||jawcloud.co/*/embed.js$script
 @@||api.twitter.com^$xmlhttprequest,1p
 @@||cloudfront.net/assets/*$media,3p
-@@||cloudfront.net/*$image,domain=jimpin.zapto.org
 @@||cdn.svp.schibsted.io^$script
 @@||steamstatic.com^$image
 @@||youtube.com/embed/*$subdocument
@@ -4825,6 +4837,7 @@ popuper.js^
 @@||sportingvideo*.com^$popup
 @@||*.cloudfront.net/build/assets/*$script
 @@||*.cloudfront.net/integrations/*$script
+@@||tvply.me^$subdocument
 @@||tracking*.se
 @@||maxcdn.bootstrapcdn.com^
 @@||amazonaws.com^$image
@@ -4835,7 +4848,7 @@ popuper.js^
 @@||clients1.google.com^$script
 @@||policy.app.cookieinformation.com^$script
 @@||apis.google.com^$script
-@@||google.com^$frame,xmlhttprequest
+@@||google.com^$frame,xhr
 @@||maps.google.com^$script,image
 @@||media-amazon.com^$image
 @@||cdn.cloudflare.steamstatic.com^$image
