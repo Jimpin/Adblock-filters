@@ -1522,24 +1522,40 @@ bestmovies.*##[class="btn-container"]
 ||go.squawinto.com^$important
 ||track.amzinguidance.com^$important
 
-#Moviesjoy
-moviesjoy.*##+js(popads-dummy)
-moviesjoy.*##.inline_addthis_home.inline_addthis
-moviesjoy.*###footer > .container
-moviesjoy.*###pc-comment
-moviesjoy.*###pc-share
-moviesjoy.*###pop-share
-moviesjoy.*###film_comments
-moviesjoy.*###gift-top
-moviesjoy.*##.text-home-main
-moviesjoy.*##.show.modalshare-1.premodal-share.premodal.modal
-moviesjoy.*##.show.modal-backdrop
-moviesjoy.*##[class="follow"]
+#Moviesjoy/Movies2watch
+moviesjoy.*,movies2watch.*##html,body:style(overflow-y: auto !important;)
+moviesjoy.*,movies2watch.*###gift-top
+moviesjoy.*,movies2watch.*##.ts-social
+moviesjoy.*,movies2watch.*##.show.premodal-share.premodal.modal
+moviesjoy.*,movies2watch.*##.show.modal-backdrop
+moviesjoy.*,movies2watch.*##.dt-content
+moviesjoy.*,movies2watch.*##li:has-text(Hydrax)
+moviesjoy.*,movies2watch.*###film_comments > .block_area-header > .clearfix
+moviesjoy.*,movies2watch.*###film_comments > .block_area-header
+moviesjoy.*,movies2watch.*##.row-tags
+moviesjoy.*,movies2watch.*##.mb-5.mw-body
+moviesjoy.*,movies2watch.*##.mb-5.text-center.mw-buttons
+moviesjoy.*,movies2watch.*##.mb-5.text-center.mw-buttons > .btn-primary.btn-radius.btn-lg.btn
+moviesjoy.*,movies2watch.*##.footer-links
+moviesjoy.*,movies2watch.*##.about-text
+moviesjoy.*,movies2watch.*##+js(popads-dummy)
+moviesjoy.*,movies2watch.*##.inline_addthis_home.inline_addthis
+moviesjoy.*,movies2watch.*###footer > .container
+moviesjoy.*,movies2watch.*###pc-comment
+moviesjoy.*,movies2watch.*###pc-share
+moviesjoy.*,movies2watch.*###pop-share
+moviesjoy.*,movies2watch.*###film_comments
+moviesjoy.*,movies2watch.*###gift-top
+moviesjoy.*,movies2watch.*##.text-home-main
+moviesjoy.*,movies2watch.*##.show.modalshare-1.premodal-share.premodal.modal
+moviesjoy.*,movies2watch.*##.show.modal-backdrop
+moviesjoy.*,movies2watch.*##[class="follow"]
 vcstream.*##.pub_300x250.pub_300x250m.pub_728x90.text-ad.textAd.text_ad.text_ads.text-ads.text-ad-links:style(display:block!important;)
 vcstream.*##[href$=".html"]
 vidcloud.*##[href$=".html"]
-@@||moviesjoy.net/watch-tv/^$popup
-||moviesjoy.net^$popup,third-party
+@@||moviesjoy.*/watch-tv/^$popup
+||moviesjoy.*^$popup,3p
+||movies2watch.*^$popup,3p
 ||use.fontawesome.com/releases/v5.3.1/css/all.css$css,domain=moviesjoy.net
 ||google.com/js/bg/*$script
 openload.co##+js(abort-current-inline-script, $, contextmenu)
@@ -2609,6 +2625,7 @@ dirdamid.com##a[href$=".html"]
 ##.player_hover_ad
 ##.player_page_ad_box
 ##.playlist-row-ad
+###playback-fake
 ##.plugin-ad
 ##.pod-ad
 ##.pod-ad-300
