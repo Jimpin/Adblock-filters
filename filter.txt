@@ -351,9 +351,7 @@ youtube.com##.ytp-paid-content-overlay
 youtube.com##.ytp-cued-thumbnail-overlay
 youtube.com##[class="style-scope yt-live-chat-viewer-engagement-message-renderer"]
 youtube.com##.ytp-fullerscreen-edu-text
-youtube.com##.ytp-ce-element
 youtube.com##.ytp-cards-teaser-text
-youtube.com##.ytp-ce-covering-overlay
 youtube.com##.ytp-scrubber-container
 youtube.com##.ytp-ad-progress
 youtube.com##.ytp-ad-progress-list
@@ -377,6 +375,8 @@ youtube.com##a[href*="/"]:has-text(stod)
 youtube.com##span.yt-formatted-string.style-scope:has-text(casino)
 youtube.com###clarify-box:has-text(COVID)
 youtube.com##.page-loaded
+youtube.com#@#.ytp-ce-element
+youtube.com#@#.ytp-ce-covering-overlay
 @@||youtube.com^$csp
 @@||youtube.com/player_api^
 *_ad_$media,redirect-rule=noopmp3-0.1s
