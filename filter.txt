@@ -1550,8 +1550,8 @@ moviesjoy.*,movies2watch.*##.text-home-main
 moviesjoy.*,movies2watch.*##.show.modalshare-1.premodal-share.premodal.modal
 moviesjoy.*,movies2watch.*##.show.modal-backdrop
 moviesjoy.*,movies2watch.*##[class="follow"]
-moviesjoy.*,movies2watch.*##[href*="doodstream"]
-moviesjoy.*,movies2watch.*##[class="vjs-picture-in-picture-control vjs-control vjs-button"]
+##[href*="doodstream"]
+##[class="vjs-picture-in-picture-control vjs-control vjs-button"]
 vcstream.*##.pub_300x250.pub_300x250m.pub_728x90.text-ad.textAd.text_ad.text_ads.text-ads.text-ad-links:style(display:block!important;)
 vcstream.*##[href$=".html"]
 vidcloud.*##[href$=".html"]
