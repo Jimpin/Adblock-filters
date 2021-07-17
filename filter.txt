@@ -1556,6 +1556,17 @@ vcstream.*##.pub_300x250.pub_300x250m.pub_728x90.text-ad.textAd.text_ad.text_ads
 vcstream.*##[href$=".html"]
 vidcloud.*##[href$=".html"]
 vidcloud.*###overlay-center
+upstream.*##+js(acis, $, .css)
+upstream.*##+js(acis, Math, break;case $.)
+upstream.*##+js(aopr, open)
+upstream.*##+js(aopr, _run)
+upstream.*##+js(aopw, _pop)
+upstream.*##+js(nowebrtc)
+upstream.*##+js(set, cRAds, null)
+upstream.*##.overlay
+||upstream.*/advertisement/pop.js$script,1p
+||upstream.*/dl$xhr,important
+||upstreamcdn.*^$websocket,image
 @@||moviesjoy.*/watch-tv/^$popup
 ||moviesjoy.*^$popup,3p
 ||movies2watch.*^$popup,3p
@@ -1591,6 +1602,7 @@ loadvid.*###overlay-vcplayer
 ||static.zdassets.com^$script
 ||ekr.zdassets.com^$xhr
 ||doodcdn.com/splash/*.jpg^$image
+/js/kaltura.js$script
 /ajax/banners$xhr
 /images/dablock.png$image
 
