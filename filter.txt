@@ -5136,7 +5136,6 @@ popuper.js^
 .scund*/$important
 /?acncd*$important
 /jssdks.*$3p
-/afu.*/$3p
 /ntfc.*/$3p
 /genads.*/$important
 /tuname.*/$important
