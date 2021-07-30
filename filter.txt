@@ -3569,6 +3569,7 @@ dirdamid.com##a[href$=".html"]
 ||logger.pw^
 ||newdonate.com^
 ||lifeideas.site^
+||ocsp*.globalsign.com^
 ||cachlambanhdongian.com^
 ||d.ghostery.com^
 ||adhigh.net^
@@ -5256,6 +5257,12 @@ popuper.js^
 ##.jconfirm-cell
 ##.jconfirm-open
 ##.jconfirm-scrollpane
+
+*##+js(acis, String.fromCharCode, /btoa|break/)
+*##+js(aost, onload, inlineScript)
+*##+js(aost, Math.random, inlineScript)
+*##+js(aost, Math.random, /\st\.[a-zA-Z]*\s/)
+*##+js(aost, onload, inlineScript)
 
 .biz^$frame,xhr,image,ping,popup,3p
 .fun^$frame,xhr,image,ping,popup,3p
