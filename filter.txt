@@ -5263,6 +5263,15 @@ popuper.js^
 *##+js(aost, onload, inlineScript)
 *##+js(aeld, DOMContentLoaded, checkVPN)
 *##+js(nostif, .call(null))
+*##+js(nosiif, checkInterval)
+*##^script:has-text(/^[\w\W]{1700,3000}$/):has-text(/(\\x\d\w){250}/)
+*##+js(nostif, offsetWidth)
+*##+js(nostif, invoke)
+*##+js(nostif, WinMsgHtml)
+*##+js(nostif, .submit)
+*##+js(nostif, eval)
+*##+js(nostif, blocked)
+*##+js(nostif, blur)
 
 .biz^$frame,xhr,image,ping,popup,3p
 .fun^$frame,xhr,image,ping,popup,3p
