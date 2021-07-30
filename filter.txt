@@ -5259,10 +5259,10 @@ popuper.js^
 ##.jconfirm-scrollpane
 
 *##+js(acis, String.fromCharCode, /btoa|break/)
-*##+js(aost, onload, inlineScript)
-*##+js(aost, Math.random, inlineScript)
 *##+js(aost, Math.random, /\st\.[a-zA-Z]*\s/)
 *##+js(aost, onload, inlineScript)
+*##+js(aeld, DOMContentLoaded, checkVPN)
+*##+js(nostif, .call(null))
 
 .biz^$frame,xhr,image,ping,popup,3p
 .fun^$frame,xhr,image,ping,popup,3p
