@@ -35,6 +35,7 @@ aftonbladet.se##aside > div:has([data-ad-subtype])
 aftonbladet.se##aside > div:has(h3:has-text(/^annons/i))
 aftonbladet.se##section > div:has([data-ad-subtype][style="min-height: 320px;"])
 aftonbladet.se##section > div:has(h3:has-text(/^annons/i))
+aftonbladet.se##.wide
 aftonbladet.se##+js(nosiif, e.ping())
 aftonbladet.se##+js(nosiif, e.reportVisibility())
 aftonbladet.se##+js(nostif, onerror, 1000)
