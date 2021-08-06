@@ -5260,20 +5260,6 @@ popuper.js^
 ##.jconfirm-scrollpane
 
 *##+js(acis, String.fromCharCode, /btoa|break/)
-*##+js(aost, Math.random, /\st\.[a-zA-Z]*\s/)
-*##+js(aost, onload, inlineScript)
-*##+js(nosiif, checkInterval)
-*##^script:has-text(/^[\w\W]{1700,3000}$/):has-text(/(\\x\d\w){250}/)
-*##+js(nostif, offsetWidth)
-*##+js(nostif, invoke)
-*##+js(nostif, WinMsgHtml)
-*##+js(nostif, .submit)
-*##+js(nostif, eval)
-*##+js(nostif, blocked)
-*##+js(nostif, blur)
-
-*##+js(acis, String.fromCharCode, /btoa|break/)
-*##+js(aost, Math.random, /\st\.[a-zA-Z]*\s/)
 *##+js(aost, onload, inlineScript)
 *##+js(nosiif, checkInterval)
 *##^script:has-text(/^[\w\W]{1700,3000}$/):has-text(/(\\x\d\w){250}/)
