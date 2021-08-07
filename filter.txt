@@ -5262,7 +5262,6 @@ popuper.js^
 ##.jconfirm-scrollpane
 
 *##+js(acis, String.fromCharCode, /btoa|break/)
-*##+js(aost, onload, inlineScript)
 *##+js(nosiif, checkInterval)
 *##^script:has-text(/^[\w\W]{1700,3000}$/):has-text(/(\\x\d\w){250}/)
 *##+js(nostif, offsetWidth)
@@ -5272,6 +5271,7 @@ popuper.js^
 *##+js(nostif, eval)
 *##+js(nostif, blocked)
 *##+js(nostif, blur)
+
 
 .biz^$frame,xhr,image,ping,popup,3p
 .fun^$frame,xhr,image,ping,popup,3p
