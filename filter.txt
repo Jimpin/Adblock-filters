@@ -1372,6 +1372,7 @@ gp.se##.rabble-widget
 /vendorList.js$script
 
 #Fotbollstransfers.com
+fotbolltransfers.com###html,body:style(overflow-y: auto !important;)
 fotbolltransfers.com##[class='hstpnetworkads']
 fotbolltransfers.com##[onload='lwhb.load(this)']
 fotbolltransfers.com##[style='display: none; width: 300px; height: 600px']
@@ -1380,6 +1381,7 @@ fotbolltransfers.com##[onclick="window.open(this.href,'_blank');return false;"]
 fotbolltransfers.com##[src="https://aka-cdn.adtech.de/dt/common/DAC.js"]
 fotbolltransfers.com##div[class^="ad"]
 fotbolltransfers.com##[id="6545344"]
+fotbolltransfers.com###fckab
 fotbolltransfers.com##.ad11
 fotbolltransfers.com##.ad23
 fotbolltransfers.com##[class*="ad"]
