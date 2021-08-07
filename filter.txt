@@ -24,7 +24,7 @@ aftonbladet.se##[class*=css-1p]:contains(annonslänkar)
 aftonbladet.se##[class*="lp_is_"]
 aftonbladet.se###megaAd-placeholder, #MegaAd, #outsider, #superright-side, a[href*="/kampanj.aftonbladet.se"], a[href*="/brandstudio"], a[href*="/rabattkod"], a[href*="/casinoguide"], #main > div > div:first-child, [id*="innerabAdArea-"], [id*="adPlacement"]
 aftonbladet.se##[data-ad-subtype]:upward(1):style(min-height:unset!important)
-aftonbladet.se##h2:has-text(ANNONS)
+aftonbladet.se##aside > div:has(h2:has-text(/^annons/i))
 aftonbladet.se##[class="css-1bhf25k"]:contains(CASINO)
 aftonbladet.se##[class="css-1o0kvkl"]:contains(RABATTKODER)
 aftonbladet.se##[class="css-a3h57q"]:contains(ANNONS)
