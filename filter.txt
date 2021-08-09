@@ -5250,7 +5250,6 @@ popuper.js^
 *##+js(acis, exactmetrics_scroll_tracking_load)
 *##.no-scroll:style(overflow-x: hidden !important;)
 *##div[class^="lowerBadge"]
-*##+js(aopr, Object.prototype.adUnits)
 *##+js(nowebrtc)
 *html#type=page&event=load&url=$important
 ##[id="skinAdTarget"]
@@ -5271,7 +5270,6 @@ popuper.js^
 *##+js(nostif, eval)
 *##+js(nostif, blocked)
 *##+js(nostif, blur)
-
 
 .biz^$frame,xhr,image,ping,popup,3p
 .fun^$frame,xhr,image,ping,popup,3p
