@@ -1091,8 +1091,6 @@ yallasport.co###ads
 #Speedtest.net
 speedtest.net##+js(abort-on-property-read, _sp_)
 speedtest.net##+js(set-constant, isBlocked, false)
-speedtest.net###_evidon-background
-speedtest.net##.evidon-barrier
 speedtest.net##.container-leaderboard.a-container
 speedtest.net##.top-placeholder.pure-u-1
 speedtest.net##.lowerboard.a-container-lowerboard.a-container
@@ -2163,6 +2161,8 @@ dirdamid.com##a[href$=".html"]
 ##.region_redirect_popup_asset
 ###_evidon-background
 ###_evidon-barrier-wrapper
+###_evidon-background
+##.evidon-barrier
 ##.zmgad-full-width
 ##.zmgad-right-rail
 ##.cookieinfo
@@ -5258,6 +5258,7 @@ popuper.js^
 ##.jconfirm-open
 ##.jconfirm-scrollpane
 
+*##[style*="z-index:"]
 *##+js(acis, String.fromCharCode, /btoa|break/)
 *##+js(nosiif, checkInterval)
 *##^script:has-text(/^[\w\W]{1700,3000}$/):has-text(/(\\x\d\w){250}/)
