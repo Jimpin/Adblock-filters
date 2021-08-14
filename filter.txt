@@ -5262,7 +5262,7 @@ popuper.js^
 *##[style*="z-index: 160"]
 *##[style*="z-index: 999"]
 *##[style*="z-index: 30000"]
-*##[style*="z-index:21474836"]
+*##[style*="z-index: 21474836"]
 *##+js(acis, String.fromCharCode, /btoa|break/)
 *##+js(nosiif, checkInterval)
 *##^script:has-text(/^[\w\W]{1700,3000}$/):has-text(/(\\x\d\w){250}/)
