@@ -5258,7 +5258,7 @@ popuper.js^
 ##.jconfirm-open
 ##.jconfirm-scrollpane
 
-*##[style*="z-index:"]
+*##[style*="z-index:21"]
 *##+js(acis, String.fromCharCode, /btoa|break/)
 *##+js(nosiif, checkInterval)
 *##^script:has-text(/^[\w\W]{1700,3000}$/):has-text(/(\\x\d\w){250}/)
