@@ -5269,7 +5269,6 @@ popuper.js^
 *##+js(nostif, offsetWidth)
 *##+js(nostif, invoke)
 *##+js(nostif, WinMsgHtml)
-*##+js(nostif, .submit)
 *##+js(nostif, eval)
 *##+js(nostif, blocked)
 *##+js(nostif, blur)
