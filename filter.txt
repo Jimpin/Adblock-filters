@@ -258,6 +258,18 @@ instagram.com###react-root > section > nav > div > div > section.xZ2Xk
 instagram.com##main[role="main"] .APQi1
 @@||instagram.com/static/*$script
 
+#Twitter
+twitter.com##html:style(overflow-y: auto !important;)
+twitter.com###layers
+twitter.com##section:only-child > h1[id][aria-level="1"] + div[aria-label] div[class^=css-] > h2 > div[dir=auto]:upward(3)
+||platform.twitter.com/impressions.js$3p
+||twitter.com/9/measurement/
+||twitter.com/i/
+||twitter.com/jot.html
+||twitter.com/oct.js
+||twitter.com/scribe/
+||analytics.twitter.com^
+
 #Google
 google.*##html:style(overflow-y: auto !important;)
 google.*##[id="reviewDialog"]
@@ -464,8 +476,8 @@ svenskafans.com##[class*="ad-"]
 ||svenskafans.com/css/feedbackpopup.css$css
 ||svenskafans.com/js/awp.min.js$script
 ||svenskafans.com/css/uniform.default.css$css
-||connect.facebook.net/sv_SE/all.js$script,domain=svenskafans.com
-||platform.twitter.com/widgets.js$script,domain=svenskafans.com
+||connect.facebook.net/*/all.js$script,3p
+||platform.twitter.com/widgets.js$script
 ||sak.userreport.com^
 /sticky*.$css,domain=svenskafans.com
 /js/smart-app-banner.$script,domain=svenskafans.com
@@ -4866,7 +4878,6 @@ popuper.js^
 @@||cdnjs.cloudflare.com/ajax/libs/*$script,stylesheet,font
 @@||static.twitchcdn.net/assets/*$script
 @@||jawcloud.co/*/embed.js$script
-@@||api.twitter.com^$xmlhttprequest,1p
 @@||cloudfront.net/assets/*$media,3p
 @@||cdn.svp.schibsted.io^$script
 @@||steamstatic.com^$image
