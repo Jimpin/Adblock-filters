@@ -5256,7 +5256,6 @@ popuper.js^
 *##+js(acis, exactmetrics_scroll_tracking_load)
 *##.no-scroll:style(overflow-x: hidden !important;)
 *##div[class^="lowerBadge"]
-*##+js(nowebrtc)
 *html#type=page&event=load&url=$important
 ##[id="skinAdTarget"]
 ##[id="superadunit"][class="hidden"]
