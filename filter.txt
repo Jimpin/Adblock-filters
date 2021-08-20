@@ -1965,7 +1965,6 @@ dirdamid.com##a[href$=".html"]
 ###smartbanner.android
 ###smartbanner.ios
 ###smartbanner.windows
-##.null
 ##.shareIcons
 ##.share-sites-thumbs
 ###right-banner-container
