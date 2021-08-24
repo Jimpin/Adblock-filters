@@ -419,7 +419,10 @@ open.spotify.com##body > div:nth-of-type(2)
 facebook.com##.adv
 facebook.com##body > .AdBox.Ad.advert:style(display:block!important;)
 facebook.com##+js(remove-class, _31e, body > ._li)
-facebook.com##[aria-label="Annonsörlänk"]
+facebook.com##[aria-label="Annonsör"]
+facebook.com##[style="-webkit-box-orient:vertical;-webkit-line-clamp:2;display:-webkit-box"]:contains(Sponsrad)
+facebook.com##.aodizinl:contains(Spons)
+facebook.com##span > div > .l9j0dhe7 > .sj5x9vvc
 facebook.com##[style="display: -webkit-box; -moz-box-orient: vertical; -webkit-line-clamp: 2;"]:has-text(Sponsrad)
 facebook.com##[data-pagelet*="FeedUnit"]:contains(Beställ här)
 facebook.com##[data-pagelet*="FeedUnit"]:contains(Bli medlem)
@@ -437,8 +440,9 @@ facebook.com#@#body:style(overflow-y: auto !important)
 @@||static.xx.fbcdn.net^$script
 ||facebook.com/plugins/like.php$subdocument
 ||facebook.com/plugins/likebox.php$subdocument
-||facebook.com/v2.10/plugins/like.php$subdocument
-||facebook.com/v2.9/plugins/share_button.php$subdocument
+||facebook.com/*/plugins/like.php$subdocument
+||facebook.com/*/plugins/share_button.php$subdocument
+||facebook.com/ajax/qm/*$ping
 ||facebook.com/ads/*
 ||facebook.com/tr/*
 ||facebook.com/video/autoplay/*$xhr
