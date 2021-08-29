@@ -793,7 +793,6 @@ vipleague.*##ol
 vipleague.*##div.pt-1:nth-of-type(9)
 vipleague.*##b
 vipleague.*##h1
-vipleague.*##div:matches-css(z-index: 99999)
 vipleague.*##.h-100.w-100.position-relative
 vipleague.*##.green.button.big
 vipleague.*##.text-center.alert-secondary.alert.col-12
@@ -804,8 +803,13 @@ vipleague.*##.hidden-sm.hidden-xs.col-xs-12 > .well-sm.well
 vipleague.*##.position-relative.text-success
 vipleague.*##.text-center.col-md-4.d-md-block.d-none
 vipleague.*##.text-white.bg-dark.text-justify.p-3.m-3.d-md-block.d-none.col-12
+vipleague.lc##[type*="text/javascript"]
+vipleague.lc##[class*="text-success position-relative"]
+vipleague.lc##[class*=" d-block"][href="javascript:void(0);"]
+vipleague.lc##[action="https://www.tvply.me/sdembed?v=spa1hd~spa1sd"]
 @@||plytv.me^$subdocument
 /*^$xhr,frame,css,3p,domain=vipleague.lc
+||vipleague.lc/superhero.css$stylesheet
 ||vipleague.*/loadchatdata$xhr,domain=www.vipleague.lc
 ||vipleague.*/favicon-32x32.png$image
 ||clients6.google.com/rpc$xmlhttprequest,domain=www.vipleague.lc
@@ -5054,8 +5058,6 @@ popuper.js^
 ://geo.$important
 ://global.$important
 ://log.$3p
-://ws.$important
-://see.$important
 ://wchat.*^$popup,important
 ://lightning.*/launch/
 *##+js(acis, atob, tabunder)
@@ -5282,6 +5284,8 @@ popuper.js^
 *##+js(nostif, eval)
 *##+js(nostif, blocked)
 *##+js(nostif, blur)
+*##script:contains(async)
+*##[src*="/pfe/current/"]
 
 .biz^$frame,xhr,image,ping,popup,3p
 .fun^$frame,xhr,image,ping,popup,3p
