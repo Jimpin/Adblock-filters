@@ -786,6 +786,7 @@ vipleague.*##+js(addEventListener-defuser, /^(?:click|mousedown)$/, _0x)
 vipleague.*##.position-absolute:style(opacity: 0 !important;)
 vipleague.*##+js(addEventListener-defuser, /^(?:mousedown|pointerdown)$/, 297)
 vipleague.*##+js(nano-sib)
+vipleague.*##script:contains(addEventListener)
 vipleague.*##.btn-lg
 vipleague.*##.font-weight-bold
 vipleague.*##^script + [id][style]
@@ -803,10 +804,12 @@ vipleague.*##.hidden-sm.hidden-xs.col-xs-12 > .well-sm.well
 vipleague.*##.position-relative.text-success
 vipleague.*##.text-center.col-md-4.d-md-block.d-none
 vipleague.*##.text-white.bg-dark.text-justify.p-3.m-3.d-md-block.d-none.col-12
-vipleague.lc##[type*="text/javascript"]
-vipleague.lc##[class*="text-success position-relative"]
-vipleague.lc##[class*=" d-block"][href="javascript:void(0);"]
-vipleague.lc##[action="https://www.tvply.me/sdembed?v=spa1hd~spa1sd"]
+vipleague.*##[type*="text/javascript"]
+vipleague.*##[data-cfasync]
+vipleague.*##[href="javascript:void(0);"]
+vipleague.*##[class*="text-success position-relative"]
+vipleague.*##[class*=" d-block"]
+vipleague.*##[action="https://www.tvply.me/sdembed?v=spa1hd~spa1sd"]
 @@||plytv.me^$subdocument
 /*^$xhr,frame,css,3p,domain=vipleague.lc
 ||vipleague.*/loadchatdata$xhr,domain=www.vipleague.lc
@@ -5285,6 +5288,9 @@ popuper.js^
 *##+js(nostif, blur)
 *##script:contains(async)
 *##[src*="/pfe/current/"]
+*##iframe[src="javascript:false"]
+*##[class*=xyz_]
+*##script:contains("adId")
 
 .biz^$frame,xhr,image,ping,popup,3p
 .fun^$frame,xhr,image,ping,popup,3p
