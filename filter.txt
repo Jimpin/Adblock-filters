@@ -809,7 +809,6 @@ vipleague.lc##[class*=" d-block"][href="javascript:void(0);"]
 vipleague.lc##[action="https://www.tvply.me/sdembed?v=spa1hd~spa1sd"]
 @@||plytv.me^$subdocument
 /*^$xhr,frame,css,3p,domain=vipleague.lc
-||vipleague.lc/superhero.css$stylesheet
 ||vipleague.*/loadchatdata$xhr,domain=www.vipleague.lc
 ||vipleague.*/favicon-32x32.png$image
 ||clients6.google.com/rpc$xmlhttprequest,domain=www.vipleague.lc
