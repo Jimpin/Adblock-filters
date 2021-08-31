@@ -17,10 +17,10 @@ aftonbladet.se##.sch-datacontroller--permanent.sch-datacontroller--cobranded.sch
 aftonbladet.se##.sch-datacontroller--minimal.sch-datacontroller--subheader.sch-datacontroller
 aftonbladet.se##.sch-datacontroller--subheader.sch-datacontroller--cobranded.sch-datacontroller
 aftonbladet.se##.svp-sponsor-label
-aftonbladet.se##div.HLf1C:contains(annonslänkar)
+aftonbladet.se##div.HLf1C:contains(annonsl�nkar)
 aftonbladet.se##div.HLf1C:contains(ANNONS)
 aftonbladet.se##._2-iJ1
-aftonbladet.se##[class*=css-1p]:contains(annonslänkar)
+aftonbladet.se##[class*=css-1p]:contains(annonsl�nkar)
 aftonbladet.se##[class*="lp_is_"]
 aftonbladet.se###megaAd-placeholder, #MegaAd, #outsider, #superright-side, a[href*="/kampanj.aftonbladet.se"], a[href*="/brandstudio"], a[href*="/rabattkod"], a[href*="/casinoguide"], #main > div > div:first-child, [id*="innerabAdArea-"], [id*="adPlacement"]
 aftonbladet.se##[data-ad-subtype]:upward(1):style(min-height:unset!important)
@@ -46,13 +46,13 @@ aftonbladet.se##+js(aeld, message, adError)
 aftonbladet.se##^script:has-text(preLoadAds)
 aftonbladet.se##article:has(a[data-sponsored="true"])
 aftonbladet.se##div[class][style*="text"]:has(h3:has-text(/annons/i))
-aftonbladet.se##div[class][style*="text"]:has(h3:has-text(/annonslänkar/i))
+aftonbladet.se##div[class][style*="text"]:has(h3:has-text(/annonsl�nkar/i))
 aftonbladet.se##[class="svp-player-recommended-box"]
 aftonbladet.se##.abAside > div[style^="text"]:last-child
 aftonbladet.se##.ab-responsive-ads-wrapper
 aftonbladet.se##.share-icons
 aftonbladet.se##.social-shares
-aftonbladet.se##[href*="/a/"]:contains(annonslänkar)
+aftonbladet.se##[href*="/a/"]:contains(annonsl�nkar)
 aftonbladet.se##[href*="twitter.com/sportbladet"]
 aftonbladet.se##[href*="facebook.com/sportbladet"]
 aftonbladet.se#@#section > div:has([data-ad-subtype])
@@ -419,16 +419,16 @@ open.spotify.com##body > div:nth-of-type(2)
 facebook.com##.adv
 facebook.com##body > .AdBox.Ad.advert:style(display:block!important;)
 facebook.com##+js(remove-class, _31e, body > ._li)
-facebook.com##[aria-label="Annonsör"]
+facebook.com##[aria-label="Annons�r"]
 facebook.com##[style="-webkit-box-orient:vertical;-webkit-line-clamp:2;display:-webkit-box"]:contains(Sponsrad)
 facebook.com##.aodizinl:contains(Spons)
 facebook.com##span > div > .l9j0dhe7 > .sj5x9vvc
 facebook.com##[style="display: -webkit-box; -moz-box-orient: vertical; -webkit-line-clamp: 2;"]:has-text(Sponsrad)
-facebook.com##[data-pagelet*="FeedUnit"]:contains(Beställ här)
+facebook.com##[data-pagelet*="FeedUnit"]:contains(Best�ll h�r)
 facebook.com##[data-pagelet*="FeedUnit"]:contains(Bli medlem)
-facebook.com##[data-pagelet*="FeedUnit"]:contains(Köp nu)
-facebook.com##[data-pagelet*="FeedUnit"]:contains(Läs mer)
-facebook.com##[data-pagelet*="FeedUnit"]:contains(Premiär)
+facebook.com##[data-pagelet*="FeedUnit"]:contains(K�p nu)
+facebook.com##[data-pagelet*="FeedUnit"]:contains(L�s mer)
+facebook.com##[data-pagelet*="FeedUnit"]:contains(Premi�r)
 facebook.com##[data-pagelet*="FeedUnit"]:contains(Prova)
 facebook.com##[data-pagelet*="FeedUnit"]:contains(REA)
 facebook.com##[data-pagelet*="FeedUnit"]:contains(Se mer)
@@ -545,24 +545,24 @@ blocket.se##div:matches-css(width: 1012px):matches-css(height: 24px)
 gomovieshub.*,gomovies.*##+js(acis, String.fromCharCode, /btoa|break/)
 gomovieshub.*,gomovies.*##+js(acis, document.createElement, 'script')
 gomovieshub.*,gomovies.*##[target="_blank"]
-gomovieshub.*,gomovies.*##+js(set-constant, check_adblock, true)​​
-gomovieshub.*,​gomovies.*##+js(window.open-defuser)
-gomovieshub.*,​gomovies.*##.hm-button
-gomovieshub.*,​gomovies.*##.alert-bottom
-gomovieshub.*,​gomovies.*##.alert-warning.alert
-gomovieshub.*,​gomovies.*###commentfb
-gomovieshub.*,​gomovies.*##.text-center.alert.ann-home
-gomovieshub.*,​gomovies.*##.swiper-slide-active.swiper-slide > .slide-link
-gomovieshub.*,​gomovies.*##.text-bottom.text-center
-gomovieshub.*,​gomovies.*##a[href="https://123movies.sc"]
-gomovieshub.*,​gomovies.*##footer
-gomovieshub.*,​gomovies.*##.footer-link:nth-of-type(2)
-gomovieshub.*,​gomovies.*##.footer-tags
-gomovieshub.*,​gomovies.*##.footer-copyright.col-lg-4 > p:nth-of-type(3)
-gomovieshub.*,​gomovies.*###subscribe-submit-footer
-gomovieshub.*,​gomovies.*##.mlw-related.movies-list-wrap
-gomovieshub.*,​gomovies.*##.social-home
-gomovieshub.*,​gomovies.*##.twitter-follow-button
+gomovieshub.*,gomovies.*##+js(set-constant, check_adblock, true)??
+gomovieshub.*,?gomovies.*##+js(window.open-defuser)
+gomovieshub.*,?gomovies.*##.hm-button
+gomovieshub.*,?gomovies.*##.alert-bottom
+gomovieshub.*,?gomovies.*##.alert-warning.alert
+gomovieshub.*,?gomovies.*###commentfb
+gomovieshub.*,?gomovies.*##.text-center.alert.ann-home
+gomovieshub.*,?gomovies.*##.swiper-slide-active.swiper-slide > .slide-link
+gomovieshub.*,?gomovies.*##.text-bottom.text-center
+gomovieshub.*,?gomovies.*##a[href="https://123movies.sc"]
+gomovieshub.*,?gomovies.*##footer
+gomovieshub.*,?gomovies.*##.footer-link:nth-of-type(2)
+gomovieshub.*,?gomovies.*##.footer-tags
+gomovieshub.*,?gomovies.*##.footer-copyright.col-lg-4 > p:nth-of-type(3)
+gomovieshub.*,?gomovies.*###subscribe-submit-footer
+gomovieshub.*,?gomovies.*##.mlw-related.movies-list-wrap
+gomovieshub.*,?gomovies.*##.social-home
+gomovieshub.*,?gomovies.*##.twitter-follow-button
 ||gomovies.*/wp-content/themes/assets/css/jquery.cluetip.css$css
 ||gomovies.*/wp-content/themes/assets/css/jquery.qtip.min.css$css
 ||spotscenered.info$important
@@ -1197,11 +1197,13 @@ rltracker.pro##.col-sm-12 > .row
 lookmovie.*##+js(abort-current-inline-script, Object.defineProperty, XMLHttpRequest)
 lookmovie.*##+js(abort-on-property-read, adBlockDetected)
 lookmovie.*##+js(aeld, , _0x)
+lookmovie.*##+js(nostif, __ext_loaded)
 lookmovie.*##.view-top-ab
 lookmovie.*##.nord-vpn.home-banner
 lookmovie.*##.notifyjs-corner
 lookmovie.*##+js(popads-dummy)
 lookmovie.*##.plr-help-stripe
+lookmovie.*##[class="logo"][src*="/images/"][alt="lookmovie"]
 lookmovie.*##body > div:nth-of-type(6)
 lookmovie.*##body > iframe
 lookmovie.*##[class="show-recaptcha"]
@@ -1220,7 +1222,8 @@ lookmovie.*###social-share
 lookmovie.*##+js(bab-defuser.js)
 @@||lookmovie.*^$ghide
 *$script,3p,denyallow=google.com|googleapis.com|gstatic.com|lookmovie.io|hcaptcha.com|nflxext.com,domain=lookmovie.ag
-||lookmovie.*/favicon.ico$image,first-party
+||lookmovie.*/favicon.ico$image,1p
+||lookmovie.*^$popup,3p
 ||cntr.lookmovie.*^$xmlhttprequest
 ||metrika.lookmovie.*/analytics.js$script
 ||2captcha.com^
@@ -3514,7 +3517,7 @@ dirdamid.com##a[href$=".html"]
 ||picuphost.com^
 ||puhtml.com^
 ||mws3034.tk^
-||livejasmin.com＾
+||livejasmin.com^
 ||fhyl02.com^
 ||trafficfactory.biz^
 ||trafficstars.com^
