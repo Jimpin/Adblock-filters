@@ -378,6 +378,8 @@ youtube.com##.ytp-button.ytp-miniplayer-button
 youtube.com##.GoogleActiveViewElement.ytd-watch-next-secondary-results-renderer.style-scope:has-text(Annons)
 youtube.com###contents > .ytd-search-pyv-renderer.style-scope:contains(Annons)
 youtube.com##[class="style-scope yt-formatted-string"]:has-text(egistrering)
+youtube.com###content-text > a.yt-formatted-string.style-scope.yt-simple-endpoint:contains(.)
+youtube.com##ytd-comment-renderer.ytd-comment-replies-renderer.style-scope > .ytd-comment-renderer.style-scope:contains(#)
 youtube.com##a[href*="/"]:has-text(bit.ly)
 youtube.com##a[href*="/"]:has-text(stod)
 youtube.com##span.yt-formatted-string.style-scope:has-text(casino)
@@ -1198,6 +1200,12 @@ lookmovie.*##+js(abort-current-inline-script, Object.defineProperty, XMLHttpRequ
 lookmovie.*##+js(abort-on-property-read, adBlockDetected)
 lookmovie.*##+js(aeld, , _0x)
 lookmovie.*##+js(nostif, __ext_loaded)
+lookmovie.*##+js(acis, Math, XMLHttpRequest)
+lookmovie.*##+js(acis, Math, zfgloaded)
+lookmovie.*##+js(aopr, open)
+lookmovie.*##script:contains(toggleActive)
+lookmovie.*##script:contains(images)
+lookmovie.*##[href*=".png"]
 lookmovie.*##.view-top-ab
 lookmovie.*##.nord-vpn.home-banner
 lookmovie.*##.notifyjs-corner
@@ -1221,6 +1229,7 @@ lookmovie.*##.bottom-message-container
 lookmovie.*###social-share
 lookmovie.*##+js(bab-defuser.js)
 @@||lookmovie.*^$ghide
+##[src*="/goodcache"]
 *$script,3p,denyallow=google.com|googleapis.com|gstatic.com|lookmovie.io|hcaptcha.com|nflxext.com,domain=lookmovie.ag
 ||lookmovie.*/favicon.ico$image,1p
 ||lookmovie.*^$popup,3p
