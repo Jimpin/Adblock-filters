@@ -377,9 +377,9 @@ youtube.com###hats-container
 youtube.com##.ytp-button.ytp-miniplayer-button
 youtube.com##.GoogleActiveViewElement.ytd-watch-next-secondary-results-renderer.style-scope:has-text(Annons)
 youtube.com###contents > .ytd-search-pyv-renderer.style-scope:contains(Annons)
-youtube.com##[class="style-scope yt-formatted-string"]:has-text(egistrering)
 youtube.com###content-text > a.yt-formatted-string.style-scope.yt-simple-endpoint:contains(.)
 youtube.com##ytd-comment-renderer.ytd-comment-replies-renderer.style-scope > .ytd-comment-renderer.style-scope:contains(#)
+youtube.com##[href]:contains(#)
 youtube.com##a[href*="/"]:has-text(bit.ly)
 youtube.com##a[href*="/"]:has-text(stod)
 youtube.com##span.yt-formatted-string.style-scope:has-text(casino)
@@ -5303,6 +5303,16 @@ popuper.js^
 *##iframe[src="javascript:false"]
 *##[class*=xyz_]
 *##script:contains("adId")
+
+*##+js(ra, onclick, [onclick^="track"])
+*##+js(acis, document.createElement, '.js')
+*##+js(aost, btoa, send)
+*##+js(acis, $, PopupManager)
+*##+js(ra, onselectstart)
+*##+js(aopw, document.onselectstart)
+*##+js(ra, oncontextmenu|onselectstart)
+*##+js(aopr, checkkey)
+*##+js(aopr, setAdblockerCookie)
 
 .biz^$frame,xhr,image,ping,popup,3p
 .fun^$frame,xhr,image,ping,popup,3p
