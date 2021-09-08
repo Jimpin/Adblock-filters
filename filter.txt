@@ -28,6 +28,8 @@ aftonbladet.se##aside > div:has(h2:has-text(/^annons/i))
 aftonbladet.se##[class="css-1bhf25k"]:contains(CASINO)
 aftonbladet.se##[class="css-1o0kvkl"]:contains(RABATTKODER)
 aftonbladet.se##[class="css-a3h57q"]:contains(ANNONS)
+aftonbladet.se##[class*="css-7"]:contains(bindningstid)
+aftonbladet.se##.css-1mlmkwb:contains(bindningstid)
 aftonbladet.se###main > div > div > div:has([data-ad-subtype])
 aftonbladet.se###main > div > div > div:has(h3:has-text(/^annons/i))
 aftonbladet.se##a:has(span:has-text(/^annons/i))
@@ -5313,6 +5315,11 @@ popuper.js^
 *##+js(ra, oncontextmenu|onselectstart)
 *##+js(aopr, checkkey)
 *##+js(aopr, setAdblockerCookie)
+
+*##+js(aopr, AaDetector)
+*##+js(aopr, InstallTrigger)
+*##+js(aopr, LieDetector)
+*##+js(nosiif, _0x)
 
 .biz^$frame,xhr,image,ping,popup,3p
 .fun^$frame,xhr,image,ping,popup,3p
