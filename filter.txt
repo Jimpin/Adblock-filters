@@ -831,12 +831,11 @@ vipleague.*##[action="https://www.tvply.me/sdembed?v=spa1hd~spa1sd"]
 ||linkedin.com^$script,3p
 
 #Fmovies
-fmovies.*##+js(abort-current-inline-script.js, Math, zfgloaded)
-fmovies.*##+js(abort-on-property-read.js, AaDetector)
+fmovies.*##+js(acis, Math, zfgloaded)
+fmovies.*##+js(aopr, AaDetector)
+fmovies.*##+js(aopr, InstallTrigger)
 fmovies.*##+js(popads-dummy)
 fmovies.*##+js(window.open-defuser.js)
-fmovies.*##+js(abort-on-property-read.js, _0xe317)
-fmovies.*##+js(abort-on-property-read.js, _0x1477)
 fmovies.*###footer
 fmovies.*###comment
 fmovies.*###copyright
@@ -934,6 +933,7 @@ streamtape.*#@#.google-ad
 fmoviesfree.*##+js(popads-dummy.js)
 fmoviesfree.*##+js(aopr, console.clear)
 fmoviesfree.*##+js(aopw, Fingerprint2)
+fmoviesfree*##+js(aopr, InstallTrigger)
 fmoviesfree.*##a[href$=".html"]
 fmoviesfree.*##.overlay
 fmoviesfree.*###footer
@@ -1142,6 +1142,7 @@ rltracker.pro##.col-sm-12 > .row
 123movies.*##+js(acis, jQuery, appendTo)
 123movies.*##+js(acis, jQuery, adblocker)
 123movies.*##+js(aopr, open)
+123movies.*##+js(aopr, InstallTrigger)
 123movies.*##[href$=".html"]
 123movies.*##[id="overlay"]
 123movies.*##a[href^="/"][href*=".html"][target="_blank"]
@@ -1171,6 +1172,7 @@ rltracker.pro##.col-sm-12 > .row
 
 #0123movies.com
 0123movies.*##+js(popads-dummy)
+0123movies.*##+js(aopr, InstallTrigger)
 0123movies.*##.alert-warning.alert
 0123movies.*##.content-ads
 0123movies.*###commentfb
@@ -1201,6 +1203,7 @@ rltracker.pro##.col-sm-12 > .row
 lookmovie.*##+js(abort-current-inline-script, Object.defineProperty, XMLHttpRequest)
 lookmovie.*##+js(abort-on-property-read, adBlockDetected)
 lookmovie.*##+js(aeld, , _0x)
+lookmovie.*##+js(aopr, InstallTrigger)
 lookmovie.*##+js(nostif, __ext_loaded)
 lookmovie.*##+js(acis, Math, XMLHttpRequest)
 lookmovie.*##+js(acis, Math, zfgloaded)
@@ -5315,11 +5318,16 @@ popuper.js^
 *##+js(ra, oncontextmenu|onselectstart)
 *##+js(aopr, checkkey)
 *##+js(aopr, setAdblockerCookie)
-
 *##+js(aopr, AaDetector)
-*##+js(aopr, InstallTrigger)
 *##+js(aopr, LieDetector)
 *##+js(nosiif, _0x)
+
+*##+js(aopr, _0xbeb9)
+*##+js(aopr, _0xe317)
+*##+js(aopr, _0x1477)
+*##+js(aopr, _0x311a)
+*##+js(aopr, _0x32d5)
+*##+js(aopr, _0x4459)
 
 .biz^$frame,xhr,image,ping,popup,3p
 .fun^$frame,xhr,image,ping,popup,3p
