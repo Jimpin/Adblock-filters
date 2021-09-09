@@ -1591,6 +1591,7 @@ vcstream.*##.pub_300x250.pub_300x250m.pub_728x90.text-ad.textAd.text_ad.text_ads
 vcstream.*##[href$=".html"]
 vidcloud.*##[href$=".html"]
 vidcloud.*###overlay-center
+vidcloud.*##[id="overlay-container"]
 upstream.*##+js(acis, $, .css)
 upstream.*##+js(acis, Math, break;case $.)
 upstream.*##+js(aopr, open)
@@ -5321,6 +5322,7 @@ popuper.js^
 *##+js(aopr, AaDetector)
 *##+js(aopr, LieDetector)
 *##+js(nosiif, _0x)
+*##[onclick="closeBanner()"]
 
 *##+js(aopr, _0xbeb9)
 *##+js(aopr, _0xe317)
