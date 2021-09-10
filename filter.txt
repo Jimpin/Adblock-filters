@@ -10,7 +10,8 @@ aftonbladet.se##body:style(overflow:unset!important)
 aftonbladet.se##.jwplayer:has(.svp-sponsor-label):remove()
 aftonbladet.se##a[href*="/a/"]:contains(annonslänkar)
 aftonbladet.se##a[href*="/a/"]:contains(ANNONS)
-aftonbladet.se##[href*="brandstudio."]
+aftonbladet.se##a[href*="brandstudio."]
+aftonbladet.se##a[href*="aftonbladet.se/a/"]
 aftonbladet.se##[data-test-tag="internal-link:single-page-link"]:contains(annonslänkar)
 aftonbladet.se##a[href*=".se/kampanj?"]:has-text(/erbjudande/i)
 aftonbladet.se##a[href*="aftonbladet.se/kampanj/artikel"]:upward(1)
@@ -1843,6 +1844,7 @@ dirdamid.com##a[href$=".html"]
 ##.polopolyNotification
 ##.site-info-message
 ##.terms-dialog
+##.cp-modal-popup-container:remove()
 ##[class="cookieBanner"]
 ##[class="abAlertInner"]
 ##[class="heatwarning"]
@@ -5145,24 +5147,24 @@ popuper.js^
 *##a[onclick="rdr(this);"]
 *##a[onclick="removeOverlayHTML();"]
 *##[id^='adsIfrme']:has(:scope > iframe[src^='/ads/'])
-*##[href*="betting"]
-*##[href*="brandstudio"]
-*##[href*="branding"]
-*##[href*="casinoguide"]
-*##[href*="kampanj"]:has-text(/erbjudande/i)
-*##[href*="lanapengar"]
-*##[href*="premium/erbjudanden/"]
-*##[href*="rabattkod"]
-*##[href*="rabattkoder"]
-*##[href*="clk."]
-*##[href*="AdwdGn/"]
-*##[href*="track."]
-*##[href*="tracker."]
-*##[href*="trackers."]
-*##[href*="track.adtraction."]
-*##[href*="pre."]
-*##[href*="click?p="]
-*##[href*="create_click?partner_id="]
+*##a[href*="betting"]
+*##a[href*="brandstudio"]
+*##a[href*="branding"]
+*##a[href*="casinoguide"]
+*##a[href*="kampanj"]:has-text(/erbjudande/i)
+*##a[href*="lanapengar"]
+*##a[href*="premium/erbjudanden/"]
+*##a[href*="rabattkod"]
+*##a[href*="rabattkoder"]
+*##a[href*="clk."]
+*##a[href*="AdwdGn/"]
+*##a[href*="track."]
+*##a[href*="tracker."]
+*##a[href*="trackers."]
+*##a[href*="track.adtraction."]
+*##a[href*="pre."]
+*##a[href*="click?p="]
+*##a[href*="create_click?partner_id="]
 *##.teaser:has(a[href*="annons"])
 *##.teaser:has(a[href*="brand-studio"])
 *##.teaser:has(a[href*="brandstudio"])
@@ -5311,6 +5313,7 @@ popuper.js^
 *##+js(nostif, eval)
 *##+js(nostif, blocked)
 *##+js(nostif, blur)
+*##+js(set, blurred, false)
 *##script:contains(async)
 *##[src*="/pfe/current/"]
 *##iframe[src="javascript:false"]
@@ -5329,6 +5332,26 @@ popuper.js^
 *##+js(aopr, AaDetector)
 *##+js(aopr, LieDetector)
 *##+js(nosiif, _0x)
+
+*##+js(aopr, zfgformats)
+*##+js(aopr, disableButtonTimer)
+*##+js(nano-sib, /sec--|timedisplay--/)
+*##+js(aopw, ai_front)
+*##+js(aeld, , bi())
+*##+js(noeval-if, debugger)
+*##+js(nostif, debugger)
+*##+js(acis, document.createElement, __htas)
+*##+js(set, runAdblock, noopFunc)
+*##+js(acis, spr)
+*##+js(set, POPUNDER_ENABLED, false)
+*##+js(set, plugins.preroll, noopFunc)
+*##+js(aopr, JSON.parse)
+*##+js(acis, JSON.parse, atob)
+*##+js(aost, JSON.parse, computed)
+*##+js(set, playerAdSettings.adLink, '')
+*##+js(set, playerAdSettings.waitTime, 0)
+*##+js(acis, document.getElementsByTagName, onclick)
+*##+js(disable-newtab-links)
 *##[onclick="closeBanner()"]
 
 *##+js(aopr, _0xbeb9)

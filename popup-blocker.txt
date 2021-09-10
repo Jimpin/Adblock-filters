@@ -28,6 +28,16 @@
 *##+js(acis, decodeURI, zfgloadedpopup)
 *##+js(popads-dummy)
 *##+js(aopw, popup_ads)
+*##+js(set, ClickUnder, noopFunc)
+*##+js(acis, $, urlForPopup)
+*##+js(aopr, popjs.init)
+*##+js(acis, document.addEventListener, Popup)
+*##+js(set, $.magnificPopup.open, noopFunc)
+*##+js(aopr, loadRunative)
+*##+js(acis, document.addEventListener, initBCPopunder)
+*##form#go-popup:remove()
+http://$frame,popup,3p
+https://$frame,popup,3p
 &popunder=$popup
 &program=revshare&$popup
 &popunder=^
