@@ -10,6 +10,7 @@ aftonbladet.se##body:style(overflow:unset!important)
 aftonbladet.se##.jwplayer:has(.svp-sponsor-label):remove()
 aftonbladet.se##a[href*="/a/"]:contains(annonslänkar)
 aftonbladet.se##a[href*="/a/"]:contains(ANNONS)
+aftonbladet.se##[href*="brandstudio."]
 aftonbladet.se##[data-test-tag="internal-link:single-page-link"]:contains(annonslänkar)
 aftonbladet.se##a[href*=".se/kampanj?"]:has-text(/erbjudande/i)
 aftonbladet.se##a[href*="aftonbladet.se/kampanj/artikel"]:upward(1)
