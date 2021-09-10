@@ -5350,7 +5350,6 @@ popuper.js^
 *##+js(set, playerAdSettings.adLink, '')
 *##+js(set, playerAdSettings.waitTime, 0)
 *##+js(acis, document.getElementsByTagName, onclick)
-*##+js(disable-newtab-links)
 *##[onclick="closeBanner()"]
 
 *##+js(aopr, _0xbeb9)
