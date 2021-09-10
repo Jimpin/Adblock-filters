@@ -22,7 +22,7 @@ aftonbladet.se##div.HLf1C:contains(ANNONS)
 aftonbladet.se##._2-iJ1
 aftonbladet.se##[class*=css-1p]:contains(annonslänkar)
 aftonbladet.se##[class*="lp_is_"]
-aftonbladet.se###megaAd-placeholder, #MegaAd, #outsider, #superright-side, a[href*="kampanj.aftonbladet.se"], a[href*="brandstudio"], a[href*="rabattkod"], a[href*="casinoguide"], #main > div > div:first-child, [id*="innerabAdArea-"], [id*="adPlacement"]
+aftonbladet.se###megaAd-placeholder, #MegaAd, #outsider, #superright-side, a[href*="/kampanj.aftonbladet.se"], a[href*="/brandstudio"], a[href*="/rabattkod"], a[href*="/casinoguide"], #main > div > div:first-child, [id*="innerabAdArea-"], [id*="adPlacement"]
 aftonbladet.se##[data-ad-subtype]:upward(1):style(min-height:unset!important)
 aftonbladet.se##aside > div:has(h2:has-text(/^annons/i))
 aftonbladet.se##[class="css-1bhf25k"]:contains(CASINO)
@@ -156,7 +156,7 @@ expressen.se##.teaser > a[href*=".se"]
 expressen.se##.teaser--native-ad
 expressen.se##.teaser--native, .native-article
 expressen.se##.teaser--sponsored
-expressen.se##.teaser > a[href*="kampanj."], .teaser > a[href*="brandstudio"], .teaser > a[href*="brand-studio"]
+expressen.se##.teaser > a[href*="kampanj."], .teaser > a[href*="/brandstudio"], .teaser > a[href*="/brand-studio"]
 expressen.se##[class="exp-video-player__ad-counter"]
 expressen.se##[class="exp-video-player__buffer-overlay"]
 expressen.se##.ad
