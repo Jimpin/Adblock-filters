@@ -5345,7 +5345,6 @@ popuper.js^
 *##+js(acis, spr)
 *##+js(set, POPUNDER_ENABLED, false)
 *##+js(set, plugins.preroll, noopFunc)
-*##+js(aopr, JSON.parse)
 *##+js(acis, JSON.parse, atob)
 *##+js(aost, JSON.parse, computed)
 *##+js(set, playerAdSettings.adLink, '')
