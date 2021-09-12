@@ -5,8 +5,8 @@
 
 #Aftonbladet.se
 aftonbladet.se##html,body:style(overflow-y: auto !important;)
-aftonbladet.se##+js(nostif, TAKEOVER)
-aftonbladet.se##body:style(overflow:unset!important)
+aftonbladet.se##+js(no-setTimeout-if, TAKEOVER)
+aftonbladet.se##body:style(overflow: unset!important)
 aftonbladet.se##.jwplayer:has(.svp-sponsor-label):remove()
 aftonbladet.se##strong:has-text(/ANNONS/i):upward(p)
 aftonbladet.se##a:has-text(annonslänkar)
@@ -15,48 +15,16 @@ aftonbladet.se##a[href*="/a/"]:contains(ANNONS)
 aftonbladet.se##a[href*="brandstudio."]
 aftonbladet.se##a[href*="aftonbladet.se/a/"]
 aftonbladet.se##[data-test-tag="internal-link:single-page-link"]:contains(annonslänkar)
-aftonbladet.se##a[href*=".se/kampanj?"]:has-text(/erbjudande/i)
-aftonbladet.se##a[href*="aftonbladet.se/kampanj/artikel"]:upward(1)
 aftonbladet.se##a[href*="/tv/"]:has(span:has-text(/studio oddset/i)):upward(1)
-aftonbladet.se##[href*="/amazon/"]
-aftonbladet.se##.sch-datacontroller__wrapper
-aftonbladet.se##.sch-datacontroller--permanent.sch-datacontroller--cobranded.sch-datacontroller
-aftonbladet.se##.sch-datacontroller--minimal.sch-datacontroller--subheader.sch-datacontroller
-aftonbladet.se##.sch-datacontroller--subheader.sch-datacontroller--cobranded.sch-datacontroller
 aftonbladet.se##.svp-sponsor-label
 aftonbladet.se##div.HLf1C:contains(annonslänkar)
 aftonbladet.se##div.HLf1C:contains(ANNONS)
-aftonbladet.se##._2-iJ1
-aftonbladet.se##[class*=css-1p]:contains(annonslänkar)
-aftonbladet.se##[class*="lp_is_"]
-aftonbladet.se###megaAd-placeholder, #MegaAd, #outsider, #superright-side, a[href*="/kampanj.aftonbladet.se"], a[href*="/brandstudio"], a[href*="/rabattkod"], a[href*="/casinoguide"], #main > div > div:first-child, [id*="innerabAdArea-"], [id*="adPlacement"]
+aftonbladet.se###megaAd-placeholder, #superright-side, a[href^="/brandstudio"], a[href*="/rabattkod"], a[href*="/casinoguide"], [id^="adPlacement"]
 aftonbladet.se##[data-ad-subtype]:upward(1):style(min-height:unset!important)
-aftonbladet.se##aside > div:has(h2:has-text(/^annons/i))
-aftonbladet.se##[class="css-1bhf25k"]:contains(CASINO)
-aftonbladet.se##[class="css-1o0kvkl"]:contains(RABATTKODER)
-aftonbladet.se##[class="css-a3h57q"]:contains(ANNONS)
-aftonbladet.se##[class*="css-7"]:contains(bindningstid)
-aftonbladet.se##.css-1mlmkwb:contains(bindningstid)
-aftonbladet.se###main > div > div > div:has([data-ad-subtype])
-aftonbladet.se###main > div > div > div:has(h3:has-text(/^annons/i))
-aftonbladet.se##a:has(span:has-text(/^annons/i))
-aftonbladet.se##aside > div:has(h2:contains(ANNONS))
-aftonbladet.se##aside > div:has(h2:contains(CASINO))
-aftonbladet.se##aside > div:has(h2:contains(RABATT))
-aftonbladet.se##aside > div:has([data-ad-subtype])
-aftonbladet.se##aside > div:has(h3:has-text(/^annons/i))
-aftonbladet.se##section > div:has([data-ad-subtype][style="min-height: 320px;"])
-aftonbladet.se##section > div:has(h3:has-text(/^annons/i))
-aftonbladet.se##.wide
-aftonbladet.se##+js(nosiif, e.ping())
-aftonbladet.se##+js(nosiif, e.reportVisibility())
-aftonbladet.se##+js(nostif, onerror, 1000)
-aftonbladet.se##+js(aeld, mousemove, g())
-aftonbladet.se##+js(acis, preLoadAds, loadAd)
-aftonbladet.se##+js(acis, preLoadAds, setup)
-aftonbladet.se##+js(aeld, message, adError)
 aftonbladet.se##^script:has-text(preLoadAds)
-aftonbladet.se##article:has(a[data-sponsored="true"])
+aftonbladet.se##aside > div:has(h2:has-text(/^annons/i))
+aftonbladet.se##section > div:has(h2:has-text(/^annons/i))
+aftonbladet.se##[data-ad-subtype="mega"]:upward(div[style^="opacity"])
 aftonbladet.se##div[class][style*="text"]:has(h3:has-text(/annons/i))
 aftonbladet.se##div[class][style*="text"]:has(h3:has-text(/annonslänkar/i))
 aftonbladet.se##[class="svp-player-recommended-box"]
@@ -64,11 +32,8 @@ aftonbladet.se##.abAside > div[style^="text"]:last-child
 aftonbladet.se##.ab-responsive-ads-wrapper
 aftonbladet.se##.share-icons
 aftonbladet.se##.social-shares
-aftonbladet.se##[href*="/a/"]:contains(annonslänkar)
 aftonbladet.se##[href*="twitter.com/sportbladet"]
 aftonbladet.se##[href*="facebook.com/sportbladet"]
-aftonbladet.se#@#section > div:has([data-ad-subtype])
-aftonbladet.se#@#div[data-reactroot] > div > div#MegaAd ~ div[class]:not(#header):not(.abThemeGradientPage)
 acast.com##[alt="Advertisement"]
 acast.com##[data-test-id="AirTimeAdControls__CountDown"]
 acast.com##[data-test-id="Link"]
@@ -91,18 +56,11 @@ bloggar.aftonbladet.se##.collapse.row:nth-of-type(2)
 bloggar.aftonbladet.se###sidebar-panorama-1 > .columns.widget-area
 bloggar.aftonbladet.se##.abInbetweenerHelsida:nth-of-type(1)
 bloggar.aftonbladet.se##.abInbetweenerHelsida:nth-of-type(2)
-klart.se##+js(aopr, blockAdBlock)
-@@||imgs.aftonbladet-cdn.se/*/images/
-@@||gfx.aftonbladet-cdn.se^$image
-@@/hyper-assets/preload*$script,domain=aftonbladet.se
-@@/hyper-assets/app.$script,domain=aftonbladet.se
-@@||aftonbladet.se/sportbladet
-@@||aftonbladet.se^$generichide
-@@||sportbladetplay.se^$script
+klart.se##+js(remove-class, mega-loading)
+||aftonbladet.se/cnp-assets/glimr-sdk.js
 ||aftonbladet.se.senaste.$document
 ||aftonbladet.se/kampanj/casinoguide$document
 ||aftonbladet.se/tv/temp.mp4$media/rabattkod/*$image
-||cmp.aftonbladet.se^
 ||schibsted.io/*/publishing/*$important
 ||engage-auth.schibsted.media^$script
 ||adv.aftonbladet.se^$important
