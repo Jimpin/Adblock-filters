@@ -9,24 +9,26 @@ aftonbladet.se##+js(no-setTimeout-if, TAKEOVER)
 aftonbladet.se##body:style(overflow: unset!important)
 aftonbladet.se##.jwplayer:has(.svp-sponsor-label):remove()
 aftonbladet.se##strong:has-text(/ANNONS/i):upward(p)
-aftonbladet.se##a:has-text(annonsl‰nkar)
-aftonbladet.se##a[href*="/a/"]:contains(annonsl‰nkar)
+aftonbladet.se##a:has-text(annonsl√§nkar)
+aftonbladet.se##a:has(span:has-text(/^annons/i))
+aftonbladet.se##a[href*="/a/"]:contains(annonsl√§nkar)
 aftonbladet.se##a[href*="/a/"]:contains(ANNONS)
 aftonbladet.se##a[href*="brandstudio."]
 aftonbladet.se##a[href*="aftonbladet.se/a/"]
-aftonbladet.se##[data-test-tag="internal-link:single-page-link"]:contains(annonsl‰nkar)
+aftonbladet.se##[data-test-tag="internal-link:single-page-link"]:contains(annonsl√§nkar)
 aftonbladet.se##a[href*="/tv/"]:has(span:has-text(/studio oddset/i)):upward(1)
 aftonbladet.se##.svp-sponsor-label
-aftonbladet.se##div.HLf1C:contains(annonsl‰nkar)
+aftonbladet.se##div.HLf1C:contains(annonsl√§nkar)
 aftonbladet.se##div.HLf1C:contains(ANNONS)
 aftonbladet.se###megaAd-placeholder, #superright-side, a[href^="/brandstudio"], a[href*="/rabattkod"], a[href*="/casinoguide"], [id^="adPlacement"]
 aftonbladet.se##[data-ad-subtype]:upward(1):style(min-height:unset!important)
 aftonbladet.se##^script:has-text(preLoadAds)
 aftonbladet.se##aside > div:has(h2:has-text(/^annons/i))
 aftonbladet.se##section > div:has(h2:has-text(/^annons/i))
+aftonbladet.se###main > div > div > div:has(h2:has-text(/^annons/i))
 aftonbladet.se##[data-ad-subtype="mega"]:upward(div[style^="opacity"])
 aftonbladet.se##div[class][style*="text"]:has(h3:has-text(/annons/i))
-aftonbladet.se##div[class][style*="text"]:has(h3:has-text(/annonsl‰nkar/i))
+aftonbladet.se##div[class][style*="text"]:has(h3:has-text(/annonsl√§nkar/i))
 aftonbladet.se##[class="svp-player-recommended-box"]
 aftonbladet.se##.abAside > div[style^="text"]:last-child
 aftonbladet.se##.ab-responsive-ads-wrapper
@@ -391,16 +393,16 @@ open.spotify.com##body > div:nth-of-type(2)
 facebook.com##.adv
 facebook.com##body > .AdBox.Ad.advert:style(display:block!important;)
 facebook.com##+js(remove-class, _31e, body > ._li)
-facebook.com##[aria-label="Annonsˆr"]
+facebook.com##[aria-label="Annons√∂r"]
 facebook.com##[style="-webkit-box-orient:vertical;-webkit-line-clamp:2;display:-webkit-box"]:contains(Sponsrad)
 facebook.com##.aodizinl:contains(Spons)
 facebook.com##span > div > .l9j0dhe7 > .sj5x9vvc
 facebook.com##[style="display: -webkit-box; -moz-box-orient: vertical; -webkit-line-clamp: 2;"]:has-text(Sponsrad)
-facebook.com##[data-pagelet*="FeedUnit"]:contains(Best‰ll h‰r)
+facebook.com##[data-pagelet*="FeedUnit"]:contains(Best√§ll h√§r)
 facebook.com##[data-pagelet*="FeedUnit"]:contains(Bli medlem)
-facebook.com##[data-pagelet*="FeedUnit"]:contains(Kˆp nu)
-facebook.com##[data-pagelet*="FeedUnit"]:contains(L‰s mer)
-facebook.com##[data-pagelet*="FeedUnit"]:contains(Premi‰r)
+facebook.com##[data-pagelet*="FeedUnit"]:contains(K√∂p nu)
+facebook.com##[data-pagelet*="FeedUnit"]:contains(L√§s mer)
+facebook.com##[data-pagelet*="FeedUnit"]:contains(Premi√§r)
 facebook.com##[data-pagelet*="FeedUnit"]:contains(Prova)
 facebook.com##[data-pagelet*="FeedUnit"]:contains(REA)
 facebook.com##[data-pagelet*="FeedUnit"]:contains(Se mer)
