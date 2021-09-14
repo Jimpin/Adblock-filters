@@ -260,7 +260,6 @@ google.*###center_col > #resultStats + div + #res + #tads
 google.*###mclip_container:last-child
 google.*###resultspanel > #topads
 google.*###rhs_block
-||google.*^$csp
 ||google.*/pagead/*$important
 ||googleadservices.com^
 ||googleads*^
@@ -519,24 +518,24 @@ blocket.se##div:matches-css(width: 1012px):matches-css(height: 24px)
 gomovieshub.*,gomovies.*##+js(acis, String.fromCharCode, /btoa|break/)
 gomovieshub.*,gomovies.*##+js(acis, document.createElement, 'script')
 gomovieshub.*,gomovies.*##[target="_blank"]
-gomovieshub.*,gomovies.*##+js(set-constant, check_adblock, true)??
-gomovieshub.*,?gomovies.*##+js(window.open-defuser)
-gomovieshub.*,?gomovies.*##.hm-button
-gomovieshub.*,?gomovies.*##.alert-bottom
-gomovieshub.*,?gomovies.*##.alert-warning.alert
-gomovieshub.*,?gomovies.*###commentfb
-gomovieshub.*,?gomovies.*##.text-center.alert.ann-home
-gomovieshub.*,?gomovies.*##.swiper-slide-active.swiper-slide > .slide-link
-gomovieshub.*,?gomovies.*##.text-bottom.text-center
-gomovieshub.*,?gomovies.*##a[href="https://123movies.sc"]
-gomovieshub.*,?gomovies.*##footer
-gomovieshub.*,?gomovies.*##.footer-link:nth-of-type(2)
-gomovieshub.*,?gomovies.*##.footer-tags
-gomovieshub.*,?gomovies.*##.footer-copyright.col-lg-4 > p:nth-of-type(3)
-gomovieshub.*,?gomovies.*###subscribe-submit-footer
-gomovieshub.*,?gomovies.*##.mlw-related.movies-list-wrap
-gomovieshub.*,?gomovies.*##.social-home
-gomovieshub.*,?gomovies.*##.twitter-follow-button
+gomovieshub.*,gomovies.*##+js(set-constant, check_adblock, true)
+gomovieshub.*,gomovies.*##+js(window.open-defuser)
+gomovieshub.*,gomovies.*##.hm-button
+gomovieshub.*,gomovies.*##.alert-bottom
+gomovieshub.*,gomovies.*##.alert-warning.alert
+gomovieshub.*,gomovies.*###commentfb
+gomovieshub.*,gomovies.*##.text-center.alert.ann-home
+gomovieshub.*,gomovies.*##.swiper-slide-active.swiper-slide > .slide-link
+gomovieshub.*,gomovies.*##.text-bottom.text-center
+gomovieshub.*,gomovies.*##a[href="https://123movies.sc"]
+gomovieshub.*,gomovies.*##footer
+gomovieshub.*,gomovies.*##.footer-link:nth-of-type(2)
+gomovieshub.*,gomovies.*##.footer-tags
+gomovieshub.*,gomovies.*##.footer-copyright.col-lg-4 > p:nth-of-type(3)
+gomovieshub.*,gomovies.*###subscribe-submit-footer
+gomovieshub.*,gomovies.*##.mlw-related.movies-list-wrap
+gomovieshub.*,gomovies.*##.social-home
+gomovieshub.*,gomovies.*##.twitter-follow-button
 ||gomovies.*/wp-content/themes/assets/css/jquery.cluetip.css$css
 ||gomovies.*/wp-content/themes/assets/css/jquery.qtip.min.css$css
 ||spotscenered.info$important
@@ -583,7 +582,6 @@ nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##div:has-text(S
 nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##^script:has-text(var offtop=0;var sticky_sidebar=true;)
 nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##style
 nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##script:contains(async)
-nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##+js(abort-current-inline-script.js, decodeURI, atob)
 nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##+js(acis, document.getElementById, undefined)
 nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##^script:has-text(var _0x)
 nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##.topinfo
@@ -695,8 +693,8 @@ nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##.video-contain
 /wp-includes/js/wp-embed.min.js$script
 /wp-content/cache/wpfc-minified/*/*index.css
 jawcloud.co,nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##^script:has-text(_Hasync)
-jawcloud.co,nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##+js(popads-dummy.js)
 jawcloud.co,nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##+js(aopr, console.clear)
+jawcloud.co##+js(popads-dummy.js)
 jawcloud.co##+js(aeld, contextmenu)
 jawcloud.co##+js(aopw, Fingerprint2)
 jawcloud.co##+js(acis, Math, XMLHttpRequest)
@@ -834,10 +832,6 @@ fmovies.*##[href="/list/featured-movies.html"]
 fmovies.*##.top-content
 fmovies.*##center
 fmovies.*##li:nth-of-type(9) > [href="javascript:void(0)"]
-fmovies.*##+js(abort-on-property-read.js, zfgloadedpopup)
-fmovies.*##+js(abort-current-inline-script.js, atob, tabunder)
-fmovies.*##+js(abort-current-inline-script.js, decodeURI, getScriptFromCss)
-fmovies.*##+js(addEventListener-defuser.js, /^(?:click|mousedown)$/, _0x)
 ##p:nth-child(15) > span > a
 ##section:nth-child(15) > a
 ##article:nth-child(15) > div > a
@@ -863,10 +857,7 @@ rapidvideo.com##+js(popads-dummy)
 rapidvideo.com##+js(abort-current-inline-script.js, atob, tabunder)
 rapidvideo.com##+js(abort-current-inline-script.js, parseInt, tabunder)
 rapidvideo.com##+js(abort-on-property-write.js, executed)
-rapidvideo.com##+js(abort-on-property-write.js, executed)
-rapidvideo.com##+js(abort-current-inline-script.js, decodeURI, getScriptFromCss)
 rapidvideo.com##+js(set-constant.js, onload, noopFunc)
-rapidvideo.com##+js(addEventListener-defuser.js, mousedown, preventDefault)
 ||rapidvideo.com/thumb/*$image
 ||rapidvideo.com/images/bgn.png$image
 ||rapidvideo.com/images/rapidvideo_logo_player.png$important
@@ -903,7 +894,7 @@ streamtape.*#@#.google-ad
 fmoviesfree.*##+js(popads-dummy.js)
 fmoviesfree.*##+js(aopr, console.clear)
 fmoviesfree.*##+js(aopw, Fingerprint2)
-fmoviesfree*##+js(aopr, InstallTrigger)
+fmoviesfree.*##+js(aopr, InstallTrigger)
 fmoviesfree.*##a[href$=".html"]
 fmoviesfree.*##.overlay
 fmoviesfree.*###footer
@@ -1348,14 +1339,12 @@ firstrowsportes.*##center
 firstrowsportes.*##.slot-728-90
 firstrowsportes.*##.footer
 firstrowsportes.*##.mainer > .cl
-##[src=free-icons-download.net/]
 ||hdgameslive.com^$inline-script,document
 ||free-icons-download.net/images/*$important
 ||p.pxl2015x1.com/pixel/*$image,domain=hdgameslive.com
 ||priests.top^
 ||web.automatedcomputers.com^
 ||t.mdn2015x4.com^
-/images/red-close-button-icon-32177.png
 
 #Gp.se
 gp.se##+js(ra, data-access, [data-access="false"])

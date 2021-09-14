@@ -36,8 +36,7 @@
 *##+js(aopr, loadRunative)
 *##+js(acis, document.addEventListener, initBCPopunder)
 *##form#go-popup:remove()
-http://$frame,popup,3p
-https://$frame,popup,3p
+http://$popup,frame,3p
 &popunder=$popup
 &program=revshare&$popup
 &popunder=^
