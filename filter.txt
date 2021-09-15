@@ -1161,20 +1161,15 @@ rltracker.pro##.col-sm-12 > .row
 &&_=
 
 #Lookmovie.io
-lookmovie.*##+js(abort-on-property-read, adBlockDetected)
-lookmovie.*##+js(aeld, , _0x)
-lookmovie.*##+js(aopr, InstallTrigger)
-lookmovie.*##+js(nostif, __ext_loaded)
+lookmovie.*##+js(aopr, adBlockDetected)
+lookmovie.*##+js(acis, Math, break;case $.)
 lookmovie.*##script:contains(toggleActive)
 lookmovie.*##script:contains(images)
-lookmovie.*##[href*=".png"]
 lookmovie.*##.view-top-ab
 lookmovie.*##.nord-vpn.home-banner
 lookmovie.*##.notifyjs-corner
 lookmovie.*##.plr-help-stripe
-lookmovie.*##[class="logo"][src*="/images/"][alt="lookmovie"]
 lookmovie.*##body > div:nth-of-type(6)
-lookmovie.*##body > iframe
 lookmovie.*##[class="show-recaptcha"]
 lookmovie.*##[class="wellcome-boy-message"]
 lookmovie.*##[id="overlay-article"]
@@ -1185,6 +1180,7 @@ lookmovie.*##[class="overlay-wrapper"][style^="display: "]
 lookmovie.*##script:contains(.appendChild(iframe);)
 lookmovie.*##[onclick="toggleCF(event)"]
 lookmovie.*##[class="adBanner ad banner"][style*="display: "]
+lookmovie.*##script:has-text(overlay)
 lookmovie.*###donate-section
 lookmovie.*##.wellcome-boy-message
 lookmovie.*##[href="/qa"]
@@ -1193,8 +1189,8 @@ lookmovie.*##.plr-ad-stripe
 lookmovie.*##.bottom-message-container
 lookmovie.*###social-share
 @@||lookmovie.*^$ghide
-##[src*="/goodcache"]
-*$script,3p,denyallow=google.com|googleapis.com|gstatic.com|lookmovie.io|hcaptcha.com|nflxext.com,domain=lookmovie.ag
+@@||lookmovie.*^$script,1p
+*$script,3p,denyallow=cloudcdn.monster|cloudflare.com|google.com|googleapis.com|gstatic.com|hcaptcha.com|lookmovie.io|nflxext.com,domain=lookmovie.*
 ||lookmovie.*/favicon.ico$image,1p
 ||lookmovie.*^$popup,3p
 ||cntr.lookmovie.*^$xmlhttprequest
