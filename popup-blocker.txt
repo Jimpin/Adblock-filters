@@ -50,10 +50,6 @@ http://$popup,frame,3p
 iframe*$popup
 <div class="popup"> 
 [href="#pop-request"]
-.popup
-.popups
-/popup
--popups
 /?cs=^$popup,important
 /utx?^$popup,important
 /?f=^$popup,important

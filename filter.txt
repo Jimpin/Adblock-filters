@@ -5266,12 +5266,8 @@ popuper.js^
 *##script:contains("adId")
 
 *##+js(ra, onclick, [onclick^="track"])
-*##+js(acis, document.createElement, '.js')
 *##+js(aost, btoa, send)
 *##+js(acis, $, PopupManager)
-*##+js(ra, onselectstart)
-*##+js(aopw, document.onselectstart)
-*##+js(ra, oncontextmenu|onselectstart)
 *##+js(aopr, checkkey)
 *##+js(aopr, setAdblockerCookie)
 *##+js(aopr, AaDetector)
