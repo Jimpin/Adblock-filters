@@ -31,7 +31,6 @@
 *##+js(set, ClickUnder, noopFunc)
 *##+js(acis, $, urlForPopup)
 *##+js(aopr, popjs.init)
-*##+js(acis, document.addEventListener, Popup)
 *##+js(set, $.magnificPopup.open, noopFunc)
 *##+js(aopr, loadRunative)
 *##+js(acis, document.addEventListener, initBCPopunder)
@@ -113,8 +112,6 @@ iframe*$popup
 ##.pub_728x90
 ##.pub_300x250m
 ##.pub_300x250
-
-/[^er]pop(up|under|over|percode)s?/^$3p
 
 ###facebook-popup
 ###fb-fan-pop

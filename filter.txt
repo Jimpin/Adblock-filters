@@ -9,6 +9,7 @@ aftonbladet.se##+js(no-setTimeout-if, TAKEOVER)
 aftonbladet.se##body:style(overflow: unset!important)
 aftonbladet.se##.jwplayer:has(.svp-sponsor-label):remove()
 aftonbladet.se##strong:has-text(/ANNONS/i):upward(p)
+aftonbladet.se##.event-subheader-widget
 aftonbladet.se##a:has-text(annonslänkar)
 aftonbladet.se##a:has(span:has-text(/^annons/i))
 aftonbladet.se##a[href*="/a/"]:contains(annonslänkar)
@@ -197,6 +198,7 @@ twitch.tv##[id="amazon-video-ads-iframe"]
 twitch.tv##[style="width: 100%; height: 100%; border: 0px none; display: none;"]
 twitch.tv##[class*="avap-ads-container"]
 twitch.tv##[data-test-selector="ad-banner-default-text"]
+twitch.tv##[class*="extensions-dock__dock"]
 twitch.tv##.extension-taskbar
 twitch.tv##.noty_bar
 twitch.tv###noty_bottomCenter_layout_container
@@ -391,6 +393,7 @@ open.spotify.com##body > div:nth-of-type(2)
 #Facebook.com
 facebook.com##.adv
 facebook.com##body > .AdBox.Ad.advert:style(display:block!important;)
+facebook.com##[data-pagelet="RightRail"] > div:contains(·)
 facebook.com##+js(remove-class, _31e, body > ._li)
 facebook.com##[aria-label="Annonsör"]
 facebook.com##[style="-webkit-box-orient:vertical;-webkit-line-clamp:2;display:-webkit-box"]:contains(Sponsrad)
@@ -965,7 +968,8 @@ crackwatch.com##.Footer
 ||instant-gaming.com/affgames/*$subdocument
 ||crackwatch.com/badf*.css$css,1p
 
-#Viafree.se
+#Viafree
+viafree.se##.player-wrapper .viafree-player .vjs-tech:style(display:initial!important;)
 viafree.se##.vjs-playing:upward(1) ~ .no-autoplay-overlay
 viafree.se##.navbar.popup-video-showing
 viafree.se##.ad-transition-background
@@ -985,6 +989,7 @@ viafree.se##[class*="ScrollGradient"]
 viafree.se##[class="cta-overlay vjs-hidden"]
 viafree.se##.avodp.pause-ad-showing .vjs-progress-control, .avodp.ad-playing .vjs-progress-control:style(display: initial !important;)
 viafree.se##.SliderBlock_background_continueWatching.SliderBlock_background
+viafree.se,viaplay.se##.contextual-navigation.ui-row
 @@||fwmrm.net^$image,domain=viafree.se
 @@||fwmrm.net/crossdomain.xml$xhr
 ||freewheel-mtgx-tv.akamaized.net^$image,media
@@ -1929,6 +1934,7 @@ dirdamid.com##a[href$=".html"]
 ###ad_overlay
 ##.ad400
 ##.adsbygoogle
+##.adSense60.adsbygoogle
 ##.cc-banner
 ##[id*="ScriptRoot"]
 ##[id*="MarketGid"]
@@ -2263,6 +2269,7 @@ dirdamid.com##a[href$=".html"]
 ###promo-subscription-overlay
 ##[class="reset"]
 ##.abEnabled > iframe
+###catok-popup
 ##.campaign-holder
 ##.gdpr-header
 ##.policy-label
@@ -2582,6 +2589,7 @@ dirdamid.com##a[href$=".html"]
 ##.nuffnangad
 ##.nui-ad-layout
 ##iframe[width="728"][height="90"]
+###onetrust-consent-sdk
 ##.open-ad-container-mobile
 ##.openads
 ##.openadstext_after
@@ -5037,20 +5045,14 @@ popuper.js^
 *##+js(acis, atob, tabunder)
 *##+js(set-constant.js, Annons, noopFunc)
 *##+js(aopr, InitCloseButton)
-*##+js(aopw, isAdblockOn)
 *##+js(aopw, rAb)
 *##+js(aopw, AdDelivery)
 *##+js(aopr, cursorAd)
-*##+js(acis, _adform)
-*##+js(acis, adformLoader)
-*##+js(acis, adformtag, push)
 *##+js(acis, preLoadAds, loadAd)
 *##+js(acis, preLoadAds, setup)
 *##+js(std, onerror, 1000)
 *##+js(acis, Exp, bamData)
 *##+js(acis, losAd)
-*##+js(acis, jQuery, adscript)
-*##+js(acis, AdPortal)
 *##+js(set-constant.js, analyticsTrackGoogleAnalytics, noopFunc)
 *##+js(acis, AdsReloadConfig)
 *##+js(acis, phpads_deliver)
@@ -5059,12 +5061,10 @@ popuper.js^
 *##+js(acis, popunder)
 *##+js(acis, jQuery, overlay)
 *##+js(acis, document.createElement, jsc.mgid.com)
-*##+js(set, AdController, noopFunc)
 *##+js(set, ClickUnder, noopFunc)
 *##+js(aopr, AdservingModule)
 *##+js(aeld, DOMContentLoaded, adlinkfly)
 *##+js(ra, href, #clickfakeplayer)
-*##+js(acis, document.querySelectorAll, adConfig)
 *##+js(aopr, jwplayer.utils.Timer)
 *##+js(abort-on-property-write.js, spot)
 *##+js(aopr, VAST)
@@ -5079,9 +5079,6 @@ popuper.js^
 *##.consent-banner:contains(cookies)
 *##+js(acis, burtSegments)
 *##+js(acis, Bau, preloadAds)
-*##+js(ra, data-ad-config)
-*##+js(ra, data-article-tracking-info)
-*##+js(ra, data-video-tracking-info)
 *##html:style(filter: none !important)
 *##[class="sp-message-open"]:style(overflow: auto !important; position: initial !important;)
 *##[class="js sp-message-open"]:style(position: unset !important;)
@@ -5249,12 +5246,9 @@ popuper.js^
 *##[style*="z-index: 999"]
 *##[style*="z-index: 30000"]
 *##[style*="z-index: 21474836"]
-*##+js(acis, String.fromCharCode, /btoa|break/)
 *##+js(nosiif, checkInterval)
 *##^script:has-text(/^[\w\W]{1700,3000}$/):has-text(/(\\x\d\w){250}/)
 *##+js(nostif, offsetWidth)
-*##+js(nostif, invoke)
-*##+js(nostif, WinMsgHtml)
 *##+js(nostif, eval)
 *##+js(nostif, blocked)
 *##+js(nostif, blur)
@@ -5267,22 +5261,22 @@ popuper.js^
 
 *##+js(ra, onclick, [onclick^="track"])
 *##+js(aost, btoa, send)
-*##+js(acis, $, PopupManager)
-*##+js(aopr, checkkey)
 *##+js(aopr, setAdblockerCookie)
 *##+js(aopr, AaDetector)
 *##+js(aopr, LieDetector)
 *##+js(nosiif, _0x)
+*##+js(aopw, Fingerprint2)
+*##+js(acis, String.fromCharCode, decodeURIComponent)
+*##+js(aeld, , pop)
+*##+js(aopr, open)
+*##+js(aeld, , window.open)
 
-*##+js(aopr, zfgformats)
 *##+js(aopr, disableButtonTimer)
-*##+js(nano-sib, /sec--|timedisplay--/)
 *##+js(aopw, ai_front)
 *##+js(aeld, , bi())
 *##+js(noeval-if, debugger)
 *##+js(nostif, debugger)
 *##+js(acis, document.createElement, __htas)
-*##+js(set, runAdblock, noopFunc)
 *##+js(acis, spr)
 *##+js(set, POPUNDER_ENABLED, false)
 *##+js(set, plugins.preroll, noopFunc)
@@ -5290,7 +5284,6 @@ popuper.js^
 *##+js(aost, JSON.parse, computed)
 *##+js(set, playerAdSettings.adLink, '')
 *##+js(set, playerAdSettings.waitTime, 0)
-*##+js(acis, document.getElementsByTagName, onclick)
 *##[onclick="closeBanner()"]
 
 *##+js(aopr, _0xbeb9)
@@ -5309,3 +5302,28 @@ popuper.js^
 .trade^$frame,xhr,image,ping,popup,3p
 .xyz^$image,ping,popup,3p
 .ws^$frame,xhr,image,ping,popup,3p
+
+/script/*.php$all,3p
+/script/*.js$all,3p
+/script/*.css$all,3p
+
+/page/*.html^$all,3p
+/pages/*.html^$all,3p
+/custom.$all,3p
+/config.$all,3p
+/ajax.$xhr,3p
+/articles.$all,3p
+/validators.$all,3p
+/data.$all,3p
+/menu.$all,3p
+/resources.$all,3p
+/static/*.html$all,3p
+/web/*.html$all,3p
+/wiki/*/web$all,3p
+/*.php$xhr,3p
+/0/*.html^$all,3p,important
+?aHR0*=$all,3p
+
+/event$xhr,3p
+||cloudflare-terms-of-service-abuse.com^
+/css/deblocker.min.css$stylesheet,1p
