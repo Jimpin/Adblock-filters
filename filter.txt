@@ -181,7 +181,6 @@ outlook.live.com##[class*="_2F6r"]:has-text(Premium)
 outlook.live.com##[class*="_3_"]:has-text(.)
 /analytics-ping.js$xhr
 ||browser.events.data.microsoft.com/OneCollector/*$xhr,important
-||amcdn.msftauth.net^
 ||pipe.aria.microsoft.com/collector/
 ||vortex.data.microsoft.com^
 
@@ -1967,6 +1966,7 @@ dirdamid.com##a[href$=".html"]
 ##[data-entrycode="AdBlock"][onclick="triggerGatewayModal(event, false, undefined, undefined, undefined);"]
 ##[class="sponsor-text"]
 ##[data-entrycode="RemAds-vidPg-AB"]
+##[id*="popsByTrafficJunky"]
 ##[class="adsbytrafficjunky"][data-spot-id]
 ##.adsbytrafficjunky
 ###pb_template
@@ -4804,7 +4804,6 @@ sanitizer.js^
 ima3.js^
 widgetapi.js^
 alll.js^
-264.js^
 trustedsaver.js^
 intext.js^
 inject.js^
@@ -5054,7 +5053,6 @@ popuper.js^
 *##+js(acis, Exp, bamData)
 *##+js(acis, losAd)
 *##+js(set-constant.js, analyticsTrackGoogleAnalytics, noopFunc)
-*##+js(acis, AdsReloadConfig)
 *##+js(acis, phpads_deliver)
 *##+js(aopw, banner_video)
 *##+js(setTimeout-defuser.js, adsbygoogle, 2000)
@@ -5066,13 +5064,11 @@ popuper.js^
 *##+js(aeld, DOMContentLoaded, adlinkfly)
 *##+js(ra, href, #clickfakeplayer)
 *##+js(aopr, jwplayer.utils.Timer)
-*##+js(abort-on-property-write.js, spot)
 *##+js(aopr, VAST)
 *##+js(aopr, S9tt)
 *##+js(aopr, AdDelivery.prototype.requestTrafficJunkyAds)
 *##+js(aopr, _goat)
 *##+js(aopr, ExoLoader.serve)
-*##+js(nowoif, adshell)
 *##div[id*="sidebar"][data-before-content="advertisement"]:upward(3)
 *##iframe[src*="/ads-iframe"]
 *##iframe[src*="https://pc.html"]
@@ -5228,8 +5224,6 @@ popuper.js^
 
 ##li:has(.content-label:has-text(/annons/i)):remove()
 *##+js(nostif, n.modal)
-*##+js(nosiif, runAdBlockPaywall, 1000)
-*##+js(acis, exactmetrics_scroll_tracking_load)
 *##.no-scroll:style(overflow-x: hidden !important;)
 *##div[class^="lowerBadge"]
 *html#type=page&event=load&url=$important
@@ -5248,7 +5242,6 @@ popuper.js^
 *##[style*="z-index: 21474836"]
 *##+js(nosiif, checkInterval)
 *##^script:has-text(/^[\w\W]{1700,3000}$/):has-text(/(\\x\d\w){250}/)
-*##+js(nostif, offsetWidth)
 *##+js(nostif, eval)
 *##+js(nostif, blocked)
 *##+js(nostif, blur)
@@ -5321,8 +5314,8 @@ popuper.js^
 /web/*.html$all,3p
 /wiki/*/web$all,3p
 /*.php$xhr,3p
-/0/*.html^$all,3p,important
-?aHR0*=$all,3p
+/0/*.html^$all,3p
+?aHR0*=$all,important
 
 /event$xhr,3p
 ||cloudflare-terms-of-service-abuse.com^
