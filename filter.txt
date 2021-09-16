@@ -5253,8 +5253,6 @@ popuper.js^
 *##script:contains("adId")
 
 *##+js(ra, onclick, [onclick^="track"])
-*##+js(aost, btoa, send)
-*##+js(aopr, setAdblockerCookie)
 *##+js(aopr, AaDetector)
 *##+js(aopr, LieDetector)
 *##+js(nosiif, _0x)
@@ -5266,7 +5264,6 @@ popuper.js^
 
 *##+js(aopr, disableButtonTimer)
 *##+js(aopw, ai_front)
-*##+js(aeld, , bi())
 *##+js(noeval-if, debugger)
 *##+js(nostif, debugger)
 *##+js(acis, document.createElement, __htas)
