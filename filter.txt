@@ -574,116 +574,116 @@ humblebundle.com/monthly?hmb_source=humble_monthly_alert&hmb_medium=banner
 ###site-xpromo-banner > .js-page-banner-link.page-banner-link
 
 #Nyafilmer
-nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##body:style(overflow: auto !important)
-nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##+js(nowoif)
-nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##+js(no-setTimeout-if, jQuery, 1000)
-nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##+js(aopr, open)
-nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##+js(acis, z)
-nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##+js(aeld, DOMContentLoaded, rmattr)
-nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##div:has-text(Stop using Adblocker!)
-nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##^script:has-text(var offtop=0;var sticky_sidebar=true;)
-nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##style
-nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##script:contains(async)
-nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##+js(acis, document.getElementById, undefined)
-nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##^script:has-text(var _0x)
-nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##.topinfo
-nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##div:matches-css(z-index: 99998)
-nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##div:matches-css(z-index: 99999)
-nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##.importantinfo
-nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##[data-deferred="1"]
-nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##[type="text/javascript"][src*=".com"]
-nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##[class*="sn48us"]
-nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##script:has-text(hide_donation)
-nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##body > iframe
-nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##.Breadcrumb
-nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##.found-movies
-nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##.header-social-icons
-nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##.smallnews
-nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##.nya-ann
-nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##.newbox
-nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##.passinfo.info.message
-nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##[class="single-content sidebar"]
-nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##[href*="/tv-calendar/"]
-nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*###menu-item-76123 > a[href^="/filter/"]
-nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*###menu-item-76124 > a[href^="/filter/"]
-nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*###menu-item-121595 > a[href^="/filter/"]
-nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*###menu-item-153483
-nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*###menu-item-154007
-nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##.siteAdvList
-nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##.new-social
-nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##.content-right
-nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*###sss
-nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##a[href="/add-content/"]
-nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##.trigger.arrow-bottom.share-button.button
-nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##.top
-nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##.closeSkin
-nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##.info-content
-nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##[src*="/async.js"]
-nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##.movie-preview-content > a[target="_blank"]
-nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*###text-2
-nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##[href*=".html"]
-nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*###content > div.content.wrapper.clearfix > div.content-left:nth-child(3) > div.film-content > h2.title:first-child
-nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##.clearfix.wrapper.footer
-nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##.header-social-icons
-nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##.video-container > ul > li:nth-of-type(1)
-nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##.video-container > ul > li:nth-of-type(2)
-nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##.video.single-content > ul:nth-of-type(1) > li:nth-of-type(1)
-nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##.video.single-content > ul:nth-of-type(1) > li:nth-of-type(2)
-nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##.video.single-content > ul:nth-of-type(2) > li:nth-of-type(1)
-nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##.video.single-content > ul:nth-of-type(2) > li:nth-of-type(2)
-nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##.icon-scroll
-nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##.info-right > ul
-nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*###action-addto
-nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##.announcement
-nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##[style="text-align: center;"]
-nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##a[href^="/"][href*=".html"][target="_blank"]
-nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##.single-content > ul
-nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##h2.title
-nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##[style="position: static;"]
-nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##a[data-hover="LADDA NED"]
-nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##a[data-hover="SE NU"]
-nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##a[data-hover="STREAM NOW"]
-nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##li > a[target="_blank"]
-nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##.rkads.wrapper.video-content-top-ads
-nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*###menu-item-121532.menu-item-121532.menu-item-object-page.menu-item-type-post_type.menu-item
-nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*###footer
-nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##.rkads.wrapper.video-content-bottom-ads
-nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##.movie-preview-content > a
-nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##div[style*="margin-top:180px"]
-nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##div[style*="margin-top:210px"]
-nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##.tags:nth-of-type(4) > ul
-nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##.tags:nth-of-type(3) > ul
-nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##.trigger.report-button.button
-nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##.trigger.arrow-bottom.addto-button.button
-nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##.likebtns
-nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##.select-video-info
-nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##.inlinelike
-nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##div.twelve-banner:nth-of-type(1)
-nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##div.twelve-banner:nth-of-type(6)
-nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##div.tags:nth-of-type(3)
-nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##div.tags:nth-of-type(4)
-nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##[class="vjs-control vjs-logo"]
-nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##[class="sub-menu flexcroll"]
-nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##[class="skinMobile"]
-nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##[class*="bigbg"]
-nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##.fb-xfbml-parse-ignore
-nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##.sort.tags > .title
-nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##[type="text/javascript"][src*=".js"]
-nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##[class="clear"]
-nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##[class="disqus_section"]
-nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##[class="iframeInfo"]
-nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##.dialogbox
-nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##.dialogback
-nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##.button.fke
-nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##.bigbg
-nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##.twitter-tweet
-nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##.hide
-nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##.report_button.epibtn
-nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##.g-recaptcha
-nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##.gameofthrones
-nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##.noselect.tab-buttons
-nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##[class="headerSpace"]
-nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmerhd.*##.video-container > .side-info
+nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmer4.*,nyafilmer5.*,nyafilmer6.*,nyafilmer7.*,nyafilmer8.*,nyafilmer9.*,nyafilmer10.*,nyafilmerhd.*##body:style(overflow: auto !important)
+nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmer4.*,nyafilmer5.*,nyafilmer6.*,nyafilmer7.*,nyafilmer8.*,nyafilmer9.*,nyafilmer10.*,nyafilmerhd.*##+js(nowoif)
+nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmer4.*,nyafilmer5.*,nyafilmer6.*,nyafilmer7.*,nyafilmer8.*,nyafilmer9.*,nyafilmer10.*,nyafilmerhd.*##+js(no-setTimeout-if, jQuery, 1000)
+nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmer4.*,nyafilmer5.*,nyafilmer6.*,nyafilmer7.*,nyafilmer8.*,nyafilmer9.*,nyafilmer10.*,nyafilmerhd.*##+js(aopr, open)
+nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmer4.*,nyafilmer5.*,nyafilmer6.*,nyafilmer7.*,nyafilmer8.*,nyafilmer9.*,nyafilmer10.*,nyafilmerhd.*##+js(acis, z)
+nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmer4.*,nyafilmer5.*,nyafilmer6.*,nyafilmer7.*,nyafilmer8.*,nyafilmer9.*,nyafilmer10.*,nyafilmerhd.*##+js(aeld, DOMContentLoaded, rmattr)
+nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmer4.*,nyafilmer5.*,nyafilmer6.*,nyafilmer7.*,nyafilmer8.*,nyafilmer9.*,nyafilmer10.*,nyafilmerhd.*##div:has-text(Stop using Adblocker!)
+nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmer4.*,nyafilmer5.*,nyafilmer6.*,nyafilmer7.*,nyafilmer8.*,nyafilmer9.*,nyafilmer10.*,nyafilmerhd.*##^script:has-text(var offtop=0;var sticky_sidebar=true;)
+nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmer4.*,nyafilmer5.*,nyafilmer6.*,nyafilmer7.*,nyafilmer8.*,nyafilmer9.*,nyafilmer10.*,nyafilmerhd.*##style
+nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmer4.*,nyafilmer5.*,nyafilmer6.*,nyafilmer7.*,nyafilmer8.*,nyafilmer9.*,nyafilmer10.*,nyafilmerhd.*##script:contains(async)
+nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmer4.*,nyafilmer5.*,nyafilmer6.*,nyafilmer7.*,nyafilmer8.*,nyafilmer9.*,nyafilmer10.*,nyafilmerhd.*##+js(acis, document.getElementById, undefined)
+nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmer4.*,nyafilmer5.*,nyafilmer6.*,nyafilmer7.*,nyafilmer8.*,nyafilmer9.*,nyafilmer10.*,nyafilmerhd.*##^script:has-text(var _0x)
+nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmer4.*,nyafilmer5.*,nyafilmer6.*,nyafilmer7.*,nyafilmer8.*,nyafilmer9.*,nyafilmer10.*,nyafilmerhd.*##.topinfo
+nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmer4.*,nyafilmer5.*,nyafilmer6.*,nyafilmer7.*,nyafilmer8.*,nyafilmer9.*,nyafilmer10.*,nyafilmerhd.*##div:matches-css(z-index: 99998)
+nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmer4.*,nyafilmer5.*,nyafilmer6.*,nyafilmer7.*,nyafilmer8.*,nyafilmer9.*,nyafilmer10.*,nyafilmerhd.*##div:matches-css(z-index: 99999)
+nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmer4.*,nyafilmer5.*,nyafilmer6.*,nyafilmer7.*,nyafilmer8.*,nyafilmer9.*,nyafilmer10.*,nyafilmerhd.*##.importantinfo
+nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmer4.*,nyafilmer5.*,nyafilmer6.*,nyafilmer7.*,nyafilmer8.*,nyafilmer9.*,nyafilmer10.*,nyafilmerhd.*##[data-deferred="1"]
+nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmer4.*,nyafilmer5.*,nyafilmer6.*,nyafilmer7.*,nyafilmer8.*,nyafilmer9.*,nyafilmer10.*,nyafilmerhd.*##[type="text/javascript"][src*=".com"]
+nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmer4.*,nyafilmer5.*,nyafilmer6.*,nyafilmer7.*,nyafilmer8.*,nyafilmer9.*,nyafilmer10.*,nyafilmerhd.*##[class*="sn48us"]
+nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmer4.*,nyafilmer5.*,nyafilmer6.*,nyafilmer7.*,nyafilmer8.*,nyafilmer9.*,nyafilmer10.*,nyafilmerhd.*##script:has-text(hide_donation)
+nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmer4.*,nyafilmer5.*,nyafilmer6.*,nyafilmer7.*,nyafilmer8.*,nyafilmer9.*,nyafilmer10.*,nyafilmerhd.*##body > iframe
+nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmer4.*,nyafilmer5.*,nyafilmer6.*,nyafilmer7.*,nyafilmer8.*,nyafilmer9.*,nyafilmer10.*,nyafilmerhd.*##.Breadcrumb
+nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmer4.*,nyafilmer5.*,nyafilmer6.*,nyafilmer7.*,nyafilmer8.*,nyafilmer9.*,nyafilmer10.*,nyafilmerhd.*##.found-movies
+nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmer4.*,nyafilmer5.*,nyafilmer6.*,nyafilmer7.*,nyafilmer8.*,nyafilmer9.*,nyafilmer10.*,nyafilmerhd.*##.header-social-icons
+nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmer4.*,nyafilmer5.*,nyafilmer6.*,nyafilmer7.*,nyafilmer8.*,nyafilmer9.*,nyafilmer10.*,nyafilmerhd.*##.smallnews
+nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmer4.*,nyafilmer5.*,nyafilmer6.*,nyafilmer7.*,nyafilmer8.*,nyafilmer9.*,nyafilmer10.*,nyafilmerhd.*##.nya-ann
+nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmer4.*,nyafilmer5.*,nyafilmer6.*,nyafilmer7.*,nyafilmer8.*,nyafilmer9.*,nyafilmer10.*,nyafilmerhd.*##.newbox
+nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmer4.*,nyafilmer5.*,nyafilmer6.*,nyafilmer7.*,nyafilmer8.*,nyafilmer9.*,nyafilmer10.*,nyafilmerhd.*##.passinfo.info.message
+nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmer4.*,nyafilmer5.*,nyafilmer6.*,nyafilmer7.*,nyafilmer8.*,nyafilmer9.*,nyafilmer10.*,nyafilmerhd.*##[class="single-content sidebar"]
+nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmer4.*,nyafilmer5.*,nyafilmer6.*,nyafilmer7.*,nyafilmer8.*,nyafilmer9.*,nyafilmer10.*,nyafilmerhd.*##[href*="/tv-calendar/"]
+nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmer4.*,nyafilmer5.*,nyafilmer6.*,nyafilmer7.*,nyafilmer8.*,nyafilmer9.*,nyafilmer10.*,nyafilmerhd.*###menu-item-76123 > a[href^="/filter/"]
+nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmer4.*,nyafilmer5.*,nyafilmer6.*,nyafilmer7.*,nyafilmer8.*,nyafilmer9.*,nyafilmer10.*,nyafilmerhd.*###menu-item-76124 > a[href^="/filter/"]
+nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmer4.*,nyafilmer5.*,nyafilmer6.*,nyafilmer7.*,nyafilmer8.*,nyafilmer9.*,nyafilmer10.*,nyafilmerhd.*###menu-item-121595 > a[href^="/filter/"]
+nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmer4.*,nyafilmer5.*,nyafilmer6.*,nyafilmer7.*,nyafilmer8.*,nyafilmer9.*,nyafilmer10.*,nyafilmerhd.*###menu-item-153483
+nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmer4.*,nyafilmer5.*,nyafilmer6.*,nyafilmer7.*,nyafilmer8.*,nyafilmer9.*,nyafilmer10.*,nyafilmerhd.*###menu-item-154007
+nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmer4.*,nyafilmer5.*,nyafilmer6.*,nyafilmer7.*,nyafilmer8.*,nyafilmer9.*,nyafilmer10.*,nyafilmerhd.*##.siteAdvList
+nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmer4.*,nyafilmer5.*,nyafilmer6.*,nyafilmer7.*,nyafilmer8.*,nyafilmer9.*,nyafilmer10.*,nyafilmerhd.*##.new-social
+nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmer4.*,nyafilmer5.*,nyafilmer6.*,nyafilmer7.*,nyafilmer8.*,nyafilmer9.*,nyafilmer10.*,nyafilmerhd.*##.content-right
+nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmer4.*,nyafilmer5.*,nyafilmer6.*,nyafilmer7.*,nyafilmer8.*,nyafilmer9.*,nyafilmer10.*,nyafilmerhd.*###sss
+nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmer4.*,nyafilmer5.*,nyafilmer6.*,nyafilmer7.*,nyafilmer8.*,nyafilmer9.*,nyafilmer10.*,nyafilmerhd.*##a[href="/add-content/"]
+nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmer4.*,nyafilmer5.*,nyafilmer6.*,nyafilmer7.*,nyafilmer8.*,nyafilmer9.*,nyafilmer10.*,nyafilmerhd.*##.trigger.arrow-bottom.share-button.button
+nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmer4.*,nyafilmer5.*,nyafilmer6.*,nyafilmer7.*,nyafilmer8.*,nyafilmer9.*,nyafilmer10.*,nyafilmerhd.*##.top
+nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmer4.*,nyafilmer5.*,nyafilmer6.*,nyafilmer7.*,nyafilmer8.*,nyafilmer9.*,nyafilmer10.*,nyafilmerhd.*##.closeSkin
+nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmer4.*,nyafilmer5.*,nyafilmer6.*,nyafilmer7.*,nyafilmer8.*,nyafilmer9.*,nyafilmer10.*,nyafilmerhd.*##.info-content
+nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmer4.*,nyafilmer5.*,nyafilmer6.*,nyafilmer7.*,nyafilmer8.*,nyafilmer9.*,nyafilmer10.*,nyafilmerhd.*##[src*="/async.js"]
+nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmer4.*,nyafilmer5.*,nyafilmer6.*,nyafilmer7.*,nyafilmer8.*,nyafilmer9.*,nyafilmer10.*,nyafilmerhd.*##.movie-preview-content > a[target="_blank"]
+nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmer4.*,nyafilmer5.*,nyafilmer6.*,nyafilmer7.*,nyafilmer8.*,nyafilmer9.*,nyafilmer10.*,nyafilmerhd.*###text-2
+nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmer4.*,nyafilmer5.*,nyafilmer6.*,nyafilmer7.*,nyafilmer8.*,nyafilmer9.*,nyafilmer10.*,nyafilmerhd.*##[href*=".html"]
+nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmer4.*,nyafilmer5.*,nyafilmer6.*,nyafilmer7.*,nyafilmer8.*,nyafilmer9.*,nyafilmer10.*,nyafilmerhd.*###content > div.content.wrapper.clearfix > div.content-left:nth-child(3) > div.film-content > h2.title:first-child
+nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmer4.*,nyafilmer5.*,nyafilmer6.*,nyafilmer7.*,nyafilmer8.*,nyafilmer9.*,nyafilmer10.*,nyafilmerhd.*##.clearfix.wrapper.footer
+nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmer4.*,nyafilmer5.*,nyafilmer6.*,nyafilmer7.*,nyafilmer8.*,nyafilmer9.*,nyafilmer10.*,nyafilmerhd.*##.header-social-icons
+nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmer4.*,nyafilmer5.*,nyafilmer6.*,nyafilmer7.*,nyafilmer8.*,nyafilmer9.*,nyafilmer10.*,nyafilmerhd.*##.video-container > ul > li:nth-of-type(1)
+nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmer4.*,nyafilmer5.*,nyafilmer6.*,nyafilmer7.*,nyafilmer8.*,nyafilmer9.*,nyafilmer10.*,nyafilmerhd.*##.video-container > ul > li:nth-of-type(2)
+nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmer4.*,nyafilmer5.*,nyafilmer6.*,nyafilmer7.*,nyafilmer8.*,nyafilmer9.*,nyafilmer10.*,nyafilmerhd.*##.video.single-content > ul:nth-of-type(1) > li:nth-of-type(1)
+nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmer4.*,nyafilmer5.*,nyafilmer6.*,nyafilmer7.*,nyafilmer8.*,nyafilmer9.*,nyafilmer10.*,nyafilmerhd.*##.video.single-content > ul:nth-of-type(1) > li:nth-of-type(2)
+nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmer4.*,nyafilmer5.*,nyafilmer6.*,nyafilmer7.*,nyafilmer8.*,nyafilmer9.*,nyafilmer10.*,nyafilmerhd.*##.video.single-content > ul:nth-of-type(2) > li:nth-of-type(1)
+nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmer4.*,nyafilmer5.*,nyafilmer6.*,nyafilmer7.*,nyafilmer8.*,nyafilmer9.*,nyafilmer10.*,nyafilmerhd.*##.video.single-content > ul:nth-of-type(2) > li:nth-of-type(2)
+nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmer4.*,nyafilmer5.*,nyafilmer6.*,nyafilmer7.*,nyafilmer8.*,nyafilmer9.*,nyafilmer10.*,nyafilmerhd.*##.icon-scroll
+nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmer4.*,nyafilmer5.*,nyafilmer6.*,nyafilmer7.*,nyafilmer8.*,nyafilmer9.*,nyafilmer10.*,nyafilmerhd.*##.info-right > ul
+nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmer4.*,nyafilmer5.*,nyafilmer6.*,nyafilmer7.*,nyafilmer8.*,nyafilmer9.*,nyafilmer10.*,nyafilmerhd.*###action-addto
+nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmer4.*,nyafilmer5.*,nyafilmer6.*,nyafilmer7.*,nyafilmer8.*,nyafilmer9.*,nyafilmer10.*,nyafilmerhd.*##.announcement
+nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmer4.*,nyafilmer5.*,nyafilmer6.*,nyafilmer7.*,nyafilmer8.*,nyafilmer9.*,nyafilmer10.*,nyafilmerhd.*##[style="text-align: center;"]
+nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmer4.*,nyafilmer5.*,nyafilmer6.*,nyafilmer7.*,nyafilmer8.*,nyafilmer9.*,nyafilmer10.*,nyafilmerhd.*##a[href^="/"][href*=".html"][target="_blank"]
+nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmer4.*,nyafilmer5.*,nyafilmer6.*,nyafilmer7.*,nyafilmer8.*,nyafilmer9.*,nyafilmer10.*,nyafilmerhd.*##.single-content > ul
+nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmer4.*,nyafilmer5.*,nyafilmer6.*,nyafilmer7.*,nyafilmer8.*,nyafilmer9.*,nyafilmer10.*,nyafilmerhd.*##h2.title
+nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmer4.*,nyafilmer5.*,nyafilmer6.*,nyafilmer7.*,nyafilmer8.*,nyafilmer9.*,nyafilmer10.*,nyafilmerhd.*##[style="position: static;"]
+nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmer4.*,nyafilmer5.*,nyafilmer6.*,nyafilmer7.*,nyafilmer8.*,nyafilmer9.*,nyafilmer10.*,nyafilmerhd.*##a[data-hover="LADDA NED"]
+nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmer4.*,nyafilmer5.*,nyafilmer6.*,nyafilmer7.*,nyafilmer8.*,nyafilmer9.*,nyafilmer10.*,nyafilmerhd.*##a[data-hover="SE NU"]
+nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmer4.*,nyafilmer5.*,nyafilmer6.*,nyafilmer7.*,nyafilmer8.*,nyafilmer9.*,nyafilmer10.*,nyafilmerhd.*##a[data-hover="STREAM NOW"]
+nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmer4.*,nyafilmer5.*,nyafilmer6.*,nyafilmer7.*,nyafilmer8.*,nyafilmer9.*,nyafilmer10.*,nyafilmerhd.*##li > a[target="_blank"]
+nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmer4.*,nyafilmer5.*,nyafilmer6.*,nyafilmer7.*,nyafilmer8.*,nyafilmer9.*,nyafilmer10.*,nyafilmerhd.*##.rkads.wrapper.video-content-top-ads
+nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmer4.*,nyafilmer5.*,nyafilmer6.*,nyafilmer7.*,nyafilmer8.*,nyafilmer9.*,nyafilmer10.*,nyafilmerhd.*###menu-item-121532.menu-item-121532.menu-item-object-page.menu-item-type-post_type.menu-item
+nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmer4.*,nyafilmer5.*,nyafilmer6.*,nyafilmer7.*,nyafilmer8.*,nyafilmer9.*,nyafilmer10.*,nyafilmerhd.*###footer
+nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmer4.*,nyafilmer5.*,nyafilmer6.*,nyafilmer7.*,nyafilmer8.*,nyafilmer9.*,nyafilmer10.*,nyafilmerhd.*##.rkads.wrapper.video-content-bottom-ads
+nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmer4.*,nyafilmer5.*,nyafilmer6.*,nyafilmer7.*,nyafilmer8.*,nyafilmer9.*,nyafilmer10.*,nyafilmerhd.*##.movie-preview-content > a
+nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmer4.*,nyafilmer5.*,nyafilmer6.*,nyafilmer7.*,nyafilmer8.*,nyafilmer9.*,nyafilmer10.*,nyafilmerhd.*##div[style*="margin-top:180px"]
+nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmer4.*,nyafilmer5.*,nyafilmer6.*,nyafilmer7.*,nyafilmer8.*,nyafilmer9.*,nyafilmer10.*,nyafilmerhd.*##div[style*="margin-top:210px"]
+nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmer4.*,nyafilmer5.*,nyafilmer6.*,nyafilmer7.*,nyafilmer8.*,nyafilmer9.*,nyafilmer10.*,nyafilmerhd.*##.tags:nth-of-type(4) > ul
+nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmer4.*,nyafilmer5.*,nyafilmer6.*,nyafilmer7.*,nyafilmer8.*,nyafilmer9.*,nyafilmer10.*,nyafilmerhd.*##.tags:nth-of-type(3) > ul
+nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmer4.*,nyafilmer5.*,nyafilmer6.*,nyafilmer7.*,nyafilmer8.*,nyafilmer9.*,nyafilmer10.*,nyafilmerhd.*##.trigger.report-button.button
+nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmer4.*,nyafilmer5.*,nyafilmer6.*,nyafilmer7.*,nyafilmer8.*,nyafilmer9.*,nyafilmer10.*,nyafilmerhd.*##.trigger.arrow-bottom.addto-button.button
+nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmer4.*,nyafilmer5.*,nyafilmer6.*,nyafilmer7.*,nyafilmer8.*,nyafilmer9.*,nyafilmer10.*,nyafilmerhd.*##.likebtns
+nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmer4.*,nyafilmer5.*,nyafilmer6.*,nyafilmer7.*,nyafilmer8.*,nyafilmer9.*,nyafilmer10.*,nyafilmerhd.*##.select-video-info
+nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmer4.*,nyafilmer5.*,nyafilmer6.*,nyafilmer7.*,nyafilmer8.*,nyafilmer9.*,nyafilmer10.*,nyafilmerhd.*##.inlinelike
+nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmer4.*,nyafilmer5.*,nyafilmer6.*,nyafilmer7.*,nyafilmer8.*,nyafilmer9.*,nyafilmer10.*,nyafilmerhd.*##div.twelve-banner:nth-of-type(1)
+nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmer4.*,nyafilmer5.*,nyafilmer6.*,nyafilmer7.*,nyafilmer8.*,nyafilmer9.*,nyafilmer10.*,nyafilmerhd.*##div.twelve-banner:nth-of-type(6)
+nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmer4.*,nyafilmer5.*,nyafilmer6.*,nyafilmer7.*,nyafilmer8.*,nyafilmer9.*,nyafilmer10.*,nyafilmerhd.*##div.tags:nth-of-type(3)
+nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmer4.*,nyafilmer5.*,nyafilmer6.*,nyafilmer7.*,nyafilmer8.*,nyafilmer9.*,nyafilmer10.*,nyafilmerhd.*##div.tags:nth-of-type(4)
+nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmer4.*,nyafilmer5.*,nyafilmer6.*,nyafilmer7.*,nyafilmer8.*,nyafilmer9.*,nyafilmer10.*,nyafilmerhd.*##[class="vjs-control vjs-logo"]
+nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmer4.*,nyafilmer5.*,nyafilmer6.*,nyafilmer7.*,nyafilmer8.*,nyafilmer9.*,nyafilmer10.*,nyafilmerhd.*##[class="sub-menu flexcroll"]
+nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmer4.*,nyafilmer5.*,nyafilmer6.*,nyafilmer7.*,nyafilmer8.*,nyafilmer9.*,nyafilmer10.*,nyafilmerhd.*##[class="skinMobile"]
+nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmer4.*,nyafilmer5.*,nyafilmer6.*,nyafilmer7.*,nyafilmer8.*,nyafilmer9.*,nyafilmer10.*,nyafilmerhd.*##[class*="bigbg"]
+nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmer4.*,nyafilmer5.*,nyafilmer6.*,nyafilmer7.*,nyafilmer8.*,nyafilmer9.*,nyafilmer10.*,nyafilmerhd.*##.fb-xfbml-parse-ignore
+nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmer4.*,nyafilmer5.*,nyafilmer6.*,nyafilmer7.*,nyafilmer8.*,nyafilmer9.*,nyafilmer10.*,nyafilmerhd.*##.sort.tags > .title
+nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmer4.*,nyafilmer5.*,nyafilmer6.*,nyafilmer7.*,nyafilmer8.*,nyafilmer9.*,nyafilmer10.*,nyafilmerhd.*##[type="text/javascript"][src*=".js"]
+nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmer4.*,nyafilmer5.*,nyafilmer6.*,nyafilmer7.*,nyafilmer8.*,nyafilmer9.*,nyafilmer10.*,nyafilmerhd.*##[class="clear"]
+nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmer4.*,nyafilmer5.*,nyafilmer6.*,nyafilmer7.*,nyafilmer8.*,nyafilmer9.*,nyafilmer10.*,nyafilmerhd.*##[class="disqus_section"]
+nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmer4.*,nyafilmer5.*,nyafilmer6.*,nyafilmer7.*,nyafilmer8.*,nyafilmer9.*,nyafilmer10.*,nyafilmerhd.*##[class="iframeInfo"]
+nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmer4.*,nyafilmer5.*,nyafilmer6.*,nyafilmer7.*,nyafilmer8.*,nyafilmer9.*,nyafilmer10.*,nyafilmerhd.*##.dialogbox
+nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmer4.*,nyafilmer5.*,nyafilmer6.*,nyafilmer7.*,nyafilmer8.*,nyafilmer9.*,nyafilmer10.*,nyafilmerhd.*##.dialogback
+nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmer4.*,nyafilmer5.*,nyafilmer6.*,nyafilmer7.*,nyafilmer8.*,nyafilmer9.*,nyafilmer10.*,nyafilmerhd.*##.button.fke
+nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmer4.*,nyafilmer5.*,nyafilmer6.*,nyafilmer7.*,nyafilmer8.*,nyafilmer9.*,nyafilmer10.*,nyafilmerhd.*##.bigbg
+nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmer4.*,nyafilmer5.*,nyafilmer6.*,nyafilmer7.*,nyafilmer8.*,nyafilmer9.*,nyafilmer10.*,nyafilmerhd.*##.twitter-tweet
+nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmer4.*,nyafilmer5.*,nyafilmer6.*,nyafilmer7.*,nyafilmer8.*,nyafilmer9.*,nyafilmer10.*,nyafilmerhd.*##.hide
+nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmer4.*,nyafilmer5.*,nyafilmer6.*,nyafilmer7.*,nyafilmer8.*,nyafilmer9.*,nyafilmer10.*,nyafilmerhd.*##.report_button.epibtn
+nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmer4.*,nyafilmer5.*,nyafilmer6.*,nyafilmer7.*,nyafilmer8.*,nyafilmer9.*,nyafilmer10.*,nyafilmerhd.*##.g-recaptcha
+nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmer4.*,nyafilmer5.*,nyafilmer6.*,nyafilmer7.*,nyafilmer8.*,nyafilmer9.*,nyafilmer10.*,nyafilmerhd.*##.gameofthrones
+nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmer4.*,nyafilmer5.*,nyafilmer6.*,nyafilmer7.*,nyafilmer8.*,nyafilmer9.*,nyafilmer10.*,nyafilmerhd.*##.noselect.tab-buttons
+nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmer4.*,nyafilmer5.*,nyafilmer6.*,nyafilmer7.*,nyafilmer8.*,nyafilmer9.*,nyafilmer10.*,nyafilmerhd.*##[class="headerSpace"]
+nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmer4.*,nyafilmer5.*,nyafilmer6.*,nyafilmer7.*,nyafilmer8.*,nyafilmer9.*,nyafilmer10.*,nyafilmerhd.*##.video-container > .side-info
 @@||api.peer5.com$script,domain=jawcloud.co
 @@||wp.com/nyafilmer*/wp-content/uploads/$image
 @@||upvtt.com^$xhr
