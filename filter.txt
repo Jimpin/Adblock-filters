@@ -5259,7 +5259,6 @@ popuper.js^
 *##+js(aopw, Fingerprint2)
 *##+js(acis, String.fromCharCode, decodeURIComponent)
 *##+js(aeld, , pop)
-*##+js(aopr, open)
 *##+js(aeld, , window.open)
 
 *##+js(aopr, disableButtonTimer)
