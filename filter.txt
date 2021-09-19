@@ -574,7 +574,7 @@ humblebundle.com/monthly?hmb_source=humble_monthly_alert&hmb_medium=banner
 ###site-xpromo-banner > .js-page-banner-link.page-banner-link
 
 #Nyafilmer/Jawcloud
-nyafilm*$all
+nyafilm*$all,1p
 @@||api.peer5.com$script,domain=jawcloud.co
 @@||wp.com/nyafilmer*/wp-content/uploads/$image
 @@||upvtt.com^$xhr
