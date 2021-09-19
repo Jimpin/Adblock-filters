@@ -645,22 +645,22 @@ jawcloud.co##^script:has-text(Inject=!)
 ||&guid=^$popup,important
 /iframes2/*.html?$subdocument
 
-#Swemovies.org
-swemovie.org##div.sbox:nth-of-type(6)
-swemovie.org##.comments-area
-swemovie.org##.dt_social_single
-swemovie.org##div.sbox:nth-of-type(4)
-swemovie.org##[type="text/javascript"]
-swemovie.org##script:contains(/)
-swemovie.org##[id*="foobar"]
-swemovie.org##[id*="oscuridad"]
-swemovie.org###playeroptionsul
-||swemovie.org/wp-content/plugins/*$stylesheet,1p
-||cdn.streamlare.com^$image,xhr,1p
-||google.com^$script,domain=streamlare.com
+#Swemovie.org
+swemovie.*##div.sbox:nth-of-type(6)
+swemovie.*##.comments-area
+swemovie.*##.dt_social_single
+swemovie.*##div.sbox:nth-of-type(4)
+swemovie.*##[type="text/javascript"]
+swemovie.*##script:contains(/)
+swemovie.*##[id*="foobar"]
+swemovie.*##[id*="oscuridad"]
+swemovie.*###playeroptionsul
+||swemovie.*/wp-content/plugins/*$stylesheet,1p
 streamlare.com##+js(nowoif)
 streamlare.com##body > div[style="position: fixed; display: block; width: 100%; height: 100%; inset: 0px; background-color: rgba(0, 0, 0, 0); z-index: 300000;"]
 @@||cdn.streamlare.com/*.vtt$xhr,1p
+||cdn.streamlare.com^$image,1p
+||google.com^$script,domain=streamlare.com
 /favicon-16x16-1.png$all
 /webworker.js$script,3p
 /css/dist/block-library/*$stylesheet
