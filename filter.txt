@@ -696,6 +696,7 @@ vipleague.*##[class*="text-success position-relative"]
 vipleague.*##[class*=" d-block"]
 vipleague.*##[action="https://www.tvply.me/sdembed?v=spa1hd~spa1sd"]
 @@||plytv.me^$subdocument
+@@||cdn.okamata.site^$image
 /*^$xhr,frame,css,3p,domain=vipleague.lc
 ||vipleague.*/loadchatdata$xhr,domain=www.vipleague.lc
 ||vipleague.*/favicon-32x32.png$image
@@ -5169,13 +5170,10 @@ popuper.js^
 *##+js(nosiif, _0x)
 *##+js(aopw, Fingerprint2)
 *##+js(acis, String.fromCharCode, decodeURIComponent)
+*##+js(set-constant, HTMLElement.prototype.attachShadow, null)
 *##+js(aeld, , pop)
-*##+js(aeld, , window.open)
-
 *##+js(aopr, disableButtonTimer)
 *##+js(aopw, ai_front)
-*##+js(noeval-if, debugger)
-*##+js(nostif, debugger)
 *##+js(acis, document.createElement, __htas)
 *##+js(acis, spr)
 *##+js(set, POPUNDER_ENABLED, false)
@@ -5224,6 +5222,7 @@ popuper.js^
 /0/*.html^$all,3p
 ?aHR0*=$all,important
 
+/^https?:\/\/(?:[a-z]{2}\.)?[0-9a-z]{7,16}\.(?:com|pw|site)\/[a-z](?=[0-9a-z]{0,15}[A-Z])(?=[a-z]{0,14}[0-9A-Z])[0-9a-zA-Z]{10,16}\/(?:[1-4]\d{4}|[4-9]\d{3})(\?_=\d+)?$/$script,3p,match-case
 *$csp=script-src 'none',domain=länsförsäkringar.se|svtt.se|ssvd.se|exressen.se|eexpressen.se|sskatteverket.se|aatg.se|atgg.se
 /event$xhr,3p
 ||cloudflare-terms-of-service-abuse.com^
