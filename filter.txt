@@ -185,7 +185,8 @@ outlook.live.com##[class*="_3_"]:has-text(.)
 ||vortex.data.microsoft.com^
 
 #Twitch.tv
-twitch.tv##+js(window.open-defuser, amazon-adsystem)
+twitch.tv##+js(nowoif, amazon-adsystem)
+twitch.tv##+js(aopw, InMemoryCache)
 twitch.tv##[data-a-target=prime-offers-icon]
 twitch.tv##[data-a-target=try-prime-link]
 twitch.tv##.prime-offers__pill
