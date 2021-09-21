@@ -712,60 +712,80 @@ vipleague.*##[action="https://www.tvply.me/sdembed?v=spa1hd~spa1sd"]
 ||mw19c3mi5a.com^$important
 ||commercialvalue.org^$important
 ||linkedin.com^$script,3p
+||mirafaren.pw^$all
 
 #Fmovies
-fmovies.*##+js(acis, Math, zfgloaded)
-fmovies.*##+js(aopr, AaDetector)
-fmovies.*##+js(aopr, InstallTrigger)
-fmovies.*##+js(popads-dummy)
-fmovies.*##+js(window.open-defuser.js)
-fmovies.*###footer
-fmovies.*###comment
-fmovies.*###copyright
-fmovies.*##.footerdesc
-fmovies.*##a[href="https://bmovies.to/most-watched"]
-fmovies.*##a[href="https://twitter.com/bmoviesto"] > b
-fmovies.*##.col-lg-12:nth-of-type(1) > .desc
-fmovies.*##.col-lg-12:nth-of-type(1) > .small
-fmovies.*##.col-lg-12:nth-of-type(1) > .hidden-xs
-fmovies.*##.col-xs-6:nth-of-type(2)
-fmovies.*##.edit-watchlist.mbtn.item
-fmovies.*##li:nth-of-type(9) > a[href="#pop-request"]
-fmovies.*###movie > .widget:nth-of-type(3)
-fmovies.*###body-wrapper > div.container > p:nth-child(4)
-fmovies.*##.old
-fmovies.*##.has-children:nth-of-type(3) > a
-fmovies.*##.has-children:nth-of-type(7) > a
-fmovies.*##.hidden-sm.col-xs-24.col-sm-7._col-md-7.col-right
-fmovies.*##.widget:nth-of-type(2) > .hd-buttons.row
-fmovies.*##.notice.alert-default.alert
-fmovies.*##.hidden-sm.hidden-xs.alert-warning.alert
-fmovies.*##a[href$=".html"][target="_blank"]
-fmovies.*##body > div:nth-of-type(9)
-fmovies.*##li:nth-of-type(3) > [href="#"]
-fmovies.*##[href="/list/featured-movies.html"]
-fmovies.*##.top-content
-fmovies.*##center
-fmovies.*##li:nth-of-type(9) > [href="javascript:void(0)"]
+fmovies.*,ffmovies.*##+js(acis, Math, zfgloaded)
+fmovies.*,ffmovies.*##+js(aopr, AaDetector)
+fmovies.*,ffmovies.*##+js(aopr, InstallTrigger)
+fmovies.*,ffmovies.*##+js(popads-dummy)
+fmovies.*,ffmovies.*##+js(window.open-defuser.js)
+fmovies.*,ffmovies.*###footer
+fmovies.*,ffmovies.*###comment
+fmovies.*,ffmovies.*###copyright
+fmovies.*,ffmovies.*##.footerdesc
+fmovies.*,ffmovies.*##a[href="https://bmovies.to/most-watched"]
+fmovies.*,ffmovies.*##a[href="https://twitter.com/bmoviesto"] > b
+fmovies.*,ffmovies.*##.col-lg-12:nth-of-type(1) > .desc
+fmovies.*,ffmovies.*##.col-lg-12:nth-of-type(1) > .small
+fmovies.*,ffmovies.*##.col-lg-12:nth-of-type(1) > .hidden-xs
+fmovies.*,ffmovies.*##.col-xs-6:nth-of-type(2)
+fmovies.*,ffmovies.*##.edit-watchlist.mbtn.item
+fmovies.*,ffmovies.*##li:nth-of-type(9) > a[href="#pop-request"]
+fmovies.*,ffmovies.*###movie > .widget:nth-of-type(3)
+fmovies.*,ffmovies.*###body-wrapper > div.container > p:nth-child(4)
+fmovies.*,ffmovies.*##.old
+fmovies.*,ffmovies.*##.has-children:nth-of-type(3) > a
+fmovies.*,ffmovies.*##.has-children:nth-of-type(7) > a
+fmovies.*,ffmovies.*##.hidden-sm.col-xs-24.col-sm-7._col-md-7.col-right
+fmovies.*,ffmovies.*##.widget:nth-of-type(2) > .hd-buttons.row
+fmovies.*,ffmovies.*##.notice.alert-default.alert
+fmovies.*,ffmovies.*##.hidden-sm.hidden-xs.alert-warning.alert
+fmovies.*,ffmovies.*##a[href$=".html"][target="_blank"]
+fmovies.*,ffmovies.*##body > div:nth-of-type(9)
+fmovies.*,ffmovies.*##li:nth-of-type(3) > [href="#"]
+fmovies.*,ffmovies.*##[href="/list/featured-movies.html"]
+fmovies.*,ffmovies.*##.top-content
+fmovies.*,ffmovies.*##center
+fmovies.*,ffmovies.*##li:nth-of-type(9) > [href="javascript:void(0)"]
 ##p:nth-child(15) > span > a
 ##section:nth-child(15) > a
 ##article:nth-child(15) > div > a
 @@/assets/js/video-js/
-||fmovies.*/sw.js
-||fmovies.*/clear.gif$image
-||fmovies.*/ajax/film/update-views$xmlhttprequest
-||fmovies.*/assets/acode/aplayer.html$subdocument,domain=mcloud.to
-||fmovies.*/ajax.php$xmlhttprequest
-||fmovies.*/json.php$xmlhttprequest
-||fmovies.*/ajax/film/tooltip/*$important
-||fmovies.*/captcha.php$image
+*fmovies.*$xhr,1p
+*fmovies.*/sw.js
+*fmovies.*/clear.gif$image
+*fmovies.*/ajax/film/update-views$xhr
+*fmovies.*/assets/acode/aplayer.html$frame
+*fmovies.*/ajax.php$xhr
+*fmovies.*/json.php$xhr
+*fmovies.*/ajax/film/tooltip/*$important
+*fmovies.*/captcha.php$image
 mcloud.*###jwa
 mcloud.*##+js(popads-dummy)
-||mcloud.to/log/*$xmlhttprequest,first-party
-||mcloud.to/embed/*$first-party
-||mcloud.to/ping$important
-||mcloud.to^$image
+||mcloud.*/log/*$xmlhttprequest
+||mcloud.*/embed/*$1p
+||mcloud.*/ping$important
+||mcloud.*^$image
 ||fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700$css
+mstream.*##[class="vjs-link"]
+mstream.*##[class="vjs-chrome-pip vjs-control vjs-button"]
+mstream.*##[class="vjs-playback-rate vjs-menu-button vjs-menu-button-popup vjs-button"]
+mstream.*##+js(acis, jQuery, appendTo)
+mstream.*##+js(acis, jQuery, adblocker)
+mstream.*##+js(aopr, open)
+mstream.*##+js(aopr, AaDetector)
+mstream.*##+js(popads-dummy.js)
+||mstream.*/view/*$image
+||mystream.*/img/*$image
+vidoza.*##+js(abort-current-inline-script, Math, zfgloaded)
+vidoo.*##+js(abort-current-inline-script, Math, zfgloaded)
+vidoo.*##+js(aopr, open)
+vidoo.*##+js(popads-dummy.js)
+@@||vidoo.tv/js/pop.js$script
+||vidoo.*/dl?op=view&file_code*$xhr,1p
+||vidoo.*$script,popup
+||abi.vidoo.tv/i/*$image
 rapidvideo.com##+js(noeval.js)
 rapidvideo.com##+js(popads.net.js)
 rapidvideo.com##+js(popads-dummy)
@@ -780,7 +800,7 @@ rapidvideo.com##+js(set-constant.js, onload, noopFunc)
 ||rapidvideo.com/css/opensans.css$css
 ||rapidvideo.com/?c=$xmlhttprequest,domain=rapidvideo.com
 ||rapidvideo.com/images/rapidvideo_logo_player.png$important
-||mc.yandex.ru^$important
+||mc.yandex.ru^$3p,important
 ||playercdn.net/thumb/*$image,domain=www.rapidvideo.com
 ||mcloud.to^$image
 ||streamango.com/logpopup/*$important
@@ -804,37 +824,6 @@ streamtape.*#@#.google-ad
 ||streamtape.com/mainstream2.js
 ||in-page-push.com^$important
 /tag.min.js$3p
-
-#Fmoviesfree
-fmoviesfree.*##+js(popads-dummy.js)
-fmoviesfree.*##+js(aopr, console.clear)
-fmoviesfree.*##+js(aopw, Fingerprint2)
-fmoviesfree.*##+js(aopr, InstallTrigger)
-fmoviesfree.*##a[href$=".html"]
-fmoviesfree.*##.overlay
-fmoviesfree.*###footer
-fmoviesfree.*##div.widget:nth-of-type(2)
-||fmoviesfree.*$xhr,1p
-||mirafaren.pw^$all
-/link^$3p,popup
-mstream.*##[class="vjs-link"]
-mstream.*##[class="vjs-chrome-pip vjs-control vjs-button"]
-mstream.*##[class="vjs-playback-rate vjs-menu-button vjs-menu-button-popup vjs-button"]
-mstream.*##+js(acis, jQuery, appendTo)
-mstream.*##+js(acis, jQuery, adblocker)
-mstream.*##+js(aopr, open)
-mstream.*##+js(aopr, AaDetector)
-mstream.*##+js(popads-dummy.js)
-||mstream.*/view/*$image
-||mystream.io/img/*$image
-vidoza.net##+js(abort-current-inline-script, Math, zfgloaded)
-vidoo.*##+js(abort-current-inline-script, Math, zfgloaded)
-vidoo.*##+js(aopr, open)
-vidoo.*##+js(popads-dummy.js)
-@@||vidoo.tv/js/pop.js$script
-||vidoo.*/dl?op=view&file_code*$xhr,1p
-||vidoo.*$script,popup
-||abi.vidoo.tv/i/*$image
 
 #Dn.se
 dn.se##+js(acis, DN, initAds)
@@ -871,14 +860,6 @@ hemnet.se##.featured-news__link:has(.featured-news__ribbon--sponsored)
 hemnet.se##.recent-news__item:has(.recent-news__category:has-text(/sponsrad/i))
 hemnet.se##.result-article__link:has(.article__ribbon--sponsored)
 hemnet.se##.start-page-hero__caption:has(.start-page-hero__caption-category:has-text(/sponsrad av/i))
-
-#Crackwatch.com
-crackwatch.com##.Overlay
-crackwatch.com##.announcement
-crackwatch.com##div[style$="text-align: center;"] > div > a[rel="nofollow noopener noreferrer"] span[style*="background-image"][style*="base64"]:style(height: 1px!important; min-height: 1px!important; background-image: none!important;)
-crackwatch.com##.Footer
-||instant-gaming.com/affgames/*$subdocument
-||crackwatch.com/badf*.css$css,1p
 
 #Viafree
 viafree.se##.player-wrapper .viafree-player .vjs-tech:style(display:initial!important;)
@@ -974,21 +955,6 @@ flashback.org##.go-top
 flashback.org###site-message-donation
 ||static.flashback.org/img/banners/ad_*$image
 
-#Yallasport.co
-yallasport.co###ads
-||*.co/files/close.gif$image
-||*.fun/files/close.gif$image
-||c.adexchangemachine.com^
-||geniusdisplay.com^
-||jackrugile.com^$image
-||onclickmega.com^
-||waframedia20.com^
-||onclicksuper.com^$important
-||platform-api.sharethis.com^$important
-||ufpcdn.com^$important
-||velocitycdn.com^
-||cdn.popcash.net^$important
-
 #Speedtest.net
 speedtest.net##+js(abort-on-property-read, _sp_)
 speedtest.net##+js(set-constant, isBlocked, false)
@@ -1017,36 +983,29 @@ rltracker.pro##.col-sm-12 > .row
 ||rltracker.pro/assets/rl*.png$image
 
 #123movies
-123movies.*##+js(acis, jQuery, appendTo)
-123movies.*##+js(acis, jQuery, adblocker)
-123movies.*##+js(aopr, open)
-123movies.*##+js(aopr, InstallTrigger)
-123movies.*##[href$=".html"]
-123movies.*##[id="overlay"]
-123movies.*##a[href^="/"][href*=".html"][target="_blank"]
-123movies.*##+js(acis, p2pml.hlsjs.Engine, loader)
-123movies.*##+js(acis, document.getElementById, style.display)
-123movies.*##+js(aopr, BetterJsPop)
-123movies.*##+js(acis, decodeURI, getScriptFromCss)
-123movies.*##.bottom-bnr
-123movies.*##[rel="nofollow noopener"]
-123movies.*##[class="15492952jw"]
-123movies.*##.play-notice > .alert-warning.alert
-123movies.*##.buttons
-123movies.*##.btn-successful.btn-lg.btn
-123movies.*##.row > .clearfix
-123movies.*###footer
-123movies.*##footer
-||123movie*^$csp=script-src 'self' 'unsafe-inline' *.google-analytics.com *.cloudflare.com *.gstatic.com *.google.com *.recaptcha.net
-||123movie*^$other
-||123movie*/assets/js/custombanner.js$script
-||123movie*/*.tm$script
-||123movie*/*.it$script
-/assets/js/psbar.jquery.min.js$script
-||vidcloud9.com/js/app.js$script
-||foazasis.com^
-||caithamo.net^
-||chatbro.com^
+123movies.*,123moviesto.*##+js(acis, jQuery, appendTo)
+123movies.*,123moviesto.*##+js(acis, jQuery, adblocker)
+123movies.*,123moviesto.*##+js(aopr, open)
+123movies.*,123moviesto.*##+js(aopr, InstallTrigger)
+123movies.*,123moviesto.*##[id="overlay"]
+123movies.*,123moviesto.*##a[href^="/"][href*=".html"][target="_blank"]
+123movies.*,123moviesto.*##+js(acis, p2pml.hlsjs.Engine, loader)
+123movies.*,123moviesto.*##+js(acis, document.getElementById, style.display)
+123movies.*,123moviesto.*##+js(aopr, BetterJsPop)
+123movies.*,123moviesto.*##+js(acis, decodeURI, getScriptFromCss)
+123movies.*,123moviesto.*##div#pagination:nth-of-type(4)
+123movies.*,123moviesto.*##.bottom-bnr
+123movies.*,123moviesto.*##[rel="nofollow noopener"]
+123movies.*,123moviesto.*##.play-notice > .alert-warning.alert
+123movies.*,123moviesto.*##.buttons
+123movies.*,123moviesto.*##.btn-successful.btn-lg.btn
+123movies.*,123moviesto.*##.row > .clearfix
+123movies.*,123moviesto.*##footer
+*123movie^$csp=script-src 'self' 'unsafe-inline' *.google-analytics.com *.cloudflare.com *.gstatic.com *.google.com *.recaptcha.net
+*123movie^$other
+*123movie*/assets/js/custombanner.js$script
+*123movie*/*.tm$script
+*123movie*/*.it$script
 
 #0123movies.com
 0123movies.*##+js(popads-dummy)
@@ -4826,6 +4785,7 @@ popuper.js^
 @@/assets/*$script
 @@upload-*^$xhr
 @@/css/bootstrap.min.css$css
+@@_next/static/$script
 @@_ajax?^$1p
 @@/util/*$script,1p
 @@/jwplayer*.js$script,1p
@@ -4984,7 +4944,8 @@ popuper.js^
 *##+js(aopr, ExoLoader.serve)
 *##div[id*="sidebar"][data-before-content="advertisement"]:upward(3)
 *##iframe[src*="/ads-iframe"]
-*##iframe[src*="https://pc.html"]
+*##iframe[src*=".html"]
+*##iframe[src*=".php"]
 *##.consent-banner:contains(cookies)
 *##+js(acis, burtSegments)
 *##+js(acis, Bau, preloadAds)
@@ -5181,7 +5142,6 @@ popuper.js^
 *##+js(set, POPUNDER_ENABLED, false)
 *##+js(set, plugins.preroll, noopFunc)
 *##+js(acis, JSON.parse, atob)
-*##+js(aost, JSON.parse, computed)
 *##[onclick="closeBanner()"]
 
 *##+js(aopr, _0xbeb9)
