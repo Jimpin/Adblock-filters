@@ -567,27 +567,19 @@ imdb.com###top_ad
 ||zergnet.com^
 ||amazon.com/aan/*
 
-#Humblebundle.com
-humblebundle.com###site-xpromo-banner > .js-banner.banner
-humblebundle.com###js-site-xpromo-banner-container-top
-humblebundle.com###site-xpromo-banner
-humblebundle.com/monthly?hmb_source=humble_monthly_alert&hmb_medium=banner
-###site-xpromo-banner > .js-page-banner-link.page-banner-link
-
 #Nyafilmer/Jawcloud
 nyafilm*$1p
 @@||api.peer5.com$script,domain=jawcloud.co
 @@||wp.com/nyafilmer*/wp-content/uploads/$image
 @@||upvtt.com^$xhr
 @@||*.com^$inline-script,1p,domain=jawcloud.co
-/u*.js$script,1p
 ||nyafilm*$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: jawcloud.co *.jawcloud.co *.peer5.com *.googleapis.com *.google.com *.gstatic.com;img-src *;worker-src 'none'
 /images/tipsy.gif$3p
 /wp-includes/js/comment-reply.min.js$script
 /wp-includes/js/wp-embed.min.js$script
 /wp-content/cache/wpfc-minified/*/*index.css
-jawcloud.co,nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmer4.*,nyafilmer5.*,nyafilmer6.*,nyafilmer7.*,nyafilmer8.*,nyafilmer9.*,nyafilmer10.*,nyafilmerhd.*##^script:has-text(_Hasync)
-jawcloud.co,nyafilmer.*,nyafilmer1.*,nyafilmer2.*,nyafilmer3.*,nyafilmer4.*,nyafilmer5.*,nyafilmer6.*,nyafilmer7.*,nyafilmer8.*,nyafilmer9.*,nyafilmer10.*,nyafilmerhd.*##+js(aopr, console.clear)
+jawcloud.co##^script:has-text(_Hasync)
+jawcloud.co##+js(aopr, console.clear)
 jawcloud.co##+js(popads-dummy.js)
 jawcloud.co##+js(aeld, contextmenu)
 jawcloud.co##+js(aopw, Fingerprint2)
@@ -623,11 +615,6 @@ jawcloud.co##^script:has-text(Inject=!)
 ||pc1ads.com^$image,important
 ||clksite.com^$script,redirect-rule=noopjs
 ||mycdn.co^$script
-||cloudflareinsights.com^$script
-||deloplen.com^$csp=script-src 'none'
-||rubiginose.com^$csp=script-src 'none'
-||dirdamid.com^$csp=script-src 'none'
-||wauzoust.com^$csp=script-src 'none'
 /*.net^$3p,important,domain=jawcloud.co
 /view.html$inline-script,frame
 /pages/*/*.html$frame,inline-script
@@ -4794,6 +4781,7 @@ popuper.js^
 @@/vendors/omniture/*$script
 @@/manifest.json
 @@/translations/*.json
+@@/redirector$media,3p
 @@*.m3u8$xhr
 @@*.ts$xhr
 @@/?stream=
