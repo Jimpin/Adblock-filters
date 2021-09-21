@@ -4755,7 +4755,7 @@ sfp.js^
 Pop-under.js^
 popuper.js^
 
-#Allowed Scripts
+#Allowed
 @@||youbora.com/*/js/adapters/jwplayer$script
 @@||*.wp.com/*/wp-content/uploads/*$image
 @@||images-na.ssl-images-amazon.com/images/*$script
@@ -4955,7 +4955,7 @@ popuper.js^
 ://wchat.*^$popup,important
 ://lightning.*/launch/
 *##+js(acis, atob, tabunder)
-*##+js(set-constant.js, Annons, noopFunc)
+*##+js(set, Annons, noopFunc)
 *##+js(aopr, InitCloseButton)
 *##+js(aopw, rAb)
 *##+js(aopw, AdDelivery)
@@ -5174,7 +5174,6 @@ popuper.js^
 *##+js(nosiif, _0x)
 *##+js(aopw, Fingerprint2)
 *##+js(acis, String.fromCharCode, decodeURIComponent)
-*##+js(set-constant, HTMLElement.prototype.attachShadow, null)
 *##+js(aopr, disableButtonTimer)
 *##+js(aopw, ai_front)
 *##+js(acis, document.createElement, __htas)
