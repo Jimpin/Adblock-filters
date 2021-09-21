@@ -5125,6 +5125,7 @@ popuper.js^
 *##+js(acis, String.fromCharCode, decodeURIComponent)
 *##+js(aopr, disableButtonTimer)
 *##+js(aopw, ai_front)
+*##+js(abort-on-property-read, Object.prototype.adUnits)
 *##+js(acis, document.createElement, __htas)
 *##+js(acis, spr)
 *##+js(set, POPUNDER_ENABLED, false)
