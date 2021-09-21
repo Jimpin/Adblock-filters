@@ -5010,7 +5010,6 @@ popuper.js^
 *##a[href*="clk."]
 *##a[href*="AdwdGn/"]
 *##a[href*="track."]
-*##a[href*="tracker."]
 *##a[href*="trackers."]
 *##a[href*="track.adtraction."]
 *##a[href*="pre."]
