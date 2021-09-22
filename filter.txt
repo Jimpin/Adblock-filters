@@ -19,6 +19,7 @@ aftonbladet.se##a[href*="aftonbladet.se/a/"]
 aftonbladet.se##[data-test-tag="internal-link:single-page-link"]:contains(annonslänkar)
 aftonbladet.se##a[href*="/tv/"]:has(span:has-text(/studio oddset/i)):upward(1)
 aftonbladet.se##.svp-sponsor-label
+aftonbladet.se##.css-i1qmsk:contains(annonslänkar)
 aftonbladet.se##div.HLf1C:contains(annonslänkar)
 aftonbladet.se##div.HLf1C:contains(ANNONS)
 aftonbladet.se###megaAd-placeholder, #superright-side, a[href^="/brandstudio"], a[href*="/rabattkod"], a[href*="/casinoguide"], [id^="adPlacement"]
