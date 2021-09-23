@@ -24,6 +24,8 @@ aftonbladet.se##div.HLf1C:contains(annonslänkar)
 aftonbladet.se##div.HLf1C:contains(ANNONS)
 aftonbladet.se###megaAd-placeholder, #superright-side, a[href^="/brandstudio"], a[href*="/rabattkod"], a[href*="/casinoguide"], [id^="adPlacement"]
 aftonbladet.se##[data-ad-subtype]:upward(1):style(min-height:unset!important)
+aftonbladet.se##.sch-datacontroller--subheader.sch-datacontroller--cobranded.sch-datacontroller
+aftonbladet.se##.sch-datacontroller--permanent.sch-datacontroller--cobranded.sch-datacontroller
 aftonbladet.se##^script:has-text(preLoadAds)
 aftonbladet.se##aside > div:has(h2:has-text(/^annons/i))
 aftonbladet.se##section > div:has(h2:has-text(/^annons/i))
@@ -800,6 +802,7 @@ streamtape.*##+js(aopw, _pop)
 streamtape.*##+js(window.open-defuser)
 streamtape.*##+js(abort-current-inline-script, Math, /emZnbG9hZGVk|break;case \$\./)
 streamtape.*##+js(abort-on-property-write, _pop)
+streamtape.*##+js(aeld, contextmenu)
 streamtape.*##+js(set-constant, googleAd, true)
 streamtape.*##+js(acis, document.createElement, 'script')
 streamtape.*##+js(ra, target, #downloadvideo)
@@ -4919,7 +4922,6 @@ popuper.js^
 *##+js(aopw, banner_video)
 *##+js(setTimeout-defuser.js, adsbygoogle, 2000)
 *##+js(acis, popunder)
-*##+js(acis, jQuery, overlay)
 *##+js(acis, document.createElement, jsc.mgid.com)
 *##+js(set, ClickUnder, noopFunc)
 *##+js(aopr, AdservingModule)
@@ -5087,6 +5089,10 @@ popuper.js^
 ##li:has(.content-label:has-text(/annons/i)):remove()
 *##+js(nostif, n.modal)
 *##.no-scroll:style(overflow-x: hidden !important;)
+*##+js(nostif, showOverlay)
+*##style:contains(overlay)
+*###overlay:not(.overlay)
+*##html.open-modal .overlay:style(display: none !important)
 *##div[class^="lowerBadge"]
 *html#type=page&event=load&url=$important
 ##[id="skinAdTarget"]
