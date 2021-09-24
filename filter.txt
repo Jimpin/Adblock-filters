@@ -248,6 +248,7 @@ twitter.com##section:only-child > h1[id][aria-level="1"] + div[aria-label] div[c
 
 #Google
 google.*##html:style(overflow-y: auto !important;)
+google.*##+js(set-constant, rwt, noopFunc)
 google.*##[id="reviewDialog"]
 google.*##[id="dstyle"]
 google.*##a[href*="/aclk?"][data-al]:upward(2)
@@ -575,7 +576,6 @@ imdb.com###top_ad
 #Nyafilmer/Jawcloud
 nyafilm*$1p
 @@||api.peer5.com$script,domain=jawcloud.co
-@@||wp.com/nyafilmer*/wp-content/uploads/$image
 @@||upvtt.com^$xhr
 @@||*.com^$inline-script,1p,domain=jawcloud.co
 ||nyafilm*$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: jawcloud.co *.jawcloud.co *.peer5.com *.googleapis.com *.google.com *.gstatic.com;img-src *;worker-src 'none'
@@ -632,8 +632,8 @@ jawcloud.co##^script:has-text(Inject=!)
 /ads.js?
 ?excludes=^#xhr
 .wp.com/*/branding/*$important
-##[id="keremiya-js-extra"]
-##[id="hcaptcha-script-js"]
+##[id*="keremiya-js-extra"]
+##[id*="hcaptcha-script-js"]
 *##a[href*="/engine."]
 ||&guid=^$popup,important
 /iframes2/*.html?$subdocument
@@ -649,14 +649,42 @@ swemovie.*##[id*="foobar"]
 swemovie.*##[id*="oscuridad"]
 swemovie.*###playeroptionsul
 ||swemovie.*/wp-content/plugins/*$stylesheet,1p
-streamlare.com##+js(nowoif)
-streamlare.com##body > div[style="position: fixed; display: block; width: 100%; height: 100%; inset: 0px; background-color: rgba(0, 0, 0, 0); z-index: 300000;"]
+streamlare.*##+js(nowoif)
+streamlare.*##+js(window.open-defuser)
+streamlare.*##body > div[style="position: fixed; display: block; width: 100%; height: 100%; inset: 0px; background-color: rgba(0, 0, 0, 0); z-index: 300000;"]
+||streamlare.*/css/app.css$stylesheet,1p
+||cdn.streamlare.*/*.jpg$image,important
 @@||cdn.streamlare.com/*.vtt$xhr,1p
 ||cdn.streamlare.com^$image,1p
 ||google.com^$script,domain=streamlare.com
 /favicon-16x16-1.png$all
 /webworker.js$script,3p
 /css/dist/block-library/*$stylesheet
+
+#Kollafilm.com
+kollafilm.*##body:style(background-image: none !important;)
+kollafilm.*##.socialts
+kollafilm.*##.comments-area.bixbox
+kollafilm.*##[class="bx"] > div.note
+kollafilm.*##div.bixbox:contains(Gallery)
+kollafilm.*##wpdcom
+kollafilm.*##[id*="-css"]
+kollafilm.*##.cent.bnav > [href*="/"], [href*="/donation/"], [href*="discord"], [href*="/request-films/"]
+||kollafilm.*^$other,1p
+||kollafilm.*/wp-includes/js/wp-*js$script,1p
+||kollafilm.*/wp-admin/admin-ajax.php$xhr,1p
+||kollafilm.*/wp-content/plugins/wpdiscuz/*$stylesheet,1p
+||kollafilm.*/wp-content/plugins/ultimate-member/*$stylesheet,1p
+||kollafilm.*/wp-includes/js/underscore.min.js$script,1p
+||kollafilm.*/wp-includes/js/imagesloaded.min.js$script,1p
+||kollafilm.*/wp-content/plugins/ultimate-member/*$script,1p
+||content.kollafilm.*/uploads/*$image,important
+||videos.kollafilm.*/uploads/*$image,important
+/cropped*.png$image,important
+*##[src*="//inpage-push"]
+*##[class*="jw-icon jw-icon-inline jw-button-color jw-reset jw-icon-pip"]
+*##[class*="jw-text"]:contains(Picture in Picture)
+*$script,3p,denyallow=cloudflare.net|fastly.net|fontawesome.com|google.com|googleapis.com|gstatic.com|jquery.com|recaptcha.net|twitter.com|jsdelivr.net,domain=jawcloud.*|swemovie.*|vipleague.*|kollafilm.*|fmovies.*|ffmovies.*|bflix.*|gomovies.*|svenskafans.*|fromhot.*|123movies.*|123moviesto.*|0123movies.*|lookmovie.*|dwatchseries.*|i0123movies.*|onhockey.*|putlockers.*|bestmovies.*|moviesjoy.*|movies2watch.*
 
 #Vipleague.lc
 vipleague.*##+js(aeld, /^(?:click|mousedown|mousemove|touchstart|touchend|touchmove)$/, system.popunder)
@@ -741,8 +769,6 @@ fmovies.*,ffmovies.*##.top-content
 fmovies.*,ffmovies.*##center
 fmovies.*,ffmovies.*##li:nth-of-type(9) > [href="javascript:void(0)"]
 ##p:nth-child(15) > span > a
-##section:nth-child(15) > a
-##article:nth-child(15) > div > a
 @@/assets/js/video-js/
 *fmovies.*$xhr,1p
 *fmovies.*/sw.js
@@ -1306,35 +1332,35 @@ mixdrop.co##.s-wrapper
 ||mixdrop.*/sw.js$script,important
 *##div[onclick^="$(this).remove"]
 
-#Putlocker.me
-putlocker.*##+js(popads-dummy)
-putlocker.*##+js(abort-current-inline-script.js, document.getElementById, scriptId)
-putlocker.*##+js(abort-current-inline-script.js, disableFunction, frame)
-putlocker.*##[class="ds_overlay_pop"]
-putlocker.*##[class="eportPop dsModalContainer"]
-putlocker.*##[title="recaptcha-test"]
-putlocker.*##[type="text/javascript"]
-putlocker.*##center
-putlocker.*##[id="ljsob"]
-putlocker.*##.sidebaradsmainly.widgetsads
-putlocker.*##.smallContainer.facebookComarea
-putlocker.*##.footertop
-putlocker.*##.container.bottomfootera
-putlocker.*##body > .widgetsads
-putlocker.*##.tcc
-putlocker.*##[async="async"]
-putlocker.*##[class="linkads"]
-putlocker.*##[src*="//native.propellerclick.com/"]
-putlocker.*##[class="single_ads_player clear"]
-putlocker.*##[type="text/css"]
-putlocker.*##[name="google-site-verification"]
-putlocker.*##.clear.slidershareslideareamainhomeshare
-putlocker.*##.bottomdescription
-putlocker.*##.footer-tags
-putlocker.*###switch-mode
-putlocker.*##.btn-successful.btn-lg.btn
-putlocker.*##.footer-subs.col-lg-4
-putlocker.*##footer
+#Putlockers.gg
+putlockers.*##+js(popads-dummy)
+putlockers.*##+js(abort-current-inline-script.js, document.getElementById, scriptId)
+putlockers.*##+js(abort-current-inline-script.js, disableFunction, frame)
+putlockers.*##[class="ds_overlay_pop"]
+putlockers.*##[class="eportPop dsModalContainer"]
+putlockers.*##[title="recaptcha-test"]
+putlockers.*##[type="text/javascript"]
+putlockers.*##center
+putlockers.*##[id="ljsob"]
+putlockers.*##.sidebaradsmainly.widgetsads
+putlockers.*##.smallContainer.facebookComarea
+putlockers.*##.footertop
+putlockers.*##.container.bottomfootera
+putlockers.*##body > .widgetsads
+putlockers.*##.tcc
+putlockers.*##[async="async"]
+putlockers.*##[class="linkads"]
+putlockers.*##[src*="//native.propellerclick.com/"]
+putlockers.*##[class="single_ads_player clear"]
+putlockers.*##[type="text/css"]
+putlockers.*##[name="google-site-verification"]
+putlockers.*##.clear.slidershareslideareamainhomeshare
+putlockers.*##.bottomdescription
+putlockers.*##.footer-tags
+putlockers.*###switch-mode
+putlockers.*##.btn-successful.btn-lg.btn
+putlockers.*##.footer-subs.col-lg-4
+putlockers.*##footer
 verystream.*##[href$=".html"]
 viduplayer.*##[href$=".html"]
 verystream.com##+js(popads-dummy)
@@ -1342,8 +1368,8 @@ verystream.com##+js(nano-setTimeout-booster)
 verystream.com##+js(abort-on-property-read.js, adblock)
 verystream.com##+js(abort-on-property-read.js, open)
 vcstream.*##+js(popads-dummy)
-||verystream.net^$inline-script
-||verystream.com/assets/*$script,first-party
+||verystream.*^$inline-script
+||verystream.*/assets/*$script,1p
 ||img.verystream.com/splash/*$image
 ||verystream.com/gettoken/*$media,first-party
 ||ajax.cloudflare.com^$script,domain=putlocker.me
@@ -1463,14 +1489,7 @@ loadvid.*###overlay-vcplayer
 /js/kaltura.js$script
 /ajax/banners$xhr
 /images/dablock.png$image
-
-#Sport-stream.me
-sport-stream.*##+js(popads-dummy)
-sport-stream.*##div.row:nth-of-type(1) > .button > span
-sport-stream.*##div.row:nth-of-type(1)
-sport-stream.*##a[href*=".com/"]:has-text(Stream in HD now!)
-harleyquinnwidget.*##[href$=".html"]
-aliez.*##[href$=".html"]
+*##a[href*=".com/"]:has-text(Stream in HD now!)
 ##[id="adbtm"]
 ##[id="stpd"]
 ##[src="http://ii.aliez.me/img/x.gif"]
@@ -1478,6 +1497,8 @@ aliez.*##[href$=".html"]
 ##[class="adblock-notice text-center"]
 ##.addthis_inline_share_toolbox
 ||edua29146y.com^$important
+harleyquinnwidget.*##[href$=".html"]
+aliez.*##[href$=".html"]
 ||harleyquinnwidget.net^$popup
 ||rotumal.com^$important,popup
 ||static.tellerium.com^$popup,important
