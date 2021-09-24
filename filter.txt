@@ -668,6 +668,9 @@ kollafilm.*##.comments-area.bixbox
 kollafilm.*##[class="bx"] > div.note
 kollafilm.*##div.bixbox:contains(Gallery)
 kollafilm.*##wpdcom
+kollafilm.*###wpdUserContentInfo
+kollafilm.*###wpd-editor-source-code-wrapper
+kollafilm.*##.overlay
 kollafilm.*##[id*="-css"]
 kollafilm.*##.cent.bnav > [href*="/"], [href*="/donation/"], [href*="discord"], [href*="/request-films/"]
 ||kollafilm.*^$other,1p
