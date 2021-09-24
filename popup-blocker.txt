@@ -24,7 +24,6 @@
 *#blocked$popup,3p
 *##+js(aopr, popunderSetup)
 *##+js(acis, document.querySelector, popupBlocked)
-*##+js(aopw, _pop)
 *##+js(acis, decodeURI, zfgloadedpopup)
 *##+js(aopw, popup_ads)
 *##+js(set, ClickUnder, noopFunc)
