@@ -687,7 +687,7 @@ kollafilm.*##.cent.bnav > [href*="/"], [href*="/donation/"], [href*="discord"], 
 *##[src*="//inpage-push"]
 *##[class*="jw-icon jw-icon-inline jw-button-color jw-reset jw-icon-pip"]
 *##[class*="jw-text"]:contains(Picture in Picture)
-*$script,3p,denyallow=cloudflare.net|fastly.net|fontawesome.com|google.com|googleapis.com|gstatic.com|jquery.com|recaptcha.net|twitter.com|jsdelivr.net,domain=jawcloud.*|vipleague.*|fmovies.*|ffmovies.*|bflix.*|gomovies.*|svenskafans.*|fromhot.*|123movies.*|123moviesto.*|0123movies.*|lookmovie.*|dwatchseries.*|i0123movies.*|onhockey.*|putlockers.*|bestmovies.*|moviesjoy.*|movies2watch.*
+*$script,3p,denyallow=cloudflare.net|google.com|googleapis.com|gstatic.com|jquery.com|recaptcha.net|twitter.com|jsdelivr.net,domain=jawcloud.*|vipleague.*|fmovies.*|ffmovies.*|bflix.*|gomovies.*|svenskafans.*|fromhot.*|123movies.*|123moviesto.*|0123movies.*|lookmovie.*|dwatchseries.*|i0123movies.*|onhockey.*|putlockers.*|bestmovies.*|moviesjoy.*|movies2watch.*
 
 #Vipleague.lc
 vipleague.*##+js(aeld, /^(?:click|mousedown|mousemove|touchstart|touchend|touchmove)$/, system.popunder)
