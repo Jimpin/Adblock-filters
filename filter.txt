@@ -703,10 +703,7 @@ kollafilm.*##.cent.bnav > [href*="/"], [href*="/donation/"], [href*="discord"], 
 #Vipleague.lc
 vipleague.*,tvply.*##+js(acis, Math, break;case $.)
 vipleague.*,tvply.*##+js(aopw, _pop)
-vipleague.*##+js(aeld, /^(?:click|mousedown|mousemove|touchstart|touchend|touchmove)$/, system.popunder)
-vipleague.*##+js(addEventListener-defuser, /^(?:click|mousedown)$/, _0x)
 vipleague.*##.position-absolute:style(opacity: 0 !important;)
-vipleague.*##+js(addEventListener-defuser, /^(?:mousedown|pointerdown)$/, 297)
 vipleague.*##+js(nano-sib)
 vipleague.*##script:contains(addEventListener)
 vipleague.*##.btn-lg
