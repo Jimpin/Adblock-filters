@@ -695,11 +695,14 @@ kollafilm.*##.cent.bnav > [href*="/"], [href*="/donation/"], [href*="discord"], 
 ||content.kollafilm.*/uploads/*$image,important
 ||videos.kollafilm.*/uploads/*$image,important
 /cropped*.png$image,important
+/cropped*.jpg$image,important
 *##[src*="//inpage-push"]
 *##[class*="jw-icon jw-icon-inline jw-button-color jw-reset jw-icon-pip"]
 *##[class*="jw-"]:contains(Picture in Picture)
 
 #Vipleague.lc
+vipleague.*,tvply.*##+js(acis, Math, break;case $.)
+vipleague.*,tvply.*##+js(aopw, _pop)
 vipleague.*##+js(aeld, /^(?:click|mousedown|mousemove|touchstart|touchend|touchmove)$/, system.popunder)
 vipleague.*##+js(addEventListener-defuser, /^(?:click|mousedown)$/, _0x)
 vipleague.*##.position-absolute:style(opacity: 0 !important;)
@@ -731,21 +734,19 @@ vipleague.*##[class*=" d-block"]
 vipleague.*##[action="https://www.tvply.me/sdembed?v=spa1hd~spa1sd"]
 @@||plytv.me^$subdocument
 @@||cdn.okamata.site^$image
-/*^$xhr,frame,css,3p,domain=vipleague.lc
 ||vipleague.*/loadchatdata$xhr,domain=www.vipleague.lc
 ||vipleague.*/favicon-32x32.png$image
 ||clients6.google.com/rpc$xmlhttprequest,domain=www.vipleague.lc
-||cdn.jsdelivr.net/npm/yandex-metrica-watch/tag.js
-||cdn.jsdelivr.net/npm/*$xhr
 ||mw19c3mi5a.com^$important
 ||bcloudhost.com^$script
 ||oagwl3372h.com^$important
 ||refbanners.com/I
 ||bannerflow.com^$important
-||mw19c3mi5a.com^$important
 ||commercialvalue.org^$important
 ||linkedin.com^$script,3p
 ||mirafaren.pw^$all
+/*^$xhr,frame,css,3p,domain=vipleague.lc
+/yandex-metrica-watch/tag.js
 
 #Fmovies
 fmovies.*,ffmovies.*##+js(acis, Math, zfgloaded)
@@ -856,6 +857,26 @@ streamtape.*#@#.google-ad
 ||streamtape.com/mainstream2.js
 ||in-page-push.com^$important
 /tag.min.js$3p
+
+#Bflix.to
+bflix.*##[src*=".js"]
+bflix.*###menu [href*="anime"]
+bflix.*##.index-search > .text-muted
+bflix.*##h1
+bflix.*##footer > .container
+bflix.*##.items > div:contains(Comment)
+bflix.*##.servers > li:contains(VideoVard)
+bflix.*##.bl-1 > .mt-4
+||bflix.*/assets/bflix/favicons/*
+||bflix.*/ajax/film/tooltip/*$xhr
+||bflix.*/ajax/user/panel$xhr
+||bflix.*/assets/bflix/*$xhr
+||bflix.disqus.com/embed.js$xhr
+||videovard.sx/js/l*.js$script,1p
+||videovard.sx/api/player/setup$xhr
+||videovard.sx/js/videojs-contrib-hls.js$script,1p
+||videovard.sx/js/video.min.js$script,1p
+/assets/*/favicons/favicon.png^$image,xhr
 
 #Dn.se
 dn.se##+js(acis, DN, initAds)
@@ -5210,6 +5231,8 @@ popuper.js^
 
 /^https?:\/\/(?:[a-z]{2}\.)?[0-9a-z]{7,16}\.(?:com|pw|site)\/[a-z](?=[0-9a-z]{0,15}[A-Z])(?=[a-z]{0,14}[0-9A-Z])[0-9a-zA-Z]{10,16}\/(?:[1-4]\d{4}|[4-9]\d{3})(\?_=\d+)?$/$script,3p,match-case
 *$csp=script-src 'none',domain=länsförsäkringar.se|svtt.se|ssvd.se|exressen.se|eexpressen.se|sskatteverket.se|aatg.se|atgg.se
+/[0-9a-f]{32}\/invoke\.js/$script,3p
+/script/su.js^$script
 /event$xhr,3p
 ||cloudflare-terms-of-service-abuse.com^
 /css/deblocker.min.css$stylesheet,1p
