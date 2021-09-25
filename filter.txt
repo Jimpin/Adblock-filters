@@ -523,55 +523,64 @@ blocket.se##div:matches-css(width: 1012px):matches-css(height: 24px)
 /ad-block-detection-script-tag-src.js$script,redirect-rule=noopjs
 ||logs2.xiti.com^
 
-#Gomovieshub/Gomovies
-gomovieshub.*,gomovies.*##+js(acis, String.fromCharCode, /btoa|break/)
-gomovieshub.*,gomovies.*##+js(acis, document.createElement, 'script')
-gomovieshub.*,gomovies.*##[target="_blank"]
-gomovieshub.*,gomovies.*##+js(set-constant, check_adblock, true)
-gomovieshub.*,gomovies.*##+js(window.open-defuser)
-gomovieshub.*,gomovies.*##.hm-button
-gomovieshub.*,gomovies.*##.alert-bottom
-gomovieshub.*,gomovies.*##.alert-warning.alert
-gomovieshub.*,gomovies.*###commentfb
-gomovieshub.*,gomovies.*##.text-center.alert.ann-home
-gomovieshub.*,gomovies.*##.swiper-slide-active.swiper-slide > .slide-link
-gomovieshub.*,gomovies.*##.text-bottom.text-center
-gomovieshub.*,gomovies.*##a[href="https://123movies.sc"]
-gomovieshub.*,gomovies.*##footer
-gomovieshub.*,gomovies.*##.footer-link:nth-of-type(2)
-gomovieshub.*,gomovies.*##.footer-tags
-gomovieshub.*,gomovies.*##.footer-copyright.col-lg-4 > p:nth-of-type(3)
-gomovieshub.*,gomovies.*###subscribe-submit-footer
-gomovieshub.*,gomovies.*##.mlw-related.movies-list-wrap
-gomovieshub.*,gomovies.*##.social-home
-gomovieshub.*,gomovies.*##.twitter-follow-button
-||gomovies.*/wp-content/themes/assets/css/jquery.cluetip.css$css
-||gomovies.*/wp-content/themes/assets/css/jquery.qtip.min.css$css
+#Gomovies
+gomovies.*##+js(acis, String.fromCharCode, /btoa|break/)
+gomovies.*##+js(acis, document.createElement, 'script')
+gomovies.*##[target="_blank"]
+gomovies.*##+js(set-constant, check_adblock, true)
+gomovies.*##+js(window.open-defuser)
+gomovies.*##.hm-button
+gomovies.*##.alert-bottom
+gomovies.*##.alert-warning.alert
+gomovies.*###commentfb
+gomovies.*##.text-center.alert.ann-home
+gomovies.*##.swiper-slide-active.swiper-slide > .slide-link
+gomovies.*##.text-bottom.text-center
+gomovies.*##a[href="https://123movies.sc"]
+gomovies.*##footer
+gomovies.*##.footer-link:nth-of-type(2)
+gomovies.*##.footer-tags
+gomovies.*##.footer-copyright.col-lg-4 > p:nth-of-type(3)
+gomovies.*###subscribe-submit-footer
+gomovies.*##.mlw-related.movies-list-wrap
+gomovies.*##.social-home
+gomovies.*##.twitter-follow-button
+||gomovies*/wp-content/themes/assets/css/jquery.cluetip.css$css
+||gomovies*/wp-content/themes/assets/css/jquery.qtip.min.css$css
 ||spotscenered.info$important
 ||streamgo.me/assets^$image
 ||streamgo.me/templates/jwplayer/assets/juicycodes.js$script
 ||streamgo.me/templates/jwplayer/assets/jq.min.js$script
 ||jwpcdn.com/player/plugins/*/related.js$script
-||gomoviesto.disqus.com/embed.js$script,domain=gomovies.sc
+||gomovies*.disqus.com/embed.js$script
 ||cdn.123gocdn.com/images/tt1396484/backdrop.jpg$image
 
 #Imdb.com
+imdb.com##body#styleguide-v2:style(background-color: #e3e2dd !important; background-image: none !important;)
+imdb.com###injected_navstrip_wrapper
+imdb.com##[id="videoAutoplayPreviewPreferences"]
+imdb.com###videoPreviewEmbedIframe
+imdb.com##.videoPreview__linkTarget
 imdb.com##.recently-viewed
 imdb.com###rvi-div
 imdb.com###top_rhs_after
 imdb.com###top_rhs
 imdb.com###top_ad
 @@||images-na.ssl-images-amazon.com/images/g/
+@@||media-imdb.com^$media,domain=imdb.com
+@@||image.tmdb.org^$image
+||imdb.com/tr/*pageHit$xhr,redirect=noopjs,domain=imdb.com
+||fls-na.amazon.com/$xhr,redirect=noopjs,domain=imdb.com
 ||images-na.ssl-images-amazon.com/images/G/02/shazam/1-MMM-Prem-wrap-2-5a2f2860-f043-48a7-ac78-4e3b3f8d60ef.jpg$image
 ||aax-eu.amazon-adsystem.com/$domain=www.imdb.com,subdocument
 ||images-na.ssl-images-amazon.com/images/$image
-/js/show_ads.js^
-@@||image.tmdb.org^$image
 ||imdb.com/widget/*
 ||scorecardresearch.com^
 ||z-ecx.images-amazon.com^$script
 ||zergnet.com^
 ||amazon.com/aan/*
+*$media,redirect=noopmp3-0.1s,domain=imdb.com,3p
+/js/show_ads.js^
 
 #Nyafilmer/Jawcloud
 nyafilm*$1p
@@ -632,6 +641,8 @@ jawcloud.co##^script:has-text(Inject=!)
 /ads.js?
 ?excludes=^#xhr
 .wp.com/*/branding/*$important
+##.jawban
+##.jwbanner
 ##[id*="keremiya-js-extra"]
 ##[id*="hcaptcha-script-js"]
 *##a[href*="/engine."]
@@ -652,9 +663,9 @@ swemovie.*###playeroptionsul
 streamlare.*##+js(nowoif)
 streamlare.*##+js(window.open-defuser)
 streamlare.*##body > div[style="position: fixed; display: block; width: 100%; height: 100%; inset: 0px; background-color: rgba(0, 0, 0, 0); z-index: 300000;"]
+@@||cdn.streamlare.com/*.vtt$xhr,1p
 ||streamlare.*/css/app.css$stylesheet,1p
 ||cdn.streamlare.*/*.jpg$image,important
-@@||cdn.streamlare.com/*.vtt$xhr,1p
 ||cdn.streamlare.com^$image,1p
 ||google.com^$script,domain=streamlare.com
 /favicon-16x16-1.png$all
@@ -954,18 +965,6 @@ dplay.se##div:matches-css(width: 3px):matches-css(height: 5px)
 ||demdex.net^$xhr
 ||telemetric.dk^$3p
 
-#Fromhot.com
-fromhot.*##+js(popads-dummy)
-||*.html$popup,first-party,important,domain=sportingvideo.com
-||webtv.ws/adds/*$important
-||sportingvideo3.com^$other
-||clevernt.com^$script,important
-||sofascore.com/bundles/sofascoreweb/*$3p
-||sports-stream.net/close1.png$image,domain=www.sports-stream.net
-||jazztv.co^$important
-/images/closebtn.png$image
-/images/bkg.png
-
 #Flashback.org
 flashback.org##+js(popads-dummy)
 flashback.org##.banner_text
@@ -1005,24 +1004,24 @@ rltracker.pro##.col-sm-12 > .row
 ||rltracker.pro/assets/rl*.png$image
 
 #123movies
-123movies.*,123moviesto.*##+js(acis, jQuery, appendTo)
-123movies.*,123moviesto.*##+js(acis, jQuery, adblocker)
-123movies.*,123moviesto.*##+js(aopr, open)
-123movies.*,123moviesto.*##+js(aopr, InstallTrigger)
-123movies.*,123moviesto.*##[id="overlay"]
-123movies.*,123moviesto.*##a[href^="/"][href*=".html"][target="_blank"]
-123movies.*,123moviesto.*##+js(acis, p2pml.hlsjs.Engine, loader)
-123movies.*,123moviesto.*##+js(acis, document.getElementById, style.display)
-123movies.*,123moviesto.*##+js(aopr, BetterJsPop)
-123movies.*,123moviesto.*##+js(acis, decodeURI, getScriptFromCss)
-123movies.*,123moviesto.*##div#pagination:nth-of-type(4)
-123movies.*,123moviesto.*##.bottom-bnr
-123movies.*,123moviesto.*##[rel="nofollow noopener"]
-123movies.*,123moviesto.*##.play-notice > .alert-warning.alert
-123movies.*,123moviesto.*##.buttons
-123movies.*,123moviesto.*##.btn-successful.btn-lg.btn
-123movies.*,123moviesto.*##.row > .clearfix
-123movies.*,123moviesto.*##footer
+123movies.*,123moviesto.*,123gofmovies.*##+js(acis, jQuery, appendTo)
+123movies.*,123moviesto.*,123gofmovies.*##+js(acis, jQuery, adblocker)
+123movies.*,123moviesto.*,123gofmovies.*##+js(aopr, open)
+123movies.*,123moviesto.*,123gofmovies.*##+js(aopr, InstallTrigger)
+123movies.*,123moviesto.*,123gofmovies.*##[id="overlay"]
+123movies.*,123moviesto.*,123gofmovies.*##a[href^="/"][href*=".html"][target="_blank"]
+123movies.*,123moviesto.*,123gofmovies.*##+js(acis, p2pml.hlsjs.Engine, loader)
+123movies.*,123moviesto.*,123gofmovies.*##+js(acis, document.getElementById, style.display)
+123movies.*,123moviesto.*,123gofmovies.*##+js(aopr, BetterJsPop)
+123movies.*,123moviesto.*,123gofmovies.*##+js(acis, decodeURI, getScriptFromCss)
+123movies.*,123moviesto.*,123gofmovies.*##div#pagination:nth-of-type(4)
+123movies.*,123moviesto.*,123gofmovies.*##.bottom-bnr
+123movies.*,123moviesto.*,123gofmovies.*##[rel="nofollow noopener"]
+123movies.*,123moviesto.*,123gofmovies.*##.play-notice > .alert-warning.alert
+123movies.*,123moviesto.*,123gofmovies.*##.buttons
+123movies.*,123moviesto.*,123gofmovies.*##.btn-successful.btn-lg.btn
+123movies.*,123moviesto.*,123gofmovies.*##.row > .clearfix
+123movies.*,123moviesto.*,123gofmovies.*##footer
 *123movie^$csp=script-src 'self' 'unsafe-inline' *.google-analytics.com *.cloudflare.com *.gstatic.com *.google.com *.recaptcha.net
 *123movie^$other
 *123movie*/assets/js/custombanner.js$script
@@ -1488,6 +1487,15 @@ loadvid.*###overlay-vcplayer
 ||zap.buzz^$important
 ||static.zdassets.com^$script
 ||ekr.zdassets.com^$xhr
+dood.*##+js(nano-setInterval-booster, .countdown, , 0.02)
+dood.*##+js(abort-current-script, adcashMacros)
+dood.*##+js(aopw, check)
+dood.*##+js(aeld, contextmenu)
+dood.*##+js(acis, Math, break;case)
+dood.*##+js(acis, adcashMacros)
+dood.*##+js(aopw, _pop)
+dood.*##+js(aopw, DoodPop)
+dood.*##+js(nostif, debugger)
 ||doodcdn.com/splash/*.jpg^$image
 /js/kaltura.js$script
 /ajax/banners$xhr
@@ -4836,7 +4844,7 @@ popuper.js^
 */images/reklam$image
 *.html?q^$important
 */redirect.aspx?
-*$popup,3p,domain=gomovies.sc|fmovies.to|openload.co
+*$popup,3p,domain=gomovies.*|fmovies.*
 /optimizelyjs/*
 /ad.js$script
 
@@ -4961,8 +4969,6 @@ popuper.js^
 *##+js(aopr, ExoLoader.serve)
 *##div[id*="sidebar"][data-before-content="advertisement"]:upward(3)
 *##iframe[src*="/ads-iframe"]
-*##iframe[src*=".html"]
-*##iframe[src*=".php"]
 *##.consent-banner:contains(cookies)
 *##+js(acis, burtSegments)
 *##+js(acis, Bau, preloadAds)
