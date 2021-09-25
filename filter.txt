@@ -1129,7 +1129,6 @@ streamtajm.*##.rightside.col-sm-8.col-xs-12 > .table-bordered.table > tbody > tr
 streamtajm.*##div[style*="width: 750px; height: 100px; padding: 5px 5px 5px 0;"]
 streamtajm.*##.hidden-xs.col-md-5.col-sm-6.pull-right
 @@||streamtajm.*/images/dfhdcom.png$image
-||streamtajm.*^$csp=default-src 'self' 'unsafe-inline' *.googleapis.com stload.com nxload.com jawcloud.co;img-src *;worker-src 'none'
 ||*.net^$frame,image,other,domain=streamtajm.com
 ||*.com^$other,domain=streamtajm.com
 ||nxload.com/thumbnails/
