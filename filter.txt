@@ -1450,7 +1450,6 @@ moviesjoy.*,movies2watch.*,myflixer.*##.text-home-main
 moviesjoy.*,movies2watch.*,myflixer.*##.show.modalshare-1.premodal-share.premodal.modal
 moviesjoy.*,movies2watch.*,myflixer.*##.show.modal-backdrop
 moviesjoy.*,movies2watch.*,myflixer.*##[class="follow"]
-*##[class="vjs-picture-in-picture-control vjs-control vjs-button"]
 vcstream.*##.pub_300x250.pub_300x250m.pub_728x90.text-ad.textAd.text_ad.text_ads.text-ads.text-ad-links:style(display:block!important;)
 vcstream.*##[href$=".html"]
 vidcloud.*##[href$=".html"]
