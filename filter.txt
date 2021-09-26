@@ -864,12 +864,12 @@ bflix.*##footer > .container
 bflix.*##.items > div:contains(Comment)
 bflix.*##.servers > li:contains(VideoVard)
 bflix.*##.bl-1 > .mt-4
-||bflix.*/assets/bflix/favicons/*
-||bflix.*/ajax/film/tooltip/*$xhr
-||bflix.*/ajax/user/panel$xhr
-||bflix.*/assets/bflix/*$xhr
-||bflix.disqus.com/embed.js$xhr
-||videovard.sx/js/l*.js$script,1p
+*flix.*/assets/*flix/favicons/
+*flix.*/ajax/film/tooltip/*$xhr
+*flix.*/ajax/user/panel$xhr
+*flix.*/assets/*flix/$xhr
+*flix.disqus.com/embed.js$xhr
+videovard.sx/js/l*.js$script,1p
 ||videovard.sx/api/player/setup$xhr
 ||videovard.sx/js/videojs-contrib-hls.js$script,1p
 ||videovard.sx/js/video.min.js$script,1p
@@ -1424,35 +1424,33 @@ bestmovies.*##[class="btn-container"]
 ||track.amzinguidance.com^$important
 
 #Moviesjoy/Movies2watch
-moviesjoy.*,movies2watch.*##html,body:style(overflow-y: auto !important;)
-moviesjoy.*,movies2watch.*###gift-top
-moviesjoy.*,movies2watch.*##.ts-social
-moviesjoy.*,movies2watch.*##.show.premodal-share.premodal.modal
-moviesjoy.*,movies2watch.*##.show.modal-backdrop
-moviesjoy.*,movies2watch.*##.dt-content
-moviesjoy.*,movies2watch.*##li:has-text(Hydrax)
-moviesjoy.*,movies2watch.*###film_comments > .block_area-header > .clearfix
-moviesjoy.*,movies2watch.*###film_comments > .block_area-header
-moviesjoy.*,movies2watch.*##.row-tags
-moviesjoy.*,movies2watch.*##.mb-5.mw-body
-moviesjoy.*,movies2watch.*##.mb-5.text-center.mw-buttons
-moviesjoy.*,movies2watch.*##.mb-5.text-center.mw-buttons > .btn-primary.btn-radius.btn-lg.btn
-moviesjoy.*,movies2watch.*##.footer-links
-moviesjoy.*,movies2watch.*##.about-text
-moviesjoy.*,movies2watch.*##+js(popads-dummy)
-moviesjoy.*,movies2watch.*##.inline_addthis_home.inline_addthis
-moviesjoy.*,movies2watch.*###footer > .container
-moviesjoy.*,movies2watch.*###pc-comment
-moviesjoy.*,movies2watch.*###pc-share
-moviesjoy.*,movies2watch.*###pop-share
-moviesjoy.*,movies2watch.*###film_comments
-moviesjoy.*,movies2watch.*###gift-top
-moviesjoy.*,movies2watch.*##.text-home-main
-moviesjoy.*,movies2watch.*##.show.modalshare-1.premodal-share.premodal.modal
-moviesjoy.*,movies2watch.*##.show.modal-backdrop
-moviesjoy.*,movies2watch.*##[class="follow"]
-##[href*="doodstream"]
-##[class="vjs-picture-in-picture-control vjs-control vjs-button"]
+moviesjoy.*,movies2watch.*,myflixer.*##html,body:style(overflow-y: auto !important;)
+moviesjoy.*,movies2watch.*,myflixer.*###gift-top
+moviesjoy.*,movies2watch.*,myflixer.*##.ts-social
+moviesjoy.*,movies2watch.*,myflixer.*##.show.premodal-share.premodal.modal
+moviesjoy.*,movies2watch.*,myflixer.*##.show.modal-backdrop
+moviesjoy.*,movies2watch.*,myflixer.*##.dt-content
+moviesjoy.*,movies2watch.*,myflixer.*##li:has-text(Hydrax)
+moviesjoy.*,movies2watch.*,myflixer.*###film_comments > .block_area-header > .clearfix
+moviesjoy.*,movies2watch.*,myflixer.*###film_comments > .block_area-header
+moviesjoy.*,movies2watch.*,myflixer.*##.row-tags
+moviesjoy.*,movies2watch.*,myflixer.*##.mb-5.mw-body
+moviesjoy.*,movies2watch.*,myflixer.*##.mb-5.text-center.mw-buttons
+moviesjoy.*,movies2watch.*,myflixer.*##.mb-5.text-center.mw-buttons > .btn-primary.btn-radius.btn-lg.btn
+moviesjoy.*,movies2watch.*,myflixer.*##.footer-links
+moviesjoy.*,movies2watch.*,myflixer.*##.about-text
+moviesjoy.*,movies2watch.*,myflixer.*##+js(popads-dummy)
+moviesjoy.*,movies2watch.*,myflixer.*##.inline_addthis_home.inline_addthis
+moviesjoy.*,movies2watch.*,myflixer.*###footer > .container
+moviesjoy.*,movies2watch.*,myflixer.*###pc-comment
+moviesjoy.*,movies2watch.*,myflixer.*###pc-share
+moviesjoy.*,movies2watch.*,myflixer.*###pop-share
+moviesjoy.*,movies2watch.*,myflixer.*###film_comments
+moviesjoy.*,movies2watch.*,myflixer.*##.text-home-main
+moviesjoy.*,movies2watch.*,myflixer.*##.show.modalshare-1.premodal-share.premodal.modal
+moviesjoy.*,movies2watch.*,myflixer.*##.show.modal-backdrop
+moviesjoy.*,movies2watch.*,myflixer.*##[class="follow"]
+*##[class="vjs-picture-in-picture-control vjs-control vjs-button"]
 vcstream.*##.pub_300x250.pub_300x250m.pub_728x90.text-ad.textAd.text_ad.text_ads.text-ads.text-ad-links:style(display:block!important;)
 vcstream.*##[href$=".html"]
 vidcloud.*##[href$=".html"]
