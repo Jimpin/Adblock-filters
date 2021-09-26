@@ -1137,6 +1137,7 @@ dwatchseries.*##.jw-submenu-sharing.jw-settings-sharing.jw-reset.jw-button-color
 streamtajm.*##+js(popads-dummy)
 streamtajm.*##+js(acis, TID, J0)
 streamtajm.*##[href$=".html"]
+streamtajm.*##[href*="/forum"]
 streamtajm.*##.container > div.row:nth-of-type(2)
 streamtajm.*##.rightside.col-sm-8.col-xs-12 > div:nth-of-type(6)
 streamtajm.*##.longbanner
