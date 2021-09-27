@@ -541,6 +541,8 @@ gomovies.*##footer
 gomovies.*##.footer-link:nth-of-type(2)
 gomovies.*##.footer-tags
 gomovies.*##.footer-copyright.col-lg-4 > p:nth-of-type(3)
+gomovies.*##div#pagination:nth-of-type(3)
+gomovies.*##div:nth-of-type(5)
 gomovies.*###subscribe-submit-footer
 gomovies.*##.mlw-related.movies-list-wrap
 gomovies.*##.social-home
@@ -774,6 +776,11 @@ fmovies.*,ffmovies.*##.notice.alert-default.alert
 fmovies.*,ffmovies.*##.hidden-sm.hidden-xs.alert-warning.alert
 fmovies.*,ffmovies.*##a[href$=".html"][target="_blank"]
 fmovies.*,ffmovies.*##body > div:nth-of-type(9)
+fmovies.*,ffmovies.*##div.paging:nth-of-type(1)
+fmovies.*,ffmovies.*##.dsclear.go_article_home
+fmovies.*,ffmovies.*##[href*="/home"]
+fmovies.*,ffmovies.*##.bottomfooter
+fmovies.*,ffmovies.*##.clear.footertop
 fmovies.*,ffmovies.*##li:nth-of-type(3) > [href="#"]
 fmovies.*,ffmovies.*##[href="/list/featured-movies.html"]
 fmovies.*,ffmovies.*##.top-content
@@ -781,7 +788,6 @@ fmovies.*,ffmovies.*##center
 fmovies.*,ffmovies.*##li:nth-of-type(9) > [href="javascript:void(0)"]
 ##p:nth-child(15) > span > a
 @@/assets/js/video-js/
-*fmovies.*$xhr,1p
 *fmovies.*/sw.js
 *fmovies.*/clear.gif$image
 *fmovies.*/ajax/film/update-views$xhr
