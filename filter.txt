@@ -524,31 +524,31 @@ blocket.se##div:matches-css(width: 1012px):matches-css(height: 24px)
 ||logs2.xiti.com^
 
 #Gomovies
-gomovies.*##+js(acis, String.fromCharCode, /btoa|break/)
-gomovies.*##+js(acis, document.createElement, 'script')
-gomovies.*##[target="_blank"]
-gomovies.*##+js(set-constant, check_adblock, true)
-gomovies.*##+js(window.open-defuser)
-gomovies.*##.hm-button
-gomovies.*##.alert-bottom
-gomovies.*##.alert-warning.alert
-gomovies.*###commentfb
-gomovies.*##.text-center.alert.ann-home
-gomovies.*##.swiper-slide-active.swiper-slide > .slide-link
-gomovies.*##.text-bottom.text-center
-gomovies.*##a[href="https://123movies.sc"]
-gomovies.*##footer
-gomovies.*##.footer-link:nth-of-type(2)
-gomovies.*##.footer-tags
-gomovies.*##.footer-copyright.col-lg-4 > p:nth-of-type(3)
-gomovies.*##div#pagination:nth-of-type(3)
-gomovies.*##div:nth-of-type(5)
-gomovies.*###subscribe-submit-footer
-gomovies.*##.mlw-related.movies-list-wrap
-gomovies.*##.social-home
-gomovies.*##.twitter-follow-button
-||gomovies*/wp-content/themes/assets/css/jquery.cluetip.css$css
-||gomovies*/wp-content/themes/assets/css/jquery.qtip.min.css$css
+gomovies.*,gomoviefree.*##+js(acis, String.fromCharCode, /btoa|break/)
+gomovies.*,gomoviefree.*##+js(acis, document.createElement, 'script')
+gomovies.*,gomoviefree.*##[target="_blank"]
+gomovies.*,gomoviefree.*##+js(set-constant, check_adblock, true)
+gomovies.*,gomoviefree.*##+js(window.open-defuser)
+gomovies.*,gomoviefree.*##.hm-button
+gomovies.*,gomoviefree.*##.alert-bottom
+gomovies.*,gomoviefree.*##.alert-warning.alert
+gomovies.*,gomoviefree.*###commentfb
+gomovies.*,gomoviefree.*##.text-center.alert.ann-home
+gomovies.*,gomoviefree.*##.swiper-slide-active.swiper-slide > .slide-link
+gomovies.*,gomoviefree.*##.text-bottom.text-center
+gomovies.*,gomoviefree.*##a[href="https://123movies.sc"]
+gomovies.*,gomoviefree.*##footer
+gomovies.*,gomoviefree.*##.footer-link:nth-of-type(2)
+gomovies.*,gomoviefree.*##.footer-tags
+gomovies.*,gomoviefree.*##.footer-copyright.col-lg-4 > p:nth-of-type(3)
+gomovies.*,gomoviefree.*##div#pagination:nth-of-type(3)
+gomovies.*,gomoviefree.*##div:nth-of-type(5)
+gomovies.*,gomoviefree.*###subscribe-submit-footer
+gomovies.*,gomoviefree.*##.mlw-related.movies-list-wrap
+gomovies.*,gomoviefree.*##.social-home
+gomovies.*,gomoviefree.*##.twitter-follow-button
+*gomovie*/wp-content/themes/assets/css/jquery.cluetip.css$css
+*gomovie*/wp-content/themes/assets/css/jquery.qtip.min.css$css
 ||spotscenered.info$important
 ||streamgo.me/assets^$image
 ||streamgo.me/templates/jwplayer/assets/juicycodes.js$script
@@ -1119,26 +1119,6 @@ lookmovie.*###social-share
 ||captchadecoder.com^
 ||anti-captcha.com^
 
-#Dwatchseries.org
-dwatchseries.*##+js(popads-dummy)
-dwatchseries.*###cookiedata
-dwatchseries.*###switch-mode
-dwatchseries.*##.footer-tags
-dwatchseries.*##.row > .clearfix
-dwatchseries.*##.container > .row
-dwatchseries.*###commentfb
-dwatchseries.*###bar-player
-dwatchseries.*###vb_sv_7
-dwatchseries.*##.pad
-dwatchseries.*##.ml-title-page.ml-title > .clearfix
-dwatchseries.*###hidden_tip > .jtip-top
-dwatchseries.*##.mt20.mlw-topview.movies-list-wrap > .ml-title > .pull-left
-dwatchseries.*##div#pagination:nth-of-type(3)
-dwatchseries.*##.jw-submenu-quality.jw-settings-quality.jw-reset.jw-button-color.jw-icon-inline.jw-icon
-dwatchseries.*##.jw-submenu-sharing.jw-settings-sharing.jw-reset.jw-button-color.jw-icon-inline.jw-icon
-||dwatchseries.*/wp-content/plugins/accesspress-social-login-lite/*$first-party
-||driveproxy.net^$important
-
 #Streamtajm.com
 streamtajm.*##+js(popads-dummy)
 streamtajm.*##+js(acis, TID, J0)
@@ -1163,25 +1143,6 @@ streamtajm.*##.hidden-xs.col-md-5.col-sm-6.pull-right
 ||nxload.com/dl$xmlhttprequest
 ||pushsar.com^
 ||badslads.com^
-
-#I0123movies.com
-i0123movies.*##+js(popads-dummy)
-i0123movies.*###cookiedata
-i0123movies.*###switch-mode
-i0123movies.*##.footer-tags
-i0123movies.*##.row > .clearfix
-i0123movies.*##.container > .row
-i0123movies.*###commentfb
-i0123movies.*###bar-player
-i0123movies.*###vb_sv_7
-i0123movies.*##.pad
-i0123movies.*##.ml-title-page.ml-title > .clearfix
-i0123movies.*###hidden_tip > .jtip-top
-i0123movies.*##.mt20.mlw-topview.movies-list-wrap > .ml-title > .pull-left
-i0123movies.*##div#pagination:nth-of-type(3)
-i0123movies.*##.jw-submenu-quality.jw-settings-quality.jw-reset.jw-button-color.jw-icon-inline.jw-icon
-i0123movies.*##.jw-submenu-sharing.jw-settings-sharing.jw-reset.jw-button-color.jw-icon-inline.jw-icon
-||i0123movies.*/wp-content/plugins/accesspress-social-login-lite/*$first-party
 
 #Ratsit.se
 ratsit.se##.footer
@@ -1411,18 +1372,6 @@ vcstream.*##+js(popads-dummy)
 ||coothupu.net^$important
 ||yandexcdn.com^$important
 ||zopim.com^$important
-
-#Bestmovies.to
-bestmovies.*##+js(popads-dummy)
-bestmovies.*##.col-md-offset-2.col-sm-offset-0.col-xs-offset-0.col-md-8.col-sm-12.col-xs-12
-bestmovies.*###mv-keywords
-bestmovies.*##.container > .row
-bestmovies.*###footer > .container
-bestmovies.*##footer
-bestmovies.*##div#le-server.le-server:nth-of-type(2)
-bestmovies.*##.mvic-btn
-bestmovies.*###btn-premium-download
-bestmovies.*##[class="btn-container"]
 ||getclicky.com^$important
 ||clkitgo.com^$important
 ||brightonclick.com^$important
