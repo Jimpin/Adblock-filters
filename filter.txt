@@ -524,38 +524,39 @@ blocket.se##div:matches-css(width: 1012px):matches-css(height: 24px)
 ||logs2.xiti.com^
 
 #Gomovies
-gomovies.*,gomoviefree.*##+js(acis, String.fromCharCode, /btoa|break/)
-gomovies.*,gomoviefree.*##+js(acis, document.createElement, 'script')
-gomovies.*,gomoviefree.*##[target="_blank"]
-gomovies.*,gomoviefree.*##+js(set-constant, check_adblock, true)
-gomovies.*,gomoviefree.*##+js(window.open-defuser)
-gomovies.*,gomoviefree.*##.hm-button
-gomovies.*,gomoviefree.*##.alert-bottom
-gomovies.*,gomoviefree.*##.alert-warning.alert
-gomovies.*,gomoviefree.*###commentfb
-gomovies.*,gomoviefree.*##.text-center.alert.ann-home
-gomovies.*,gomoviefree.*##.swiper-slide-active.swiper-slide > .slide-link
-gomovies.*,gomoviefree.*##.text-bottom.text-center
-gomovies.*,gomoviefree.*##a[href="https://123movies.sc"]
-gomovies.*,gomoviefree.*##footer
-gomovies.*,gomoviefree.*##.footer-link:nth-of-type(2)
-gomovies.*,gomoviefree.*##.footer-tags
-gomovies.*,gomoviefree.*##.footer-copyright.col-lg-4 > p:nth-of-type(3)
-gomovies.*,gomoviefree.*##div#pagination:nth-of-type(3)
-gomovies.*,gomoviefree.*##div:nth-of-type(5)
-gomovies.*,gomoviefree.*###subscribe-submit-footer
-gomovies.*,gomoviefree.*##.mlw-related.movies-list-wrap
-gomovies.*,gomoviefree.*##.social-home
-gomovies.*,gomoviefree.*##.twitter-follow-button
+gomovies.*##+js(acis, String.fromCharCode, /btoa|break/)
+gomovies.*##+js(acis, document.createElement, 'script')
+gomovies.*##[target="_blank"]
+gomovies.*##+js(set-constant, check_adblock, true)
+gomovies.*##+js(window.open-defuser)
+gomovies.*##.home-main > div:contains(?)
+gomovies.*##.hm-button
+gomovies.*##.alert-bottom
+gomovies.*##.alert-warning.alert
+gomovies.*###commentfb
+gomovies.*##.text-center.alert.ann-home
+gomovies.*##.swiper-slide-active.swiper-slide > .slide-link
+gomovies.*##.text-bottom.text-center
+gomovies.*##a[href="https://123movies.sc"]
+gomovies.*##footer
+gomovies.*##.footer-link:nth-of-type(2)
+gomovies.*##.footer-tags
+gomovies.*##.footer-copyright.col-lg-4 > p:nth-of-type(3)
+gomovies.*##div#pagination:nth-of-type(3)
+gomovies.*##div:nth-of-type(5)
+gomovies.*###subscribe-submit-footer
+gomovies.*##.mlw-related.movies-list-wrap
+gomovies.*##.social-home
+gomovies.*##.twitter-follow-button
+gomoviefree*$1p
 *gomovie*/wp-content/themes/assets/css/jquery.cluetip.css$css
 *gomovie*/wp-content/themes/assets/css/jquery.qtip.min.css$css
 ||spotscenered.info$important
 ||streamgo.me/assets^$image
-||streamgo.me/templates/jwplayer/assets/juicycodes.js$script
-||streamgo.me/templates/jwplayer/assets/jq.min.js$script
 ||jwpcdn.com/player/plugins/*/related.js$script
-||gomovies*.disqus.com/embed.js$script
-||cdn.123gocdn.com/images/tt1396484/backdrop.jpg$image
+||gomovie*.disqus.com/embed.js$script
+/jwplayer/assets/juicycodes.js$script
+/jwplayer/assets/jq.min.js$script
 
 #Imdb.com
 imdb.com##body#styleguide-v2:style(background-color: #e3e2dd !important; background-image: none !important;)
@@ -1045,11 +1046,21 @@ rltracker.pro##.col-sm-12 > .row
 123movies.*,123moviesto.*,123gofmovies.*##.btn-successful.btn-lg.btn
 123movies.*,123moviesto.*,123gofmovies.*##.row > .clearfix
 123movies.*,123moviesto.*,123gofmovies.*##footer
+123movies.*,123moviesto.*,123gofmovies.*###footer
+123movies.*,123moviesto.*,123gofmovies.*##.mb-5.mw-body
+123movies.*,123moviesto.*,123gofmovies.*##.btn-primary.btn-radius.btn-lg.btn
+123movies.*,123moviesto.*,123gofmovies.*##.ulclear
+123movies.*,123moviesto.*,123gofmovies.*##[src*="//jscdn"]
 *123movie^$csp=script-src 'self' 'unsafe-inline' *.google-analytics.com *.cloudflare.com *.gstatic.com *.google.com *.recaptcha.net
 *123movie^$other
 *123movie*/assets/js/custombanner.js$script
 *123movie*/*.tm$script
 *123movie*/*.it$script
+*gofmovie^$csp=script-src 'self' 'unsafe-inline' *.google-analytics.com *.cloudflare.com *.gstatic.com *.google.com *.recaptcha.net
+*gofmovie^$other
+*gofmovie*/assets/js/custombanner.js$script
+*gofmovie*/*.tm$script
+*gofmovie*/*.it$script
 
 #0123movies.com
 0123movies.*##+js(popads-dummy)
@@ -1316,6 +1327,9 @@ mixdrop.*##+js(acis, $, String.fromCharCode)
 mixdrop.co##.s-wrapper
 @@||mixdrop.*^$script,1p
 ||mixdrop.*/sw.js$script,important
+||mixdrop.co/xads.js$script,1p
+||mixdrop.co/js/jRange/*$1p
+/recaptcha__*.js^$frame,xhr,script,3p
 *##div[onclick^="$(this).remove"]
 
 #Putlockers.gg
@@ -4810,6 +4824,7 @@ popuper.js^
 *##a[href*=".space"][target="_blank"]
 *##a[href*=".webcam"][target="_blank"]
 */sw.js$script
+*/fac.php$all
 */images/reklam$image
 *.html?q^$important
 */redirect.aspx?
@@ -4931,6 +4946,7 @@ popuper.js^
 *##+js(aeld, DOMContentLoaded, adlinkfly)
 *##+js(ra, href, #clickfakeplayer)
 *##+js(aopr, jwplayer.utils.Timer)
+*##+js(aopr, jwplayer.vast)
 *##+js(aopr, VAST)
 *##+js(aopr, S9tt)
 *##+js(aopr, AdDelivery.prototype.requestTrafficJunkyAds)
@@ -4938,6 +4954,10 @@ popuper.js^
 *##+js(aopr, ExoLoader.serve)
 *##div[id*="sidebar"][data-before-content="advertisement"]:upward(3)
 *##iframe[src*="/ads-iframe"]
+*##[src*="/apu.php"]
+*##[src*="/fac.php"]
+*##[src*="/adu.php"]
+*##[onclick*="return JuicyCodes.Close(); "]
 *##.consent-banner:contains(cookies)
 *##+js(acis, burtSegments)
 *##+js(acis, Bau, preloadAds)
@@ -5129,6 +5149,7 @@ popuper.js^
 *##+js(aopr, AaDetector)
 *##+js(aopr, LieDetector)
 *##+js(nosiif, _0x)
+*##+js(aopw, Fingerprent2)
 *##+js(aopw, Fingerprint2)
 *##+js(acis, String.fromCharCode, decodeURIComponent)
 *##+js(aopr, disableButtonTimer)
@@ -5184,5 +5205,6 @@ popuper.js^
 /[0-9a-f]{32}\/invoke\.js/$script,3p
 /script/su.js^$script
 /event$xhr,3p
+/index/*$subdocument,3p
 ||cloudflare-terms-of-service-abuse.com^
 /css/deblocker.min.css$stylesheet,1p
