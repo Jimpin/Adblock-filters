@@ -184,8 +184,8 @@ outlook.live.com##.customScrollBar > div[class] > div[class]:empty
 outlook.live.com##div[role="region"][data-max-height] > div.threeColItemViewSenderImageOn + div div:empty
 outlook.live.com##[class*="_3"]:contains(reklamblockerare)
 outlook.live.com##[data-icon-name="OutlookLogo"]
-outlook.live.com##[class*="_2"]:has-text(.)
-outlook.live.com##[class*="_2"]:has-text(Premium)
+outlook.live.com##[class*="_23"]:has-text(.)
+outlook.live.com##[class*="_2F"]:has-text(Premium)
 /analytics-ping.js$xhr
 ||browser.events.data.microsoft.com/OneCollector/*$xhr,important
 ||pipe.aria.microsoft.com/collector/
