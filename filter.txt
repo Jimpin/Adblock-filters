@@ -1106,12 +1106,9 @@ lookmovie.*##body > div:nth-of-type(6)
 lookmovie.*##[class="show-recaptcha"]
 lookmovie.*##[class="wellcome-boy-message"]
 lookmovie.*##[id="overlay-article"]
-lookmovie.*##[class="overlay-wrapper"]
 lookmovie.*##[class="issues-overlay"]
 lookmovie.*##[type="text/javascript"][src*="http"][async]
 lookmovie.*##[class="overlay-wrapper"][style^="display: "]
-lookmovie.*##script:contains(.appendChild(iframe);)
-lookmovie.*##[onclick="toggleCF(event)"]
 lookmovie.*##[class="adBanner ad banner"][style*="display: "]
 lookmovie.*##script:has-text(overlay)
 lookmovie.*###donate-section
@@ -1331,7 +1328,6 @@ mixdrop.co##.s-wrapper
 ||mixdrop.*/sw.js$script,important
 ||mixdrop.co/xads.js$script,1p
 ||mixdrop.co/js/jRange/*$1p
-/recaptcha__*.js^$frame,xhr,script,3p
 *##div[onclick^="$(this).remove"]
 
 #Putlockers.gg
@@ -1443,15 +1439,6 @@ upstream.*##.overlay
 ||movies2watch.*^$popup,3p
 ||use.fontawesome.com/releases/v5.3.1/css/all.css$css,domain=moviesjoy.net
 ||google.com/js/bg/*$script
-openload.co##+js(abort-current-inline-script, $, contextmenu)
-openload.co##+js(abort-on-property-read, BetterJsPop)
-openload.co##+js(abort-current-inline-script, atob, decodeURIComponent)
-openload.co##+js(set-constant, sadbl, false)
-openload.co##^script:has-text(popAdsLoaded)
-openload.co##+js(abort-current-inline-script.js, adblock, adblock2)
-||openload.co/r3/*$xmlhttprequest,first-party
-||openload.co/assets/img/blocked.png$image
-||openload.co/assets/img/logo.png$image
 ||vidcloud.co/images/logo-brand.png$image
 ||vidcloud.co/images/close2.png$image
 ||vcstream.to/images/file-not-found.jpg$image
@@ -1523,8 +1510,6 @@ goal.com##+js(popads-dummy)
 goal.com##.commercial
 goal.com##.clearfix.widget-inline-editors-picks
 goal.com##.widget-semantic-player--displayed.widget-semantic-player
-dolohen.com##a[href$=".html"]
-dirdamid.com##a[href$=".html"]
 ||api.github.com/_private/browser/stats$important
 ##[class$="-sns-box"]
 ###textAd
@@ -1617,7 +1602,6 @@ dirdamid.com##a[href$=".html"]
 ##[id="pb_block"]
 ##[id="whosamung"]
 ##.active.fanclub-info-pop
-##pp
 ##[id="cdm-zone-end"]
 ##[id="vpaid_video_flash_tester_el"]
 ##.mobile-only-hide
@@ -1630,12 +1614,6 @@ dirdamid.com##a[href$=".html"]
 ###display_ads_footer
 ###display_ads_footer_last
 ###displayad_bottom-page
-##div[class^="ad_"]
-##div[id^="div-gpt-ad"]
-##div[id^="taboola-"]
-##div[id*="-upsell-"]
-##div[id^="standalone-ad"]
-##div[class*="-ads-"]
 ###fb-root:not(body):not(html)
 ##[class="player-center-content"]
 ##[id="mask-overlay"]
@@ -1726,22 +1704,6 @@ dirdamid.com##a[href$=".html"]
 ##.cookieBanner:not(body):not(html)
 ###gdpr:not(body):not(html):not(input)
 ##.cc-banner.cc-bottom:not(body):not(html)
-##.native-ad
-##.native-ad-container
-##.native-ad-item
-##.native-ad-link
-##.native-ad-promoted-provider
-##.native-adv
-##.native-advts
-##.native-sidebar-ad
-##.nativeAd
-##.nativeAd-sponsor-position
-##.nativeMessageAd
-##.native_ad
-##.nativead
-##.nativeadasideplaceholder
-##.nativeadserversidecontentmodule
-##.nature-ad
 ##.footer-social
 ###sky-right
 ###bottomads
@@ -1761,9 +1723,6 @@ dirdamid.com##a[href$=".html"]
 ##.nav__adbanner
 ##.nav_ad
 ##.nav_textads
-##[class="tallstreambanner"]
-##[id="fi1h4ne"]
-##[id="floatLayer1"]
 ##.navad
 ##.navadbox
 ##[id="div1"]
@@ -2160,6 +2119,8 @@ dirdamid.com##a[href$=".html"]
 ##.p_overlay
 ##.p_window
 ##.p_overlay
+##.ctm-box.cxenseignore
+##.inline-flex.no-underline.gro
 ##[src="/imgpsh.png"]
 ##[id="play_limit_box"]
 ##.onboarding--full-width.onboarding
@@ -2370,7 +2331,6 @@ dirdamid.com##a[href$=".html"]
 ##.mainAd
 ##.mainAdContainer
 ##.mainAds
-##.mainEcoAd
 ##.mainLeftAd
 ##.mainLinkAd
 ##.mainRightAd
@@ -2405,9 +2365,6 @@ dirdamid.com##a[href$=".html"]
 ##.masthead_ad_banner
 ##.masthead_ads_new
 ##.masthead_topad
-##.mess_div_adv
-##.messageBoardAd
-##.message_ads
 ##.mgid-wrapper
 ##.narrow_ad_unit
 ##.narrow_ads
@@ -2788,29 +2745,21 @@ dirdamid.com##a[href$=".html"]
 ##.vjs-ad-iframe
 ##.vjs-ad-overlay
 ##.vjs-ima3-ad-container
-##[href*="https://go.onclasrv.com/"]
-##[href*="https://pubads.g.doubleclick.net/"]
-##[href*="https://secure.adnxs.com"]
-##[href*="https://gaitheed.com/"]
-##[href*="http://ad.doubleclick.net/"]
-##[href*="http://adclick.g.doubleclick.net/"]
-##[href*="http://adrunnr.com/"]
-##[href*="http://clkads.com/adServe/"]
-##[href*="http://cdn.adsrvmedia.net/"]
-##[href*="http://clk.directrev.com/"]
-##[href*="http://marketgid.com"]
-##[href*="http://mgid.com/"]
-##[href*="http://onclickads.net/"]
-##[href*="http://pubads.g.doubleclick.net/"]
-##[href*="http://srvpub.com/"]
-##[href*="http://syndication.exoclick.com/"]
-##[href*="http://t.mdn2015x1.com/"]
-##[href*="http://t.mdn2015x2.com/"]
-##[href*="http://t.mdn2015x3.com/"]
-##[href*="http://track.adform.net/"]
-##[href*="//go.onclasrv.com/"]
-##[href*="//adskeeper.co.uk/"]
-##[href*="//new-dating-5you.com/"]
+##[href*="adnxs.com"]
+##[href*="adclick."]
+##[href*="adrunnr.com"]
+##[href*="clkads"]
+##[href*="directrev.com"]
+##[href*="marketgid.com"]
+##[href*="mgid.com"]
+##[href*="onclickads.net"]
+##[href*="doubleclick.net"]
+##[href*="srvpub.com"]
+##[href*="exoclick.com"]
+##[href*="mdn2015"]
+##[href*="adform.net"]
+##[href*="//adskeeper."]
+##[href*="//new-dating"]
 ##[href*="//zenhppyad.com/"]
 ##[href*="//mgid.com/"]
 ##[href*="//000webhost.com/"]
@@ -3323,7 +3272,9 @@ dirdamid.com##a[href$=".html"]
 ||disqus.com/api/*/listrelated.json?
 ||mmaaxx.com^
 ||aaddcount.com^
+||disqus.com^$3p
 ||ie8eamus.com^
+||itnuzleafan.com^
 ||dbbp1.net^
 ||thterras.com^
 ||b54m4qbmt0b9.com^
@@ -3543,7 +3494,6 @@ dirdamid.com##a[href$=".html"]
 ||optvn.com^
 ||ad.a-ads.com^$important
 ||thevid.net/*.php
-||log.openload.co^
 ||loltrack.com^
 ||n.gemini.yahoo.com^
 ||newrelic.com^
@@ -4118,17 +4068,6 @@ dirdamid.com##a[href$=".html"]
 .se/counter/
 .se/log/?
 .se/Logger?
-.adshost
-.adsmarket
-.advertise
-.advplace
-.affiliatetracking
-.xiti
-.adskeeper
-.adsco
-.uno$3p
-.popads
-.coinhive
 -ads.js?
 hic_qos?adv_partner^
 survey/source^
@@ -4162,13 +4101,13 @@ traffic.
 adonis_
 movie/ads
 redirect.
-/1675303/
 /ads_batch^
 /adServe/banners?tid=*$all,important
 /redirect
 /click?pid=*
 /async/ads-
 /asyncadload.
+/_nuxt/*.js$script,1p
 /\.com\/[0-9a-z]{2}\/[0-9a-z]{2}\/[0-9a-z]{2}\/[0-9a-z]{32}\.js/$script,3p
 /\:\/\/data.*\.com\/[a-zA-Z0-9]{30,}/$xhr,3p
 /\:\/\/[a-z0-9]{5,32}\.(bid|com)\/[0-9]{2,9}\.css$/$stylesheet,3p
@@ -4211,107 +4150,6 @@ redirect.
 /index.html?message_id=*&preload_message=true
 /native.json
 /decript.php$xhr
-&referrer=
-&accept_cookies=
-&gdpr_consent=
-&act=ads_$script,redirect-rule=noopjs
-&ad.vid=$~xmlhttprequest
-&ad_box_
-&ad_channel=
-&ad_classid=
-&ad_code=
-&ad_height=
-&ad_ids=
-&ad_keyword=
-&ad_network_
-&ad_number=
-&ad_revenue=
-&ad_slot=
-&ad_time=
-&ad_type=
-&ad_type_
-&ad_url=
-&ad_zones=
-&adbannerid=
-&adclient=
-&adcount=
-&adflag=
-&adgroupid=
-&adlist=
-&admeld_
-&admid=
-&adname=
-&adnet=
-&adnum=
-&adpageurl=
-&Ads_DFP=
-&adsafe=
-&adserv=
-&adserver=
-&adsize=
-&adslot=
-&adslots=
-&adsourceid=
-&adspace=
-&adsrc=
-&adstrade=
-&adstype=
-&AdType=
-&adunit=
-&adurl=
-&adv_keywords=
-&advert_
-&advertiserid=
-&advid=$~image
-&advtile=
-&adzone=
-&banner_id=
-&bannerid=
-&clicktag=http
-&customSizeAd=
-&displayads=
-&expandable_ad_
-&forceadv=
-&gerf=*&guro=
-&gIncludeExternalAds=
-&googleadword=
-&img2_adv=
-&jumpstartadformat=
-&largead=
-&maxads=
-&pltype=adhost^
-&popunder=
-&program=revshare&
-&prvtof=*&poru=
-&show_ad_
-&showad=
-&simple_ad_
-&smallad=
-&smart_ad_
-&strategy=adsense&
-&type=ad&
-&UrlAdParam=
-&video_ads_
-&videoadid=
-&view=ad&
-&zoneid=*&direct=
-&ctxId=*&pubId=*&clientDT=
-&ctxId=*&pubId=*&objId=
-&event=view&
-&http_referer=$script
-&pageReferrer=
-&ref=*&tag=
-&refer=http$script
-&refererPageDetail=
-&trackingserver=
-&aff_id=
-&aff_sub=
-&aff_sub_id=
-&affid=
-&affiliate=
-&id_aff=
-&subaffiliate=
-&redir=
 ?tid=*&red=1&*&abt=$empty,important
 ?segment=straight&token=
 ?proxy*=ws://$script,websocket
@@ -4736,9 +4574,6 @@ popuper.js^
 @@||ajax.cloudflare.com/cdn-cgi/scripts/$script
 @@||ajax.googleapis.com/ajax/libs/jquery/
 @@||data-live.flightradar24.com/zones/*$script
-@@||openload.co/embed
-@@||openload.co/assets/js/script.*.js
-@@||oloadcdn.net^$domain=openload.co,xmlhttprequest
 @@||fonts.googleapis.com/css$third-party
 @@||phncdn.com/timings-$script
 @@||phncdn.com/head/$script
@@ -4750,7 +4585,6 @@ popuper.js^
 @@||steamstatic.com^$image
 @@||youtube.com/embed/*$subdocument
 @@||redirector.googlevideo.com/videoplayback$media
-@@||sportingvideo*.com^$popup
 @@||*.cloudfront.net/build/assets/*$script
 @@||*.cloudfront.net/integrations/*$script
 @@||tvply.me^$subdocument
@@ -4842,17 +4676,6 @@ popuper.js^
 ##[src*="//imasdk.googleapis.com/"]
 ##[src*="//c.amazon-adsystem.com/"]
 ##[src^="/ads.js?"]
-##[src*="/ad.htm"]
-##[src*="/ad0.htm"]
-##[src*="/ad1.htm"]
-##[src*="/ad2.htm"]
-##[src*="/ad3.htm"]
-##[src*="/ad4.htm"]
-##[src*="/ad5.htm"]
-##[src*="/ad6.htm"]
-##[src*="/ad7.htm"]
-##[src*="/ad8.htm"]
-##[src*="/ad9.htm"]
 ##[src*="adserver"]
 ##[src*="affiliate"]
 ##[src*="http://ad."]
@@ -4937,7 +4760,6 @@ popuper.js^
 *##+js(std, onerror, 1000)
 *##+js(acis, Exp, bamData)
 *##+js(acis, losAd)
-*##+js(set-constant.js, analyticsTrackGoogleAnalytics, noopFunc)
 *##+js(acis, phpads_deliver)
 *##+js(aopw, banner_video)
 *##+js(setTimeout-defuser.js, adsbygoogle, 2000)
@@ -5023,7 +4845,7 @@ popuper.js^
 ##[class="alert-banner js-alert-banner"]
 ##[class="alert-banner__content padded-content"]
 ##[src*="/cse.js?"]
-##[type="text/javascript"][src*="/recaptcha__en.js"]
+##[type="text/javascript"][src*="/recaptcha__"]
 ##.iubenda-cs-content
 ###twt
 ###fbh
@@ -5184,7 +5006,6 @@ popuper.js^
 /script/*.php$all,3p
 /script/*.js$all,3p
 /script/*.css$all,3p
-
 /page/*.html^$all,3p
 /pages/*.html^$all,3p
 /custom.$all,3p
