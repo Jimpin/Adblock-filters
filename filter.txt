@@ -1107,6 +1107,7 @@ lookmovie.*##[class="show-recaptcha"]
 lookmovie.*##[class="wellcome-boy-message"]
 lookmovie.*##[id="overlay-article"]
 lookmovie.*##[class="issues-overlay"]
+lookmovie.*###user-limited-notify-button
 lookmovie.*##[type="text/javascript"][src*="http"][async]
 lookmovie.*##[class="overlay-wrapper"][style^="display: "]
 lookmovie.*##[class="adBanner ad banner"][style*="display: "]
@@ -1123,7 +1124,7 @@ lookmovie.*###social-share
 *$script,3p,denyallow=cloudcdn.monster|cloudflare.com|google.com|googleapis.com|gstatic.com|hcaptcha.com|lookmovie.io|nflxext.com,domain=lookmovie.*
 ||lookmovie.*/favicon.ico$image,1p
 ||lookmovie.*^$popup,3p
-||cntr.lookmovie.*^$xmlhttprequest
+||cntr.lookmovie.*^$xhr
 ||metrika.lookmovie.*/analytics.js$script
 ||2captcha.com^
 ||captchadecoder.com^
