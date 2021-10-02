@@ -227,16 +227,14 @@ twitch.tv##[src*="HTMLCanvasElement.prototype.toBlob,IntersectionObserver"]
 ||spade.twitch.tv^
 ||sentinel.twitchsvc.net/error-report
 
-instagram.com##._he402
-instagram.com##.lOPC8
-instagram.com##.Yx5HN.RnEpo
-instagram.com##.x2Ilm
-instagram.com##[style="height: 198px;"]
+#Instagram.com
+instagram.com##[class*="_8U"]:contains(Förslag för dig)
+instagram.com##[role*="presentation"]:contains(Följ)
+instagram.com##:contains(för dig):style(display: none !important;)
+instagram.com##[style*="height: 208px; width: 200px;"]
 instagram.com##a[href="/explore/people/"]
 instagram.com##[class]:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
 instagram.com#?#footer[role="contentinfo"]+div[class]:has(> div[class] > a[href="/accounts/emailsignup/"])
-instagram.com###react-root > section > nav > div > div > section.xZ2Xk
-instagram.com##main[role="main"] .APQi1
 @@||instagram.com/static/*$script
 
 #Twitter
@@ -1107,6 +1105,7 @@ lookmovie.*##[class="show-recaptcha"]
 lookmovie.*##[class="wellcome-boy-message"]
 lookmovie.*##[id="overlay-article"]
 lookmovie.*##[class="issues-overlay"]
+lookmovie.*##.ht-footer
 lookmovie.*###user-limited-notify-button
 lookmovie.*##[type="text/javascript"][src*="http"][async]
 lookmovie.*##[class="overlay-wrapper"][style^="display: "]
