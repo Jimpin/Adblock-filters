@@ -1865,6 +1865,10 @@ goal.com##.widget-semantic-player--displayed.widget-semantic-player
 ##.roar-alert-message-body
 ###frme
 ##[class="js-pop videoblock videoBox omega"]
+##[class*="CloseableTextBubble-styles--root"]
+##[class*="HorseCrossPromotion-styles--text"]
+##.hidden-app.hidden-print
+##[class*="FooterSection-styles--bottom"]
 ###welcome
 ##div[id^="welcome"]
 ##script[id^="welcome"]
