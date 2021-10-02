@@ -233,6 +233,12 @@ instagram.com##[role*="presentation"]:contains(Följ)
 instagram.com##:contains(för dig):style(display: none !important;)
 instagram.com##[style*="height: 208px; width: 200px;"]
 instagram.com##a[href="/explore/people/"]
+instagram.com##.EM8Od
+instagram.com##[class*="Ecj"]
+instagram.com##._4EzTm:contains(för dig)
+instagram.com##.GZkEI.ccgHY._6E_wP.vboSt.bLWKA._8Rm4L > ._4EzTm.eGOV_.IwRSH.Igw0E.qF0y9 > .EcJQs
+instagram.com##.GZkEI.ccgHY._6E_wP.vboSt.bLWKA._8Rm4L > ._4EzTm.eGOV_.IwRSH.Igw0E.qF0y9
+instagram.com##div:matches-css(width: 616px):matches-css(height: 42px)
 instagram.com##[class]:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
 instagram.com#?#footer[role="contentinfo"]+div[class]:has(> div[class] > a[href="/accounts/emailsignup/"])
 @@||instagram.com/static/*$script
