@@ -593,6 +593,7 @@ imdb.com###top_ad
 
 #Nyafilmer/Jawcloud
 nyafilm*$1p
+@@||nyafilm*/wp-content/*$1p
 @@||api.peer5.com$script,domain=jawcloud.co
 @@||upvtt.com^$xhr
 @@||*.com^$inline-script,1p,domain=jawcloud.co
