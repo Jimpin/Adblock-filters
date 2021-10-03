@@ -592,11 +592,12 @@ imdb.com###top_ad
 /js/show_ads.js^
 
 #Nyafilmer/Jawcloud
-nyafilm*$1p
 @@||nyafilm*/wp-content/*$1p
+@@||nyafilm*$document,1p
 @@||api.peer5.com$script,domain=jawcloud.co
 @@||upvtt.com^$xhr
 @@||*.com^$inline-script,1p,domain=jawcloud.co
+||nyafilm*$1p
 ||nyafilm*$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: jawcloud.co *.jawcloud.co *.peer5.com *.googleapis.com *.google.com *.gstatic.com;img-src *;worker-src 'none'
 /images/tipsy.gif$3p
 /wp-includes/js/comment-reply.min.js$script
