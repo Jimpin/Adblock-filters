@@ -26,7 +26,6 @@
 *##+js(acis, document.querySelector, popupBlocked)
 *##+js(acis, decodeURI, zfgloadedpopup)
 *##+js(aopw, popup_ads)
-*##+js(acis, $, urlForPopup)
 *##+js(aopr, popjs.init)
 *##+js(set, $.magnificPopup.open, noopFunc)
 *##+js(aopr, loadRunative)
