@@ -89,7 +89,7 @@ klart.se##+js(remove-class, mega-loading)
 ##[data-test="cookie-consent"]
 utm_$document,removeparam=/^utm_/
 @@/cnp-assets/*.js.abab*.js$script
-/www.*\/cnp-assets\/[1-9][0-8]{0,3}\./$script
+/www.*\/cnp-assets\/[1-9][0-8]\./$script
 /deprecated-linkpulse-tracking.js
 /player-plugin-ad$3p
 /player-plugin-sponsor$3p
