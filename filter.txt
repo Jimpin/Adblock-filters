@@ -689,6 +689,8 @@ streamlare.*##body > div[style="position: fixed; display: block; width: 100%; he
 #Kollafilm.com
 kollafilm.*##body:style(background-image: none !important;)
 kollafilm.*##.socialts
+kollafilm.*###btdvak-blanket
+kollafilm.*###btdvak-blanket > div
 kollafilm.*##.comments-area.bixbox
 kollafilm.*##[class="bx"] > div.note
 kollafilm.*##div.bixbox:contains(Gallery)
