@@ -235,7 +235,6 @@ instagram.com##[style*="height: 208px; width: 200px;"]
 instagram.com##a[href="/explore/people/"]
 instagram.com##.EM8Od
 instagram.com##[class*="Ecj"]
-instagram.com##._4EzTm:contains(för dig)
 instagram.com##.GZkEI.ccgHY._6E_wP.vboSt.bLWKA._8Rm4L > ._4EzTm.eGOV_.IwRSH.Igw0E.qF0y9 > .EcJQs
 instagram.com##.GZkEI.ccgHY._6E_wP.vboSt.bLWKA._8Rm4L > ._4EzTm.eGOV_.IwRSH.Igw0E.qF0y9
 instagram.com##div:matches-css(width: 616px):matches-css(height: 42px)
