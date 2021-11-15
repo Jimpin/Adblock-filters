@@ -1134,7 +1134,7 @@ lookmovie.*###social-share
 *$script,3p,denyallow=cloudcdn.monster|cloudflare.com|google.com|googleapis.com|gstatic.com|hcaptcha.com|lookmovie.io|nflxext.com,domain=lookmovie.*
 ||lookmovie.*/favicon.ico$image,1p
 ||lookmovie.*^$popup,3p
-||cntr.lookmovie.*^$xhr
+||cntr.*^$all
 ||metrika.lookmovie.*/analytics.js$script
 ||2captcha.com^
 ||captchadecoder.com^
