@@ -19,7 +19,7 @@ aftonbladet.se##a[href*="aftonbladet.se/a/"]
 aftonbladet.se##[data-test-tag="internal-link:single-page-link"]:contains(annonslänkar)
 aftonbladet.se##a[href*="/tv/"]:has(span:has-text(/studio oddset/i)):upward(1)
 aftonbladet.se##.svp-sponsor-label
-aftonbladet.se##[style*="z-index: 10001"]
+aftonbladet.se##[class*="css-"]:matches-css(z-index: 10001)
 aftonbladet.se##.css-i1qmsk:contains(annonslänkar)
 aftonbladet.se##div.HLf1C:contains(annonslänkar)
 aftonbladet.se##div.HLf1C:contains(ANNONS)
