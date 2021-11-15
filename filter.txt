@@ -1139,6 +1139,12 @@ lookmovie.*###social-share
 ||2captcha.com^
 ||captchadecoder.com^
 ||anti-captcha.com^
+||goodcache.ml^$important
+.com*/*.json$all,1p
+.com*/jquery.js$1p,3p
+.com*/favicon-*.png$1p,3p
+.com*/get.php$1p,3p
+.com*/android-icon*.png$1p,3p
 
 #Streamtajm.com
 streamtajm.*##+js(popads-dummy)
@@ -4651,7 +4657,7 @@ popuper.js^
 @@/assets/js/player.js$script
 @@//media*^$image
 @@/vendors/omniture/*$script
-@@/manifest.json
+@@/manifest.json$other,1p
 @@/translations/*.json
 @@/redirector$media,3p
 @@*.m3u8$xhr
