@@ -1141,8 +1141,6 @@ lookmovie.*###social-share
 ||captchadecoder.com^
 ||anti-captcha.com^
 ||goodcache.ml^$important
-.com*/*.json$all,1p
-.com*/jquery.js$1p,3p
 .com*/favicon-*.png$1p,3p
 .com*/get.php$1p,3p
 .com*/android-icon*.png$1p,3p
