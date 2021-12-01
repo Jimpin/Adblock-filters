@@ -718,6 +718,15 @@ kollafilm.*##.cent.bnav > [href*="/"], [href*="/donation/"], [href*="discord"], 
 *##[class*="jw-icon jw-icon-inline jw-button-color jw-reset jw-icon-pip"]
 *##[class*="jw-"]:contains(Picture in Picture)
 
+#Videodls
+videodls.*##div.pb-100.about-us-area > .container > .align-items-center.row > div.col-lg-6
+videodls.*##div#videos.ptb-100.who-we-area
+videodls.*##div.pb-100.about-us-area
+videodls.*##div#home.pb-100.seo-banner-area2
+videodls.*###webM
+videodls.*##.bor-radius-top.pt-70.footer-area
+||sc-apps.*/settings/*$xhr
+
 #Vipleague.lc
 vipleague.*,tvply.*##+js(acis, Math, break;case $.)
 vipleague.*,tvply.*##+js(aopw, _pop)
@@ -4673,7 +4682,6 @@ popuper.js^
 *##a[href*=".pink"][target="_blank"]
 *##a[href*=".click"][target="_blank"]
 *##a[href*=".cricket"][target="_blank"]
-*##a[href*=".download"][target="_blank"]
 *##a[href*=".faith"][target="_blank"]
 *##a[href*=".online"][target="_blank"]
 *##a[href*=".racing"][target="_blank"]
@@ -4902,7 +4910,6 @@ popuper.js^
 ##.cp-modal-popup-container:remove()
 ||jwpcdn.com^/*.js$script
 */player/plugins/vast-*.js$script
-*/jquery.magnific-popup.min.js
 ###main-nav > li > a[rel="nofollow noopener"][onclick^="pageTracker"]
 ##div[id*="ScriptRootC"]
 ##div[id*="gsInformerID-"]
