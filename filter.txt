@@ -1573,13 +1573,13 @@ goal.com##.widget-semantic-player--displayed.widget-semantic-player
 ##.clear.hd
 ##.widget-gpdr-banner
 ##.please-disable-modal
+##[id="vjs-logobrand-image"]
 ##[class="vjs-control vjs-logo"]
 ##[class="vjs-control-text"]
 ##[class="vjs-loading-spinner"]
-##[id="vjs-logobrand-image"]
+##[class="vjs-black-poster"]
 ##[id="adbdetect"]
 ##[class="ads adsbox doubleclick"]
-##[class="vjs-black-poster"]
 ##[id="anim-container"]
 ##[id="cliqz-adblocker-css-rules"]
 ##[title="adblockertest"]
@@ -1857,7 +1857,6 @@ goal.com##.widget-semantic-player--displayed.widget-semantic-player
 ##[id="top_ad_reflow_helper"]
 ##[id="top_ad_rendering"]
 ##view_inner
-##[class="vjs-poster"]
 ##.navigation_ad
 ##a[href*="/clickthrgh.asp?"]
 ##a[href*="adtraction.com"]
@@ -5002,7 +5001,6 @@ popuper.js^
 *##+js(aopr, AaDetector)
 *##+js(aopr, LieDetector)
 *##+js(nosiif, _0x)
-*##+js(aopw, Fingerprent2)
 *##+js(aopw, Fingerprint2)
 *##+js(acis, String.fromCharCode, decodeURIComponent)
 *##+js(aopr, disableButtonTimer)
