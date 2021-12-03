@@ -372,7 +372,6 @@ Popup domain-blockerlist
 ||*.systems^$popup,3p
 ||*.date^$popup,3p
 ||*.diet^$popup,3p
-||*.vip^$popup,3p
 ||*.trade^$popup,3p
 ||*.top^$popup,3p
 ||*.review^$popup,3p
