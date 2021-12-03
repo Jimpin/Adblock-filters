@@ -5047,7 +5047,6 @@ popuper.js^
 /static/*.html$all,3p
 /web/*.html$all,3p
 /wiki/*/web$all,3p
-/*.php$xhr,3p
 /0/*.html^$all,3p
 /dcba/*$all
 .xyz^$3p
