@@ -4646,6 +4646,7 @@ popuper.js^
 /proxy_*.php?p___=*&part_url=*.php?callback=
 
 ##li:has(.content-label:has-text(/annons/i)):remove()
+*##[id*="netboard_"]
 *##+js(nostif, n.modal)
 *##.no-scroll:style(overflow-x: hidden !important;)
 *##+js(nostif, showOverlay)
