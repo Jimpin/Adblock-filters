@@ -366,7 +366,7 @@ youtube.com##.ytp-button.ytp-miniplayer-button
 youtube.com##.GoogleActiveViewElement.ytd-watch-next-secondary-results-renderer.style-scope:has-text(Annons)
 youtube.com###contents > .ytd-search-pyv-renderer.style-scope:contains(Annons)
 youtube.com###content-text > a.yt-formatted-string.style-scope.yt-simple-endpoint:contains(.)
-youtube.com##ytd-comment-renderer.ytd-comment-replies-renderer.style-scope > .ytd-comment-renderer.style-scope:contains(#)
+youtube.com###comment.style-scope > .ytd-comment-renderer.style-scope:contains(#)
 youtube.com##a[href*="/"]:has-text(bit.ly)
 youtube.com##a[href*="/"]:has-text(stod)
 youtube.com##span.yt-formatted-string.style-scope:has-text(casino)
