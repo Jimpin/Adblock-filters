@@ -736,11 +736,13 @@ onlinevideoconverter.*##[href^="https://www.linkconnector.com/ta.php"]
 onlinevideoconverter.*##div.home-section-5:nth-of-type(5)
 /1clkn/*$xhr
 
-#Vipleague.lc
+#Vipleague
 vipleague.*,tvply.*##+js(acis, Math, break;case $.)
 vipleague.*,tvply.*##+js(aopw, _pop)
 vipleague.*##.position-absolute:style(opacity: 0 !important;)
 vipleague.*##+js(nano-sib)
+vipleague.*##.col-lg-3
+vipleague.*##.w-100.position-absolute.h-100
 vipleague.*##script:contains(addEventListener)
 vipleague.*##.btn-lg
 vipleague.*##.font-weight-bold
