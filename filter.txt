@@ -40,6 +40,7 @@ aftonbladet.se##div[class][style*="text"]:has(h3:has-text(/annonslänkar/i))
 aftonbladet.se##[class="svp-player-recommended-box"]
 aftonbladet.se##.abAside > div[style^="text"]:last-child
 aftonbladet.se##.ab-responsive-ads-wrapper
+aftonbladet.se##.wide:contains(,)
 aftonbladet.se##.share-icons
 aftonbladet.se##.social-shares
 aftonbladet.se##[href*="twitter.com/sportbladet"]
