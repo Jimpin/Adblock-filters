@@ -3650,7 +3650,8 @@ popuper.js^
 /proxy_*.php?init_button=$script
 /proxy_*.php?p___=*&part_url=*.php?callback=
 
-##li:has(.content-label:has-text(/annons/i)):remove()
+*##li:has(.content-label:has-text(/annons/i)):remove()
+*##article.ads__unit:contains(Ukens)
 *##[id*="netboard_"]
 *##+js(nostif, n.modal)
 *##.no-scroll:style(overflow-x: hidden !important;)
