@@ -7,7 +7,6 @@
 aftonbladet.se##html,body:style(overflow-y: auto !important;)
 aftonbladet.se##+js(no-setTimeout-if, TAKEOVER)
 aftonbladet.se##body:style(overflow: unset!important)
-aftonbladet.se##.jwplayer:has(.svp-sponsor-label):remove()
 aftonbladet.se##strong:has-text(/ANNONS/i):upward(p)
 aftonbladet.se##.event-subheader-widget
 aftonbladet.se##a:has-text(annonslänkar)
@@ -19,15 +18,12 @@ aftonbladet.se##a[href*="aftonbladet.se/a/"]
 aftonbladet.se##[class*="css"][href*="/kampanj/"]
 aftonbladet.se##[data-test-tag="internal-link:single-page-link"]:contains(annonslänkar)
 aftonbladet.se##a[href*="/tv/"]:has(span:has-text(/studio oddset/i)):upward(1)
-aftonbladet.se##.svp-sponsor-label
 aftonbladet.se##[class*="css-"]:matches-css(z-index: 10001)
 aftonbladet.se##.css-i1qmsk:contains(annonslänkar)
 aftonbladet.se##div.HLf1C:contains(annonslänkar)
 aftonbladet.se##div.HLf1C:contains(ANNONS)
-aftonbladet.se##[data-test-tag="embed-content"] > .default
 aftonbladet.se###megaAd-placeholder, #superright-side, a[href^="/brandstudio"], a[href*="/rabattkod"], a[href*="/casinoguide"], [id^="adPlacement"]
 aftonbladet.se##[data-ad-subtype]:upward(1):style(min-height:unset!important)
-aftonbladet.se##.disable-cogwheel
 aftonbladet.se##.sch-datacontroller--subheader.sch-datacontroller--cobranded.sch-datacontroller
 aftonbladet.se##.sch-datacontroller--permanent.sch-datacontroller--cobranded.sch-datacontroller
 aftonbladet.se##^script:has-text(preLoadAds)
@@ -561,6 +557,22 @@ gomovies.*##.twitter-follow-button
 gomoviefree*$1p
 *gomovie*/wp-content/themes/assets/css/jquery.cluetip.css$css
 *gomovie*/wp-content/themes/assets/css/jquery.qtip.min.css$css
+streamlare.*##+js(nowoif)
+streamlare.*##+js(window.open-defuser)
+streamlare.*##body > div[style="position: fixed; display: block; width: 100%; height: 100%; inset: 0px; background-color: rgba(0, 0, 0, 0); z-index: 300000;"]
+@@||cdn.streamlare.com/*.vtt$xhr,1p
+||streamlare.*/css/app.css$stylesheet,1p
+||cdn.streamlare.*/*.jpg$image,important
+||cdn.streamlare.com^$image,1p
+||google.com^$script,domain=streamlare.com
+*##.comments-area
+*##.dt_social_single
+*##[id*="foobar"]
+*##[id*="oscuridad"]
+*###playeroptionsul
+/favicon-16x16-1.png$all
+/webworker.js$script,3p
+/css/dist/block-library/*$stylesheet
 ||spotscenered.info$important
 ||streamgo.me/assets^$image
 ||jwpcdn.com/player/plugins/*/related.js$script
@@ -603,8 +615,6 @@ imdb.com###top_ad
 @@||*.com^$inline-script,1p,domain=jawcloud.co
 ||nyafilm*$1p
 ||nyafilm*$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: jawcloud.co *.jawcloud.co *.peer5.com *.googleapis.com *.google.com *.gstatic.com;img-src *;worker-src 'none'
-##.inlinelike
-##.--info.importantinfo
 /images/tipsy.gif$3p
 /wp-includes/js/comment-reply.min.js$script
 /wp-includes/js/wp-embed.min.js$script
@@ -658,36 +668,13 @@ jawcloud.co##^script:has-text(Inject=!)
 /ads.js?
 ?excludes=^#xhr
 .wp.com/*/branding/*$important
-##.jawban
-##.jwbanner
-##[id*="keremiya-js-extra"]
-##[id*="hcaptcha-script-js"]
+*##.jawban
+*##.jwbanner
+*##[id*="keremiya-js-extra"]
+*##[id*="hcaptcha-script-js"]
 *##a[href*="/engine."]
 ||&guid=^$popup,important
 /iframes2/*.html?$subdocument
-
-#Swemovie.org
-swemovie.*##div.sbox:nth-of-type(6)
-swemovie.*##.comments-area
-swemovie.*##.dt_social_single
-swemovie.*##div.sbox:nth-of-type(4)
-swemovie.*##[type="text/javascript"]
-swemovie.*##script:contains(/)
-swemovie.*##[id*="foobar"]
-swemovie.*##[id*="oscuridad"]
-swemovie.*###playeroptionsul
-||swemovie.*/wp-content/plugins/*$stylesheet,1p
-streamlare.*##+js(nowoif)
-streamlare.*##+js(window.open-defuser)
-streamlare.*##body > div[style="position: fixed; display: block; width: 100%; height: 100%; inset: 0px; background-color: rgba(0, 0, 0, 0); z-index: 300000;"]
-@@||cdn.streamlare.com/*.vtt$xhr,1p
-||streamlare.*/css/app.css$stylesheet,1p
-||cdn.streamlare.*/*.jpg$image,important
-||cdn.streamlare.com^$image,1p
-||google.com^$script,domain=streamlare.com
-/favicon-16x16-1.png$all
-/webworker.js$script,3p
-/css/dist/block-library/*$stylesheet
 
 #Kollafilm.com
 kollafilm.*##body:style(background-image: none !important;)
@@ -4666,7 +4653,6 @@ popuper.js^
 ##.jconfirm-cell
 ##.jconfirm-open
 ##.jconfirm-scrollpane
-
 *##[style*="z-index: -"]
 *##[style*="z-index: 160"]
 *##[style*="z-index: 999"]
