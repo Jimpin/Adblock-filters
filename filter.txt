@@ -89,6 +89,7 @@ klart.se##+js(remove-class, mega-loading)
 utm_$document,removeparam=/^utm_/
 @@/cnp-assets/*.js.abab*.js$script
 /www.*\/cnp-assets\/[1-9][0-8]\./$script
+/embed/ab-box?pym=
 /deprecated-linkpulse-tracking.js
 /player-plugin-ad$3p
 /player-plugin-sponsor$3p
@@ -2521,7 +2522,6 @@ goal.com##.widget-semantic-player--displayed.widget-semantic-player
 ||addjump.com^
 ||aaxads.com^
 ||adsrvr.org^
-||adhigh.net^
 ||adsafety.net^
 ||tapad.com^
 ||bannerflow.com^
@@ -2536,13 +2536,10 @@ goal.com##.widget-semantic-player--displayed.widget-semantic-player
 ||tororango.com^
 ||playadse.nuggad.net^
 ||quantserve.com^
-||eu.npario-inc.net/DMP/*$script,important
 ||advert.vg.no^
 ||advertisement.vg.no^
 ||addthisedge.com^
 ||jssdk.pulse.schibsted.com/autoTracker.min.js$script,important
-||ssl.p.jwpcdn.com/*/sharing.js$script
-||ssl.p.jwpcdn.com/*/jwpsrv.js$script
 ||cdn.doublepimpssl.com^
 ||ads*.contentabc.com^
 ||defpush.com^$script
@@ -2552,14 +2549,12 @@ goal.com##.widget-semantic-player--displayed.widget-semantic-player
 ||bit.ly^$subdocument,inline-script
 ||unrulymedia.com^
 ||elasticad.net^
-||pushwhy.com^
 ||rtmark.net^
 ||tradedoubler.com^
 ||taboola.com^
 ||2mdn.net^
 ||track.adform.net^
 ||adsby.bidtheatre.com^
-||doubleclick.net/instream/ad_status.js$script,redirect=doubleclick.net/instream/ad_status.js,important
 ||doubleclick.net^
 ||creative.wwwpromoter.com^
 ||disqus.com/count.js$script
@@ -2597,7 +2592,6 @@ goal.com##.widget-semantic-player--displayed.widget-semantic-player
 ||adswithsalt.com^
 ||ratexchange.net^
 ||adnotbad.com^
-||adserv.^
 ||serverads.net^
 ||jsfuel.com^
 ||spaceshipad.com^
@@ -2639,11 +2633,7 @@ goal.com##.widget-semantic-player--displayed.widget-semantic-player
 ||disqus.com^$3p
 ||adexchangecloud.com^
 ||puserving.com^
-||fam-ad.com^
-||sprout-ad.com^
-||adxpansion.com^
 ||etahub.com^
-||popmyads.com^
 ||adsco.re^
 ||juicyads.com^
 ||popads.net^
@@ -2654,8 +2644,6 @@ goal.com##.widget-semantic-player--displayed.widget-semantic-player
 ||admesia.com^
 ||doublepimp.com^
 ||adtng.com^
-||adxadserv.com^
-||adxpansion.com^
 ||adservme.com^
 ||logger.pw^
 ||adhigh.net^
@@ -2669,10 +2657,7 @@ goal.com##.widget-semantic-player--displayed.widget-semantic-player
 ||freegeoip.net^
 ||adprovider.adlure.net^
 ||clksite.com^
-||px*.com^
-||aoredi.com^
 ||jads.co^
-||7vid.net^
 ||loltrack.com^
 ||chatango.com^
 ||jwpltx.com^$3p
