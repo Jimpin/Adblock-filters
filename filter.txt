@@ -34,6 +34,7 @@ aftonbladet.se##[data-ad-subtype="mega"]:upward(div[style^="opacity"])
 aftonbladet.se##div[class][style*="text"]:has(h3:has-text(/annons/i))
 aftonbladet.se##div[class][style*="text"]:has(h3:has-text(/annonslänkar/i))
 aftonbladet.se##[class="svp-player-recommended-box"]
+aftonbladet.se##[class*="default css-"][src*="/embed/ab-box?pym="]
 aftonbladet.se##.abAside > div[style^="text"]:last-child
 aftonbladet.se##.ab-responsive-ads-wrapper
 aftonbladet.se##.wide:contains(,)
@@ -89,7 +90,6 @@ klart.se##+js(remove-class, mega-loading)
 utm_$document,removeparam=/^utm_/
 @@/cnp-assets/*.js.abab*.js$script
 /www.*\/cnp-assets\/[1-9][0-8]\./$script
-/embed/ab-box?
 /deprecated-linkpulse-tracking.js
 /player-plugin-ad$3p
 /player-plugin-sponsor$3p
@@ -761,14 +761,7 @@ vipleague.*##[action="https://www.tvply.me/sdembed?v=spa1hd~spa1sd"]
 ||vipleague.*/loadchatdata$xhr,domain=www.vipleague.lc
 ||vipleague.*/favicon-32x32.png$image
 ||clients6.google.com/rpc$xmlhttprequest,domain=www.vipleague.lc
-||mw19c3mi5a.com^$important
-||bcloudhost.com^$script
-||oagwl3372h.com^$important
-||refbanners.com/I
-||bannerflow.com^$important
 ||commercialvalue.org^$important
-||linkedin.com^$script,3p
-||mirafaren.pw^$all
 /*^$xhr,frame,css,3p,domain=vipleague.lc
 /yandex-metrica-watch/tag.js
 
@@ -1254,10 +1247,10 @@ firstrowsportes.*##.footer
 firstrowsportes.*##.mainer > .cl
 ||hdgameslive.com^$inline-script,document
 ||free-icons-download.net/images/*$important
-||p.pxl2015x1.com/pixel/*$image,domain=hdgameslive.com
+||pxl2015x1.com^
 ||priests.top^
-||web.automatedcomputers.com^
-||t.mdn2015x4.com^
+||automatedcomputers.com^
+||mdn2015x4.com^
 
 #Gp.se
 gp.se##+js(ra, data-access, [data-access="false"])
@@ -1337,11 +1330,6 @@ onhockey.tv##[src="pic/sad.gif"]
 ||onhockey.tv/chat_choose.html$inline-script,first-party
 ||onhockey.tv/pic/sad.gif$image,first-party
 ||onhockey.tv/pic/sched2.png$image,first-party
-||am15.net^$important
-||r66at6sf.com^$important
-||crossout.net^$important
-||am15.net/ssp/banner$important
-||d.sportlevel.com^$important
 
 #Mixdrop.co
 mixdrop.*##+js(addEventListener-defuser, click, dtnoppu)
@@ -1407,17 +1395,6 @@ vcstream.*##+js(popads-dummy)
 ||g.jwpsrv.com^$other
 ||jwpltx.com/*/ping.gif
 ||gomo.to$image
-||oupushee.com^$important
-||phengung.net^$important
-||coothupu.net^$important
-||yandexcdn.com^$important
-||zopim.com^$important
-||getclicky.com^$important
-||clkitgo.com^$important
-||brightonclick.com^$important
-||fastlnks.com^$important
-||go.squawinto.com^$important
-||track.amzinguidance.com^$important
 
 #Moviesjoy/Movies2watch
 moviesjoy.*,movies2watch.*,myflixer.*##html,body:style(overflow-y: auto !important;)
@@ -1483,10 +1460,8 @@ loadvid.*###overlay-vcplayer
 ||loadvid.online/images/logo-brand.png$image,important
 ||photo.vidcloudcdn.com^$image,important
 ||cdnjs.cloudflare.com/ajax/libs/fuckadblock^
-||onclicksuper.com/jump/next.php$popup,important
-||zap.buzz^$important
-||static.zdassets.com^$script
-||ekr.zdassets.com^$xhr
+||onclicksuper.com^
+||zdassets.com^
 dood.*##+js(nano-setInterval-booster, .countdown, , 0.02)
 dood.*##+js(abort-current-script, adcashMacros)
 dood.*##+js(aopw, check)
@@ -1507,13 +1482,8 @@ dood.*##+js(nostif, debugger)
 ##[id="qp3hpo6"]
 ##[class="adblock-notice text-center"]
 ##.addthis_inline_share_toolbox
-||edua29146y.com^$important
 harleyquinnwidget.*##[href$=".html"]
 aliez.*##[href$=".html"]
-||harleyquinnwidget.net^$popup
-||rotumal.com^$important,popup
-||static.tellerium.com^$popup,important
-||1079020916.rsc.cdn77.org^$important
 /redirect?tid=^$important
 
 #Skidrowreloaded.com
