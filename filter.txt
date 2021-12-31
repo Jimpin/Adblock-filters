@@ -2464,7 +2464,7 @@ goal.com##.widget-semantic-player--displayed.widget-semantic-player
 *counter2.
 *hits.
 *impression.
-*log.
+*logs.
 *logger.
 *metrics.
 *pixel.$~stylesheet
@@ -2472,7 +2472,9 @@ goal.com##.widget-semantic-player--displayed.widget-semantic-player
 *statistics.
 *stats.
 *track.
-*tracking2.
+*tracker.
+*trackers.
+*tracking.
 *ucounter.
 ||omnitagjs.com^$xhr,important
 ||stackpathcdn.com^$xhr
