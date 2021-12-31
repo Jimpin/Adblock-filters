@@ -37,6 +37,7 @@ aftonbladet.se##[class*="default css-"][src*="/embed/ab-box?pym="]
 aftonbladet.se##[class*="css-1"]:contains(bindningstid)
 aftonbladet.se##.abAside > div[style^="text"]:last-child
 aftonbladet.se##.ab-responsive-ads-wrapper
+aftonbladet.se##.disable-cogwheel
 aftonbladet.se##.wide:contains(,)
 aftonbladet.se##.share-icons
 aftonbladet.se##.social-shares
