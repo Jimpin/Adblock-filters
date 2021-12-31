@@ -33,7 +33,6 @@ aftonbladet.se###main > div > div > div:has(h2:has-text(/^annons/i))
 aftonbladet.se##[data-ad-subtype="mega"]:upward(div[style^="opacity"])
 aftonbladet.se##div[class][style*="text"]:has(h3:has-text(/annons/i))
 aftonbladet.se##div[class][style*="text"]:has(h3:has-text(/annonslänkar/i))
-aftonbladet.se##[class="svp-player-recommended-box"]
 aftonbladet.se##[class*="default css-"][src*="/embed/ab-box?pym="]
 aftonbladet.se##[class*="css-1"]:contains(bindningstid)
 aftonbladet.se##.abAside > div[style^="text"]:last-child
