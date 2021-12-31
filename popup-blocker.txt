@@ -42,7 +42,6 @@ http://$popup,frame,3p
 ||popup.*$inline-script,popup,popunder,3p
 -ads-campaign/$popup
 iframe*$popup
-<div class="popup"> 
 [href="#pop-request"]
 /?cs=^$popup,important
 /utx?^$popup,important
@@ -150,10 +149,10 @@ iframe*$popup
 ||popupdomination.com^$3p
 ||popuptraffic.com^$3p
 ||popwin.net^$3p
-||go.oclasrv.com
-||go.onclasrv.com
-||onclkds.com
-||xxlargepop.com
+||go.oclasrv.com^
+||go.onclasrv.com^
+||onclkds.com^
+||xxlargepop.com^
 ||onclicksuper.com^$popup
 ||adnetworkperformance.com^$popup
 ||advertserve.com^$popup
@@ -201,15 +200,10 @@ iframe*$popup
 ||popads.net^$popup,frame
 ||adnety.com^$popup
 ||clicknety.com^$popup
-||b54m4qbmt0b9.com^$popup
 ||inxy.run^$popup
 ||z6naousb.com^$popup
 ||rizk.com^$popup,important
-||b3z29k1uxb.com^$popup,important
-||ylqbiljjlyq.com^$popup,important
-||212.83.183.149^$popup
 ||wchat.*^$important
-
 -ads-campaign/$popup
 .co/ads/$popup
 .com/?adv=$popup
@@ -298,7 +292,7 @@ _popunder+$popup
 ://*.stream$popup,3p
 ://*.click$popup,3p
 ://*.xyz$popup,3p
-/1675303/
+*/1675303/
 =popunder&$popup
 =popunders&$popup
 ?ad_domain=$popup
