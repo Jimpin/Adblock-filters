@@ -34,7 +34,7 @@ aftonbladet.se##[data-ad-subtype="mega"]:upward(div[style^="opacity"])
 aftonbladet.se##div[class][style*="text"]:has(h3:has-text(/annons/i))
 aftonbladet.se##div[class][style*="text"]:has(h3:has-text(/annonslänkar/i))
 aftonbladet.se##[class*="default css-"][src*="/embed/ab-box?pym="]
-aftonbladet.se##[class*="css-1m1m"]
+aftonbladet.se##[class*="css-1ml"]
 aftonbladet.se##.abAside > div[style^="text"]:last-child
 aftonbladet.se##.ab-responsive-ads-wrapper
 aftonbladet.se##.disable-cogwheel
