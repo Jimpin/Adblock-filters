@@ -2574,7 +2574,6 @@ goal.com##.widget-semantic-player--displayed.widget-semantic-player
 ||adservice.google.se^
 ||id.google.se^
 ||freshchat.com^$all
-||jsc.mgid.com^
 ||adserving.unibet.com^
 ||mgid.com^
 ||whos.amung.us^
@@ -2652,7 +2651,7 @@ goal.com##.widget-semantic-player--displayed.widget-semantic-player
 ||realsrv.com^
 ||bnserving.com^
 ||openstat.net^
-||js.wpnjs.com^
+||wpnjs.com^
 ||zeusadx.com^
 ||adrunnr.com^
 ||affiliatelounge.com^
@@ -2677,7 +2676,7 @@ goal.com##.widget-semantic-player--displayed.widget-semantic-player
 ||tagbucket.cc^
 ||hqq.watch^
 ||static.addtoany.com^
-||t.mdn2015x3.com^
+||mdn2015x3.com^
 ||gmobtrks.com^
 ||gtrafficshop.com^
 ||gverymuchad.com^
@@ -2844,7 +2843,6 @@ redirect.
 /player*/ad*.php$xhr,1p
 /bet365$popup
 /html/blocked.html$popup,important
-/6rpck7aq$important
 /bundles/analytics
 /css/analytics.js$script
 /css/logo.png$image
@@ -3011,7 +3009,7 @@ redirect.
 /jquery.slimscroll
 /smetrics.*/b/ss/
 /ntv.json
-/ren.gif?sid=
+/*?sid=
 /gid.js?pub=
 /popunder*.js^
 /cuteimage/*$image
@@ -3136,20 +3134,14 @@ supervisor/
 -ad-gif-
 -ad-gif1-
 -ad-home.
--ad-hrule-
--ad-hrule.
 -ad-iframe/
 -ad-top.
 -ad-unit.
 -ad-unit/
 -ad-util-
 -ad-util.
--ad-utility-
--ad-vertical-
 -ad-zone.
--ad.jpg.pagespeed.
 -ad.jpg?
--ad.jsp|
 -ad.php?
 -ad/dist/
 -ad/embed.
