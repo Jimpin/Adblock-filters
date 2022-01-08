@@ -1226,9 +1226,8 @@ reddit.com##.promotedlink
 reddit.com##.md-container-small.reddit-infobar
 reddit.com##div[id^="sidebar-atf-"]
 reddit.com##div[id^="sidebar-btf-"]
-@@||reddit.com/r/*/comments/
+@@||reddit.com/*/comments/
 ||reddit.com/api/request_promo.json
-||reddit.com/api/jail/$xmlhttprequest,1p
 ||reddit.com/counters/$xmlhttprequest
 ||redditmedia.com/gtm/jail?
 
@@ -3684,7 +3683,6 @@ popuper.js^
 *##script:contains(window.adsbyjuicy)
 *##script:contains(adzone)
 *##script:contains("adId")
-
 *##+js(ra, onclick, [onclick^="track"])
 *##+js(aopr, AaDetector)
 *##+js(aopr, LieDetector)
@@ -3700,6 +3698,13 @@ popuper.js^
 *##+js(set, plugins.preroll, noopFunc)
 *##+js(acis, JSON.parse, atob)
 *##[onclick="closeBanner()"]
+*##.bxslider-shoutout
+*##.block-company-ranking.block
+*##.ad-entry-html.ad
+*##.ad-shout-out.ad
+*##.block-body-plus.block
+*##[class*="col-lg-"]:contains(bonus)
+*##.ipsAnnouncement
 
 *##+js(aopr, _0xbeb9)
 *##+js(aopr, _0xe317)
