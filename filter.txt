@@ -1732,7 +1732,6 @@ goal.com##.widget-semantic-player--displayed.widget-semantic-player
 ##.video-wrapper > #player + [class]
 ##[class="blackListActions clearfix"]
 ###footerMenu_advertising
-###main-container > [id] > [class]:first-child
 ##zzzzz
 ##.js-pop.ad-link
 ##[class="ad-link js-pop"]
