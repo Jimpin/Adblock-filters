@@ -360,6 +360,7 @@ youtube.com##.masthead-ad-control
 youtube.com###video-masthead
 youtube.com###hats-container
 youtube.com##.ytp-button.ytp-miniplayer-button
+youtube.com###body:contains(**)
 youtube.com##.GoogleActiveViewElement.ytd-watch-next-secondary-results-renderer.style-scope:has-text(Annons)
 youtube.com###contents > .ytd-search-pyv-renderer.style-scope:contains(Annons)
 youtube.com###content-text > a.yt-formatted-string.style-scope.yt-simple-endpoint:contains(.)
