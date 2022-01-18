@@ -3687,7 +3687,6 @@ popuper.js^
 *##+js(aopr, LieDetector)
 *##+js(nosiif, _0x)
 *##+js(aopw, Fingerprint2)
-*##+js(acis, String.fromCharCode, decodeURIComponent)
 *##+js(aopr, disableButtonTimer)
 *##+js(aopw, ai_front)
 *##+js(abort-on-property-read, Object.prototype.adUnits)
@@ -3695,7 +3694,6 @@ popuper.js^
 *##+js(acis, spr)
 *##+js(set, POPUNDER_ENABLED, false)
 *##+js(set, plugins.preroll, noopFunc)
-*##+js(acis, JSON.parse, atob)
 *##[onclick="closeBanner()"]
 *##.bxslider-shoutout
 *##.block-company-ranking.block
