@@ -19,6 +19,9 @@ aftonbladet.se##[class*="css"][href*="/kampanj/"]
 aftonbladet.se##[data-test-tag="internal-link:single-page-link"]:contains(annonslänkar)
 aftonbladet.se##a[href*="/tv/"]:has(span:has-text(/studio oddset/i)):upward(1)
 aftonbladet.se##[class*="css-"]:matches-css(z-index: 10001)
+aftonbladet.se##.css-7rcwt5
+aftonbladet.se##.css-4thb3o
+aftonbladet.se##.css-0
 aftonbladet.se##.css-i1qmsk:contains(annonslänkar)
 aftonbladet.se##div.HLf1C:contains(annonslänkar)
 aftonbladet.se##div.HLf1C:contains(ANNONS)
