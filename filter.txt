@@ -123,6 +123,7 @@ expressen.se##.article--sponsored
 expressen.se##.article__after-widgets > .html-widget
 expressen.se##[class="exp-video-player__ad-counter"]
 expressen.se##[class="exp-video-player__buffer-overlay"]
+expressen.se##[data-position]:matches-css(height: 0px)
 expressen.se##.ad
 expressen.se##.pa-dialog
 expressen.se##.campaign
