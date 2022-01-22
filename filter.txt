@@ -105,38 +105,22 @@ utm_$document,removeparam=/^utm_/
 expressen.se##^script:has-text(adblock)
 expressen.se##^script:has-text(adsScript)
 expressen.se##^script:has-text(window.Exp.bamData)
-expressen.se##^script:has-text(window.ExpressenAnalytics)
 expressen.se##+js(aeld, click, trackClick)
 expressen.se##+js(set, detect, noopFunc)
+expressen.se##+js(ra, data-start-in-view)
 expressen.se##+js(json-prune, autoplay)
 expressen.se##+js(acis, adblock)
 expressen.se##+js(acis, ExpressenAnalytics, push)
 expressen.se##aside.article-list > .ad-label--overlay
 expressen.se##aside.article-list > .ad-label--overlay + ul
-expressen.se##[data-position*="26"]:matches-css(width: 640px)
-expressen.se##[data-position*="56"]:matches-css(width: 640px)
-expressen.se##[data-position*="59"]:matches-css(width: 640px)
-expressen.se##[data-position*="81"]:matches-css(width: 640px)
-expressen.se##[data-position*="96"]:matches-css(width: 640px)
 expressen.se##.outsider-ads__sticky-context
 expressen.se##.outsider-ads.site-body__outsider
-expressen.se##a[href="https://www.expressen.se/premium/kampanj/standard"]
 expressen.se##.main:style(width: 100% !important;)
-expressen.se##[class="teaser"][data-position*="40"]
 expressen.se##.site-footer__affiliates.site-footer__column--full-width
-expressen.se##^script[id="ads-script"]
-expressen.se##.rotator__link:style(width: unset !important;)
 expressen.se##p:has(strong:has-text(/^annons/i))
 expressen.se##.site-header__widgets > .html-widget > a[target="_blank"]
 expressen.se##.article--sponsored
 expressen.se##.article__after-widgets > .html-widget
-expressen.se##.teaser:has(.teaser__third-party--bar)
-expressen.se##.teaser__hero:has(iframe[src*="/tv/nyheter/live-start/live-tv-senaste-nyheterna"])
-expressen.se##.teaser > a[href*=".se"]
-expressen.se##.teaser--native-ad
-expressen.se##.teaser--native, .native-article
-expressen.se##.teaser--sponsored
-expressen.se##.teaser > a[href*="kampanj."], .teaser > a[href*="/brandstudio"], .teaser > a[href*="/brand-studio"]
 expressen.se##[class="exp-video-player__ad-counter"]
 expressen.se##[class="exp-video-player__buffer-overlay"]
 expressen.se##.ad
@@ -159,8 +143,10 @@ expressen.se##.html-widget > div[style^="text-align: center; font-size: 10px;"]
 expressen.se##.exp-video-player__ad-video
 expressen.se##.exp-video-player__topbar
 expressen.se##.slideshow__control
-expressen.se##a[href*="/spel.exp"], a[href*="/lanapengar.exp"], a[href*="/rabattkoder.exp"], a[href*="/annons"]
+expressen.se##[href*="https://www.expressen.se/amelia/"]
+expressen.se##a[href*="/spel.exp"], a[href*="/lanapengar.exp"], a[href*="/rabattkoder.exp"], a[href*="/annons"], .match-betting, .discount-ad, .b-ad__caption, .pressrelease-teaser, .widget-ad-marker, .widget-ad-marker + a, .promotion-banner, .widget--collaboration, .rotator--external, a[data-click-track*="prisjakt"], .linked-image-widget a[href*="/kampanj/"], .linked-image-widget
 expressen.se##figure[data-article-data*="/sponsrat"], figure[data-article-data*="/annons"], figure[data-article-data*="/brand-studio"]
+*##+js(acs, ExpressenAnalytics, push)
 ##.terms-dialog
 ##[class="bam-ad-slot"]
 ##[class="page-list discount-ad"]
