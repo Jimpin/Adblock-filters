@@ -2046,8 +2046,6 @@ goal.com##.widget-semantic-player--displayed.widget-semantic-player
 ##.pull-right.slider_small
 ##.hidden-print.css-za945f-alertInfo
 ###social-foot
-###ticker
-###ticker-content
 ##.tab-content > .main-content > .tab-content > .main-content > .tab-content > .main-content > .tab-content > .content-kus
 ###material-notice
 ##.ads-ad
