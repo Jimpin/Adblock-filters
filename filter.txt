@@ -336,6 +336,7 @@ youtube.com##.ytp-ad-progress
 youtube.com##.ytp-ad-progress-list
 youtube.com##.ytp-fullerscreen-edu-chevron
 youtube.com###promotion-shelf
+youtube.com##[id="mouseover-overlay"]
 youtube.com##[id="hover-overlays"]
 youtube.com###material-notice
 youtube.com##.pyv-afc-ads-container
