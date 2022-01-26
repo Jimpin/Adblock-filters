@@ -13,8 +13,6 @@
 |dddata:text$popup
 |about:blank$3p
 *#blocked$popup,3p
-*##+js(aopr, popunderSetup)
-*##+js(acis, document.querySelector, popupBlocked)
 *##+js(acis, decodeURI, zfgloadedpopup)
 *##+js(aopw, popup_ads)
 *##+js(aopr, popjs.init)
@@ -207,7 +205,7 @@ iframe*$popup
 /ads.htm$popup
 /adServe/*$popup
 /adserver.$popup
-/AdServer/*$popup,third-party
+/AdServer/*$popup,3p
 /adstream_sx.ads/*$popup
 /adsxml.php$popup
 /adsynserveuserid=$popup
@@ -312,12 +310,9 @@ _popunder+$popup
 *.bid^$popup,3p
 *.biz^$popup,3p
 *.xyz^$popup,3p
-*.club^$popup,3p
-*.info^$popup,3p
 *.style^$popup,3p
 *.ltd^$popup,3p
 *.pw^$popup,3p
-*.site^$popup,3p
 *.pink^$popup,3p
 *.st^$popup,3p
 *.click^$popup,3p
@@ -329,7 +324,6 @@ _popunder+$popup
 *.win^$popup,3p
 *.trade^$popup,3p
 *.space^$popup,3p
-*.stream^$popup,3p
 *.webcam^$popup,3p
 *.link^$popup,3p
 *.loan^$popup,3p
