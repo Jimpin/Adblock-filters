@@ -320,14 +320,12 @@ tv4play.se##a[href="https://www.cmore.se/tv-program?utm_source=tv4play&utm_mediu
 
 #Youtube.com
 youtube.com##.ad-div
-youtube.com##.annotation.iv-branding
 youtube.com###infoButton
 youtube.com###chips
 youtube.com##.opened
-youtube.com###offer-module
 youtube.com##.yt-alert-content
 youtube.com##ytd-merch-shelf-renderer.ytd-watch-flexy.style-scope > .ytd-merch-shelf-renderer.style-scope:contains(Köp)
-youtube.com##ytd-display-ad-renderer:upward(2)
+youtube.com##ytd-display-ad-renderer:upward(ytd-rich-item-renderer)
 youtube.com##+js(json-prune, [].playerResponse.adPlacements [].playerResponse.playerAds playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds)
 youtube.com##+js(set-constant, ytInitialPlayerResponse.adPlacements, undefined)
 youtube.com##+js(set-constant, playerResponse.adPlacements, undefined)
@@ -338,7 +336,7 @@ youtube.com##.ytp-ad-progress
 youtube.com##.ytp-ad-progress-list
 youtube.com##.ytp-fullerscreen-edu-chevron
 youtube.com###promotion-shelf
-youtube.com##[id="survey"]
+youtube.com##[id="hover-overlays"]
 youtube.com###material-notice
 youtube.com##.pyv-afc-ads-container
 youtube.com###ticker
