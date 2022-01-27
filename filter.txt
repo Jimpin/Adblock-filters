@@ -337,9 +337,10 @@ youtube.com##[id="mouseover-overlay"]
 youtube.com###material-notice
 youtube.com###masthead-ad
 youtube.com##.masthead-ad-control,.ad-div,.pyv-afc-ads-container
-youtube.com##ytd-video-masthead-ad-advertiser-info-renderer,ytm-promoted-sparkles-web-renderer
 youtube.com###video-masthead
+youtube.com##ytd-video-masthead-ad-advertiser-info-renderer,ytm-promoted-sparkles-web-renderer
 youtube.com###hats-container
+youtube.com##[style*="--ytd-video-preview-top-position"]
 youtube.com##.ytp-button.ytp-miniplayer-button
 youtube.com###body:contains(**)
 youtube.com###body:contains([)
