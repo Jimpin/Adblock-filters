@@ -1456,6 +1456,12 @@ dood.*##+js(aopw, _pop)
 dood.*##+js(aopw, DoodPop)
 dood.*##+js(nostif, debugger)
 ||doodcdn.com/splash/*.jpg^$image
+rabbitstream.net##+js(set, console.clear, undefined)
+||i.imgur.com/*.gif$image,domain=rabbitstream.net
+himovies.to##body.modal-open:style(overflow: auto!important;)
+himovies.to##+js(nostif, 0x)
+himovies.to###modalshare
+himovies.to##.modal-backdrop
 /js/kaltura.js$script
 /ajax/banners$xhr
 /images/dablock.png$image
@@ -3455,7 +3461,6 @@ popuper.js^
 *##+js(aopr, cursorAd)
 *##+js(acis, preLoadAds, loadAd)
 *##+js(acis, preLoadAds, setup)
-*##+js(std, onerror, 1000)
 *##+js(acis, Exp, bamData)
 *##+js(acis, losAd)
 *##+js(acis, phpads_deliver)
