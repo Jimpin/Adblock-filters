@@ -3419,7 +3419,6 @@ popuper.js^
 ##[src*="/pn-subs.php"]
 ##[src*="/genads.php?"]
 ##[src*="/adca.php"]
-##[src*="/admin-ajax.php"]
 ##[src*="/rekban.php?"]
 ##[src*="/ntfc.php?"]
 ##[src*="/share.php"]
@@ -3454,7 +3453,6 @@ popuper.js^
 ://wchat.*^$popup,important
 ://lightning.*/launch/
 *##+js(acis, atob, tabunder)
-*##+js(set, Annons, noopFunc)
 *##+js(aopr, InitCloseButton)
 *##+js(aopw, rAb)
 *##+js(aopw, AdDelivery)
@@ -3465,18 +3463,13 @@ popuper.js^
 *##+js(acis, losAd)
 *##+js(acis, phpads_deliver)
 *##+js(aopw, banner_video)
-*##+js(setTimeout-defuser.js, adsbygoogle, 2000)
-*##+js(acis, popunder)
 *##+js(acis, document.createElement, jsc.mgid.com)
 *##+js(set, ClickUnder, noopFunc)
-*##+js(aopr, AdservingModule)
-*##+js(aopr, SmartAdServerASMI)
 *##+js(aeld, DOMContentLoaded, adlinkfly)
 *##+js(ra, href, #clickfakeplayer)
 *##+js(aopr, jwplayer.utils.Timer)
 *##+js(aopr, jwplayer.vast)
 *##+js(aopr, VAST)
-*##+js(aopr, S9tt)
 *##+js(aopr, AdDelivery.prototype.requestTrafficJunkyAds)
 *##+js(aopr, _goat)
 *##+js(aopr, ExoLoader.serve)
@@ -3498,7 +3491,6 @@ popuper.js^
 *##a[onclick="closeMyAd()"]
 *##a[onclick="rdr(this);"]
 *##a[onclick="removeOverlayHTML();"]
-*##[id^='adsIfrme']:has(:scope > iframe[src^='/ads/'])
 *##a[href*="betting"]
 *##a[href*="brandstudio"]
 *##a[href*="branding"]
@@ -3638,7 +3630,6 @@ popuper.js^
 *##+js(nostif, n.modal)
 *##.no-scroll:style(overflow-x: hidden !important;)
 *##+js(nostif, showOverlay)
-*##style:contains(overlay)
 *###overlay:not(.overlay)
 *##html.open-modal .overlay:style(display: none !important)
 *##div[class^="lowerBadge"]
