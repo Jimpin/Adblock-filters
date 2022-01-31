@@ -213,6 +213,7 @@ twitch.tv##[src*="HTMLCanvasElement.prototype.toBlob,IntersectionObserver"]
 @@||wss://pubsub-edge.twitch.tv
 ||amazon-adsystem.com/*/apstag.js$script,important
 ||ad.doubleclick.net/ddm/ad/*/*/*'/;ord='*$important
+||vod-secure.twitch.tv^
 ||countess.twitch.tv^
 ||spade.twitch.tv^
 ||sentinel.twitchsvc.net/error-report
@@ -2280,6 +2281,7 @@ goal.com##.widget-semantic-player--displayed.widget-semantic-player
 ##.nu2ad
 ##.nuffnangad
 ##.nui-ad-layout
+##.undefined
 ##iframe[width="728"][height="90"]
 ###onetrust-consent-sdk
 ##.open-ad-container-mobile
