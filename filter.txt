@@ -1761,6 +1761,7 @@ goal.com##.widget-semantic-player--displayed.widget-semantic-player
 ##.ad400
 ##.adsbygoogle
 ##.adSense60.adsbygoogle
+##.js-google-ad
 ##.cc-banner
 ##[id*="ScriptRoot"]
 ##[id*="MarketGid"]
@@ -2117,6 +2118,8 @@ goal.com##.widget-semantic-player--displayed.widget-semantic-player
 ##.alert--warning.alert
 ###outsider
 ##.ovl-fade
+##.ovl__content
+##.js-ovl-fade.ovl-fade
 ##.alert.text-center.gdpr-msg
 ###sticky-banner
 ###sns_overlay
