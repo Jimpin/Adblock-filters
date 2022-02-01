@@ -407,7 +407,7 @@ facebook.com##[data-pagelet*="FeedUnit"]:contains(Villkor)
 facebook.com###pagelet_ego_pane
 facebook.com###rightCol .pagelet.egoOrganicColumn
 facebook.com###globalContainer .pagelet.egoOrganicColumn
-facebook.com#@#body:style(overflow-y: auto !important)
+facebook.com#@#html,body:style(overflow-x: hidden !important;)
 @@||static.xx.fbcdn.net^$script
 ||facebook.com/plugins/like.php$subdocument
 ||facebook.com/plugins/likebox.php$subdocument
