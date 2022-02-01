@@ -2117,9 +2117,10 @@ goal.com##.widget-semantic-player--displayed.widget-semantic-player
 ##.text--center.text--nowrap.site_logo.logo__container
 ##.alert--warning.alert
 ###outsider
+##.ovl
 ##.ovl-fade
 ##.ovl__content
-##.js-ovl-fade.ovl-fade
+##.js-ovl-fade
 ##.alert.text-center.gdpr-msg
 ###sticky-banner
 ###sns_overlay
