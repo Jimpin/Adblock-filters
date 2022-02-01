@@ -3690,7 +3690,6 @@ popuper.js^
 *##^script:has-text(__perfMark('app_html_start');)
 *##^script:has-text(ads_dot)
 *##^script:has-text(FingerprintJS)
-*##+js(aeld, click, [native code])
 *##+js(nosiif, /0x|google|ecoded|==/)
 *##+js(aopw, pURL)
 
