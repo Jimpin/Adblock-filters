@@ -5,7 +5,7 @@
 
 #Aftonbladet.se
 aftonbladet.se##html,body:style(overflow-y: auto !important;)
-aftonbladet.se##html,body:style(overflow-x: none !important;)
+aftonbladet.se##html,body:style(overflow-x: hidden !important;)
 aftonbladet.se##body:style(overflow: unset!important)
 aftonbladet.se##+js(no-setTimeout-if, TAKEOVER)
 aftonbladet.se##strong:has-text(/ANNONS/i):upward(p)
@@ -2722,6 +2722,15 @@ goal.com##.widget-semantic-player--displayed.widget-semantic-player
 ||tracker.*/$xmlhttprequest
 ||lookpic.com/*.jpg
 ||lookpic.com/*.gif
+||connect.facebook.net/signals/*$script
+||graph.facebook.com^
+||fls.doubleclick.net^$subdocument
+||richmetrics.com^$script
+||spotxchange.com^$xmlhttprequest
+||googletagmanager.com/gtm.js$script
+||imrworldwide.com^$image
+||alfasense.com^$xhr
+||exchange.buzzoola.com^$xhr
 .consent-cookie.
 .cookie-law.$script
 .cookie-policy.
@@ -2813,6 +2822,9 @@ redirect.
 /adServe/banners?tid=*$all,important
 /redirect
 /click?pid=*
+/ping?client_id=
+/system/context.js$script
+/error.png$image
 /adsrv.
 /adsrv/*
 /adsrv2/*
@@ -3487,6 +3499,7 @@ popuper.js^
 *##+js(acis, Bau, preloadAds)
 *##html:style(filter: none !important)
 *##:style(overflow: auto !important; position: initial !important;)
+*##html,body:style(overflow-x: hidden !important;)
 *##[class="sp-message-open"]:style(overflow: auto !important; position: initial !important;)
 *##[class="js sp-message-open"]:style(position: unset !important;)
 *##.is-showing.has-noScroll.modal:style(display: none !important;)
@@ -3556,18 +3569,6 @@ popuper.js^
 ###popup-poster_inner
 ###popup-poster
 ###footer_bottom_floating_line__cookies
-||connect.facebook.net/signals/*$script
-||graph.facebook.com^
-/ping?client_id=
-||fls.doubleclick.net^$subdocument
-||richmetrics.com^$script
-||spotxchange.com^$xmlhttprequest
-||googletagmanager.com/gtm.js$script
-||imrworldwide.com^$image
-||alfasense.com^$xhr
-||exchange.buzzoola.com^$xhr
-/system/context.js$script
-/error.png$image
 ##.light.as-oil
 ###tyche_cmp_modal
 ##.popup_overlay--2rgA3
@@ -3688,6 +3689,11 @@ popuper.js^
 *##.ipsAnnouncement
 *##^script:has-text(__perfMark('app_html_start');)
 *##^script:has-text(ads_dot)
+*##^script:has-text(FingerprintJS)
+*##+js(aopr, navigator.userAgent)
+*##+js(aeld, click, [native code])
+*##+js(nosiif, /0x|google|ecoded|==/)
+*##+js(aopw, pURL)
 
 *##+js(aopr, _0xbeb9)
 *##+js(aopr, _0xe317)
@@ -3727,6 +3733,7 @@ popuper.js^
 .xyz^$3p
 ?aHR0*=$all,important
 *$csp=script-src 'none',domain=länsförsäkringar.se|svtt.se|ssvd.se|exressen.se|eexpressen.se|sskatteverket.se|aatg.se|atgg.se
+xn--*.se$important
 /[0-9a-f]{32}\/invoke\.js/$script,3p
 /script/su.js^$script
 /event$xhr,3p
