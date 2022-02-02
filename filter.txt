@@ -3328,6 +3328,7 @@ popuper.js^
 @@||pinterest.com^$image
 @@||redirect*^$xhr,media
 @@||youbora.com/*/js/adapters/jwplayer$script
+@@||chrome-extension://*?magnet$popup
 @@||cookielaw.org/scripttemplates/$script
 @@||cookielaw.org/consent/$other,xhr
 @@||consent.cookiebot.com/*.js$script
