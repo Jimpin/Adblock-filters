@@ -1,6 +1,6 @@
 ! Title: Jimpin's Script/Adblocker
 ! Version: 1.0
-! Homepage http://jimpin.zapto.org/
+! Homepage https://github.com/Jimpin/Adblock-filters
 ! License: GPL-3.0 License | https://github.com/Jimpin/Adblock-filters/blob/master/LICENSE
 
 #Aftonbladet.se
