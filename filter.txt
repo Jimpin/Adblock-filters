@@ -3498,8 +3498,6 @@ popuper.js^
 *##+js(acis, burtSegments)
 *##+js(acis, Bau, preloadAds)
 *##html:style(filter: none !important)
-*##html,body:style(overflow: inherit !important;)
-*##html,body:style(overflow-x: inherit !important;)
 *##[class="sp-message-open"]:style(overflow: auto !important; position: initial !important;)
 *##[class="js sp-message-open"]:style(position: unset !important;)
 *##.is-showing.has-noScroll.modal:style(display: none !important;)
