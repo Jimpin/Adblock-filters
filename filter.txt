@@ -60,10 +60,9 @@ live.aftonbladet.se##.type-advert
 live.aftonbladet.se##.hide
 live.aftonbladet.se##[class*=" null"]
 bloggar.aftonbladet.se##.ab-responsive-adverts-widget-5a208a052f344-appnexus.se-aftonbladet-wde-bloggar_panoramauppe.ab-appnexus-ads-wrapper.ab-responsive-ads-wrapper
-bloggar.aftonbladet.se###ab-responsive-adverts-widget-5a3b71566cade
-bloggar.aftonbladet.se###ab-responsive-adverts-widget-5a3b720ea786b
 bloggar.aftonbladet.se##.collapse.row:nth-of-type(2)
 bloggar.aftonbladet.se###sidebar-panorama-1 > .columns.widget-area
+bloggar.aftonbladet.se##li.abSocialItem
 bloggar.aftonbladet.se##.abInbetweenerHelsida:nth-of-type(1)
 bloggar.aftonbladet.se##.abInbetweenerHelsida:nth-of-type(2)
 klart.se##+js(remove-class, mega-loading)
