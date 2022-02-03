@@ -3423,9 +3423,6 @@ popuper.js^
 ##[src*="/next.php"]
 ##[src*="/?yadrd="]
 ##[src*="/pop.php?"]
-##[src*="/banniere.php"]
-##[src*="/checkInventory.php?"]
-##[src*="/computer-office.html"]
 ##[src*="/afu.php"]
 ##[src*="/stat.php"]
 ##[src*="/js.php"]
@@ -3438,7 +3435,6 @@ popuper.js^
 ##[src*="/share.php"]
 ##[src*="/json.php"]
 ##[src*="/ajax.php"]
-##[src*="/easyshare.php"]
 ##[src*="/ucount.php?"]
 ##[src*="/captcha.php"]
 ##[src*="/aplayer.html"]
@@ -3727,7 +3723,6 @@ popuper.js^
 /dcba/*$all
 .xyz^$3p
 ?aHR0*=$all,important
-*$csp=script-src 'none',domain=länsförsäkringar.se|bödacamping.se|svtt.se|ssvd.se|exressen.se|eexpressen.se|sskatteverket.se|aatg.se|atgg.se
 /[0-9a-f]{32}\/invoke\.js/$script,3p
 /script/su.js^$script
 /event$xhr,3p
