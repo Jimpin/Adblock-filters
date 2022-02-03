@@ -3727,8 +3727,7 @@ popuper.js^
 /dcba/*$all
 .xyz^$3p
 ?aHR0*=$all,important
-*$csp=script-src 'none',domain=länsförsäkringar.se|svtt.se|ssvd.se|exressen.se|eexpressen.se|sskatteverket.se|aatg.se|atgg.se
-xn--*.se$important
+*$csp=script-src 'none',domain=länsförsäkringar.se|bödacamping.se|svtt.se|ssvd.se|exressen.se|eexpressen.se|sskatteverket.se|aatg.se|atgg.se
 /[0-9a-f]{32}\/invoke\.js/$script,3p
 /script/su.js^$script
 /event$xhr,3p
