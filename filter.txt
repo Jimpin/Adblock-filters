@@ -722,7 +722,14 @@ vipleague.*##^script + [id][style]
 vipleague.*##ol
 vipleague.*##div.pt-1:nth-of-type(9)
 vipleague.*##b
+vipleague.*##p
+vipleague.*##.mt-1
 vipleague.*##h1
+vipleague.*##h2
+vipleague.*##.text-warning
+vipleague.*##[class*="mx-"]
+vipleague.*##.text-center > p
+vipleague.*##[style="display: none;"]
 vipleague.*##.h-100.w-100.position-relative
 vipleague.*##.green.button.big
 vipleague.*##.text-center.alert-secondary.alert.col-12
@@ -733,9 +740,6 @@ vipleague.*##.hidden-sm.hidden-xs.col-xs-12 > .well-sm.well
 vipleague.*##.position-relative.text-success
 vipleague.*##.text-center.col-md-4.d-md-block.d-none
 vipleague.*##.text-white.bg-dark.text-justify.p-3.m-3.d-md-block.d-none.col-12
-vipleague.*##[type*="text/javascript"]
-vipleague.*##[data-cfasync]
-vipleague.*##[href="javascript:void(0);"]
 vipleague.*##[class*="text-success position-relative"]
 vipleague.*##[class*=" d-block"]
 vipleague.*##[action="https://www.tvply.me/sdembed?v=spa1hd~spa1sd"]
@@ -745,7 +749,7 @@ vipleague.*##[action="https://www.tvply.me/sdembed?v=spa1hd~spa1sd"]
 ||vipleague.*/favicon-32x32.png$image
 ||clients6.google.com/rpc$xmlhttprequest,domain=www.vipleague.lc
 ||commercialvalue.org^$important
-/*^$xhr,frame,css,3p,domain=vipleague.lc
+/*^$xhr,frame,css,3p,domain=vipleague.*
 /yandex-metrica-watch/tag.js
 
 #Fmovies
@@ -3366,6 +3370,13 @@ popuper.js^
 @@*.ts$xhr
 @@/?stream=
 
+se,nu,org,net,tv,to,co,com##.td-a-rec
+se,nu,org,net,tv,to,co,com##.td-block-title-wrap
+se,nu,org,net,tv,to,co,com##.td-logo-wrap-full
+se,nu,org,net,tv,to,co,com##.td-footer-bottom-full
+se,nu,org,net,tv,to,co,com##[type*="text/javascript"]
+se,nu,org,net,tv,to,co,com##[data-cfasync]
+se,nu,org,net,tv,to,co,com##[href="javascript:void(0);"]
 se,nu,org,net,tv,to,co,com##li:contains(vert)
 se,nu,org,net,tv,to,co,com##[href*="/adult"]
 se,nu,org,net,tv,to,co,com##[href*="/advertising"]
