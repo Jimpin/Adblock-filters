@@ -1786,7 +1786,7 @@ goal.com##.widget-semantic-player--displayed.widget-semantic-player
 ##.shareIcons
 ##.share-sites-thumbs
 ###right-banner-container
-##.adLong:nth-of-type(11) > .adContainer > .adsbygoogle
+##.adLong > .adContainer > .adsbygoogle
 ##.adLong
 ###videoCategory > .alpha
 ##[class="adsbygoogle"]
@@ -1799,7 +1799,6 @@ goal.com##.widget-semantic-player--displayed.widget-semantic-player
 ##[data-entrycode="RemAds-vidPg-AB"]
 ##[id*="popsByTrafficJunky"]
 ##[class="adsbytrafficjunky"][data-spot-id]
-##li:contains(vert)
 ##.adsbytrafficjunky
 ###pb_template
 ##.newPaidSection.section-p2v
@@ -3367,6 +3366,7 @@ popuper.js^
 @@*.ts$xhr
 @@/?stream=
 
+se,nu,org,net,tv,to,co,com##li:contains(vert)
 se,nu,org,net,tv,to,co,com##[href*="/adult"]
 se,nu,org,net,tv,to,co,com##[href*="/advertising"]
 se,nu,org,net,tv,to,co,com##[href*="best"]
