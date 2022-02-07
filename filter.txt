@@ -201,11 +201,7 @@ twitch.tv##.noty_bar
 twitch.tv###noty_bottomCenter_layout_container
 twitch.tv##.side-info-container
 twitch.tv##.tw-absolute.top-bar
-twitch.tv##.player .invisible
-twitch.tv##.player-play-overlay
-twitch.tv##.player-advertisement, .player-video object
 twitch.tv##script:contains(blob)
-twitch.tv##a[href$="twitch.tv"][target="_blank"]
 twitch.tv##[src*="HTMLCanvasElement.prototype.toBlob,IntersectionObserver"]
 @@||twitch.tv/drops/*$1p
 @@||twitch.tv/videos/*$csp
