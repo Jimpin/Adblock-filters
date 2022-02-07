@@ -321,8 +321,10 @@ youtube.com##+js(json-prune, [].playerResponse.adPlacements [].playerResponse.pl
 youtube.com##+js(set-constant, ytInitialPlayerResponse.adPlacements, undefined)
 youtube.com##+js(set-constant, playerResponse.adPlacements, undefined)
 youtube.com##.ytd-metadata-row-container-renderer.style-scope > .ytd-rich-metadata-row-renderer.style-scope
+youtube.com##.ytp-fullerscreen-edu-text
 youtube.com##.ytp-paid-content-overlay
 youtube.com##.ytp-cued-thumbnail-overlay
+youtube.com###clarify-box > .ytd-watch-flexy.style-scope
 youtube.com##[class="style-scope yt-live-chat-viewer-engagement-message-renderer"]
 youtube.com##.ytp-fullerscreen-edu-chevron
 youtube.com###promotion-shelf
