@@ -685,7 +685,6 @@ kollafilm.*##.cent.bnav > [href*="/"], [href*="/donation/"], [href*="discord"], 
 /cropped*.jpg$image,important
 *##[src*="//inpage-push"]
 *##[class*="jw-icon jw-icon-inline jw-button-color jw-reset jw-icon-pip"]
-*##[class*="jw-"]:contains(Picture in Picture)
 
 #Videodls
 videodls.*##div.pb-100.about-us-area > .container > .align-items-center.row > div.col-lg-6
@@ -3368,35 +3367,35 @@ popuper.js^
 @@*.ts$xhr
 @@/?stream=
 
-se,nu,org,net,tv,to,co,com##.td-a-rec
-se,nu,org,net,tv,to,co,com##.td-block-title-wrap
-se,nu,org,net,tv,to,co,com##.td-logo-wrap-full
-se,nu,org,net,tv,to,co,com##.td-footer-bottom-full
-se,nu,org,net,tv,to,co,com##[type*="text/javascript"]
-se,nu,org,net,tv,to,co,com##[data-cfasync]
-se,nu,org,net,tv,to,co,com##[href="javascript:void(0);"]
-se,nu,org,net,tv,to,co,com##li:contains(vert)
-se,nu,org,net,tv,to,co,com##[href*="/adult"]
-se,nu,org,net,tv,to,co,com##[href*="/advertising"]
-se,nu,org,net,tv,to,co,com##[href*="best"]
-se,nu,org,net,tv,to,co,com##[href*="cams"]
-se,nu,org,net,tv,to,co,com##[href*="click?"]
-se,nu,org,net,tv,to,co,com##[href*=".world"]
-se,nu,org,net,tv,to,co,com##[href*=".wz"]
-se,nu,org,net,tv,to,co,com##[href*=".style"]
-se,nu,org,net,tv,to,co,com##[href*=".pw"]
-se,nu,org,net,tv,to,co,com##[href*=".site"]
-se,nu,org,net,tv,to,co,com##[href*=".pink"]
-se,nu,org,net,tv,to,co,com##[href*=".click"]
-se,nu,org,net,tv,to,co,com##[href*=".cricket"]
-se,nu,org,net,tv,to,co,com##[href*=".faith"]
-se,nu,org,net,tv,to,co,com##[href*=".online"]
-se,nu,org,net,tv,to,co,com##[href*=".racing"]
-se,nu,org,net,tv,to,co,com##[href*=".website"]
-se,nu,org,net,tv,to,co,com##[href*=".win"]
-se,nu,org,net,tv,to,co,com##[href*=".trade"]
-se,nu,org,net,tv,to,co,com##[href*=".space"]
-se,nu,org,net,tv,to,co,com##[href*=".webcam"]
+se,nu,org,net,tv,to,io,co,cc,com##.td-a-rec
+se,nu,org,net,tv,to,io,co,cc,com##.td-block-title-wrap
+se,nu,org,net,tv,to,io,co,cc,com##.td-logo-wrap-full
+se,nu,org,net,tv,to,io,co,cc,com##.td-footer-bottom-full
+se,nu,org,net,tv,to,io,co,cc,com##[type*="text/javascript"]
+se,nu,org,net,tv,to,io,co,cc,com##[data-cfasync]
+se,nu,org,net,tv,to,io,co,cc,com##[href="javascript:void(0);"]
+se,nu,org,net,tv,to,io,co,cc,com##li:contains(vert)
+se,nu,org,net,tv,to,io,co,cc,com##[href*="/adult"]
+se,nu,org,net,tv,to,io,co,cc,com##[href*="/advertising"]
+se,nu,org,net,tv,to,io,co,cc,com##[href*="best"]
+se,nu,org,net,tv,to,io,co,cc,com##[href*="cams"]
+se,nu,org,net,tv,to,io,co,cc,com##[href*="click?"]
+se,nu,org,net,tv,to,io,co,cc,com##[href*=".world"]
+se,nu,org,net,tv,to,io,co,cc,com##[href*=".wz"]
+se,nu,org,net,tv,to,io,co,cc,com##[href*=".style"]
+se,nu,org,net,tv,to,io,co,cc,com##[href*=".pw"]
+se,nu,org,net,tv,to,io,co,cc,com##[href*=".site"]
+se,nu,org,net,tv,to,io,co,cc,com##[href*=".pink"]
+se,nu,org,net,tv,to,io,co,cc,com##[href*=".click"]
+se,nu,org,net,tv,to,io,co,cc,com##[href*=".cricket"]
+se,nu,org,net,tv,to,io,co,cc,com##[href*=".faith"]
+se,nu,org,net,tv,to,io,co,cc,com##[href*=".online"]
+se,nu,org,net,tv,to,io,co,cc,com##[href*=".racing"]
+se,nu,org,net,tv,to,io,co,cc,com##[href*=".website"]
+se,nu,org,net,tv,to,io,co,cc,com##[href*=".win"]
+se,nu,org,net,tv,to,io,co,cc,com##[href*=".trade"]
+se,nu,org,net,tv,to,io,co,cc,com##[href*=".space"]
+se,nu,org,net,tv,to,io,co,cc,com##[href*=".webcam"]
 
 ##[href*="https://axofinans.se"]
 ##[href*="/information#advertising"]
@@ -3626,6 +3625,11 @@ se,nu,org,net,tv,to,co,com##[href*=".webcam"]
 ##[class*="ad module__"]
 ##[id*="rich-media-ads"]
 ##[id*="ads-script"]
+##[rel="nofollow"][href*="//"]
+##[id*="overlay-container"]
+##[class*="ad-placement"]
+##[class="jw-overlays jw-reset"]
+##[aria-label="Close"]
 
 *$script,redirect-rule=noopjs
 *$xhr,redirect-rule=nooptext
