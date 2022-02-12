@@ -706,7 +706,6 @@ onlinevideoconverter.*##div.home-section-5:nth-of-type(5)
 /1clkn/*$xhr
 
 #Vipleague
-vipleague.*,tvply.*##+js(window.open-defuser)
 vipleague.*,tvply.*##+js(acis, Math, break;case $.)
 vipleague.*,tvply.*##+js(abort-current-script, JSON.parse, break;case $.)
 vipleague.*,tvply.*##+js(aopw, _pop)
@@ -741,7 +740,8 @@ vipleague.*##.text-center.col-md-4.d-md-block.d-none
 vipleague.*##.text-white.bg-dark.text-justify.p-3.m-3.d-md-block.d-none.col-12
 vipleague.*##[class*="text-success position-relative"]
 vipleague.*##[class*=" d-block"]
-vipleague.*##[action="https://www.tvply.me/sdembed?v=spa1hd~spa1sd"]
+vipleague.*##[action*="tvply.me/sdembed?"]
+tvply.*##+js(window.open-defuser)
 @@*$generichide,domain=tvply.*
 @@||cdn.okamata.site^$image
 ||vipleague*/loadchat/*$xhr
