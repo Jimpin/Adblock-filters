@@ -742,19 +742,19 @@ vipleague.*##[class*=" d-block"]
 vipleague.*##[action="https://www.tvply.me/sdembed?v=spa1hd~spa1sd"]
 @@*$generichide,domain=tvply.*
 @@||cdn.okamata.site^$image
-||vipleague.*/loadchatdata$xhr,domain=www.vipleague.lc
-||vipleague.*/favicon-32x32.png$image
-||clients6.google.com/rpc$xmlhttprequest,domain=www.vipleague.lc
+||vipleague*/loadchat/*$xhr
 ||commercialvalue.org^$important
 /*^$xhr,frame,css,3p,domain=vipleague.*
 /yandex-metrica-watch/tag.js
 
 #Fmovies
-fmovies.*,ffmovies.*##+js(acis, Math, zfgloaded)
-fmovies.*,ffmovies.*##+js(aopr, AaDetector)
-fmovies.*,ffmovies.*##+js(aopr, InstallTrigger)
-fmovies.*,ffmovies.*##+js(popads-dummy)
-fmovies.*,ffmovies.*##+js(window.open-defuser.js)
+fmovies.*,ffmovies.*##body.modal-open:style(overflow: auto!important)
+fmovies.*,ffmovies.*##+js(acis, Promise, break;case $.)
+fmovies.*,ffmovies.*##^script:has-text(break;case $.)
+fmovies.*,ffmovies.*##+js(nowoif)
+fmovies.*,ffmovies.*##+js(set, console.clear, undefined)
+fmovies.*,ffmovies.*###modalshare
+fmovies.*,ffmovies.*##.modal-backdrop
 fmovies.*,ffmovies.*###footer
 fmovies.*,ffmovies.*###comment
 fmovies.*,ffmovies.*###copyright
@@ -790,7 +790,6 @@ fmovies.*,ffmovies.*##center
 fmovies.*,ffmovies.*##li:nth-of-type(9) > [href="javascript:void(0)"]
 ##p:nth-child(15) > span > a
 @@/assets/js/video-js/
-*fmovies.*/sw.js
 *fmovies.*/clear.gif$image
 *fmovies.*/ajax/film/update-views$xhr
 *fmovies.*/assets/acode/aplayer.html$frame
@@ -798,6 +797,7 @@ fmovies.*,ffmovies.*##li:nth-of-type(9) > [href="javascript:void(0)"]
 *fmovies.*/json.php$xhr
 *fmovies.*/ajax/film/tooltip/*$important
 *fmovies.*/captcha.php$image
+*$popup,3p,domain=0123movies.*|123movies.*|123moviesto.*|123gofmovies.*|bflix.*|gomovies.*|fmovies.*|ffmovies.*
 mcloud.*###jwa
 mcloud.*##+js(popads-dummy)
 ||mcloud.*/log/*$xmlhttprequest
@@ -877,6 +877,9 @@ bflix.*##.bl-1 > .mt-4
 *flix.*/ajax/user/panel$xhr
 *flix.*/assets/*flix/$xhr
 *flix.disqus.com/embed.js$xhr
+*flix$image,important
+*/0NaN/$important
+/*.png$image,3p,domain=bflix.*
 videovard.sx/js/l*.js$script,1p
 ||videovard.sx/api/player/setup$xhr
 ||videovard.sx/js/videojs-contrib-hls.js$script,1p
@@ -1324,7 +1327,6 @@ mixdrop.*##+js(aopr, popjs)
 mixdrop.*##+js(acis, $, String.fromCharCode)
 mixdrop.co##.s-wrapper
 @@||mixdrop.*^$script,1p
-||mixdrop.*/sw.js$script,important
 ||mixdrop.co/xads.js$script,1p
 ||mixdrop.co/js/jRange/*$1p
 *##div[onclick^="$(this).remove"]
@@ -3540,7 +3542,6 @@ se,nu,org,net,tv,to,io,co,cc,com##[href*=".webcam"]
 */images/reklam$image
 *.html?q^$important
 */redirect.aspx?
-*$popup,3p,domain=gomovies.*|fmovies.*
 /optimizelyjs/*
 /ad.js$script
 /\.cloudfront.*\/\?.*[a-zA-Z0-9]{5,16}/$script,3p
@@ -3630,6 +3631,9 @@ se,nu,org,net,tv,to,io,co,cc,com##[href*=".webcam"]
 ##[class="jw-overlays jw-reset"]
 ##[aria-label="Close"]
 
+*^$image,redirect-rule=1x1.gif
+*^$image,redirect-rule=2x2.png
+*^$image,redirect-rule=32x32.png
 *$script,redirect-rule=noopjs
 *$xhr,redirect-rule=nooptext
 *$media,redirect-rule=noopmp3-0.1s
@@ -3744,7 +3748,7 @@ se,nu,org,net,tv,to,io,co,cc,com##[href*=".webcam"]
 /0/*.html^$all,3p
 /dcba/*$all
 .xyz^$3p
-?aHR0*=$all,important
+?aHR0*=$important
 /[0-9a-f]{32}\/invoke\.js/$script,3p
 /script/su.js^$script
 /event$xhr,3p
