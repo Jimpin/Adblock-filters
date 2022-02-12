@@ -1328,8 +1328,7 @@ mixdrop.*##+js(aopw, _pop)
 mixdrop.*##+js(aopr, popjs)
 mixdrop.*##+js(acis, $, String.fromCharCode)
 mixdrop.co##.s-wrapper
-@@||mixdrop.*^$script,1p
-||mixdrop.co/xads.js$script,1p
+||mixdrop.co/xads.js$script
 ||mixdrop.co/js/jRange/*$1p
 *##div[onclick^="$(this).remove"]
 
