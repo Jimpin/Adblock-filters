@@ -706,7 +706,9 @@ onlinevideoconverter.*##div.home-section-5:nth-of-type(5)
 /1clkn/*$xhr
 
 #Vipleague
+vipleague.*,tvply.*##+js(window.open-defuser)
 vipleague.*,tvply.*##+js(acis, Math, break;case $.)
+vipleague.*,tvply.*##+js(abort-current-script, JSON.parse, break;case $.)
 vipleague.*,tvply.*##+js(aopw, _pop)
 vipleague.*##.position-absolute:style(opacity: 0 !important;)
 vipleague.*##+js(nano-sib)
@@ -745,6 +747,7 @@ vipleague.*##[action="https://www.tvply.me/sdembed?v=spa1hd~spa1sd"]
 ||vipleague*/loadchat/*$xhr
 ||commercialvalue.org^$important
 /*^$xhr,frame,css,3p,domain=vipleague.*
+/fav/*$image
 /yandex-metrica-watch/tag.js
 
 #Fmovies
@@ -877,7 +880,6 @@ bflix.*##.bl-1 > .mt-4
 *flix.*/ajax/user/panel$xhr
 *flix.*/assets/*flix/$xhr
 *flix.disqus.com/embed.js$xhr
-*flix$image,important
 */0NaN/$important
 /*.png$image,3p,domain=bflix.*
 videovard.sx/js/l*.js$script,1p
@@ -3711,6 +3713,7 @@ se,nu,org,net,tv,to,io,co,cc,com##[href*=".webcam"]
 *##^script:has-text(ads_dot)
 *##^script:has-text(FingerprintJS)
 *##+js(aopw, pURL)
+*##+js(abort-on-stack-trace, Math.random, /\st\.[a-zA-Z]*\s/)
 
 *##+js(aopr, _0xbeb9)
 *##+js(aopr, _0xe317)
@@ -3728,6 +3731,12 @@ se,nu,org,net,tv,to,io,co,cc,com##[href*=".webcam"]
 .trade^$frame,xhr,image,ping,popup,3p
 .xyz^$image,ping,popup,3p
 .ws^$frame,xhr,image,ping,popup,3p
+
+/^https?:\/\/[a-z]{8,15}(|0NaN|articles|browse|index|movie|news|pages|static|view|web|wiki){1,4}(?:\.html|\/)$/$frame,3p,match-case
+/^https?:\/\/[a-z]{8,15}(|ajax|articles|config|custom|data|menu|resources|validators)(?:\.json)?$/$xhr,3p
+/^https?:\/\/[a-z]{8,15}\.\/[a-z]{4,}\.json$/$xhr,3p,match-case
+/^https?:\/\/[a-z]{8,15}\.\/[a-z]{4,}\.css\?aHR0[\/0-9a-zA-Z]{41,}=?=?$/$css,3p,match-case
+/^https?:\/\/[a-z]{8,15}\.\/[a-z]{4,}\.png\?aHR0[\/0-9a-zA-Z]{41,}=?=?$/$image,3p,match-case
 
 /script/*.php$all,3p
 /script/*.js$all,3p
