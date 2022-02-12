@@ -740,7 +740,7 @@ vipleague.*##.text-white.bg-dark.text-justify.p-3.m-3.d-md-block.d-none.col-12
 vipleague.*##[class*="text-success position-relative"]
 vipleague.*##[class*=" d-block"]
 vipleague.*##[action="https://www.tvply.me/sdembed?v=spa1hd~spa1sd"]
-@@||plytv.me^$subdocument
+@@*$generichide,domain=tvply.*
 @@||cdn.okamata.site^$image
 ||vipleague.*/loadchatdata$xhr,domain=www.vipleague.lc
 ||vipleague.*/favicon-32x32.png$image
@@ -2640,7 +2640,6 @@ goal.com##.widget-semantic-player--displayed.widget-semantic-player
 ||adexchangetracker.com^
 ||amazonaws.com^*/ad_loader$important
 ||bitonclick.com^
-||cdn.jsdelivr.net^
 ||lucklayed.info^
 ||ads.com^
 ||realsrv.com^
