@@ -3712,7 +3712,7 @@ se,nu,org,net,tv,to,io,co,cc,com##[href*=".webcam"]
 *##^script:has-text(ads_dot)
 *##^script:has-text(FingerprintJS)
 *##+js(aopw, pURL)
-*##+js(abort-on-stack-trace, Math.random, /\st\.[a-zA-Z]*\s/)
+*##+js(abort-on-stack-trace, Math.random, /\st\.[a-mA-M]*\s/)
 
 *##+js(aopr, _0xbeb9)
 *##+js(aopr, _0xe317)
