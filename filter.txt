@@ -1327,9 +1327,8 @@ mixdrop.*##+js(nowoif)
 mixdrop.*##+js(aopw, _pop)
 mixdrop.*##+js(aopr, popjs)
 mixdrop.*##+js(acis, $, String.fromCharCode)
-mixdrop.co##.s-wrapper
+mixdrop.*##.s-wrapper
 ||mixdrop.co/xads.js$script
-||mixdrop.co/js/jRange/*$1p
 *##div[onclick^="$(this).remove"]
 
 #Putlocker
@@ -3334,6 +3333,7 @@ popuper.js^
 @@||cdn.fbsbx.com^$image
 @@||pinterest.com^$image
 @@||redirect*^$xhr,media
+@@||vidsrc.*^$subdocument,3p
 @@||youbora.com/*/js/adapters/jwplayer$script
 @@||chrome-extension://*?magnet$popup
 @@||cookielaw.org/scripttemplates/$script
@@ -3555,6 +3555,7 @@ se,nu,org,net,tv,to,io,co,cc,com##[href*=".webcam"]
 /?acncd*$important
 /jssdks.*$3p
 /ntfc.*/$3p
+/close.png$image,important
 /genads.*/$important
 /tuname.*/$important
 /puopen.*/$important
