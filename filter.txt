@@ -707,7 +707,7 @@ onlinevideoconverter.*##div.home-section-5:nth-of-type(5)
 
 #Vipleague
 vipleague.*,tvply.*##+js(acis, Math, break;case $.)
-vipleague.*,tvply.*##+js(abort-current-script, JSON.parse, break;case $.)
+vipleague.*,tvply.*##+js(acis, JSON.parse, break;case $.)
 vipleague.*,tvply.*##+js(aopw, _pop)
 vipleague.*##.position-absolute:style(opacity: 0 !important;)
 vipleague.*##+js(nano-sib)
@@ -1332,35 +1332,36 @@ mixdrop.co##.s-wrapper
 ||mixdrop.co/js/jRange/*$1p
 *##div[onclick^="$(this).remove"]
 
-#Putlockers.gg
-putlockers.*##+js(popads-dummy)
-putlockers.*##+js(abort-current-inline-script.js, document.getElementById, scriptId)
-putlockers.*##+js(abort-current-inline-script.js, disableFunction, frame)
-putlockers.*##[class="ds_overlay_pop"]
-putlockers.*##[class="eportPop dsModalContainer"]
-putlockers.*##[title="recaptcha-test"]
-putlockers.*##[type="text/javascript"]
-putlockers.*##center
-putlockers.*##[id="ljsob"]
-putlockers.*##.sidebaradsmainly.widgetsads
-putlockers.*##.smallContainer.facebookComarea
-putlockers.*##.footertop
-putlockers.*##.container.bottomfootera
-putlockers.*##body > .widgetsads
-putlockers.*##.tcc
-putlockers.*##[async="async"]
-putlockers.*##[class="linkads"]
-putlockers.*##[src*="//native.propellerclick.com/"]
-putlockers.*##[class="single_ads_player clear"]
-putlockers.*##[type="text/css"]
-putlockers.*##[name="google-site-verification"]
-putlockers.*##.clear.slidershareslideareamainhomeshare
-putlockers.*##.bottomdescription
-putlockers.*##.footer-tags
-putlockers.*###switch-mode
-putlockers.*##.btn-successful.btn-lg.btn
-putlockers.*##.footer-subs.col-lg-4
-putlockers.*##footer
+#Putlocker
+putlocker.*,putlockerc.*,putlockers.*,put-locker.*##+js(acis, JSON.parse, break;case $.)
+putlocker.*,putlockerc.*,putlockers.*,put-locker.*##+js(acis, Math, break;case $.)
+putlocker.*,putlockerc.*,putlockers.*,put-locker.*##+js(nowoif)
+putlocker.*,putlockerc.*,putlockers.*,put-locker.*##+js(aopw, open)
+putlocker.*,putlockerc.*,putlockers.*,put-locker.*##+js(disable-newtab-links)
+putlocker.*,putlockerc.*,putlockers.*,put-locker.*##+js(popads-dummy)
+putlocker.*,putlockerc.*,putlockers.*,put-locker.*##[class="ds_overlay_pop"]
+putlocker.*,putlockerc.*,putlockers.*,put-locker.*##[class="eportPop dsModalContainer"]
+putlocker.*,putlockerc.*,putlockers.*,put-locker.*##[title="recaptcha-test"]
+putlocker.*,putlockerc.*,putlockers.*,put-locker.*##center
+putlocker.*,putlockerc.*,putlockers.*,put-locker.*##[id="ljsob"]
+putlocker.*,putlockerc.*,putlockers.*,put-locker.*##.sidebaradsmainly.widgetsads
+putlocker.*,putlockerc.*,putlockers.*,put-locker.*##.smallContainer.facebookComarea
+putlocker.*,putlockerc.*,putlockers.*,put-locker.*##.footertop
+putlocker.*,putlockerc.*,putlockers.*,put-locker.*##.container.bottomfootera
+putlocker.*,putlockerc.*,putlockers.*,put-locker.*##body > .widgetsads
+putlocker.*,putlockerc.*,putlockers.*,put-locker.*##.tcc
+putlocker.*,putlockerc.*,putlockers.*,put-locker.*##[class="linkads"]
+putlocker.*,putlockerc.*,putlockers.*,put-locker.*##[class="single_ads_player clear"]
+putlocker.*,putlockerc.*,putlockers.*,put-locker.**##[type="text/css"]
+putlocker.*,putlockerc.*,putlockers.*,put-locker.*##[name="google-site-verification"]
+putlocker.*,putlockerc.*,putlockers.*,put-locker.*##.clear.slidershareslideareamainhomeshare
+putlocker.*,putlockerc.*,putlockers.*,put-locker.*##.bottomdescription
+putlocker.*,putlockerc.*,putlockers.*,put-locker.*##.footer-tags
+putlocker.*,putlockerc.*,putlockers.*,put-locker.*##.btn-successful.btn-lg.btn
+putlocker.*,putlockerc.*,putlockers.*,put-locker.*##.footer-subs.col-lg-4
+putlocker.*,putlockerc.*,putlockers.*,put-locker.*##footer
+putlocker.*,putlockerc.*,putlockers.*,put-locker.*##.ep_buttons
+putlocker.*,putlockerc.*,putlockers.*,put-locker.*#@##overlay:not(.overlay)
 verystream.*##[href$=".html"]
 viduplayer.*##[href$=".html"]
 verystream.com##+js(popads-dummy)
@@ -1382,33 +1383,34 @@ vcstream.*##+js(popads-dummy)
 ||jwpltx.com/*/ping.gif
 ||gomo.to$image
 
-#Moviesjoy/Movies2watch
-moviesjoy.*,movies2watch.*,myflixer.*##html,body:style(overflow-y: auto !important;)
-moviesjoy.*,movies2watch.*,myflixer.*###gift-top
-moviesjoy.*,movies2watch.*,myflixer.*##.ts-social
-moviesjoy.*,movies2watch.*,myflixer.*##.show.premodal-share.premodal.modal
-moviesjoy.*,movies2watch.*,myflixer.*##.show.modal-backdrop
-moviesjoy.*,movies2watch.*,myflixer.*##.dt-content
-moviesjoy.*,movies2watch.*,myflixer.*##li:has-text(Hydrax)
-moviesjoy.*,movies2watch.*,myflixer.*###film_comments > .block_area-header > .clearfix
-moviesjoy.*,movies2watch.*,myflixer.*###film_comments > .block_area-header
-moviesjoy.*,movies2watch.*,myflixer.*##.row-tags
-moviesjoy.*,movies2watch.*,myflixer.*##.mb-5.mw-body
-moviesjoy.*,movies2watch.*,myflixer.*##.mb-5.text-center.mw-buttons
-moviesjoy.*,movies2watch.*,myflixer.*##.mb-5.text-center.mw-buttons > .btn-primary.btn-radius.btn-lg.btn
-moviesjoy.*,movies2watch.*,myflixer.*##.footer-links
-moviesjoy.*,movies2watch.*,myflixer.*##.about-text
-moviesjoy.*,movies2watch.*,myflixer.*##+js(popads-dummy)
-moviesjoy.*,movies2watch.*,myflixer.*##.inline_addthis_home.inline_addthis
-moviesjoy.*,movies2watch.*,myflixer.*###footer > .container
-moviesjoy.*,movies2watch.*,myflixer.*###pc-comment
-moviesjoy.*,movies2watch.*,myflixer.*###pc-share
-moviesjoy.*,movies2watch.*,myflixer.*###pop-share
-moviesjoy.*,movies2watch.*,myflixer.*###film_comments
-moviesjoy.*,movies2watch.*,myflixer.*##.text-home-main
-moviesjoy.*,movies2watch.*,myflixer.*##.show.modalshare-1.premodal-share.premodal.modal
-moviesjoy.*,movies2watch.*,myflixer.*##.show.modal-backdrop
-moviesjoy.*,movies2watch.*,myflixer.*##[class="follow"]
+#Moviesjoy/Movies2watch/Myflixer/Dopebox
+moviesjoy.*,movies2watch.*,myflixer.*,dopebox.*##+js(acis, JSON.parse, break;case $.)
+moviesjoy.*,movies2watch.*,myflixer.*,dopebox.*##html,body:style(overflow-y: auto !important;)
+moviesjoy.*,movies2watch.*,myflixer.*,dopebox.*##+js(popads-dummy)
+moviesjoy.*,movies2watch.*,myflixer.*,dopebox.*###gift-top
+moviesjoy.*,movies2watch.*,myflixer.*,dopebox.*##.ts-social
+moviesjoy.*,movies2watch.*,myflixer.*,dopebox.*##.show.premodal-share.premodal.modal
+moviesjoy.*,movies2watch.*,myflixer.*,dopebox.*##.show.modal-backdrop
+moviesjoy.*,movies2watch.*,myflixer.*,dopebox.*##.dt-content
+moviesjoy.*,movies2watch.*,myflixer.*,dopebox.*##li:has-text(Hydrax)
+moviesjoy.*,movies2watch.*,myflixer.*,dopebox.*###film_comments > .block_area-header > .clearfix
+moviesjoy.*,movies2watch.*,myflixer.*,dopebox.*###film_comments > .block_area-header
+moviesjoy.*,movies2watch.*,myflixer.*,dopebox.*##.row-tags
+moviesjoy.*,movies2watch.*,myflixer.*,dopebox.*##.mw-body
+moviesjoy.*,movies2watch.*,myflixer.*,dopebox.*##.text-center.mw-buttons
+moviesjoy.*,movies2watch.*,myflixer.*,dopebox.*##.text-center.mw-buttons > .btn-primary.btn-radius.btn-lg.btn
+moviesjoy.*,movies2watch.*,myflixer.*,dopebox.*##.footer-links
+moviesjoy.*,movies2watch.*,myflixer.*,dopebox.*##.about-text
+moviesjoy.*,movies2watch.*,myflixer.*,dopebox.*##.inline_addthis_home.inline_addthis
+moviesjoy.*,movies2watch.*,myflixer.*,dopebox.*###footer > .container
+moviesjoy.*,movies2watch.*,myflixer.*,dopebox.*###pc-comment
+moviesjoy.*,movies2watch.*,myflixer.*,dopebox.*###pc-share
+moviesjoy.*,movies2watch.*,myflixer.*,dopebox.*###pop-share
+moviesjoy.*,movies2watch.*,myflixer.*,dopebox.*###film_comments
+moviesjoy.*,movies2watch.*,myflixer.*,dopebox.*##.text-home-main
+moviesjoy.*,movies2watch.*,myflixer.*,dopebox.*##.show.modalshare-1.premodal-share.premodal.modal
+moviesjoy.*,movies2watch.*,myflixer.*,dopebox.*##.show.modal-backdrop
+moviesjoy.*,movies2watch.*,myflixer.*,dopebox.*##[class="follow"]
 vcstream.*##.pub_300x250.pub_300x250m.pub_728x90.text-ad.textAd.text_ad.text_ads.text-ads.text-ad-links:style(display:block!important;)
 vcstream.*##[href$=".html"]
 vidcloud.*##[href$=".html"]
@@ -1449,7 +1451,6 @@ loadvid.*###overlay-vcplayer
 ||onclicksuper.com^
 ||zdassets.com^
 dood.*##+js(nano-setInterval-booster, .countdown, , 0.02)
-dood.*##+js(abort-current-script, adcashMacros)
 dood.*##+js(aopw, check)
 dood.*##+js(aeld, contextmenu)
 dood.*##+js(acis, Math, break;case)
@@ -3713,6 +3714,11 @@ se,nu,org,net,tv,to,io,co,cc,com##[href*=".webcam"]
 *##^script:has-text(FingerprintJS)
 *##+js(aopw, pURL)
 *##+js(abort-on-stack-trace, Math.random, /\st\.[a-mA-M]*\s/)
+*##+js(aopw, adcashMacros)
+*##+js(nowoif, stream-4k)
+*##a[href^="/stream-4k/"]
+*##a[href^="/download-4k/"]
+*##.pframe:has([href^="javascript: void(0);"])
 
 *##+js(aopr, _0xbeb9)
 *##+js(aopr, _0xe317)
