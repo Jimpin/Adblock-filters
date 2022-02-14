@@ -184,6 +184,7 @@ outlook.live.com##[class*="_2F"]:has-text(Premium)
 twitch.tv##+js(nowoif, amazon-adsystem)
 twitch.tv##+js(twitch-videoad)
 twitch.tv##+js(aopw, InMemoryCache)
+twitch.tv##+js(aeld, , _blank)
 twitch.tv##[data-a-target=prime-offers-icon]
 twitch.tv##[data-a-target=try-prime-link]
 twitch.tv##.prime-offers__pill
@@ -1113,7 +1114,6 @@ lookmovie.*##[id="overlay-article"]
 lookmovie.*##[class="issues-overlay"]
 lookmovie.*##.ht-footer
 lookmovie.*###user-limited-notify-button
-lookmovie.*##[type="text/javascript"][src*="http"][async]
 lookmovie.*##[class="overlay-wrapper"][style^="display: "]
 lookmovie.*##[class="adBanner ad banner"][style*="display: "]
 lookmovie.*##script:has-text(overlay)
@@ -1141,6 +1141,7 @@ lookmovie.*###social-share
 
 #Streamtajm.com
 streamtajm.*##+js(popads-dummy)
+streamtajm.*##+js(acis, Math, break;case $.)
 streamtajm.*##+js(acis, TID, J0)
 streamtajm.*##[href$=".html"]
 streamtajm.*##[href*="/forum"]
@@ -1221,6 +1222,7 @@ reddit.com##div[id^="sidebar-btf-"]
 
 #Firstrowsports.tv
 firstsrowsports.*##+js(popads-dummy)
+firstsrowsports.*##+js(acis, Math, break;case $.)
 firstsrowsports.*##.moderate
 firstsrowsports.*##.twitter-share-button
 firstsrowsports.*##.tritlacitka
@@ -1263,7 +1265,7 @@ fotbolltransfers.com##[onload='lwhb.load(this)']
 fotbolltransfers.com##[style='display: none; width: 300px; height: 600px']
 fotbolltransfers.com##[id="clevernt"]
 fotbolltransfers.com##[onclick="window.open(this.href,'_blank');return false;"]
-fotbolltransfers.com##[src="https://aka-cdn.adtech.de/dt/common/DAC.js"]
+fotbolltransfers.com##[src*="adtech.de"]
 fotbolltransfers.com##div[class^="ad"]
 fotbolltransfers.com##[id="6545344"]
 fotbolltransfers.com###fckab
@@ -1296,6 +1298,8 @@ rocket-league.com##[id="menucontainer"]
 
 #Onhockey.tv
 onhockey.tv##+js(popads-dummy)
+onhockey.tv##+js(acis, Math, break;case $.)
+onhockey.tv##+js(nowebrtc)
 onhockey.tv##td > table:nth-of-type(1) > tbody > tr > td:nth-of-type(3)
 onhockey.tv##td > table:nth-of-type(2) > tbody > tr
 onhockey.tv##table:nth-of-type(2) > tbody > tr > td:nth-of-type(3)
@@ -1309,15 +1313,15 @@ onhockey.tv##[id="div1"]
 onhockey.tv##[onclick="highlight(this);"]
 onhockey.tv##[id*="openstat"]
 onhockey.tv##[src="pic/sad.gif"]
-||onhockey.tv/stopadblock60.jpg$image
-||onhockey.tv/vk.php$first-party
+||onhockey.tv/stopad*.jpg$image
+||onhockey.tv/vk.php$1p
 ||onhockey.tv/chat.html$subdocument
 ||onhockey.tv/foto_test.html$subdocument
-||onhockey.tv/foto_test.html$inline-script,first-party
-||onhockey.tv/chat_choose.html$subdocument,first-party
-||onhockey.tv/chat_choose.html$inline-script,first-party
-||onhockey.tv/pic/sad.gif$image,first-party
-||onhockey.tv/pic/sched2.png$image,first-party
+||onhockey.tv/foto_test.html$inline-script,1p
+||onhockey.tv/chat_choose.html$subdocument,1p
+||onhockey.tv/chat_choose.html$inline-script,1p
+||onhockey.tv/pic/sad.gif$image,1p
+||onhockey.tv/pic/sched2.png$image,1p
 
 #Mixdrop.co
 mixdrop.*##+js(addEventListener-defuser, click, dtnoppu)
@@ -1371,8 +1375,6 @@ vcstream.*##+js(popads-dummy)
 ||verystream.*^$inline-script
 ||verystream.*/assets/*$script,1p
 ||img.verystream.com/splash/*$image
-||verystream.com/gettoken/*$media,first-party
-||ajax.cloudflare.com^$script,domain=putlocker.me
 ||cdnjs.cloudflare.com/ajax/libs/videojs-flash/*$script
 ||cdnjs.cloudflare.com/ajax/libs/videojs-contrib-ads/*$css,important
 ||verystream.com/player/loader.png$image,first-party
@@ -1423,12 +1425,11 @@ upstream.*##+js(aopw, _pop)
 upstream.*##+js(nowebrtc)
 upstream.*##+js(set, cRAds, null)
 upstream.*##.overlay
+*^$popup,3p,domain=moviesjoy.*|movies2watch.*|myflixer.*|dopebox.*
 ||upstream.*/advertisement/pop.js$script,1p
 ||upstream.*/dl$xhr,important
 ||upstreamcdn.*^$websocket,image
 @@||moviesjoy.*/watch-tv/^$popup
-||moviesjoy.*^$popup,3p
-||movies2watch.*^$popup,3p
 ||use.fontawesome.com/releases/v5.3.1/css/all.css$css,domain=moviesjoy.net
 ||google.com/js/bg/*$script
 ||vidcloud.co/images/logo-brand.png$image
@@ -1746,6 +1747,7 @@ goal.com##.widget-semantic-player--displayed.widget-semantic-player
 ###hAd
 ###ad-link-text
 ##sads
+##[data-ad-client*="ca-pub"][data-ad-slot]
 ##.gameofthrones
 ##.text_ads
 ##.text_ad
@@ -3474,7 +3476,7 @@ se,nu,org,net,tv,to,io,co,cc,com##[href*=".webcam"]
 ://geo.$important
 ://global.$important
 ://log.$3p
-://wchat.*^$popup,important
+://wchat.*^$important
 ://lightning.*/launch/
 *##+js(acis, atob, tabunder)
 *##+js(aopr, InitCloseButton)
@@ -3634,9 +3636,9 @@ se,nu,org,net,tv,to,io,co,cc,com##[href*=".webcam"]
 ##[class="jw-overlays jw-reset"]
 ##[aria-label="Close"]
 
-*^$image,redirect-rule=1x1.gif
-*^$image,redirect-rule=2x2.png
-*^$image,redirect-rule=32x32.png
+*$image,redirect-rule=1x1.gif
+*$image,redirect-rule=2x2.png
+*$image,redirect-rule=32x32.png
 *$script,redirect-rule=noopjs
 *$xhr,redirect-rule=nooptext
 *$media,redirect-rule=noopmp3-0.1s
