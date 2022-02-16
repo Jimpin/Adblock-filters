@@ -843,7 +843,6 @@ rapidvideo.com##+js(set-constant.js, onload, noopFunc)
 streamtape.*##+js(aopw, _pop)
 streamtape.*##+js(window.open-defuser)
 streamtape.*##+js(abort-current-inline-script, Math, /emZnbG9hZGVk|break;case \$\./)
-streamtape.*##+js(abort-on-property-write, _pop)
 streamtape.*##+js(aeld, contextmenu)
 streamtape.*##+js(set-constant, googleAd, true)
 streamtape.*##+js(acis, document.createElement, 'script')
@@ -1312,6 +1311,7 @@ onhockey.tv##[src="pic/sad.gif"]
 mixdrop.*##+js(addEventListener-defuser, click, dtnoppu)
 mixdrop.*##+js(set, MDCore.adblock, 0)
 mixdrop.*##+js(aopr, atob)
+mixdrop.*##[class="vjs-picture-in-picture-control vjs-control vjs-button"]
 mixdrop.*##+js(aopw, _pop)
 mixdrop.*##+js(aopr, popjs)
 mixdrop.*##+js(acis, $, String.fromCharCode)
@@ -1354,6 +1354,9 @@ verystream.com##+js(aopr, adblock)
 ||verystream.*^$inline-script
 ||verystream.*/assets/*$script,1p
 ||img.verystream.com/splash/*$image
+vidsrc.*##+js(acis, JSON.parse, break;case $.)
+vidsrc.*##+js(nosiif, /devtools|0x/)
+vidsrc.*###pop_asdf
 ||cdnjs.cloudflare.com/ajax/libs/videojs-flash/*$script
 ||cdnjs.cloudflare.com/ajax/libs/videojs-contrib-ads/*$css,important
 ||verystream.com/player/loader.png$image,first-party
@@ -1435,7 +1438,9 @@ dood.*##+js(aopw, _pop)
 dood.*##+js(aopw, DoodPop)
 dood.*##+js(nostif, debugger)
 ||doodcdn.com/splash/*.jpg^$image
-rabbitstream.net##+js(set, console.clear, undefined)
+rabbitstream.*##+js(set, console.clear, undefined)
+rabbitstream.*##[style*="height: 1px; width: 1161px;"]
+rabbitstream.*##[button="download-button"]
 ||i.imgur.com/*.gif$image,domain=rabbitstream.net
 himovies.to##body.modal-open:style(overflow: auto!important;)
 himovies.to##+js(nostif, 0x)
@@ -1459,7 +1464,6 @@ aliez.*##[href$=".html"]
 skidrowreloaded.com##+js(aeld, click, popunder)
 skidrowreloaded.com##+js(noeval)
 skidrowreloaded.com##+js(popads.net)
-skidrowreloaded.com##+js(acis, decodeURI, _POP)
 skidrowreloaded.com##+js(aopw, _pop)
 skidrowreloaded.com##+js(aopr, Buu.serve)
 skidrowreloaded.com##+js(aeld, click, [native code])
@@ -3159,30 +3163,20 @@ Pop-under.js^
 popuper.js^
 
 #Allowed
-@@||youbora.com/*/js/adapters/jwplayer$script
 @@||*.wp.com/*/wp-content/uploads/*$image
 @@||images-na.ssl-images-amazon.com/images/*$script
 @@||stream.nbcsports.com^
 @@||statics-neu.onestore.ms^
-@@||ajax.googleapis.com^$script
 @@||amazonaws.com/pollsystem*$script,3p
 @@||media-amazon.com^$css
-@@||ajax.cloudflare.com/cdn-cgi/scripts/$script
 @@||ajax.googleapis.com/ajax/libs/jquery/
 @@||data-live.flightradar24.com/zones/*$script
 @@||fonts.googleapis.com/css$third-party
-@@||phncdn.com/timings-$script
-@@||phncdn.com/head/$script
-@@||cdnjs.cloudflare.com/ajax/libs/*$script,stylesheet,font
 @@||static.twitchcdn.net/assets/*$script
-@@||jawcloud.co/*/embed.js$script
 @@||cloudfront.net/assets/*$media,3p
-@@||cdn.svp.schibsted.io^$script
 @@||steamstatic.com^$image
 @@||youtube.com/embed/*$subdocument
 @@||redirector.googlevideo.com/videoplayback$media
-@@||*.cloudfront.net/build/assets/*$script
-@@||*.cloudfront.net/integrations/*$script
 @@||tvply.me^$subdocument
 @@||tracking*.se
 @@||maxcdn.bootstrapcdn.com^
@@ -3241,7 +3235,7 @@ popuper.js^
 @@*.ts$xhr
 @@/?stream=
 
-se,nu,org,net,tv,to,io,co,cc,com##[href="javascript:void(0);"]
+se,nu,org,net,tv,to,io,co,cc,com##[href*="javascript:void(0);"]
 se,nu,org,net,tv,to,io,co,cc,com##li:contains(vert)
 se,nu,org,net,tv,to,io,co,cc,com##+js(aeld, popstate)
 se,nu,org,net,tv,to,io,co,cc,com##[href*="hent"]
@@ -3255,7 +3249,7 @@ ads,bid,biz,click,country,cricket,date,diet,download,faith,fun,info,link,ltd,loa
 ads,bid,biz,click,country,cricket,date,diet,download,faith,fun,info,link,ltd,loan,me,men,mom,online,om,party,pink,pro,pw,review,racing,site,science,sexy,space,stream,study,style,systems,trade,top,work,website,webcam,win,world,wz,xin,xyz##+js(nostif, _0x)
 ads,bid,biz,click,country,cricket,date,diet,download,faith,fun,info,link,ltd,loan,me,men,mom,online,om,party,pink,pro,pw,review,racing,site,science,sexy,space,stream,study,style,systems,trade,top,work,website,webcam,win,world,wz,xin,xyz##+js(aopw, _pop)
 ads,bid,biz,click,country,cricket,date,diet,download,faith,fun,info,link,ltd,loan,me,men,mom,online,om,party,pink,pro,pw,review,racing,site,science,sexy,space,stream,study,style,systems,trade,top,work,website,webcam,win,world,wz,xin,xyz##+js(aopr, decodeURI)
-*$script,frame,xhr,popup,3p,domain=ads|bid|biz|click|country|cricket|date|diet|download|faith|fun|info|link|ltd|loan|me|men|mom|online|om|party|pink|pro|pw|review|racing|site|science|sexy|space|stream|study|style|systems|trade|top|work|website|webcam|win|world|wz|xin|xyz
+*$script,frame,xhr,popup,3p,domain=ads|bid|biz|click|country|cricket|date|diet|download|faith|fun|info|link|ltd|loan|men|mom|online|om|party|pink|pro|pw|review|racing|site|science|sexy|space|stream|study|style|systems|trade|top|work|website|webcam|win|world|wz|xin|xyz
 
 ##[href*="https://axofinans.se"]
 ##[href*="/information#advertising"]
@@ -3487,9 +3481,6 @@ ads,bid,biz,click,country,cricket,date,diet,download,faith,fun,info,link,ltd,loa
 ##[class="jw-overlays jw-reset"]
 ##[aria-label="Close"]
 
-*$image,redirect-rule=1x1.gif
-*$image,redirect-rule=2x2.png
-*$image,redirect-rule=32x32.png
 *$script,redirect-rule=noopjs
 *$xhr,redirect-rule=nooptext
 *$media,redirect-rule=noopmp3-0.1s
