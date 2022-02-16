@@ -1317,6 +1317,8 @@ mixdrop.*##+js(acis, $, String.fromCharCode)
 mixdrop.*##.s-wrapper
 ||mixdrop.co/xads.js$script
 *##div[onclick*="$(this).remove"]
+co,cc,io,li,me,to,tv,xyz##+js(nowoif)
+co,cc,io,li,me,to,tv,xyz##+js(aopr, open)
 
 #Putlocker
 putlocker.*,putlockerc.*,putlockers.*,put-locker.*##+js(acis, JSON.parse, break;case $.)
@@ -1451,8 +1453,6 @@ himovies.to##.modal-backdrop
 *##a[href*=".com/"]:has-text(Stream in HD now!)
 ##[id="adbtm"]
 ##[id="stpd"]
-##[src="http://ii.aliez.me/img/x.gif"]
-##[id="qp3hpo6"]
 ##[class="adblock-notice text-center"]
 ##.addthis_inline_share_toolbox
 harleyquinnwidget.*##[href$=".html"]
@@ -1462,20 +1462,17 @@ aliez.*##[href$=".html"]
 #Skidrowreloaded.com
 skidrowreloaded.com##+js(aeld, click, popunder)
 skidrowreloaded.com##+js(noeval)
-skidrowreloaded.com##+js(popads.net)
 skidrowreloaded.com##+js(aopw, _pop)
-skidrowreloaded.com##+js(aopr, Buu.serve)
-skidrowreloaded.com##+js(aeld, click, [native code])
 skidrowreloaded.com##+js(aeld, , _blank)
-skidrowreloaded.com##+js(acis, $, open)
+skidrowreloaded.com##+js(aopr, open)
 skidrowreloaded.com##+js(no-fetch-if, /^/)
-skidrowreloaded.com##+js(abort-on-property-read, disableSelection)
+skidrowreloaded.com##+js(aopr, disableSelection)
 skidrowreloaded.com##iframe[src="about:blank"]
 skidrowreloaded.com###communication
 ||skidrowreloaded.com^$csp=script-src 'self' 'unsafe-inline' *.google-analytics.com *.cloudflare.com *.gstatic.com *.google.com *.solvemedia.com *.recaptcha.net
 |http://$script,image,xhr,3p,domain=skidrowreloaded.com
 |https://$script,image,xhr,3p,domain=skidrowreloaded.com
-*^$popunder,domain=skidrowreloaded.com,3p
+*^$popunder,domain=skidrowreloaded.com
 
 #Body/Frames
 goal.com##.commercial
@@ -3565,10 +3562,8 @@ ads,bid,biz,click,country,cricket,date,diet,download,faith,fun,info,link,ltd,loa
 *##+js(aopr, __Y)
 *##+js(set, $.magnificPopup.open, noopFunc)
 *##+js(set, clientSide.adbDetect, noopFunc)
-*##+js(nowoif)
 *##+js(popads-dummy)
 *##+js(acis, document.querySelectorAll, popMagic)
-*##+js(aopr, open)
 
 *##+js(aopr, _0xbeb9)
 *##+js(aopr, _0xe317)
