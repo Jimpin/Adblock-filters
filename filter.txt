@@ -475,6 +475,8 @@ fotbollskanalen.se##.top-item.brand
 fotbollskanalen.se###skin-cover
 fotbollskanalen.se##.ad-top
 fotbollskanalen.se##.b-export__footer.b-export__wrap
+fotbollskanalen.se##[id*="tws2_"]
+fotbollskanalen.se##.article-share
 ||tag.brainient.com^$all
 ||p.adsymptotic.com^$domain=sync.teads.tv
 ||sync.teads.tv/iframe/redirect$subdocument
@@ -541,9 +543,9 @@ gomovies.*##.twitter-follow-button
 gomoviefree*$1p
 *gomovie*/wp-content/themes/assets/css/jquery.cluetip.css$css
 *gomovie*/wp-content/themes/assets/css/jquery.qtip.min.css$css
-streamlare.*##+js(nowoif)
 streamlare.*##+js(window.open-defuser)
-streamlare.*##body > div[style="position: fixed; display: block; width: 100%; height: 100%; inset: 0px; background-color: rgba(0, 0, 0, 0); z-index: 300000;"]
+streamlare.*##+js(aopr, StreamlarePop)
+streamlare.*##body > div[style^="position: fixed; display: block"][style*="inset: 0px;"]
 @@||cdn.streamlare.com/*.vtt$xhr,1p
 ||streamlare.*/css/app.css$stylesheet,1p
 ||cdn.streamlare.*/*.jpg$image,important
@@ -605,17 +607,13 @@ imdb.com###top_ad
 /wp-content/cache/wpfc-minified/*/*index.css
 jawcloud.co##^script:has-text(_Hasync)
 jawcloud.co##+js(aopr, console.clear)
-jawcloud.co##+js(popads-dummy.js)
 jawcloud.co##+js(aeld, contextmenu)
 jawcloud.co##+js(aopw, Fingerprint2)
 jawcloud.co##+js(acis, Math, XMLHttpRequest)
 jawcloud.co##+js(acis, Math, zfgloaded)
-jawcloud.co##+js(aopr, open)
-jawcloud.co##+js(aopr, AaDetector)
 jawcloud.co##+js(abort-current-inline-script.js, document.getElementById, style.display)
 jawcloud.co##[class="overlay"]
 jawcloud.co##a[href$=".html"]
-jawcloud.co##+js(aopr, open)
 jawcloud.co##.loloba
 jawcloud.co##.banner
 jawcloud.co##[class="vjs-picture-in-picture-control vjs-control vjs-button"]
@@ -757,7 +755,6 @@ tvply.*##+js(window.open-defuser)
 fmovies.*,ffmovies.*##body.modal-open:style(overflow: auto!important)
 fmovies.*,ffmovies.*##+js(acis, Promise, break;case $.)
 fmovies.*,ffmovies.*##^script:has-text(break;case $.)
-fmovies.*,ffmovies.*##+js(nowoif)
 fmovies.*,ffmovies.*##+js(set, console.clear, undefined)
 fmovies.*,ffmovies.*###modalshare
 fmovies.*,ffmovies.*##.modal-backdrop
@@ -805,7 +802,6 @@ fmovies.*,ffmovies.*##li:nth-of-type(9) > [href="javascript:void(0)"]
 *fmovies.*/captcha.php$image
 *$popup,3p,domain=0123movies.*|123movies.*|123moviesto.*|123gofmovies.*|bflix.*|gomovies.*|fmovies.*|ffmovies.*
 mcloud.*###jwa
-mcloud.*##+js(popads-dummy)
 ||mcloud.*/log/*$xmlhttprequest
 ||mcloud.*/embed/*$1p
 ||mcloud.*/ping$important
@@ -816,22 +812,16 @@ mstream.*##[class="vjs-chrome-pip vjs-control vjs-button"]
 mstream.*##[class="vjs-playback-rate vjs-menu-button vjs-menu-button-popup vjs-button"]
 mstream.*##+js(acis, jQuery, appendTo)
 mstream.*##+js(acis, jQuery, adblocker)
-mstream.*##+js(aopr, open)
-mstream.*##+js(aopr, AaDetector)
-mstream.*##+js(popads-dummy.js)
 ||mstream.*/view/*$image
 ||mystream.*/img/*$image
 vidoza.*##+js(abort-current-inline-script, Math, zfgloaded)
 vidoo.*##+js(abort-current-inline-script, Math, zfgloaded)
-vidoo.*##+js(aopr, open)
-vidoo.*##+js(popads-dummy.js)
 @@||vidoo.tv/js/pop.js$script
 ||vidoo.*/dl?op=view&file_code*$xhr,1p
 ||vidoo.*$script,popup
 ||abi.vidoo.tv/i/*$image
 rapidvideo.com##+js(noeval.js)
 rapidvideo.com##+js(popads.net.js)
-rapidvideo.com##+js(popads-dummy)
 rapidvideo.com##+js(abort-current-inline-script.js, atob, tabunder)
 rapidvideo.com##+js(abort-current-inline-script.js, parseInt, tabunder)
 rapidvideo.com##+js(abort-on-property-write.js, executed)
@@ -850,7 +840,6 @@ rapidvideo.com##+js(set-constant.js, onload, noopFunc)
 ||content.fruithosted.net/splash/*$image
 ||streamango.com/assets/img/logo.png$image
 ||celeritascdn.com/script/compatibility.js$script
-streamtape.*##+js(nowoif)
 streamtape.*##+js(aopw, _pop)
 streamtape.*##+js(window.open-defuser)
 streamtape.*##+js(abort-current-inline-script, Math, /emZnbG9hZGVk|break;case \$\./)
@@ -999,7 +988,6 @@ dplay.se##div:matches-css(width: 3px):matches-css(height: 5px)
 ||telemetric.dk^$3p
 
 #Flashback.org
-flashback.org##+js(popads-dummy)
 flashback.org##.banner_text
 flashback.org###right-banner-container
 flashback.org###top-banner-row
@@ -1039,7 +1027,6 @@ rltracker.pro##.col-sm-12 > .row
 #123movies
 123movies.*,123moviesto.*,123gofmovies.*##+js(acis, jQuery, appendTo)
 123movies.*,123moviesto.*,123gofmovies.*##+js(acis, jQuery, adblocker)
-123movies.*,123moviesto.*,123gofmovies.*##+js(aopr, open)
 123movies.*,123moviesto.*,123gofmovies.*##+js(aopr, InstallTrigger)
 123movies.*,123moviesto.*,123gofmovies.*##[id="overlay"]
 123movies.*,123moviesto.*,123gofmovies.*##a[href^="/"][href*=".html"][target="_blank"]
@@ -1072,7 +1059,6 @@ rltracker.pro##.col-sm-12 > .row
 *gofmovie*/*.it$script
 
 #0123movies.com
-0123movies.*##+js(popads-dummy)
 0123movies.*##+js(aopr, InstallTrigger)
 0123movies.*##.alert-warning.alert
 0123movies.*##.content-ads
@@ -1142,7 +1128,6 @@ lookmovie.*###social-share
 .com*/android-icon*.png$1p,3p
 
 #Streamtajm.com
-streamtajm.*##+js(popads-dummy)
 streamtajm.*##+js(acis, Math, break;case $.)
 streamtajm.*##+js(acis, TID, J0)
 streamtajm.*##[href$=".html"]
@@ -1223,7 +1208,6 @@ reddit.com##div[id^="sidebar-btf-"]
 ||redditmedia.com/gtm/jail?
 
 #Firstrowsports.tv
-firstsrowsports.*##+js(popads-dummy)
 firstsrowsports.*##+js(acis, Math, break;case $.)
 firstsrowsports.*##.moderate
 firstsrowsports.*##.twitter-share-button
@@ -1299,7 +1283,6 @@ rocket-league.com##.active.is--error.rlg-site-popup
 rocket-league.com##[id="menucontainer"]
 
 #Onhockey.tv
-onhockey.tv##+js(popads-dummy)
 onhockey.tv##+js(acis, Math, break;case $.)
 onhockey.tv##+js(nowebrtc)
 onhockey.tv##td > table:nth-of-type(1) > tbody > tr > td:nth-of-type(3)
@@ -1329,7 +1312,6 @@ onhockey.tv##[src="pic/sad.gif"]
 mixdrop.*##+js(addEventListener-defuser, click, dtnoppu)
 mixdrop.*##+js(set, MDCore.adblock, 0)
 mixdrop.*##+js(aopr, atob)
-mixdrop.*##+js(nowoif)
 mixdrop.*##+js(aopw, _pop)
 mixdrop.*##+js(aopr, popjs)
 mixdrop.*##+js(acis, $, String.fromCharCode)
@@ -1340,10 +1322,8 @@ mixdrop.*##.s-wrapper
 #Putlocker
 putlocker.*,putlockerc.*,putlockers.*,put-locker.*##+js(acis, JSON.parse, break;case $.)
 putlocker.*,putlockerc.*,putlockers.*,put-locker.*##+js(acis, Math, break;case $.)
-putlocker.*,putlockerc.*,putlockers.*,put-locker.*##+js(nowoif)
 putlocker.*,putlockerc.*,putlockers.*,put-locker.*##+js(aopw, open)
 putlocker.*,putlockerc.*,putlockers.*,put-locker.*##+js(disable-newtab-links)
-putlocker.*,putlockerc.*,putlockers.*,put-locker.*##+js(popads-dummy)
 putlocker.*,putlockerc.*,putlockers.*,put-locker.*##[class="ds_overlay_pop"]
 putlocker.*,putlockerc.*,putlockers.*,put-locker.*##[class="eportPop dsModalContainer"]
 putlocker.*,putlockerc.*,putlockers.*,put-locker.*##[title="recaptcha-test"]
@@ -1369,11 +1349,8 @@ putlocker.*,putlockerc.*,putlockers.*,put-locker.*##.ep_buttons
 putlocker.*,putlockerc.*,putlockers.*,put-locker.*#@##overlay:not(.overlay)
 verystream.*##[href$=".html"]
 viduplayer.*##[href$=".html"]
-verystream.com##+js(popads-dummy)
 verystream.com##+js(nano-setTimeout-booster)
-verystream.com##+js(abort-on-property-read.js, adblock)
-verystream.com##+js(abort-on-property-read.js, open)
-vcstream.*##+js(popads-dummy)
+verystream.com##+js(aopr, adblock)
 ||verystream.*^$inline-script
 ||verystream.*/assets/*$script,1p
 ||img.verystream.com/splash/*$image
@@ -1389,7 +1366,6 @@ vcstream.*##+js(popads-dummy)
 #Moviesjoy/Movies2watch/Myflixer/Dopebox
 moviesjoy.*,movies2watch.*,myflixer.*,dopebox.*##+js(acis, JSON.parse, break;case $.)
 moviesjoy.*,movies2watch.*,myflixer.*,dopebox.*##html,body:style(overflow-y: auto !important;)
-moviesjoy.*,movies2watch.*,myflixer.*,dopebox.*##+js(popads-dummy)
 moviesjoy.*,movies2watch.*,myflixer.*,dopebox.*###gift-top
 moviesjoy.*,movies2watch.*,myflixer.*,dopebox.*##.ts-social
 moviesjoy.*,movies2watch.*,myflixer.*,dopebox.*##.show.premodal-share.premodal.modal
@@ -1421,7 +1397,6 @@ vidcloud.*###overlay-center
 vidcloud.*##[id="overlay-container"]
 upstream.*##+js(acis, $, .css)
 upstream.*##+js(acis, Math, break;case $.)
-upstream.*##+js(aopr, open)
 upstream.*##+js(aopr, _run)
 upstream.*##+js(aopw, _pop)
 upstream.*##+js(nowebrtc)
@@ -1439,7 +1414,6 @@ upstream.*##.overlay
 ||vcstream.to/images/file-not-found.jpg$image
 ||vcstream.to/images/close2.png$image,important
 ||vcstream.to/images/logo-brand.png$image,important
-loadvid.*##+js(popads-dummy)
 loadvid.*##+js(abort-current-inline-script.js, fileID, adblock)
 loadvid.*##+js(abort-on-property-read.js, BetterJsPop)
 loadvid.*##+js(set-constant.js, adBlockNotDetected, true)
@@ -1501,7 +1475,6 @@ skidrowreloaded.com###communication
 *^$popunder,domain=skidrowreloaded.com,3p
 
 #Body/Frames
-goal.com##+js(popads-dummy)
 goal.com##.commercial
 goal.com##.clearfix.widget-inline-editors-picks
 goal.com##.widget-semantic-player--displayed.widget-semantic-player
@@ -1528,7 +1501,10 @@ goal.com##.widget-semantic-player--displayed.widget-semantic-player
 ###ad_scroll_view
 ##.sharebuttons
 ##.sharethis-inline-share-buttons
-##.js-advert--responsive.o-advert--box-desktop.o-advert--fixed-size.o-advert
+##.o-advert
+##.internal-ad
+##.desktop-ad-web
+##.desktop-mpu-ad-container
 ##.cookie-overlay
 ##[class*="CookieConsentPopup"]
 ##.nyh_cookie-message
@@ -3265,9 +3241,7 @@ popuper.js^
 @@*.ts$xhr
 @@/?stream=
 
-
-se,nu,org,net,tv,to,io,co,cc,com##+js(set, $.magnificPopup.open, noopFunc)
-se,nu,org,net,tv,to,io,co,cc,com##+js(set, clientSide.adbDetect, noopFunc)
+se,nu,org,net,tv,to,io,co,cc,com##+js(aopr, decodeURI)
 se,nu,org,net,tv,to,io,co,cc,com##.td-a-rec
 se,nu,org,net,tv,to,io,co,cc,com##.td-block-title-wrap
 se,nu,org,net,tv,to,io,co,cc,com##.td-logo-wrap-full
@@ -3281,27 +3255,11 @@ se,nu,org,net,tv,to,io,co,cc,com##[href*="click"]
 se,nu,org,net,tv,to,io,co,cc,com##[href*="/adult"]
 se,nu,org,net,tv,to,io,co,cc,com##[href*="/advertising"]
 
-bid,biz,click,cricket,faith,fun,info,me,online,pink,pro,pw,racing,site,space,stream,style,trade,top,website,webcam,win,world,wz,xyz##body > div[style*="z-index:"]
-bid,biz,click,cricket,faith,fun,info,me,online,pink,pro,pw,racing,site,space,stream,style,trade,top,website,webcam,win,world,wz,xyz##[rel="nofollow"][href*="//"]
-bid,biz,click,cricket,faith,fun,info,me,online,pink,pro,pw,racing,site,space,stream,style,trade,top,website,webcam,win,world,wz,xyz##+js(nowoif)
-bid,biz,click,cricket,faith,fun,info,me,online,pink,pro,pw,racing,site,space,stream,style,trade,top,website,webcam,win,world,wz,xyz##+js(aeld, popstate)
-bid,biz,click,cricket,faith,fun,info,me,online,pink,pro,pw,racing,site,space,stream,style,trade,top,website,webcam,win,world,wz,xyz##+js(set, $.magnificPopup.open, noopFunc)
-bid,biz,click,cricket,faith,fun,info,me,online,pink,pro,pw,racing,site,space,stream,style,trade,top,website,webcam,win,world,wz,xyz##+js(set, clientSide.adbDetect, noopFunc)
-bid,biz,click,cricket,faith,fun,info,me,online,pink,pro,pw,racing,site,space,stream,style,trade,top,website,webcam,win,world,wz,xyz##+js(aopr, BetterJsPop)
-bid,biz,click,cricket,faith,fun,info,me,online,pink,pro,pw,racing,site,space,stream,style,trade,top,website,webcam,win,world,wz,xyz##+js(acis, Math, break;case $.)
-bid,biz,click,cricket,faith,fun,info,me,online,pink,pro,pw,racing,site,space,stream,style,trade,top,website,webcam,win,world,wz,xyz##+js(nostif, jQuery)
-bid,biz,click,cricket,faith,fun,info,me,online,pink,pro,pw,racing,site,space,stream,style,trade,top,website,webcam,win,world,wz,xyz##+js(nostif, _0x)
-bid,biz,click,cricket,faith,fun,info,me,online,pink,pro,pw,racing,site,space,stream,style,trade,top,website,webcam,win,world,wz,xyz##+js(no-xhr-if, pop)
-bid,biz,click,cricket,faith,fun,info,me,online,pink,pro,pw,racing,site,space,stream,style,trade,top,website,webcam,win,world,wz,xyz##+js(aopr, open)
-bid,biz,click,cricket,faith,fun,info,me,online,pink,pro,pw,racing,site,space,stream,style,trade,top,website,webcam,win,world,wz,xyz##+js(nostif, readystatechange)
-bid,biz,click,cricket,faith,fun,info,me,online,pink,pro,pw,racing,site,space,stream,style,trade,top,website,webcam,win,world,wz,xyz##+js(acis, XMLHttpRequest, null)
-bid,biz,click,cricket,faith,fun,info,me,online,pink,pro,pw,racing,site,space,stream,style,trade,top,website,webcam,win,world,wz,xyz##+js(aopr, popunder)
-bid,biz,click,cricket,faith,fun,info,me,online,pink,pro,pw,racing,site,space,stream,style,trade,top,website,webcam,win,world,wz,xyz##+js(aopw, _pop)
-bid,biz,click,cricket,faith,fun,info,me,online,pink,pro,pw,racing,site,space,stream,style,trade,top,website,webcam,win,world,wz,xyz##+js(aopr, popjs.init)
-bid,biz,click,cricket,faith,fun,info,me,online,pink,pro,pw,racing,site,space,stream,style,trade,top,website,webcam,win,world,wz,xyz##+js(ra, onclick, [onclick^="window.open"])
-bid,biz,click,cricket,faith,fun,info,me,online,pink,pro,pw,racing,site,space,stream,style,trade,top,website,webcam,win,world,wz,xyz##+js(popads-dummy)
-bid,biz,click,cricket,faith,fun,info,me,online,pink,pro,pw,racing,site,space,stream,style,trade,top,website,webcam,win,world,wz,xyz##+js(aopr, decodeURI)
-*$script,frame,xhr,popup,3p,domain=bid|biz|click|cricket|faith|fun|info|me|online|pink|pro|pw|racing|site|space|stream|style|trade|top|website|webcam|win|world|wz|xyz
+ads|bid|biz|click|country|cricket|date|diet|download|faith|fun|info|link|ltd|loan|me|men|mom|online|om|party|pink|pro|pw|review|racing|site|science|sexy|space|stream|study|style|systems|trade|top|work|website|webcam|win|world|wz|xin|xyz#[href*="javascript:"]
+ads|bid|biz|click|country|cricket|date|diet|download|faith|fun|info|link|ltd|loan|me|men|mom|online|om|party|pink|pro|pw|review|racing|site|science|sexy|space|stream|study|style|systems|trade|top|work|website|webcam|win|world|wz|xin|xyz##[rel="nofollow"][href*="//"]
+ads|bid|biz|click|country|cricket|date|diet|download|faith|fun|info|link|ltd|loan|me|men|mom|online|om|party|pink|pro|pw|review|racing|site|science|sexy|space|stream|study|style|systems|trade|top|work|website|webcam|win|world|wz|xin|xyz##+js(nostif, _0x)
+ads|bid|biz|click|country|cricket|date|diet|download|faith|fun|info|link|ltd|loan|me|men|mom|online|om|party|pink|pro|pw|review|racing|site|science|sexy|space|stream|study|style|systems|trade|top|work|website|webcam|win|world|wz|xin|xyz##+js(aopw, _pop)
+*$script,frame,xhr,popup,3p,domain=ads|bid|biz|click|country|cricket|date|diet|download|faith|fun|info|link|ltd|loan|me|men|mom|online|om|party|pink|pro|pw|review|racing|site|science|sexy|space|stream|study|style|systems|trade|top|work|website|webcam|win|world|wz|xin|xyz
 
 ##[href*="https://axofinans.se"]
 ##[href*="/information#advertising"]
@@ -3448,18 +3406,18 @@ bid,biz,click,cricket,faith,fun,info,me,online,pink,pro,pw,racing,site,space,str
 /optimizelyjs/*
 /ad.js$script
 /\.cloudfront.*\/\?.*[a-zA-Z0-9]{5,16}/$script,3p
-.histats.*/$script,important
-.adskeeper.*/$script,important
-.addthis.*/$script,important
-.mgid.*/$important
-.scund*/$important
-/?acncd*$important
-/jssdks.*$3p
-/ntfc.*/$3p
+.histats$script,important
+.adskeeper$script,important
+.addthis$script,important
+.mgid$important
+.scund$important
+/?acncd$important
+/jssdks$3p
+/ntfc$3p
 /close.png$image,important
-/genads.*/$important
-/tuname.*/$important
-/puopen.*/$important
+/genads$important
+/tuname$important
+/puopen$important
 /sw_*.js^$script
 /smpop-stable.js$script
 /privacy/notification?$xhr
@@ -3620,6 +3578,12 @@ bid,biz,click,cricket,faith,fun,info,me,online,pink,pro,pw,racing,site,space,str
 *##.pframe:has([href^="javascript: void(0);"])
 *##+js(ra, onclick, [onclick^="window.open"])
 *##+js(aopr, __Y)
+*##+js(set, $.magnificPopup.open, noopFunc)
+*##+js(set, clientSide.adbDetect, noopFunc)
+*##+js(nowoif)
+*##+js(popads-dummy)
+*##+js(acis, document.querySelectorAll, popMagic)
+*##+js(aopr, open)
 
 *##+js(aopr, _0xbeb9)
 *##+js(aopr, _0xe317)

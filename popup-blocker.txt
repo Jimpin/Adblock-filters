@@ -5,7 +5,6 @@
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #Popup-Blocker
-/popup*^$popup,popunder,1p,3p
 |javascript:*setTimeout$popup
 |javascript:*window.location$popup
 |blob:$popup
@@ -59,7 +58,6 @@ iframe*$popup
 ##.popup_block_Cookies
 ##.popup_block_cookie
 ##.popup_cookie
-##DIV[id="popup3"][class="popup_block"]
 ##.pop-up-ad
 ##.popAdContainer
 ##.popOverForADSInPlayer
@@ -88,8 +86,8 @@ iframe*$popup
 ###popup_domination_lightbox_wrapper
 ###popupadunit
 ##.in.top.fade.popover
-##[id*="Popup_Block"]
-##[id*="popup_block"]
+##[id*="popup"][class*="block"]
+##[id*="Popup_"]
 ##div[id="popup_content"]
 ##.pub_728x90
 ##.pub_300x250m
@@ -108,35 +106,6 @@ iframe*$popup
 ##.policy-popup
 ##.popupBase.notification
 ###yf3-popup-container
-||pop-rev.com^$3p
-||popads.media^$3p
-||popads.net^$3p
-||popclck.net^$3p
-||popcpm.com^$3p
-||popearn.com^$3p
-||popmajor.com^$3p
-||popmarker.com^$3p
-||popmonetizer.*^$3p
-||popmyad.com^$3p
-||popmyads.com^$3p
-||popnc.com^$3p
-||poponclick.com^$3p
-||poppysol.com^$3p
-||popsads.com^$3p
-||poptm.com^$3p
-||popularitish.com^$3p
-||popularmedia.net^$3p
-||populis.com^$3p
-||populisengage.com^$3p
-||popunder.bid^$3p
-||popunder.ru^$3p
-||popunders.bid^$3p
-||popundertotal.com^$3p
-||popunderz.com^$3p
-||popunderzone.com^$3p
-||popupdomination.com^$3p
-||popuptraffic.com^$3p
-||popwin.net^$3p
 ||oclasrv.com^
 ||onclasrv.com^
 ||onclkds.com^
@@ -168,7 +137,6 @@ iframe*$popup
 ||perfecttoolmedia.com^
 ||promotions.betsafe.com^
 ||asdad.xyz^
-||popads.net^
 ||popcash.net^
 ||inclk.com^
 ||thousers.com^
@@ -304,45 +272,9 @@ _popunder+$popup
 /random*.php$popup
 /?join_overlay=$popup
 /sitestats/openwindow/$popup
-*.online^$popup,3p
-*.ws^$popup,3p
-*.pro^$popup,3p
-*.bid^$popup,3p
-*.biz^$popup,3p
-*.xyz^$popup,3p
-*.style^$popup,3p
-*.ltd^$popup,3p
-*.pw^$popup,3p
-*.pink^$popup,3p
-*.st^$popup,3p
-*.click^$popup,3p
-*.download^$popup,3p
-*.cricket^$popup,3p
-*.faith^$popup,3p
-*.racing^$popup,3p
-*.website^$popup,3p
-*.win^$popup,3p
-*.trade^$popup,3p
-*.space^$popup,3p
-*.webcam^$popup,3p
-*.link^$popup,3p
-*.loan^$popup,3p
-*.party^$popup,3p
-*.work^$popup,3p
-*.ads^$popup,3p
-*.xin^$popup,3p
-*.country^$popup,3p
-*.study^$popup,3p
-*.systems^$popup,3p
-*.date^$popup,3p
-*.diet^$popup,3p
-*.trade^$popup,3p
-*.top^$popup,3p
-*.review^$popup,3p
-*.science^$popup,3p
-*.om^$popup,3p
-*.men^$popup,3p
-*.mom^$popup,3p
+ads|bid|biz|click|country|cricket|date|diet|download|faith|fun|info|link|ltd|loan|me|men|mom|online|om|party|pink|pro|pw|review|racing|site|science|sexy|space|stream|study|style|systems|trade|top|work|website|webcam|win|world|wz|xin|xyz##+js(aopr, popunder)
+ads|bid|biz|click|country|cricket|date|diet|download|faith|fun|info|link|ltd|loan|me|men|mom|online|om|party|pink|pro|pw|review|racing|site|science|sexy|space|stream|study|style|systems|trade|top|work|website|webcam|win|world|wz|xin|xyz##+js(aeld, popstate)
+ads|bid|biz|click|country|cricket|date|diet|download|faith|fun|info|link|ltd|loan|me|men|mom|online|om|party|pink|pro|pw|review|racing|site|science|sexy|space|stream|study|style|systems|trade|top|work|website|webcam|win|world|wz|xin|xyz##+js(aopr, BetterJsPop)
 
 ##Allowed elements
 @@||account*^$1p
