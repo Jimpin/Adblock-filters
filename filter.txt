@@ -1308,16 +1308,15 @@ onhockey.tv##[src="pic/sad.gif"]
 ||onhockey.tv/pic/sched2.png$image,1p
 
 #Mixdrop.co
-mixdrop.*##+js(addEventListener-defuser, click, dtnoppu)
+mixdrop.*##+js(nano-setTimeout-booster, disabled)
 mixdrop.*##+js(set, MDCore.adblock, 0)
 mixdrop.*##+js(aopr, atob)
-mixdrop.*##[class="vjs-picture-in-picture-control vjs-control vjs-button"]
 mixdrop.*##+js(aopw, _pop)
-mixdrop.*##+js(aopr, popjs)
+mixdrop.*##[class="vjs-picture-in-picture-control vjs-control vjs-button"]
 mixdrop.*##+js(acis, $, String.fromCharCode)
 mixdrop.*##.s-wrapper
 ||mixdrop.co/xads.js$script
-*##div[onclick^="$(this).remove"]
+*##div[onclick*="$(this).remove"]
 
 #Putlocker
 putlocker.*,putlockerc.*,putlockers.*,put-locker.*##+js(acis, JSON.parse, break;case $.)
