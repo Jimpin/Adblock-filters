@@ -272,9 +272,9 @@ _popunder+$popup
 /random*.php$popup
 /?join_overlay=$popup
 /sitestats/openwindow/$popup
-ads|bid|biz|click|country|cricket|date|diet|download|faith|fun|info|link|ltd|loan|me|men|mom|online|om|party|pink|pro|pw|review|racing|site|science|sexy|space|stream|study|style|systems|trade|top|work|website|webcam|win|world|wz|xin|xyz##+js(aopr, popunder)
-ads|bid|biz|click|country|cricket|date|diet|download|faith|fun|info|link|ltd|loan|me|men|mom|online|om|party|pink|pro|pw|review|racing|site|science|sexy|space|stream|study|style|systems|trade|top|work|website|webcam|win|world|wz|xin|xyz##+js(aeld, popstate)
-ads|bid|biz|click|country|cricket|date|diet|download|faith|fun|info|link|ltd|loan|me|men|mom|online|om|party|pink|pro|pw|review|racing|site|science|sexy|space|stream|study|style|systems|trade|top|work|website|webcam|win|world|wz|xin|xyz##+js(aopr, BetterJsPop)
+ads,bid,biz,click,country,cricket,date,diet,download,faith,fun,info,link,ltd,loan,me,men,mom,online,om,party,pink,pro,pw,review,racing,site,science,sexy,space,stream,study,style,systems,trade,top,work,website,webcam,win,world,wz,xin,xyz##+js(aopr, popunder)
+ads,bid,biz,click,country,cricket,date,diet,download,faith,fun,info,link,ltd,loan,me,men,mom,online,om,party,pink,pro,pw,review,racing,site,science,sexy,space,stream,study,style,systems,trade,top,work,website,webcam,win,world,wz,xin,xyz##+js(aeld, popstate)
+ads,bid,biz,click,country,cricket,date,diet,download,faith,fun,info,link,ltd,loan,me,men,mom,online,om,party,pink,pro,pw,review,racing,site,science,sexy,space,stream,study,style,systems,trade,top,work,website,webcam,win,world,wz,xin,xyz##+js(aopr, BetterJsPop)
 
 ##Allowed elements
 @@||account*^$1p

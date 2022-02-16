@@ -3255,10 +3255,10 @@ se,nu,org,net,tv,to,io,co,cc,com##[href*="click"]
 se,nu,org,net,tv,to,io,co,cc,com##[href*="/adult"]
 se,nu,org,net,tv,to,io,co,cc,com##[href*="/advertising"]
 
-ads|bid|biz|click|country|cricket|date|diet|download|faith|fun|info|link|ltd|loan|me|men|mom|online|om|party|pink|pro|pw|review|racing|site|science|sexy|space|stream|study|style|systems|trade|top|work|website|webcam|win|world|wz|xin|xyz#[href*="javascript:"]
-ads|bid|biz|click|country|cricket|date|diet|download|faith|fun|info|link|ltd|loan|me|men|mom|online|om|party|pink|pro|pw|review|racing|site|science|sexy|space|stream|study|style|systems|trade|top|work|website|webcam|win|world|wz|xin|xyz##[rel="nofollow"][href*="//"]
-ads|bid|biz|click|country|cricket|date|diet|download|faith|fun|info|link|ltd|loan|me|men|mom|online|om|party|pink|pro|pw|review|racing|site|science|sexy|space|stream|study|style|systems|trade|top|work|website|webcam|win|world|wz|xin|xyz##+js(nostif, _0x)
-ads|bid|biz|click|country|cricket|date|diet|download|faith|fun|info|link|ltd|loan|me|men|mom|online|om|party|pink|pro|pw|review|racing|site|science|sexy|space|stream|study|style|systems|trade|top|work|website|webcam|win|world|wz|xin|xyz##+js(aopw, _pop)
+ads,bid,biz,click,country,cricket,date,diet,download,faith,fun,info,link,ltd,loan,me,men,mom,online,om,party,pink,pro,pw,review,racing,site,science,sexy,space,stream,study,style,systems,trade,top,work,website,webcam,win,world,wz,xin,xyz##[href*="javascript:"]
+ads,bid,biz,click,country,cricket,date,diet,download,faith,fun,info,link,ltd,loan,me,men,mom,online,om,party,pink,pro,pw,review,racing,site,science,sexy,space,stream,study,style,systems,trade,top,work,website,webcam,win,world,wz,xin,xyz##[rel="nofollow"][href*="//"]
+ads,bid,biz,click,country,cricket,date,diet,download,faith,fun,info,link,ltd,loan,me,men,mom,online,om,party,pink,pro,pw,review,racing,site,science,sexy,space,stream,study,style,systems,trade,top,work,website,webcam,win,world,wz,xin,xyz##+js(nostif, _0x)
+ads,bid,biz,click,country,cricket,date,diet,download,faith,fun,info,link,ltd,loan,me,men,mom,online,om,party,pink,pro,pw,review,racing,site,science,sexy,space,stream,study,style,systems,trade,top,work,website,webcam,win,world,wz,xin,xyzz##+js(aopw, _pop)
 *$script,frame,xhr,popup,3p,domain=ads|bid|biz|click|country|cricket|date|diet|download|faith|fun|info|link|ltd|loan|me|men|mom|online|om|party|pink|pro|pw|review|racing|site|science|sexy|space|stream|study|style|systems|trade|top|work|website|webcam|win|world|wz|xin|xyz
 
 ##[href*="https://axofinans.se"]
