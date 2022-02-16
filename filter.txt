@@ -3236,7 +3236,6 @@ popuper.js^
 
 se,nu,org,net,tv,to,io,co,cc,com##[href*="javascript:void(0);"]
 se,nu,org,net,tv,to,io,co,cc,com##li:contains(vert)
-se,nu,org,net,tv,to,io,co,cc,com##+js(aeld, popstate)
 se,nu,org,net,tv,to,io,co,cc,com##[href*="hent"]
 se,nu,org,net,tv,to,io,co,cc,com##[href*="cams"]
 se,nu,org,net,tv,to,io,co,cc,com##[href*="click"]
