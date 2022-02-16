@@ -34,6 +34,7 @@ aftonbladet.se##[data-ad-subtype="mega"]:upward(div[style^="opacity"])
 aftonbladet.se##div[class][style*="text"]:has(h3:has-text(/annons/i))
 aftonbladet.se##div[class][style*="text"]:has(h3:has-text(/annonslänkar/i))
 aftonbladet.se##[class*="default css-"][src*="/embed/ab-box?pym="]
+aftonbladet.se###ab-paywall-player-plugin-container
 aftonbladet.se##.abAside > div[style^="text"]:last-child
 aftonbladet.se##.ab-responsive-ads-wrapper
 aftonbladet.se###data-controller-stripe
@@ -2384,41 +2385,57 @@ goal.com##.widget-semantic-player--displayed.widget-semantic-player
 ##.vjs-ad-iframe
 ##.vjs-ad-overlay
 ##.vjs-ima3-ad-container
-##[href*="adnxs.com"]
-##[href*="adclick."]
-##[href*="adrunnr.com"]
-##[href*="clkads"]
-##[href*="directrev.com"]
-##[href*="marketgid.com"]
-##[href*="mgid.com"]
-##[href*="onclickads.net"]
-##[href*="doubleclick.net"]
-##[href*="srvpub.com"]
-##[href*="exoclick.com"]
-##[href*="mdn2015"]
-##[href*="adform.net"]
-##[href*="//adskeeper."]
-##[href*="//new-dating"]
-##[href*="//zenhppyad.com/"]
-##[href*="//mgid.com/"]
-##[href*="//000webhost.com/"]
-##[href*="/wp-admin/admin-ajax.php"]
-##[href*="/ads."]
-##[href*="/adv/"]
-##[href*="/advert"]
-##[href*="http^://ad."]
-##[href*="http^://ads."]
-##[href*="affiliate"]
-##[href*=".clkcln.com/"]
-##[href*=".clksite.com/"]
-##[href*="/adServe/banners?"]
-##[href*="/cmd.php?ad="]
-##[href*="=Adtracker"]
-##[href*="=adscript"]
-##[href*="=exoclick"]
-##[href*="a2g-secure.com"]
-##[href*="ad2upapp.com/"]
-##[href*="5iclx7wa4q.com"]
+*##[href*=".world"]
+*##[href*=".wz"]
+*##[href*=".style"]
+*##[href*=".pw"]
+*##[href*=".site"]
+*##[href*=".pink"]
+*##[href*=".click"]
+*##[href*=".cricket"]
+*##[href*=".faith"]
+*##[href*=".online"]
+*##[href*=".racing"]
+*##[href*=".website"]
+*##[href*=".win"]
+*##[href*=".trade"]
+*##[href*=".space"]
+*##[href*=".webcam"]
+*##[href*="adnxs.com"]
+*##[href*="adclick."]
+*##[href*="adrunnr.com"]
+*##[href*="clkads"]
+*##[href*="directrev.com"]
+*##[href*="marketgid.com"]
+*##[href*="mgid.com"]
+*##[href*="onclickads.net"]
+*##[href*="doubleclick.net"]
+*##[href*="srvpub.com"]
+*##[href*="exoclick.com"]
+*##[href*="mdn2015"]
+*##[href*="adform.net"]
+*##[href*="//adskeeper."]
+*##[href*="//new-dating"]
+*##[href*="//zenhppyad.com/"]
+*##[href*="//mgid.com/"]
+*##[href*="//000webhost.com/"]
+*##[href*="/wp-admin/admin-ajax.php"]
+*##[href*="/ads."]
+*##[href*="/adv/"]
+*##[href*="/advert"]
+*##[href*="http^://ad."]
+*##[href*="http^://ads."]
+*##[href*="affiliate"]
+*##[href*=".clkcln.com/"]
+*##[href*=".clksite.com/"]
+*##[href*="/adServe/banners?"]
+*##[href*="/cmd.php?ad="]
+*##[href*="=Adtracker"]
+*##[href*="=adscript"]
+*##[href*="=exoclick"]
+*##[href*="a2g-secure.com"]
+*##[href*="ad2upapp.com/"]
+*##[href*="5iclx7wa4q.com"]
 
 #Ads/Trackers
 *count.
@@ -3248,35 +3265,43 @@ popuper.js^
 @@*.ts$xhr
 @@/?stream=
 
+
+se,nu,org,net,tv,to,io,co,cc,com##+js(set, $.magnificPopup.open, noopFunc)
+se,nu,org,net,tv,to,io,co,cc,com##+js(set, clientSide.adbDetect, noopFunc)
 se,nu,org,net,tv,to,io,co,cc,com##.td-a-rec
 se,nu,org,net,tv,to,io,co,cc,com##.td-block-title-wrap
 se,nu,org,net,tv,to,io,co,cc,com##.td-logo-wrap-full
 se,nu,org,net,tv,to,io,co,cc,com##.td-footer-bottom-full
-se,nu,org,net,tv,to,io,co,cc,com##[type*="text/javascript"]
-se,nu,org,net,tv,to,io,co,cc,com##[data-cfasync]
 se,nu,org,net,tv,to,io,co,cc,com##[href="javascript:void(0);"]
 se,nu,org,net,tv,to,io,co,cc,com##li:contains(vert)
-se,nu,org,net,tv,to,io,co,cc,com##[href*="/adult"]
-se,nu,org,net,tv,to,io,co,cc,com##[href*="/advertising"]
+se,nu,org,net,tv,to,io,co,cc,com##+js(aeld, popstate)
 se,nu,org,net,tv,to,io,co,cc,com##[href*="hent"]
 se,nu,org,net,tv,to,io,co,cc,com##[href*="cams"]
-se,nu,org,net,tv,to,io,co,cc,com##[href*="click?"]
-se,nu,org,net,tv,to,io,co,cc,com##[href*=".world"]
-se,nu,org,net,tv,to,io,co,cc,com##[href*=".wz"]
-se,nu,org,net,tv,to,io,co,cc,com##[href*=".style"]
-se,nu,org,net,tv,to,io,co,cc,com##[href*=".pw"]
-se,nu,org,net,tv,to,io,co,cc,com##[href*=".site"]
-se,nu,org,net,tv,to,io,co,cc,com##[href*=".pink"]
-se,nu,org,net,tv,to,io,co,cc,com##[href*=".click"]
-se,nu,org,net,tv,to,io,co,cc,com##[href*=".cricket"]
-se,nu,org,net,tv,to,io,co,cc,com##[href*=".faith"]
-se,nu,org,net,tv,to,io,co,cc,com##[href*=".online"]
-se,nu,org,net,tv,to,io,co,cc,com##[href*=".racing"]
-se,nu,org,net,tv,to,io,co,cc,com##[href*=".website"]
-se,nu,org,net,tv,to,io,co,cc,com##[href*=".win"]
-se,nu,org,net,tv,to,io,co,cc,com##[href*=".trade"]
-se,nu,org,net,tv,to,io,co,cc,com##[href*=".space"]
-se,nu,org,net,tv,to,io,co,cc,com##[href*=".webcam"]
+se,nu,org,net,tv,to,io,co,cc,com##[href*="click"]
+se,nu,org,net,tv,to,io,co,cc,com##[href*="/adult"]
+se,nu,org,net,tv,to,io,co,cc,com##[href*="/advertising"]
+
+bid,biz,click,cricket,faith,fun,info,me,online,pink,pro,pw,racing,site,space,stream,style,trade,top,website,webcam,win,world,wz,xyz##body > div[style*="z-index:"]
+bid,biz,click,cricket,faith,fun,info,me,online,pink,pro,pw,racing,site,space,stream,style,trade,top,website,webcam,win,world,wz,xyz##[rel="nofollow"][href*="//"]
+bid,biz,click,cricket,faith,fun,info,me,online,pink,pro,pw,racing,site,space,stream,style,trade,top,website,webcam,win,world,wz,xyz##+js(nowoif)
+bid,biz,click,cricket,faith,fun,info,me,online,pink,pro,pw,racing,site,space,stream,style,trade,top,website,webcam,win,world,wz,xyz##+js(aeld, popstate)
+bid,biz,click,cricket,faith,fun,info,me,online,pink,pro,pw,racing,site,space,stream,style,trade,top,website,webcam,win,world,wz,xyz##+js(set, $.magnificPopup.open, noopFunc)
+bid,biz,click,cricket,faith,fun,info,me,online,pink,pro,pw,racing,site,space,stream,style,trade,top,website,webcam,win,world,wz,xyz##+js(set, clientSide.adbDetect, noopFunc)
+bid,biz,click,cricket,faith,fun,info,me,online,pink,pro,pw,racing,site,space,stream,style,trade,top,website,webcam,win,world,wz,xyz##+js(aopr, BetterJsPop)
+bid,biz,click,cricket,faith,fun,info,me,online,pink,pro,pw,racing,site,space,stream,style,trade,top,website,webcam,win,world,wz,xyz##+js(acis, Math, break;case $.)
+bid,biz,click,cricket,faith,fun,info,me,online,pink,pro,pw,racing,site,space,stream,style,trade,top,website,webcam,win,world,wz,xyz##+js(nostif, jQuery)
+bid,biz,click,cricket,faith,fun,info,me,online,pink,pro,pw,racing,site,space,stream,style,trade,top,website,webcam,win,world,wz,xyz##+js(nostif, _0x)
+bid,biz,click,cricket,faith,fun,info,me,online,pink,pro,pw,racing,site,space,stream,style,trade,top,website,webcam,win,world,wz,xyz##+js(no-xhr-if, pop)
+bid,biz,click,cricket,faith,fun,info,me,online,pink,pro,pw,racing,site,space,stream,style,trade,top,website,webcam,win,world,wz,xyz##+js(aopr, open)
+bid,biz,click,cricket,faith,fun,info,me,online,pink,pro,pw,racing,site,space,stream,style,trade,top,website,webcam,win,world,wz,xyz##+js(nostif, readystatechange)
+bid,biz,click,cricket,faith,fun,info,me,online,pink,pro,pw,racing,site,space,stream,style,trade,top,website,webcam,win,world,wz,xyz##+js(acis, XMLHttpRequest, null)
+bid,biz,click,cricket,faith,fun,info,me,online,pink,pro,pw,racing,site,space,stream,style,trade,top,website,webcam,win,world,wz,xyz##+js(aopr, popunder)
+bid,biz,click,cricket,faith,fun,info,me,online,pink,pro,pw,racing,site,space,stream,style,trade,top,website,webcam,win,world,wz,xyz##+js(aopw, _pop)
+bid,biz,click,cricket,faith,fun,info,me,online,pink,pro,pw,racing,site,space,stream,style,trade,top,website,webcam,win,world,wz,xyz##+js(aopr, popjs.init)
+bid,biz,click,cricket,faith,fun,info,me,online,pink,pro,pw,racing,site,space,stream,style,trade,top,website,webcam,win,world,wz,xyz##+js(ra, onclick, [onclick^="window.open"])
+bid,biz,click,cricket,faith,fun,info,me,online,pink,pro,pw,racing,site,space,stream,style,trade,top,website,webcam,win,world,wz,xyz##+js(popads-dummy)
+bid,biz,click,cricket,faith,fun,info,me,online,pink,pro,pw,racing,site,space,stream,style,trade,top,website,webcam,win,world,wz,xyz##+js(aopr, decodeURI)
+*$script,frame,xhr,popup,3p,domain=bid|biz|click|cricket|faith|fun|info|me|online|pink|pro|pw|racing|site|space|stream|style|trade|top|website|webcam|win|world|wz|xyz
 
 ##[href*="https://axofinans.se"]
 ##[href*="/information#advertising"]
@@ -3307,6 +3332,8 @@ se,nu,org,net,tv,to,io,co,cc,com##[href*=".webcam"]
 ##iframe[width="468"][height="60"]
 ##iframe[width="300"][height="250"]
 ###adbtm
+##[type*="text/javascript"]
+##[data-cfasync]
 ##[src="/social-box/"]
 ##[src*="/next.php"]
 ##[src*="/?yadrd="]
@@ -3501,7 +3528,6 @@ se,nu,org,net,tv,to,io,co,cc,com##[href*=".webcam"]
 ##[class*="ad module__"]
 ##[id*="rich-media-ads"]
 ##[id*="ads-script"]
-##[rel="nofollow"][href*="//"]
 ##[id*="overlay-container"]
 ##[class*="ad-placement"]
 ##[class="jw-overlays jw-reset"]
@@ -3563,14 +3589,13 @@ se,nu,org,net,tv,to,io,co,cc,com##[href*=".webcam"]
 *##script:contains(window.adsbyjuicy)
 *##script:contains(adzone)
 *##script:contains("adId")
-*##+js(ra, onclick, [onclick^="track"])
 *##+js(aopr, AaDetector)
 *##+js(aopr, LieDetector)
 *##+js(nosiif, _0x)
 *##+js(aopw, Fingerprint2)
 *##+js(aopr, disableButtonTimer)
 *##+js(aopw, ai_front)
-*##+js(abort-on-property-read, Object.prototype.adUnits)
+*##+js(aopr, Object.prototype.adUnits)
 *##+js(acis, document.createElement, __htas)
 *##+js(acis, spr)
 *##+js(set, POPUNDER_ENABLED, false)
@@ -3593,6 +3618,8 @@ se,nu,org,net,tv,to,io,co,cc,com##[href*=".webcam"]
 *##a[href^="/stream-4k/"]
 *##a[href^="/download-4k/"]
 *##.pframe:has([href^="javascript: void(0);"])
+*##+js(ra, onclick, [onclick^="window.open"])
+*##+js(aopr, __Y)
 
 *##+js(aopr, _0xbeb9)
 *##+js(aopr, _0xe317)
