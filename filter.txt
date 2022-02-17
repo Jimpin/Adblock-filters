@@ -1746,6 +1746,7 @@ goal.com##.widget-semantic-player--displayed.widget-semantic-player
 ##.optanon-alert-box-bg
 ###floatingbar
 ##[class*="tipsy tipsy-w kepsy"]
+##.page-blocker
 ##.wid-banner-container
 ##.wid-cams-widget
 ##.wid-spot-container
