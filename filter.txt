@@ -2881,7 +2881,6 @@ redirect.
 /jquery.adi.js
 /player/ads.js$script
 /plugins/anti-block/*
-/pcomet/*$xhr
 /js_error.phtml$xhr
 /anti-block-modal.js$script
 /promo-banner.js?cache=
