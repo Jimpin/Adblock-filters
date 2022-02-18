@@ -1084,6 +1084,7 @@ rltracker.pro##.col-sm-12 > .row
 /pagead2.
 /ucount.php?
 &&_=
+&targetwindow=_$frame
 
 #Lookmovie.io
 lookmovie.*##+js(aopr, adBlockDetected)
@@ -2124,6 +2125,7 @@ goal.com##.widget-semantic-player--displayed.widget-semantic-player
 ##.hero-ad-special
 ##[data-test-id="hero-placeholder"]
 ##[data-test-id="startpage-hero"]
+##[class*="BannerFlowBanner-styles--root"]
 ##.iframe-ad
 ##.iframe-ads
 ##.iframeAd
