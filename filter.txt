@@ -2869,7 +2869,6 @@ redirect.
 /wp-content/plugins/disable-right-click/*
 /wp-content/uploads/an-temp/*$script,stylesheet
 /site/captcha?
-/js/*/overlays/*$script
 /fuckadb.js
 /fuckadblock$script
 /blockadblock$script
@@ -2880,6 +2879,8 @@ redirect.
 /jquery.adi.js
 /player/ads.js$script
 /plugins/anti-block/*
+/pcomet/*$xhr
+/js_error.phtml$xhr
 /anti-block-modal.js$script
 /promo-banner.js?cache=
 /front-index-pc.js?
@@ -3501,6 +3502,7 @@ ads,bid,biz,click,country,cricket,date,diet,download,faith,fun,info,link,ltd,loa
 *##[id*="netboard_"]
 *##+js(nostif, n.modal)
 *##.no-scroll:style(overflow-x: hidden !important;)
+*##[class="ovl"]:style(display: none !important;)
 *##+js(nostif, showOverlay)
 *###overlay:not(.overlay)
 *##html.open-modal .overlay:style(display: none !important)
