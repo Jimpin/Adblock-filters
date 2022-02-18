@@ -2092,10 +2092,13 @@ goal.com##.widget-semantic-player--displayed.widget-semantic-player
 ##.text--center.text--nowrap.site_logo.logo__container
 ##.alert--warning.alert
 ###outsider
-##.ovl
-##.ovl-fade
-##.ovl__content
 ##.js-ovl-fade
+##.js-page-fatal-ovl
+##.js-page-fatal-ovl-fade
+##.js-messenger-banner.messenger-banner
+##.st_msgs_disable.messenger__main:contains(block)
+##.is-blocked.contact-card
+##.blocker--light.blocker
 ##.alert.text-center.gdpr-msg
 ###sticky-banner
 ###sns_overlay
@@ -2866,6 +2869,7 @@ redirect.
 /wp-content/plugins/disable-right-click/*
 /wp-content/uploads/an-temp/*$script,stylesheet
 /site/captcha?
+/js/*/overlays/*$script
 /fuckadb.js
 /fuckadblock$script
 /blockadblock$script
