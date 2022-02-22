@@ -3354,6 +3354,9 @@ ads,bid,biz,click,country,cricket,date,diet,download,faith,fun,info,link,ltd,loa
 *##[src*="/fac.php"]
 *##[src*="/adu.php"]
 *##[onclick*="return JuicyCodes.Close(); "]
+*##[class*="cookie-panel-overlay"]
+*##[class*="cookie-panel"][data-module*="cookie-notice"]
+*##[class*="lock-scroll"]:style(overflow: auto !important;)
 *##.consent-banner:contains(cookies)
 *##+js(acis, burtSegments)
 *##+js(acis, Bau, preloadAds)
