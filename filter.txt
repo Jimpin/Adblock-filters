@@ -2032,6 +2032,8 @@ goal.com##.widget-semantic-player--displayed.widget-semantic-player
 ###material-notice
 ##.ads-ad
 ##.ad-block-notice
+###countryRedirectMessage
+##.ageDisclaimer
 ##.fbar
 ###taw
 ##.consent
@@ -3510,6 +3512,7 @@ ads,bid,biz,click,country,cricket,date,diet,download,faith,fun,info,link,ltd,loa
 *##+js(nostif, showOverlay)
 *###overlay:not(.overlay)
 *##html.open-modal .overlay:style(display: none !important)
+*##.isOpenMTubes:style(overflow-y: auto !important;)
 *##div[class^="lowerBadge"]
 *html#type=page&event=load&url=$important
 ##[id="skinAdTarget"]
