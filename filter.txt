@@ -3244,7 +3244,6 @@ se,nu,org,net,tv,to,io,co,cc,com##[href*="javascript:void(0);"]
 se,nu,org,net,tv,to,io,co,cc,com##li:contains(vert)
 se,nu,org,net,tv,to,io,co,cc,com##[href*="hent"]
 se,nu,org,net,tv,to,io,co,cc,com##[href*="cams"]
-se,nu,org,net,tv,to,io,co,cc,com##[href*="click"]
 se,nu,org,net,tv,to,io,co,cc,com##[href*="/adult"]
 se,nu,org,net,tv,to,io,co,cc,com##[href*="/advertising"]
 
@@ -3260,7 +3259,8 @@ ads,bid,biz,click,country,cricket,date,diet,download,faith,fun,info,link,ltd,loa
 ##[href*="/tuname.php"]
 ##[href*="/rss"]
 ##[src*="/s.php?"]
-##[src^="/ads.js?"]
+##[src*="/ads.js?"]
+##[src*="/float"]
 ##[src*="adserver"]
 ##[src*="affiliate"]
 ##[src*="http://ad."]
