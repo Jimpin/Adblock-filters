@@ -3575,6 +3575,7 @@ ads,bid,biz,click,country,cricket,date,diet,download,faith,fun,info,link,ltd,loa
 *##+js(set, clientSide.adbDetect, noopFunc)
 *##+js(popads-dummy)
 *##+js(acis, document.querySelectorAll, popMagic)
+*##+js(aopw, clickIE4)
 
 *##+js(aopr, _0xbeb9)
 *##+js(aopr, _0xe317)
