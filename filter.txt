@@ -1472,6 +1472,13 @@ skidrowreloaded.com###communication
 |http://$script,image,xhr,3p,domain=skidrowreloaded.com
 |https://$script,image,xhr,3p,domain=skidrowreloaded.com
 
+#Radarbox
+radarbox.com##+js(set, ads_enabled, true)
+radarbox.com##.cZaNit
+radarbox.com##.ListItemLabel > span:contains(About)
+radarbox.com##[class*="Share"]
+radarbox.com##.remove-pub > [href="/subscribe"]
+
 #Body/Frames
 goal.com##.commercial
 goal.com##.clearfix.widget-inline-editors-picks
@@ -1877,12 +1884,12 @@ goal.com##.widget-semantic-player--displayed.widget-semantic-player
 ##.loading-background
 ##.showingCounter
 ##._lvv_61 > div > div:nth-of-type(1)
-##[src="/banner_upper.png"]
-##[src="/banner_lower.png"]
-##[id="overlay2-banner"]
-##[id="ad-overlay2"]
-##[id="ad-overlay"]
-##[id="get-code"]
+##[src*="/banner/160x600"]
+##[src*="/banner_upper.png"]
+##[src*="/banner_lower.png"]
+##[id*="overlay2-banner"]
+##[id*="ad-overlay"]
+##[id*="get-code"]
 ##[class="code-close"]
 ##[class="code-main"]
 ##.ab-wrapper.row
@@ -3123,7 +3130,6 @@ webhelper.js^
 defuser.js^
 sanitizer.js^
 ima3.js^
-widgetapi.js^
 alll.js^
 trustedsaver.js^
 intext.js^
