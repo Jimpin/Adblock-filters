@@ -1461,19 +1461,16 @@ aliez.*##[href$=".html"]
 /redirect?tid=^$important
 
 #Skidrowreloaded.com
-skidrowreloaded.com##+js(aeld, click, popunder)
 skidrowreloaded.com##+js(noeval)
+skidrowreloaded.com##+js(acis, document.onmousedown)
 skidrowreloaded.com##+js(aopw, _pop)
-skidrowreloaded.com##+js(aeld, , _blank)
-skidrowreloaded.com##+js(aopr, open)
+skidrowreloaded.com##+js(aopr, clickIE4)
 skidrowreloaded.com##+js(no-fetch-if, /^/)
 skidrowreloaded.com##+js(aopr, disableSelection)
 skidrowreloaded.com##iframe[src="about:blank"]
 skidrowreloaded.com###communication
-||skidrowreloaded.com^$csp=script-src 'self' 'unsafe-inline' *.google-analytics.com *.cloudflare.com *.gstatic.com *.google.com *.solvemedia.com *.recaptcha.net
 |http://$script,image,xhr,3p,domain=skidrowreloaded.com
 |https://$script,image,xhr,3p,domain=skidrowreloaded.com
-*^$popunder,domain=skidrowreloaded.com
 
 #Body/Frames
 goal.com##.commercial
