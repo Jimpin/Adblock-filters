@@ -1464,7 +1464,6 @@ aliez.*##[href$=".html"]
 skidrowreloaded.com##+js(noeval)
 skidrowreloaded.com##+js(acis, document.onmousedown)
 skidrowreloaded.com##+js(aopw, _pop)
-skidrowreloaded.com##+js(aopr, clickIE4)
 skidrowreloaded.com##+js(no-fetch-if, /^/)
 skidrowreloaded.com##+js(aopr, disableSelection)
 skidrowreloaded.com##iframe[src="about:blank"]
