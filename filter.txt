@@ -3252,8 +3252,8 @@ ads,bid,biz,click,country,cricket,date,diet,download,faith,fun,info,link,ltd,loa
 ads,bid,biz,click,country,cricket,date,diet,download,faith,fun,info,link,ltd,loan,me,men,mom,online,om,party,pink,pro,pw,review,racing,site,science,sexy,space,stream,study,style,systems,trade,top,work,website,webcam,win,world,wz,xin,xyz##[rel="nofollow"][href*="//"]
 ads,bid,biz,click,country,cricket,date,diet,download,faith,fun,info,link,ltd,loan,me,men,mom,online,om,party,pink,pro,pw,review,racing,site,science,sexy,space,stream,study,style,systems,trade,top,work,website,webcam,win,world,wz,xin,xyz##+js(nostif, _0x)
 ads,bid,biz,click,country,cricket,date,diet,download,faith,fun,info,link,ltd,loan,me,men,mom,online,om,party,pink,pro,pw,review,racing,site,science,sexy,space,stream,study,style,systems,trade,top,work,website,webcam,win,world,wz,xin,xyz##+js(aopw, _pop)
-ads,bid,biz,click,country,cricket,date,diet,download,faith,fun,info,link,ltd,loan,me,men,mom,online,om,party,pink,pro,pw,review,racing,site,science,sexy,space,stream,study,style,systems,trade,top,work,website,webcam,win,world,wz,xin,xyz##+js(aopr, decodeURI)
 ads,bid,biz,click,country,cricket,date,diet,download,faith,fun,info,link,ltd,loan,me,men,mom,online,om,party,pink,pro,pw,review,racing,site,science,sexy,space,stream,study,style,systems,trade,top,work,website,webcam,win,world,wz,xin,xyz##+js(aopw, clickIE4)
+ads,bid,biz,click,country,cricket,date,diet,download,faith,fun,info,link,ltd,loan,me,men,mom,online,om,party,pink,pro,pw,review,racing,site,science,sexy,space,stream,study,style,systems,trade,top,work,website,webcam,win,world,wz,xin##+js(aopr, decodeURI)
 *$script,frame,xhr,popup,3p,domain=ads|bid|biz|click|country|cricket|date|diet|download|faith|fun|info|link|ltd|loan|men|mom|online|om|party|pink|pro|pw|review|racing|site|science|sexy|space|stream|study|style|systems|trade|top|work|website|webcam|win|world|wz|xin
 
 ##[href*="https://axofinans.se"]
