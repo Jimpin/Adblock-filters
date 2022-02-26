@@ -903,7 +903,7 @@ di.se##.start__articles-ad
 /getnative$xhr
 
 #Hemnet.se
-hemnet.se##html:style(overflow-y: auto !important;)
+hemnet.se##.qa-sticky-save-search.js-add-sticky-subscription-action
 hemnet.se###ad_unit_placeholder
 hemnet.se##.hcl-modal-overlay--after-open.hcl-modal-overlay
 hemnet.se##.consent-modal__overlay--after-open.consent-modal__overlay
@@ -3516,6 +3516,7 @@ ads,bid,biz,click,country,cricket,date,diet,download,faith,fun,info,link,ltd,loa
 *###overlay:not(.overlay)
 *##html.open-modal .overlay:style(display: none !important)
 *##.isOpenMTubes:style(overflow-y: auto !important;)
+*##[class*="ReactModal__Body"]:style(overflow-y: auto !important;)
 *##div[class^="lowerBadge"]
 *html#type=page&event=load&url=$important
 ##[id="skinAdTarget"]
