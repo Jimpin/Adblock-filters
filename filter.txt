@@ -3525,11 +3525,13 @@ ads,bid,biz,click,country,cricket,date,diet,download,faith,fun,info,link,ltd,loa
 ##.jconfirm-cell
 ##.jconfirm-open
 ##.jconfirm-scrollpane
-*##[style*="z-index: -"]
-*##[style*="z-index: 160"]
+*##[style*="z-index: -999"]
 *##[style*="z-index: 999"]
+*##[style*="z-index: -1000"]
 *##[style*="z-index: 1000"]
+*##[style*="z-index: -30000"]
 *##[style*="z-index: 30000"]
+*##[style*="z-index: -21474836"]
 *##[style*="z-index: 21474836"]
 *##+js(nosiif, checkInterval)
 *##^script:has-text(/^[\w\W]{1700,3000}$/):has-text(/(\\x\d\w){250}/)
@@ -3581,6 +3583,7 @@ ads,bid,biz,click,country,cricket,date,diet,download,faith,fun,info,link,ltd,loa
 *##+js(set, clientSide.adbDetect, noopFunc)
 *##+js(popads-dummy)
 *##+js(acis, document.querySelectorAll, popMagic)
+*##+js(acis, googlefc)
 
 *##+js(aopr, _0xbeb9)
 *##+js(aopr, _0xe317)
