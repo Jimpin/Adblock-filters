@@ -78,7 +78,6 @@ klart.se##+js(remove-class, mega-loading)
 ||jwpsrv.com^$subdocument,important
 ||brandmetrics.com^$3p
 ||jwpcdn.com^*/*.js$script,domain=aftonbladet.se
-||svp.vg.no/svp/api/v1/time$xmlhttprequest
 ||ab-web-notifications.herokuapp.com^$xhr
 ||interaction.acast.com/adImpression$xhr
 ||interaction.acast.com/progress$xhr,redirect-rule=nooptext
