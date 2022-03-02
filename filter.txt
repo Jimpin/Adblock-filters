@@ -266,7 +266,6 @@ google.*###rhs_block
 ||google-analytics.com^
 ||googleanalytics.com^
 ||googlesyndication.com^
-||googletagmanager.com^
 ||googletagservices.com^
 
 #Tv4play.se
@@ -3241,7 +3240,7 @@ popuper.js^
 
 se,nu,org,net,tv,to,io,co,cc,com##[href*="javascript:void(0);"]
 se,nu,org,net,tv,to,io,co,cc,com##li:contains(vert)
-se,nu,org,net,tv,to,io,co,cc,com##[href*="hent"]
+se,nu,org,net,tv,to,io,co,cc,com##[href*="hentai"]
 se,nu,org,net,tv,to,io,co,cc,com##[href*="cams"]
 se,nu,org,net,tv,to,io,co,cc,com##[href*="/adult"]
 se,nu,org,net,tv,to,io,co,cc,com##[href*="/advertising"]
