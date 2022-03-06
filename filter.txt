@@ -338,6 +338,7 @@ youtube.com##ytd-video-masthead-ad-advertiser-info-renderer,ytm-promoted-sparkle
 youtube.com###hats-container
 youtube.com##[style*="--ytd-video-preview-top-position"]
 youtube.com##.ytp-button.ytp-miniplayer-button
+youtube.com###body:contains(í)
 youtube.com###body:contains(**)
 youtube.com###body:contains(⸻)
 youtube.com###body:contains(🍆)
@@ -3381,7 +3382,6 @@ ads,bid,biz,click,country,cricket,date,diet,download,faith,fun,info,link,ltd,loa
 *##a[href*="rabattkoder"]
 *##a[href*="clk."]
 *##a[href*="AdwdGn/"]
-*##a[href*="track."]
 *##a[href*="trackers."]
 *##a[href*="track.adtraction."]
 *##a[href*="pre."]
