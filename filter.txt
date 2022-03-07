@@ -344,7 +344,6 @@ youtube.com###body, #ytd-comment-renderer, #ytd-comment-replies-renderer, a[href
 youtube.com###body, #ytd-comment-renderer, #ytd-comment-replies-renderer, a[href*=http]:contains(, ")
 youtube.com###body, #ytd-comment-renderer, #ytd-comment-replies-renderer, a[href*=http]:contains(í)
 youtube.com###body, #ytd-comment-renderer, #ytd-comment-replies-renderer, a[href*=http]:contains(ó)
-youtube.com###body, #ytd-comment-renderer, #ytd-comment-replies-renderer, a[href*=http]:contains(+)
 youtube.com###body, #ytd-comment-renderer, #ytd-comment-replies-renderer, a[href*=http]:contains(➕‪)
 youtube.com###body, #ytd-comment-renderer, #ytd-comment-replies-renderer, a[href*=http]:contains(**)
 youtube.com###body, #ytd-comment-renderer, #ytd-comment-replies-renderer, a[href*=http]:contains(⸻)
