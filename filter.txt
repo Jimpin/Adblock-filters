@@ -315,7 +315,7 @@ tv4play.se##a[href="https://www.cmore.se/tv-program?utm_source=tv4play&utm_mediu
 youtube.com###infoButton
 youtube.com##.opened
 youtube.com##.yt-alert-content
-youtube.com##ytd-comment-renderer:style(display: contents !important;)
+youtube.com###ytd-comment-renderer, #ytd-comment-replies-renderer:style(display: contents !important;)
 youtube.com##ytd-merch-shelf-renderer.ytd-watch-flexy.style-scope > .ytd-merch-shelf-renderer.style-scope:contains(Köp)
 youtube.com##ytd-display-ad-renderer:upward(ytd-rich-item-renderer)
 youtube.com##+js(json-prune, [].playerResponse.adPlacements [].playerResponse.playerAds playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds)
