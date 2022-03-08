@@ -100,12 +100,11 @@ utm_$document,removeparam=/^utm_/
 /gdpr-bundle.
 
 #Expressen.se
-expressen.se##^script:has-text(adblock)
-expressen.se##^script:has-text(adsScript)
 expressen.se##^script:has-text(window.Exp.bamData)
-expressen.se##+js(aeld, click, trackClick)
 expressen.se##+js(set, detect, noopFunc)
 expressen.se##+js(ra, data-start-in-view)
+expressen.se##+js(ra, data-t-label)
+expressen.se##+js(set, detect, noopFunc)
 expressen.se##+js(json-prune, autoplay)
 expressen.se##+js(acis, adblock)
 expressen.se##+js(acis, ExpressenAnalytics, push)
@@ -121,7 +120,8 @@ expressen.se##.article--sponsored
 expressen.se##.article__after-widgets > .html-widget
 expressen.se##[class="exp-video-player__ad-counter"]
 expressen.se##[class="exp-video-player__buffer-overlay"]
-expressen.se##[data-position]:matches-css(height: 0px)
+expressen.se##.vignette--svg + a[href*="teknikensvarld."]:upward(.teaser)
+expressen.se##strong:has-text(/annons:/i):upward(p)
 expressen.se##.ad
 expressen.se##.pa-dialog
 expressen.se##.campaign
@@ -143,7 +143,7 @@ expressen.se##.exp-video-player__ad-video
 expressen.se##.exp-video-player__topbar
 expressen.se##.slideshow__control
 expressen.se##[href*="https://www.expressen.se/amelia/"]
-expressen.se##a[href*="/spel.exp"], a[href*="/lanapengar.exp"], a[href*="/rabattkoder.exp"], a[href*="/annons"], .match-betting, .discount-ad, .b-ad__caption, .pressrelease-teaser, .widget-ad-marker, .widget-ad-marker + a, .promotion-banner, .widget--collaboration, .rotator--external, a[data-click-track*="prisjakt"], .linked-image-widget a[href*="/kampanj/"], .linked-image-widget
+expressen.se##a[href*="/spel.exp"], a[href*="/lanapengar.exp"], a[href*="/rabattkoder.exp"], a[href*="/annons"], .match-betting, .discount-ad, .b-ad__caption, .pressrelease-teaser, .widget-ad-marker, .widget-ad-marker + a, .promotion-banner, .widget--collaboration, .rotator--external, a[data-click-track*="prisjakt"], .linked-image-widget a[href*="/kampanj/"], .linked-image-widget a[href*="lifestyle.expressen.se"]
 expressen.se##figure[data-article-data*="/sponsrat"], figure[data-article-data*="/annons"], figure[data-article-data*="/brand-studio"]
 *##+js(acs, ExpressenAnalytics, push)
 ##.terms-dialog
