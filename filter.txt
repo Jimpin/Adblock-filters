@@ -120,7 +120,7 @@ expressen.se##.article--sponsored
 expressen.se##.article__after-widgets > .html-widget
 expressen.se##[class="exp-video-player__ad-counter"]
 expressen.se##[class="exp-video-player__buffer-overlay"]
-expressen.se##.vignette--svg + a[href*="teknikensvarld."]:upward(.teaser)
+expressen.se##a[href*="teknikensvarld."]:upward(.teaser)
 expressen.se##strong:has-text(/annons:/i):upward(p)
 expressen.se##.ad
 expressen.se##.pa-dialog
@@ -133,6 +133,7 @@ expressen.se##.flashes--visible
 expressen.se###rich-media-ads
 expressen.se##.widget--collaboration
 expressen.se##.widget-ad-marker, .widget-ad-marker + a
+expressen.se##.widget-area--hard-divide > * + :not(.bam-ad-slot):style(padding-top: 0px !important;)
 expressen.se##.linked-image-widget
 expressen.se##.pressrelease-teaser
 expressen.se##.promotion-banner
