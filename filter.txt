@@ -442,9 +442,8 @@ facebook.com#@#html,body:style(overflow-x: hidden !important;)
 svt.se##li.nyh_contactbox-item:has(div[class*="facebook"]) 
 svt.se##li.nyh_contactbox-item:has(div[class*="twitter"]) 
 svt.se##li.nyh_contactbox-item:has(div[class*="instagram"]) 
-svt.se##section.nyh_share 
+svt.se###nyh_cookie-message,#svtmat_cookie,section.nyh_share
 svt.se##.SocialMediaShareButton 
-svt.se###nyh_cookie-message 
 svtplay.se###svtCookieInformationContainer 
 svtplay.se##.play_videolist__container-inner:style(overflow-x: hidden !important;)
 svtplay.se#@#.no-cookies 
@@ -3567,7 +3566,6 @@ ads,bid,biz,click,country,cricket,date,diet,download,faith,fun,info,link,ltd,loa
 *##+js(aopw, Fingerprint2)
 *##+js(aopr, disableButtonTimer)
 *##+js(aopw, ai_front)
-*##+js(aopr, Object.prototype.adUnits)
 *##+js(acis, document.createElement, __htas)
 *##+js(acis, spr)
 *##+js(set, POPUNDER_ENABLED, false)
