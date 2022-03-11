@@ -2772,7 +2772,6 @@ adserver
 adserv
 traffic.
 movie/ads
-redirect.
 /ads_batch^
 /adServe/banners?tid=*$all,important
 /redirect
