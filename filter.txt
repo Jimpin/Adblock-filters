@@ -2419,7 +2419,6 @@ goal.com##.widget-semantic-player--displayed.widget-semantic-player
 *##[href*="//zenhppyad.com/"]
 *##[href*="//mgid.com/"]
 *##[href*="//000webhost.com/"]
-*##[href*="/wp-admin/admin-ajax.php"]
 *##[href*="/ads."]
 *##[href*="/adv/"]
 *##[href*="/advert"]
@@ -3112,15 +3111,12 @@ advert.js^
 advertisement.js^
 adservice.js^
 prerolls.js^
-videojs.v2^
 adsense.js^
 DialogTag3.js^
 toolbarx.js^
 toolbar.js^
 06a510.js^
-tag.js^
 smart.js^
-loader.js?
 ot.js?
 polls-js.js?
 as.js^
@@ -3152,7 +3148,6 @@ transcript.js^
 fs.js^
 form.js?
 awp.min.js^
-page.js?
 awp.min.js^
 autotrack.js^
 wpredirect-defuser.js^
@@ -3181,10 +3176,7 @@ Pop-under.js^
 popuper.js^
 
 #Allowed
-@@||*.wp.com/*/wp-content/uploads/*$image
-@@||images-na.ssl-images-amazon.com/images/*$script
 @@||stream.nbcsports.com^
-@@||statics-neu.onestore.ms^
 @@||amazonaws.com/pollsystem*$script,3p
 @@||media-amazon.com^$css
 @@||ajax.googleapis.com/ajax/libs/jquery/
@@ -3195,7 +3187,7 @@ popuper.js^
 @@||steamstatic.com^$image
 @@||youtube.com/embed/*$subdocument
 @@||redirector.googlevideo.com/videoplayback$media
-@@||tvply.me^$subdocument
+@@||ply.me^$subdocument
 @@||tracking*.se
 @@||maxcdn.bootstrapcdn.com^
 @@||amazonaws.com^$image
@@ -3215,7 +3207,6 @@ popuper.js^
 @@||googlevideo.com/videoplayback?^$xhr
 @@||cdn.fbsbx.com^$image
 @@||pinterest.com^$image
-@@||redirect*^$xhr,media
 @@||vidsrc.*^$subdocument,3p
 @@||youbora.com/*/js/adapters/jwplayer$script
 @@||chrome-extension://*?magnet$popup
@@ -3229,7 +3220,7 @@ popuper.js^
 @@/js/cookielawinfo.js$script
 @@/cdn-cgi/apps/head/*.js
 @@/js/page-landing-page.js?*$script
-@@/live/*/index.m3u8
+@@/live/*.m3u8
 @@/live/*.ts
 @@?utm_medium=iframe_widget$popup
 @@/videos/$image
@@ -3261,6 +3252,7 @@ se,nu,org,net,tv,to,io,co,cc,com##[href*="/adult"]
 se,nu,org,net,tv,to,io,co,cc,com##[href*="/advertising"]
 
 ads,bid,biz,click,country,cricket,date,diet,download,faith,fun,info,link,ltd,loan,me,men,mom,online,om,party,pink,pro,pw,review,racing,site,science,sexy,space,stream,study,style,systems,trade,top,work,website,webcam,win,world,wz,xin,xyz##[href*="javascript:"]
+ads,bid,biz,click,country,cricket,date,diet,download,faith,fun,info,link,ltd,loan,me,men,mom,online,om,party,pink,pro,pw,review,racing,site,science,sexy,space,stream,study,style,systems,trade,top,work,website,webcam,win,world,wz,xin,xyz##+js(ra, onclick, [onclick^="window.open"])
 ads,bid,biz,click,country,cricket,date,diet,download,faith,fun,info,link,ltd,loan,me,men,mom,online,om,party,pink,pro,pw,review,racing,site,science,sexy,space,stream,study,style,systems,trade,top,work,website,webcam,win,world,wz,xin,xyz##[rel="nofollow"][href*="//"]
 ads,bid,biz,click,country,cricket,date,diet,download,faith,fun,info,link,ltd,loan,me,men,mom,online,om,party,pink,pro,pw,review,racing,site,science,sexy,space,stream,study,style,systems,trade,top,work,website,webcam,win,world,wz,xin,xyz##+js(nostif, _0x)
 ads,bid,biz,click,country,cricket,date,diet,download,faith,fun,info,link,ltd,loan,me,men,mom,online,om,party,pink,pro,pw,review,racing,site,science,sexy,space,stream,study,style,systems,trade,top,work,website,webcam,win,world,wz,xin,xyz##+js(aopw, _pop)
@@ -3350,22 +3342,16 @@ ads,bid,biz,click,country,cricket,date,diet,download,faith,fun,info,link,ltd,loa
 *##+js(aopr, cursorAd)
 *##+js(acis, preLoadAds, loadAd)
 *##+js(acis, preLoadAds, setup)
-*##+js(acis, Exp, bamData)
 *##+js(acis, losAd)
-*##+js(acis, phpads_deliver)
-*##+js(aopw, banner_video)
+*##+js(acis, Exp, bamData)
 *##+js(acis, document.createElement, jsc.mgid.com)
-*##+js(set, ClickUnder, noopFunc)
 *##+js(aeld, DOMContentLoaded, adlinkfly)
 *##+js(ra, href, #clickfakeplayer)
 *##+js(aopr, jwplayer.utils.Timer)
 *##+js(aopr, jwplayer.vast)
-*##+js(aopr, VAST)
 *##+js(aopr, AdDelivery.prototype.requestTrafficJunkyAds)
-*##+js(aopr, _goat)
 *##+js(aopr, ExoLoader.serve)
 *##div[id*="sidebar"][data-before-content="advertisement"]:upward(3)
-*##iframe[src*="/ads-iframe"]
 *##[src*="/apu.php"]
 *##[src*="/fac.php"]
 *##[src*="/adu.php"]
@@ -3546,9 +3532,6 @@ ads,bid,biz,click,country,cricket,date,diet,download,faith,fun,info,link,ltd,loa
 *##[style*="z-index: 21474836"]
 *##+js(nosiif, checkInterval)
 *##^script:has-text(/^[\w\W]{1700,3000}$/):has-text(/(\\x\d\w){250}/)
-*##+js(nostif, eval)
-*##+js(nostif, blocked)
-*##+js(nostif, blur)
 *##+js(set, blurred, false)
 *##[src*="/pfe/current/"]
 *##iframe[src="javascript:false"]
@@ -3556,19 +3539,14 @@ ads,bid,biz,click,country,cricket,date,diet,download,faith,fun,info,link,ltd,loa
 *##[id*="__clb"]
 *##[class*=xyz_]
 *##script:contains(async)
-*##script:contains(window.adsbyjuicy)
+*##script:contains(adsbyjuicy)
 *##script:contains(adzone)
 *##script:contains("adId")
 *##+js(aopr, AaDetector)
 *##+js(aopr, LieDetector)
-*##+js(nosiif, _0x)
 *##+js(aopw, Fingerprint2)
 *##+js(aopr, disableButtonTimer)
-*##+js(aopw, ai_front)
 *##+js(acis, document.createElement, __htas)
-*##+js(acis, spr)
-*##+js(set, POPUNDER_ENABLED, false)
-*##+js(set, plugins.preroll, noopFunc)
 *##[onclick="closeBanner()"]
 *##.bxslider-shoutout
 *##.block-company-ranking.block
@@ -3580,20 +3558,16 @@ ads,bid,biz,click,country,cricket,date,diet,download,faith,fun,info,link,ltd,loa
 *##^script:has-text(__perfMark('app_html_start');)
 *##^script:has-text(ads_dot)
 *##^script:has-text(FingerprintJS)
-*##+js(aopw, pURL)
-*##+js(abort-on-stack-trace, Math.random, /\st\.[a-mA-M]*\s/)
 *##+js(aopw, adcashMacros)
 *##+js(nowoif, stream-4k)
 *##a[href^="/stream-4k/"]
 *##a[href^="/download-4k/"]
 *##.pframe:has([href^="javascript: void(0);"])
-*##+js(ra, onclick, [onclick^="window.open"])
 *##+js(aopr, __Y)
 *##+js(set, $.magnificPopup.open, noopFunc)
 *##+js(set, clientSide.adbDetect, noopFunc)
 *##+js(popads-dummy)
 *##+js(acis, document.querySelectorAll, popMagic)
-*##+js(acis, googlefc)
 
 *##+js(aopr, _0xbeb9)
 *##+js(aopr, _0xe317)
