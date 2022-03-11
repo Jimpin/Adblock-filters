@@ -761,29 +761,22 @@ vipleague.*##[action*="tvply.me/sdembed?"]
 /yandex-metrica-watch/tag.js
 
 #Fmovies
-fmovies.*,fmovies2.*,ffmovies.*##body.modal-open:style(overflow: auto!important)
+fmovies.*,fmovies2.*,ffmovies.*##body.modal-open:style(overflow: auto !important;)
 fmovies.*,fmovies2.*,ffmovies.*##+js(acis, Promise, break;case $.)
 fmovies.*,fmovies2.*,ffmovies.*##^script:has-text(break;case $.)
 fmovies.*,fmovies2.*,ffmovies.*##+js(set, console.clear, undefined)
 fmovies.*,fmovies2.*,ffmovies.*###modalshare
 fmovies.*,fmovies2.*,ffmovies.*##.modal-backdrop
-fmovies.*,fmovies2.*,ffmovies.*###footer
-fmovies.*,fmovies2.*,ffmovies.*###comment
-fmovies.*,fmovies2.*,ffmovies.*###copyright
 fmovies.*,fmovies2.*,ffmovies.*##.footerdesc
-fmovies.*,fmovies2.*,ffmovies.*##a[href="https://bmovies.to/most-watched"]
-fmovies.*,fmovies2.*,ffmovies.*##a[href="https://twitter.com/bmoviesto"] > b
-fmovies.*,fmovies2.*,ffmovies.*##.col-lg-12:nth-of-type(1) > .desc
-fmovies.*,fmovies2.*,ffmovies.*##.col-lg-12:nth-of-type(1) > .small
-fmovies.*,fmovies2.*,ffmovies.*##.col-lg-12:nth-of-type(1) > .hidden-xs
+fmovies.*,fmovies2.*,ffmovies.*##.desc
+fmovies.*,fmovies2.*,ffmovies.*##.small
+fmovies.*,fmovies2.*,ffmovies.*##.hidden-xs
 fmovies.*,fmovies2.*,ffmovies.*##.col-xs-6:nth-of-type(2)
 fmovies.*,fmovies2.*,ffmovies.*##.edit-watchlist.mbtn.item
-fmovies.*,fmovies2.*,ffmovies.*##li:nth-of-type(9) > a[href="#pop-request"]
-fmovies.*,fmovies2.*,ffmovies.*###movie > .widget:nth-of-type(3)
-fmovies.*,fmovies2.*,ffmovies.*###body-wrapper > div.container > p:nth-child(4)
-fmovies.*,fmovies2.*,ffmovies.*##.old
-fmovies.*,fmovies2.*,ffmovies.*##.has-children:nth-of-type(3) > a
-fmovies.*,fmovies2.*,ffmovies.*##.has-children:nth-of-type(7) > a
+fmovies.*,fmovies2.*,ffmovies.*##footer
+fmovies.*,fmovies2.*,ffmovies.*##.bg-home > p
+fmovies.*,fmovies2.*,ffmovies.*##.notify
+fmovies.*,fmovies2.*,ffmovies.*##.cat-more
 fmovies.*,fmovies2.*,ffmovies.*##[style*="display:block;z-index:9999;position;"]
 fmovies.*,fmovies2.*,ffmovies.*##.widget:nth-of-type(2) > .hd-buttons.row
 fmovies.*,fmovies2.*,ffmovies.*##.notice.alert-default.alert
@@ -799,8 +792,6 @@ fmovies.*,fmovies2.*,ffmovies.*##li:nth-of-type(3) > [href="#"]
 fmovies.*,fmovies2.*,ffmovies.*##[href="/list/featured-movies.html"]
 fmovies.*,fmovies2.*,ffmovies.*##.top-content
 fmovies.*,fmovies2.*,ffmovies.*##center
-fmovies.*,fmovies2.*,ffmovies.*##[href="javascript:void(0)"]
-##p:nth-child(15) > span > a
 @@/assets/js/video-js/
 *fmovies*/clear.gif$image
 *fmovies*/ajax/film/update-views$xhr
