@@ -532,7 +532,6 @@ gomovies.*##+js(acis, String.fromCharCode, /btoa|break/)
 gomovies.*##+js(acis, document.createElement, 'script')
 gomovies.*##[target="_blank"]
 gomovies.*##+js(set-constant, check_adblock, true)
-gomovies.*##+js(window.open-defuser)
 gomovies.*##.home-main > div:contains(?)
 gomovies.*##.hm-button
 gomovies.*##.alert-bottom
@@ -555,7 +554,6 @@ gomovies.*##.twitter-follow-button
 gomoviefree*$1p
 *gomovie*/wp-content/themes/assets/css/jquery.cluetip.css$css
 *gomovie*/wp-content/themes/assets/css/jquery.qtip.min.css$css
-streamlare.*##+js(window.open-defuser)
 streamlare.*##+js(aopr, StreamlarePop)
 streamlare.*##body > div[style^="position: fixed; display: block"][style*="inset: 0px;"]
 @@||cdn.streamlare.com/*.vtt$xhr,1p
@@ -754,7 +752,6 @@ vipleague.*##.text-white.bg-dark.text-justify.p-3.m-3.d-md-block.d-none.col-12
 vipleague.*##[class*="text-success position-relative"]
 vipleague.*##[class*=" d-block"]
 vipleague.*##[action*="tvply.me/sdembed?"]
-tvply.*##+js(window.open-defuser)
 @@*$generichide,domain=tvply.*
 @@||cdn.okamata.site^$image
 ||vipleague*/loadchat/*$xhr
@@ -853,7 +850,6 @@ rapidvideo.com##+js(set-constant.js, onload, noopFunc)
 ||streamango.com/assets/img/logo.png$image
 ||celeritascdn.com/script/compatibility.js$script
 streamtape.*##+js(aopw, _pop)
-streamtape.*##+js(window.open-defuser)
 streamtape.*##+js(abort-current-inline-script, Math, /emZnbG9hZGVk|break;case \$\./)
 streamtape.*##+js(aeld, contextmenu)
 streamtape.*##+js(set-constant, googleAd, true)
@@ -1262,7 +1258,6 @@ fotbolltransfers.com##[class='hstpnetworkads']
 fotbolltransfers.com##[onload='lwhb.load(this)']
 fotbolltransfers.com##[style='display: none; width: 300px; height: 600px']
 fotbolltransfers.com##[id="clevernt"]
-fotbolltransfers.com##[onclick="window.open(this.href,'_blank');return false;"]
 fotbolltransfers.com##[src*="adtech.de"]
 fotbolltransfers.com##div[class^="ad"]
 fotbolltransfers.com##[id="6545344"]
@@ -3152,7 +3147,6 @@ awp.min.js^
 autotrack.js^
 wpredirect-defuser.js^
 forbes-defuser.js^
-window.open-defuser.js^
 abort-on-property-read.js^
 injectuabinject-defuser.js^
 smartadserver.com.js^
@@ -3252,7 +3246,6 @@ se,nu,org,net,tv,to,io,co,cc,com##[href*="/adult"]
 se,nu,org,net,tv,to,io,co,cc,com##[href*="/advertising"]
 
 ads,bid,biz,click,country,cricket,date,diet,download,faith,fun,info,link,ltd,loan,me,men,mom,online,om,party,pink,pro,pw,review,racing,site,science,sexy,space,stream,study,style,systems,trade,top,work,website,webcam,win,world,wz,xin,xyz##[href*="javascript:"]
-ads,bid,biz,click,country,cricket,date,diet,download,faith,fun,info,link,ltd,loan,me,men,mom,online,om,party,pink,pro,pw,review,racing,site,science,sexy,space,stream,study,style,systems,trade,top,work,website,webcam,win,world,wz,xin,xyz##+js(ra, onclick, [onclick^="window.open"])
 ads,bid,biz,click,country,cricket,date,diet,download,faith,fun,info,link,ltd,loan,me,men,mom,online,om,party,pink,pro,pw,review,racing,site,science,sexy,space,stream,study,style,systems,trade,top,work,website,webcam,win,world,wz,xin,xyz##[rel="nofollow"][href*="//"]
 ads,bid,biz,click,country,cricket,date,diet,download,faith,fun,info,link,ltd,loan,me,men,mom,online,om,party,pink,pro,pw,review,racing,site,science,sexy,space,stream,study,style,systems,trade,top,work,website,webcam,win,world,wz,xin,xyz##+js(nostif, _0x)
 ads,bid,biz,click,country,cricket,date,diet,download,faith,fun,info,link,ltd,loan,me,men,mom,online,om,party,pink,pro,pw,review,racing,site,science,sexy,space,stream,study,style,systems,trade,top,work,website,webcam,win,world,wz,xin,xyz##+js(aopw, _pop)
