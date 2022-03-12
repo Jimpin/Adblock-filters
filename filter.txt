@@ -1316,8 +1316,6 @@ mixdrop.*##+js(acis, $, String.fromCharCode)
 mixdrop.*##.s-wrapper
 ||mixdrop.co/xads.js$script
 *##div[onclick*="$(this).remove"]
-co,cc,io,li,me,to,tv,xyz##+js(nowoif)
-co,cc,io,li,me,to,tv,xyz##+js(aopr, open)
 
 #Putlocker
 putlocker.*,putlockerc.*,putlockers.*,put-locker.*##+js(acis, JSON.parse, break;case $.)
