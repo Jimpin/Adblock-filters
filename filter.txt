@@ -108,6 +108,8 @@ expressen.se##+js(set, detect, noopFunc)
 expressen.se##+js(json-prune, autoplay)
 expressen.se##+js(acis, adblock)
 expressen.se##+js(acis, ExpressenAnalytics, push)
+expressen.se###didomi-host:style(display: none !important;)
+expressen.se##[class*="didomi"]:style(overflow-y: auto !important;)
 expressen.se##aside.article-list > .ad-label--overlay
 expressen.se##aside.article-list > .ad-label--overlay + ul
 expressen.se##.outsider-ads__sticky-context
