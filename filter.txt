@@ -6,8 +6,8 @@
 #Aftonbladet.se
 aftonbladet.se##html,body:style(overflow-y: auto !important;)
 aftonbladet.se##html,body:style(overflow-x: hidden !important;)
-aftonbladet.se##body:style(overflow: unset!important)
-aftonbladet.se##+js(no-setTimeout-if, TAKEOVER)
+aftonbladet.se##body:style(overflow:unset!important)
+aftonbladet.se#+js(nostif, TAKEOVER)
 aftonbladet.se##strong:has-text(/ANNONS/i):upward(p)
 aftonbladet.se##.event-subheader-widget
 aftonbladet.se##a:has-text(annonslänkar)
@@ -17,12 +17,12 @@ aftonbladet.se##a[href*="/a/"]:contains(ANNONS)
 aftonbladet.se##a[href*="brandstudio."]
 aftonbladet.se##a[href*="aftonbladet.se/a/"]
 aftonbladet.se##[class*="css"][href*="/kampanj/"]
+aftonbladet.se##a:has-text(Kommersiell text, innehåller annonslänkar)
+aftonbladet.se##main > section > div[class^="css-"]:first-child:has(img[src*="closeButton"])
 aftonbladet.se##[data-test-tag="internal-link:single-page-link"]:contains(annonslänkar)
 aftonbladet.se##a[href*="/tv/"]:has(span:has-text(/studio oddset/i)):upward(1)
-aftonbladet.se##[class*="css"]:matches-css(z-index: 10001):style(display: none !important;)
-aftonbladet.se##[class*="css"]:matches-css(z-index: 110):style(display: none !important;)
-aftonbladet.se###megaAd-placeholder, #superright-side, a[href^="/brandstudio"], a[href*="/rabattkod"], a[href*="/casinoguide"], [id^="adPlacement"]
-aftonbladet.se##[data-ad-subtype]:upward(1):style(min-height:unset!important)
+aftonbladet.se###megaAd-placeholder, #superright-side, a[href^="/brandstudio"], a[href*="/rabattkod"], a[href*="/casinoguide"], [id^="adPlacement"], a[href^="https://kampanj.aftonbladet"]
+aftonbladet.se##[data-ad-subtype]:upward(1):matches-css(min-height: /[0-9]+/)
 aftonbladet.se##.sch-datacontroller--subheader.sch-datacontroller--cobranded.sch-datacontroller
 aftonbladet.se##.sch-datacontroller--permanent.sch-datacontroller--cobranded.sch-datacontroller
 aftonbladet.se##^script:has-text(preLoadAds)
@@ -48,7 +48,6 @@ acast.com##[alt="Advertisement"]
 acast.com##[data-test-id="AirTimeAdControls__CountDown"]
 acast.com##[data-test-id="Link"]
 acast.com##[data-test-id="ImageLink"]
-acast.com##.kaNSQD.Container-sc-195bujq-1
 acast.com#@#[style="width: 100%; height: 100%; overflow: hidden;"]
 @@||acast.com^$css
 live.aftonbladet.se##.wallpaper-background-container
