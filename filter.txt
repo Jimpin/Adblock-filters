@@ -19,8 +19,8 @@ aftonbladet.se##a[href*="aftonbladet.se/a/"]
 aftonbladet.se##[class*="css"][href*="/kampanj/"]
 aftonbladet.se##[data-test-tag="internal-link:single-page-link"]:contains(annonslänkar)
 aftonbladet.se##a[href*="/tv/"]:has(span:has-text(/studio oddset/i)):upward(1)
-aftonbladet.se##[class*="css"]:matches-css(z-index: 10001)
-aftonbladet.se##[class*="css"]:matches-css(z-index: 110)
+aftonbladet.se##[class*="css"]:matches-css(z-index: 10001):style(display: none !important;)
+aftonbladet.se##[class*="css"]:matches-css(z-index: 110):style(display: none !important;)
 aftonbladet.se###megaAd-placeholder, #superright-side, a[href^="/brandstudio"], a[href*="/rabattkod"], a[href*="/casinoguide"], [id^="adPlacement"]
 aftonbladet.se##[data-ad-subtype]:upward(1):style(min-height:unset!important)
 aftonbladet.se##.sch-datacontroller--subheader.sch-datacontroller--cobranded.sch-datacontroller
