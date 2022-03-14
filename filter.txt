@@ -3492,7 +3492,6 @@ ads,bid,biz,click,country,cricket,date,diet,download,faith,fun,info,link,ltd,loa
 *##.no-scroll:style(overflow-x: hidden !important;)
 *##[class="ovl"]:style(display: none !important;)
 *##+js(nostif, showOverlay)
-*###overlay:not(.overlay)
 *##html.open-modal .overlay:style(display: none !important)
 *##.isOpenMTubes:style(overflow-y: auto !important;)
 *##[class*="ReactModal__Body"]:style(overflow-y: auto !important;)
