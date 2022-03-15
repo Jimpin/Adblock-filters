@@ -723,7 +723,6 @@ vipleague.*##.position-absolute:style(opacity: 0 !important;)
 vipleague.*##+js(nano-sib)
 vipleague.*##.col-lg-3
 vipleague.*##.w-100.position-absolute.h-100
-vipleague.*##script:contains(addEventListener)
 vipleague.*##.btn-lg
 vipleague.*##.font-weight-bold
 vipleague.*##^script + [id][style]
@@ -750,12 +749,10 @@ vipleague.*##.text-center.col-md-4.d-md-block.d-none
 vipleague.*##.text-white.bg-dark.text-justify.p-3.m-3.d-md-block.d-none.col-12
 vipleague.*##[class*="text-success position-relative"]
 vipleague.*##[class*=" d-block"]
-vipleague.*##[action*="tvply.me/sdembed?"]
-@@*$generichide,domain=tvply.*
+@@*$generichide,domain=plylive.*
 @@||cdn.okamata.site^$image
 ||vipleague*/loadchat/*$xhr
 ||commercialvalue.org^$important
-/*^$xhr,frame,css,3p,domain=vipleague.*
 /fav/*$image
 /yandex-metrica-watch/tag.js
 
