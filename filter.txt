@@ -6,7 +6,7 @@
 #Aftonbladet.se
 aftonbladet.se##html,body:style(overflow-y: auto !important;)
 aftonbladet.se##html,body:style(overflow-x: hidden !important;)
-aftonbladet.se##body:style(overflow:unset!important)
+aftonbladet.se##body:style(overflow: unset !important;)
 aftonbladet.se#+js(nostif, TAKEOVER)
 aftonbladet.se##strong:has-text(/ANNONS/i):upward(p)
 aftonbladet.se##.event-subheader-widget
@@ -89,7 +89,8 @@ klart.se##+js(remove-class, mega-loading)
 ##[id*="banner-space"]
 utm_$document,removeparam=/^utm_/
 @@/cnp-assets/*.js.abab*.js$script
-/www.*\/cnp-assets\/[1-9][0-8]\./$script
+/www.*\/cnp-assets\/[1-9][0-9]{0,2}\./$script
+/messagingnotcfapi.js^
 /deprecated-linkpulse-tracking.js
 /player-plugin-ad$3p
 /player-plugin-sponsor$3p
