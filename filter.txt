@@ -62,8 +62,6 @@ bloggar.aftonbladet.se##.ab-responsive-adverts-widget-5a208a052f344-appnexus.se-
 bloggar.aftonbladet.se##.collapse.row:nth-of-type(2)
 bloggar.aftonbladet.se###sidebar-panorama-1 > .columns.widget-area
 bloggar.aftonbladet.se##li.abSocialItem
-bloggar.aftonbladet.se##.abInbetweenerHelsida:nth-of-type(1)
-bloggar.aftonbladet.se##.abInbetweenerHelsida:nth-of-type(2)
 klart.se##+js(remove-class, mega-loading)
 ||aftonbladet.se/cnp-assets/glimr-sdk.js
 ||aftonbladet.se.senaste.$document
@@ -88,8 +86,7 @@ klart.se##+js(remove-class, mega-loading)
 ##[data-test="cookie-consent"]
 ##[id*="banner-space"]
 utm_$document,removeparam=/^utm_/
-@@/cnp-assets/*.js.abab*.js$script
-/www.*\/cnp-assets\/[1-9][0-9]{0,2}\./$script
+/www.*\.se\/cnp-assets\/[1-9][0-9]{0,2}\./$script
 /messagingnotcfapi.js^
 /deprecated-linkpulse-tracking.js
 /player-plugin-ad$3p
