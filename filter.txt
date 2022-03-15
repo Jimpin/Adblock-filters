@@ -2025,6 +2025,8 @@ goal.com##.widget-semantic-player--displayed.widget-semantic-player
 ##[class="footer wrapper clearfix"]
 ##[class="content-right"]
 ##.pull-right.slider_small
+##[class*="smsbump"]
+##.show.cw-fade.cw-modal
 ##.hidden-print.css-za945f-alertInfo
 ###social-foot
 ##.tab-content > .main-content > .tab-content > .main-content > .tab-content > .main-content > .tab-content > .content-kus
@@ -3490,6 +3492,7 @@ ads,bid,biz,click,country,cricket,date,diet,download,faith,fun,info,link,ltd,loa
 *##.no-scroll:style(overflow-x: hidden !important;)
 *##[class="ovl"]:style(display: none !important;)
 *##+js(nostif, showOverlay)
+*##.overlay[opacity]:style(display: none !important;)
 *##html.open-modal .overlay:style(display: none !important)
 *##.isOpenMTubes:style(overflow-y: auto !important;)
 *##[class*="ReactModal__Body"]:style(overflow-y: auto !important;)
