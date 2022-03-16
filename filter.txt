@@ -3488,6 +3488,7 @@ ads,bid,biz,click,country,cricket,date,diet,download,faith,fun,link,ltd,loan,men
 *##[id*="netboard_"]
 *##+js(nostif, n.modal)
 *##.no-scroll:style(overflow-x: hidden !important;)
+*##html,body:style(overflow-x: hidden !important;)
 *##[class="ovl"]:style(display: none !important;)
 *##+js(nostif, showOverlay)
 *##.overlay[opacity]:style(display: none !important;)
