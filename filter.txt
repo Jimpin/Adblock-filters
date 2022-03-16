@@ -7,7 +7,7 @@
 aftonbladet.se##html,body:style(overflow-y: auto !important;)
 aftonbladet.se##html,body:style(overflow-x: hidden !important;)
 aftonbladet.se##body:style(overflow: unset !important;)
-aftonbladet.se#+js(nostif, TAKEOVER)
+aftonbladet.se##+js(nostif, TAKEOVER)
 aftonbladet.se##strong:has-text(/ANNONS/i):upward(p)
 aftonbladet.se##.event-subheader-widget
 aftonbladet.se##a:has-text(annonslänkar)
