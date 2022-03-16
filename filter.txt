@@ -3238,6 +3238,7 @@ ads,bid,biz,click,country,cricket,date,diet,download,faith,fun,link,ltd,loan,men
 ads,bid,biz,click,country,cricket,date,diet,download,faith,fun,link,ltd,loan,men,mom,online,party,pink,pro,pw,review,racing,site,science,sexy,space,stream,study,style,systems,trade,top,work,website,webcam,win,world,wz,xin,xyz##+js(aopw, _pop)
 ads,bid,biz,click,country,cricket,date,diet,download,faith,fun,link,ltd,loan,men,mom,online,party,pink,pro,pw,review,racing,site,science,sexy,space,stream,study,style,systems,trade,top,work,website,webcam,win,world,wz,xin,xyz##+js(aopw, clickIE4)
 ads,bid,biz,click,country,cricket,date,diet,download,faith,fun,link,ltd,loan,men,mom,online,party,pink,pro,pw,review,racing,site,science,sexy,space,stream,study,style,systems,trade,top,work,website,webcam,win,world,wz,xin##+js(aopr, decodeURI)
+ads,bid,biz,click,country,cricket,date,diet,download,faith,fun,link,ltd,loan,men,mom,online,party,pink,pro,pw,review,racing,site,science,sexy,space,stream,study,style,systems,trade,top,work,website,webcam,win,world,wz,xin##+js(aopw, onpopstate)
 *$script,frame,xhr,popup,3p,domain=ads|bid|biz|click|country|cricket|date|diet|download|faith|fun|link|ltd|loan|men|mom|online|party|pink|pro|pw|review|racing|site|science|sexy|space|stream|study|style|systems|trade|top|work|website|webcam|win|world|wz|xin
 
 ##[href*="https://axofinans.se"]
@@ -3502,14 +3503,14 @@ ads,bid,biz,click,country,cricket,date,diet,download,faith,fun,link,ltd,loan,men
 ##.jconfirm-cell
 ##.jconfirm-open
 ##.jconfirm-scrollpane
-*##[style*="z-index: -999"]
-*##[style*="z-index: 999"]
-*##[style*="z-index: -1000"]
-*##[style*="z-index: 1000"]
-*##[style*="z-index: -30000"]
-*##[style*="z-index: 30000"]
-*##[style*="z-index: -21474836"]
-*##[style*="z-index: 21474836"]
+*##body:style(z-index: -999)
+*##body:style(z-index: 999)
+*##body:style(z-index: -1000)
+*##body:style(z-index: 1000)
+*##body:style(z-index: -30000)
+*##body:style(z-index: 30000)
+*##body:style(z-index: -21474836)
+*##body:style(z-index: 21474836)
 *##+js(nosiif, checkInterval)
 *##^script:has-text(/^[\w\W]{1700,3000}$/):has-text(/(\\x\d\w){250}/)
 *##+js(set, blurred, false)
