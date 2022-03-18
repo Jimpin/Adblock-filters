@@ -4,9 +4,8 @@
 ! License: GPL-3.0 License | https://github.com/Jimpin/Adblock-filters/blob/master/LICENSE
 
 #Aftonbladet.se
-aftonbladet.se##html,body:style(overflow-y: auto !important;)
-aftonbladet.se##html,body:style(overflow-x: hidden !important;)
-aftonbladet.se##body:style(overflow: unset !important;)
+aftonbladet.se##html,body:style(overflow-y: auto !important; overflow-x: hidden !important;)
+aftonbladet.se##body:style(z-index: unset !important; overflow: unset !important;)
 aftonbladet.se##+js(nostif, TAKEOVER)
 aftonbladet.se##strong:has-text(/ANNONS/i):upward(p)
 aftonbladet.se##.event-subheader-widget
