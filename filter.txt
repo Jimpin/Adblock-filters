@@ -716,39 +716,44 @@ onlinevideoconverter.*##div.home-section-5:nth-of-type(5)
 /1clkn/*$xhr
 
 #Vipleague
-vipleague.*,tvply.*##+js(acis, Math, break;case $.)
-vipleague.*,tvply.*##+js(acis, JSON.parse, break;case $.)
-vipleague.*,tvply.*##+js(aopw, _pop)
-vipleague.*##.position-absolute:style(opacity: 0 !important;)
-vipleague.*##+js(nano-sib)
-vipleague.*##.col-lg-3
-vipleague.*##.w-100.position-absolute.h-100
-vipleague.*##.btn-lg
-vipleague.*##.font-weight-bold
-vipleague.*##^script + [id][style]
-vipleague.*##ol
-vipleague.*##div.pt-1:nth-of-type(9)
-vipleague.*##b
-vipleague.*##p
-vipleague.*##.mt-1
-vipleague.*##h1
-vipleague.*##h2
-vipleague.*##.text-warning
-vipleague.*##[class*="mx-"]
-vipleague.*##.text-center > p
-vipleague.*##[style="display: none;"]
-vipleague.*##.h-100.w-100.position-relative
-vipleague.*##.green.button.big
-vipleague.*##.text-center.alert-secondary.alert.col-12
-vipleague.*##div.row:nth-of-type(12) > .col-12
-vipleague.*##.cc-color-override--1762072787.cc-right.cc-bottom.cc-theme-classic.cc-type-info.cc-floating.cc-window
-vipleague.*##.hidden-sm.hidden-xs.pull-right.col-lg-4.col-md-4
-vipleague.*##.hidden-sm.hidden-xs.col-xs-12 > .well-sm.well
-vipleague.*##.position-relative.text-success
-vipleague.*##.text-center.col-md-4.d-md-block.d-none
-vipleague.*##.text-white.bg-dark.text-justify.p-3.m-3.d-md-block.d-none.col-12
-vipleague.*##[class*="text-success position-relative"]
-vipleague.*##[class*=" d-block"]
+vipleague.*,fbstream.*,tvply.*,plylive.*##+js(acis, Math, break;case $.)
+vipleague.*,fbstream.*,tvply.*,plylive.*##+js(acis, JSON.parse, break;case $.)
+vipleague.*,fbstream.*,tvply.*,plylive.*##+js(aopw, _pop)
+vipleague.*,fbstream.*##.position-absolute:style(opacity: 0 !important;)
+vipleague.*,fbstream.*##+js(nano-sib)
+vipleague.*,fbstream.*##.w-100.position-absolute.h-100
+vipleague.*,fbstream.*##.font-weight-bold
+vipleague.*,fbstream.*##^script + [id][style]
+vipleague.*,fbstream.*##ol
+vipleague.*,fbstream.*##b
+vipleague.*,fbstream.*##p
+vipleague.*,fbstream.*##.mt-1
+vipleague.*,fbstream.*##h1
+vipleague.*,fbstream.*##h2
+vipleague.*,fbstream.*##.text-warning
+vipleague.*,fbstream.*##ul
+vipleague.*,fbstream.*##.col-xl-4.col-12
+vipleague.*,fbstream.*##.col-lg-3:contains(Soon)
+vipleague.*,fbstream.*##.justify-content-evenly.row > .col-lg-4.col-12
+vipleague.*,fbstream.*##.text-center.col-12
+vipleague.*,fbstream.*##div.text-center.row:nth-of-type(4)
+vipleague.*,fbstream.*##.btn-danger.btn-lg.btn
+vipleague.*,fbstream.*##.m-1.btn-primary.btn-lg.btn
+vipleague.*,fbstream.*##[class*="mx-"]
+vipleague.*,fbstream.*##.text-center > p
+vipleague.*,fbstream.*##[style="display: none;"]
+vipleague.*,fbstream.*##.h-100.w-100.position-relative
+vipleague.*,fbstream.*##.green.button.big
+vipleague.*,fbstream.*##.text-center.alert-secondary.alert.col-12
+vipleague.*,fbstream.*##div.row:nth-of-type(12) > .col-12
+vipleague.*,fbstream.*##.cc-floating.cc-window
+vipleague.*,fbstream.*##.hidden-sm.hidden-xs.pull-right.col-lg-4.col-md-4
+vipleague.*,fbstream.*##.hidden-sm.hidden-xs.col-xs-12 > .well-sm.well
+vipleague.*,fbstream.*##.position-relative.text-success
+vipleague.*,fbstream.*##.text-center.col-md-4.d-md-block.d-none
+vipleague.*,fbstream.*##.text-white.bg-dark.text-justify.p-3.m-3.d-md-block.d-none.col-12
+vipleague.*,fbstream.*##[class*="text-success position-relative"]
+vipleague.*,fbstream.*##[class*=" d-block"]
 @@*$generichide,domain=plylive.*
 @@||cdn.okamata.site^$image
 ||vipleague*/loadchat/*$xhr
