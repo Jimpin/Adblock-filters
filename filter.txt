@@ -756,6 +756,8 @@ vipleague.*,fbstream.*##[class*="text-success position-relative"]
 vipleague.*,fbstream.*##[class*=" d-block"]
 @@*$generichide,domain=plylive.*
 @@||cdn.okamata.site^$image
+^$websocket,domain=plylive.*
+||key.seckeyserv.*/?stream$xhr
 ||vipleague*/loadchat/*$xhr
 ||commercialvalue.org^$important
 /fav/*$image
