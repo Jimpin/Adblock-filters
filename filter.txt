@@ -408,15 +408,7 @@ facebook.com##[style="-webkit-box-orient:vertical;-webkit-line-clamp:2;display:-
 facebook.com##.aodizinl:contains(Spons)
 facebook.com##span > div > .l9j0dhe7 > .sj5x9vvc
 facebook.com##[style="display: -webkit-box; -moz-box-orient: vertical; -webkit-line-clamp: 2;"]:has-text(Sponsrad)
-facebook.com##[data-pagelet*="FeedUnit"]:contains(Beställ här)
-facebook.com##[data-pagelet*="FeedUnit"]:contains(Bli medlem)
-facebook.com##[data-pagelet*="FeedUnit"]:contains(Köp nu)
-facebook.com##[data-pagelet*="FeedUnit"]:contains(Läs mer)
-facebook.com##[data-pagelet*="FeedUnit"]:contains(Premiär)
-facebook.com##[data-pagelet*="FeedUnit"]:contains(Prova)
-facebook.com##[data-pagelet*="FeedUnit"]:contains(REA)
-facebook.com##[data-pagelet*="FeedUnit"]:contains(Se mer)
-facebook.com##[data-pagelet*="FeedUnit"]:contains(Villkor)
+##div[data-pagelet^="FeedUnit"]:has(a:has-text(/^S[a-zA-Z0-9]*[a-zA-Z0-9]*[a-zA-Z0-9]*[a-zA-Z0-9]*[a-zA-Z0-9]*[a-zA-Z0-9]*[a-zA-Z0-9]*[a-zA-Z0-9]*/))
 facebook.com###pagelet_ego_pane
 facebook.com###rightCol .pagelet.egoOrganicColumn
 facebook.com###globalContainer .pagelet.egoOrganicColumn
