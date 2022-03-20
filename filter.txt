@@ -407,6 +407,7 @@ facebook.com##[aria-label="Annonsör"]
 facebook.com##.aodizinl:contains(Spons)
 facebook.com##span > div > .l9j0dhe7 > .sj5x9vvc
 facebook.com##[data-pagelet*="FeedUnit"]:has(a:has-text(///)):style(display: none !important;)
+facebook.com##[data-pagelet*="FeedUnit"]:has(a:has-text(/Spons*/)):style(display: none !important;)
 facebook.com###pagelet_ego_pane
 facebook.com###rightCol .pagelet.egoOrganicColumn
 facebook.com###globalContainer .pagelet.egoOrganicColumn
