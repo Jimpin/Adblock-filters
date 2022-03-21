@@ -1079,34 +1079,34 @@ rltracker.pro##.col-sm-12 > .row
 &targetwindow=_$frame
 
 #Lookmovie.io
-lookmovie.*##+js(aopr, adBlockDetected)
-lookmovie.*##+js(acis, Math, break;case $.)
-lookmovie.*##script:contains(toggleActive)
-lookmovie.*##script:contains(images)
-lookmovie.*##.view-top-ab
-lookmovie.*##.nord-vpn.home-banner
-lookmovie.*##.notifyjs-corner
-lookmovie.*##.plr-help-stripe
-lookmovie.*##body > div:nth-of-type(6)
-lookmovie.*##[class="show-recaptcha"]
-lookmovie.*##[class="wellcome-boy-message"]
-lookmovie.*##[id="overlay-article"]
-lookmovie.*##[class="issues-overlay"]
-lookmovie.*##.ht-footer
-lookmovie.*###user-limited-notify-button
-lookmovie.*##[class="overlay-wrapper"][style^="display: "]
-lookmovie.*##[class="adBanner ad banner"][style*="display: "]
-lookmovie.*##script:has-text(overlay)
-lookmovie.*###donate-section
-lookmovie.*##.wellcome-boy-message
-lookmovie.*##[href="/qa"]
-lookmovie.*##.telegram-button
-lookmovie.*##.plr-ad-stripe
-lookmovie.*##.bottom-message-container
-lookmovie.*###social-share
-@@||lookmovie.*^$ghide
-@@||lookmovie.*^$script,1p
-*$script,3p,denyallow=cloudcdn.monster|cloudflare.com|google.com|googleapis.com|gstatic.com|hcaptcha.com|lookmovie.io|nflxext.com,domain=lookmovie.*
+lookmovie.*,lookmovie2.*##+js(aopr, adBlockDetected)
+lookmovie.*,lookmovie2.*##+js(acis, Math, break;case $.)
+lookmovie.*,lookmovie2.*##script:contains(toggleActive)
+lookmovie.*,lookmovie2.*##script:contains(images)
+lookmovie.*,lookmovie2.*##.view-top-ab
+lookmovie.*,lookmovie2.*##.nord-vpn.home-banner
+lookmovie.*,lookmovie2.*##.notifyjs-corner
+lookmovie.*,lookmovie2.*##.plr-help-stripe
+lookmovie.*,lookmovie2.*##body > div:nth-of-type(6)
+lookmovie.*,lookmovie2.*##[class="show-recaptcha"]
+lookmovie.*,lookmovie2.*##[class="wellcome-boy-message"]
+lookmovie.*,lookmovie2.*##[id="overlay-article"]
+lookmovie.*,lookmovie2.*##[class="issues-overlay"]
+lookmovie.*,lookmovie2.*##.ht-footer
+lookmovie.*,lookmovie2.*###user-limited-notify-button
+lookmovie.*,lookmovie2.*##[class="overlay-wrapper"][style^="display: "]
+lookmovie.*,lookmovie2.*##[class="adBanner ad banner"][style*="display: "]
+lookmovie.*,lookmovie2.*##script:has-text(overlay)
+lookmovie.*,lookmovie2.*###donate-section
+lookmovie.*,lookmovie2.*##.wellcome-boy-message
+lookmovie.*,lookmovie2.*##[href="/qa"]
+lookmovie.*,lookmovie2.*##.telegram-button
+lookmovie.*,lookmovie2.*##.plr-ad-stripe
+lookmovie.*,lookmovie2.*##.bottom-message-container
+lookmovie.*,lookmovie2.*###social-share
+@@||lookmovie*^$ghide
+@@||lookmovie*^$script,1p
+*$script,3p,denyallow=cloudcdn.*|cloudflare.com|google.com|googleapis.com|gstatic.com|hcaptcha.*|lookmovie.*|nflxext.com,domain=lookmovie.*|lookmovie2.*
 ||lookmovie.*/favicon.ico$image,1p
 ||lookmovie.*^$popup,3p
 ||cntr.*^$all
