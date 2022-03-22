@@ -3224,8 +3224,6 @@ popuper.js^
 
 se,nu,org,net,tv,to,io,co,cc,com##[href*="javascript:void(0);"]
 se,nu,org,net,tv,to,io,co,cc,com##li:contains(vert)
-se,nu,org,net,tv,to,io,co,cc,com##[href*="hentai"]
-se,nu,org,net,tv,to,io,co,cc,com##[href*="cams"]
 se,nu,org,net,tv,to,io,co,cc,com##[href*="/adult"]
 se,nu,org,net,tv,to,io,co,cc,com##[href*="/advertising"]
 
@@ -3502,14 +3500,14 @@ ads,bid,biz,click,country,cricket,date,diet,download,faith,fun,link,ltd,loan,men
 ##.jconfirm-cell
 ##.jconfirm-open
 ##.jconfirm-scrollpane
-*##body:style(z-index: -999)
-*##body:style(z-index: 999)
-*##body:style(z-index: -1000)
-*##body:style(z-index: 1000)
-*##body:style(z-index: -30000)
-*##body:style(z-index: 30000)
-*##body:style(z-index: -21474836)
-*##body:style(z-index: 21474836)
+*##body,html:style(z-index: -999)
+*##body,html:style(z-index: 999)
+*##body,html:style(z-index: -1000)
+*##body,html:style(z-index: 1000)
+*##body,html:style(z-index: -30000)
+*##body,html:style(z-index: 30000)
+*##body,html:style(z-index: -21474836)
+*##body,html:style(z-index: 21474836)
 *##+js(nosiif, checkInterval)
 *##^script:has-text(/^[\w\W]{1700,3000}$/):has-text(/(\\x\d\w){250}/)
 *##+js(set, blurred, false)
