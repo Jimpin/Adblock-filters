@@ -3084,7 +3084,6 @@ _tracking.php?
 -adblocker-detection
 
 #Blocked Scripts
-analytics.js^
 pagead-id.js^
 adx.js^
 advert.js^
@@ -3100,7 +3099,6 @@ smart.js^
 ot.js?
 polls-js.js?
 as.js^
-tab.js^
 infinity.js^
 show_ads.js^
 conversion.js^
@@ -3128,14 +3126,7 @@ transcript.js^
 fs.js^
 form.js?
 awp.min.js^
-awp.min.js^
 autotrack.js^
-wpredirect-defuser.js^
-forbes-defuser.js^
-abort-on-property-read.js^
-injectuabinject-defuser.js^
-smartadserver.com.js^
-popads-dummy.js^
 site_ads.js^
 adframe.js^
 showads.js^
@@ -3521,6 +3512,12 @@ ads,bid,biz,click,country,cricket,date,diet,download,faith,fun,link,ltd,loan,men
 *##script:contains(adsbyjuicy)
 *##script:contains(adzone)
 *##script:contains("adId")
+*##+js(aopr, _0xbeb9)
+*##+js(aopr, _0xe317)
+*##+js(aopr, _0x1477)
+*##+js(aopr, _0x311a)
+*##+js(aopr, _0x32d5)
+*##+js(aopr, _0x4459)
 *##+js(aopr, AaDetector)
 *##+js(aopr, LieDetector)
 *##+js(aopw, Fingerprint2)
@@ -3547,13 +3544,6 @@ ads,bid,biz,click,country,cricket,date,diet,download,faith,fun,link,ltd,loan,men
 *##+js(set, clientSide.adbDetect, noopFunc)
 *##+js(popads-dummy)
 *##+js(acis, document.querySelectorAll, popMagic)
-
-*##+js(aopr, _0xbeb9)
-*##+js(aopr, _0xe317)
-*##+js(aopr, _0x1477)
-*##+js(aopr, _0x311a)
-*##+js(aopr, _0x32d5)
-*##+js(aopr, _0x4459)
 
 .biz^$frame,xhr,image,ping,popup,3p
 .fun^$frame,xhr,image,ping,popup,3p
