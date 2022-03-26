@@ -407,7 +407,6 @@ facebook.com##[aria-label="Annonsör"]
 facebook.com##.aodizinl:contains(Spons)
 facebook.com##span > div > .l9j0dhe7 > .sj5x9vvc
 facebook.com##div[data-pagelet^="FeedUnit"]:has(a:has-text(/.SE|.ORG|.NET|.COM|.LY|Läs mer|Prova|Testa|Köp nu|Sponsrad|REA|Villkor|Se mer|Premiär|Ring|Bli medlem|Tillverkad[a-zA-Z0-9]*/))
-facebook.com##div[data-pagelet^="FeedUnit"]:has(a:has-text(/#[a-c e-h å-ö]/))
 facebook.com###pagelet_ego_pane
 facebook.com###rightCol .pagelet.egoOrganicColumn
 facebook.com###globalContainer .pagelet.egoOrganicColumn
