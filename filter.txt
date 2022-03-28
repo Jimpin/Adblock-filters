@@ -406,9 +406,7 @@ facebook.com##+js(remove-class, _31e, body > ._li)
 facebook.com##[aria-label="Annonsör"]
 facebook.com##.aodizinl:contains(Spons)
 facebook.com##span > div > .l9j0dhe7 > .sj5x9vvc
-facebook.com##span[id] a[href="#"]:not(:has-text(/(\s|\$)/))
-facebook.com##span[id] a[href="#"] :matches-css(display: none):remove()
-facebook.com##span[id] a[href="#"] :matches-css(position: absolute):remove()
+facebook.com##span[id] a[href]:not(:has-text(/(\s|\d|\#|^$)/)):upward([role="feed"]>div)
 facebook.com###pagelet_ego_pane
 facebook.com###rightCol .pagelet.egoOrganicColumn
 facebook.com###globalContainer .pagelet.egoOrganicColumn
