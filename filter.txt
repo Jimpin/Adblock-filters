@@ -85,7 +85,7 @@ klart.se##+js(remove-class, mega-loading)
 ##[data-test="cookie-consent"]
 ##[id*="banner-space"]
 utm_$document,removeparam=/^utm_/
-/www.*\.se\/cnp-assets\/[1-8][0-8]{0,1}\./$script
+/www.*\.se\/cnp-assets\/[1-9][0-9]{0,1}\./$script
 /messagingnotcfapi.js^
 /deprecated-linkpulse-tracking.js
 /player-plugin-ad$3p
@@ -3470,7 +3470,7 @@ ads,bid,biz,click,country,cricket,date,diet,download,faith,fun,link,ltd,loan,men
 /proxy_*.php?p___=*&part_url=*.php?callback=
 
 *##li:has(.content-label:has-text(/annons/i)):remove()
-*##article.ads__unit:contains(Ukens)
+*##article:contains(Ukens bolig)
 *##[id*="netboard_"]
 *##+js(nostif, n.modal)
 *##.no-scroll:style(overflow-x: hidden !important;)
