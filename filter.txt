@@ -175,9 +175,6 @@ outlook.live.com##[data-icon-name="OutlookLogo"]
 outlook.live.com##[class*="_23"]:has-text(.)
 outlook.live.com##[class*="_2F"]:has-text(Premium)
 /analytics-ping.js$xhr
-||browser.events.data.microsoft.com/OneCollector/*$xhr,important
-||pipe.aria.microsoft.com/collector/
-||vortex.data.microsoft.com^
 
 #Twitch.tv
 twitch.tv##+js(nowoif, amazon-adsystem)
@@ -3470,7 +3467,7 @@ ads,bid,biz,click,country,cricket,date,diet,download,faith,fun,link,ltd,loan,men
 /proxy_*.php?p___=*&part_url=*.php?callback=
 
 *##li:has(.content-label:has-text(/annons/i)):remove()
-*##article:contains(Ukens bolig)
+*##article:contains(Ukens )
 *##[id*="netboard_"]
 *##+js(nostif, n.modal)
 *##.no-scroll:style(overflow-x: hidden !important;)
