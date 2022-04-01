@@ -323,6 +323,7 @@ youtube.com##.ytp-fullerscreen-edu-text
 youtube.com##.ytp-paid-content-overlay
 youtube.com##.ytp-cued-thumbnail-overlay
 youtube.com###clarify-box > .ytd-watch-flexy.style-scope
+youtube.com##.sparkles-light-cta
 youtube.com##[class="style-scope yt-live-chat-viewer-engagement-message-renderer"]
 youtube.com##.ytp-fullerscreen-edu-chevron
 youtube.com###promotion-shelf
