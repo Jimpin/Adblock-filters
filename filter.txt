@@ -728,15 +728,6 @@ vipleague.*,fbstream.*##.text-center.col-12
 vipleague.*,fbstream.*##div.text-center.row:nth-of-type(4)
 vipleague.*,fbstream.*##.btn-danger.btn-lg.btn
 vipleague.*,fbstream.*##.m-1.btn-primary.btn-lg.btn
-vipleague.*,fbstream.*##body:style(background: #0f2537 !important;)
-vipleague.*,fbstream.*##.card-body:style(background: #073f68 !important;)
-vipleague.*,fbstream.*##.col-lg-8:style(margin-right: 0px;)
-vipleague.*,fbstream.*##.btn:style(background: #073f68 !important; color: black !important;)
-vipleague.*,fbstream.*##.text-primary:style(color: black !important;)
-vipleague.*,fbstream.*##.text-info:style(color: black !important;)
-vipleague.*,fbstream.*##.card-header:style(background-color: #052842 !important;)
-vipleague.*,fbstream.*##.h3, h3:style(font-size: 1.25rem; text-align: -webkit-center;)
-vipleague.*,fbstream.*##.form-control:style(box-shadow: none !important; background: #052842 !important;)
 vipleague.*,fbstream.*##.text-secondary
 vipleague.*,fbstream.*##[class*="mx-"]
 vipleague.*,fbstream.*##.text-center > p
@@ -753,6 +744,15 @@ vipleague.*,fbstream.*##.text-center.col-md-4.d-md-block.d-none
 vipleague.*,fbstream.*##.text-white.bg-dark.text-justify.p-3.m-3.d-md-block.d-none.col-12
 vipleague.*,fbstream.*##[class*="text-success position-relative"]
 vipleague.*,fbstream.*##[class*=" d-block"]
+fbstream.*##body:style(background: #0f2537 !important;)
+fbstream.*##.card-body:style(background: #073f68 !important;)
+fbstream.*##.col-lg-8:style(margin-right: 0px;)
+fbstream.*##.btn:style(background: #073f68 !important; color: black !important;)
+fbstream.*##.text-primary:style(color: black !important;)
+fbstream.*##.text-info:style(color: black !important;)
+fbstream.*##.card-header:style(background-color: #052842 !important;)
+fbstream.*##.h3, h3:style(font-size: 1.25rem; text-align: -webkit-center;)
+fbstream.*##.form-control:style(box-shadow: none !important; background: #052842 !important;)
 @@*$generichide,domain=plylive.*
 @@||cdn.okamata.site^$image
 ^$websocket,domain=plylive.*
