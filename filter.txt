@@ -728,6 +728,7 @@ vipleague.*,fbstream.*##.text-center.col-12
 vipleague.*,fbstream.*##div.text-center.row:nth-of-type(4)
 vipleague.*,fbstream.*##.btn-danger.btn-lg.btn
 vipleague.*,fbstream.*##.m-1.btn-primary.btn-lg.btn
+vipleague.*,fbstream.*##body:style(background: #0f2537 !important;)
 vipleague.*,fbstream.*##.card-body:style(background: #073f68 !important;)
 vipleague.*,fbstream.*##.col-lg-8:style(margin-right: 0px;)
 vipleague.*,fbstream.*##.btn:style(background: #073f68 !important; color: black !important;)
