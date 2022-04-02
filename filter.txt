@@ -704,7 +704,7 @@ onlinevideoconverter.*##[href^="https://www.linkconnector.com/ta.php"]
 onlinevideoconverter.*##div.home-section-5:nth-of-type(5)
 /1clkn/*$xhr
 
-#Vipleague
+#Vipleague/fbstream
 vipleague.*,fbstream.*,tvply.*,plylive.*##+js(acis, Math, break;case $.)
 vipleague.*,fbstream.*,tvply.*,plylive.*##+js(acis, JSON.parse, break;case $.)
 vipleague.*,fbstream.*,tvply.*,plylive.*##+js(aopw, _pop)
@@ -728,6 +728,15 @@ vipleague.*,fbstream.*##.text-center.col-12
 vipleague.*,fbstream.*##div.text-center.row:nth-of-type(4)
 vipleague.*,fbstream.*##.btn-danger.btn-lg.btn
 vipleague.*,fbstream.*##.m-1.btn-primary.btn-lg.btn
+vipleague.*,fbstream.*##.card-body:style(background: #073f68 !important;)
+vipleague.*,fbstream.*##.col-lg-8:style(margin-right: 0px;)
+vipleague.*,fbstream.*##.btn:style(background: #073f68 !important; color: black !important;)
+vipleague.*,fbstream.*##.text-primary:style(color: black !important;)
+vipleague.*,fbstream.*##.text-info:style(color: black !important;)
+vipleague.*,fbstream.*##.card-header:style(background-color: #052842 !important;)
+vipleague.*,fbstream.*##.h3, h3:style(font-size: 1.25rem; text-align: -webkit-center;)
+vipleague.*,fbstream.*##.form-control:style(box-shadow: none !important; background: #052842 !important;)
+vipleague.*,fbstream.*##.text-secondary
 vipleague.*,fbstream.*##[class*="mx-"]
 vipleague.*,fbstream.*##.text-center > p
 vipleague.*,fbstream.*##[style="display: none;"]
