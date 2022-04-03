@@ -2952,7 +2952,6 @@ movie/ads
 /cuteimage/*$image
 /genads.php?uid^
 /ads/purl.js$script
-/hads-
 /pubcontent/
 /json.php?ip=user_get_state
 /xupload.js$script
