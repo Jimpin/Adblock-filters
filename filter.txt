@@ -6,6 +6,7 @@
 #Aftonbladet.se
 aftonbladet.se##html,body:style(overflow-y: auto !important; overflow-x: hidden !important;)
 aftonbladet.se##body:style(z-index: unset !important; overflow: unset !important;)
+aftonbladet.se###application:style(overflow: hidden !important; z-index: unset !important;)
 aftonbladet.se##+js(nostif, TAKEOVER)
 aftonbladet.se##strong:has-text(/ANNONS/i):upward(p)
 aftonbladet.se##.event-subheader-widget
@@ -21,8 +22,8 @@ aftonbladet.se##a:has-text(Kommersiell text, innehåller annonslänkar)
 aftonbladet.se##main > section > div[class^="css-"]:first-child:has(img[src*="closeButton"])
 aftonbladet.se##[data-test-tag="internal-link:single-page-link"]:contains(annonslänkar)
 aftonbladet.se##a[href*="/tv/"]:has(span:has-text(/studio oddset/i)):upward(1)
-aftonbladet.se###megaAd-placeholder, #superright-side, a[href^="/brandstudio"], a[href*="/rabattkod"], a[href*="/casinoguide"], [id^="adPlacement"], a[href^="https://kampanj.aftonbladet"]
-aftonbladet.se##[data-ad-subtype]:upward(1):matches-css(min-height: /[0-9]+/)
+aftonbladet.se###megaAd-placeholder, #superright-side, a[href^="/brandstudio"], a[href*="/rabattkod"], a[href*="/casinoguide"], [id^="adPlacement"], a[href^="https://kampanj.aftonbladet"][data-test-tag="internal-link"]
+aftonbladet.se##[data-ad-subtype]:upward(1):matches-css(min-height:/[0-9]+/)
 aftonbladet.se##.sch-datacontroller--subheader.sch-datacontroller--cobranded.sch-datacontroller
 aftonbladet.se##.sch-datacontroller--permanent.sch-datacontroller--cobranded.sch-datacontroller
 aftonbladet.se##^script:has-text(preLoadAds)
