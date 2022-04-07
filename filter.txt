@@ -746,6 +746,7 @@ vipleague.*,fbstream.*##.text-white.bg-dark.text-justify.p-3.m-3.d-md-block.d-no
 vipleague.*,fbstream.*##[class*="text-success position-relative"]
 vipleague.*,fbstream.*##[class*=" d-block"]
 fbstream.*##body:style(background: #0f2537 !important;)
+fbstream.*##.navbar:style(background: #073f68 !important;)
 fbstream.*##.card-body:style(background: #073f68 !important;)
 fbstream.*##.col-lg-8:style(margin-right: 0px;)
 fbstream.*##.btn:style(background: #073f68 !important; color: black !important;)
