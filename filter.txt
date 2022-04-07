@@ -3222,10 +3222,10 @@ popuper.js^
 @@*.ts$xhr
 @@/?stream=
 
-se,nu,org,net,tv,to,io,co,cc,com##[href*="javascript:void(0);"]
-se,nu,org,net,tv,to,io,co,cc,com##li:contains(vert)
-se,nu,org,net,tv,to,io,co,cc,com##[href*="/adult"]
-se,nu,org,net,tv,to,io,co,cc,com##[href*="/advertising"]
+tv,to,io,co,cc,com##[href*="javascript:void(0);"]
+tv,to,io,co,cc,com##li:contains(vert)
+tv,to,io,co,cc,com##[href*="/adult"]
+tv,to,io,co,cc,com##[href*="/advertising"]
 
 ads,bid,biz,click,country,cricket,date,diet,download,faith,fun,link,ltd,loan,men,mom,online,party,pink,pro,pw,review,racing,site,science,sexy,space,stream,study,style,systems,trade,top,work,website,webcam,win,world,wz,xin,xyz##[href*="javascript:"]
 ads,bid,biz,click,country,cricket,date,diet,download,faith,fun,link,ltd,loan,men,mom,online,party,pink,pro,pw,review,racing,site,science,sexy,space,stream,study,style,systems,trade,top,work,website,webcam,win,world,wz,xin,xyz##[rel="nofollow"][href*="//"]
@@ -3315,7 +3315,6 @@ ads,bid,biz,click,country,cricket,date,diet,download,faith,fun,link,ltd,loan,men
 *##+js(aopr, InitCloseButton)
 *##+js(aopw, rAb)
 *##+js(aopw, AdDelivery)
-*##+js(aopr, cursorAd)
 *##+js(acis, preLoadAds, loadAd)
 *##+js(acis, preLoadAds, setup)
 *##+js(acis, losAd)
@@ -3331,7 +3330,6 @@ ads,bid,biz,click,country,cricket,date,diet,download,faith,fun,link,ltd,loan,men
 *##[src*="/apu.php"]
 *##[src*="/fac.php"]
 *##[src*="/adu.php"]
-*##[onclick*="return JuicyCodes.Close(); "]
 *##[class*="cookie-panel-overlay"]
 *##[class*="cookie-panel"][data-module*="cookie-notice"]
 *##[class*="lock-scroll"]:style(overflow: auto !important;)
@@ -3512,7 +3510,6 @@ ads,bid,biz,click,country,cricket,date,diet,download,faith,fun,link,ltd,loan,men
 *##^script:has-text(/^[\w\W]{1700,3000}$/):has-text(/(\\x\d\w){250}/)
 *##+js(set, blurred, false)
 *##[src*="/pfe/current/"]
-*##iframe[src="javascript:false"]
 *##[class*="id-custom_ad"]
 *##[id*="__clb"]
 *##[class*=xyz_]
@@ -3548,10 +3545,7 @@ ads,bid,biz,click,country,cricket,date,diet,download,faith,fun,link,ltd,loan,men
 *##a[href^="/download-4k/"]
 *##.pframe:has([href^="javascript: void(0);"])
 *##+js(aopr, __Y)
-*##+js(set, $.magnificPopup.open, noopFunc)
-*##+js(set, clientSide.adbDetect, noopFunc)
 *##+js(popads-dummy)
-*##+js(acis, document.querySelectorAll, popMagic)
 
 .biz^$frame,xhr,image,ping,popup,3p
 .fun^$frame,xhr,image,ping,popup,3p
