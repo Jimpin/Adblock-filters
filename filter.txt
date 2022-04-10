@@ -343,6 +343,7 @@ youtube.com##ytd-comment-thread-renderer, #ytd-item-section-renderer, #style-sco
 youtube.com##ytd-comment-thread-renderer, #ytd-item-section-renderer, #style-scope, a[href*=http]:contains(, ")
 youtube.com##ytd-comment-thread-renderer, #ytd-item-section-renderer, #style-scope, a[href*=http]:contains(á)
 youtube.com##ytd-comment-thread-renderer, #ytd-item-section-renderer, #style-scope, a[href*=http]:contains(í)
+youtube.com##ytd-comment-thread-renderer, #ytd-item-section-renderer, #style-scope, a[href*=http]:contains(ñ)
 youtube.com##ytd-comment-thread-renderer, #ytd-item-section-renderer, #style-scope, a[href*=http]:contains(ó)
 youtube.com##ytd-comment-thread-renderer, #ytd-item-section-renderer, #style-scope, a[href*=http]:contains(十)
 youtube.com##ytd-comment-thread-renderer, #ytd-item-section-renderer, #style-scope, a[href*=http]:contains(➕‪)
