@@ -2030,7 +2030,9 @@ goal.com##.widget-semantic-player--displayed.widget-semantic-player
 ##.icon-facebook
 ##sticky-sidebar
 ##[class="footer wrapper clearfix"]
-##[class="content-right"]
+##.post-type-content
+##.ds-download-link
+##.cartonbox > .lazyload
 ##.pull-right.slider_small
 ##[class*="smsbump"]
 ##.show.cw-fade.cw-modal
@@ -3549,15 +3551,15 @@ ads,bid,biz,click,country,cricket,date,diet,download,faith,fun,link,ltd,loan,men
 *##+js(aopr, __Y)
 *##+js(popads-dummy)
 
+.online^$image,ping,popup,3p
+.pro^$image,ping,popup,3p
+.site^$image,ping,popup,3p
+.xyz^$image,ping,popup,3p
 .biz^$frame,xhr,image,ping,popup,3p
 .fun^$frame,xhr,image,ping,popup,3p
-.online^$frame,xhr,image,ping,popup,3p
-.pro^$frame,xhr,image,ping,popup,3p
-.site^$image,ping,popup,3p
 .top^$frame,xhr,image,ping,popup,3p
 .trade^$frame,xhr,image,ping,popup,3p
-.xyz^$image,ping,popup,3p
-.ws^$frame,xhr,image,ping,popup,3p
+.ws^$frame,image,ping,popup,3p
 
 /^https?:\/\/[a-z]{8,15}(|0NaN|articles|browse|index|movie|news|pages|static|view|web|wiki){1,4}(?:\.html|\/)$/$frame,3p,match-case
 /^https?:\/\/[a-z]{8,15}(|ajax|articles|config|custom|data|menu|resources|validators)(?:\.json)?$/$xhr,3p
