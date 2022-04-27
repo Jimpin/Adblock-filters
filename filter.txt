@@ -17,7 +17,7 @@ aftonbladet.se##a[href*="/a/"]:contains(ANNONS)
 aftonbladet.se##a[href*="brandstudio."]
 aftonbladet.se##a[href*="aftonbladet.se/a/"]
 aftonbladet.se##[class*="css"][href*="/kampanj/"]
-aftonbladet.se##[class*="css"]:matches-css(z-index:/100/)
+aftonbladet.se##[class*="css-b"]:style(z-index: 10001)
 aftonbladet.se##[class*="default css"][data-test-tag="embed-content"]
 aftonbladet.se##a:has-text(Kommersiell text, innehåller annonslänkar)
 aftonbladet.se##main > section > div[class^="css-"]:first-child:has(img[src*="closeButton"])
@@ -1834,6 +1834,7 @@ goal.com##.widget-semantic-player--displayed.widget-semantic-player
 ##.roar-alert-message-body
 ###frme
 ##[class="js-pop videoblock videoBox omega"]
+##[class*="BufferLoader-styles--background"]
 ##[class*="CloseableTextBubble-styles--root"]
 ##[class*="HorseCrossPromotion-styles--text"]
 ##.hidden-app.hidden-print
