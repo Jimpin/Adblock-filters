@@ -17,7 +17,7 @@ aftonbladet.se##a[href*="/a/"]:contains(ANNONS)
 aftonbladet.se##a[href*="brandstudio."]
 aftonbladet.se##a[href*="aftonbladet.se/a/"]
 aftonbladet.se##[class*="css"][href*="/kampanj/"]
-aftonbladet.se##[class*="css-b"]:style(z-index: 10001)
+aftonbladet.se##[class*="ee"]:matches-css(z-index: /100/):style(display: none !important;)
 aftonbladet.se##[class*="default css"][data-test-tag="embed-content"]
 aftonbladet.se##a:has-text(Kommersiell text, innehåller annonslänkar)
 aftonbladet.se##main > section > div[class^="css-"]:first-child:has(img[src*="closeButton"])
