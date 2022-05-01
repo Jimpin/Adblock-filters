@@ -411,6 +411,9 @@ facebook.com##span > div > .l9j0dhe7 > .sj5x9vvc
 facebook.com##[role="feed"] span[id]>[role=button]:has-text(/^Sponsrad|Betald av/):upward([role="feed"]>div)
 facebook.com##span[id] a[href]:not(:has-text(/(\s|\p^$)/)):upward([role="feed"]>div)
 facebook.com##[style*="border-radius: "]:has-text(Bjud in)
+facebook.com##span[class]:has(:has-text(/(\Sponsrad)/)):upward([role="link"])
+facebook.com##span[class] [style="max-width: 381px; min-width: 242px;"]:contains(Sponsrad)
+facebook.com##[href*="https://www.facebook.com/marketplace/"]:style(margin-left: -246px !important;)
 facebook.com###pagelet_ego_pane
 facebook.com###rightCol .pagelet.egoOrganicColumn
 facebook.com###globalContainer .pagelet.egoOrganicColumn
@@ -1487,6 +1490,7 @@ radarbox.com##.remove-pub > [href="/subscribe"]
 goal.com##.commercial
 goal.com##.clearfix.widget-inline-editors-picks
 goal.com##.widget-semantic-player--displayed.widget-semantic-player
+tiktok.com###tiktok-verify-ele
 ||api.github.com/_private/browser/stats$important
 ##[class$="-sns-box"]
 ###textAd
