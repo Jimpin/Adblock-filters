@@ -12,6 +12,7 @@ aftonbladet.se##strong:has-text(/ANNONS/i):upward(p)
 aftonbladet.se##.event-subheader-widget
 aftonbladet.se##a:has-text(annonslänkar)
 aftonbladet.se##a:has(span:has-text(/^annons/i))
+aftonbladet.se##a:has-text(Kommersiell text, innehåller annonslänkar)
 aftonbladet.se##a[href*="/a/"]:contains(annonslänkar)
 aftonbladet.se##a[href*="/a/"]:contains(ANNONS)
 aftonbladet.se##a[href*="brandstudio."]
@@ -496,6 +497,7 @@ blocket.se###li_panorama
 blocket.se###vi_panorama
 blocket.se###blocketd_visning_infor_kopet3
 blocket.se###blocketd_visning_infor_kopet2
+blocket.se##[class*="GoogleAdsense__Adsense"]
 blocket.se##body:style(overflow: auto !important;)
 blocket.se##div[class^="AppLinks__"]
 blocket.se##[style="height:240px"]
