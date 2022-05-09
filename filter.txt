@@ -231,11 +231,8 @@ instagram.com#?#footer[role="contentinfo"]+div[class]:has(> div[class] > a[href=
 
 #Twitter
 twitter.com##html:style(overflow-y: auto !important;)
-twitter.com###layers
 twitter.com##section:only-child > h1[id][aria-level="1"] + div[aria-label] div[class^=css-] > h2 > div[dir=auto]:upward(3)
 @@||twitter.com/*/api/*$xhr,1p
-||platform.twitter.com/impressions.js$3p
-||twitter.com/i/
 ||analytics.twitter.com^
 
 #Google
