@@ -650,7 +650,6 @@ jawcloud.co##^script:has-text(Inject=!)
 /view.html$inline-script,frame
 /pages/*/*.html$frame,inline-script
 /wiki.html$frame,inline-script
-/check$xmlhttprequest
 /js15_as.js$important
 /beacon/performance?
 /favicon.png$image,important
