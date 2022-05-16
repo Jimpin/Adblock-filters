@@ -2712,6 +2712,7 @@ tiktok.com###tiktok-verify-ele
 ||imrworldwide.com^$image
 ||alfasense.com^$xhr
 ||exchange.buzzoola.com^$xhr
+||fast.fonts.*/1.css
 .consent-cookie.
 .cookie-law.$script
 .cookie-policy.
@@ -2780,7 +2781,6 @@ movie/ads
 /adsrvmedia
 /async/ads
 /asyncadload
-/_nuxt/*.js$script,1p
 /\.com\/[0-9a-z]{2}\/[0-9a-z]{2}\/[0-9a-z]{2}\/[0-9a-z]{32}\.js/$script,3p
 /\:\/\/data.*\.com\/[a-zA-Z0-9]{30,}/$xhr,3p
 /\:\/\/[a-z0-9]{5,32}\.(bid|com)\/[0-9]{2,9}\.css$/$stylesheet,3p
@@ -3589,7 +3589,6 @@ ads,bid,biz,click,country,cricket,date,diet,download,faith,fun,link,ltd,loan,men
 ?aHR0*=$important
 /[0-9a-f]{32}\/invoke\.js/$script,3p
 /script/su.js^$script
-/event$xhr,3p
 /index/*$subdocument,3p
 ||cloudflare-terms-of-service-abuse.com^
 /css/deblocker.min.css$stylesheet,1p
