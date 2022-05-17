@@ -314,7 +314,9 @@ youtube.com##.opened
 youtube.com##.yt-alert-content
 youtube.com###ytd-comment-renderer, #ytd-comment-replies-renderer:style(display: contents !important;)
 youtube.com##ytd-merch-shelf-renderer.ytd-watch-flexy.style-scope > .ytd-merch-shelf-renderer.style-scope:contains(Köp)
+youtube.com##ytd-compact-movie-renderer.ytd-item-section-renderer.style-scope > .ytd-compact-movie-renderer.style-scope:contains(Köp eller hyr)
 youtube.com##ytd-display-ad-renderer:upward(ytd-rich-item-renderer)
+youtube.com###comment-teaser
 youtube.com##+js(json-prune, [].playerResponse.adPlacements [].playerResponse.playerAds playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds)
 youtube.com##+js(set-constant, ytInitialPlayerResponse.adPlacements, undefined)
 youtube.com##+js(set-constant, playerResponse.adPlacements, undefined)
@@ -411,7 +413,6 @@ facebook.com##span[id] a[href]:not(:has-text(/(\s|\p^$)/)):upward([role="feed"]>
 facebook.com##[style*="border-radius: "]:has-text(Bjud in)
 facebook.com##span[class]:has(:has-text(/(\Sponsrad)/)):upward([role="link"])
 facebook.com##span[class] [style="max-width: 381px; min-width: 242px;"]:contains(Sponsrad)
-facebook.com##[href*="https://www.facebook.com/marketplace/"]:style(margin-left: -246px !important;)
 facebook.com###pagelet_ego_pane
 facebook.com###rightCol .pagelet.egoOrganicColumn
 facebook.com###globalContainer .pagelet.egoOrganicColumn
