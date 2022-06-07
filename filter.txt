@@ -336,6 +336,7 @@ youtube.com###material-notice
 youtube.com###masthead-ad
 youtube.com##.masthead-ad-control,.ad-div,.pyv-afc-ads-container
 youtube.com###video-masthead
+youtube.com##ytd-compact-promoted-video-renderer:contains(Annons)
 youtube.com##ytd-video-masthead-ad-advertiser-info-renderer,ytm-promoted-sparkles-web-renderer
 youtube.com###hats-container
 youtube.com##[style*="--ytd-video-preview-top-position"]
