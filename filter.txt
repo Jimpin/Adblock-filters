@@ -1615,8 +1615,6 @@ tiktok.com###tiktok-verify-ele
 ##.avalanche-message
 ##.bannerContainer
 ##.c-message
-##[data-test-id="consentButton"]
-##.cookievarning-wrap:not(body):not(html)
 ##.disclaimer
 ##.e-banner
 ##.global-level-alert
@@ -1662,8 +1660,6 @@ tiktok.com###tiktok-verify-ele
 ##.ad-container
 ##.gdpr_banner
 ##.video-ads
-##.js-cookie-policy-banner
-##.js-cookies-accept
 ##div[class="mhp1138_switchers"]
 ##.ytp-ad-progress-list
 ##.abAlertInner
@@ -1972,10 +1968,6 @@ tiktok.com###tiktok-verify-ele
 ##.vjs-flyout-placeholder
 ##.social-shares
 ##.banner-in
-##.cookieinfo
-###cookiebanner-mask
-##.cookiebanner
-##.cookie-consent-bar > div > .row
 ###ad_unit_placeholder
 ##.region_redirect_popup_asset
 ###_evidon-background
@@ -1983,20 +1975,6 @@ tiktok.com###tiktok-verify-ele
 ##.evidon-barrier
 ##.zmgad-full-width
 ##.zmgad-right-rail
-##.cookieinfo
-##.cookie-holder
-##.cookie-bar-message:not(body):not(html)
-##.CookieBar
-##.CookieMessage
-##.CookieNotificationTopBar
-##.CookieWarning
-##.CookiesBanner
-###cookiedata
-###cookieChoiceInfo
-###cookie-information:not(body):not(html)
-###cookie-law-info-bar
-##.cookie-info-layer > div
-##.cookie-info-layer
 ##.js-dismiss-alert.m-alert--dismissable.m-alert--info.m-alert.m-cookie-disclaimer__wrapper
 ###legalLightBlock > .cont
 ##.jetpack_subscription_widget
@@ -2055,7 +2033,6 @@ tiktok.com###tiktok-verify-ele
 ##.ageDisclaimer
 ##.fbar
 ###taw
-##.consent
 ##div.afs_ads
 ##[class="ad-marker"]
 ##.adblocker-popup
@@ -2717,19 +2694,6 @@ tiktok.com###tiktok-verify-ele
 ||alfasense.com^$xhr
 ||exchange.buzzoola.com^$xhr
 ||fast.fonts.*/1.css
-.consent-cookie.
-.cookie-law.$script
-.cookie-policy.
-.cookie_law.
-.cookieconsent.
-.cookiecuttr.
-.cookieinfo2.
-.cookielaw.js
-.cookienotice.
-.cookiepolicy.
-.cookiesdirective_
-.cookiesmessage.
-.cookiesPolicy.
 .adnigma.
 .ad-traffic.
 .ad.final.
@@ -2875,19 +2839,14 @@ movie/ads
 /adb_detector
 /adblock*.js$script
 /adblock*/*.js$script
-/ad-blocking-advisor/*
+/ad-blocking-advisor/
 /adblock-notice
 /adblock_notify.js
 /adblocker_message_
 /AdblockMessage.
 /antiadblockmsg.
 /player*/ad*.php$all
-/simple-adblock-notice/*
-/wp-content/plugins/addthis/*$css
-/wp-content/plugins/ad-block-defender/*
-/wp-content/plugins/deadblocker/*
-/wp-content/plugins/disable-right-click/*
-/wp-content/uploads/an-temp/*$script,stylesheet
+/simple-adblock-notice/
 /site/captcha?
 /fuckadb.js
 /fuckadblock$script
@@ -2898,7 +2857,7 @@ movie/ads
 /log.js$script
 /jquery.adi.js
 /player/ads.js$script
-/plugins/anti-block/*
+/plugins/anti-block/
 /js_error.phtml$xhr
 /anti-block-modal.js$script
 /promo-banner.js?cache=
@@ -2919,8 +2878,8 @@ movie/ads
 /ntfc.php?
 /js-ad.php
 /js.php?sid=
-/js/advertising/*
-/js/clickunder/*
+/js/advertising/
+/js/clickunder/
 /js/pop-up.js$3p
 /js/vk.php$3p
 /pfe/current/
@@ -3071,37 +3030,6 @@ _tracking.php?
 -ad/right
 -ad/source
 -ad03.
--agree-cookies/
--consent-banner
--cookie-banner
--cookie-cnil.
--cookie-consent$~script
--cookie-dialog.
--cookie-filter/$script
--cookie-law-popup.
--cookie-law$script
--cookie-manager?
--cookie-message.js
--cookie-msg-bar.
--cookie-notice
--cookie-policy.
--cookie-popup
--CookieDisclaimer
--CookieInfo.
--cookiePolicy
--cookies-bar
--cookies-notice
--cookies-policy
--eu-cookie$script
--eucookie.
--gdpr-compliance/
--gdpr-cookie$~script
--gdpr-min.
--gdpr-popup.
--gdpr-public.
--legalconcerns_cookies
--privacy-cookie
--adblocker-detection
 
 #Blocked Scripts
 pagead-id.js^
@@ -3407,9 +3335,6 @@ ads,bid,biz,click,country,cricket,date,diet,download,faith,fun,link,ltd,loan,men
 ###block-onscroll-onscroll
 ##li[data-test-id="infinite-scroll-AD"]
 ##li[data-test-id="infinite-scroll-PENCIL"]
-##[class="cookie-acceptance__content"]
-##[data-end-point="/cookie/Acceptance"]
-##[data-js-cookie-acceptance=""]
 ##[class="alert-banner js-alert-banner"]
 ##[class="alert-banner__content padded-content"]
 ##[src*="/cse.js?"]
@@ -3417,8 +3342,6 @@ ads,bid,biz,click,country,cricket,date,diet,download,faith,fun,link,ltd,loan,men
 ##.iubenda-cs-content
 ###twt
 ###fbh
-###cookie-consent
-##.cookie_privacy > .container > .row
 ##.info-bar__caption
 ###popup-poster_image
 ###popup-poster_inner
