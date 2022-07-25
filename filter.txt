@@ -46,6 +46,7 @@ aftonbladet.se###data-controller-stripe
 aftonbladet.se##a:contains(Nöjesbladet)
 aftonbladet.se##.disable-cogwheel
 aftonbladet.se##.wide:contains(,)
+aftonbladet.se##.fullWidthMobile
 aftonbladet.se##.share-icons
 aftonbladet.se##.social-shares
 aftonbladet.se##[href*="twitter.com/sportbladet"]
@@ -1521,6 +1522,8 @@ tiktok.com###tiktok-verify-ele
 ##.desktop-ad-web
 ##.desktop-mpu-ad-container
 ##.cookie-overlay
+##.cookiesBanner
+##.cookie-meddelande
 ##[class*="CookieConsentPopup"]
 ##.nyh_cookie-message
 ###sidebar-btf-0
@@ -2377,7 +2380,6 @@ tiktok.com###tiktok-verify-ele
 *##[href*=".online"]
 *##[href*=".racing"]
 *##[href*=".website"]
-*##[href*=".win"]
 *##[href*=".trade"]
 *##[href*=".space"]
 *##[href*=".webcam"]
@@ -2591,7 +2593,6 @@ tiktok.com###tiktok-verify-ele
 ||consent.dk^$3p
 ||converdiant.com^$3p
 ||cookie-script.com^
-||cookieinformation.com^
 ||cookieinfoscript.com^
 ||cookiepro.com^
 ||curemedia.se^
@@ -3114,7 +3115,6 @@ popuper.js^
 @@||loadvid.online/embed
 @@||viduplayer.com/srt/
 @@||clients1.google.com^$script
-@@||policy.app.cookieinformation.com^$script
 @@||apis.google.com^$script
 @@||google.com^$frame,xhr
 @@||maps.google.com^$script,image
@@ -3206,7 +3206,6 @@ ads,bid,biz,click,country,cricket,date,diet,download,faith,fun,link,ltd,loan,men
 ##iframe[width="468"][height="60"]
 ##iframe[width="300"][height="250"]
 ###adbtm
-##[type*="text/javascript"]
 ##[data-cfasync]
 ##[src="/social-box/"]
 ##[src*="/next.php"]
@@ -3338,7 +3337,6 @@ ads,bid,biz,click,country,cricket,date,diet,download,faith,fun,link,ltd,loan,men
 ##[class="alert-banner js-alert-banner"]
 ##[class="alert-banner__content padded-content"]
 ##[src*="/cse.js?"]
-##[type="text/javascript"][src*="/recaptcha__"]
 ##.iubenda-cs-content
 ###twt
 ###fbh
