@@ -46,7 +46,6 @@ aftonbladet.se###data-controller-stripe
 aftonbladet.se##a:contains(Nöjesbladet)
 aftonbladet.se##.disable-cogwheel
 aftonbladet.se##.wide:contains(,)
-aftonbladet.se##.fullWidthMobile
 aftonbladet.se##.share-icons
 aftonbladet.se##.social-shares
 aftonbladet.se##[href*="twitter.com/sportbladet"]
