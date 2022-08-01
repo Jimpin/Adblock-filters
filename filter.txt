@@ -2063,7 +2063,6 @@ tiktok.com###tiktok-verify-ele
 ##[class="pop-postroll-close"]
 ###preroll
 ##.ot-fade-in.onetrust-pc-dark-filter
-##.ot-sdk-container > .ot-sdk-row
 ##.outbrain
 ##.outbrain-ads
 ##.overlay-content-arrows
