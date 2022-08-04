@@ -3273,8 +3273,8 @@ ads,bid,biz,click,country,cricket,date,diet,download,faith,fun,link,ltd,loan,men
 *##+js(acis, burtSegments)
 *##+js(acis, Bau, preloadAds)
 *##html:style(filter: none !important)
-*##[class="sp-message-open"]:style(overflow: auto !important; position: initial !important;)
-*##[class="js sp-message-open"]:style(position: unset !important;)
+*##[class*="sp-message-open"]:style(position: unset !important;overflow-y: initial !important;)
+*##.sp-message-open body:style(position: unset !important;overflow-y: initial !important;)
 *##.is-showing.has-noScroll.modal:style(display: none !important;)
 *##.disabled-vscroll:style(overflow: auto !important;)
 *##.in.fade.modal-backdrop
