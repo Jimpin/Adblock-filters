@@ -3463,7 +3463,6 @@ ads,bid,biz,click,country,cricket,date,diet,download,faith,fun,link,ltd,loan,men
 *##.ad-entry-html.ad
 *##.ad-shout-out.ad
 *##.block-body-plus.block
-*##[class*="col-lg-"]:contains(bonus)
 *##.ipsAnnouncement
 *##^script:has-text(__perfMark('app_html_start');)
 *##^script:has-text(ads_dot)
