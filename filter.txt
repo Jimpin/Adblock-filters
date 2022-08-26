@@ -201,6 +201,7 @@ twitch.tv##[class*="avap-ads-container"]
 twitch.tv##[data-test-selector="ad-banner-default-text"]
 twitch.tv##[class*="extensions-dock__dock"]
 twitch.tv##.extension-taskbar
+twitch.tv##.extension-view__iframe
 twitch.tv##.noty_bar
 twitch.tv###noty_bottomCenter_layout_container
 twitch.tv##.side-info-container
@@ -1584,6 +1585,7 @@ tiktok.com###tiktok-verify-ele
 ##.removeAdsStyle
 ###cookieAccept:not(body):not(html):not(button)
 ###cookieAccept
+###quicksearchWebSurvey
 ###streamMateModel
 ##[id="pb_block"]
 ##[id="whosamung"]
@@ -3244,7 +3246,6 @@ ads,bid,biz,click,country,cricket,date,diet,download,faith,fun,link,ltd,loan,men
 ://stats.$important
 ://geo-$important
 ://geo.$important
-://global.$important
 ://log.$3p
 ://wchat.*^$important
 ://lightning.*/launch/
@@ -3266,6 +3267,8 @@ ads,bid,biz,click,country,cricket,date,diet,download,faith,fun,link,ltd,loan,men
 *##[src*="/apu.php"]
 *##[src*="/fac.php"]
 *##[src*="/adu.php"]
+*##.blacklayer
+*##.modalPopup
 *##[class*="cookie-panel-overlay"]
 *##[class*="cookie-panel"][data-module*="cookie-notice"]
 *##[class*="lock-scroll"]:style(overflow: auto !important;)
