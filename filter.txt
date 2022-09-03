@@ -7,7 +7,7 @@
 aftonbladet.se##html,body:style(overflow-y: auto !important; overflow-x: hidden !important;)
 aftonbladet.se##body:style(z-index: unset !important; overflow: unset !important;)
 aftonbladet.se###application:style(overflow: hidden !important; z-index: unset !important;)
-aftonbladet.se##+js(nostif, TAKEOVER)
+aftonbladet.se##+js(no-setTimeout-if, TAKEOVER)
 aftonbladet.se##strong:has-text(/ANNONS/i):upward(p)
 aftonbladet.se##.event-subheader-widget
 aftonbladet.se##a:has-text(annonslänkar)
@@ -74,7 +74,8 @@ klart.se##+js(remove-class, mega-loading)
 ||aftonbladet.se.senaste.$document
 ||aftonbladet.se/kampanj/casinoguide$document
 ||aftonbladet.se/tv/temp.mp4$media/rabattkod/*$image
-||schibsted.io/*/publishing/*$important
+||schibsted.io^*/publishing/*$important
+||schibsted.io^*/gdpr-bundle.js
 ||engage-auth.schibsted.media^$script
 ||adv.aftonbladet.se^$important
 ||ooul.tv/*/se-aftonbladet/aab/aftonbladet_$script
