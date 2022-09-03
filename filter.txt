@@ -2429,8 +2429,6 @@ tiktok.com###tiktok-verify-ele
 *metrics.
 *pixel.$~stylesheet
 *stat.$~stylesheet
-*statistics.
-*stats.
 *track.
 *tracker.
 *trackers.
