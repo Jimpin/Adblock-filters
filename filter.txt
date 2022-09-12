@@ -23,6 +23,7 @@ aftonbladet.se##[class*="-4th"]
 aftonbladet.se##[class*="1jy"]
 aftonbladet.se##[class*="7rc"]
 aftonbladet.se##[class*="6d6"]
+aftonbladet.se##[class*="h72"]:style(display: none !important;)
 aftonbladet.se##[class*="b5ee"]:matches-css(z-index: /100/):style(display: none !important;)
 aftonbladet.se##[class*="default css"][data-test-tag="embed-content"]
 aftonbladet.se##a:has-text(Kommersiell text, innehåller annonslänkar)
