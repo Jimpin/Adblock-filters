@@ -2477,7 +2477,6 @@ tiktok.com###tiktok-verify-ele
 ||defpush.com^$script
 ||panel2.research-int.se^
 ||gstatic.com/feedback/*$script
-||herokuapp.com^
 ||bit.ly^$subdocument,inline-script
 ||unrulymedia.com^
 ||elasticad.net^
