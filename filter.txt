@@ -197,6 +197,9 @@ twitch.tv##.blue-bar.c-text.full-width
 twitch.tv##main.tw-flex > div[class]:not([data-test-selector]) > div[data-test-selector="test_selector_prime_tracking_button_wrapper"]
 twitch.tv##[class="tw-align-items-center tw-border-radius-medium tw-c-background-base tw-flex tw-flex-column tw-justify-content-center tw-pd-t-1"]
 twitch.tv##.recommended-channels
+twitch.tv##.hype-train-progress-bar__container
+twitch.tv##.community-highlight
+twitch.tv##[id*="video-ads"]
 twitch.tv##[id="amazon-video-ads-iframe"]
 twitch.tv##[style="width: 100%; height: 100%; border: 0px none; display: none;"]
 twitch.tv##[class*="avap-ads-container"]
@@ -221,6 +224,7 @@ ext-twitch.tv##.prime-extension-root--show.prime-extension-root
 ||countess.twitch.tv^
 ||spade.twitch.tv^
 ||sentinel.twitchsvc.net/error-report
+/_404/$domain=www.twitch.tv,image
 
 #Instagram.com
 instagram.com##[class*="_8U"]:contains(Förslag för dig)
@@ -2242,7 +2246,6 @@ tiktok.com###tiktok-verify-ele
 ##.nu2ad
 ##.nuffnangad
 ##.nui-ad-layout
-##.undefined
 ##iframe[width="728"][height="90"]
 ###onetrust-consent-sdk
 ##.open-ad-container-mobile
