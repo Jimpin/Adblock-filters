@@ -418,10 +418,7 @@ facebook.com##[data-pagelet="RightRail"] > div:contains(·)
 facebook.com##+js(remove-class, _31e, body > ._li)
 facebook.com##[aria-label="Annonsör"]
 facebook.com##span > div > .l9j0dhe7 > .sj5x9vvc
-facebook.com##[role="feed"] span[id]>[role=button]:has-text(/^Sponsrad|Betald av/):upward([role="feed"]>div)
-facebook.com#@#span[id] a[href]:not(:has-text(/(\s|\p^$)/)):upward([role="feed"]>div)
-facebook.com##[style*="border-radius: "]:has-text(Bjud in)
-facebook.com##span[class] [style="max-width: 381px; min-width: 242px;"]:contains(Sponsrad)
+facebook.com##span[id="ssrb_feed_start"] ~ div > div > div:not([class]) ,[href*="/ads/"] > span > span > svg:has(use):has-text(/^Sponsrad|Betald av|Köp|Prova|Skaffa|regler|Intro|/ads|Läs mer|Paket|pris|kvalité|enkelt|Smakar|ANNONS|%|Se mer|Ny|Dragning|Har du|räddar liv|klicka|medlem|Shoppa|frakt/)
 facebook.com###pagelet_ego_pane
 facebook.com###rightCol .pagelet.egoOrganicColumn
 facebook.com###globalContainer .pagelet.egoOrganicColumn
