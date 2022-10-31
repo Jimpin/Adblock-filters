@@ -1143,19 +1143,16 @@ lookmovie.*,lookmovie2.*###social-share
 .com*/android-icon*.png$1p,3p
 
 #Streamtajm.com
-streamtajm.*##+js(acis, Math, break;case $.)
-streamtajm.*##+js(acis, TID, J0)
-streamtajm.*##[href$=".html"]
-streamtajm.*##[href*="/forum"]
-streamtajm.*##.container > div.row:nth-of-type(2)
-streamtajm.*##.rightside.col-sm-8.col-xs-12 > div:nth-of-type(6)
+streamtajm.*###preloader
 streamtajm.*##.longbanner
 streamtajm.*##.well.dfoot
 streamtajm.*###comments
-streamtajm.*##.rightside.col-sm-8.col-xs-12 > .table-bordered.table > tbody > tr > td
-streamtajm.*##div[style*="width: 750px; height: 100px; padding: 5px 5px 5px 0;"]
 streamtajm.*##.hidden-xs.col-md-5.col-sm-6.pull-right
-@@||streamtajm.*/images/dfhdcom.png$image
+streamtajm.*##.slick-dotted.slick-slider.slick-initialized.slider-active
+streamtajm.*##section.episode-bg.episode-area:nth-of-type(3)
+streamtajm.*##.owl-drag.owl-loaded.pt-3.mt-5.owl-carousel.ucm-active
+streamtajm.*##.episode-bg.episode-area
+||streamtajm.com/images/banner/*jpg$image
 ||*.net^$frame,image,other,domain=streamtajm.com
 ||*.com^$other,domain=streamtajm.com
 ||nxload.com/thumbnails/
