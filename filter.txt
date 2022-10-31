@@ -1143,6 +1143,9 @@ lookmovie.*,lookmovie2.*###social-share
 .com*/android-icon*.png$1p,3p
 
 #Streamtajm.com
+streamtajm.*##+js(acis, TID, J0)
+streamtajm.*##[href$=".html"]
+streamtajm.*##[href*="/forum"]
 streamtajm.*###preloader
 streamtajm.*##.longbanner
 streamtajm.*##.well.dfoot
