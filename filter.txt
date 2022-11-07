@@ -198,7 +198,6 @@ twitch.tv##main.tw-flex > div[class]:not([data-test-selector]) > div[data-test-s
 twitch.tv##[class="tw-align-items-center tw-border-radius-medium tw-c-background-base tw-flex tw-flex-column tw-justify-content-center tw-pd-t-1"]
 twitch.tv##.recommended-channels
 twitch.tv##.hype-train-progress-bar__container
-twitch.tv##.community-highlight
 twitch.tv##[id*="video-ads"]
 twitch.tv##[id="amazon-video-ads-iframe"]
 twitch.tv##[style="width: 100%; height: 100%; border: 0px none; display: none;"]
@@ -213,7 +212,7 @@ twitch.tv##.side-info-container
 twitch.tv##.tw-absolute.top-bar
 twitch.tv##script:contains(blob)
 twitch.tv##[src*="HTMLCanvasElement.prototype.toBlob,IntersectionObserver"]
-ext-twitch.tv##.prime-extension-root--show.prime-extension-root
+twitch.tv##.prime-extension-root--show.prime-extension-root
 @@||twitch.tv/drops/*$1p
 @@||twitch.tv/videos/*$csp
 @@||irc-ws.chat.twitch.tv^$websocket,1p
@@ -224,7 +223,6 @@ ext-twitch.tv##.prime-extension-root--show.prime-extension-root
 ||countess.twitch.tv^
 ||spade.twitch.tv^
 ||sentinel.twitchsvc.net/error-report
-/_404/$domain=www.twitch.tv,image
 
 #Instagram.com
 instagram.com##[class*="_8U"]:contains(Förslag för dig)
@@ -337,6 +335,7 @@ youtube.com##.ytp-fullerscreen-edu-text
 youtube.com##.ytp-paid-content-overlay
 youtube.com##.ytp-cued-thumbnail-overlay
 youtube.com###clarify-box > .ytd-watch-flexy.style-scope
+youtube.com##[class="style-scope ytd-video-preview"]
 youtube.com##.sparkles-light-cta
 youtube.com##[class="style-scope yt-live-chat-viewer-engagement-message-renderer"]
 youtube.com##.ytp-fullerscreen-edu-chevron
@@ -352,7 +351,26 @@ youtube.com##ytd-video-masthead-ad-advertiser-info-renderer,ytm-promoted-sparkle
 youtube.com###hats-container
 youtube.com##[style*="--ytd-video-preview-top-position"]
 youtube.com##.ytp-button.ytp-miniplayer-button
-youtube.com##ytd-comment-thread-renderer, #ytd-item-section-renderer, #style-scope, a[href*=http]:contains(#)
+youtube.com##ytd-comment-renderer.ytd-comment-replies-renderer.style-scope:contains(Telegram)
+youtube.com##ytd-comment-renderer.ytd-comment-replies-renderer.style-scope:contains(telegram)
+youtube.com##ytd-comment-renderer.ytd-comment-replies-renderer.style-scope:contains(claim)
+youtube.com##ytd-comment-renderer.ytd-comment-replies-renderer.style-scope:contains(Winners)
+youtube.com##ytd-comment-renderer.ytd-comment-replies-renderer.style-scope:contains(winners)
+youtube.com##ytd-comment-renderer.ytd-comment-replies-renderer.style-scope:contains(Reward)
+youtube.com##ytd-comment-renderer.ytd-comment-replies-renderer.style-scope:contains(reward)
+youtube.com##ytd-comment-renderer.ytd-comment-replies-renderer.style-scope:contains(Subs)
+youtube.com##ytd-comment-renderer.ytd-comment-replies-renderer.style-scope:contains(F?)
+youtube.com##ytd-comment-renderer.ytd-comment-replies-renderer.style-scope:contains(🎉)
+youtube.com##ytd-comment-renderer.ytd-comment-replies-renderer.style-scope:contains(🥇)
+youtube.com##ytd-comment-renderer.ytd-comment-replies-renderer.style-scope:contains(🎈)
+youtube.com##ytd-comment-renderer.ytd-comment-replies-renderer.style-scope:contains(🎁)
+youtube.com##ytd-comment-renderer.ytd-comment-replies-renderer.style-scope:contains(👆)
+youtube.com##ytd-comment-renderer.ytd-comment-replies-renderer.style-scope:contains(👈)
+youtube.com##ytd-comment-renderer.ytd-comment-replies-renderer.style-scope:contains(☝️)
+youtube.com##ytd-comment-renderer.ytd-comment-replies-renderer.style-scope:contains(✌️)
+youtube.com##ytd-comment-renderer.ytd-comment-replies-renderer.style-scope:contains(💋)
+youtube.com##ytd-comment-renderer.ytd-comment-replies-renderer.style-scope:contains(😘)
+youtube.com##ytd-comment-renderer.ytd-comment-replies-renderer.style-scope:contains(⚡)
 youtube.com##ytd-comment-thread-renderer, #ytd-item-section-renderer, #style-scope, a[href*=http]:contains(, ")
 youtube.com##ytd-comment-thread-renderer, #ytd-item-section-renderer, #style-scope, a[href*=http]:contains(á)
 youtube.com##ytd-comment-thread-renderer, #ytd-item-section-renderer, #style-scope, a[href*=http]:contains(í)
@@ -360,13 +378,11 @@ youtube.com##ytd-comment-thread-renderer, #ytd-item-section-renderer, #style-sco
 youtube.com##ytd-comment-thread-renderer, #ytd-item-section-renderer, #style-scope, a[href*=http]:contains(ó)
 youtube.com##ytd-comment-thread-renderer, #ytd-item-section-renderer, #style-scope, a[href*=http]:contains(十)
 youtube.com##ytd-comment-thread-renderer, #ytd-item-section-renderer, #style-scope, a[href*=http]:contains(.be)
+youtube.com##ytd-comment-thread-renderer, #ytd-item-section-renderer, #style-scope, a[href*=http]:contains(F*)
 youtube.com##ytd-comment-thread-renderer, #ytd-item-section-renderer, #style-scope, a[href*=http]:contains(**)
 youtube.com##ytd-comment-thread-renderer, #ytd-item-section-renderer, #style-scope, a[href*=http]:contains(⸻)
 youtube.com##ytd-comment-thread-renderer, #ytd-item-section-renderer, #style-scope, a[href*=http]:contains(⤵️)
-youtube.com##ytd-comment-thread-renderer, #ytd-item-section-renderer, #style-scope, a[href*=http]:contains(👈)
-youtube.com##ytd-comment-thread-renderer, #ytd-item-section-renderer, #style-scope, a[href*=http]:contains(😘)
 youtube.com##ytd-comment-thread-renderer, #ytd-item-section-renderer, #style-scope, a[href*=http]:contains(🍆)
-youtube.com##ytd-comment-thread-renderer, #ytd-item-section-renderer, #style-scope, a[href*=http]:contains(💋)
 youtube.com##ytd-comment-thread-renderer, #ytd-item-section-renderer, #style-scope, a[href*=http]:contains(🔞)
 youtube.com##ytd-comment-thread-renderer, #ytd-item-section-renderer, #style-scope, a[href*=http]:contains(Porn)
 youtube.com##ytd-comment-thread-renderer, #ytd-item-section-renderer, #style-scope, a[href*=http]:contains(🅟︎)
@@ -1790,6 +1806,7 @@ tiktok.com###tiktok-verify-ele
 ##[class="adsbytrafficjunky"][data-spot-id]
 ##.adsbytrafficjunky
 ###pb_template
+##[class="emptyBlockSpace"]
 ##.newPaidSection.section-p2v
 ##.nav-videoRecommended.more_recommended_btn.light.greyButton
 ##.NotificationLine
