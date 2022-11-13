@@ -397,8 +397,6 @@ youtube.com##a[href*="/"]:has-text(stod)
 youtube.com##span.yt-formatted-string.style-scope:has-text(casino)
 youtube.com###clarify-box:has-text(COVID)
 youtube.com##.page-loaded
-@@||youtube.com^$csp
-@@||youtube.com/player_api^
 *_ad_$media,redirect-rule=noopmp3-0.1s
 ||youtube.com/api/stats/qoe?
 ||youtube.com/csi_204$image
@@ -515,6 +513,7 @@ blocket.se##[id*="pulse2an_"]
 blocket.se###index_panorama
 blocket.se###li_panorama
 blocket.se###vi_panorama
+blocket.se##.placement_panorama
 blocket.se###blocketd_visning_infor_kopet3
 blocket.se###blocketd_visning_infor_kopet2
 blocket.se##[class*="GoogleAdsense__Adsense"]
@@ -3111,7 +3110,6 @@ popuper.js^
 @@||stream.nbcsports.com^
 @@||ajax.googleapis.com/ajax/libs/jquery/
 @@||data-live.flightradar24.com/zones/*$script
-@@||fonts.googleapis.com/css$third-party
 @@||static.twitchcdn.net/assets/*$script
 @@||cloudfront.net/assets/*$media,3p
 @@||steamstatic.com^$image
@@ -3120,13 +3118,10 @@ popuper.js^
 @@||ply.me^$subdocument
 @@||tracking*.se
 @@||maxcdn.bootstrapcdn.com^
-@@||analytics.google.com^
 @@||typekit.net^$script
 @@||loadvid.online/embed
 @@||viduplayer.com/srt/
-@@||clients1.google.com^$script
 @@||apis.google.com^$script
-@@||google.com^$frame,xhr
 @@||maps.google.com^$script,image
 @@||cdn.cloudflare.steamstatic.com^$image
 @@||steamcdn-a.akamaihd.net^$image
