@@ -185,20 +185,13 @@ outlook.live.com##[class*="_2F"]:has-text(Premium)
 /analytics-ping.js$xhr
 
 #Twitch.tv
-twitch.tv##+js(nowoif, amazon-adsystem)
-twitch.tv##+js(twitch-videoad)
-twitch.tv##+js(aopw, InMemoryCache)
-twitch.tv##+js(aeld, , _blank)
 twitch.tv##[data-a-target=prime-offers-icon]
 twitch.tv##[data-a-target=try-prime-link]
 twitch.tv##.prime-offers__pill
 twitch.tv##.blue-bar.c-text.full-width
 twitch.tv##main.tw-flex > div[class]:not([data-test-selector]) > div[data-test-selector="test_selector_prime_tracking_button_wrapper"]
-twitch.tv##[class="tw-align-items-center tw-border-radius-medium tw-c-background-base tw-flex tw-flex-column tw-justify-content-center tw-pd-t-1"]
 twitch.tv##.recommended-channels
 twitch.tv##.hype-train-progress-bar__container
-twitch.tv##[id*="video-ads"]
-twitch.tv##[id="amazon-video-ads-iframe"]
 twitch.tv##[style="width: 100%; height: 100%; border: 0px none; display: none;"]
 twitch.tv##[class*="avap-ads-container"]
 twitch.tv##[data-test-selector="ad-banner-default-text"]
@@ -209,19 +202,13 @@ twitch.tv##.noty_bar
 twitch.tv###noty_bottomCenter_layout_container
 twitch.tv##.side-info-container
 twitch.tv##.tw-absolute.top-bar
-twitch.tv##script:contains(blob)
-twitch.tv##[src*="HTMLCanvasElement.prototype.toBlob,IntersectionObserver"]
 twitch.tv##.prime-extension-root--show.prime-extension-root
 @@||twitch.tv/drops/*$1p
 @@||twitch.tv/videos/*$csp
 @@||irc-ws.chat.twitch.tv^$websocket,1p
 @@||wss://pubsub-edge.twitch.tv
-||amazon-adsystem.com/*/apstag.js$script,important
-||ad.doubleclick.net/ddm/ad/*/*/*'/;ord='*$important
-||vod-secure.twitch.tv^
 ||countess.twitch.tv^
 ||spade.twitch.tv^
-||sentinel.twitchsvc.net/error-report
 
 #Instagram.com
 instagram.com##[class*="_8U"]:contains(Förslag för dig)
@@ -267,7 +254,6 @@ google.*###resultspanel > #topads
 google.*###rhs_block
 ||google.*/pagead/*$important
 ||googleadservices.com^
-||googleads*^
 ||google-analytics.com^
 ||googleanalytics.com^
 ||googlesyndication.com^
@@ -354,16 +340,9 @@ youtube.com##.ytp-button.ytp-miniplayer-button
 youtube.com##.GoogleActiveViewElement.ytd-watch-next-secondary-results-renderer.style-scope:has-text(Annons)
 youtube.com##.page-loaded
 *_ad_$media,redirect-rule=noopmp3-0.1s
-||youtube.com/api/stats/qoe?
-||youtube.com/csi_204$image
-||youtube.com/error_204$xhr
-||youtube.com/pagead
-||youtube.com/ptracking
-||youtube.com/get_midroll_info$important
 ||google.*/jsapi?autoload=*$script
 ||gstatic.com/inputtools/images/*$image,important
 ||static.doubleclick.net/instream/ad_status.js$script,redirect-rule=noopjs
-/generate_204$image
 
 #Spotify.com
 spotify.com##.ads-container
@@ -403,9 +382,6 @@ facebook.com#@#html,body:style(overflow-x: hidden !important;)
 ||facebook.com/tr/*
 ||facebook.com/video/autoplay/*$xhr
 ||facebook.com/xti.php$important
-||facebook.com/campaign/landing.php?
-||graph.facebook.com^$script
-||badge.facebook.com^$3p
 ###fblike
 ##.ad-link
 
@@ -569,9 +545,7 @@ imdb.com###top_ad
 ||aax-eu.amazon-adsystem.com/$domain=www.imdb.com,subdocument
 ||images-na.ssl-images-amazon.com/images/$image
 ||imdb.com/widget/*
-||scorecardresearch.com^
 ||z-ecx.images-amazon.com^$script
-||zergnet.com^
 ||amazon.com/aan/*
 *$media,redirect=noopmp3-0.1s,domain=imdb.com,3p
 /js/show_ads.js^
@@ -925,20 +899,6 @@ viafree.se##.SliderBlock_background_continueWatching.SliderBlock_background
 viafree.se,viaplay.se##.contextual-navigation.ui-row
 @@||fwmrm.net^$image,domain=viafree.se
 @@||fwmrm.net/crossdomain.xml$xhr
-||freewheel-mtgx-tv.akamaized.net^$image,media
-||fwmrm.net/$image
-||fwmrm.net/*/mtg_play_flash/linktag2.js$script
-||viafree.se/collect$important
-||client-stream-events.mtg-api.com^$domain=viafree.se
-||2mdn.net/videoplayback^$media,redirect-rule=noopmp3-0.1s
-||stickyadstv.com/www/delivery/swfIndex.php$xmlhttprequest
-||tr.snapchat.com/p$subdocument
-||sc-static.net^$script
-||doubleverify.com^
-||userreport.com^$3p
-||top10sportsites.com^
-||fastcounter.de^
-/client-stream-events$domain=viafree.se
 
 #Teknikensvarld.se
 teknikensvarld.se##.t-single.-content-hide .entry-content, .t-single.-content-hide .entry-content .paywall-gradient-overlay:style(height: auto !important; overflow: visible !important;)
@@ -969,8 +929,6 @@ dplay.se##div:matches-css(width: 3px):matches-css(height: 5px)
 ||imasdk.googleapis.com/pal/sdkloader/pal.js$script,redirect-rule=noopjs
 ||litix.io^$xhr
 ||dnitv.com^$media,domain=dplay.se
-||demdex.net^$xhr
-||telemetric.dk^$3p
 
 #Flashback.org
 flashback.org##.banner_text
@@ -1108,10 +1066,6 @@ lookmovie.*,lookmovie2.*###social-share
 ||2captcha.com^
 ||captchadecoder.com^
 ||anti-captcha.com^
-||goodcache.ml^$important
-.com*/favicon-*.png$1p,3p
-.com*/get.php$1p,3p
-.com*/android-icon*.png$1p,3p
 
 #Streamtajm.com
 streamtajm.*##+js(acis, TID, J0)
@@ -1249,8 +1203,6 @@ fotbolltransfers.com##[href^="http://bit.ly/"]
 ||fotbolltransfers.com/js/jquery.hoverIntent-r5.min.js$script
 ||suntcontent.se^
 ||s.vi-serve.com/tagLoader.js$script
-||adnami.io^
-||lwadm.com^
 ||ads.stickyadstv.com/www/delivery/swfIndex.php
 ||ads.pubmatic.com/AdServer/js/showad.js$subdocument
 ||vpaid.pubmatic.com/ads/video/vadtag.html
@@ -1347,9 +1299,7 @@ vidsrc.*###pop_asdf
 ||verystream.com/player/loader.png$image,first-party
 ||vcstream.to/images/dablock.png$image
 ||t18.viduplayer.com/i/
-||g.jwpsrv.com^$other
 ||jwpltx.com/*/ping.gif
-||gomo.to$image
 
 #Moviesjoy/Movies2watch/Myflixer/Dopebox
 moviesjoy.*,movies2watch.*,myflixer.*,dopebox.*##+js(acis, JSON.parse, break;case $.)
@@ -1439,8 +1389,6 @@ himovies.to##.modal-backdrop
 ##[id="stpd"]
 ##[class="adblock-notice text-center"]
 ##.addthis_inline_share_toolbox
-harleyquinnwidget.*##[href$=".html"]
-aliez.*##[href$=".html"]
 /redirect?tid=^$important
 
 #Skidrowreloaded.com
@@ -2377,19 +2325,14 @@ tiktok.com###tiktok-verify-ele
 *##[href*="/ads."]
 *##[href*="/adv/"]
 *##[href*="/advert"]
-*##[href*="http^://ad."]
-*##[href*="http^://ads."]
 *##[href*="affiliate"]
 *##[href*=".clkcln.com/"]
 *##[href*=".clksite.com/"]
 *##[href*="/adServe/banners?"]
-*##[href*="/cmd.php?ad="]
 *##[href*="=Adtracker"]
 *##[href*="=adscript"]
 *##[href*="=exoclick"]
 *##[href*="a2g-secure.com"]
-*##[href*="ad2upapp.com/"]
-*##[href*="5iclx7wa4q.com"]
 
 #Ads/Trackers
 *count.
@@ -2413,27 +2356,19 @@ tiktok.com###tiktok-verify-ele
 ||adform.net^
 ||amazon-adsystem.com^
 ||adnigma.com^
-||adsupplyads.com^
 ||adnxs.com^
 ||adexc.net^
-||adf.ly^
 ||adtng.com^
 ||adready.com^
 ||adroll.com^
-||adadvisor.net^
 ||adcash.com^
 ||addjump.com^
-||aaxads.com^
 ||adsrvr.org^
-||adsafety.net^
 ||tapad.com^
 ||bannerflow.com^
 ||trafficgateway.research-int.se^
 ||trafficjunky.net^
 ||analytics.codigo.se^
-||goo.gl^
-||adservice.google.com^
-||nsimg.net^
 ||clckads.com^
 ||borrango.com^
 ||tororango.com^
@@ -2449,8 +2384,6 @@ tiktok.com###tiktok-verify-ele
 ||panel2.research-int.se^
 ||gstatic.com/feedback/*$script
 ||bit.ly^$subdocument,inline-script
-||unrulymedia.com^
-||elasticad.net^
 ||rtmark.net^
 ||tradedoubler.com^
 ||taboola.com^
@@ -2464,7 +2397,6 @@ tiktok.com###tiktok-verify-ele
 ||disqus.com/forums/*/embed.js$script
 ||bidtheatre.com^
 ||lp4.io^
-||2leep.com^
 ||adblade.com^
 ||adsnative.com^
 ||content.ad^
@@ -2473,14 +2405,9 @@ tiktok.com###tiktok-verify-ele
 ||zergnet.com^
 ||rev4rtb.com^
 ||smartadserver.com^
-||s*.mxcdn.net^
-||s*.meetrics.net^
 ||getcontent.net^
 ||gialnk.com^
 ||oload.cloud^
-||easylist.club^
-||preferrain.com^
-||rum-static.pingdom.net^
 ||dev.visualwebsiteoptimizer.com^$script
 ||fastly.net/ads/$all
 ||doubleclick.net/instream/ad_status.js$script,redirect=doubleclick.net/instream/ad_status.js
@@ -2488,60 +2415,40 @@ tiktok.com###tiktok-verify-ele
 ||exosrv.com^
 ||fastpopclick.com^
 ||fastpopunder.com^
-||adswithsalt.com^
-||ratexchange.net^
-||adnotbad.com^
 ||serverads.net^
-||jsfuel.com^
 ||spaceshipad.com^
 ||tradeadsexchange.com^
 ||tradedoubler.com^
 ||emediate.se^
 ||emediate.net^
-||adservice.google.se^
-||id.google.se^
 ||freshchat.com^$all
 ||adserving.unibet.com^
 ||mgid.com^
 ||whos.amung.us^
 ||amung.us^
 ||mellowads.com
-||adclixx.net^
 ||ads.yahoo.com^
 ||adtrackers.net^
 ||bannertrack.net^
-||c.bing.com^
-||clickability.com^
 ||doubleclickbygoogle.com^
 ||geo.yahoo.com^
 ||propellerclick.com^
 ||adserver.yahoo.com^
 ||juicyads.com^
-||moatads.com^
 ||adshost.site^
 ||adcash.com^
 ||adcash.deviantart.com^
-||bongacams.com^
-||foolfishes.com^
 ||track.venatusmedia.com^
-||criteo.com^
-||viglink.com^
-||disqus.com/api/*/listrelated.json?
-||aaddcount.com^
 ||disqus.com^$3p
 ||adexchangecloud.com^
 ||puserving.com^
 ||etahub.com^
 ||adsco.re^
-||juicyads.com^
 ||popads.net^
 ||streamsb.net^
-||notifications-online.systems^
-||push-notification.tools^
 ||smartsuppchat.com^
 ||admesia.com^
 ||doublepimp.com^
-||adtng.com^
 ||adservme.com^
 ||logger.pw^
 ||adhigh.net^
@@ -2553,8 +2460,6 @@ tiktok.com###tiktok-verify-ele
 ||boudja.com^
 ||addtoany.com^
 ||freegeoip.net^
-||adprovider.adlure.net^
-||clksite.com^
 ||jads.co^
 ||loltrack.com^
 ||chatango.com^
@@ -2566,50 +2471,29 @@ tiktok.com###tiktok-verify-ele
 ||cookieinfoscript.com^
 ||cookiepro.com^
 ||curemedia.se^
-||bidgear.com^
-||adition.com^
 ||adexchangetracker.com^
 ||amazonaws.com^*/ad_loader$important
-||bitonclick.com^
-||lucklayed.info^
 ||ads.com^
 ||realsrv.com^
 ||bnserving.com^
 ||openstat.net^
-||wpnjs.com^
-||zeusadx.com^
-||adrunnr.com^
 ||affiliatelounge.com^
-||codeonclick.com^
-||misrepush.com^
-||adbetnet.com^
-||redirectingat.com^
-||fbcdn2.com^
 ||venturead.com^
 ||maxonclick.com^
 ||tracking.revimedia.com^
-||bannersnack.com^
-||google.*/complete/*$other
-||udc.yahoo.com^
 ||alluc.ee^
 ||promotions.betsafe.com^
 ||rtmark.net^
 ||dmm.com^
 ||rum-static.pingdom.net^
 ||track.adform.net^
-||cdn.blatungo.com^
-||tagbucket.cc^
-||hqq.watch^
 ||static.addtoany.com^
 ||mdn2015x3.com^
 ||gmobtrks.com^
 ||gtrafficshop.com^
 ||gverymuchad.com^
-||glimr.io^$3p
 ||syndicpop.com^
 ||casalemedia.com^
-||wwwpromoter.com^
-||typekit.net^
 ||xtendmedia.com^
 ||bugsnag.com^$3p
 ||app.link^$3p
@@ -2628,8 +2512,6 @@ tiktok.com###tiktok-verify-ele
 ||clksite.com^$all,important
 ||pxl2015x1.com^
 ||dummy.com^
-||etahub.com^$3p
-||mxpnl.com^3p
 ||cdnads.com^
 ||adbit.co^
 ||jsc.mgid.com^$important
@@ -2641,13 +2523,8 @@ tiktok.com###tiktok-verify-ele
 ||popads.net/pop.js^$script
 ||serving-sys.com^
 ||revrtb.com^$important
-||sb.scorecardresearch.com^
-||cdn.krxd.net^
 ||betnetmed.advertserve.com^$script,important
 ||waframedia20.com^$script,important
-||disqusads.com^$important
-||stackadapt.com^$important
-||adsnative.com^$important
 ||tracker.*/wss$websocket
 ||tracker.*/$script
 ||tracker.*/$xmlhttprequest
@@ -2660,36 +2537,6 @@ tiktok.com###tiktok-verify-ele
 ||spotxchange.com^$xmlhttprequest
 ||googletagmanager.com/gtm.js$script
 ||imrworldwide.com^$image
-||alfasense.com^$xhr
-||exchange.buzzoola.com^$xhr
-||fast.fonts.*/1.css
-.adnigma.
-.ad-traffic.
-.ad.final.
-.ad.footer.
-.ad.json?
-.ad/content/
-.ad/positions/
-.ad/script/
-.ad/scripts/
-.ad/tag.
-.adbanner.
-.adlabs.
-.adpartner.
-.adplacement=
-.ads-lazy.
-.ads-min.
-.ads-tool.
-.ads.controller.
-.ads.core.
-.ads.css
-.ads.loader-
-.ads.zones.
-.adsbox.
-.adsense
-.adserver
-.com/zone/
-.com/?zoneid=*&xref=*&uuid=$empty,important
 .nu/annons/
 .se/annons/
 .se/*/nativeadvertising/
@@ -2733,10 +2580,6 @@ movie/ads
 /bet365$popup
 /html/blocked.html$popup,important
 /bundles/analytics
-/css/analytics.js$script
-/css/logo.png$image
-/css/stat.js$script
-/css/swfobject.js$script
 /favicon.ico$image,important
 /icon-facebook.
 /icon-twitter.
@@ -2867,11 +2710,8 @@ movie/ads
 /socialmedia.
 /nativeads.js$script
 /likebox.
-/naughtyworms.gif
 /inc/annons.html
-/cookie-notice/$script
 /pagead
-/chronopop
 /?uclick=
 /redirect-ads.php
 /tc-under.min.js
@@ -2879,11 +2719,6 @@ movie/ads
 /chrome.js$script
 /compatibility.js$script
 /_graphics/annons/*
-/include/js/ga-
-/includes/analytics.
-/includes/fbevents.js
-/includes/tracker/*
-/IPbeacon.
 /jquery.slimscroll
 /smetrics.*/b/ss/
 /ntv.json
@@ -2942,63 +2777,6 @@ _track/engagement.
 _track/marketing.
 _track/visit.
 _tracking.php?
--ad-banner
--ad-category
--ad-code
--ad-column
--ad-content
--ad-cube
--ad-data
--ad-gif
--ad-home
--ad-hrule
--ad-iframe
--ad-large
--ad-left
--ad-limits
--ad-link
--ad-live
--ad-loading
--ad-marker
--ad-new
--ad-pixel
--ad-plugin
--ad-random
--ad-refresh
--ad-resize
--ad-right
--ad-rotator
--ad-server
--ad-sidebar
--ad-switcher
--ad-text
--ad-tile
--ad-big
--ad-bottom
--ad-button
--ad-category
--ad-choices
--ad-column
--ad-cube
--ad-data
--ad-gif-
--ad-gif1-
--ad-home.
--ad-iframe
--ad-top.
--ad-unit
--ad-util
--ad-zone.
--ad.jpg?
--ad.php?
--ad/dist
--ad/embed
--ad/main
--ad-large
--ad-left
--ad/right
--ad/source
--ad03.
 
 #Blocked Scripts
 pagead-id.js^
@@ -3019,23 +2797,18 @@ as.js^
 infinity.js^
 show_ads.js^
 conversion.js^
-ads.min.js^
-ads-min.js^
 tracking.js?
 ga.js^
 iam.js^
 named.min.js^
 www-pagead-id.js^
 outbrain.js^
-count.js^
 webhelper.js^
 defuser.js^
 sanitizer.js^
 ima3.js^
 alll.js^
 trustedsaver.js^
-intext.js^
-inject.js^
 ads.min.js^
 autoplayrenderer.js^
 speedyg.js^
@@ -3049,14 +2822,10 @@ adframe.js^
 showads.js^
 smartbanner.js^
 cnads.js^
-gif-browse.js^
 clk.js^
 launch-banner.js?
 notified-modal.js?
 integrator.js?
-stickypanorama.js^
-stickyskyscraper.js^
-geoIP.js^
 xpopup.js?
 sfp.js^
 Pop-under.js^
@@ -3074,9 +2843,6 @@ popuper.js^
 @@||ply.me^$subdocument
 @@||tracking*.se
 @@||maxcdn.bootstrapcdn.com^
-@@||typekit.net^$script
-@@||loadvid.online/embed
-@@||viduplayer.com/srt/
 @@||apis.google.com^$script
 @@||maps.google.com^$script,image
 @@||cdn.cloudflare.steamstatic.com^$image
@@ -3088,8 +2854,6 @@ popuper.js^
 @@||vidsrc.*^$subdocument,3p
 @@||youbora.com/*/js/adapters/jwplayer$script
 @@||chrome-extension://*?magnet$popup
-@@||cookielaw.org/scripttemplates/$script
-@@||cookielaw.org/consent/$other,xhr
 @@||consent.cookiebot.com/*.js$script
 @@*_cookie_$script
 @@*player.min.js$script
@@ -3136,36 +2900,6 @@ ads,bid,biz,click,country,cricket,date,diet,download,faith,fun,link,ltd,loan,men
 ads,bid,biz,click,country,cricket,date,diet,download,faith,fun,link,ltd,loan,men,mom,online,party,pink,pro,pw,review,racing,site,science,sexy,space,stream,study,style,systems,trade,top,work,website,webcam,win,world,wz,xin##+js(aopw, onpopstate)
 *$script,frame,xhr,popup,3p,domain=ads|bid|biz|click|country|cricket|date|diet|download|faith|fun|link|ltd|loan|men|mom|online|party|pink|pro|pw|review|racing|site|science|sexy|space|stream|study|style|systems|trade|top|work|website|webcam|win|world|wz|xin
 
-##[href*="https://axofinans.se"]
-##[href*="/information#advertising"]
-##[href*="/tuname.php"]
-##[href*="/rss"]
-##[src*="/s.php?"]
-##[src*="/ads.js?"]
-##[src*="/float"]
-##[src*="adserver"]
-##[src*="affiliate"]
-##[src*="http://ad."]
-##[src*="http://ads."]
-##[src*="https://ad."]
-##[src*="https://ads."]
-##[src*="http^://serve."]
-##[src*="http^://syndication."]			
-##[src*="AccessLog"]			
-##[id*="accessLog"]
-##[class*="accessLog"]
-##[onclick="highlight(this);"]
-##[onclick="triggerGatewayModal(event);"]
-##[src*="/is_clickunder"]
-##[src*="/b.js"]
-##[src*="/js/libcode3.js"]
-##[src*="/pop.js"]
-##[href*="//bwaab."]
-##[class=glx-image]
-###videoadv
-##iframe[width="468"][height="60"]
-##iframe[width="300"][height="250"]
-###adbtm
 ##[data-cfasync]
 ##[src="/social-box/"]
 ##[src*="/next.php"]
@@ -3208,20 +2942,12 @@ ads,bid,biz,click,country,cricket,date,diet,download,faith,fun,link,ltd,loan,men
 ://geo.$important
 ://log.$3p
 ://wchat.*^$important
-://lightning.*/launch/
 *##+js(aopr, InitCloseButton)
-*##+js(aopw, rAb)
-*##+js(aopw, AdDelivery)
 *##+js(acis, preLoadAds, loadAd)
 *##+js(acis, preLoadAds, setup)
 *##+js(acis, losAd)
 *##+js(acis, Exp, bamData)
-*##+js(acis, document.createElement, jsc.mgid.com)
 *##+js(aeld, DOMContentLoaded, adlinkfly)
-*##+js(ra, href, #clickfakeplayer)
-*##+js(aopr, jwplayer.utils.Timer)
-*##+js(aopr, jwplayer.vast)
-*##+js(aopr, AdDelivery.prototype.requestTrafficJunkyAds)
 *##+js(aopr, ExoLoader.serve)
 *##div[id*="sidebar"][data-before-content="advertisement"]:upward(3)
 *##[src*="/apu.php"]
@@ -3241,9 +2967,6 @@ ads,bid,biz,click,country,cricket,date,diet,download,faith,fun,link,ltd,loan,men
 *##.is-showing.has-noScroll.modal:style(display: none !important;)
 *##.disabled-vscroll:style(overflow: auto !important;)
 *##.in.fade.modal-backdrop
-*##a[onclick="closeMyAd()"]
-*##a[onclick="rdr(this);"]
-*##a[onclick="removeOverlayHTML();"]
 *##a[href*="betting"]
 *##a[href*="brandstudio"]
 *##a[href*="branding"]
@@ -3267,13 +2990,6 @@ ads,bid,biz,click,country,cricket,date,diet,download,faith,fun,link,ltd,loan,men
 *##.teaser:has(a[href*="lanapengar."])
 *##.teaser:has(a[href*="rabattkoder."])
 *##.teaser:has(a[href*="spel.expressen.se"])
-*/sw.js$script
-*/fac.php$all
-*/images/reklam$image
-*.html?q^$important
-*/redirect.aspx?
-/optimizelyjs/*
-/ad.js$script
 /\.cloudfront.*\/\?.*[a-zA-Z0-9]{5,16}/$script,3p
 .histats$script,important
 .adskeeper$script,important
@@ -3360,15 +3076,6 @@ ads,bid,biz,click,country,cricket,date,diet,download,faith,fun,link,ltd,loan,men
 *$media,redirect-rule=noopmp4-1s
 *$frame,redirect-rule=noopframe
 
-/?*&callback=callback_json_*$script
-/?pu=$script,3p
-/?pus=$script,3p
-/proxy_*.php?init_widget=$script
-/proxy_*.php?init_form=$script
-/proxy_*.php?init_widget=$script
-/proxy_*.php?init_button=$script
-/proxy_*.php?p___=*&part_url=*.php?callback=
-
 *##li:has(.content-label:has-text(/annons/i)):remove()
 *##article:contains(Ukens )
 *##[id*="netboard_"]
@@ -3406,8 +3113,6 @@ ads,bid,biz,click,country,cricket,date,diet,download,faith,fun,link,ltd,loan,men
 *##[id*="__clb"]
 *##[class*=xyz_]
 *##script:contains(async)
-*##script:contains(adsbyjuicy)
-*##script:contains(adzone)
 *##script:contains("adId")
 *##+js(aopr, _0xbeb9)
 *##+js(aopr, _0xe317)
@@ -3416,25 +3121,13 @@ ads,bid,biz,click,country,cricket,date,diet,download,faith,fun,link,ltd,loan,men
 *##+js(aopr, _0x32d5)
 *##+js(aopr, _0x4459)
 *##+js(aopr, AaDetector)
-*##+js(aopr, LieDetector)
-*##+js(aopw, Fingerprint2)
-*##+js(aopr, disableButtonTimer)
-*##+js(acis, document.createElement, __htas)
 *##[onclick="closeBanner()"]
 *##.bxslider-shoutout
-*##.block-company-ranking.block
-*##.ad-entry-html.ad
-*##.ad-shout-out.ad
-*##.block-body-plus.block
 *##.ipsAnnouncement
-*##^script:has-text(__perfMark('app_html_start');)
-*##^script:has-text(ads_dot)
-*##^script:has-text(FingerprintJS)
 *##+js(aopw, adcashMacros)
 *##+js(nowoif, stream-4k)
 *##a[href^="/stream-4k/"]
 *##a[href^="/download-4k/"]
-*##.pframe:has([href^="javascript: void(0);"])
 *##+js(popads-dummy)
 
 .online^$image,ping,popup,3p
@@ -3452,28 +3145,3 @@ ads,bid,biz,click,country,cricket,date,diet,download,faith,fun,link,ltd,loan,men
 /^https?:\/\/[a-z]{8,15}\.\/[a-z]{4,}\.json$/$xhr,3p,match-case
 /^https?:\/\/[a-z]{8,15}\.\/[a-z]{4,}\.css\?aHR0[\/0-9a-zA-Z]{41,}=?=?$/$css,3p,match-case
 /^https?:\/\/[a-z]{8,15}\.\/[a-z]{4,}\.png\?aHR0[\/0-9a-zA-Z]{41,}=?=?$/$image,3p,match-case
-
-/script/*.php$all,3p
-/script/*.js$all,3p
-/script/*.css$all,3p
-/page/*.html^$all,3p
-/pages/*.html^$all,3p
-/custom.$all,3p
-/config.$all,3p
-/ajax.$xhr,3p
-/articles.$all,3p
-/validators.$all,3p
-/data.$all,3p
-/menu.$all,3p
-/resources.$all,3p
-/static/*.html$all,3p
-/web/*.html$all,3p
-/wiki/*/web$all,3p
-/0/*.html^$all,3p
-/dcba/*$all
-?aHR0*=$important
-/[0-9a-f]{32}\/invoke\.js/$script,3p
-/script/su.js^$script
-/index/*$subdocument,3p
-||cloudflare-terms-of-service-abuse.com^
-/css/deblocker.min.css$stylesheet,1p
