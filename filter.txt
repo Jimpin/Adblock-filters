@@ -82,7 +82,6 @@ klart.se##+js(remove-class, mega-loading)
 ||ooul.tv/*/se-aftonbladet/aab/aftonbladet_$script
 ||youbora.com^*/sp.min.js$important
 ||jwpsrv.com^$subdocument,important
-||brandmetrics.com^$3p
 ||jwpcdn.com^*/*.js$script,domain=aftonbladet.se
 ||ab-web-notifications.herokuapp.com^$xhr
 ||interaction.acast.com/adImpression$xhr
@@ -2654,7 +2653,6 @@ tiktok.com###tiktok-verify-ele
 ||glimr.io^$3p
 ||syndicpop.com^
 ||casalemedia.com^
-||amazonaws.com/*.js$script,3p
 ||wwwpromoter.com^
 ||typekit.net^
 ||xtendmedia.com^
@@ -2675,7 +2673,6 @@ tiktok.com###tiktok-verify-ele
 ||clksite.com^$all,important
 ||pxl2015x1.com^
 ||dummy.com^
-||amazon.com^$3p
 ||etahub.com^$3p
 ||mxpnl.com^3p
 ||cdnads.com^
@@ -3112,8 +3109,6 @@ popuper.js^
 
 #Allowed
 @@||stream.nbcsports.com^
-@@||amazonaws.com/pollsystem*$script,3p
-@@||media-amazon.com^$css
 @@||ajax.googleapis.com/ajax/libs/jquery/
 @@||data-live.flightradar24.com/zones/*$script
 @@||fonts.googleapis.com/css$third-party
@@ -3125,7 +3120,6 @@ popuper.js^
 @@||ply.me^$subdocument
 @@||tracking*.se
 @@||maxcdn.bootstrapcdn.com^
-@@||amazonaws.com^$image
 @@||analytics.google.com^
 @@||typekit.net^$script
 @@||loadvid.online/embed
@@ -3134,7 +3128,6 @@ popuper.js^
 @@||apis.google.com^$script
 @@||google.com^$frame,xhr
 @@||maps.google.com^$script,image
-@@||media-amazon.com^$image
 @@||cdn.cloudflare.steamstatic.com^$image
 @@||steamcdn-a.akamaihd.net^$image
 @@||steamstore-a.akamaihd.net^$image
