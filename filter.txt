@@ -326,15 +326,10 @@ youtube.com##+js(set-constant, ytInitialPlayerResponse.adPlacements, undefined)
 youtube.com##+js(set-constant, playerResponse.adPlacements, undefined)
 youtube.com##+js(ra, href, [href*=http:"][target])
 youtube.com##ytd-video-masthead-ad-advertiser-info-renderer
-youtube.com###__ffYoutube1
-youtube.com###__ffYoutube2
-youtube.com###__ffYoutube3
-youtube.com###__ffYoutube4
 youtube.com###offer-module
 youtube.com###pla-shelf > ytd-pla-shelf-renderer[class="style-scope ytd-watch"]
 youtube.com###promotion-shelf
 youtube.com###related > ytd-watch-next-secondary-results-renderer > #items > ytd-compact-promoted-video-renderer.ytd-watch-next-secondary-results-renderer
-youtube.com###watch7-branded-banner
 youtube.com##ytd-search-pyv-renderer
 youtube.com#$#ytd-page-manager { overflow-y: unset !important; }
 youtube.com#$##page-manager.ytd-app { overflow-x: unset !important; }
