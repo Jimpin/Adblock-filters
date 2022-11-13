@@ -311,6 +311,7 @@ youtube.com##+js(json-prune, [].playerResponse.adPlacements [].playerResponse.pl
 youtube.com##+js(set-constant, ytInitialPlayerResponse.adPlacements, undefined)
 youtube.com##+js(set-constant, playerResponse.adPlacements, undefined)
 youtube.com##+js(ra, href, [href*=http:"][target])
+youtube.com##[class="yt-simple-endpoint style-scope yt-formatted-string"]:contains(.)
 youtube.com##ytd-video-masthead-ad-advertiser-info-renderer
 youtube.com###offer-module
 youtube.com###pla-shelf > ytd-pla-shelf-renderer[class="style-scope ytd-watch"]
