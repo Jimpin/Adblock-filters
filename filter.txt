@@ -307,6 +307,7 @@ youtube.com###infoButton
 youtube.com##.opened
 youtube.com##.yt-alert-content
 youtube.com###comment-teaser
+youtube.com##.yt-formatted-string.style-scope.bold.yt-simple-endpoint ,[href*=": : :"]
 youtube.com##+js(json-prune, [].playerResponse.adPlacements [].playerResponse.playerAds playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds)
 youtube.com##+js(set-constant, ytInitialPlayerResponse.adPlacements, undefined)
 youtube.com##+js(set-constant, playerResponse.adPlacements, undefined)
