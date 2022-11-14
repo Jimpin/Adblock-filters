@@ -323,6 +323,9 @@ youtube.com##.ytp-fullerscreen-edu-text
 youtube.com##.ytp-paid-content-overlay
 youtube.com##.ytp-cued-thumbnail-overlay
 youtube.com###clarify-box > .ytd-watch-flexy.style-scope
+youtube.com###inline-preview-player > div.ytp-inline-preview-ui
+youtube.com###inline-preview-player
+youtube.com###hover-overlays > ytd-thumbnail-overlay-loading-preview-renderer.style-scope.ytd-thumbnail:last-child > span.style-scope.ytd-thumbnail-overlay-loading-preview-renderer
 youtube.com##[class="style-scope ytd-video-preview"]
 youtube.com##[class="style-scope yt-live-chat-viewer-engagement-message-renderer"]
 youtube.com##.ytp-fullerscreen-edu-chevron
