@@ -1379,36 +1379,11 @@ goal.com##.widget-semantic-player--displayed.widget-semantic-player
 tiktok.com###tiktok-verify-ele
 ||api.github.com/_private/browser/stats$important
 ##[class$="-sns-box"]
-###textAd
-###ad1
-###ad2
-###adv
-##.adv_block.col
-##.adShoutBox
-##.ad-01
-##.ad-02
-##.ad-03
-##.ad-box
-##.ad-left
-##.ad-right
-##.ad1
-##.ad2
-##.adtimes
-##div.linkads
-###advertise
 ###adPopup
 ###ad_scroll_view
 ##.sharebuttons
 ##.sharethis-inline-share-buttons
-##.o-advert
 ##.internal-ad
-##.desktop-ad-web
-##.desktop-mpu-ad-container
-##[id^="adblock"]
-##.ad-banner-wrapper
-##.adblocker-popup
-##.adblocker-full-overlay
-##.text-center.adb_wrapper_off
 ##.clear.hd
 ##.widget-gpdr-banner
 ##.please-disable-modal
@@ -1475,11 +1450,7 @@ tiktok.com###tiktok-verify-ele
 ##[id="close_ad"]
 ##[id="close_ads"]
 ###layer
-###mb_modules_popups_Container
-###user-message-container
-###warning
 ##.Alert
-##.cookie
 ##.alert
 ##.alertWrap
 ##.avalanche-message
@@ -1530,10 +1501,7 @@ tiktok.com###tiktok-verify-ele
 ##.ad-container
 ##.gdpr_banner
 ##.video-ads
-##div[class="mhp1138_switchers"]
-##.ytp-ad-progress-list
 ##.abAlertInner
-##[class="sniperModeEngaged"]
 ##.AdBox
 ##.cmp-animate.cmp-iframe-ready.cmp-overlay
 ##[data-entrycode="AdBlock"]
@@ -1696,7 +1664,6 @@ tiktok.com###tiktok-verify-ele
 ##.ad_bigbox
 ##[href^="https://www.000webhost.com/"]
 ##.closeAdBlock
-##.adtrue-holder:not(body):not(html)
 ###AdFloater
 ###banner-ad-container
 ##.ad-choices
@@ -1719,15 +1686,6 @@ tiktok.com###tiktok-verify-ele
 ##.thirdPartyRoot.previewOn.__Microsoft_Owa_MessageListAds_ListView_templates_cs_5
 ##.loading-background
 ##.showingCounter
-##._lvv_61 > div > div:nth-of-type(1)
-##[src*="/banner/160x600"]
-##[src*="/banner_upper.png"]
-##[src*="/banner_lower.png"]
-##[id*="overlay2-banner"]
-##[id*="ad-overlay"]
-##[id*="get-code"]
-##[class="code-close"]
-##[class="code-main"]
 ##.ab-wrapper.row
 ##.alpha.sniperModeEngaged
 ##.top-bar-adblock
@@ -1777,9 +1735,6 @@ tiktok.com###tiktok-verify-ele
 ##.left-advertise-bar
 ##.goog-te-banner-frame.skiptranslate
 ##.footerlinkad > center
-##.col-lg-12:nth-of-type(1) > .small
-##.col-lg-12:nth-of-type(1) > .hidden-xs
-##.col-lg-12:nth-of-type(1) > .desc
 ##body > .enesuch
 ##.sectionWrapper > .enesuch
 ##.heatwarning > iframe
@@ -1824,7 +1779,6 @@ tiktok.com###tiktok-verify-ele
 ##.sectionWrapper.abEnabled .sectionTitle + div
 ###modal_loading
 ###modal_overlay
-##.divascookies-banner-container
 ##.cc-cookies
 ##.cc-floating
 ##.cc_banner
@@ -1854,8 +1808,6 @@ tiktok.com###tiktok-verify-ele
 ##.show.cw-fade.cw-modal
 ##.hidden-print.css-za945f-alertInfo
 ###social-foot
-##.tab-content > .main-content > .tab-content > .main-content > .tab-content > .main-content > .tab-content > .content-kus
-###material-notice
 ##.ads-ad
 ##.ad-block-notice
 ###countryRedirectMessage
@@ -1992,61 +1944,6 @@ tiktok.com###tiktok-verify-ele
 ##.innerad
 ##.is-sponsored
 ##.jquery-script-ads
-##.js-ad
-##.js-ad-comment
-##.js-ad-banner-container
-##.js-ad-container
-##.js-ad-doubleimu
-##.js-ad-dynamic
-##.js-ad-hideable
-##.js-ad-home
-##.js-ad-hover
-##.js-ad-imu
-##.js-ad-konvento
-##.js-ad-loaded
-##.js-ad-loader-bottom
-##.js-ad-prepared
-##.js-ad-primary
-##.js-ad-slot
-##.js-ad-space-container
-##.js-ad-static
-##.js-ad-unit-bottom
-##.js-ad-wrapper
-##.js-ad_iframe
-##.js-ad_iframe_wrap
-##.js-ads
-##.js-ads-carousel
-##.js-adv-rotator-image
-##.js-advert
-##.js-advert--responsive
-##.js-advert--vc
-##.js-advert-container
-##.js-advert-upsell-popup
-##.js-advertising__placeholder1
-##.js-billboard-advert
-##.js-dfp-ad
-##.js-dfp-ad-bottom
-##.js-gptAd
-##.js-header-ad
-##.js-header-ad-wrapper
-##.js-native-ad
-##.js-no-sticky-ad
-##.js-overlay_ad
-##.js-react-simple-ad
-##.js-results-ads
-##.js-site-header-advert
-##.js-slide-right-ad
-##.js-slide-top-ad
-##.js-slim-nav-ad
-##.js-sticky-ad
-##.js-sticky-ads-bdp-desktop
-##.js-stream-ad
-##.js-stream-featured-ad
-##.js-toggle-ad
-##.js_adContainer
-##.js_contained-ad-container
-##.js_slideshow-full-width-ad
-##.js_slideshow-sidebar-ad
 ##.lazy-ad
 ##.lazy-adv
 ##.lazyad
@@ -2136,24 +2033,6 @@ tiktok.com###tiktok-verify-ele
 ##.popupAdOuter
 ##.popupAdWrapper
 ##.popup_ad
-##.promo-ad
-##.promo-box--ad
-##.promo-box--leaderboard-ad
-##.promo-class-brand-getprice
-##.promo-mpu
-##.promo-news__adv
-##.promo-topper__ad
-##.promoAd
-##.promoAds
-##.promoAdvertising
-##.promo_ad
-##.promo_ads
-##.promo_border
-##.promoad
-##.promoboxAd
-##.promoted_content_ad
-##.promotionTextAd
-##.promotional-feature-ads
 ###rang2
 ##.regularad
 ##.reklam
@@ -2167,46 +2046,11 @@ tiktok.com###tiktok-verify-ele
 ##.removeAdsLink
 ##.removeAdsStyle
 ##.reportAdLink
-##.sky-ad
-##.sky-ad1
-##.skyAd
-##.skyAdd
-##.skyAdvert
-##.skyAdvert2
-##.skyCraper_bannerLong
-##.skyCraper_bannerShort
-##.sky_ad
-##.sky_ad_top
-##.sky_scraper_ad
-##.skycraper-banner-container
-##.skyjobsadtext
-##.skyscraper-ad
-##.skyscraper-ad-1
-##.skyscraper-ad-container
-##.skyscraperAd
-##.skyscraper_ad
-##.skyscraper_bannerAdHome
-##.skyscraper_banner_ad
 ##.trafficAdSpot
 ##.trafficjunky-ad
 ##.vjs-ad-iframe
 ##.vjs-ad-overlay
 ##.vjs-ima3-ad-container
-*##[href*=".world"]
-*##[href*=".wz"]
-*##[href*=".style"]
-*##[href*=".pw"]
-*##[href*=".site"]
-*##[href*=".pink"]
-*##[href*=".click"]
-*##[href*=".cricket"]
-*##[href*=".faith"]
-*##[href*=".online"]
-*##[href*=".racing"]
-*##[href*=".website"]
-*##[href*=".trade"]
-*##[href*=".space"]
-*##[href*=".webcam"]
 *##[href*="adnxs.com"]
 *##[href*="adclick."]
 *##[href*="adrunnr.com"]
@@ -2238,21 +2082,6 @@ tiktok.com###tiktok-verify-ele
 *##[href*="a2g-secure.com"]
 
 #Ads/Trackers
-*count.
-*counter.
-*counter2.
-*hits.
-*impression.
-*logs.
-*logger.
-*metrics.
-*pixel.$~stylesheet
-*stat.$~stylesheet
-*track.
-*tracker.
-*trackers.
-*tracking.
-*ucounter.
 ||omnitagjs.com^$xhr,important
 ||stackpathcdn.com^$xhr
 ||adservice.com^
@@ -2766,7 +2595,6 @@ ads,bid,biz,click,country,cricket,date,diet,download,faith,fun,link,ltd,loan,men
 ://stats.$important
 ://geo-$important
 ://geo.$important
-://log.$3p
 ://wchat.*^$important
 *##+js(aopr, InitCloseButton)
 *##+js(acis, preLoadAds, loadAd)
@@ -2848,7 +2676,6 @@ ads,bid,biz,click,country,cricket,date,diet,download,faith,fun,link,ltd,loan,men
 ##.light.as-oil
 ###tyche_cmp_modal
 ##.popup_overlay--2rgA3
-##.pub_300x250.pub_300x250m.pub_728x90.text-ad.textAd.text_ad.text_ads.text-ads.text-ad-links:style(display: block !important;)
 ##[class*="a2a_"]
 ###importantMessage
 ||jwpcdn.com^/*.js$script
@@ -2926,7 +2753,6 @@ ads,bid,biz,click,country,cricket,date,diet,download,faith,fun,link,ltd,loan,men
 *##body,html:style(z-index: 30000)
 *##body,html:style(z-index: -21474836)
 *##body,html:style(z-index: 21474836)
-*##^script:has-text(/^[\w\W]{1700,3000}$/):has-text(/(\\x\d\w){250}/)
 *##+js(set, blurred, false)
 *##[src*="/pfe/current/"]
 *##[class*="id-custom_ad"]
