@@ -318,7 +318,6 @@ youtube.com###pla-shelf > ytd-pla-shelf-renderer[class="style-scope ytd-watch"]
 youtube.com###promotion-shelf
 youtube.com###related > ytd-watch-next-secondary-results-renderer > #items > ytd-compact-promoted-video-renderer.ytd-watch-next-secondary-results-renderer
 youtube.com##ytd-search-pyv-renderer
-youtube.com##.ytd-metadata-row-container-renderer.style-scope > .ytd-rich-metadata-row-renderer.style-scope
 youtube.com##.ytp-fullerscreen-edu-text
 youtube.com##.ytp-paid-content-overlay
 youtube.com##.ytp-cued-thumbnail-overlay
@@ -335,8 +334,6 @@ youtube.com###masthead-ad
 youtube.com##.masthead-ad-control,.ad-div,.pyv-afc-ads-container
 youtube.com###video-masthead
 youtube.com###hats-container
-youtube.com##.ytp-button.ytp-miniplayer-button
-youtube.com##.GoogleActiveViewElement.ytd-watch-next-secondary-results-renderer.style-scope:has-text(Annons)
 youtube.com##.page-loaded
 *_ad_$media,redirect-rule=noopmp3-0.1s
 ||google.*/jsapi?autoload=*$script
