@@ -106,49 +106,6 @@ iframe*$popup
 ##.policy-popup
 ##.popupBase.notification
 ###yf3-popup-container
-||oclasrv.com^
-||onclasrv.com^
-||onclkds.com^
-||xxlargepop.com^
-||onclicksuper.com^
-||adnetworkperformance.com^
-||advertserve.com^
-||adexchangeprediction.com^
-||adk2x.com^
-||adserving.unibet.com^
-||bet365.com^$popup,3p
-||harleyquinnwidget.net^
-||static.tellerium.com^
-||deloton.com^
-||doubleclick.net^
-||go.trafficshop.com^
-||rtmark.net^
-||juicyads.com^
-||onclickads.net^
-||1yqbp.com^
-||suggedin.info^
-||efishedo.info^
-||insupposity.info^
-||enclosely.info^
-||aclassigned.info^
-||maraukog.info^
-||acinster.info^
-||gleaminist.info^
-||perfecttoolmedia.com^
-||promotions.betsafe.com^
-||asdad.xyz^
-||popcash.net^
-||inclk.com^
-||thousers.com^
-||promos.bwin.com^
-||affiliatelounge.com^
-||1xbet.com^
-||mgid.com^
-||nextoptim.com^
-||constintptr.com^
-||clicknety.com^
-||rizk.com^
-||wchat.*^$important
 -ads-campaign/$popup
 .co/ads/$popup
 .com/?adv=$popup
@@ -244,37 +201,9 @@ _popunder+$popup
 ?bannerid=*&punder=$popup
 ?iiadext=$popup
 ?zoneid=*_bannerid=$popup
-_popunder+$popup
-/load?^$popup
-*&action=$popup,3p
-*&utm_campaign=*$popup,3p
-*&tracker_id=$popup,3p
-*=displayads&$popup
-*.html?q^$popup,3p
-*.html?*&s=*&ws=$popup,3p
-/search.php$popup,3p
-/affiliate/*$popup
-/?ref=$popup,3p
-/redirects/$popup,3p
-/redirect?given=$popup,popunder
-/index.html?affID=$popup,3p
-/video_pop.php?$popup
-/track/$popup,3p
-/?link=$popup,3p
-/?key=$popup,3p
-/affiliates/$popup,3p
-/partners/$popup,3p
-/network/redir?$popup,3p
-/referrals?$popup,3p
-/play?ref=$popup,3p
-/pops/$popup,3p
-/*&rbx_$popup
-/random*.php$popup
-/?join_overlay=$popup
-/sitestats/openwindow/$popup
-ads,bid,biz,click,country,cricket,date,diet,download,faith,fun,info,link,ltd,loan,me,men,mom,online,om,party,pink,pro,pw,review,racing,site,science,sexy,space,stream,study,style,systems,trade,top,work,website,webcam,win,world,wz,xin,xyz##+js(aopr, popunder)
-ads,bid,biz,click,country,cricket,date,diet,download,faith,fun,info,link,ltd,loan,me,men,mom,online,om,party,pink,pro,pw,review,racing,site,science,sexy,space,stream,study,style,systems,trade,top,work,website,webcam,win,world,wz,xin,xyz##+js(aeld, popstate)
-ads,bid,biz,click,country,cricket,date,diet,download,faith,fun,info,link,ltd,loan,me,men,mom,online,om,party,pink,pro,pw,review,racing,site,science,sexy,space,stream,study,style,systems,trade,top,work,website,webcam,win,world,wz,xin,xyz##+js(aopr, BetterJsPop)
+ads,bid,biz,click,country,cricket,date,diet,download,faith,fun,link,ltd,loan,men,mom,online,party,pink,pro,pw,review,racing,site,science,sexy,space,stream,study,style,systems,trade,top,work,website,webcam,win,world,wz,xin##+js(aopr, popunder)
+ads,bid,biz,click,country,cricket,date,diet,download,faith,fun,link,ltd,loan,men,mom,online,party,pink,pro,pw,review,racing,site,science,sexy,space,stream,study,style,systems,trade,top,work,website,webcam,win,world,wz,xin##+js(aeld, popstate)
+ads,bid,biz,click,country,cricket,date,diet,download,faith,fun,link,ltd,loan,men,mom,online,party,pink,pro,pw,review,racing,site,science,sexy,space,stream,study,style,systems,trade,top,work,website,webcam,win,world,wz,xin##+js(aopr, BetterJsPop)
 
 ##Allowed elements
 @@||account*^$1p

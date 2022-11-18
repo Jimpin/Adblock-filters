@@ -290,9 +290,6 @@ tv4play.se##a[href="https://www.cmore.se/tv-program?utm_source=tv4play&utm_mediu
 ||bonnier-html-player.b17g.services/bumpers/$media,redirect-rule=noopmp4-0.1s,domain=tv4play.se|fotbollskanalen.se
 ||cloudfront.net/creatives/assets/$image,media,domain=fotbollskanalen.se|tv4play.se
 ||cmore.se/*.gif$image
-||cedexis-radar.net^$xhr
-||radar.cedexis.com^$script
-||fls.doubleclick.net^$subdocument
 ||trafficgateway.research-int.se/TrafficCollector$image
 ||adservice.google.com^$subdocument
 ||google.*/ads/ga-audiences$image
@@ -305,6 +302,7 @@ tv4play.se##a[href="https://www.cmore.se/tv-program?utm_source=tv4play&utm_mediu
 #Youtube.com
 youtube.com###infoButton
 youtube.com##.opened
+youtube.com###offer-module
 youtube.com##.yt-alert-content
 youtube.com###comment-teaser
 youtube.com##+js(json-prune, [].playerResponse.adPlacements [].playerResponse.playerAds playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds)
@@ -312,23 +310,20 @@ youtube.com##+js(set-constant, ytInitialPlayerResponse.adPlacements, undefined)
 youtube.com##+js(set-constant, playerResponse.adPlacements, undefined)
 youtube.com##ytd-comment-renderer.ytd-comment-replies-renderer.style-scope:contains(.)
 youtube.com###content-text > .yt-formatted-string.style-scope.yt-simple-endpoint:contains(.)
+youtube.com##.sparkles-light-cta.ytd-item-section-renderer.style-scope:contains(Annons)
 youtube.com##ytd-video-masthead-ad-advertiser-info-renderer
-youtube.com###offer-module
-youtube.com###pla-shelf > ytd-pla-shelf-renderer[class="style-scope ytd-watch"]
-youtube.com###promotion-shelf
 youtube.com###related > ytd-watch-next-secondary-results-renderer > #items > ytd-compact-promoted-video-renderer.ytd-watch-next-secondary-results-renderer
 youtube.com##ytd-search-pyv-renderer
 youtube.com##.ytp-fullerscreen-edu-text
 youtube.com##.ytp-paid-content-overlay
 youtube.com##.ytp-cued-thumbnail-overlay
-youtube.com###clarify-box > .ytd-watch-flexy.style-scope
+youtube.com##.ytp-button.ytp-miniplayer-button
 youtube.com###inline-preview-player > div.ytp-inline-preview-ui
 youtube.com###inline-preview-player
 youtube.com###hover-overlays > ytd-thumbnail-overlay-loading-preview-renderer.style-scope.ytd-thumbnail:last-child > span.style-scope.ytd-thumbnail-overlay-loading-preview-renderer
 youtube.com##[class="style-scope ytd-video-preview"]
 youtube.com##[class="style-scope yt-live-chat-viewer-engagement-message-renderer"]
 youtube.com##.ytp-fullerscreen-edu-chevron
-youtube.com###promotion-shelf
 youtube.com###material-notice
 youtube.com###masthead-ad
 youtube.com##.masthead-ad-control,.ad-div,.pyv-afc-ads-container
@@ -2119,8 +2114,6 @@ tiktok.com###tiktok-verify-ele
 ||taboola.com^
 ||2mdn.net^
 ||track.adform.net^
-||adsby.bidtheatre.com^
-||doubleclick.net^
 ||creative.wwwpromoter.com^
 ||disqus.com/count.js$script
 ||disqus.com/embed.js$script
@@ -2152,34 +2145,21 @@ tiktok.com###tiktok-verify-ele
 ||freshchat.com^$all
 ||adserving.unibet.com^
 ||mgid.com^
-||whos.amung.us^
-||amung.us^
 ||mellowads.com
 ||ads.yahoo.com^
-||adtrackers.net^
-||bannertrack.net^
-||doubleclickbygoogle.com^
 ||geo.yahoo.com^
 ||propellerclick.com^
 ||adserver.yahoo.com^
 ||juicyads.com^
 ||adshost.site^
-||adcash.com^
-||adcash.deviantart.com^
 ||track.venatusmedia.com^
 ||disqus.com^$3p
-||adexchangecloud.com^
-||puserving.com^
 ||etahub.com^
 ||adsco.re^
 ||popads.net^
 ||streamsb.net^
-||smartsuppchat.com^
-||admesia.com^
 ||doublepimp.com^
 ||adservme.com^
-||logger.pw^
-||adhigh.net^
 ||adxadtracker.com^
 ||clcknads.pro^
 ||trackingpro.pro^
@@ -2188,14 +2168,6 @@ tiktok.com###tiktok-verify-ele
 ||boudja.com^
 ||addtoany.com^
 ||freegeoip.net^
-||jads.co^
-||loltrack.com^
-||chatango.com^
-||converdiant.com^$3p
-||cookie-script.com^
-||cookieinfoscript.com^
-||cookiepro.com^
-||curemedia.se^
 ||adexchangetracker.com^
 ||ads.com^
 ||realsrv.com^
@@ -2221,24 +2193,17 @@ tiktok.com###tiktok-verify-ele
 ||xtendmedia.com^
 ||loadercdn.com^
 ||promos.bwin.com^
-||adk2x.com^
-||exdynsrv.com^$important
-||linkonclick.com^$important
 ||adnety.com^
 ||clicknety.com^
 ||adk2.co^
 ||onesignal.com^
 ||adx1.com^
 ||adxprtz.com^
-||geoip.redirect-ads.com^
-||clksite.com^$all,important
 ||pxl2015x1.com^
 ||adbit.co^
 ||jsc.mgid.com^$important
 ||optimizely.com^
 ||adxprtz.com^
-||geoservice.curse.com^$important
-||freegeoip.net^$script,important
 ||serving-sys.com^
 ||revrtb.com^$important
 ||waframedia20.com^$script,important
@@ -2247,11 +2212,6 @@ tiktok.com###tiktok-verify-ele
 ||tracker.*/$xmlhttprequest
 ||connect.facebook.net/signals/*$script
 ||graph.facebook.com^
-||fls.doubleclick.net^$subdocument
-||richmetrics.com^$script
-||spotxchange.com^$xmlhttprequest
-||googletagmanager.com/gtm.js$script
-||imrworldwide.com^$image
 .nu/annons/
 .se/annons/
 .se/*/nativeadvertising/
@@ -2276,12 +2236,6 @@ movie/ads
 /adsrvmedia
 /async/ads
 /asyncadload
-/\.com\/[0-9a-z]{2}\/[0-9a-z]{2}\/[0-9a-z]{2}\/[0-9a-z]{32}\.js/$script,3p
-/\:\/\/data.*\.com\/[a-zA-Z0-9]{30,}/$xhr,3p
-/\:\/\/[a-z0-9]{5,32}\.(bid|com)\/[0-9]{2,9}\.css$/$stylesheet,3p
-/\:\/\/[a-z0-9]{5,40}\.com\/[0-9]{2,9}\/$/$script,stylesheet,xhr,3p
-/\:\/\/[a-z0-9]{5,}\.com\/[A-Za-z0-9]{3,}\/$/$script,xhr,3p
-/(\W|_)coin(\W|_)*hive[0-9]*(\W|_)/$all
 /ads?
 /player*/ad*.php$xhr,1p
 /bet365$popup
@@ -2422,33 +2376,6 @@ movie/ads
 /puopen.php?
 /puscript
 /ruxitagentjs_
-=counter&
-=defaultimpression&
-=ping&
-=pixel&
-=pixel.load&
-=publisher.track_
-=track_visitor&
-_status?notification=*$xmlhttprequest
-_count.php?
-_counter.jsp?
-_counter.php?
-_device_id.
-_impression.php?
-_increment_clicks_
-_internal_tracker.
-_loghuman=
-_metricscollection.
-_metricstagging.
-_pixel?
-_setanalyticsfields&
-_stat.php?id=
-_statistics_counter.
-_stats.php?
-_track/engagement.
-_track/marketing.
-_track/visit.
-_tracking.php?
 
 #Blocked Scripts
 pagead-id.js^
@@ -2457,13 +2384,6 @@ advert.js^
 advertisement.js^
 adservice.js^
 prerolls.js^
-adsense.js^
-DialogTag3.js^
-toolbarx.js^
-toolbar.js^
-06a510.js^
-smart.js^
-as.js^
 infinity.js^
 show_ads.js^
 conversion.js^
@@ -2473,14 +2393,11 @@ iam.js^
 named.min.js^
 www-pagead-id.js^
 outbrain.js^
-defuser.js^
-ima3.js^
 trustedsaver.js^
 ads.min.js^
 autoplayrenderer.js^
 transcript.js^
 fs.js^
-form.js?
 awp.min.js^
 autotrack.js^
 site_ads.js^
@@ -2503,7 +2420,6 @@ popuper.js^
 @@||steamstatic.com^$image
 @@||youtube.com/embed/*$subdocument
 @@||redirector.googlevideo.com/videoplayback$media
-@@||ply.me^$subdocument
 @@||apis.google.com^$script
 @@||maps.google.com^$script,image
 @@||cdn.cloudflare.steamstatic.com^$image
@@ -2512,39 +2428,20 @@ popuper.js^
 @@||googlevideo.com/videoplayback?^$xhr
 @@||youbora.com/*/js/adapters/jwplayer$script
 @@||chrome-extension://*?magnet$popup
-@@||consent.cookiebot.com/*.js$script
-@@*_cookie_$script
 @@*player.min.js$script
-@@/js/lib/cookieconsent*.js$script
-@@/js/libs/cookieconsent.min.js$script
-@@/js/cookielawinfo.js$script
-@@/cdn-cgi/apps/head/*.js
 @@/js/page-landing-page.js?*$script
 @@/live/*.m3u8
 @@/live/*.ts
 @@?utm_medium=iframe_widget$popup
 @@/videos/$image
-@@/scripts/app.js?
-@@/assets/*/js/^$script
-@@/accounts/*$popup
-@@/assets/*$script
-@@upload-*^$xhr
 @@/css/bootstrap.min.css$css
 @@_next/static/$script
-@@_ajax?^$1p
-@@/util/*$script,1p
 @@/jwplayer*.js$script,1p
 @@/assets/js/player.js$script
 @@/manifest.json$other,xhr,1p
-@@/translations/*.json
-@@/redirector$media,3p
 @@*.m3u8$xhr
 @@*.ts$xhr
 @@/?stream=
-
-tv,to,io,co,cc,com##[href*="javascript:void(0);"]
-tv,to,io,co,cc,com##[href*="/adult"]
-tv,to,io,co,cc,com##[href*="/advertising"]
 
 ads,bid,biz,click,country,cricket,date,diet,download,faith,fun,link,ltd,loan,men,mom,online,party,pink,pro,pw,review,racing,site,science,sexy,space,stream,study,style,systems,trade,top,work,website,webcam,win,world,wz,xin,xyz##[href*="javascript:"]
 ads,bid,biz,click,country,cricket,date,diet,download,faith,fun,link,ltd,loan,men,mom,online,party,pink,pro,pw,review,racing,site,science,sexy,space,stream,study,style,systems,trade,top,work,website,webcam,win,world,wz,xin,xyz##[rel="nofollow"][href*="//"]
@@ -2642,12 +2539,6 @@ ads,bid,biz,click,country,cricket,date,diet,download,faith,fun,link,ltd,loan,men
 *##.teaser:has(a[href*="rabattkoder."])
 *##.teaser:has(a[href*="spel.expressen.se"])
 /\.cloudfront.*\/\?.*[a-zA-Z0-9]{5,16}/$script,3p
-.histats$script,important
-.adskeeper$script,important
-.addthis$script,important
-.mgid$important
-.scund$important
-/?acncd$important
 /jssdks$3p
 /ntfc$3p
 /close.png$image,important
