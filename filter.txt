@@ -1014,7 +1014,6 @@ rltracker.pro##.col-sm-12 > .row
 /ados.js$important
 /popunder1.js$important
 /evercookie_
-/pagead2.
 /ucount.php?
 &&_=
 &targetwindow=_$frame
@@ -2350,7 +2349,6 @@ movie/ads
 /wp-content/ads/*
 /socialmedia.
 /likebox.
-/pagead
 /?uclick=
 /redirect-ads.php
 /tc-under.min.js
