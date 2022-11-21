@@ -210,20 +210,6 @@ twitch.tv##.prime-extension-root--show.prime-extension-root
 ||countess.twitch.tv^
 ||spade.twitch.tv^
 
-#Instagram.com
-instagram.com##[class*="_8U"]:contains(Förslag för dig)
-instagram.com##:contains(för dig):style(display: none !important;)
-instagram.com##[style*="height: 208px; width: 200px;"]
-instagram.com##a[href="/explore/people/"]
-instagram.com##.EM8Od
-instagram.com##[class*="Ecj"]
-instagram.com##.GZkEI.ccgHY._6E_wP.vboSt.bLWKA._8Rm4L > ._4EzTm.eGOV_.IwRSH.Igw0E.qF0y9 > .EcJQs
-instagram.com##.GZkEI.ccgHY._6E_wP.vboSt.bLWKA._8Rm4L > ._4EzTm.eGOV_.IwRSH.Igw0E.qF0y9
-instagram.com##div:matches-css(width: 616px):matches-css(height: 42px)
-instagram.com##[class]:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
-instagram.com#?#footer[role="contentinfo"]+div[class]:has(> div[class] > a[href="/accounts/emailsignup/"])
-@@||instagram.com/static/*$script
-
 #Twitter
 twitter.com##html:style(overflow-y: auto !important;)
 twitter.com##section:only-child > h1[id][aria-level="1"] + div[aria-label] div[class^=css-] > h2 > div[dir=auto]:upward(3)
@@ -308,30 +294,18 @@ youtube.com###comment-teaser
 youtube.com##+js(json-prune, [].playerResponse.adPlacements [].playerResponse.playerAds playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds)
 youtube.com##+js(set-constant, ytInitialPlayerResponse.adPlacements, undefined)
 youtube.com##+js(set-constant, playerResponse.adPlacements, undefined)
-youtube.com##ytd-comment-renderer.ytd-comment-replies-renderer.style-scope:contains(.)
-youtube.com###content-text > .yt-formatted-string.style-scope.yt-simple-endpoint:contains(.)
-youtube.com##.sparkles-light-cta.ytd-item-section-renderer.style-scope:contains(Annons)
-youtube.com##ytd-video-masthead-ad-advertiser-info-renderer
-youtube.com###related > ytd-watch-next-secondary-results-renderer > #items > ytd-compact-promoted-video-renderer.ytd-watch-next-secondary-results-renderer
-youtube.com##ytd-search-pyv-renderer
 youtube.com##.ytp-fullerscreen-edu-text
 youtube.com##.ytp-paid-content-overlay
 youtube.com##.ytp-cued-thumbnail-overlay
 youtube.com##.ytp-button.ytp-miniplayer-button
 youtube.com###inline-preview-player > div.ytp-inline-preview-ui
 youtube.com###inline-preview-player
-youtube.com###hover-overlays > ytd-thumbnail-overlay-loading-preview-renderer.style-scope.ytd-thumbnail:last-child > span.style-scope.ytd-thumbnail-overlay-loading-preview-renderer
 youtube.com##[class="style-scope ytd-video-preview"]
 youtube.com##[class="style-scope yt-live-chat-viewer-engagement-message-renderer"]
 youtube.com##.ytp-fullerscreen-edu-chevron
-youtube.com###material-notice
 youtube.com###masthead-ad
-youtube.com##.masthead-ad-control,.ad-div,.pyv-afc-ads-container
 youtube.com###video-masthead
 youtube.com###hats-container
-youtube.com##.page-loaded
-*_ad_$media,redirect-rule=noopmp3-0.1s
-||google.*/jsapi?autoload=*$script
 
 #Spotify.com
 spotify.com##.ads-container
@@ -350,16 +324,8 @@ open.spotify.com##body > div:nth-of-type(2)
 ||spotify.com^*/metric
 
 #Facebook.com
-facebook.com##.adv
 facebook.com##body > .AdBox.Ad.advert:style(display:block!important;)
-facebook.com##[data-pagelet="RightRail"] > div:contains(·)
-facebook.com##+js(remove-class, _31e, body > ._li)
 facebook.com##[aria-label="Annonsör"]
-facebook.com##span > div > .l9j0dhe7 > .sj5x9vvc
-facebook.com##span[id="ssrb_feed_start"] ~ div > div > div:not([class]) ,[href*="/ads/"] > span > span > svg:has(use):has-text(/^Sponsrad|Betald av|Köp|Prova|Skaffa|regler|Intro|/ads|Läs mer|Paket|pris|kvalité|enkelt|Smakar|ANNONS|%|Se mer|Ny|Dragning|Har du|räddar liv|klicka|medlem|Shoppa|frakt/)
-facebook.com###pagelet_ego_pane
-facebook.com###rightCol .pagelet.egoOrganicColumn
-facebook.com###globalContainer .pagelet.egoOrganicColumn
 facebook.com#@#html,body:style(overflow-x: hidden !important;)
 @@||static.xx.fbcdn.net^$script
 ||facebook.com/plugins/like.php$subdocument
@@ -1389,8 +1355,6 @@ tiktok.com###tiktok-verify-ele
 ##[id="adbdetect"]
 ##[class="ads adsbox doubleclick"]
 ##[id="anim-container"]
-##[title="adblockertest"]
-##[class*="pub_300x250 pub_300x250m pub_728x90 text-ad textAd text_ad text_ads text-ads text-ad-links -adv.js -adv.jpg"]
 ##div[id^="MarketGid"]
 ##div[id*="ScriptRootC"]
 ##div[id*="PreloadC"]
@@ -1824,16 +1788,6 @@ tiktok.com###tiktok-verify-ele
 ##.social-home
 ##.likes__row
 ##.jw-reset.jw-rightclick-link
-##[id="midroll_ads"]
-##[id="midroll"]
-##[class="pop-wrap"]
-##[class="pop-main"]
-##[class="pop-block"]
-##[class="pop-html"]
-##[id="postroll"]
-##[class="sad-face"]
-##[class="pop-block pop-border"]
-##[class="pop-postroll-close"]
 ###preroll
 ##.ot-fade-in.onetrust-pc-dark-filter
 ##.outbrain
