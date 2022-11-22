@@ -303,6 +303,8 @@ youtube.com###inline-preview-player
 youtube.com##[class="style-scope ytd-video-preview"]
 youtube.com##[class="style-scope yt-live-chat-viewer-engagement-message-renderer"]
 youtube.com##.ytp-fullerscreen-edu-chevron
+youtube.com##ytd-merch-shelf-renderer.ytd-watch-flexy.style-scope
+youtube.com##.sparkles-light-cta.ytd-item-section-renderer.style-scope
 youtube.com###masthead-ad
 youtube.com###video-masthead
 youtube.com###hats-container
