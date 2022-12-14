@@ -399,6 +399,7 @@ fotbollskanalen.se##.article-share
 
 #Blocket.se
 blocket.se##[id*="pulse2an_"]
+blocket.se##[class*="BannerAdPanorama-sc"]
 blocket.se###index_panorama
 blocket.se###li_panorama
 blocket.se###vi_panorama
