@@ -2454,9 +2454,6 @@ ads,bid,biz,click,country,cricket,date,diet,download,faith,fun,link,ltd,loan,men
 *##+js(acis, preLoadAds, setup)
 *##+js(acis, losAd)
 *##+js(acis, Exp, bamData)
-*##+js(aeld, DOMContentLoaded, adlinkfly)
-*##+js(aopr, ExoLoader.serve)
-*##div[id*="sidebar"][data-before-content="advertisement"]:upward(3)
 *##[src*="/apu.php"]
 *##[src*="/fac.php"]
 *##[src*="/adu.php"]
@@ -2573,17 +2570,14 @@ ads,bid,biz,click,country,cricket,date,diet,download,faith,fun,link,ltd,loan,men
 *##li:has(.content-label:has-text(/annons/i)):remove()
 *##article:contains(Ukens )
 *##[id*="netboard_"]
-*##+js(nostif, n.modal)
 *##.no-scroll:style(overflow-x: hidden !important;)
 *##html,body:style(overflow-x: hidden !important;)
 *##body:style(overflow: initial !important;)
 *##[class="ovl"]:style(display: none !important;)
-*##+js(nostif, showOverlay)
 *##.overlay[opacity]:style(display: none !important;)
 *##html.open-modal .overlay:style(display: none !important)
 *##.isOpenMTubes:style(overflow-y: auto !important;)
 *##[class*="ReactModal__Body"]:style(overflow-y: auto !important;)
-*##div[class^="lowerBadge"]
 *html#type=page&event=load&url=$important
 ##[id="skinAdTarget"]
 ##[id="superadunit"][class="hidden"]
@@ -2613,7 +2607,6 @@ ads,bid,biz,click,country,cricket,date,diet,download,faith,fun,link,ltd,loan,men
 *##+js(aopr, _0x311a)
 *##+js(aopr, _0x32d5)
 *##+js(aopr, _0x4459)
-*##.bxslider-shoutout
 *##.ipsAnnouncement
 *##+js(nowoif, stream-4k)
 *##a[href^="/stream-4k/"]
