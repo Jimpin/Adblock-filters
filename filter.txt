@@ -400,7 +400,9 @@ fotbollskanalen.se##.article-share
 #Blocket.se
 blocket.se##[id*="pulse2an_"]
 blocket.se##[class*="BannerAdPanorama-sc"]
+blocket.se##[class*="SchibstedBanner__Wrapper-sc"]
 blocket.se##[class*="BannerContainerPanorama-sc"]
+blocket.se##[class*="Placementstyles__Styled"]
 blocket.se###index_panorama
 blocket.se###li_panorama
 blocket.se###vi_panorama
@@ -833,31 +835,6 @@ hemnet.se##.featured-news__link:has(.featured-news__ribbon--sponsored)
 hemnet.se##.recent-news__item:has(.recent-news__category:has-text(/sponsrad/i))
 hemnet.se##.result-article__link:has(.article__ribbon--sponsored)
 hemnet.se##.start-page-hero__caption:has(.start-page-hero__caption-category:has-text(/sponsrad av/i))
-
-#Viafree
-viafree.se##.player-wrapper .viafree-player .vjs-tech:style(display:initial!important;)
-viafree.se##.vjs-playing:upward(1) ~ .no-autoplay-overlay
-viafree.se##.navbar.popup-video-showing
-viafree.se##.ad-transition-background
-viafree.se##.pause-ad
-viafree.se##.ad-click-through
-viafree.se##.ad-countdown
-viafree.se##.ad-overlay
-viafree.se##.viafree-player.ad-playing
-viafree.se##.vjs-cuepoint-container
-viafree.se##.x-play-button-overlay
-viafree.se##.x-control-bar-overlay
-viafree.se##.x-play-button-overlay
-viafree.se##.pause-ad-navigation
-viafree.se##[style="width: 74px;height: 74px;float: right;"]
-viafree.se##[id="linkTag2"]
-viafree.se##[class*="ScrollGradient"]
-viafree.se##[class="cta-overlay vjs-hidden"]
-viafree.se##.avodp.pause-ad-showing .vjs-progress-control, .avodp.ad-playing .vjs-progress-control:style(display: initial !important;)
-viafree.se##.SliderBlock_background_continueWatching.SliderBlock_background
-viafree.se,viaplay.se##.contextual-navigation.ui-row
-@@||fwmrm.net^$image,domain=viafree.se
-@@||fwmrm.net/crossdomain.xml$xhr
 
 #Teknikensvarld.se
 teknikensvarld.se##.t-single.-content-hide .entry-content, .t-single.-content-hide .entry-content .paywall-gradient-overlay:style(height: auto !important; overflow: visible !important;)
@@ -2399,15 +2376,6 @@ popuper.js^
 @@*.ts$xhr
 @@/?stream=
 
-ads,bid,biz,click,country,cricket,date,diet,download,faith,fun,link,ltd,loan,men,mom,online,party,pink,pro,pw,review,racing,site,science,sexy,space,stream,study,style,systems,trade,top,work,website,webcam,win,world,wz,xin,xyz##[href*="javascript:"]
-ads,bid,biz,click,country,cricket,date,diet,download,faith,fun,link,ltd,loan,men,mom,online,party,pink,pro,pw,review,racing,site,science,sexy,space,stream,study,style,systems,trade,top,work,website,webcam,win,world,wz,xin,xyz##[rel="nofollow"][href*="//"]
-ads,bid,biz,click,country,cricket,date,diet,download,faith,fun,link,ltd,loan,men,mom,online,party,pink,pro,pw,review,racing,site,science,sexy,space,stream,study,style,systems,trade,top,work,website,webcam,win,world,wz,xin,xyz##+js(nostif, _0x)
-ads,bid,biz,click,country,cricket,date,diet,download,faith,fun,link,ltd,loan,men,mom,online,party,pink,pro,pw,review,racing,site,science,sexy,space,stream,study,style,systems,trade,top,work,website,webcam,win,world,wz,xin,xyz##+js(aopw, _pop)
-ads,bid,biz,click,country,cricket,date,diet,download,faith,fun,link,ltd,loan,men,mom,online,party,pink,pro,pw,review,racing,site,science,sexy,space,stream,study,style,systems,trade,top,work,website,webcam,win,world,wz,xin,xyz##+js(aopw, clickIE4)
-ads,bid,biz,click,country,cricket,date,diet,download,faith,fun,link,ltd,loan,men,mom,online,party,pink,pro,pw,review,racing,site,science,sexy,space,stream,study,style,systems,trade,top,work,website,webcam,win,world,wz,xin##+js(aopr, decodeURI)
-ads,bid,biz,click,country,cricket,date,diet,download,faith,fun,link,ltd,loan,men,mom,online,party,pink,pro,pw,review,racing,site,science,sexy,space,stream,study,style,systems,trade,top,work,website,webcam,win,world,wz,xin##+js(aopw, onpopstate)
-*$script,frame,xhr,popup,3p,domain=ads|bid|biz|click|country|cricket|date|diet|download|faith|fun|link|ltd|loan|men|mom|online|party|pink|pro|pw|review|racing|site|science|sexy|space|stream|study|style|systems|trade|top|work|website|webcam|win|world|wz|xin
-
 ##[data-cfasync]
 ##[src="/social-box/"]
 ##[src*="/next.php"]
@@ -2586,31 +2554,10 @@ ads,bid,biz,click,country,cricket,date,diet,download,faith,fun,link,ltd,loan,men
 ##.jconfirm-cell
 ##.jconfirm-open
 ##.jconfirm-scrollpane
-*##body,html:style(z-index: -999)
-*##body,html:style(z-index: 999)
-*##body,html:style(z-index: -1000)
-*##body,html:style(z-index: 1000)
-*##body,html:style(z-index: -30000)
-*##body,html:style(z-index: 30000)
-*##body,html:style(z-index: -21474836)
-*##body,html:style(z-index: 21474836)
 *##+js(set, blurred, false)
 *##[src*="/pfe/current/"]
 *##[class*="id-custom_ad"]
-*##[id*="__clb"]
-*##[class*=xyz_]
-*##script:contains(async)
-*##script:contains("adId")
-*##+js(aopr, _0xbeb9)
-*##+js(aopr, _0xe317)
-*##+js(aopr, _0x1477)
-*##+js(aopr, _0x311a)
-*##+js(aopr, _0x32d5)
-*##+js(aopr, _0x4459)
 *##.ipsAnnouncement
-*##+js(nowoif, stream-4k)
-*##a[href^="/stream-4k/"]
-*##a[href^="/download-4k/"]
 
 .online^$image,ping,popup,3p
 .pro^$image,ping,popup,3p
@@ -2621,6 +2568,25 @@ ads,bid,biz,click,country,cricket,date,diet,download,faith,fun,link,ltd,loan,men
 .top^$frame,xhr,image,ping,popup,3p
 .trade^$frame,xhr,image,ping,popup,3p
 .ws^$frame,image,ping,popup,3p
+
+biz,click,co,com,io,link,net,to,org,pro,xyz##body,html:style(z-index: -999)
+biz,click,co,com,io,link,net,to,org,pro,xyz##body,html:style(z-index: 999)
+biz,click,co,com,io,link,net,to,org,pro,xyz##body,html:style(z-index: -1000)
+biz,click,co,com,io,link,net,to,org,pro,xyz##body,html:style(z-index: 1000)
+biz,click,co,com,io,link,net,to,org,pro,xyz##body,html:style(z-index: -30000)
+biz,click,co,com,io,link,net,to,org,pro,xyz##body,html:style(z-index: 30000)
+biz,click,co,com,io,link,net,to,org,pro,xyz##body,html:style(z-index: -21474836)
+biz,click,co,com,io,link,net,to,org,pro,xyz##body,html:style(z-index: 21474836)
+biz,click,co,com,io,link,net,to,org,pro,xyz##[id*="__clb"]
+biz,click,co,com,io,link,net,to,org,pro,xyz##[class*=xyz_]
+biz,click,co,com,io,link,net,to,org,pro,xyz##script:contains(async)
+biz,click,co,com,io,link,net,to,org,pro,xyz##script:contains("adId")
+biz,click,co,com,io,link,net,to,org,pro,xyz##+js(aopr, _0xbeb9)
+biz,click,co,com,io,link,net,to,org,pro,xyz##+js(aopr, _0xe317)
+biz,click,co,com,io,link,net,to,org,pro,xyz##+js(aopr, _0x1477)
+biz,click,co,com,io,link,net,to,org,pro,xyz##+js(aopr, _0x311a)
+biz,click,co,com,io,link,net,to,org,pro,xyz##+js(aopr, _0x32d5)
+biz,click,co,com,io,link,net,to,org,pro,xyz##+js(aopr, _0x4459)
 
 /^https?:\/\/[a-z]{8,15}(|0NaN|articles|browse|index|movie|news|pages|static|view|web|wiki){1,4}(?:\.html|\/)$/$frame,3p,match-case
 /^https?:\/\/[a-z]{8,15}(|ajax|articles|config|custom|data|menu|resources|validators)(?:\.json)?$/$xhr,3p
