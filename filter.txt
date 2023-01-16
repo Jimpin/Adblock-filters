@@ -2588,6 +2588,7 @@ biz,click,co,com,io,link,net,to,org,pro,xyz##+js(aopr, _0x311a)
 biz,click,co,com,io,link,net,to,org,pro,xyz##+js(aopr, _0x32d5)
 biz,click,co,com,io,link,net,to,org,pro,xyz##+js(aopr, _0x4459)
 
+
 /^https?:\/\/[a-z]{8,15}(|0NaN|articles|browse|index|movie|news|pages|static|view|web|wiki){1,4}(?:\.html|\/)$/$frame,3p,match-case
 /^https?:\/\/[a-z]{8,15}(|ajax|articles|config|custom|data|menu|resources|validators)(?:\.json)?$/$xhr,3p
 /^https?:\/\/[a-z]{8,15}\.\/[a-z]{4,}\.json$/$xhr,3p,match-case
