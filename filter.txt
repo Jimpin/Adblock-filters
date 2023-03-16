@@ -993,6 +993,7 @@ lookmovie.*,lookmovie2.*##.plr-ad-stripe
 lookmovie.*,lookmovie2.*##.bottom-message-container
 lookmovie.*,lookmovie2.*###social-share
 @@||lookmovie*^$ghide
+@@/static/lookmovie$domain=lookmovie.*|lookmovie2.*
 *$script,3p,denyallow=cloudflare.com|google.com|googleapis.com|gstatic.com|hcaptcha.com,domain=lookmovie.*|lookmovie2.*
 ://metrika.*/analytics.
 ||lookmovie.*/favicon.ico$image,1p
