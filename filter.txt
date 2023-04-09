@@ -18,7 +18,7 @@ aftonbladet.se##a[href*="/a/"]:contains(ANNONS)
 aftonbladet.se##a[href*="brandstudio."]
 aftonbladet.se##a[href*="aftonbladet.se/a/"]
 aftonbladet.se##[class*="css"][href*="/kampanj/"]
-aftonbladet.se##.css:matches-css(z-index: /100/):style(display: none !important;)
+aftonbladet.se##div:matches-css(z-index: /110/):style(display: none !important;)
 aftonbladet.se##[class*="-4th"]
 aftonbladet.se##[class*="1jy"]
 aftonbladet.se##[class*="7rc"]
