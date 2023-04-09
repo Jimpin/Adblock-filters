@@ -52,6 +52,7 @@ aftonbladet.se##.social-shares
 aftonbladet.se##[href*="twitter.com/sportbladet"]
 aftonbladet.se##[href*="facebook.com/sportbladet"]
 @@||aftonbladet.se/video-player-extras/*$script
+@@||cdn.stream.schibsted.media/jw/*$script
 acast.com##[alt="Advertisement"]
 acast.com##[data-test-id="AirTimeAdControls__CountDown"]
 acast.com##[data-test-id="Link"]
@@ -82,7 +83,6 @@ klart.se##+js(remove-class, mega-loading)
 ||ooul.tv/*/se-aftonbladet/aab/aftonbladet_$script
 ||youbora.com^*/sp.min.js$important
 ||jwpsrv.com^$subdocument,important
-||jwpcdn.com^*/*.js$script,domain=aftonbladet.se
 ||ab-web-notifications.herokuapp.com^$xhr
 ||interaction.acast.com/adImpression$xhr
 ||interaction.acast.com/progress$xhr,redirect-rule=nooptext
