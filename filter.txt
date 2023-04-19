@@ -91,10 +91,12 @@ klart.se##+js(remove-class, mega-loading)
 ||meetrics.net^$image,important
 ||delivery.adten.eu^$image,xhr
 ||report-uri.com^$3p
+||norstatsurveys.com^
 ##[data-test="cookie-consent"]
 ##[id*="banner-space"]
 utm_$document,removeparam=/^utm_/
 /www.*\.se\/cnp-assets\/[1-9][0-9]{0,1}\./$script
+/regionByIp
 /messagingnotcfapi.js^
 /deprecated-linkpulse-tracking.js
 /player-plugin-ad$3p
@@ -172,17 +174,6 @@ expressen.se##figure[data-article-data*="/sponsrat"], figure[data-article-data*=
 .se/crypt/?lpkey$all
 .se/tv/annons/
 .info/*-nyheter/$document
-
-#Outlook.live.com
-outlook.live.com###owaadbar0
-outlook.live.com##[src*="/images/adbarmetrosprite.png"]
-outlook.live.com##.customScrollBar > div[class] > div[class]:empty
-outlook.live.com##div[role="region"][data-max-height] > div.threeColItemViewSenderImageOn + div div:empty
-outlook.live.com##[class*="_3"]:contains(reklamblockerare)
-outlook.live.com##[data-icon-name="OutlookLogo"]
-outlook.live.com##[class*="_23"]:has-text(.)
-outlook.live.com##[class*="_2F"]:has-text(Premium)
-/analytics-ping.js$xhr
 
 #Twitch.tv
 twitch.tv##[data-a-target=prime-offers-icon]
@@ -512,70 +503,6 @@ imdb.com###top_ad
 *$media,redirect=noopmp3-0.1s,domain=imdb.com,3p
 /js/show_ads.js^
 
-#Nyafilmer/Jawcloud
-@@||nyafilm*/wp-content/*$1p
-@@||nyafilm*$document,1p
-@@||api.peer5.com$script,domain=jawcloud.co
-@@||upvtt.com^$xhr
-@@||*.com^$inline-script,1p,domain=jawcloud.co
-||nyafilm*$1p
-||nyafilm*$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: jawcloud.co *.jawcloud.co *.peer5.com *.googleapis.com *.google.com *.gstatic.com;img-src *;worker-src 'none'
-/images/tipsy.gif$3p
-/wp-includes/js/comment-reply.min.js$script
-/wp-includes/js/wp-embed.min.js$script
-/wp-content/cache/wpfc-minified/*/*index.css
-jawcloud.co##^script:has-text(_Hasync)
-jawcloud.co##+js(aopr, console.clear)
-jawcloud.co##+js(aeld, contextmenu)
-jawcloud.co##+js(aopw, Fingerprint2)
-jawcloud.co##+js(acis, Math, XMLHttpRequest)
-jawcloud.co##+js(acis, Math, zfgloaded)
-jawcloud.co##+js(abort-current-inline-script.js, document.getElementById, style.display)
-jawcloud.co##[class="overlay"]
-jawcloud.co##a[href$=".html"]
-jawcloud.co##.loloba
-jawcloud.co##.banner
-jawcloud.co##[class="vjs-picture-in-picture-control vjs-control vjs-button"]
-jawcloud.co##^script:has-text(Inject=!)
-||jawcloud.co^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.jawcloud.co upvtt.com *.gstatic.com;frame-src 'self'
-||jawcloud.co/playerjs/themes/newtheme/videojs.logobrand.css$css
-||jawcloud.co/playerjs/themes/newtheme/videojs.chromecast.min.css$css
-||jawcloud.co/playerjs/store.js$script,first-party
-||jawcloud.co/js^$important
-||jawcloud.co/jawcloud-playerlogo_236x36.png$popup,important
-||jawcloud.co/dl
-||jawcloud.co/playerjs/jquery.js$script,important
-||jawcloud.co/playerjs/vast/
-||jawcloud.co/banner$image
-||jawcloud.co/$image
-||jawcloud.co^$popup,important
-||gstatic.com/cast/*$script,domain=jawcloud.co
-||tracker.$important,domain=jawcloud.co|nxload.com|streamango.com|
-||inpagepush.com^$important
-||vkpass.com/panel/js/license.26.js$script
-||propellerads.com^$important
-||pc1ads.com^$image,important
-||clksite.com^$script,redirect-rule=noopjs
-||mycdn.co^$script
-/*.net^$3p,important,domain=jawcloud.co
-/view.html$inline-script,frame
-/pages/*/*.html$frame,inline-script
-/wiki.html$frame,inline-script
-/js15_as.js$important
-/beacon/performance?
-/favicon.png$image,important
-/index.css?^$3p
-/ads.js?
-?excludes=^#xhr
-.wp.com/*/branding/*$important
-*##.jawban
-*##.jwbanner
-*##[id*="keremiya-js-extra"]
-*##[id*="hcaptcha-script-js"]
-*##a[href*="/engine."]
-||&guid=^$popup,important
-/iframes2/*.html?$subdocument
-
 #Kollafilm.com
 kollafilm.*##body:style(background-image: none !important;)
 kollafilm.*##.socialts
@@ -604,15 +531,6 @@ kollafilm.*##.cent.bnav > [href*="/"], [href*="/donation/"], [href*="discord"], 
 /cropped*.jpg$image,important
 *##[src*="//inpage-push"]
 *##[class*="jw-icon jw-icon-inline jw-button-color jw-reset jw-icon-pip"]
-
-#Videodls
-videodls.*##div.pb-100.about-us-area > .container > .align-items-center.row > div.col-lg-6
-videodls.*##div#videos.ptb-100.who-we-area
-videodls.*##div.pb-100.about-us-area
-videodls.*##div#home.pb-100.seo-banner-area2
-videodls.*###webM
-videodls.*##.bor-radius-top.pt-70.footer-area
-||sc-apps.*/settings/*$xhr
 
 #onlinevideoconverter
 onlinevideoconverter.*##.download-section-2
@@ -778,28 +696,6 @@ streamtape.*#@#.google-ad
 ||streamtape.com/mainstream2.js
 ||in-page-push.com^$important
 /tag.min.js$3p
-
-#Bflix.to
-bflix.*##[src*=".js"]
-bflix.*###menu [href*="anime"]
-bflix.*##.index-search > .text-muted
-bflix.*##h1
-bflix.*##footer > .container
-bflix.*##.items > div:contains(Comment)
-bflix.*##.servers > li:contains(VideoVard)
-bflix.*##.bl-1 > .mt-4
-*flix.*/assets/*flix/favicons/
-*flix.*/ajax/film/tooltip/*$xhr
-*flix.*/ajax/user/panel$xhr
-*flix.*/assets/*flix/$xhr
-*flix.disqus.com/embed.js$xhr
-*/0NaN/$important
-/*.png$image,3p,domain=bflix.*
-videovard.sx/js/l*.js$script,1p
-||videovard.sx/api/player/setup$xhr
-||videovard.sx/js/videojs-contrib-hls.js$script,1p
-||videovard.sx/js/video.min.js$script,1p
-/assets/*/favicons/favicon.png^$image,xhr
 
 #Dn.se
 dn.se##+js(acis, DN, initAds)
@@ -2571,24 +2467,24 @@ popuper.js^
 .trade^$frame,xhr,image,ping,popup,3p
 .ws^$frame,image,ping,popup,3p
 
-biz,click,co,com,io,link,net,to,org,pro,xyz##body,html:style(z-index: -999)
-biz,click,co,com,io,link,net,to,org,pro,xyz##body,html:style(z-index: 999)
-biz,click,co,com,io,link,net,to,org,pro,xyz##body,html:style(z-index: -1000)
-biz,click,co,com,io,link,net,to,org,pro,xyz##body,html:style(z-index: 1000)
-biz,click,co,com,io,link,net,to,org,pro,xyz##body,html:style(z-index: -30000)
-biz,click,co,com,io,link,net,to,org,pro,xyz##body,html:style(z-index: 30000)
-biz,click,co,com,io,link,net,to,org,pro,xyz##body,html:style(z-index: -21474836)
-biz,click,co,com,io,link,net,to,org,pro,xyz##body,html:style(z-index: 21474836)
-biz,click,co,com,io,link,net,to,org,pro,xyz##[id*="__clb"]
-biz,click,co,com,io,link,net,to,org,pro,xyz##[class*=xyz_]
-biz,click,co,com,io,link,net,to,org,pro,xyz##script:contains(async)
-biz,click,co,com,io,link,net,to,org,pro,xyz##script:contains("adId")
-biz,click,co,com,io,link,net,to,org,pro,xyz##+js(aopr, _0xbeb9)
-biz,click,co,com,io,link,net,to,org,pro,xyz##+js(aopr, _0xe317)
-biz,click,co,com,io,link,net,to,org,pro,xyz##+js(aopr, _0x1477)
-biz,click,co,com,io,link,net,to,org,pro,xyz##+js(aopr, _0x311a)
-biz,click,co,com,io,link,net,to,org,pro,xyz##+js(aopr, _0x32d5)
-biz,click,co,com,io,link,net,to,org,pro,xyz##+js(aopr, _0x4459)
+biz,click,co,io,link,to,pro,xyz##body,html:style(z-index: -999)
+biz,click,co,io,link,to,pro,xyz##body,html:style(z-index: 999)
+biz,click,co,io,link,to,pro,xyz##body,html:style(z-index: -1000)
+biz,click,co,io,link,to,pro,xyz##body,html:style(z-index: 1000)
+biz,click,co,io,link,to,pro,xyz##body,html:style(z-index: -30000)
+biz,click,co,io,link,to,pro,xyz##body,html:style(z-index: 30000)
+biz,click,co,io,link,to,pro,xyz##body,html:style(z-index: -21474836)
+biz,click,co,io,link,to,pro,xyz##body,html:style(z-index: 21474836)
+biz,click,co,io,link,to,pro,xyz##[id*="__clb"]
+biz,click,co,io,link,to,pro,xyz##[class*=xyz_]
+biz,click,co,io,link,to,pro,xyz##script:contains(async)
+biz,click,co,io,link,to,pro,xyz##script:contains("adId")
+biz,click,co,io,link,to,pro,xyz##+js(aopr, _0xbeb9)
+biz,click,co,io,link,to,pro,xyz##+js(aopr, _0xe317)
+biz,click,co,io,link,to,pro,xyz##+js(aopr, _0x1477)
+biz,click,co,io,link,to,pro,xyz##+js(aopr, _0x311a)
+biz,click,co,io,link,to,pro,xyz##+js(aopr, _0x32d5)
+biz,click,co,io,link,to,pro,xyz##+js(aopr, _0x4459)
 
 /^https?:\/\/[a-z]{8,15}(|0NaN|articles|browse|index|movie|news|pages|static|view|web|wiki){1,4}(?:\.html|\/)$/$frame,3p,match-case
 /^https?:\/\/[a-z]{8,15}(|ajax|articles|config|custom|data|menu|resources|validators)(?:\.json)?$/$xhr,3p
