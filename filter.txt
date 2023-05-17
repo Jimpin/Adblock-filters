@@ -258,8 +258,6 @@ tv4play.se##a[href="https://www.cmore.se/tv-program?utm_source=tv4play&utm_mediu
 */bumpers/$media,redirect-rule=noopmp3-0.1s
 ||tv4play.se/hic_qos$script,redirect-rule=noopjs
 ||se-tv4.videoplaza.tv/proxy/distributor/*$xhr
-||infinity-c11.youboranqs01.com^$xhr
-||youborafds01.com^$3p
 ||a-fds.youborafds01.com/data$xhr
 ||damoh.*.se^$image
 ||stat-api.tv4play.se^$xhr,image
