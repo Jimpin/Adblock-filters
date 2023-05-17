@@ -760,7 +760,6 @@ dplay.se##div:matches-css(width: 3px):matches-css(height: 5px)
 @@||fwmrm.net/ad/$script,domain=dplay.se|mtv.se
 ||akamaihd.net^$media,domain=dplay.se
 ||imasdk.googleapis.com/pal/sdkloader/pal.js$script,redirect-rule=noopjs
-||litix.io^$xhr
 ||dnitv.com^$media,domain=dplay.se
 
 #Flashback.org
@@ -2304,7 +2303,7 @@ popuper.js^
 ##[src*="/track"]
 ##[src*="/splash-zones-split.php"]
 ##[src*="/ad.doubleclick.net/"]
-://ad.$script,xhr
+://ad.$script
 ://adv.$script,xhr
 ://ads.$script,xhr
 ://hw-$important
