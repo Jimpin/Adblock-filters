@@ -319,10 +319,6 @@ facebook.com##body > .AdBox.Ad.advert:style(display:block!important;)
 facebook.com##[aria-label="Annonsör"]
 facebook.com#@#html,body:style(overflow-x: hidden !important;)
 @@||static.xx.fbcdn.net^$script
-||facebook.com/plugins/like.php$subdocument
-||facebook.com/plugins/likebox.php$subdocument
-||facebook.com/*/plugins/like.php$subdocument
-||facebook.com/*/plugins/share_button.php$subdocument
 ||facebook.com/ajax/qm/*$ping
 ||facebook.com/ads/*
 ||facebook.com/tr/*
@@ -787,16 +783,6 @@ speedtest.net#@#+js(aopr, Object.prototype.adUnits)
 @@/upload^$xmlhttprequest,domain=speedtest.net
 /javascript/prebid^$script
 
-#Rltracker.pro
-rltracker.pro##.vm-placement > [src="javascript:'<html><body></body></html>'"]
-rltracker.pro##.decide_858814.decide.col-sm-12
-rltracker.pro##div.col-sm-3:nth-of-type(3)
-rltracker.pro##.decide.col-sm-12
-rltracker.pro##.patreon_overlay
-rltracker.pro##.da_col.stat_box.stats_box.main_box.fav_no_category
-rltracker.pro##.col-sm-12 > .row
-||rltracker.pro/assets/rl*.png$image
-
 #123movies
 123movies.*,123moviesto.*,123gofmovies.*##+js(acis, jQuery, appendTo)
 123movies.*,123moviesto.*,123gofmovies.*##+js(acis, jQuery, adblocker)
@@ -1015,18 +1001,6 @@ fotbolltransfers.com##[href^="http://bit.ly/"]
 ||ads.stickyadstv.com/www/delivery/swfIndex.php
 ||ads.pubmatic.com/AdServer/js/showad.js$subdocument
 ||vpaid.pubmatic.com/ads/video/vadtag.html
-
-#Rocket-League.com
-rocket-league.com##.rlg-footer-ads-container
-rocket-league.com##[class="rlg-wrapper rlg-footer-ads-wrapper"]
-rocket-league.com##[class="rlg-footer-ads-container"]
-rocket-league.com##[class="rlg-site-popup__container"]
-rocket-league.com##[class="rlg-site-popup is--success"]
-rocket-league.com##[class="rlg-site-popup is--warning"]
-rocket-league.com##.active.is--success.rlg-site-popup
-rocket-league.com##.active.is--warning.rlg-site-popup
-rocket-league.com##.active.is--error.rlg-site-popup
-rocket-league.com##[id="menucontainer"]
 
 #Onhockey.tv
 onhockey.tv##+js(acis, Math, break;case $.)
@@ -1406,7 +1380,6 @@ tiktok.com###tiktok-verify-ele
 ##.wid-spot-container
 ###site-xpromo-banner > .js-banner.banner
 ###js-site-xpromo-banner-container-top
-###site-xpromo-banner > .js-banner.banner
 ##.underplayerAd
 ###smartbanner.android
 ###smartbanner.ios
@@ -1599,7 +1572,7 @@ tiktok.com###tiktok-verify-ele
 ##.jetpack-social-widget-item
 ##.jetpack_widget_social_icons
 ##.js-underplayerAd.underplayerAd
-##[id="blockblockA"]
+##[id*="blockblock"]
 ##.listbuilder-popup-embedded
 ##[class="mask adblock ad advertisement"]
 ##[class="adblock ad advertisement"]
@@ -1645,7 +1618,6 @@ tiktok.com###tiktok-verify-ele
 ##.ads-ad
 ##.ad-block-notice
 ###countryRedirectMessage
-##.ageDisclaimer
 ##.fbar
 ###taw
 ##div.afs_ads
@@ -1675,8 +1647,6 @@ tiktok.com###tiktok-verify-ele
 ###promo-subscription
 ###promo-subscription-overlay
 ##[class="reset"]
-##.abEnabled > iframe
-###catok-popup
 ##.campaign-holder
 ##.gdpr-header
 ##.policy-label
@@ -1906,7 +1876,6 @@ tiktok.com###tiktok-verify-ele
 *##[href*="a2g-secure.com"]
 
 #Ads/Trackers
-||omnitagjs.com^$xhr,important
 ||stackpathcdn.com^$xhr
 ||adservice.com^
 ||adform.net^
@@ -1960,7 +1929,6 @@ tiktok.com###tiktok-verify-ele
 ||getcontent.net^
 ||gialnk.com^
 ||oload.cloud^
-||dev.visualwebsiteoptimizer.com^$script
 ||fastly.net/ads/$all
 ||exosrv.com^
 ||fastpopclick.com^
@@ -2015,8 +1983,6 @@ tiktok.com###tiktok-verify-ele
 ||static.addtoany.com^
 ||mdn2015x3.com^
 ||gmobtrks.com^
-||gtrafficshop.com^
-||gverymuchad.com^
 ||syndicpop.com^
 ||casalemedia.com^
 ||xtendmedia.com^
@@ -2035,7 +2001,7 @@ tiktok.com###tiktok-verify-ele
 ||adxprtz.com^
 ||serving-sys.com^
 ||revrtb.com^$important
-||waframedia20.com^$script,important
+||waframedia20.com^$important
 ||tracker.*/wss$websocket
 ||tracker.*/$script
 ||tracker.*/$xmlhttprequest
@@ -2097,7 +2063,6 @@ movie/ads
 /browser/stats$ping
 /load?^$important
 /adscript.js$script
-/embed/footyshoes.gif
 /ads-iframe/*
 /ad-takeover
 /ad/u?mode=
@@ -2398,7 +2363,6 @@ popuper.js^
 ##li.releated_video:has-text(AD)
 ##div[id^="ts_ad_native_"]
 ###dmmad
-##.p-articleDMM
 ###ad_html
 ##.self-gg
 ##.float-ads
