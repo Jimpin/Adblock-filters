@@ -1004,104 +1004,32 @@ fotbolltransfers.com##[href^="http://bit.ly/"]
 ||ads.pubmatic.com/AdServer/js/showad.js$subdocument
 ||vpaid.pubmatic.com/ads/video/vadtag.html
 
-#Onhockey.tv
-onhockey.tv##+js(acis, Math, break;case $.)
-onhockey.tv##+js(nowebrtc)
-onhockey.tv##td > table:nth-of-type(1) > tbody > tr > td:nth-of-type(3)
-onhockey.tv##td > table:nth-of-type(2) > tbody > tr
-onhockey.tv##table:nth-of-type(2) > tbody > tr > td:nth-of-type(3)
-onhockey.tv##p > table > tbody > tr > td > b
-onhockey.tv##div.elceim:nth-of-type(6)
-onhockey.tv##div.elceim:nth-of-type(1)
-onhockey.tv##.eeapso
-onhockey.tv##div.dkmvrs:nth-of-type(1)
-onhockey.tv###ampr_preloader
-onhockey.tv##[id="div1"]
-onhockey.tv##[onclick="highlight(this);"]
-onhockey.tv##[id*="openstat"]
-onhockey.tv##[src="pic/sad.gif"]
-||onhockey.tv/stopad*.jpg$image
-||onhockey.tv/vk.php$1p
-||onhockey.tv/chat.html$subdocument
-||onhockey.tv/foto_test.html$subdocument
-||onhockey.tv/foto_test.html$inline-script,1p
-||onhockey.tv/chat_choose.html$subdocument,1p
-||onhockey.tv/chat_choose.html$inline-script,1p
-||onhockey.tv/pic/sad.gif$image,1p
-||onhockey.tv/pic/sched2.png$image,1p
-
-#Putlocker
-putlocker.*,putlockerc.*,putlockers.*,put-locker.*##+js(acis, JSON.parse, break;case $.)
-putlocker.*,putlockerc.*,putlockers.*,put-locker.*##+js(acis, Math, break;case $.)
-putlocker.*,putlockerc.*,putlockers.*,put-locker.*##+js(aopw, open)
-putlocker.*,putlockerc.*,putlockers.*,put-locker.*##+js(disable-newtab-links)
-putlocker.*,putlockerc.*,putlockers.*,put-locker.*##[class="ds_overlay_pop"]
-putlocker.*,putlockerc.*,putlockers.*,put-locker.*##[class="eportPop dsModalContainer"]
-putlocker.*,putlockerc.*,putlockers.*,put-locker.*##[title="recaptcha-test"]
-putlocker.*,putlockerc.*,putlockers.*,put-locker.*##center
-putlocker.*,putlockerc.*,putlockers.*,put-locker.*##[id="ljsob"]
-putlocker.*,putlockerc.*,putlockers.*,put-locker.*##.sidebaradsmainly.widgetsads
-putlocker.*,putlockerc.*,putlockers.*,put-locker.*##.smallContainer.facebookComarea
-putlocker.*,putlockerc.*,putlockers.*,put-locker.*##.footertop
-putlocker.*,putlockerc.*,putlockers.*,put-locker.*##.container.bottomfootera
-putlocker.*,putlockerc.*,putlockers.*,put-locker.*##body > .widgetsads
-putlocker.*,putlockerc.*,putlockers.*,put-locker.*##.tcc
-putlocker.*,putlockerc.*,putlockers.*,put-locker.*##[class="linkads"]
-putlocker.*,putlockerc.*,putlockers.*,put-locker.*##[class="single_ads_player clear"]
-putlocker.*,putlockerc.*,putlockers.*,put-locker.**##[type="text/css"]
-putlocker.*,putlockerc.*,putlockers.*,put-locker.*##[name="google-site-verification"]
-putlocker.*,putlockerc.*,putlockers.*,put-locker.*##.clear.slidershareslideareamainhomeshare
-putlocker.*,putlockerc.*,putlockers.*,put-locker.*##.bottomdescription
-putlocker.*,putlockerc.*,putlockers.*,put-locker.*##.footer-tags
-putlocker.*,putlockerc.*,putlockers.*,put-locker.*##.btn-successful.btn-lg.btn
-putlocker.*,putlockerc.*,putlockers.*,put-locker.*##.footer-subs.col-lg-4
-putlocker.*,putlockerc.*,putlockers.*,put-locker.*##footer
-putlocker.*,putlockerc.*,putlockers.*,put-locker.*##.ep_buttons
-putlocker.*,putlockerc.*,putlockers.*,put-locker.*#@##overlay:not(.overlay)
-verystream.*##[href$=".html"]
-viduplayer.*##[href$=".html"]
-verystream.com##+js(nano-setTimeout-booster)
-verystream.com##+js(aopr, adblock)
-||verystream.*^$inline-script
-||verystream.*/assets/*$script,1p
-||img.verystream.com/splash/*$image
-vidsrc.*##+js(acis, JSON.parse, break;case $.)
-vidsrc.*##+js(nosiif, /devtools|0x/)
-vidsrc.*###pop_asdf
-||cdnjs.cloudflare.com/ajax/libs/videojs-flash/*$script
-||cdnjs.cloudflare.com/ajax/libs/videojs-contrib-ads/*$css,important
-||verystream.com/player/loader.png$image,first-party
-||vcstream.to/images/dablock.png$image
-||t18.viduplayer.com/i/
-||jwpltx.com/*/ping.gif
-
-#Moviesjoy/Movies2watch/Myflixer/Dopebox
-moviesjoy.*,movies2watch.*,myflixer.*,dopebox.*##+js(acis, JSON.parse, break;case $.)
-moviesjoy.*,movies2watch.*,myflixer.*,dopebox.*##html,body:style(overflow-y: auto !important;)
-moviesjoy.*,movies2watch.*,myflixer.*,dopebox.*###gift-top
-moviesjoy.*,movies2watch.*,myflixer.*,dopebox.*##.ts-social
-moviesjoy.*,movies2watch.*,myflixer.*,dopebox.*##.show.premodal-share.premodal.modal
-moviesjoy.*,movies2watch.*,myflixer.*,dopebox.*##.show.modal-backdrop
-moviesjoy.*,movies2watch.*,myflixer.*,dopebox.*##.dt-content
-moviesjoy.*,movies2watch.*,myflixer.*,dopebox.*##li:has-text(Hydrax)
-moviesjoy.*,movies2watch.*,myflixer.*,dopebox.*###film_comments > .block_area-header > .clearfix
-moviesjoy.*,movies2watch.*,myflixer.*,dopebox.*###film_comments > .block_area-header
-moviesjoy.*,movies2watch.*,myflixer.*,dopebox.*##.row-tags
-moviesjoy.*,movies2watch.*,myflixer.*,dopebox.*##.mw-body
-moviesjoy.*,movies2watch.*,myflixer.*,dopebox.*##.text-center.mw-buttons
-moviesjoy.*,movies2watch.*,myflixer.*,dopebox.*##.text-center.mw-buttons > .btn-primary.btn-radius.btn-lg.btn
-moviesjoy.*,movies2watch.*,myflixer.*,dopebox.*##.footer-links
-moviesjoy.*,movies2watch.*,myflixer.*,dopebox.*##.about-text
-moviesjoy.*,movies2watch.*,myflixer.*,dopebox.*##.inline_addthis_home.inline_addthis
-moviesjoy.*,movies2watch.*,myflixer.*,dopebox.*###footer > .container
-moviesjoy.*,movies2watch.*,myflixer.*,dopebox.*###pc-comment
-moviesjoy.*,movies2watch.*,myflixer.*,dopebox.*###pc-share
-moviesjoy.*,movies2watch.*,myflixer.*,dopebox.*###pop-share
-moviesjoy.*,movies2watch.*,myflixer.*,dopebox.*###film_comments
-moviesjoy.*,movies2watch.*,myflixer.*,dopebox.*##.text-home-main
-moviesjoy.*,movies2watch.*,myflixer.*,dopebox.*##.show.modalshare-1.premodal-share.premodal.modal
-moviesjoy.*,movies2watch.*,myflixer.*,dopebox.*##.show.modal-backdrop
-moviesjoy.*,movies2watch.*,myflixer.*,dopebox.*##[class="follow"]
+#Moviesjoy/Movies2watch
+moviesjoy.*,movies2watch.*##+js(acis, JSON.parse, break;case $.)
+moviesjoy.*,movies2watch.*##html,body:style(overflow-y: auto !important;)
+moviesjoy.*,movies2watch.*###gift-top
+moviesjoy.*,movies2watch.*##.ts-social
+moviesjoy.*,movies2watch.*##.show.premodal-share.premodal.modal
+moviesjoy.*,movies2watch.*##.show.modal-backdrop
+moviesjoy.*,movies2watch.*##.dt-content
+moviesjoy.*,movies2watch.*##li:has-text(Hydrax)
+moviesjoy.*,movies2watch.*###film_comments > .block_area-header > .clearfix
+moviesjoy.*,movies2watch.*###film_comments > .block_area-header
+moviesjoy.*,movies2watch.*##.mw-body
+moviesjoy.*,movies2watch.*##.text-center.mw-buttons
+moviesjoy.*,movies2watch.*##.text-center.mw-buttons > .btn-primary.btn-radius.btn-lg.btn
+moviesjoy.*,movies2watch.*##.footer-links
+moviesjoy.*,movies2watch.*##.about-text
+moviesjoy.*,movies2watch.*##.inline_addthis_home.inline_addthis
+moviesjoy.*,movies2watch.*###footer > .container
+moviesjoy.*,movies2watch.*###pc-comment
+moviesjoy.*,movies2watch.*###pc-share
+moviesjoy.*,movies2watch.*###pop-share
+moviesjoy.*,movies2watch.*###film_comments
+moviesjoy.*,movies2watch.*##.text-home-main
+moviesjoy.*,movies2watch.*##.show.modalshare-1.premodal-share.premodal.modal
+moviesjoy.*,movies2watch.*##.show.modal-backdrop
+moviesjoy.*,movies2watch.*##[class="follow"]
 vcstream.*##.pub_300x250.pub_300x250m.pub_728x90.text-ad.textAd.text_ad.text_ads.text-ads.text-ad-links:style(display:block!important;)
 vcstream.*##[href$=".html"]
 vidcloud.*##[href$=".html"]
