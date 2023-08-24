@@ -315,9 +315,10 @@ open.spotify.com##body > div:nth-of-type(2)
 ||spotify.com^*/metric
 
 #Facebook.com
+facebook.com#$#:matches-path(/)body > .AdBox.Ad.advert ~ div[class] { display: block !important; }
 facebook.com##body > .AdBox.Ad.advert:style(display:block!important;)
-facebook.com##[aria-label="Annonsör"]
 facebook.com#@#html,body:style(overflow-x: hidden !important;)
+facebook.com##[href*="l.facebook.com"]
 @@||static.xx.fbcdn.net^$script
 ||facebook.com/ajax/qm/*$ping
 ||facebook.com/ads/*
@@ -393,6 +394,8 @@ blocket.se###index_panorama
 blocket.se###li_panorama
 blocket.se###vi_panorama
 blocket.se##.placement_panorama
+blocket.se###li_footer_banner_container
+blocket.se###vi_footer_banner_container
 blocket.se###blocketd_visning_infor_kopet3
 blocket.se###blocketd_visning_infor_kopet2
 blocket.se##[class*="GoogleAdsense__Adsense"]
@@ -408,7 +411,6 @@ blocket.se###boost_content
 blocket.se##.slick-track
 blocket.se##.slick-current.slick-active.slick-slide:has-text(Listettan)
 blocket.se###eas_load_data_inverted_classifieds
-blocket.se##div:has-text(cookies)
 blocket.se##.MediumLayout__CenterWithPadding-q6qal1-1 > div:nth-of-type(1)
 blocket.se##.MediumLayout__PlacementWrapper-y8zw9h-1
 blocket.se##div:matches-css(width: 1012px):matches-css(height: 24px)
@@ -2172,7 +2174,6 @@ movie/ads
 
 #Blocked Scripts
 pagead-id.js^
-adx.js^
 advert.js^
 advertisement.js^
 adservice.js^
