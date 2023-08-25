@@ -318,11 +318,7 @@ open.spotify.com##body > div:nth-of-type(2)
 facebook.com#$#:matches-path(/)body > .AdBox.Ad.advert ~ div[class] { display: block !important; }
 facebook.com##body > .AdBox.Ad.advert:style(display:block!important;)
 facebook.com#@#html,body:style(overflow-x: hidden !important;)
-facebook.com##[href*="l.facebook.com"]
 @@||static.xx.fbcdn.net^$script
-||facebook.com/ajax/qm/*$ping
-||facebook.com/ads/*
-||facebook.com/tr/*
 ||facebook.com/video/autoplay/*$xhr
 ||facebook.com/xti.php$important
 ###fblike
@@ -2194,7 +2190,7 @@ popuper.js^
 ##[src*="/hit.php"]
 ##[src*="/track"]
 ##[src*="/splash-zones-split.php"]
-##[src*="/ad.doubleclick.net/"]
+##[src*="/ad.doubleclick.net"]
 ://ad.$script
 ://adv.$script,xhr
 ://ads.$script,xhr
@@ -2228,12 +2224,6 @@ popuper.js^
 *##a[href*="betting"]
 *##a[href*="brandstudio"]
 *##a[href*="branding"]
-*##a[href*="casinoguide"]
-*##a[href*="kampanj"]:has-text(/erbjudande/i)
-*##a[href*="lanapengar"]
-*##a[href*="premium/erbjudanden/"]
-*##a[href*="rabattkod"]
-*##a[href*="rabattkoder"]
 *##a[href*="clk."]
 *##a[href*="AdwdGn/"]
 *##a[href*="trackers."]
@@ -2382,14 +2372,6 @@ biz,click,co,io,link,to,pro,xyz##+js(aopr, _0x4459)
 /^https?:\/\/[a-z]{8,15}\.\/[a-z]{4,}\.css\?aHR0[\/0-9a-zA-Z]{41,}=?=?$/$css,3p,match-case
 /^https?:\/\/[a-z]{8,15}\.\/[a-z]{4,}\.png\?aHR0[\/0-9a-zA-Z]{41,}=?=?$/$image,3p,match-case
 
-||microsoft.com^$removeparam=tduid
-||microsoft.com^$removeparam=irclickid
-||microsoft.com^$removeparam=ranEAID
-||microsoft.com^$removeparam=ranSiteID
-||microsoft.com^$removeparam=ocid
-||mypurecloud.de^$important
-||apps.mypurecloud.de^$important
-*nr-data.net$all,important
 ?uclick=*&uclickhash=$removeparam
 /?uclick=*;uclickhash=$removeparam
 &uclick=*&uclickhash=$removeparam
@@ -2453,10 +2435,5 @@ $removeparam=fb_comment_id
 $removeparam=fb_ref
 $removeparam=fb_source
 $removeparam=dclid
-$removeparam=epi,domain=microsoft.com|xbox.com
 $removeparam=&__comet_req=
 $removeparam=JSESSIONID
-$removeparam=bam
-$removeparam=nr-data.net
-$removeparam=newrelic
-$removeparam=newrelic.config
