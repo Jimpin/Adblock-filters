@@ -1044,7 +1044,6 @@ upstream.*##.overlay
 ||upstreamcdn.*^$websocket,image
 @@||moviesjoy.*/watch-tv/^$popup
 ||use.fontawesome.com/releases/v5.3.1/css/all.css$css,domain=moviesjoy.net
-||google.com/js/bg/*$script
 ||vidcloud.co/images/logo-brand.png$image
 ||vidcloud.co/images/close2.png$image
 ||vcstream.to/images/file-not-found.jpg$image
