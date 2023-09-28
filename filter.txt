@@ -243,22 +243,19 @@ tv4.se##.social-buttons
 tv4.se##[class*="aside-ad"] 
 tv4.se##+js(acis, burtConfigs)
 tv4.se###cookie-banner
+tv4play.se##+js(no-fetch-if, /cloudfront.net\/creatives/)
+tv4play.se##.avod-web-player-pause:style(background-color:transparent!important;)
 tv4play.se##div:matches-css(width: 3px)
 tv4play.se##[data-test="cmore-upsell-button"]
 tv4play.se###__next > div:not(:first-child)
 tv4play.se###pause-img-holder
 tv4play.se##.js-cookie-banner
 tv4play.se#@#.adBanner
-tv4play.se##a[href="https://www.cmore.se/tv-program?utm_source=tv4play&utm_medium=partner&utm_campaign=test_cmore_topmeny_tv4play&utm_content=vinrod_se_utan_reklam_pa_cmore&utm_term=tv_program"]
-@@||cedexis.net^$3p,domain=tv4play.se|fotbollskanalen.se
-&browser=mozillafirefox$xhr,queryprune=/^browser/
 */aab/tv4play$script
 */trailers$media,redirect-rule=noopmp3-0.1s
 */tv4play_plugin.$script,redirect-rule=noopjs
 */bumpers/$media,redirect-rule=noopmp3-0.1s
 ||tv4play.se/hic_qos$script,redirect-rule=noopjs
-||se-tv4.videoplaza.tv/proxy/distributor/*$xhr
-||a-fds.youborafds01.com/data$xhr
 ||damoh.*.se^$image
 ||stat-api.tv4play.se^$xhr,image
 ||b17g.net^*/play/log$xmlhttprequest
@@ -268,7 +265,12 @@ tv4play.se##a[href="https://www.cmore.se/tv-program?utm_source=tv4play&utm_mediu
 ||trafficgateway.research-int.se/TrafficCollector$image
 ||adservice.google.com^$subdocument
 ||google.*/ads/ga-audiences$image
-||api.ipify.org^$xmlhttprequest
+||smartclip.net^$all,important
+||imrworldwide.com^
+||match.adsrvr.org^
+||time.akamai.com^$xhr
+/favicon-dark.ico$image
+/proxy/tracker/*$image
 /analytics;jsessionid=*$xhr
 /images/Animation_Playknapp2.png$image
 /pixel?google_nid=*$xhr
