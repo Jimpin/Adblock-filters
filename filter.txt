@@ -19,12 +19,6 @@ aftonbladet.se##a[href*="brandstudio."]
 aftonbladet.se##a[href*="aftonbladet.se/a/"]
 aftonbladet.se##[class*="css"][href*="/kampanj/"]
 aftonbladet.se##div:matches-css(z-index: /110/):style(display: none !important;)
-aftonbladet.se##[class*="-4th"]
-aftonbladet.se##[class*="1jy"]
-aftonbladet.se##[class*="7rc"]
-aftonbladet.se##[class*="6d6"]
-aftonbladet.se##[class*="h72"]:style(display: none !important;)
-aftonbladet.se##[class*="b5ee"]:matches-css(z-index: /100/):style(display: none !important;)
 aftonbladet.se##[class*="default css"][data-test-tag="embed-content"]
 aftonbladet.se##a:has-text(Kommersiell text, innehåller annonslänkar)
 aftonbladet.se##main > section > div[class^="css-"]:first-child:has(img[src*="closeButton"])
@@ -72,108 +66,47 @@ bloggar.aftonbladet.se##.collapse.row:nth-of-type(2)
 bloggar.aftonbladet.se###sidebar-panorama-1 > .columns.widget-area
 bloggar.aftonbladet.se##li.abSocialItem
 klart.se##+js(remove-class, mega-loading)
-||aftonbladet.se/cnp-assets/glimr-sdk.js
-||aftonbladet.se.senaste.$document
-||aftonbladet.se/kampanj/casinoguide$document
-||aftonbladet.se/tv/temp.mp4$media/rabattkod/*$image
-||schibsted.io^*/publishing/*$important
-||schibsted.io^*/gdpr-bundle.js
-||engage-auth.schibsted.media^$script
 ||adv.aftonbladet.se^$important
 ||ooul.tv/*/se-aftonbladet/aab/aftonbladet_$script
-||youbora.com^*/sp.min.js$important
-||jwpsrv.com^$subdocument,important
-||ab-web-notifications.herokuapp.com^$xhr
 ||interaction.acast.com/adImpression$xhr
 ||interaction.acast.com/progress$xhr,redirect-rule=nooptext
 ||auth.acast.com/v1/getAnonymousToken$xmlhttprequest,domain=embed.acast.com
 ||cdn.acast.com/images/ad-banner-black.jpg$image,domain=embed.acast.com,important
-||meetrics.net^$image,important
-||delivery.adten.eu^$image,xhr
-||report-uri.com^$3p
-||norstatsurveys.com^
-##[data-test="cookie-consent"]
-##[id*="banner-space"]
 utm_$document,removeparam=/^utm_/
 /www.*\.se\/cnp-assets\/[1-9][0-9]{0,1}\./$script
-/regionByIp
-/messagingnotcfapi.js^
-/deprecated-linkpulse-tracking.js
-/player-plugin-ad$3p
-/player-plugin-sponsor$3p
-/player-plugin-tracking$3p
-/pulse-sdk-html*.min.js$script
-/provider.cast.
-/gdpr-bundle.
 
 #Expressen.se
+expressen.se##+js(aeld, click, .preventDefault)
+expressen.se##.tapet-popup-js-no-scroll, .tapet-no-scroll:style(overflow-y:initial!important; position:unset!important;)
+expressen.se##.teaser__bottom--ad-marker:upward(.teaser)
+expressen.se##a:remove-attr(data-t-label)
+expressen.se##a:remove-attr(data-t-type)
+expressen.se##a[href*="/annons"], a[href*="/brandstudio"], a[href*="/brand-studio"], a[href*="/kampanj."], a[href*="/lanapengar."], a[href*="/rabattkoder."], a[href*="/spel.expressen.se"], .vignette--svg + a[href*="teknikensvarld."]:upward(.teaser)
+expressen.se##+js(acs, Bau, preloadAds)
 expressen.se##+js(set, detect, noopFunc)
-expressen.se##+js(ra, data-start-in-view)
-expressen.se##+js(ra, data-t-label)
-expressen.se##+js(set, detect, noopFunc)
-expressen.se##+js(json-prune, autoplay)
-expressen.se##+js(acis, adblock)
+expressen.se##.video-player:remove-attr(data-ad-config)
 expressen.se##+js(acis, ExpressenAnalytics, push)
 expressen.se###didomi-host:style(display: none !important;)
-expressen.se##[class*="didomi"]:style(overflow-y: auto !important;)
-expressen.se##aside.article-list > .ad-label--overlay
-expressen.se##aside.article-list > .ad-label--overlay + ul
-expressen.se##.outsider-ads__sticky-context
-expressen.se##.outsider-ads.site-body__outsider
 expressen.se##.main:style(width: 100% !important;)
 expressen.se##.site-footer__affiliates.site-footer__column--full-width
 expressen.se##p:has(strong:has-text(/^annons/i))
 expressen.se##.site-header__widgets > .html-widget > a[target="_blank"]
-expressen.se##.article--sponsored
-expressen.se##.article__after-widgets > .html-widget
-expressen.se##[class="exp-video-player__ad-counter"]
-expressen.se##[class="exp-video-player__buffer-overlay"]
 expressen.se##a[href*="teknikensvarld."]:upward(.teaser)
 expressen.se##strong:has-text(/annons:/i):upward(p)
-expressen.se##.ad
-expressen.se##.pa-dialog
-expressen.se##.campaign
 expressen.se##.bam-ad-slot--pre-sized.bam-ad-slot--visible.bam-ad-slot
-expressen.se##.consent
-expressen.se##.discount-ad
-expressen.se##.flashes--premium
-expressen.se##.flashes--visible
-expressen.se###rich-media-ads
-expressen.se##.widget--collaboration
-expressen.se##.widget-ad-marker, .widget-ad-marker + a
-expressen.se##.widget-area--hard-divide > * + :not(.bam-ad-slot):style(padding-top: 0px !important;)
-expressen.se##.linked-image-widget
-expressen.se##.pressrelease-teaser
-expressen.se##.promotion-banner
-expressen.se##.rotator--external
-expressen.se##[data-slot-name="insider"]
-expressen.se##.html-widget > div[style^="text-align: center; font-size: 10px;"]
-expressen.se##.exp-video-player__ad-video
-expressen.se##.exp-video-player__topbar
-expressen.se##.slideshow__control
-expressen.se##[href*="https://www.expressen.se/amelia/"]
-expressen.se##a[href*="/spel.exp"], a[href*="/lanapengar.exp"], a[href*="/rabattkoder.exp"], a[href*="/annons"], .match-betting, .discount-ad, .b-ad__caption, .pressrelease-teaser, .widget-ad-marker, .widget-ad-marker + a, .promotion-banner, .widget--collaboration, .rotator--external, a[data-click-track*="prisjakt"], .linked-image-widget a[href*="/kampanj/"], .linked-image-widget a[href*="lifestyle.expressen.se"]
+expressen.se##a[href*="/spel.exp"], a[href*="/lanapengar.exp"], a[href*="/rabattkoder.exp"], a[href*="/annons"], .match-betting, .discount-ad, .b-ad__caption, .pressrelease-teaser, .widget-ad-marker, .widget-ad-marker + a, .promotion-banner, .widget--collaboration, .rotator--external, a[data-click-track*="prisjakt"], .linked-image-widget a[href*="/kampanj/"], .linked-image-widget a[href*="www.cmore.se"], .linked-image-widget a[href*="lifestyle.expressen.se"], #premiumAdWrapper, .tapet-popup-overlay, .outsider-ads
 expressen.se##figure[data-article-data*="/sponsrat"], figure[data-article-data*="/annons"], figure[data-article-data*="/brand-studio"]
 *##+js(acs, ExpressenAnalytics, push)
 ##.terms-dialog
 ##[class="bam-ad-slot"]
 ##[class="page-list discount-ad"]
 @@||expressen.se/videoplayer/*$xmlhttprequest,1p
-||expressen.se/_megamenu/*$xmlhttprequest
-||expressen.se^$xmlhttprequest
 ||expressen.se/js/advertisement*.js$script
 ||expressen.se/img/icons/footer_ads.svg$image,first-party,important
 ||expressen.se/img/icons/footer_cookie.svg$image
 ||expressen.se/img/placeholders/*$image
 ||precis.expressen.se/recommendations$xmlhttprequest
 ||jtp.expressen.se/notify$image
-||richmetrics.com^$all
-/closest-native$xmlhttprequest,domain=expressen.se
-/analytics-post-
-/iframewidget/view/widget?$subdocument
-.se/crypt/?lpkey$all
-.se/tv/annons/
-.info/*-nyheter/$document
 
 #Twitch.tv
 twitch.tv##[data-a-target=prime-offers-icon]
@@ -198,8 +131,6 @@ twitch.tv##.prime-extension-root--show.prime-extension-root
 @@||twitch.tv/videos/*$csp
 @@||irc-ws.chat.twitch.tv^$websocket,1p
 @@||wss://pubsub-edge.twitch.tv
-||countess.twitch.tv^
-||spade.twitch.tv^
 
 #Twitter
 twitter.com##html:style(overflow-y: auto !important;)
@@ -213,7 +144,6 @@ google.*##+js(set-constant, rwt, noopFunc)
 google.*##[id="reviewDialog"]
 google.*##[id="dstyle"]
 google.*##a[href*="/aclk?"][data-al]:upward(2)
-google.*##[jsname="bF1uUb"]
 google.*###cnsm
 google.*###cnsw
 google.*##.ads-ad
@@ -233,15 +163,12 @@ google.*###rhs_block
 ||googleadservices.com^
 ||google-analytics.com^
 ||googleanalytics.com^
-||googlesyndication.com^
-||googletagservices.com^
 
 #Tv4play.se
-tv4.se##.program-header-sponsors 
-tv4.se##.social-block-ad 
+tv4.se##.program-header-sponsors
+tv4.se##.social-block-ad
 tv4.se##.social-buttons
-tv4.se##[class*="aside-ad"] 
-tv4.se##+js(acis, burtConfigs)
+tv4.se##[class*="aside-ad"]
 tv4.se###cookie-banner
 tv4play.se##+js(no-fetch-if, /cloudfront.net\/creatives/)
 tv4play.se##.avod-web-player-pause:style(background-color:transparent!important;)
@@ -251,30 +178,13 @@ tv4play.se###__next > div:not(:first-child)
 tv4play.se###pause-img-holder
 tv4play.se##.js-cookie-banner
 tv4play.se#@#.adBanner
-*/aab/tv4play$script
 */trailers$media,redirect-rule=noopmp3-0.1s
-*/tv4play_plugin.$script,redirect-rule=noopjs
 */bumpers/$media,redirect-rule=noopmp3-0.1s
-||tv4play.se/hic_qos$script,redirect-rule=noopjs
 ||damoh.*.se^$image
-||stat-api.tv4play.se^$xhr,image
-||b17g.net^*/play/log$xmlhttprequest
-||bonnier-html-player.b17g.services/bumpers/$media,redirect-rule=noopmp4-0.1s,domain=tv4play.se|fotbollskanalen.se
-||cloudfront.net/creatives/assets/$image,media,domain=fotbollskanalen.se|tv4play.se
 ||cmore.se/*.gif$image
-||trafficgateway.research-int.se/TrafficCollector$image
-||adservice.google.com^$subdocument
-||google.*/ads/ga-audiences$image
 ||smartclip.net^$all,important
-||imrworldwide.com^
-||match.adsrvr.org^
-||time.akamai.com^$xhr
 /favicon-dark.ico$image
-/proxy/tracker/*$image
 /analytics;jsessionid=*$xhr
-/images/Animation_Playknapp2.png$image
-/pixel?google_nid=*$xhr
-/revcontent/bundle.js
 
 #Youtube.com
 youtube.com###infoButton
@@ -299,17 +209,15 @@ youtube.com##.sparkles-light-cta.ytd-item-section-renderer.style-scope
 youtube.com###masthead-ad
 youtube.com###video-masthead
 youtube.com###hats-container
+youtube.com###dismissed
+/featured_channel.jpg$domain=www.youtube.com,image
 
 #Spotify.com
 spotify.com##.ads-container
 open.spotify.com###leaderboard-ad-element
 open.spotify.com##body > div:nth-of-type(2)
 @@||open.scdn.co/cdn/*$script,domain=open.spotify.com
-||open.spotify.com/log/adevent$xhr,redirect-rule=nooptext
-||fastly-insights.com^$xhr,domain=open.spotify.com
 ||cloudfront.net/mp3-ad/$media,redirect-rule=noopmp3-0.1s
-||akamaized.net/audio/*$media,redirect-rule=noopmp3-0.1s
-||audio-fa.scdn.co/audio/*$media,redirect-rule=noopmp3-0.1s
 ||scdn.co/audio/$media,domain=open.spotify.com
 ||spclient.wg.spotify.com/ads/*$xhr
 ||pixel-static.spotify.com^
@@ -321,8 +229,6 @@ facebook.com#$#:matches-path(/)body > .AdBox.Ad.advert ~ div[class] { display: b
 facebook.com##body > .AdBox.Ad.advert:style(display:block!important;)
 facebook.com#@#html,body:style(overflow-x: hidden !important;)
 @@||static.xx.fbcdn.net^$script
-||facebook.com/video/autoplay/*$xhr
-||facebook.com/xti.php$important
 ###fblike
 ##.ad-link
 
@@ -349,8 +255,6 @@ svenskafans.com##[class*="ad-"]
 ||svenskafans.com/css/feedbackpopup.css$css
 ||svenskafans.com/js/awp.min.js$script
 ||svenskafans.com/css/uniform.default.css$css
-||connect.facebook.net/*/all.js$script,3p
-||platform.twitter.com/widgets.js$script
 ||sak.userreport.com^
 /sticky*.$css,domain=svenskafans.com
 /js/smart-app-banner.$script,domain=svenskafans.com
@@ -415,62 +319,9 @@ blocket.se##div:matches-css(width: 1012px):matches-css(height: 24px)
 @@||blocket.se^$generichide
 @@||cdn.pro.blocket.cloud^$image
 @@||i.blocketcdn.se/pictures/*$image
-##.in.flex-modal.hgr-popup.ng-isolate-scope.fade.modal
-##.in.fade.hgr-popup.modal-backdrop
-##.bg-governor-bay
 ##[class*="SchibstedBanner__"]
 /blocket_puff.html$subdocument
-/ad-block-detection-script-tag-src.js$script,redirect-rule=noopjs
 ||logs2.xiti.com^
-
-#Gomovies
-gomovies.*##+js(acis, String.fromCharCode, /btoa|break/)
-gomovies.*##+js(acis, document.createElement, 'script')
-gomovies.*##[target="_blank"]
-gomovies.*##+js(set-constant, check_adblock, true)
-gomovies.*##.home-main > div:contains(?)
-gomovies.*##.hm-button
-gomovies.*##.alert-bottom
-gomovies.*##.alert-warning.alert
-gomovies.*###commentfb
-gomovies.*##.text-center.alert.ann-home
-gomovies.*##.swiper-slide-active.swiper-slide > .slide-link
-gomovies.*##.text-bottom.text-center
-gomovies.*##a[href="https://123movies.sc"]
-gomovies.*##footer
-gomovies.*##.footer-link:nth-of-type(2)
-gomovies.*##.footer-tags
-gomovies.*##.footer-copyright.col-lg-4 > p:nth-of-type(3)
-gomovies.*##div#pagination:nth-of-type(3)
-gomovies.*##div:nth-of-type(5)
-gomovies.*###subscribe-submit-footer
-gomovies.*##.mlw-related.movies-list-wrap
-gomovies.*##.social-home
-gomovies.*##.twitter-follow-button
-gomoviefree*$1p
-*gomovie*/wp-content/themes/assets/css/jquery.cluetip.css$css
-*gomovie*/wp-content/themes/assets/css/jquery.qtip.min.css$css
-streamlare.*##+js(aopr, StreamlarePop)
-streamlare.*##body > div[style^="position: fixed; display: block"][style*="inset: 0px;"]
-@@||cdn.streamlare.com/*.vtt$xhr,1p
-||streamlare.*/css/app.css$stylesheet,1p
-||cdn.streamlare.*/*.jpg$image,important
-||cdn.streamlare.com^$image,1p
-||google.com^$script,domain=streamlare.com
-*##.comments-area
-*##.dt_social_single
-*##[id*="foobar"]
-*##[id*="oscuridad"]
-*###playeroptionsul
-/favicon-16x16-1.png$all
-/webworker.js$script,3p
-/css/dist/block-library/*$stylesheet
-||spotscenered.info$important
-||streamgo.me/assets^$image
-||jwpcdn.com/player/plugins/*/related.js$script
-||gomovie*.disqus.com/embed.js$script
-/jwplayer/assets/juicycodes.js$script
-/jwplayer/assets/jq.min.js$script
 
 #Imdb.com
 imdb.com##body#styleguide-v2:style(background-color: #e3e2dd !important; background-image: none !important;)
@@ -488,12 +339,7 @@ imdb.com###top_ad
 @@||image.tmdb.org^$image
 ||imdb.com/tr/*pageHit$xhr,redirect=noopjs,domain=imdb.com
 ||fls-na.amazon.com/$xhr,redirect=noopjs,domain=imdb.com
-||images-na.ssl-images-amazon.com/images/G/02/shazam/1-MMM-Prem-wrap-2-5a2f2860-f043-48a7-ac78-4e3b3f8d60ef.jpg$image
-||aax-eu.amazon-adsystem.com/$domain=www.imdb.com,subdocument
 ||images-na.ssl-images-amazon.com/images/$image
-||imdb.com/widget/*
-||z-ecx.images-amazon.com^$script
-||amazon.com/aan/*
 *$media,redirect=noopmp3-0.1s,domain=imdb.com,3p
 /js/show_ads.js^
 
@@ -589,107 +435,7 @@ fbstream.*##.form-control:style(box-shadow: none !important; background: #052842
 @@*$generichide,domain=plylive.*
 @@||cdn.okamata.site^$image
 ^$websocket,domain=plylive.*
-||key.seckeyserv.*/?stream$xhr
 ||vipleague*/loadchat/*$xhr
-||commercialvalue.org^$important
-/fav/*$image
-/yandex-metrica-watch/tag.js
-
-#Fmovies
-fmovies.*,fmovies2.*,ffmovies.*##body.modal-open:style(overflow: auto !important;)
-fmovies.*,fmovies2.*,ffmovies.*##+js(acis, Promise, break;case $.)
-fmovies.*,fmovies2.*,ffmovies.*##^script:has-text(break;case $.)
-fmovies.*,fmovies2.*,ffmovies.*##+js(set, console.clear, undefined)
-fmovies.*,fmovies2.*,ffmovies.*###modalshare
-fmovies.*,fmovies2.*,ffmovies.*##.modal-backdrop
-fmovies.*,fmovies2.*,ffmovies.*##.footerdesc
-fmovies.*,fmovies2.*,ffmovies.*##.desc
-fmovies.*,fmovies2.*,ffmovies.*##.small
-fmovies.*,fmovies2.*,ffmovies.*##.hidden-xs
-fmovies.*,fmovies2.*,ffmovies.*##.col-xs-6:nth-of-type(2)
-fmovies.*,fmovies2.*,ffmovies.*##.edit-watchlist.mbtn.item
-fmovies.*,fmovies2.*,ffmovies.*##footer
-fmovies.*,fmovies2.*,ffmovies.*##.bg-home > p
-fmovies.*,fmovies2.*,ffmovies.*##.notify
-fmovies.*,fmovies2.*,ffmovies.*##.cat-more
-fmovies.*,fmovies2.*,ffmovies.*##[style*="display:block;z-index:9999;position;"]
-fmovies.*,fmovies2.*,ffmovies.*##.widget:nth-of-type(2) > .hd-buttons.row
-fmovies.*,fmovies2.*,ffmovies.*##.notice.alert-default.alert
-fmovies.*,fmovies2.*,ffmovies.*##.hidden-sm.hidden-xs.alert-warning.alert
-fmovies.*,fmovies2.*,ffmovies.*##a[href$=".html"][target="_blank"]
-fmovies.*,fmovies2.*,ffmovies.*##body > div:nth-of-type(9)
-fmovies.*,fmovies2.*,ffmovies.*##div.paging:nth-of-type(1)
-fmovies.*,fmovies2.*,ffmovies.*##.dsclear.go_article_home
-fmovies.*,fmovies2.*,ffmovies.*##[href*="/home"]
-fmovies.*,fmovies2.*,ffmovies.*##.bottomfooter
-fmovies.*,fmovies2.*,ffmovies.*##.clear.footertop
-fmovies.*,fmovies2.*,ffmovies.*##li:nth-of-type(3) > [href="#"]
-fmovies.*,fmovies2.*,ffmovies.*##[href="/list/featured-movies.html"]
-fmovies.*,fmovies2.*,ffmovies.*##.top-content
-fmovies.*,fmovies2.*,ffmovies.*##center
-@@/assets/js/video-js/
-*fmovies*/clear.gif$image
-*fmovies*/ajax/film/update-views$xhr
-*fmovies*/assets/acode/aplayer.html$frame
-*fmovies*/ajax.php$xhr
-*fmovies*/json.php$xhr
-*fmovies*/ajax/film/tooltip/*$important
-*fmovies*/captcha.php$image
-*$popup,3p,domain=0123movies.*|123movies.*|123moviesto.*|123gofmovies.*|bflix.*|gomovies.*|fmovies.*|fmovies2.*|ffmovies.*
-mcloud.*###jwa
-||mcloud.*/log/*$xmlhttprequest
-||mcloud.*/embed/*$1p
-||mcloud.*/ping$important
-||mcloud.*^$image
-||fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700$css
-mstream.*##[class="vjs-link"]
-mstream.*##[class="vjs-chrome-pip vjs-control vjs-button"]
-mstream.*##[class="vjs-playback-rate vjs-menu-button vjs-menu-button-popup vjs-button"]
-mstream.*##+js(acis, jQuery, appendTo)
-mstream.*##+js(acis, jQuery, adblocker)
-||mstream.*/view/*$image
-||mystream.*/img/*$image
-vidoza.*##+js(abort-current-inline-script, Math, zfgloaded)
-vidoo.*##+js(abort-current-inline-script, Math, zfgloaded)
-@@||vidoo.tv/js/pop.js$script
-||vidoo.*/dl?op=view&file_code*$xhr,1p
-||vidoo.*$script,popup
-||abi.vidoo.tv/i/*$image
-rapidvideo.com##+js(noeval.js)
-rapidvideo.com##+js(popads.net.js)
-rapidvideo.com##+js(abort-current-inline-script.js, atob, tabunder)
-rapidvideo.com##+js(abort-current-inline-script.js, parseInt, tabunder)
-rapidvideo.com##+js(abort-on-property-write.js, executed)
-rapidvideo.com##+js(set-constant.js, onload, noopFunc)
-||rapidvideo.com/thumb/*$image
-||rapidvideo.com/images/bgn.png$image
-||rapidvideo.com/images/rapidvideo_logo_player.png$important
-||rapidvideo.com/js/jquery.validate.min.js$script
-||rapidvideo.com/css/opensans.css$css
-||rapidvideo.com/?c=$xmlhttprequest,domain=rapidvideo.com
-||rapidvideo.com/images/rapidvideo_logo_player.png$important
-||mc.yandex.ru^$3p,important
-||playercdn.net/thumb/*$image,domain=www.rapidvideo.com
-||mcloud.to^$image
-||streamango.com/logpopup/*$important
-||content.fruithosted.net/splash/*$image
-||streamango.com/assets/img/logo.png$image
-||celeritascdn.com/script/compatibility.js$script
-streamtape.*##+js(aopw, _pop)
-streamtape.*##+js(abort-current-inline-script, Math, /emZnbG9hZGVk|break;case \$\./)
-streamtape.*##+js(aeld, contextmenu)
-streamtape.*##+js(set-constant, googleAd, true)
-streamtape.*##+js(acis, document.createElement, 'script')
-streamtape.*##+js(ra, target, #downloadvideo)
-streamtape.*##+js(set, btoa, null)
-streamtape.*##+js(set, towait, 0)
-streamtape.*##[class*="bn-container"], div[style*="z-index: 300000;"]
-streamtape.*##iframe[src^="data:"]
-streamtape.*#$#.pub_300x250.pub_300x250m.pub_728x90.text-ad.textAd.text_ad.text_ads.text-ads.text-ad-links { display: block !important; }
-streamtape.*#@#.google-ad
-||streamtape.com/mainstream2.js
-||in-page-push.com^$important
-/tag.min.js$3p
 
 #Dn.se
 dn.se##+js(acis, DN, initAds)
@@ -740,22 +486,6 @@ teknikensvarld.se##.panorama__wrapper.ad
 /plogger/
 /collect/*$ping
 
-#Dplay.se
-dplay.se##[class^="notificationArea"]
-dplay.se##.navbar.popup-video-showing
-dplay.se##.ad-transition-background
-dplay.se##.pause-ad
-dplay.se##.ad-click-through
-dplay.se##.ad-countdown
-dplay.se##.ad-overlay
-dplay.se##[id="linkTag2"]
-dplay.se##+js(setTimeout-defuser.js, r, 0)
-dplay.se##div:matches-css(width: 3px):matches-css(height: 5px)
-@@||fwmrm.net/ad/$script,domain=dplay.se|mtv.se
-||akamaihd.net^$media,domain=dplay.se
-||imasdk.googleapis.com/pal/sdkloader/pal.js$script,redirect-rule=noopjs
-||dnitv.com^$media,domain=dplay.se
-
 #Flashback.org
 flashback.org##.banner_text
 flashback.org###right-banner-container
@@ -781,69 +511,6 @@ speedtest.net#@#+js(aopr, Object.prototype.adUnits)
 @@/ping^$xmlhttprequest,domain=speedtest.net
 @@/download^$xmlhttprequest,domain=speedtest.net
 @@/upload^$xmlhttprequest,domain=speedtest.net
-/javascript/prebid^$script
-
-#123movies
-123movies.*,123moviesto.*,123gofmovies.*##+js(acis, jQuery, appendTo)
-123movies.*,123moviesto.*,123gofmovies.*##+js(acis, jQuery, adblocker)
-123movies.*,123moviesto.*,123gofmovies.*##+js(aopr, InstallTrigger)
-123movies.*,123moviesto.*,123gofmovies.*##[id="overlay"]
-123movies.*,123moviesto.*,123gofmovies.*##a[href^="/"][href*=".html"][target="_blank"]
-123movies.*,123moviesto.*,123gofmovies.*##+js(acis, p2pml.hlsjs.Engine, loader)
-123movies.*,123moviesto.*,123gofmovies.*##+js(acis, document.getElementById, style.display)
-123movies.*,123moviesto.*,123gofmovies.*##+js(aopr, BetterJsPop)
-123movies.*,123moviesto.*,123gofmovies.*##+js(acis, decodeURI, getScriptFromCss)
-123movies.*,123moviesto.*,123gofmovies.*##div#pagination:nth-of-type(4)
-123movies.*,123moviesto.*,123gofmovies.*##.bottom-bnr
-123movies.*,123moviesto.*,123gofmovies.*##[rel="nofollow noopener"]
-123movies.*,123moviesto.*,123gofmovies.*##.play-notice > .alert-warning.alert
-123movies.*,123moviesto.*,123gofmovies.*##.buttons
-123movies.*,123moviesto.*,123gofmovies.*##.btn-successful.btn-lg.btn
-123movies.*,123moviesto.*,123gofmovies.*##.row > .clearfix
-123movies.*,123moviesto.*,123gofmovies.*##footer
-123movies.*,123moviesto.*,123gofmovies.*###footer
-123movies.*,123moviesto.*,123gofmovies.*##.mb-5.mw-body
-123movies.*,123moviesto.*,123gofmovies.*##.btn-primary.btn-radius.btn-lg.btn
-123movies.*,123moviesto.*,123gofmovies.*##.ulclear
-123movies.*,123moviesto.*,123gofmovies.*##[src*="//jscdn"]
-*123movie^$csp=script-src 'self' 'unsafe-inline' *.google-analytics.com *.cloudflare.com *.gstatic.com *.google.com *.recaptcha.net
-*123movie^$other
-*123movie*/assets/js/custombanner.js$script
-*123movie*/*.tm$script
-*123movie*/*.it$script
-*gofmovie^$csp=script-src 'self' 'unsafe-inline' *.google-analytics.com *.cloudflare.com *.gstatic.com *.google.com *.recaptcha.net
-*gofmovie^$other
-*gofmovie*/assets/js/custombanner.js$script
-*gofmovie*/*.tm$script
-*gofmovie*/*.it$script
-
-#0123movies.com
-0123movies.*##+js(aopr, InstallTrigger)
-0123movies.*##.alert-warning.alert
-0123movies.*##.content-ads
-0123movies.*###commentfb
-0123movies.*##.alert-warning.alert
-0123movies.*##.content-ads
-0123movies.*##[href="/list/featured-movies.html"]
-0123movies.*##a[href$=".html"][target="_blank"]
-0123movies.*##li:nth-of-type(9) > [href="javascript:void(0)"]
-0123movies.*##li:nth-of-type(3) > [href="#"]
-0123movies.*##.hm-button
-0123movies.*###footer
-0123movies.*###cf-wrapper
-0123movies.*##[class="clearfix"]
-0123movies.*##h1
-0123movies.*##footer
-||0123movies.com/ip.temp/at_008/images/xmas/background.jpg$image
-||0123movies.com/ajax.php$xmlhttprequest
-||cdn.0123movies.com^$popup,first-party
-/images/*.gif$popup
-/ados.js$important
-/popunder1.js$important
-/evercookie_
-/ucount.php?
-&&_=
-&targetwindow=_$frame
 
 #Lookmovie.io
 lookmovie.*,lookmovie2.*##+js(aopr, adBlockDetected)
@@ -874,7 +541,6 @@ lookmovie.*,lookmovie2.*###social-share
 @@||lookmovie*^$ghide
 @@/static/lookmovie$domain=lookmovie.*|lookmovie2.*
 *$script,3p,denyallow=cloudflare.com|google.com|googleapis.com|gstatic.com|hcaptcha.com,domain=lookmovie.*|lookmovie2.*
-://metrika.*/analytics.
 ||lookmovie.*/favicon.ico$image,1p
 ||lookmovie.*^$popup,3p
 ||cntr.*^$all
@@ -900,13 +566,8 @@ streamtajm.*##.episode-bg.episode-area
 ||*.net^$frame,image,other,domain=streamtajm.com
 ||*.com^$other,domain=streamtajm.com
 ||nxload.com/thumbnails/
-||nxload.com/images/logo.png$image
-||nxload.com/images/adb.png$image
-||nxload.com/i/*$image,first-party
 ||nxload.com/player_clappr/*$font
 ||nxload.com/dl$xmlhttprequest
-||pushsar.com^
-||badslads.com^
 
 #Ratsit.se
 ratsit.se##.footer
@@ -917,14 +578,7 @@ ratsit.se###merInfo
 ratsit.se##.main-content-holder--submenu-fixed.main-content-holder.content > .container > div.row:nth-of-type(1) > .col-md-12
 ratsit.se##.js-scale-this-ad.hidden-print.ad-panorama-bottom > .ad-report--medium
 ratsit.se##.sok-traffar-div-tab01 > .search-list-banner__bg.search-list-banner
-ratsit.se##.sok-traffar-div-tab01 > div.hidden-print.search-list-inline-ad:nth-of-type(7) > .search-list-inline-ad-inner
-ratsit.se##.sok-traffar-div-tab01 > div.hidden-print.search-list-inline-ad:nth-of-type(7)
-ratsit.se##.sok-traffar-div-tab01 > div.hidden-print.search-list-inline-ad:nth-of-type(13) > .search-list-inline-ad-inner
-ratsit.se##.sok-traffar-div-tab01 > div.hidden-print.search-list-inline-ad:nth-of-type(13)
-ratsit.se##.sok-traffar-div-tab01 > div.hidden-print.search-list-inline-ad:nth-of-type(7) > .search-list-inline-ad-inner
-ratsit.se##.sok-traffar-div-tab01 > div.hidden-print.search-list-inline-ad:nth-of-type(7)
-ratsit.se##.sok-traffar-div-tab01 > div.hidden-print.search-list-inline-ad:nth-of-type(13) > .search-list-inline-ad-inner
-ratsit.se##.sok-traffar-div-tab01 > div.hidden-print.search-list-inline-ad:nth-of-type(13)
+ratsit.se##.sok-traffar-div-tab01 > .search-list-inline-ad-inner
 ratsit.se##.hidden-print.m-b-25.col-md-12
 ratsit.se##.popover-content
 ratsit.se##.main-content-holder.content > .container > div.row:nth-of-type(1)
@@ -979,29 +633,6 @@ gp.se##.rabble-widget
 /listicles.js$script
 /vendorList.js$script
 
-#Fotbollstransfers.com
-fotbolltransfers.com###html,body:style(overflow-y: auto !important;)
-fotbolltransfers.com##[class='hstpnetworkads']
-fotbolltransfers.com##[onload='lwhb.load(this)']
-fotbolltransfers.com##[style='display: none; width: 300px; height: 600px']
-fotbolltransfers.com##[id="clevernt"]
-fotbolltransfers.com##[src*="adtech.de"]
-fotbolltransfers.com##div[class^="ad"]
-fotbolltransfers.com##[id="6545344"]
-fotbolltransfers.com###fckab
-fotbolltransfers.com##.ad11
-fotbolltransfers.com##.ad23
-fotbolltransfers.com##[class*="ad"]
-fotbolltransfers.com##noscript
-fotbolltransfers.com##[href^="http://bit.ly/"]
-||fotbolltransfers.com/uploads/images/ovrigt/nordicwellness.jpg$image
-||fotbolltransfers.com/js/jquery.hoverIntent-r5.min.js$script
-||suntcontent.se^
-||s.vi-serve.com/tagLoader.js$script
-||ads.stickyadstv.com/www/delivery/swfIndex.php
-||ads.pubmatic.com/AdServer/js/showad.js$subdocument
-||vpaid.pubmatic.com/ads/video/vadtag.html
-
 #Moviesjoy/Movies2watch
 moviesjoy.*,movies2watch.*##+js(acis, JSON.parse, break;case $.)
 moviesjoy.*,movies2watch.*##html,body:style(overflow-y: auto !important;)
@@ -1045,7 +676,6 @@ upstream.*##.overlay
 ||upstream.*/dl$xhr,important
 ||upstreamcdn.*^$websocket,image
 @@||moviesjoy.*/watch-tv/^$popup
-||use.fontawesome.com/releases/v5.3.1/css/all.css$css,domain=moviesjoy.net
 ||vidcloud.co/images/logo-brand.png$image
 ||vidcloud.co/images/close2.png$image
 ||vcstream.to/images/file-not-found.jpg$image
@@ -1060,9 +690,6 @@ loadvid.*###overlay-vcplayer
 ||loadvid.online/images/dablock.png$important
 ||loadvid.online/images/logo-brand.png$image,important
 ||photo.vidcloudcdn.com^$image,important
-||cdnjs.cloudflare.com/ajax/libs/fuckadblock^
-||onclicksuper.com^
-||zdassets.com^
 dood.*##+js(nano-setInterval-booster, .countdown, , 0.02)
 dood.*##+js(aopw, check)
 dood.*##+js(aeld, contextmenu)
@@ -1075,19 +702,11 @@ dood.*##+js(nostif, debugger)
 rabbitstream.*##+js(set, console.clear, undefined)
 rabbitstream.*##[style*="height: 1px; width: 1161px;"]
 rabbitstream.*##[button="download-button"]
-||i.imgur.com/*.gif$image,domain=rabbitstream.net
 himovies.to##body.modal-open:style(overflow: auto!important;)
 himovies.to##+js(nostif, 0x)
 himovies.to###modalshare
 himovies.to##.modal-backdrop
-/js/kaltura.js$script
-/ajax/banners$xhr
 /images/dablock.png$image
-*##a[href*=".com/"]:has-text(Stream in HD now!)
-##[id="adbtm"]
-##[id="stpd"]
-##[class="adblock-notice text-center"]
-##.addthis_inline_share_toolbox
 /redirect?tid=^$important
 
 #Skidrowreloaded.com
@@ -1102,35 +721,18 @@ skidrowreloaded.com###communication
 |http://$script,image,xhr,3p,domain=skidrowreloaded.com
 |https://$script,image,xhr,3p,domain=skidrowreloaded.com
 
-#Radarbox
-radarbox.com##+js(set, ads_enabled, true)
-radarbox.com##.cZaNit
-radarbox.com##.ListItemLabel > span:contains(About)
-radarbox.com##[class*="Share"]
-radarbox.com##.remove-pub > [href="/subscribe"]
-
 #Body/Frames
 goal.com##.commercial
 goal.com##.clearfix.widget-inline-editors-picks
 goal.com##.widget-semantic-player--displayed.widget-semantic-player
 tiktok.com###tiktok-verify-ele
 ||api.github.com/_private/browser/stats$important
-##[class$="-sns-box"]
-###adPopup
-###ad_scroll_view
 ##.sharebuttons
 ##.sharethis-inline-share-buttons
 ##.internal-ad
 ##.clear.hd
 ##.widget-gpdr-banner
 ##.please-disable-modal
-##[id="vjs-logobrand-image"]
-##[class="vjs-control vjs-logo"]
-##[class="vjs-control-text"]
-##[class="vjs-loading-spinner"]
-##[class="vjs-black-poster"]
-##[id="adbdetect"]
-##[class="ads adsbox doubleclick"]
 ##[id="anim-container"]
 ##div[id^="MarketGid"]
 ##div[id*="ScriptRootC"]
@@ -1141,26 +743,9 @@ tiktok.com###tiktok-verify-ele
 ##[id="close_ad"]
 ##[id="close_ads"]
 ##[id="Advertisement1"]
-##[id="remove-over"]
-##[id="overover"]
 ##[id="hiddenBannerCanvas"]
-##[id^="detection-block"]
-##[class="amung_div"]
 ##[id="pop-share"]
-##[class="watching_share-area"]
-##[class="wsa-close"]
-##[class="wsa-follow"]
-##[class="wsa-share"]
 ##.movie-preview-content > a
-##[class="closeloloba"]
-##[class="loloba"]
-##[class*="app_gdpr-"]
-##[class="download_http"]
-##[class="download_p2p"]
-##[class="upload_p2p"]
-##[class="active_peer"]
-##[class="count_peer"]
-##[class="small-info"]
 ##[class="dropdownTrigger"]
 ##[class="marker-overlays js-noFade"]
 ##[class="iconSphere"]
@@ -1171,11 +756,6 @@ tiktok.com###tiktok-verify-ele
 ##.removeAdsStyle
 ###cookieAccept:not(body):not(html):not(button)
 ###cookieAccept
-###quicksearchWebSurvey
-###streamMateModel
-##.active.fanclub-info-pop
-##[id="cdm-zone-end"]
-##[id="vpaid_video_flash_tester_el"]
 ##.mobile-only-hide
 ##.share
 ###fb-root:not(body):not(html)
@@ -1188,18 +768,13 @@ tiktok.com###tiktok-verify-ele
 ##.Alert
 ##.alert
 ##.alertWrap
-##.avalanche-message
-##.bannerContainer
 ##.c-message
 ##.disclaimer
 ##.e-banner
-##.global-level-alert
-##.gpsecGRCookieContainer
 ##.infobanner
 ##.js-info-banner
 ##.message-popup
 ##.notification
-##.polopolyNotification
 ##.site-info-message
 ##.terms-dialog
 ##.cp-modal-popup-container:remove()
@@ -1210,31 +785,9 @@ tiktok.com###tiktok-verify-ele
 ###hotVideosSection > .alpha
 ###videoSearchResult > .alpha
 ##[name*="ads-center"]
-###amp-floating-area
-##a[href*="/bannerad"]
 ##.page-loaded
-##.top-ad-container > fbs-ad
-##.top-ad-container
 ###teconsent
-##[class="truste_overlay"]
-##[class="truste_box_overlay"]
 ##fbs-ad-rail
-##[class*="revo"]
-##.blank > [class="revo"]
-##span:has-text(Fast Safe Anonymous)
-##[class="fbs-ad--top-wrapper fbs-ad--top-wrapper--sticky fbs-ad--top-wrapper--desktop"]
-##[class="fbs-ad--mobile-medianet-wrapper"]
-##[id="modal__box"]
-##[class="fbs-ad--mobile-wrapper"]
-##[class="channel channel--ad"]
-##.ad-rail-container
-##fbs-embedly
-##.vestpocket
-##.adblock-unused.btf
-##.adblock-unused.bta
-##.nf-wrapper > .sectionWrapper
-##.ad-container
-##.gdpr_banner
 ##.video-ads
 ##.abAlertInner
 ##.AdBox
@@ -1242,23 +795,7 @@ tiktok.com###tiktok-verify-ele
 ##[data-entrycode="AdBlock"]
 ###ads
 ###abAlert
-##.footer-social
-###sky-right
-###bottomads
-###textAd
-###adsbox
-##.fa-youtube
-##.fa-twitter
-##.fa-google-plus
-##.fa-facebook-square
-##[id="div1"]
-##.ads.ad-column-1
-##.ads.vspace
-##div[style^="behavior:url(#default#homePage) url(#default#userData);background-color:"]
-##.hide-for-small.header-social-icons.columns.large-3
 ##.video-wrapper > #player + [class]
-##[href*="/click?"]
-##.asyncLoad
 ##[class="blackListActions clearfix"]
 ###footerMenu_advertising
 ##.js-pop.ad-link
@@ -1268,27 +805,7 @@ tiktok.com###tiktok-verify-ele
 ##.hidden-xs.notice.alert-default.alert
 ###hd-rightColVideoPage > div[class]:first-child
 ###hd-rightColVideoPage > none
-##.rta
-##.removeAdsStyle
-###centralNotice
-###pb_template
-###cboxOverlay
-###pb_block
 ###hAd
-###ad-link-text
-##sads
-##[data-ad-client*="ca-pub"][data-ad-slot]
-##.gameofthrones
-##.text_ads
-##.text_ad
-##.textAd
-##.text-ads
-##.text-ad-links
-##.text-ad
-##.ad_right
-##.actionnow
-###adtoma_panorama1
-###adtoma_panorama_forum1
 ##.sectionWrapper > div[class]:has(:scope > div > .ad-link)
 ###ad_overlay
 ##.ad400
@@ -1296,32 +813,15 @@ tiktok.com###tiktok-verify-ele
 ##.cc-banner
 ##[id*="ScriptRoot"]
 ##[id*="MarketGid"]
-###global-notification
-##.as-oil-content-overlay
-##.optanon-alert-box-bg
-###floatingbar
-##[class*="tipsy tipsy-w kepsy"]
 ##.page-blocker
-##.wid-banner-container
-##.wid-cams-widget
-##.wid-spot-container
 ###site-xpromo-banner > .js-banner.banner
 ###js-site-xpromo-banner-container-top
-##.underplayerAd
-###smartbanner.android
-###smartbanner.ios
-###smartbanner.windows
 ##.shareIcons
 ##.share-sites-thumbs
 ###right-banner-container
 ##.adLong
 ###videoCategory > .alpha
-##[class="adsbygoogle"]
-##a.btn-primary[rel="nofollow"]
 ###cookieDisclaimer
-##[class*="clearfix right-ads"]
-##[class="sponsor-text"]
-##[data-entrycode="RemAds-vidPg-AB"]
 ##[id*="popsByTrafficJunky"]
 ##[class="adsbytrafficjunky"][data-spot-id]
 ##.adsbytrafficjunky
@@ -1329,142 +829,37 @@ tiktok.com###tiktok-verify-ele
 ##[class="emptyBlockSpace"]
 ##.newPaidSection.section-p2v
 ##.nav-videoRecommended.more_recommended_btn.light.greyButton
-##.NotificationLine
-##.android_walking
-##.walking
-##milktruck
-##.widget.hd-buttons.row
-##.nyhet_wrapper_annons
 ##.adtoma_container
 ##.button.facebook
 ##.button.twitter
-##[class*="widget-advert"]
-##[class*="td-post-sharing-"]
-###disqus_thread > iframe
-##[id="cboxOverlay"]
-##[id="top_ad_wrapper"]
-##[id="top_ad_reflow_helper"]
-##[id="top_ad_rendering"]
-##view_inner
-##.navigation_ad
-##a[href*="/clickthrgh.asp?"]
-##a[href*="adtraction.com"]
-##div[class="ad-banner"]
-##div[class="ad-wrapper"]
-##div[class="block-ad"]
-##div[id="adbox_bottom"]
-##div[id="adbox_content"]
-##div[id="bottomads"]
-##td[class="adbanner"]
-##adblock-modal
-##.ad-dog
 ##div[id^="div-gpt-ad"]
-##[class="unlock start"]
-##.loading.img-fluid.lazy
 ##.advert
 ##.advert.box
 ###message_adblock
 ###bannerOverlay
-###ensNotifyBanner
 ##[class="closeSkin hide"]
 ##.abovePlayer
 ##[class="js-pop videoblock videoBox omega"]
 ##[class*="BufferLoader-styles--background"]
 ##[class*="CloseableTextBubble-styles--root"]
 ##[class*="HorseCrossPromotion-styles--text"]
-##.hidden-app.hidden-print
 ##[class*="FooterSection-styles--bottom"]
 ###welcome
 ##div[id^="welcome"]
 ##script[id^="welcome"]
 ##iframe[id^="welcome"]
-##.footer-title
-##.logoFooterWrapper
-##.AdblockMessage
-##.AdblockMessage_msg
-##.alpha.adWrapper
-##a[title="Share on Twitter"]
-##a[title="Share on Facebook"]
-##.email-overlay
 ##.overlay-inner
 ###contribute_footer
 ###CybotCookiebotDialog
-###block-os-social-os-social-share
-##.os-article__left
-##.widget_ad-widget
-##.advertise_box
-##.adv_wrap
-##.adv_leaderboard
-##.ad_bigbox
-##[href^="https://www.000webhost.com/"]
-##.closeAdBlock
-###AdFloater
-###banner-ad-container
-##.ad-choices
-##.banner.ad-container
-##.counterAdblocks
 ###share-button
-###share-tool
-##.show.sidecar.cat
-##.toggle-share
-##.red_alert
-##.responsive-banner
-##.floating-watch-now
-##.js-checkad-warning
-##.kill-adblock-container
-##.noadblock
-##.home-socials
 ###notice
-##[class="ym-viewport"]
-##.pull-right.report.mbtn.item
-##.thirdPartyRoot.previewOn.__Microsoft_Owa_MessageListAds_ListView_templates_cs_5
-##.loading-background
-##.showingCounter
-##.ab-wrapper.row
-##.alpha.sniperModeEngaged
-##.top-bar-adblock
-###top-banner-container
-###top-flashmessage
-###top-flashmessage.hidden-sm.hidden-xs
-##.toptot
-##.top_baer
-##.ubm_banner
-##.center_banners
-###incompatible_browser_container
-##.position-relative.text-info
-##.h-100.w-100.position-absolute
-###fanbox
-###fan-exit
-###fanback
-##.errorOverlay
-###exposeMask
-###iGSupport
-##.dialog-inner
-##.smokebg
-##.smoke-base.smoke-visible.smoke-alert
 ##.adsbygoogle
 ##[class*="abBlueLink"]
 ###div-advert
 ###float_content_right
 ###hide_float_right
-##.har_ad
-##.side_AD
-##.top_banneAd
-###bar_container_r
-###bar_top_r
-###u_0_1z
-##.ads-120.center-margin
-##.promo-img
-##.left-advertise-bar
-##.banner.rotating
-##.headbanner
 ##.ad.clearfix
 ##[id="popsByTrafficJunky"]
-##[data-adblock-spot-id*="1"]
-###cheadbanner
-###ctopbanner
-###bar_top_r
-###hide_float_right
 ###bar_container_r
 ##.left-advertise-bar
 ##.goog-te-banner-frame.skiptranslate
@@ -1474,336 +869,67 @@ tiktok.com###tiktok-verify-ele
 ##.heatwarning > iframe
 ##[class="overlay adblock_warning"]
 ##[class="modal fade modal-cuz"]
-##[class="disable_ad"]
-##[id="cluetip-1"]
-##[id="adbdetect"]
-###jwa
-##[class*="ghacks-ad"]
 ##.text-warning
-##.cc-window, .cc-floating, .cc-type-info, .cc-theme-classic, .cc-bottom, .cc-right
-##.cc-right.cc-bottom.cc-theme-classic.cc-type-info.cc-floating.cc-window
-###js-abContainterMain
-##.vjs-flyout-placeholder
-##.social-shares
-##.banner-in
 ###ad_unit_placeholder
 ##.region_redirect_popup_asset
 ###_evidon-background
 ###_evidon-barrier-wrapper
 ##.evidon-barrier
-##.zmgad-full-width
-##.zmgad-right-rail
-##.js-dismiss-alert.m-alert--dismissable.m-alert--info.m-alert.m-cookie-disclaimer__wrapper
-###legalLightBlock > .cont
-##.jetpack_subscription_widget
-##.jetpack-social-widget-item
-##.jetpack_widget_social_icons
-##.js-underplayerAd.underplayerAd
 ##[id*="blockblock"]
 ##.listbuilder-popup-embedded
 ##[class="mask adblock ad advertisement"]
 ##[class="adblock ad advertisement"]
 ##[class="publicidad"]
 ##[class="close"]
-##[id="like_overlay"]
-##[id="addy_footer"]
-###newsletter_popup
-###newsletter_popup_overlay
-###movie > .widget:nth-of-type(3)
-##.sectionWrapper.abEnabled .sectionTitle + div
-###modal_loading
-###modal_overlay
-##.cc-cookies
-##.cc-floating
-##.cc_banner
-##.cc_banner-wrapper
-##.cc_message
-##.cc_banner.cc_container--open:not(body):not(html)
-##.cc_banner-wrapper:not(body):not(html)
-##[class="vast-blocker"]
-##.extension-overlay__iframe
-##.extension-frame-wrapper
-##.extension-overlay
-##.extension-overlays
-##.extension-container
-##.twitter-follow-button
 ##.share-twitter
 ##.share-facebook
 ##.share-button
 ##.icon-gplus
 ##.icon-facebook
 ##sticky-sidebar
-##[class="footer wrapper clearfix"]
-##.post-type-content
-##.ds-download-link
-##.cartonbox > .lazyload
-##.pull-right.slider_small
-##[class*="smsbump"]
-##.show.cw-fade.cw-modal
-##.hidden-print.css-za945f-alertInfo
-###social-foot
 ##.ads-ad
-##.ad-block-notice
-###countryRedirectMessage
-##.fbar
-###taw
-##div.afs_ads
-##[class="ad-marker"]
-##.adblocker-popup
-##.adblocker-full-overlay
-##.center_ad
-###iframe_preview
-##.adban
-##[class*="twitter button"]
-##[class*="facebook button"]
-##[class="close"]
-##[class="banr"]
-##[class="ban468"]
-##[id="bannerClose"]
-##.social-home
-##.likes__row
-##.jw-reset.jw-rightclick-link
 ###preroll
 ##.ot-fade-in.onetrust-pc-dark-filter
 ##.outbrain
 ##.outbrain-ads
 ##.overlay-content-arrows
 ##.overlay-content-promotion
-###pagelet_side_ads
-###page-surprise-top
-###promo-subscription
-###promo-subscription-overlay
-##[class="reset"]
-##.campaign-holder
-##.gdpr-header
-##.policy-label
-##.privacypolicymessagebox_header_cookies
 ##.p_window > .ii
 ##.p_overlay
 ##.p_window
 ##.p_overlay
-##.ctm-box.cxenseignore
-##.inline-flex.no-underline.gro
-##[src="/imgpsh.png"]
-##[id="play_limit_box"]
-##.onboarding--full-width.onboarding
-##.navigation-light
-##.ad__cta
-##.text--center.text--nowrap.site_logo.logo__container
-##.alert--warning.alert
 ###outsider
 ##.js-ovl-fade
 ##.js-page-fatal-ovl
 ##.js-page-fatal-ovl-fade
 ##.js-messenger-banner.messenger-banner
-##.st_msgs_disable.messenger__main:contains(block)
-##.is-blocked.contact-card
-##.blocker--light.blocker
-##.alert.text-center.gdpr-msg
-###sticky-banner
-###sns_overlay
 ###sofascore-live-stream
 ##.ad_stream_hd
 ##.block-type--shareButton
-##.gp-advertisement-wrapper
-##.gpAdBox
-##.gpAdFooter
-##.gpAds
-##.gp_adbanner--bottom
-##.gp_adbanner--top
-##.gpadvert
-##.gpt-ad
-##.gpt-ads
-##.gpt-sticky-sidebar
-##.gw-ad
-##.gx_ad
-##.has-ad
-##.hasAD
-##.hasads
-##.hero-ad
-##.hero-ad-special
 ##[data-test-id="hero-placeholder"]
 ##[data-test-id="startpage-hero"]
 ##[class*="BannerFlowBanner-styles--root"]
-##.iframe-ad
-##.iframe-ads
-##.iframeAd
-##.iframeAds
-##.iframead
-##.iframeadflat
-##.image-advertisement
-##.image-viewer-ad
-##.imageAd
-##.imageAdBoxTitle
-##.imageAds
-##.imagead
-##.imageads
-##.images-adv
-##.imagetable_ad
-##.img-advert
-##.img_ad
-##.img_ads
-##.imgad
-##.imgur-ad
-##.impactAdv
-##.incontentAd
-##.incontent_ads
-##.info-ads
-##.inner-ad
-##.inner-ad-disclaimer
-##.inner-adv
-##.inner-advert
-##.inner-advt-banner-3
-##.inner-post-ad
-##.innerAdWrapper
-##.innerAds
-##.innerContentAd
-##.inner_ad
-##.inner_ad_advertise
-##.inner_adv
-##.inner_big_ad
-##.innerad
-##.is-sponsored
-##.jquery-script-ads
-##.lazy-ad
-##.lazy-adv
-##.lazyad
-##.lazyadslot
-##.lazyload_ad
-##.lazyload_ad_article
-##.masthead-ad
-##.masthead-ad-control
-##.masthead-ads
-##.mastheadAds
-##.masthead_ad_banner
-##.masthead_ads_new
-##.masthead_topad
 ##.mgid-wrapper
-##.narrow_ad_unit
-##.narrow_ads
-##.nu2ad
-##.nuffnangad
-##.nui-ad-layout
-##iframe[width="728"][height="90"]
-###onetrust-consent-sdk
-##.open-ad-container-mobile
-##.openads
-##.openadstext_after
-##.openx
-##.openx-ad
-##.openx_10
-##.openx_11
-##.openx_15
-##.openx_16
-##.openx_17
-##.openx_3
-##.openx_4
-##.openx_ad
-##.openx_frame
-##.openxbuttons
-##.outbrain-ad-slot
-##.outer-ad-container
-##.outer-ad-unit-wrapper
-##.outerAdWrapper
-##.outerAd_300x250_1
-##.outerAds
-##.outeradcontainer
-##.outermainadtd1
-##.outgameadbox
-##.outside_ad
-##.outstream-ad-outer-wrapper
-##.overflow-ad
-##.overlay-ad
-##.overlay-ad-container
-##.overlay-ads
-##.overlay_ad
-##.place-ads
-##.placeholder-ad
-##.placeholderAd
-##.plainAd
-##.play-page-ads
-##.playAds1
-##.playAds2
-##.player-ad
-##.player-ad-overlay
-##.player-ads
-##.player-ads2
-##.player-leaderboard-ad-wrapper
-##.player-under-ad
-##.playerAd
-##.playerAdv
-##.player_ad
-##.player_ad2
-##.player_ad_box
-##.player_hide_ad
-##.player_hover_ad
-##.player_page_ad_box
-##.playlist-row-ad
-###playback-fake
-##.plugin-ad
-##.pod-ad
-##.pod-ad-300
-##.pod-ad-box
-##.poll_sponsor_ad
-##.pop-up-ad
-##.popAdContainer
-##.popadtext
-##.popunder-adv
-##.popup-ad
-##.popupAd
-##.popupAdOuter
-##.popupAdWrapper
-##.popup_ad
-###rang2
-##.regularad
-##.reklam
-##.reklam2
-##.reklam-block
-##.reklam-masthead
-##.related-ad
-##.related-ads
-##.relatesearchad
-##.remove-ads
 ##.removeAdsLink
 ##.removeAdsStyle
 ##.reportAdLink
-##.trafficAdSpot
-##.trafficjunky-ad
-##.vjs-ad-iframe
-##.vjs-ad-overlay
-##.vjs-ima3-ad-container
-*##[href*="adnxs.com"]
-*##[href*="adclick."]
 *##[href*="adrunnr.com"]
 *##[href*="clkads"]
 *##[href*="directrev.com"]
 *##[href*="marketgid.com"]
 *##[href*="mgid.com"]
-*##[href*="onclickads.net"]
 *##[href*="doubleclick.net"]
-*##[href*="srvpub.com"]
 *##[href*="exoclick.com"]
-*##[href*="mdn2015"]
 *##[href*="adform.net"]
 *##[href*="//adskeeper."]
 *##[href*="//new-dating"]
 *##[href*="//zenhppyad.com/"]
 *##[href*="//mgid.com/"]
-*##[href*="//000webhost.com/"]
-*##[href*="/ads."]
-*##[href*="/adv/"]
-*##[href*="/advert"]
-*##[href*="affiliate"]
 *##[href*=".clkcln.com/"]
 *##[href*=".clksite.com/"]
 *##[href*="/adServe/banners?"]
-*##[href*="=Adtracker"]
-*##[href*="=adscript"]
-*##[href*="=exoclick"]
-*##[href*="a2g-secure.com"]
 
 #Ads/Trackers
-||stackpathcdn.com^$xhr
 ||adservice.com^
 ||adform.net^
 ||amazon-adsystem.com^
@@ -1815,48 +941,31 @@ tiktok.com###tiktok-verify-ele
 ||adroll.com^
 ||adcash.com^
 ||addjump.com^
-||adsrvr.org^
-||tapad.com^
-||bannerflow.com^
-||trafficgateway.research-int.se^
 ||trafficjunky.net^
 ||analytics.codigo.se^
-||clckads.com^
 ||borrango.com^
 ||tororango.com^
 ||playadse.nuggad.net^
-||quantserve.com^
 ||advert.vg.no^
 ||advertisement.vg.no^
 ||addthisedge.com^
-||jssdk.pulse.schibsted.com/autoTracker.min.js$script,important
-||cdn.doublepimpssl.com^
-||ads*.contentabc.com^
-||defpush.com^$script
-||panel2.research-int.se^
 ||rtmark.net^
 ||tradedoubler.com^
 ||taboola.com^
 ||2mdn.net^
-||track.adform.net^
 ||creative.wwwpromoter.com^
-||disqus.com/count.js$script
-||disqus.com/embed.js$script
-||disqus.com/forums/*/embed.js$script
 ||bidtheatre.com^
 ||lp4.io^
 ||adblade.com^
 ||adsnative.com^
 ||content.ad^
 ||revcontent.com^
-||taboola.com^
 ||zergnet.com^
 ||rev4rtb.com^
 ||smartadserver.com^
 ||getcontent.net^
 ||gialnk.com^
 ||oload.cloud^
-||fastly.net/ads/$all
 ||exosrv.com^
 ||fastpopclick.com^
 ||fastpopunder.com^
@@ -1876,8 +985,6 @@ tiktok.com###tiktok-verify-ele
 ||adserver.yahoo.com^
 ||juicyads.com^
 ||adshost.site^
-||track.venatusmedia.com^
-||disqus.com^$3p
 ||etahub.com^
 ||adsco.re^
 ||popads.net^
@@ -1892,48 +999,16 @@ tiktok.com###tiktok-verify-ele
 ||boudja.com^
 ||addtoany.com^
 ||freegeoip.net^
-||adexchangetracker.com^
-||ads.com^
 ||realsrv.com^
 ||bnserving.com^
 ||openstat.net^
-||affiliatelounge.com^
 ||venturead.com^
-||maxonclick.com^
 ||tracking.revimedia.com^
-||alluc.ee^
 ||promotions.betsafe.com^
 ||rtmark.net^
-||dmm.com^
-||rum-static.pingdom.net^
-||track.adform.net^
-||static.addtoany.com^
-||mdn2015x3.com^
-||gmobtrks.com^
-||syndicpop.com^
-||casalemedia.com^
-||xtendmedia.com^
 ||loadercdn.com^
 ||promos.bwin.com^
-||adnety.com^
-||clicknety.com^
-||adk2.co^
-||onesignal.com^
-||adx1.com^
-||adxprtz.com^
-||pxl2015x1.com^
 ||adbit.co^
-||jsc.mgid.com^$important
-||optimizely.com^
-||adxprtz.com^
-||serving-sys.com^
-||revrtb.com^$important
-||waframedia20.com^$important
-||tracker.*/wss$websocket
-||tracker.*/$script
-||tracker.*/$xmlhttprequest
-||connect.facebook.net/signals/*$script
-||graph.facebook.com^
 .nu/annons/
 .se/annons/
 .se/*/nativeadvertising/
@@ -1941,7 +1016,6 @@ tiktok.com###tiktok-verify-ele
 .se/log/?
 .se/Logger?
 -ads.js?
-hic_qos?adv_partner^
 survey/source^
 affiliates.
 adsense.
@@ -1954,145 +1028,50 @@ movie/ads
 /ping?client_id=
 /system/context.js$script
 /error.png$image
-/adsrv
 /adsrvmedia
 /async/ads
 /asyncadload
-/ads?
 /player*/ad*.php$xhr,1p
 /bet365$popup
-/html/blocked.html$popup,important
+/html/blocked.html$important
 /bundles/analytics
-/favicon.ico$image,important
+/favicon.ico$image$important
 /icon-facebook.
 /icon-twitter.
 /icon-rss.
-/captcha.php?
-/geo.php$xhr
-/js/googima.js$script
-/js/popup-controller.js$script
-/get/*$subdocument,3p
-/adblock_detector2.js$script
-/b9ng.js$script
-/ZeroClipboard.js$script
-/xmlrpc.php
-/ads_test.js
-/publishertag.prebid.js$script
-/js.php$important
-/pn.php$important
-/splash-zones-split.php$popup,important
-/advert2.
-/index.html?message_id=*&preload_message=true
-/native.json
-/decript.php$xhr
-=home&site_id=
-=home&refresh=
 /browser/stats$ping
 /load?^$important
 /adscript.js$script
-/ads-iframe/*
-/ad-takeover
-/ad/u?mode=
-/adfuel
-/ad?channel=
-/ad?cid=
-/ad?count=
-/ad?currentview=
-/ad?data=
-/ad?iframe_
-/ad?pos_
-/ad?sponsor=
-/ad?type=
-/ad_announce
-/ad_area
-/ad_banner
-/ad_bannerPool
-/ad_banners
-/ad.aspx?
-/ads.aspx?
-/abdetect.js
-/abDetector.js
-/abp_detection
-/abtest_ab.js
-/ad-blocker.js
-/ad-blocking-alert
-/adb.min.js
-/adb_detector
-/adblock*.js$script
-/adblock*/*.js$script
-/ad-blocking-advisor/
-/adblock-notice
-/adblock_notify.js
-/adblocker_message_
-/AdblockMessage.
-/antiadblockmsg.
-/player*/ad*.php$all
-/simple-adblock-notice/
 /site/captcha?
-/fuckadb.js
-/fuckadblock$script
-/blockadblock$script
-/cdn-cgi/apps/head/*$script,3p
-/efes.js
 /authorization.css$css
-/log.js$script
-/jquery.adi.js
 /player/ads.js$script
-/plugins/anti-block/
-/js_error.phtml$xhr
 /anti-block-modal.js$script
-/promo-banner.js?cache=
-/front-index-pc.js?
-/vortex-simple-*.js$script
-/xhr-ads.min.js$script
 /iframe-*.html$subdocument
-/laddased
 /favicon.ico$popup,important
 /messagingNoTcfApi.js
 /metrics/bambuser
-/appnexus$script
 /gtag/js?
 /ntfc.php?
 /js-ad.php
 /js.php?sid=
 /js/advertising/
-/js/clickunder/
-/js/pop-up.js$3p
-/js/vk.php$3p
 /pfe/current/
-/label-advertisement.
 /null/123/
 /pb_block.css?
 /networks/tag.js?
 /networks/tag_config.js
-/wp-popup-scheduler/*
-/wp-srv/ad/*
-/wp_ad_250_*
-/wp-content/ads/*
 /socialmedia.
 /likebox.
 /?uclick=
 /redirect-ads.php
-/tc-under.min.js
-/amplitude-*.js$script
-/chrome.js$script
-/compatibility.js$script
 /_graphics/annons/*
-/jquery.slimscroll
-/smetrics.*/b/ss/
-/popunder*.js^
-/cuteimage/*$image
 /genads.php?uid^
 /ads/purl.js$script
 /pubcontent/
 /json.php?ip=user_get_state
 /xupload.js$script
-/nocookieswarning_
-/rwdgrid.min.css
-/addons/premInfo/*$image
 /player_error
 /prebid/*
-/stats.wp.com$script
 /puopen.php?
 /puscript
 /ruxitagentjs_
@@ -2113,7 +1092,6 @@ named.min.js^
 www-pagead-id.js^
 outbrain.js^
 trustedsaver.js^
-ads.min.js^
 autoplayrenderer.js^
 transcript.js^
 fs.js^
@@ -2131,27 +1109,18 @@ Pop-under.js^
 popuper.js^
 
 #Allowed
-@@||stream.nbcsports.com^
 @@||ajax.googleapis.com/ajax/libs/jquery/
-@@||data-live.flightradar24.com/zones/*$script
 @@||static.twitchcdn.net/assets/*$script
-@@||cloudfront.net/assets/*$media,3p
 @@||steamstatic.com^$image
 @@||youtube.com/embed/*$subdocument
-@@||redirector.googlevideo.com/videoplayback$media
 @@||apis.google.com^$script
 @@||maps.google.com^$script,image
 @@||cdn.cloudflare.steamstatic.com^$image
-@@||steamcdn-a.akamaihd.net^$image
-@@||steamstore-a.akamaihd.net^$image
 @@||googlevideo.com/videoplayback?^$xhr
-@@||youbora.com/*/js/adapters/jwplayer$script
-@@||chrome-extension://*?magnet$popup
 @@*player.min.js$script
 @@/js/page-landing-page.js?*$script
 @@/live/*.m3u8
 @@/live/*.ts
-@@?utm_medium=iframe_widget$popup
 @@/videos/$image
 @@/css/bootstrap.min.css$css
 @@_next/static/$script
@@ -2165,36 +1134,22 @@ popuper.js^
 ##[data-cfasync]
 ##[src="/social-box/"]
 ##[src*="/next.php"]
-##[src*="/?yadrd="]
 ##[src*="/pop.php?"]
 ##[src*="/afu.php"]
 ##[src*="/stat.php"]
 ##[src*="/js.php"]
-##[src*="/pn.php"]
-##[src*="/pn-subs.php"]
 ##[src*="/genads.php?"]
-##[src*="/adca.php"]
-##[src*="/rekban.php?"]
-##[src*="/ntfc.php?"]
-##[src*="/share.php"]
 ##[src*="/json.php"]
 ##[src*="/ajax.php"]
 ##[src*="/ucount.php?"]
 ##[src*="/captcha.php"]
-##[src*="/aplayer.html"]
 ##[src*="/afu.php?"]
 ##[src*="/click.php"]
-##[src*="/wiki.html"]
-##[src*="/foto_test.html"]
-##[src*="/chat_choose.html"]
 ##[src*="/chat.html"]
-##[src*="/hit.php"]
 ##[src*="/track"]
 ##[src*="/splash-zones-split.php"]
 ##[src*="/ad.doubleclick.net"]
-://ad.$script
 ://adv.$script,xhr
-://ads.$script,xhr
 ://hw-$important
 ://adserve.$important
 ://srv.$important
@@ -2227,8 +1182,6 @@ popuper.js^
 *##a[href*="branding"]
 *##a[href*="clk."]
 *##a[href*="AdwdGn/"]
-*##a[href*="trackers."]
-*##a[href*="track.adtraction."]
 *##a[href*="pre."]
 *##a[href*="click?p="]
 *##a[href*="create_click?partner_id="]
@@ -2240,41 +1193,24 @@ popuper.js^
 *##.teaser:has(a[href*="rabattkoder."])
 *##.teaser:has(a[href*="spel.expressen.se"])
 /\.cloudfront.*\/\?.*[a-zA-Z0-9]{5,16}/$script,3p
-/jssdks$3p
-/ntfc$3p
-/close.png$image,important
 /genads$important
 /tuname$important
 /puopen$important
 /sw_*.js^$script
-/smpop-stable.js$script
 /privacy/notification?$xhr
 /glimr.$script
 /gdpr-bundle.$script
 ###block-onscroll-onscroll
-##li[data-test-id="infinite-scroll-AD"]
-##li[data-test-id="infinite-scroll-PENCIL"]
-##[class="alert-banner js-alert-banner"]
-##[class="alert-banner__content padded-content"]
-##[src*="/cse.js?"]
-##.iubenda-cs-content
-###twt
-###fbh
 ##.info-bar__caption
 ###popup-poster_image
 ###popup-poster_inner
 ###popup-poster
 ###footer_bottom_floating_line__cookies
 ##.light.as-oil
-###tyche_cmp_modal
-##.popup_overlay--2rgA3
 ##[class*="a2a_"]
 ###importantMessage
 ||jwpcdn.com^/*.js$script
-*/player/plugins/vast-*.js$script
-###main-nav > li > a[rel="nofollow noopener"][onclick^="pageTracker"]
 ##div[id*="ScriptRootC"]
-##div[id*="gsInformerID-"]
 ##.video_ad
 ###right_ad
 ###left_ad
@@ -2282,30 +1218,15 @@ popuper.js^
 ##.video-boxad
 ##li.releated_video:has-text(AD)
 ##div[id^="ts_ad_native_"]
-###dmmad
-###ad_html
 ##.self-gg
-##.float-ads
-##.float-ads-backgroud
-##.noPopunder
-##.ab_responsive_ads
-##.tj-add-text
-##.vjs-inplayer-closeandplay
-##.attentionMsg
-##.inplayer.hidden-xs
-##[src*="/js/xads.js"]
 ##form:has-text(Learn More)
 ##.sticky-center.adunit
-##.hx_cookie-banner-main.js-main-cookie-banner
 ##.gdpr-banner
 ##[class*="ad outsider__"]
 ##[class*="ad insider__"]
 ##[class*="ad module__"]
 ##[id*="rich-media-ads"]
 ##[id*="ads-script"]
-##[id*="overlay-container"]
-##[class*="ad-placement"]
-##[class="jw-overlays jw-reset"]
 ##[aria-label="Close"]
 
 *$script,redirect-rule=noopjs
