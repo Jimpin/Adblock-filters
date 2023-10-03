@@ -12,23 +12,16 @@ aftonbladet.se##strong:has-text(/ANNONS/i):upward(p)
 aftonbladet.se##.event-subheader-widget
 aftonbladet.se##a:has-text(annonslänkar)
 aftonbladet.se##a:has(span:has-text(/^annons/i))
-aftonbladet.se##a:has-text(Kommersiell text, innehåller annonslänkar)
-aftonbladet.se##a[href*="/a/"]:contains(annonslänkar)
-aftonbladet.se##a[href*="/a/"]:contains(ANNONS)
-aftonbladet.se##a[href*="brandstudio."]
-aftonbladet.se##a[href*="aftonbladet.se/a/"]
+aftonbladet.se##[class*="hyperion-css"].fullWidthMobile.sportbladet
+aftonbladet.se##[class*=" fixed"] ,[style="min-height: 366px"]
 aftonbladet.se##[class*="css"][href*="/kampanj/"]
-aftonbladet.se##div:matches-css(z-index: /110/):style(display: none !important;)
+aftonbladet.se##[class*="hyperion-css-"]:style(z-index: 0px !important;)
 aftonbladet.se##[class*="default css"][data-test-tag="embed-content"]
-aftonbladet.se##a:has-text(Kommersiell text, innehåller annonslänkar)
 aftonbladet.se##main > section > div[class^="css-"]:first-child:has(img[src*="closeButton"])
 aftonbladet.se##[data-test-tag="internal-link:single-page-link"]:contains(annonslänkar)
 aftonbladet.se##a[href*="/tv/"]:has(span:has-text(/studio oddset/i)):upward(1)
 aftonbladet.se###megaAd-placeholder, #superright-side, a[href^="/brandstudio"], a[href*="/rabattkod"], a[href*="/casinoguide"], [id^="adPlacement"], a[href^="https://kampanj.aftonbladet"][data-test-tag="internal-link"]
 aftonbladet.se##[data-ad-subtype]:upward(1):matches-css(min-height:/[0-9]+/)
-aftonbladet.se##.sch-datacontroller--subheader.sch-datacontroller--cobranded.sch-datacontroller
-aftonbladet.se##.sch-datacontroller--permanent.sch-datacontroller--cobranded.sch-datacontroller
-aftonbladet.se##^script:has-text(preLoadAds)
 aftonbladet.se##aside > div:has(h2:has-text(/^annons/i))
 aftonbladet.se##section > div:has(h2:has-text(/^annons/i))
 aftonbladet.se###main > div > div > div:has(h2:has-text(/^annons/i))
@@ -38,15 +31,12 @@ aftonbladet.se##div[class][style*="text"]:has(h3:has-text(/annonslänkar/i))
 aftonbladet.se##.abAside > div[style^="text"]:last-child
 aftonbladet.se##.ab-responsive-ads-wrapper
 aftonbladet.se###data-controller-stripe
-aftonbladet.se##a:contains(Nöjesbladet)
 aftonbladet.se##.disable-cogwheel
 aftonbladet.se##.wide:contains(,)
 aftonbladet.se##.share-icons
 aftonbladet.se##.social-shares
 aftonbladet.se##[href*="twitter.com/sportbladet"]
 aftonbladet.se##[href*="facebook.com/sportbladet"]
-@@||aftonbladet.se/video-player-extras/*$script
-@@||cdn.stream.schibsted.media/jw/*$script
 acast.com##[alt="Advertisement"]
 acast.com##[data-test-id="AirTimeAdControls__CountDown"]
 acast.com##[data-test-id="Link"]
@@ -74,6 +64,10 @@ klart.se##+js(remove-class, mega-loading)
 ||cdn.acast.com/images/ad-banner-black.jpg$image,domain=embed.acast.com,important
 utm_$document,removeparam=/^utm_/
 /www.*\.se\/cnp-assets\/[1-9][0-9]{0,1}\./$script
+/paywall.js$script,domain=www.aftonbladet.se
+/picture-in-picture.js$script,domain=www.aftonbladet.se
+/toggle-player-floating-state.js$script,domain=www.aftonbladet.se
+/minimize-floating-player.js$script,domain=www.aftonbladet.se
 
 #Expressen.se
 expressen.se##+js(aeld, click, .preventDefault)
@@ -109,6 +103,9 @@ expressen.se##figure[data-article-data*="/sponsrat"], figure[data-article-data*=
 ||jtp.expressen.se/notify$image
 
 #Twitch.tv
+twitch.tv##.highlight
+twitch.tv##.community-highlight
+twitch.tv##.smarter-sort-callout
 twitch.tv##[data-a-target=prime-offers-icon]
 twitch.tv##[data-a-target=try-prime-link]
 twitch.tv##.prime-offers__pill
@@ -131,12 +128,6 @@ twitch.tv##.prime-extension-root--show.prime-extension-root
 @@||twitch.tv/videos/*$csp
 @@||irc-ws.chat.twitch.tv^$websocket,1p
 @@||wss://pubsub-edge.twitch.tv
-
-#Twitter
-twitter.com##html:style(overflow-y: auto !important;)
-twitter.com##section:only-child > h1[id][aria-level="1"] + div[aria-label] div[class^=css-] > h2 > div[dir=auto]:upward(3)
-@@||twitter.com/*/api/*$xhr,1p
-||analytics.twitter.com^
 
 #Google
 google.*##html:style(overflow-y: auto !important;)
@@ -165,26 +156,35 @@ google.*###rhs_block
 ||googleanalytics.com^
 
 #Tv4play.se
-tv4.se##.program-header-sponsors
-tv4.se##.social-block-ad
+tv4.se##.program-header-sponsors 
+tv4.se##.social-block-ad 
 tv4.se##.social-buttons
-tv4.se##[class*="aside-ad"]
+tv4.se##[class*="aside-ad"] 
+tv4.se##+js(acis, burtConfigs)
 tv4.se###cookie-banner
+tv4play.se##+js(json-prune-fetch-response, bumpers, , propsToMatch, url:/playback2.a2d.tv\/play/)
 tv4play.se##+js(no-fetch-if, /cloudfront.net\/creatives/)
 tv4play.se##.avod-web-player-pause:style(background-color:transparent!important;)
-tv4play.se##div:matches-css(width: 3px)
+tv4play.se##[style*="left: 0%;"]
 tv4play.se##[data-test="cmore-upsell-button"]
 tv4play.se###__next > div:not(:first-child)
 tv4play.se###pause-img-holder
 tv4play.se##.js-cookie-banner
-tv4play.se#@#.adBanner
-*/trailers$media,redirect-rule=noopmp3-0.1s
-*/bumpers/$media,redirect-rule=noopmp3-0.1s
+PREROLL$from=tv4.se|tv4play.se|fotbollskanalen.se
 ||damoh.*.se^$image
-||cmore.se/*.gif$image
-||smartclip.net^$all,important
+||match.adsrvr.org^
+||cdn-gl.imrworldwide.com
+||se-tv4.videoplaza.tv/proxy/distributor/
+||sessions.bugsnag.com
+||ad.$from=tv4.se|tv4play.se|fotbollskanalen.se
+/data?$xhr,domain=tv4.se|tv4play.se|fotbollskanalen.se
+/radar.js
 /favicon-dark.ico$image
+/proxy/tracker/*$image
 /analytics;jsessionid=*$xhr
+/images/Animation_Playknapp2.png$image
+/pixel?google_nid=*$xhr
+/revcontent/bundle.js
 
 #Youtube.com
 youtube.com###infoButton
@@ -292,6 +292,7 @@ blocket.se##[class*="BannerAdPanorama-sc"]
 blocket.se##[class*="SchibstedBanner__Wrapper-sc"]
 blocket.se##[class*="BannerContainerPanorama-sc"]
 blocket.se##[class*="Placementstyles__Styled"]
+blocket.se##[class*="BannerLink__Wrapper-sc"] ,[href*=""]
 blocket.se###index_panorama
 blocket.se###li_panorama
 blocket.se###vi_panorama
@@ -483,7 +484,6 @@ teknikensvarld.se##.widget-area--section__widget.widget-area--section.widget-are
 teknikensvarld.se##.promotion-banner
 teknikensvarld.se##.fullpage-ad
 teknikensvarld.se##.panorama__wrapper.ad
-/plogger/
 /collect/*$ping
 
 #Flashback.org
@@ -791,6 +791,7 @@ tiktok.com###tiktok-verify-ele
 ##.video-ads
 ##.abAlertInner
 ##.AdBox
+##.footer--side.footer
 ##.cmp-animate.cmp-iframe-ready.cmp-overlay
 ##[data-entrycode="AdBlock"]
 ###ads
@@ -833,6 +834,8 @@ tiktok.com###tiktok-verify-ele
 ##.button.facebook
 ##.button.twitter
 ##div[id^="div-gpt-ad"]
+##.desktop.lwad-desktop.lwad
+##.info-area__container--large
 ##.advert
 ##.advert.box
 ###message_adblock
@@ -930,6 +933,7 @@ tiktok.com###tiktok-verify-ele
 *##[href*="/adServe/banners?"]
 
 #Ads/Trackers
+||jwpcdn.com^/*.js$script
 ||adservice.com^
 ||adform.net^
 ||amazon-adsystem.com^
@@ -988,6 +992,7 @@ tiktok.com###tiktok-verify-ele
 ||etahub.com^
 ||adsco.re^
 ||popads.net^
+||smartclip.net^
 ||streamsb.net^
 ||doublepimp.com^
 ||adservme.com^
@@ -1028,9 +1033,6 @@ movie/ads
 /ping?client_id=
 /system/context.js$script
 /error.png$image
-/adsrvmedia
-/async/ads
-/asyncadload
 /player*/ad*.php$xhr,1p
 /bet365$popup
 /html/blocked.html$important
@@ -1056,7 +1058,6 @@ movie/ads
 /js.php?sid=
 /js/advertising/
 /pfe/current/
-/null/123/
 /pb_block.css?
 /networks/tag.js?
 /networks/tag_config.js
@@ -1065,15 +1066,11 @@ movie/ads
 /?uclick=
 /redirect-ads.php
 /_graphics/annons/*
-/genads.php?uid^
-/ads/purl.js$script
-/pubcontent/
 /json.php?ip=user_get_state
 /xupload.js$script
 /player_error
 /prebid/*
 /puopen.php?
-/puscript
 /ruxitagentjs_
 
 #Blocked Scripts
@@ -1109,19 +1106,10 @@ Pop-under.js^
 popuper.js^
 
 #Allowed
-@@||ajax.googleapis.com/ajax/libs/jquery/
-@@||static.twitchcdn.net/assets/*$script
-@@||steamstatic.com^$image
-@@||youtube.com/embed/*$subdocument
-@@||apis.google.com^$script
-@@||maps.google.com^$script,image
-@@||cdn.cloudflare.steamstatic.com^$image
-@@||googlevideo.com/videoplayback?^$xhr
 @@*player.min.js$script
 @@/js/page-landing-page.js?*$script
 @@/live/*.m3u8
 @@/live/*.ts
-@@/videos/$image
 @@/css/bootstrap.min.css$css
 @@_next/static/$script
 @@/jwplayer*.js$script,1p
@@ -1209,7 +1197,6 @@ popuper.js^
 ##.light.as-oil
 ##[class*="a2a_"]
 ###importantMessage
-||jwpcdn.com^/*.js$script
 ##div[id*="ScriptRootC"]
 ##.video_ad
 ###right_ad
@@ -1288,8 +1275,6 @@ biz,click,co,io,link,to,pro,xyz##+js(aopr, _0x311a)
 biz,click,co,io,link,to,pro,xyz##+js(aopr, _0x32d5)
 biz,click,co,io,link,to,pro,xyz##+js(aopr, _0x4459)
 
-/^https?:\/\/[a-z]{8,15}(|0NaN|articles|browse|index|movie|news|pages|static|view|web|wiki){1,4}(?:\.html|\/)$/$frame,3p,match-case
-/^https?:\/\/[a-z]{8,15}(|ajax|articles|config|custom|data|menu|resources|validators)(?:\.json)?$/$xhr,3p
 /^https?:\/\/[a-z]{8,15}\.\/[a-z]{4,}\.json$/$xhr,3p,match-case
 /^https?:\/\/[a-z]{8,15}\.\/[a-z]{4,}\.css\?aHR0[\/0-9a-zA-Z]{41,}=?=?$/$css,3p,match-case
 /^https?:\/\/[a-z]{8,15}\.\/[a-z]{4,}\.png\?aHR0[\/0-9a-zA-Z]{41,}=?=?$/$image,3p,match-case
