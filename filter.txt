@@ -192,9 +192,6 @@ youtube.com##.opened
 youtube.com###offer-module
 youtube.com##.yt-alert-content
 youtube.com###comment-teaser
-youtube.com##+js(json-prune, [].playerResponse.adPlacements [].playerResponse.playerAds playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds)
-youtube.com##+js(set-constant, ytInitialPlayerResponse.adPlacements, undefined)
-youtube.com##+js(set-constant, playerResponse.adPlacements, undefined)
 youtube.com##.ytp-fullerscreen-edu-text
 youtube.com##.ytp-paid-content-overlay
 youtube.com##.ytp-cued-thumbnail-overlay
