@@ -12,9 +12,12 @@ aftonbladet.se##strong:has-text(/ANNONS/i):upward(p)
 aftonbladet.se##.event-subheader-widget
 aftonbladet.se##a:has-text(annonslänkar)
 aftonbladet.se##a:has(span:has-text(/^annons/i))
-aftonbladet.se##[class*="hyperion-css"].fullWidthMobile.sportbladet
 aftonbladet.se##[class*=" fixed"] ,[style="min-height: 366px"]
 aftonbladet.se##[class*="css"][href*="/kampanj/"]
+aftonbladet.se##[class*="hyperion-css"].default
+aftonbladet.se##[data-variants*="generic-adformat"]
+aftonbladet.se##.sch-datacontroller--permanent.sch-datacontroller--cobranded.sch-datacontroller
+aftonbladet.se##[class*="hyperion-css-1"] div:contains( - )
 aftonbladet.se##[class*="hyperion-css-"]:style(z-index: 0px !important;)
 aftonbladet.se##[class*="default css"][data-test-tag="embed-content"]
 aftonbladet.se##main > section > div[class^="css-"]:first-child:has(img[src*="closeButton"])
@@ -220,14 +223,6 @@ open.spotify.com##body > div:nth-of-type(2)
 ||pixel-static.spotify.com^
 ||pixel.spotify.com^
 ||spotify.com^*/metric
-
-#Facebook.com
-facebook.com#$#:matches-path(/)body > .AdBox.Ad.advert ~ div[class] { display: block !important; }
-facebook.com##body > .AdBox.Ad.advert:style(display:block!important;)
-facebook.com#@#html,body:style(overflow-x: hidden !important;)
-@@||static.xx.fbcdn.net^$script
-###fblike
-##.ad-link
 
 #Svtplay.se
 svt.se##li.nyh_contactbox-item:has(div[class*="facebook"]) 
@@ -719,17 +714,10 @@ skidrowreloaded.com###communication
 |https://$script,image,xhr,3p,domain=skidrowreloaded.com
 
 #Body/Frames
-goal.com##.commercial
-goal.com##.clearfix.widget-inline-editors-picks
-goal.com##.widget-semantic-player--displayed.widget-semantic-player
-tiktok.com###tiktok-verify-ele
-||api.github.com/_private/browser/stats$important
 ##.sharebuttons
 ##.sharethis-inline-share-buttons
 ##.internal-ad
 ##.clear.hd
-##.widget-gpdr-banner
-##.please-disable-modal
 ##[id="anim-container"]
 ##div[id^="MarketGid"]
 ##div[id*="ScriptRootC"]
@@ -743,8 +731,6 @@ tiktok.com###tiktok-verify-ele
 ##[id="hiddenBannerCanvas"]
 ##[id="pop-share"]
 ##.movie-preview-content > a
-##[class="dropdownTrigger"]
-##[class="marker-overlays js-noFade"]
 ##[class="iconSphere"]
 ##[class="close"]
 ##[class="close_min"]
@@ -774,11 +760,7 @@ tiktok.com###tiktok-verify-ele
 ##.notification
 ##.site-info-message
 ##.terms-dialog
-##.cp-modal-popup-container:remove()
 ##[class="cookieBanner"]
-##[class="abAlertInner"]
-##[class="heatwarning"]
-##[id="js-abContainterMain"]
 ###hotVideosSection > .alpha
 ###videoSearchResult > .alpha
 ##[name*="ads-center"]
@@ -889,7 +871,6 @@ tiktok.com###tiktok-verify-ele
 ##sticky-sidebar
 ##.ads-ad
 ###preroll
-##.ot-fade-in.onetrust-pc-dark-filter
 ##.outbrain
 ##.outbrain-ads
 ##.overlay-content-arrows
@@ -913,21 +894,6 @@ tiktok.com###tiktok-verify-ele
 ##.removeAdsLink
 ##.removeAdsStyle
 ##.reportAdLink
-*##[href*="adrunnr.com"]
-*##[href*="clkads"]
-*##[href*="directrev.com"]
-*##[href*="marketgid.com"]
-*##[href*="mgid.com"]
-*##[href*="doubleclick.net"]
-*##[href*="exoclick.com"]
-*##[href*="adform.net"]
-*##[href*="//adskeeper."]
-*##[href*="//new-dating"]
-*##[href*="//zenhppyad.com/"]
-*##[href*="//mgid.com/"]
-*##[href*=".clkcln.com/"]
-*##[href*=".clksite.com/"]
-*##[href*="/adServe/banners?"]
 
 #Ads/Trackers
 ||jwpcdn.com^/*.js$script
@@ -1011,14 +977,6 @@ tiktok.com###tiktok-verify-ele
 ||loadercdn.com^
 ||promos.bwin.com^
 ||adbit.co^
-.nu/annons/
-.se/annons/
-.se/*/nativeadvertising/
-.se/counter/
-.se/log/?
-.se/Logger?
--ads.js?
-survey/source^
 affiliates.
 adsense.
 appnexus.
@@ -1080,17 +1038,11 @@ infinity.js^
 show_ads.js^
 conversion.js^
 tracking.js?
-ga.js^
-iam.js^
 named.min.js^
 www-pagead-id.js^
 outbrain.js^
 trustedsaver.js^
 autoplayrenderer.js^
-transcript.js^
-fs.js^
-awp.min.js^
-autotrack.js^
 site_ads.js^
 adframe.js^
 showads.js^
@@ -1101,20 +1053,6 @@ integrator.js?
 xpopup.js?
 Pop-under.js^
 popuper.js^
-
-#Allowed
-@@*player.min.js$script
-@@/js/page-landing-page.js?*$script
-@@/live/*.m3u8
-@@/live/*.ts
-@@/css/bootstrap.min.css$css
-@@_next/static/$script
-@@/jwplayer*.js$script,1p
-@@/assets/js/player.js$script
-@@/manifest.json$other,xhr,1p
-@@*.m3u8$xhr
-@@*.ts$xhr
-@@/?stream=
 
 ##[data-cfasync]
 ##[src="/social-box/"]
@@ -1153,14 +1091,9 @@ popuper.js^
 *##[src*="/adu.php"]
 *##.blacklayer
 *##.modalPopup
-*##[class*="lock-scroll"]:style(overflow: auto !important;)
-*##+js(acis, burtSegments)
-*##+js(acis, Bau, preloadAds)
 *##html:style(filter: none !important)
 *##[class*="sp-message-open"]:style(position: unset !important;overflow-y: initial !important;)
 *##.sp-message-open body:style(position: unset !important;overflow-y: initial !important;)
-*##.is-showing.has-noScroll.modal:style(display: none !important;)
-*##.disabled-vscroll:style(overflow: auto !important;)
 *##.in.fade.modal-backdrop
 *##a[href*="betting"]
 *##a[href*="brandstudio"]
@@ -1228,9 +1161,6 @@ popuper.js^
 *##[class="ovl"]:style(display: none !important;)
 *##.overlay[opacity]:style(display: none !important;)
 *##html.open-modal .overlay:style(display: none !important)
-*##.isOpenMTubes:style(overflow-y: auto !important;)
-*##[class*="ReactModal__Body"]:style(overflow-y: auto !important;)
-*html#type=page&event=load&url=$important
 ##[id="skinAdTarget"]
 ##[id="superadunit"][class="hidden"]
 ###gdpr-cookie-message
@@ -1252,25 +1182,6 @@ popuper.js^
 .top^$frame,xhr,image,ping,popup,3p
 .trade^$frame,xhr,image,ping,popup,3p
 .ws^$frame,image,ping,popup,3p
-
-biz,click,co,io,link,to,pro,xyz##body,html:style(z-index: -999)
-biz,click,co,io,link,to,pro,xyz##body,html:style(z-index: 999)
-biz,click,co,io,link,to,pro,xyz##body,html:style(z-index: -1000)
-biz,click,co,io,link,to,pro,xyz##body,html:style(z-index: 1000)
-biz,click,co,io,link,to,pro,xyz##body,html:style(z-index: -30000)
-biz,click,co,io,link,to,pro,xyz##body,html:style(z-index: 30000)
-biz,click,co,io,link,to,pro,xyz##body,html:style(z-index: -21474836)
-biz,click,co,io,link,to,pro,xyz##body,html:style(z-index: 21474836)
-biz,click,co,io,link,to,pro,xyz##[id*="__clb"]
-biz,click,co,io,link,to,pro,xyz##[class*=xyz_]
-biz,click,co,io,link,to,pro,xyz##script:contains(async)
-biz,click,co,io,link,to,pro,xyz##script:contains("adId")
-biz,click,co,io,link,to,pro,xyz##+js(aopr, _0xbeb9)
-biz,click,co,io,link,to,pro,xyz##+js(aopr, _0xe317)
-biz,click,co,io,link,to,pro,xyz##+js(aopr, _0x1477)
-biz,click,co,io,link,to,pro,xyz##+js(aopr, _0x311a)
-biz,click,co,io,link,to,pro,xyz##+js(aopr, _0x32d5)
-biz,click,co,io,link,to,pro,xyz##+js(aopr, _0x4459)
 
 /^https?:\/\/[a-z]{8,15}\.\/[a-z]{4,}\.json$/$xhr,3p,match-case
 /^https?:\/\/[a-z]{8,15}\.\/[a-z]{4,}\.css\?aHR0[\/0-9a-zA-Z]{41,}=?=?$/$css,3p,match-case
