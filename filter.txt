@@ -106,31 +106,31 @@ expressen.se##figure[data-article-data*="/sponsrat"], figure[data-article-data*=
 ||jtp.expressen.se/notify$image
 
 #Twitch.tv
-twitch.tv##.highlight
-twitch.tv##.community-highlight
+twitch.tv##+js(twitch-videoad)
+twitch.tv##[class*="player-ads"] ,[src*="twitch.tv"]
+twitch.tv##script ,[class*="player-ads"] ,[src*="twitch.tv"]:contains(blob)
+twitch.tv##.tw-link.link-fragment
+twitch.tv##.picture-by-picture-player
 twitch.tv##.smarter-sort-callout
 twitch.tv##[data-a-target=prime-offers-icon]
 twitch.tv##[data-a-target=try-prime-link]
 twitch.tv##.prime-offers__pill
 twitch.tv##.blue-bar.c-text.full-width
-twitch.tv##main.tw-flex > div[class]:not([data-test-selector]) > div[data-test-selector="test_selector_prime_tracking_button_wrapper"]
 twitch.tv##.recommended-channels
 twitch.tv##.hype-train-progress-bar__container
 twitch.tv##[style="width: 100%; height: 100%; border: 0px none; display: none;"]
-twitch.tv##[class*="avap-ads-container"]
-twitch.tv##[data-test-selector="ad-banner-default-text"]
 twitch.tv##[class*="extensions-dock__dock"]
 twitch.tv##.extension-taskbar
 twitch.tv##.extension-view__iframe
+twitch.tv###twilight-sticky-footer-root
+twitch.tv##.krbPCX.Layout-sc-1xcs6mc-0
+twitch.tv##[class*="disclosure-"]
+twitch.tv##.default-panel
 twitch.tv##.noty_bar
 twitch.tv###noty_bottomCenter_layout_container
 twitch.tv##.side-info-container
 twitch.tv##.tw-absolute.top-bar
 twitch.tv##.prime-extension-root--show.prime-extension-root
-@@||twitch.tv/drops/*$1p
-@@||twitch.tv/videos/*$csp
-@@||irc-ws.chat.twitch.tv^$websocket,1p
-@@||wss://pubsub-edge.twitch.tv
 
 #Google
 google.*##html:style(overflow-y: auto !important;)
@@ -164,7 +164,6 @@ tv4.se##.social-block-ad
 tv4.se##.social-buttons
 tv4.se##[class*="aside-ad"] 
 tv4.se##+js(acis, burtConfigs)
-tv4.se###cookie-banner
 tv4play.se##+js(json-prune-fetch-response, bumpers, , propsToMatch, url:/playback2.a2d.tv\/play/)
 tv4play.se##+js(no-fetch-if, /cloudfront.net\/creatives/)
 tv4play.se##.avod-web-player-pause:style(background-color:transparent!important;)
@@ -173,14 +172,11 @@ tv4play.se##[data-test="cmore-upsell-button"]
 tv4play.se###__next > div:not(:first-child)
 tv4play.se###pause-img-holder
 tv4play.se##.js-cookie-banner
-PREROLL$from=tv4.se|tv4play.se|fotbollskanalen.se
 ||damoh.*.se^$image
 ||match.adsrvr.org^
-||cdn-gl.imrworldwide.com
+||cdn-gl.imrworldwide.com^
 ||se-tv4.videoplaza.tv/proxy/distributor/
-||sessions.bugsnag.com
-||ad.$from=tv4.se|tv4play.se|fotbollskanalen.se
-/data?$xhr,domain=tv4.se|tv4play.se|fotbollskanalen.se
+||sessions.bugsnag.com^
 /radar.js
 /favicon-dark.ico$image
 /proxy/tracker/*$image
@@ -195,11 +191,15 @@ youtube.com##.opened
 youtube.com###offer-module
 youtube.com##.yt-alert-content
 youtube.com###comment-teaser
+youtube.com##.paused-mode.ytp-fit-cover-video.ad-interrupting.ad-showing.ad-created.ytp-fine-scrubbing-exp.ytp-large-width-mode.ytp-hide-info-bar.ytp-bigboards.ytp-exp-ppp-update.ytp-modern-caption.ytp-exp-bottom-control-flexbox.ytp-transparent.html5-video-player
+youtube.com###movie_player > .ytp-chrome-top > .ytp-chrome-top-buttons > .ytp-cards-button.ytp-button > .ytp-cards-button-icon-default
+youtube.com##ytd-engagement-panel-section-list-renderer.ytd-watch-flexy.style-scope:nth-of-type(2)
+youtube.com##.ytp-ad-module.video-ads
+youtube.com##.ytd-popup-container.style-scope > .yt-tooltip-renderer.style-scope
 youtube.com##.ytp-fullerscreen-edu-text
 youtube.com##.ytp-paid-content-overlay
 youtube.com##.ytp-cued-thumbnail-overlay
 youtube.com##.ytp-button.ytp-miniplayer-button
-youtube.com###inline-preview-player > div.ytp-inline-preview-ui
 youtube.com###inline-preview-player
 youtube.com##[class="style-scope ytd-video-preview"]
 youtube.com##[class="style-scope yt-live-chat-viewer-engagement-message-renderer"]
@@ -210,19 +210,14 @@ youtube.com###masthead-ad
 youtube.com###video-masthead
 youtube.com###hats-container
 youtube.com###dismissed
+youtube.com##ytd-video-renderer.ytd-expanded-shelf-contents-renderer.style-scope:contains(SHORTS)
+youtube.com###dismissible > .ytd-rich-shelf-renderer.style-scope
+youtube.com###author-thumbnail
+youtube.com###replies:style(margin-left: -45px !important;)
+youtube.com###content-text > .yt-formatted-string.style-scope.yt-simple-endpoint
+youtube.com##.yt-core-attributed-string__link
 /featured_channel.jpg$domain=www.youtube.com,image
-
-#Spotify.com
-spotify.com##.ads-container
-open.spotify.com###leaderboard-ad-element
-open.spotify.com##body > div:nth-of-type(2)
-@@||open.scdn.co/cdn/*$script,domain=open.spotify.com
-||cloudfront.net/mp3-ad/$media,redirect-rule=noopmp3-0.1s
-||scdn.co/audio/$media,domain=open.spotify.com
-||spclient.wg.spotify.com/ads/*$xhr
-||pixel-static.spotify.com^
-||pixel.spotify.com^
-||spotify.com^*/metric
+/video_watermark.jpg$domain=www.youtube.com,image
 
 #Svtplay.se
 svt.se##li.nyh_contactbox-item:has(div[class*="facebook"]) 
@@ -237,20 +232,6 @@ svtplay.se##.play_cookie-information
 @@||svtstatic.se^$image
 ||svtstatic.se/play/play6/images/*.png$image
 ||helix.svt.se/events$xhr
-
-#Svenskafans.com
-svenskafans.com##^script:has-text(.loadAd)
-svenskafans.com##[class*="ad-"]
-@@||lwadm.com^$script,3p,domain=svenskafans.com
-||svenskafans.com/images/menu-logo/top/Bakgrund_toppmeny.png$image
-||svenskafans.com/WebResource.axd$important
-||svenskafans.com/css/feedbackpopup.css$css
-||svenskafans.com/js/awp.min.js$script
-||svenskafans.com/css/uniform.default.css$css
-||sak.userreport.com^
-/sticky*.$css,domain=svenskafans.com
-/js/smart-app-banner.$script,domain=svenskafans.com
-/oddstypes
 
 #Duckduckgo.com
 duckduckgo.com###footer_homepage
@@ -273,11 +254,9 @@ fotbollskanalen.se##.ad-top
 fotbollskanalen.se##.b-export__footer.b-export__wrap
 fotbollskanalen.se##[id*="tws2_"]
 fotbollskanalen.se##.article-share
-||tag.brainient.com^$all
-||p.adsymptotic.com^$domain=sync.teads.tv
-||sync.teads.tv/iframe/redirect$subdocument
 
 #Blocket.se
+blocket.se##[class*="Toplistings__StyledWrapper-sc"]
 blocket.se##[class*="BannerLink__Wrapper-sc"] ,[href*=""]
 blocket.se##[id*="pulse2an_"]
 blocket.se##[class*="BannerAdPanorama-sc"]
@@ -291,50 +270,10 @@ blocket.se###vi_panorama
 blocket.se##.placement_panorama
 blocket.se###li_footer_banner_container
 blocket.se###vi_footer_banner_container
-blocket.se###blocketd_visning_infor_kopet3
-blocket.se###blocketd_visning_infor_kopet2
 blocket.se##[class*="GoogleAdsense__Adsense"]
 blocket.se##body:style(overflow: auto !important;)
-blocket.se##div[class^="AppLinks__"]
-blocket.se##[style="height:240px"]
-blocket.se##[style="height: 240px;"]
-blocket.se##.row.ptxs.clearfix.js_recommendations_container
-blocket.se##.mbs.h6.plural-headline
-blocket.se###ufti
-blocket.se###ufti-bg
-blocket.se###boost_content
-blocket.se##.slick-track
-blocket.se##.slick-current.slick-active.slick-slide:has-text(Listettan)
-blocket.se###eas_load_data_inverted_classifieds
-blocket.se##.MediumLayout__CenterWithPadding-q6qal1-1 > div:nth-of-type(1)
-blocket.se##.MediumLayout__PlacementWrapper-y8zw9h-1
-blocket.se##div:matches-css(width: 1012px):matches-css(height: 24px)
-@@||blocket.se^$generichide
-@@||cdn.pro.blocket.cloud^$image
-@@||i.blocketcdn.se/pictures/*$image
-##[class*="SchibstedBanner__"]
 /blocket_puff.html$subdocument
 ||logs2.xiti.com^
-
-#Imdb.com
-imdb.com##body#styleguide-v2:style(background-color: #e3e2dd !important; background-image: none !important;)
-imdb.com###injected_navstrip_wrapper
-imdb.com##[id="videoAutoplayPreviewPreferences"]
-imdb.com###videoPreviewEmbedIframe
-imdb.com##.videoPreview__linkTarget
-imdb.com##.recently-viewed
-imdb.com###rvi-div
-imdb.com###top_rhs_after
-imdb.com###top_rhs
-imdb.com###top_ad
-@@||images-na.ssl-images-amazon.com/images/g/
-@@||media-imdb.com^$media,domain=imdb.com
-@@||image.tmdb.org^$image
-||imdb.com/tr/*pageHit$xhr,redirect=noopjs,domain=imdb.com
-||fls-na.amazon.com/$xhr,redirect=noopjs,domain=imdb.com
-||images-na.ssl-images-amazon.com/images/$image
-*$media,redirect=noopmp3-0.1s,domain=imdb.com,3p
-/js/show_ads.js^
 
 #Kollafilm.com
 kollafilm.*##body:style(background-image: none !important;)
@@ -372,63 +311,7 @@ onlinevideoconverter.*##.home-section-4
 onlinevideoconverter.*##div.home-section-5:nth-of-type(5)
 onlinevideoconverter.*##div.home-section-5:nth-of-type(6)
 onlinevideoconverter.*##[href^="https://www.linkconnector.com/ta.php"]
-onlinevideoconverter.*##div.home-section-5:nth-of-type(5)
 /1clkn/*$xhr
-
-#Vipleague/fbstream
-vipleague.*,fbstream.*,tvply.*,plylive.*##+js(acis, Math, break;case $.)
-vipleague.*,fbstream.*,tvply.*,plylive.*##+js(acis, JSON.parse, break;case $.)
-vipleague.*,fbstream.*,tvply.*,plylive.*##+js(aopw, _pop)
-vipleague.*,fbstream.*##.position-absolute:style(opacity: 0 !important;)
-vipleague.*,fbstream.*##+js(nano-sib)
-vipleague.*,fbstream.*##.w-100.position-absolute.h-100
-vipleague.*,fbstream.*##.font-weight-bold
-vipleague.*,fbstream.*##^script + [id][style]
-vipleague.*,fbstream.*##ol
-vipleague.*,fbstream.*##b
-vipleague.*,fbstream.*##p
-vipleague.*,fbstream.*##.mt-1
-vipleague.*,fbstream.*##h1
-vipleague.*,fbstream.*##h2
-vipleague.*,fbstream.*##.text-warning
-vipleague.*,fbstream.*##ul
-vipleague.*,fbstream.*##.col-xl-4.col-12
-vipleague.*,fbstream.*##.col-lg-3:contains(Soon)
-vipleague.*,fbstream.*##.justify-content-evenly.row > .col-lg-4.col-12
-vipleague.*,fbstream.*##.text-center.col-12
-vipleague.*,fbstream.*##div.text-center.row:nth-of-type(4)
-vipleague.*,fbstream.*##.btn-danger.btn-lg.btn
-vipleague.*,fbstream.*##.m-1.btn-primary.btn-lg.btn
-vipleague.*,fbstream.*##.text-secondary
-vipleague.*,fbstream.*##[class*="mx-"]
-vipleague.*,fbstream.*##.text-center > p
-vipleague.*,fbstream.*##[style="display: none;"]
-vipleague.*,fbstream.*##.h-100.w-100.position-relative
-vipleague.*,fbstream.*##.green.button.big
-vipleague.*,fbstream.*##.text-center.alert-secondary.alert.col-12
-vipleague.*,fbstream.*##div.row:nth-of-type(12) > .col-12
-vipleague.*,fbstream.*##.cc-floating.cc-window
-vipleague.*,fbstream.*##.hidden-sm.hidden-xs.pull-right.col-lg-4.col-md-4
-vipleague.*,fbstream.*##.hidden-sm.hidden-xs.col-xs-12 > .well-sm.well
-vipleague.*,fbstream.*##.position-relative.text-success
-vipleague.*,fbstream.*##.text-center.col-md-4.d-md-block.d-none
-vipleague.*,fbstream.*##.text-white.bg-dark.text-justify.p-3.m-3.d-md-block.d-none.col-12
-vipleague.*,fbstream.*##[class*="text-success position-relative"]
-vipleague.*,fbstream.*##[class*=" d-block"]
-fbstream.*##body:style(background: #0f2537 !important;)
-fbstream.*##.navbar:style(background: #073f68 !important;)
-fbstream.*##.card-body:style(background: #073f68 !important;)
-fbstream.*##.col-lg-8:style(margin-right: 0px;)
-fbstream.*##.btn:style(background: #073f68 !important; color: black !important;)
-fbstream.*##.text-primary:style(color: black !important;)
-fbstream.*##.text-info:style(color: black !important;)
-fbstream.*##.card-header:style(background-color: #052842 !important;)
-fbstream.*##.h3, h3:style(font-size: 1.25rem; text-align: -webkit-center;)
-fbstream.*##.form-control:style(box-shadow: none !important; background: #052842 !important;)
-@@*$generichide,domain=plylive.*
-@@||cdn.okamata.site^$image
-^$websocket,domain=plylive.*
-||vipleague*/loadchat/*$xhr
 
 #Dn.se
 dn.se##+js(acis, DN, initAds)
@@ -465,18 +348,6 @@ hemnet.se##.featured-news__link:has(.featured-news__ribbon--sponsored)
 hemnet.se##.recent-news__item:has(.recent-news__category:has-text(/sponsrad/i))
 hemnet.se##.result-article__link:has(.article__ribbon--sponsored)
 hemnet.se##.start-page-hero__caption:has(.start-page-hero__caption-category:has-text(/sponsrad av/i))
-
-#Teknikensvarld.se
-teknikensvarld.se##.t-single.-content-hide .entry-content, .t-single.-content-hide .entry-content .paywall-gradient-overlay:style(height: auto !important; overflow: visible !important;)
-teknikensvarld.se##.paywall
-teknikensvarld.se##.paywall-gradient-overlay
-teknikensvarld.se##[class*="ad insider__"]
-teknikensvarld.se##[class*="ad module__"]
-teknikensvarld.se##.widget-area--section__widget.widget-area--section.widget-area
-teknikensvarld.se##.promotion-banner
-teknikensvarld.se##.fullpage-ad
-teknikensvarld.se##.panorama__wrapper.ad
-/collect/*$ping
 
 #Flashback.org
 flashback.org##.banner_text
@@ -694,59 +565,30 @@ dood.*##+js(nostif, debugger)
 rabbitstream.*##+js(set, console.clear, undefined)
 rabbitstream.*##[style*="height: 1px; width: 1161px;"]
 rabbitstream.*##[button="download-button"]
-himovies.to##body.modal-open:style(overflow: auto!important;)
-himovies.to##+js(nostif, 0x)
-himovies.to###modalshare
-himovies.to##.modal-backdrop
 /images/dablock.png$image
 /redirect?tid=^$important
-
-#Skidrowreloaded.com
-skidrowreloaded.com##+js(noeval)
-skidrowreloaded.com##+js(acis, document.onmousedown)
-skidrowreloaded.com##+js(aopw, _pop)
-skidrowreloaded.com##+js(no-fetch-if, /^/)
-skidrowreloaded.com##+js(aopr, disableSelection)
-skidrowreloaded.com##+js(aopw, clickIE4)
-skidrowreloaded.com##iframe[src="about:blank"]
-skidrowreloaded.com###communication
-|http://$script,image,xhr,3p,domain=skidrowreloaded.com
-|https://$script,image,xhr,3p,domain=skidrowreloaded.com
 
 #Body/Frames
 ##.sharebuttons
 ##.sharethis-inline-share-buttons
 ##.internal-ad
 ##.clear.hd
-##[id="anim-container"]
 ##div[id^="MarketGid"]
 ##div[id*="ScriptRootC"]
 ##div[id*="PreloadC"]
 ##[class*="Advertisement"]
 ##[id="mask-overlay"]
-##[id="pc-fav"]
 ##[id="close_ad"]
 ##[id="close_ads"]
 ##[id="Advertisement1"]
-##[id="hiddenBannerCanvas"]
 ##[id="pop-share"]
-##.movie-preview-content > a
-##[class="iconSphere"]
-##[class="close"]
-##[class="close_min"]
 ##[id="fb-root"]
 ##[class="Breadcrumb"]
 ##.removeAdsStyle
 ###cookieAccept:not(body):not(html):not(button)
 ###cookieAccept
-##.mobile-only-hide
 ##.share
 ###fb-root:not(body):not(html)
-##[class="player-center-content"]
-##[id="mask-overlay"]
-##[id="pc-fav"]
-##[id="close_ad"]
-##[id="close_ads"]
 ###layer
 ##.Alert
 ##.alert
@@ -755,18 +597,14 @@ skidrowreloaded.com###communication
 ##.disclaimer
 ##.e-banner
 ##.infobanner
-##.js-info-banner
 ##.message-popup
 ##.notification
-##.site-info-message
 ##.terms-dialog
 ##[class="cookieBanner"]
 ###hotVideosSection > .alpha
 ###videoSearchResult > .alpha
 ##[name*="ads-center"]
 ##.page-loaded
-###teconsent
-##fbs-ad-rail
 ##.video-ads
 ##.abAlertInner
 ##.AdBox
@@ -774,7 +612,6 @@ skidrowreloaded.com###communication
 ##.cmp-animate.cmp-iframe-ready.cmp-overlay
 ##[data-entrycode="AdBlock"]
 ###ads
-###abAlert
 ##.video-wrapper > #player + [class]
 ##[class="blackListActions clearfix"]
 ###footerMenu_advertising
@@ -788,9 +625,6 @@ skidrowreloaded.com###communication
 ###hAd
 ##.sectionWrapper > div[class]:has(:scope > div > .ad-link)
 ###ad_overlay
-##.ad400
-##.js-google-ad
-##.cc-banner
 ##[id*="ScriptRoot"]
 ##[id*="MarketGid"]
 ##.page-blocker
@@ -807,19 +641,15 @@ skidrowreloaded.com###communication
 ##.adsbytrafficjunky
 ###pb_template
 ##[class="emptyBlockSpace"]
-##.newPaidSection.section-p2v
 ##.nav-videoRecommended.more_recommended_btn.light.greyButton
 ##.adtoma_container
 ##.button.facebook
 ##.button.twitter
 ##div[id^="div-gpt-ad"]
-##.desktop.lwad-desktop.lwad
-##.info-area__container--large
 ##.advert
 ##.advert.box
 ###message_adblock
 ###bannerOverlay
-##[class="closeSkin hide"]
 ##.abovePlayer
 ##[class="js-pop videoblock videoBox omega"]
 ##[class*="BufferLoader-styles--background"]
@@ -827,42 +657,22 @@ skidrowreloaded.com###communication
 ##[class*="HorseCrossPromotion-styles--text"]
 ##[class*="FooterSection-styles--bottom"]
 ###welcome
-##div[id^="welcome"]
-##script[id^="welcome"]
-##iframe[id^="welcome"]
 ##.overlay-inner
-###contribute_footer
-###CybotCookiebotDialog
 ###share-button
 ###notice
 ##.adsbygoogle
-##[class*="abBlueLink"]
-###div-advert
 ###float_content_right
 ###hide_float_right
 ##.ad.clearfix
-##[id="popsByTrafficJunky"]
 ###bar_container_r
 ##.left-advertise-bar
-##.goog-te-banner-frame.skiptranslate
-##.footerlinkad > center
-##body > .enesuch
-##.sectionWrapper > .enesuch
-##.heatwarning > iframe
 ##[class="overlay adblock_warning"]
 ##[class="modal fade modal-cuz"]
 ##.text-warning
-###ad_unit_placeholder
-##.region_redirect_popup_asset
 ###_evidon-background
 ###_evidon-barrier-wrapper
 ##.evidon-barrier
 ##[id*="blockblock"]
-##.listbuilder-popup-embedded
-##[class="mask adblock ad advertisement"]
-##[class="adblock ad advertisement"]
-##[class="publicidad"]
-##[class="close"]
 ##.share-twitter
 ##.share-facebook
 ##.share-button
@@ -873,8 +683,6 @@ skidrowreloaded.com###communication
 ###preroll
 ##.outbrain
 ##.outbrain-ads
-##.overlay-content-arrows
-##.overlay-content-promotion
 ##.p_window > .ii
 ##.p_overlay
 ##.p_window
@@ -884,8 +692,6 @@ skidrowreloaded.com###communication
 ##.js-page-fatal-ovl
 ##.js-page-fatal-ovl-fade
 ##.js-messenger-banner.messenger-banner
-###sofascore-live-stream
-##.ad_stream_hd
 ##.block-type--shareButton
 ##[data-test-id="hero-placeholder"]
 ##[data-test-id="startpage-hero"]
@@ -1000,29 +806,18 @@ movie/ads
 /load?^$important
 /adscript.js$script
 /site/captcha?
-/authorization.css$css
-/player/ads.js$script
 /anti-block-modal.js$script
 /iframe-*.html$subdocument
 /favicon.ico$popup,important
 /messagingNoTcfApi.js
 /metrics/bambuser
-/gtag/js?
 /ntfc.php?
-/js-ad.php
-/js.php?sid=
-/js/advertising/
 /pfe/current/
-/pb_block.css?
-/networks/tag.js?
-/networks/tag_config.js
 /socialmedia.
 /likebox.
 /?uclick=
 /redirect-ads.php
 /_graphics/annons/*
-/json.php?ip=user_get_state
-/xupload.js$script
 /player_error
 /prebid/*
 /puopen.php?
@@ -1032,36 +827,19 @@ movie/ads
 pagead-id.js^
 advert.js^
 advertisement.js^
-adservice.js^
 prerolls.js^
-infinity.js^
-show_ads.js^
-conversion.js^
 tracking.js?
-named.min.js^
 www-pagead-id.js^
 outbrain.js^
-trustedsaver.js^
-autoplayrenderer.js^
-site_ads.js^
-adframe.js^
-showads.js^
-smartbanner.js^
 cnads.js^
 clk.js^
-integrator.js?
-xpopup.js?
-Pop-under.js^
-popuper.js^
 
-##[data-cfasync]
 ##[src="/social-box/"]
 ##[src*="/next.php"]
 ##[src*="/pop.php?"]
 ##[src*="/afu.php"]
 ##[src*="/stat.php"]
 ##[src*="/js.php"]
-##[src*="/genads.php?"]
 ##[src*="/json.php"]
 ##[src*="/ajax.php"]
 ##[src*="/ucount.php?"]
@@ -1070,7 +848,6 @@ popuper.js^
 ##[src*="/click.php"]
 ##[src*="/chat.html"]
 ##[src*="/track"]
-##[src*="/splash-zones-split.php"]
 ##[src*="/ad.doubleclick.net"]
 ://adv.$script,xhr
 ://hw-$important
@@ -1082,48 +859,18 @@ popuper.js^
 ://geo.$important
 ://wchat.*^$important
 *##+js(aopr, InitCloseButton)
-*##+js(acis, preLoadAds, loadAd)
-*##+js(acis, preLoadAds, setup)
-*##+js(acis, losAd)
-*##+js(acis, Exp, bamData)
-*##[src*="/apu.php"]
-*##[src*="/fac.php"]
-*##[src*="/adu.php"]
 *##.blacklayer
 *##.modalPopup
 *##html:style(filter: none !important)
 *##[class*="sp-message-open"]:style(position: unset !important;overflow-y: initial !important;)
 *##.sp-message-open body:style(position: unset !important;overflow-y: initial !important;)
 *##.in.fade.modal-backdrop
-*##a[href*="betting"]
-*##a[href*="brandstudio"]
-*##a[href*="branding"]
-*##a[href*="clk."]
-*##a[href*="AdwdGn/"]
-*##a[href*="pre."]
-*##a[href*="click?p="]
-*##a[href*="create_click?partner_id="]
-*##.teaser:has(a[href*="annons"])
-*##.teaser:has(a[href*="brand-studio"])
-*##.teaser:has(a[href*="brandstudio"])
-*##.teaser:has(a[href*="kampanj."])
-*##.teaser:has(a[href*="lanapengar."])
-*##.teaser:has(a[href*="rabattkoder."])
-*##.teaser:has(a[href*="spel.expressen.se"])
 /\.cloudfront.*\/\?.*[a-zA-Z0-9]{5,16}/$script,3p
 /genads$important
 /tuname$important
 /puopen$important
 /sw_*.js^$script
 /privacy/notification?$xhr
-/glimr.$script
-/gdpr-bundle.$script
-###block-onscroll-onscroll
-##.info-bar__caption
-###popup-poster_image
-###popup-poster_inner
-###popup-poster
-###footer_bottom_floating_line__cookies
 ##.light.as-oil
 ##[class*="a2a_"]
 ###importantMessage
@@ -1131,11 +878,7 @@ popuper.js^
 ##.video_ad
 ###right_ad
 ###left_ad
-##.poplayer
-##.video-boxad
 ##li.releated_video:has-text(AD)
-##div[id^="ts_ad_native_"]
-##.self-gg
 ##form:has-text(Learn More)
 ##.sticky-center.adunit
 ##.gdpr-banner
@@ -1144,7 +887,6 @@ popuper.js^
 ##[class*="ad module__"]
 ##[id*="rich-media-ads"]
 ##[id*="ads-script"]
-##[aria-label="Close"]
 
 *$script,redirect-rule=noopjs
 *$xhr,redirect-rule=nooptext
@@ -1153,7 +895,6 @@ popuper.js^
 *$frame,redirect-rule=noopframe
 
 *##li:has(.content-label:has-text(/annons/i)):remove()
-*##article:contains(Ukens )
 *##[id*="netboard_"]
 *##.no-scroll:style(overflow-x: hidden !important;)
 *##html,body:style(overflow-x: hidden !important;)
@@ -1161,17 +902,9 @@ popuper.js^
 *##[class="ovl"]:style(display: none !important;)
 *##.overlay[opacity]:style(display: none !important;)
 *##html.open-modal .overlay:style(display: none !important)
-##[id="skinAdTarget"]
-##[id="superadunit"][class="hidden"]
+##[id*="sp_message_container"]
 ###gdpr-cookie-message
-##.jconfirm-bg
-##.jconfirm-cell
-##.jconfirm-open
-##.jconfirm-scrollpane
-*##+js(set, blurred, false)
-*##[src*="/pfe/current/"]
-*##[class*="id-custom_ad"]
-*##.ipsAnnouncement
+*##script:contains(Telemetry)
 
 .online^$image,ping,popup,3p
 .pro^$image,ping,popup,3p
@@ -1187,63 +920,25 @@ popuper.js^
 /^https?:\/\/[a-z]{8,15}\.\/[a-z]{4,}\.css\?aHR0[\/0-9a-zA-Z]{41,}=?=?$/$css,3p,match-case
 /^https?:\/\/[a-z]{8,15}\.\/[a-z]{4,}\.png\?aHR0[\/0-9a-zA-Z]{41,}=?=?$/$image,3p,match-case
 
-?uclick=*&uclickhash=$removeparam
-/?uclick=*;uclickhash=$removeparam
-&uclick=*&uclickhash=$removeparam
-/?r=dir&zoneid=$removeparam
-/?rb=*&zoneid=$removeparam
-$removeparam=s_cid
 $removeparam=utm_ad
 $removeparam=utm_affiliate
 $removeparam=utm_brand
 $removeparam=utm_campaign
-$removeparam=utm_campaignid
-$removeparam=utm_channel
-$removeparam=utm_cid
 $removeparam=utm_content
 $removeparam=utm_creative
-$removeparam=utm_emcid
-$removeparam=utm_emmid
 $removeparam=utm_id
-$removeparam=utm_keyword
-$removeparam=utm_medium
 $removeparam=utm_name
-$removeparam=utm_place
-$removeparam=utm_product
-$removeparam=utm_pubreferrer
-$removeparam=utm_reader
 $removeparam=utm_referrer
 $removeparam=utm_serial
 $removeparam=utm_session
-$removeparam=utm_siteid
 $removeparam=utm_social
 $removeparam=utm_social-type
 $removeparam=utm_source
-$removeparam=utm_supplier
-$removeparam=utm_swu
-$removeparam=utm_term
-$removeparam=utm_umguk
 $removeparam=utm_userid
-$removeparam=utm_viz_id
-$removeparam=gbraid
-$removeparam=wbraid
-$removeparam=gclsrc
-$removeparam=gclid
-$removeparam=usqp
-$removeparam=irgwc
 $removeparam=fbclid
 $removeparam=adfrom
-$removeparam=nx_source
-$removeparam=_zucks_suid
 $removeparam=cmpid
-$removeparam=asgtbndr
-$removeparam=guccounter
-$removeparam=guce_referrer
-$removeparam=guce_referrer_sig
 $removeparam=_openstat
-$removeparam=action_object_map
-$removeparam=action_ref_map
-$removeparam=action_type_map
 $removeparam=fb_action_ids
 $removeparam=fb_action_types
 $removeparam=fb_comment_id
