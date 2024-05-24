@@ -8,6 +8,8 @@ aftonbladet.se##html,body:style(overflow-y: auto !important; overflow-x: hidden 
 aftonbladet.se##body:style(z-index: unset !important; overflow: unset !important;)
 aftonbladet.se###application:style(overflow: hidden !important; z-index: unset !important;)
 aftonbladet.se##+js(no-setTimeout-if, TAKEOVER)
+aftonbladet.se##[class*="-insider-wrapper"]
+aftonbladet.se##[class*="-panorama-wrapper"]
 aftonbladet.se##strong:has-text(/ANNONS/i):upward(p)
 aftonbladet.se##.event-subheader-widget
 aftonbladet.se##a:has-text(annonslänkar)
@@ -93,7 +95,6 @@ expressen.se##strong:has-text(/annons:/i):upward(p)
 expressen.se##.bam-ad-slot--pre-sized.bam-ad-slot--visible.bam-ad-slot
 expressen.se##a[href*="/spel.exp"], a[href*="/lanapengar.exp"], a[href*="/rabattkoder.exp"], a[href*="/annons"], .match-betting, .discount-ad, .b-ad__caption, .pressrelease-teaser, .widget-ad-marker, .widget-ad-marker + a, .promotion-banner, .widget--collaboration, .rotator--external, a[data-click-track*="prisjakt"], .linked-image-widget a[href*="/kampanj/"], .linked-image-widget a[href*="www.cmore.se"], .linked-image-widget a[href*="lifestyle.expressen.se"], #premiumAdWrapper, .tapet-popup-overlay, .outsider-ads
 expressen.se##figure[data-article-data*="/sponsrat"], figure[data-article-data*="/annons"], figure[data-article-data*="/brand-studio"]
-*##+js(acs, ExpressenAnalytics, push)
 ##.terms-dialog
 ##[class="bam-ad-slot"]
 ##[class="page-list discount-ad"]
@@ -106,9 +107,14 @@ expressen.se##figure[data-article-data*="/sponsrat"], figure[data-article-data*=
 ||jtp.expressen.se/notify$image
 
 #Twitch.tv
-twitch.tv##+js(twitch-videoad)
-twitch.tv##[class*="player-ads"] ,[src*="twitch.tv"]
-twitch.tv##script ,[class*="player-ads"] ,[src*="twitch.tv"]:contains(blob)
+twitch.tv,player.twitch.tv##+js(twitch-videoad)
+twitch.tv,player.twitch.tv##+js(nowoif, amazon-adsystem)
+twitch.tv,player.twitch.tv##.stream-display-ad__wrapper
+twitch.tv,player.twitch.tv##script:contains(min.js)
+twitch.tv,player.twitch.tv##script:contains(blob)
+twitch.tv,player.twitch.tv##script[src*="ad"]
+twitch.tv,player.twitch.tv##script:contains(ads.)
+twitch.tv,player.twitch.tv##.video-player__container div[class^="Layout-"]:has(> span[data-a-target="video-ad-label"])
 twitch.tv##.tw-link.link-fragment
 twitch.tv##.picture-by-picture-player
 twitch.tv##.smarter-sort-callout
@@ -123,7 +129,6 @@ twitch.tv##[class*="extensions-dock__dock"]
 twitch.tv##.extension-taskbar
 twitch.tv##.extension-view__iframe
 twitch.tv###twilight-sticky-footer-root
-twitch.tv##.krbPCX.Layout-sc-1xcs6mc-0
 twitch.tv##[class*="disclosure-"]
 twitch.tv##.default-panel
 twitch.tv##.noty_bar
@@ -131,15 +136,34 @@ twitch.tv###noty_bottomCenter_layout_container
 twitch.tv##.side-info-container
 twitch.tv##.tw-absolute.top-bar
 twitch.tv##.prime-extension-root--show.prime-extension-root
+twitch.tv##.core-error__container
+twitch.tv##[data-a-target="stream-title"]:style(width: 750px)
+twitch.tv##.tw-link.link-fragment
+twitch.tv##.charity-avatar
+twitch.tv##.headliner-ad
+twitch.tv##.tw-popover-header
+twitch.tv##.picture-by-picture-player
+twitch.tv##.community-highlight-stack__scroll-area--disable
+twitch.tv##.community-highlight-stack__backlog-card
+twitch.tv##.player-overlay-background
+twitch.tv##player ,script:contains(blob)
+twitch.tv##script:contains(pre)
+twitch.tv##script[src*="ad"]
+twitch.tv##script:contains(ads)
+||vod-secure.twitch.tv/_404/404_processing_320x180.png$image
+||ads.twitch.tv^
+||edge.ads.twitch.tv^
+||amazon-adsystem.com^
+*ads.components
+/assets/features.ads$important
+/assets/features.video-player.components.video-ads$important
+/assets/features.consent.components.cmp-api$important
 
 #Google
+google.*##a[href][ping]:remove-attr(ping)
 google.*##html:style(overflow-y: auto !important;)
 google.*##+js(set-constant, rwt, noopFunc)
 google.*##[id="reviewDialog"]
-google.*##[id="dstyle"]
-google.*##a[href*="/aclk?"][data-al]:upward(2)
-google.*###cnsm
-google.*###cnsw
 google.*##.ads-ad
 google.*##.section-result[data-result-ad-type]
 google.*##.widget-pane-section-result[data-result-ad-type]
@@ -147,11 +171,6 @@ google.*##div[data-flt-ve="sponsored_search_ads"]
 google.*###cnsi ~ [jsaction*=dismiss]
 google.*##div[owner] > div[class]:has(div[class][role="button"])
 google.*###pushdown
-google.*###center_col > #resultStats + #tads
-google.*###center_col > #resultStats + #tads + #res + #tads
-google.*###center_col > #resultStats + div + #res + #tads
-google.*###mclip_container:last-child
-google.*###resultspanel > #topads
 google.*###rhs_block
 ||google.*/pagead/*$important
 ||googleadservices.com^
@@ -191,10 +210,10 @@ youtube.com##.opened
 youtube.com###offer-module
 youtube.com##.yt-alert-content
 youtube.com###comment-teaser
-youtube.com##.paused-mode.ytp-fit-cover-video.ad-interrupting.ad-showing.ad-created.ytp-fine-scrubbing-exp.ytp-large-width-mode.ytp-hide-info-bar.ytp-bigboards.ytp-exp-ppp-update.ytp-modern-caption.ytp-exp-bottom-control-flexbox.ytp-transparent.html5-video-player
+youtube.com###clarify-box
 youtube.com###movie_player > .ytp-chrome-top > .ytp-chrome-top-buttons > .ytp-cards-button.ytp-button > .ytp-cards-button-icon-default
 youtube.com##ytd-engagement-panel-section-list-renderer.ytd-watch-flexy.style-scope:nth-of-type(2)
-youtube.com##.ytp-ad-module.video-ads
+youtube.com##.ytp-featured-product
 youtube.com##.ytd-popup-container.style-scope > .yt-tooltip-renderer.style-scope
 youtube.com##.ytp-fullerscreen-edu-text
 youtube.com##.ytp-paid-content-overlay
@@ -210,12 +229,25 @@ youtube.com###masthead-ad
 youtube.com###video-masthead
 youtube.com###hats-container
 youtube.com###dismissed
+youtube.com##.ytd-channel-video-player-renderer.style-scope.content > .yt-formatted-string.style-scope.yt-simple-endpoint
+youtube.com##.branding-img.iv-click-target
+youtube.com##ytd-rich-section-renderer.ytd-rich-grid-renderer.style-scope > .ytd-rich-section-renderer.style-scope
 youtube.com##ytd-video-renderer.ytd-expanded-shelf-contents-renderer.style-scope:contains(SHORTS)
+youtube.com##.ytd-guide-entry-renderer.style-scope.yt-simple-endpoint:contains(Shorts)
+youtube.com###content > .ytd-rich-section-renderer.style-scope:contains(Shorts)
 youtube.com###dismissible > .ytd-rich-shelf-renderer.style-scope
 youtube.com###author-thumbnail
+youtube.com###like-button > yt-button-shape
 youtube.com###replies:style(margin-left: -45px !important;)
 youtube.com###content-text > .yt-formatted-string.style-scope.yt-simple-endpoint
 youtube.com##.yt-core-attributed-string__link
+youtube.com###reply-button-end
+youtube.com##ytd-video-renderer.ytd-item-section-renderer.style-scope > .ytd-video-renderer.style-scope:contains(GIVEAWAY)
+youtube.com##ytd-video-renderer.ytd-item-section-renderer.style-scope > .ytd-video-renderer.style-scope:contains(Giveaway)
+youtube.com##tp-yt-paper-dialog.ytd-popup-container.style-scope
+youtube.com##script[src*="ad_"]
+youtube.com###donation-shelf > .ytd-watch-flexy.style-scope:contains(Donate)
+youtube.com##script:contains(format)
 /featured_channel.jpg$domain=www.youtube.com,image
 /video_watermark.jpg$domain=www.youtube.com,image
 
@@ -256,9 +288,13 @@ fotbollskanalen.se##[id*="tws2_"]
 fotbollskanalen.se##.article-share
 
 #Blocket.se
+blocket.se##[src*="/unified/"]
+blocket.se##[data-id="placement_panorama"]
+blocket.se##.overflow-visible.relative
+blocket.se##[id*="pulse2an_"]
 blocket.se##[class*="Toplistings__StyledWrapper-sc"]
 blocket.se##[class*="BannerLink__Wrapper-sc"] ,[href*=""]
-blocket.se##[id*="pulse2an_"]
+blocket.se##[class*="sm:px"]
 blocket.se##[class*="BannerAdPanorama-sc"]
 blocket.se##[class*="SchibstedBanner__Wrapper-sc"]
 blocket.se##[class*="BannerContainerPanorama-sc"]
@@ -854,11 +890,9 @@ clk.js^
 ://adserve.$important
 ://srv.$important
 ://serve.$important
-://stats.$important
 ://geo-$important
 ://geo.$important
 ://wchat.*^$important
-*##+js(aopr, InitCloseButton)
 *##.blacklayer
 *##.modalPopup
 *##html:style(filter: none !important)
@@ -947,3 +981,157 @@ $removeparam=fb_source
 $removeparam=dclid
 $removeparam=&__comet_req=
 $removeparam=JSESSIONID
+
+||srtb.msn.com^
+||sam.msn.com^
+||d2bs5vtcw2lxsv.cloudfront.net^
+||d2jsvulelid3e4.cloudfront.net^
+||d3k2wzdv9kuerp.cloudfront.net^
+||d263ut03kf37wj.cloudfront.net^
+||d29lduyskr59p4.cloudfront.net^
+||d2dzy45qo641nc.cloudfront.net^
+||d2psma0az3acui.cloudfront.net^
+||d1rr5z16sjcy10.cloudfront.net^
+||d2xupcbyjjjfoa.cloudfront.net^
+||d17xmf66fp9kg9.cloudfront.net^
+||d3icekm41k795y.cloudfront.net^
+||dic9vgwbkxd8r.cloudfront.net^
+||d3qvcyf9oa6vhw.cloudfront.net^
+||d264dxqvolp03e.cloudfront.net^
+||d2ovgc4ipdt6us.cloudfront.net^
+||d1zw8evbrw553l.cloudfront.net^
+||d39xdhxlbi0rlm.cloudfront.net^
+||dvv009j588zal.cloudfront.net^
+||d18ql5xgy7gz3p.cloudfront.net^
+||d2f0ixlrgtk7ff.cloudfront.net^
+||d12nvv2jqzsaax.cloudfront.net^
+||d9leupuz17y6i.cloudfront.net^
+||d15fkr9rkey1dd.cloudfront.net^
+||d1hfbz0n5yb6ym.cloudfront.net^
+||d126kahie2ogx0.cloudfront.net^
+||d27tzcmp091qxd.cloudfront.net^
+||d2fnnovf9qvlf2.cloudfront.net^
+||d25sca3heoa1so.cloudfront.net^
+||d3u8vuldqjolr7.cloudfront.net^
+||d2lzu2a5ishr7o.cloudfront.net^
+||d2o8i1jpfoso49.cloudfront.net^
+||d1r3ddyrqrmcjv.cloudfront.net^
+||d1i64ia3gj0ol1.cloudfront.net^
+||d2trpg4l6gqit0.cloudfront.net^
+||dppaivsn6f9dy.cloudfront.net^
+||dv663fc06d35i.cloudfront.net^
+||d108nnfn2eigw4.cloudfront.net^
+||d2osk0po1oybwz.cloudfront.net^
+||d1t38ngzzazukx.cloudfront.net^
+||d1u4z2la3g1n0x.cloudfront.net^
+||dad1mq193mgtr.cloudfront.net^
+||d3vw74hiy9xqtm.cloudfront.net^
+||d36utvtykl56bp.cloudfront.net^
+||d34gjfm75zhp78.cloudfront.net^
+||d1f7vr2umogk27.cloudfront.net^
+||dfjlgfb4lxka5.cloudfront.net^
+||dupcczkfziyd3.cloudfront.net^
+||d1cglulyxpv8sj.cloudfront.net^$all
+||d3pnod4lg28ix4.cloudfront.net^
+||d388cbecyo4yoc.cloudfront.net^
+||d1o6lu9dr4t13s.cloudfront.net^
+||d10fhz7gnk5369.cloudfront.net^
+||d3dpet1g0ty5ed.cloudfront.net^
+||d25m254rjp3rii.cloudfront.net^
+||d3t3bxixsojwre.cloudfront.net^$all
+||d1cykymlllue3h.cloudfront.net^
+||dggaenaawxe8z.cloudfront.net^
+||d3iih5w7xp5hdg.cloudfront.net^
+||d1t4ekjh9ps4ob.cloudfront.net^
+||d3a00ifauhjdp.cloudfront.net^
+||dnn4px252i5wx.cloudfront.net^
+||d3pel2vlstnlu9.cloudfront.net^
+||d1cw0c50l8jv65.cloudfront.net^
+||d13qwbj37sfx89.cloudfront.net^
+||d13nu0oomnx5ti.cloudfront.net^
+||dz5bomaog2c5t.cloudfront.net^
+||d3d52lhoy0sh2w.cloudfront.net^
+||d2oa97wrxvxm7y.cloudfront.net^
+||d2wpknqle9nuv8.cloudfront.net^
+||d1k3dpebxhgqjc.cloudfront.net^
+||d1b0fk9ns6n0w9.cloudfront.net^
+||doo6pwib3qngu.cloudfront.net^
+||d13jhr4vol1304.cloudfront.net^
+||drrcckbju3nd0.cloudfront.net^
+||d2nrdy2pg3k168.cloudfront.net^
+||d9tnvwv7i2n85.cloudfront.net^
+||d35r45qhjmgs3g.cloudfront.net^
+||d1n7ypf85zfej7.cloudfront.net^
+||d1bevsqehy4npt.cloudfront.net^
+||d985a9d2clzq5.cloudfront.net^
+||dc5ig2fc8lg83.cloudfront.net^
+||d27x580xb9ao1l.cloudfront.net^
+||d1k0glcmk0b5rb.cloudfront.net^
+||d1pozdfelzfhyt.cloudfront.net^
+||d3rhktq8uy839j.cloudfront.net^
+||d1f5rbi95y1icu.cloudfront.net^
+||d2wl3qmk54t3ha.cloudfront.net^
+||dh0uktvqfaomb.cloudfront.net^
+||d3p2b5qewrnsyv.cloudfront.net^
+||dwf6crl4raal7.cloudfront.net^
+||d28g1fhp6rn9w3.cloudfront.net^
+||d3iz6lralvg77g.cloudfront.net^
+||d1p7elpjrt6qav.cloudfront.net^
+||d3elm8wezzwg42.cloudfront.net^
+||d3oep4gb91kpuv.cloudfront.net^
+||d1qtf1avwa1wvl.cloudfront.net^
+||dcjg1gv1px1h.cloudfront.net^
+||d20je219bs8hnq.cloudfront.net^
+||d3u5zn5k9864p0.cloudfront.net^
+||d30zrwt3s044zr.cloudfront.net^
+||d2fhjyz3dwdx87.cloudfront.net^
+||demkc32bq01ah.cloudfront.net^
+||d1zfhhmz4n1jvq.cloudfront.net^
+||d138am4hd4ke4y.cloudfront.net^
+||d1mub3aw743hsf.cloudfront.net^
+||d1vrcwxei1aj0g.cloudfront.net^
+||d3cesrg5igdcgt.cloudfront.net^
+||dsh1ct2zrfakt.cloudfront.net^
+||djwf0dl2q9i99.cloudfront.net^
+||d19uh5b0umbjrr.cloudfront.net^
+||d1byvlfiet2h9q.cloudfront.net^
+||d2nzjxafm0iowq.cloudfront.net^
+||d1i2v9a8xom2hy.cloudfront.net^
+||d3fqhkmofpujs3.cloudfront.net^
+||d3t9nyds4ufoqz.cloudfront.net^
+||dzs55b7slwyx.cloudfront.net^
+||dmtw0i4zln92b.cloudfront.net^
+||d160mt023h8h3d.cloudfront.net^
+||d28k9nkt2spnp.cloudfront.net^
+||d1czd1q73kbu32.cloudfront.net^
+||d1mroptkfdxko5.cloudfront.net^
+||d2b7n13v8adl6f.cloudfront.net^
+||do67etikr7pwz.cloudfront.net^
+||df0pmigc8xs70.cloudfront.net^
+||dk45agakx3yfl.cloudfront.net^
+||d37s9vd5t6mov7.cloudfront.net^
+||d2lxztepvo7ma1.cloudfront.net^
+||d15cjcet1djbmv.cloudfront.net^
+||d2pppxxtaciku9.cloudfront.net^
+||d19182vyfoustz.cloudfront.net^
+||d1dli2tyorled9.cloudfront.net^
+||d240937yockcdo.cloudfront.net^
+||d2z0gqc8sv0l7p.cloudfront.net^
+||d32r49xyei4vz6.cloudfront.net^
+||d36sxvmjoflc2i.cloudfront.net^
+||d6swopgiplmy0.cloudfront.net^
+
+|http*://undefined/|$script,redirect=noop.js
+/ads?dur=$important
+
+/^23\.109\.73\.\d{3}/
+/^188\.42\.84\.\d{1,3}/
+/^139\.45\.19[5-7]\.\d{1,3}/
+/^https?:\/\/(?:[a-z]{2}\.)?[0-9a-z]{5,16}\.[a-z]{3,7}\/[a-z](?=[a-z]{0,25}[0-9A-Z])[0-9a-zA-Z]{3,26}\/\d{4,5}(?:\?[_v]=\d+)?$/$subdocument,script,xmlhttprequest,third-party,match-case
+/^https?:\/\/(?:[a-z]{2}\.)?[0-9a-z]{5,16}\.[a-z]{3,7}\/[a-z](?=[a-z]{0,25}[0-9A-Z])[0-9a-zA-Z]{3,26}\/\d{4,5}(?:\?[_v]=\d+)?$/$popup,third-party,match-case
+/^https?:\/\/www\.[a-z]{8,14}\.(bid|club|co|com|me|pro|info)\/[a-z]{1,12}\.js$/$script,third-party
+/\/[0-9a-z]{5,8}\/[0-9a-z]{1,3}\/[0-9a-z]{5,8}\/(?:[0-9a-f]{2}\/){3}[0-9a-f]{32}\.js$/$script,~third-party,match-case
+/\/[A-Z]{1,3}\/[-0-9a-z]{5,}\.com\/\d{1,3}\/\d+$/$script,~third-party,match-case
+/\/[A-Z]{1,3}\/[-0-9a-z]{5,}\.com\/(?:[0-9a-f]{2}\/){3}[0-9a-f]{32}\.js$/$script,~third-party,match-case
+/^https?:\/\/(?:www\.|[a-z0-9]{7,10}\.)?[a-z0-9-]{5,}\.(?:com|bid|link|live|online|top|club)\/\/?(?:[a-z0-9]{2}\/){2,3}[a-f0-9]{32}\.js/$script,xmlhttprequest,third-party
+/^https?:\/\/(?:www\.|[a-z0-9]{7,10}\.)?[a-z0-9-]{5,}\.(?:com|bid|link|live|online|top|club)\/\/?(?:[a-z0-9]{2}\/){2,3}[a-f0-9]{32}\.js/$script,third-party,redirect=noop.js
