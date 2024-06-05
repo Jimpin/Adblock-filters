@@ -244,7 +244,6 @@ youtube.com##.yt-core-attributed-string__link
 youtube.com###reply-button-end
 youtube.com##ytd-video-renderer.ytd-item-section-renderer.style-scope > .ytd-video-renderer.style-scope:contains(GIVEAWAY)
 youtube.com##ytd-video-renderer.ytd-item-section-renderer.style-scope > .ytd-video-renderer.style-scope:contains(Giveaway)
-youtube.com##tp-yt-paper-dialog.ytd-popup-container.style-scope
 youtube.com##script[src*="ad_"]
 youtube.com###donation-shelf > .ytd-watch-flexy.style-scope:contains(Donate)
 youtube.com##script:contains(format)
@@ -293,13 +292,11 @@ blocket.se##[data-id="placement_panorama"]
 blocket.se##.overflow-visible.relative
 blocket.se##[id*="pulse2an_"]
 blocket.se##[class*="Toplistings__StyledWrapper-sc"]
-blocket.se##[class*="BannerLink__Wrapper-sc"] ,[href*=""]
 blocket.se##[class*="sm:px"]
 blocket.se##[class*="BannerAdPanorama-sc"]
 blocket.se##[class*="SchibstedBanner__Wrapper-sc"]
 blocket.se##[class*="BannerContainerPanorama-sc"]
 blocket.se##[class*="Placementstyles__Styled"]
-blocket.se##[class*="BannerLink__Wrapper-sc"] ,[href*=""]
 blocket.se###index_panorama
 blocket.se###li_panorama
 blocket.se###vi_panorama
@@ -739,6 +736,9 @@ rabbitstream.*##[button="download-button"]
 
 #Ads/Trackers
 ||jwpcdn.com^/*.js$script
+||gnsnpaw.com^
+||npaw.com^
+||herokuapp.com^
 ||adservice.com^
 ||adform.net^
 ||amazon-adsystem.com^
