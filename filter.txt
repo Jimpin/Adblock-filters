@@ -4,9 +4,6 @@
 ! License: GPL-3.0 License | https://github.com/Jimpin/Adblock-filters/blob/master/LICENSE
 
 #Aftonbladet.se
-aftonbladet.se##html,body:style(overflow-y: auto !important; overflow-x: hidden !important;)
-aftonbladet.se##body:style(z-index: unset !important; overflow: unset !important;)
-aftonbladet.se###application:style(overflow: hidden !important; z-index: unset !important;)
 aftonbladet.se##+js(no-setTimeout-if, TAKEOVER)
 aftonbladet.se##[class*="-insider-wrapper"]
 aftonbladet.se##[class*="-panorama-wrapper"]
@@ -109,8 +106,6 @@ expressen.se##figure[data-article-data*="/sponsrat"], figure[data-article-data*=
 #Twitch.tv
 twitch.tv,player.twitch.tv##+js(nowoif, amazon-adsystem)
 twitch.tv,player.twitch.tv##.stream-display-ad__wrapper
-twitch.tv,player.twitch.tv##script:contains(min.js)
-twitch.tv,player.twitch.tv##script:contains(ads.)
 twitch.tv##.tw-link.link-fragment
 twitch.tv##.picture-by-picture-player
 twitch.tv##.smarter-sort-callout
@@ -120,7 +115,6 @@ twitch.tv##.prime-offers__pill
 twitch.tv##.blue-bar.c-text.full-width
 twitch.tv##.recommended-channels
 twitch.tv##.hype-train-progress-bar__container
-twitch.tv##[style="width: 100%; height: 100%; border: 0px none; display: none;"]
 twitch.tv##[class*="extensions-dock__dock"]
 twitch.tv##.extension-taskbar
 twitch.tv##.extension-view__iframe
@@ -132,8 +126,6 @@ twitch.tv###noty_bottomCenter_layout_container
 twitch.tv##.side-info-container
 twitch.tv##.tw-absolute.top-bar
 twitch.tv##.prime-extension-root--show.prime-extension-root
-twitch.tv##.core-error__container
-twitch.tv##[data-a-target="stream-title"]:style(width: 750px)
 twitch.tv##.tw-link.link-fragment
 twitch.tv##.charity-avatar
 twitch.tv##.headliner-ad
@@ -142,13 +134,6 @@ twitch.tv##.picture-by-picture-player
 twitch.tv##.community-highlight-stack__scroll-area--disable
 twitch.tv##.community-highlight-stack__backlog-card
 twitch.tv##.player-overlay-background
-||vod-secure.twitch.tv/_404/404_processing_320x180.png$image
-||edge.ads.twitch.tv^
-||amazon-adsystem.com^
-*ads.components
-/assets/features.ads$important
-/assets/features.video-player.components.video-ads$important
-/assets/features.consent.components.cmp-api$important
 
 #Google
 google.*##a[href][ping]:remove-attr(ping)
@@ -337,29 +322,6 @@ onlinevideoconverter.*##div.home-section-5:nth-of-type(6)
 onlinevideoconverter.*##[href^="https://www.linkconnector.com/ta.php"]
 /1clkn/*$xhr
 
-#Dn.se
-dn.se##+js(acis, DN, initAds)
-dn.se##+js(ra, data-auto-play)
-dn.se##.sponsored-teaser
-dn.se##body:style(position: unset !important;)
-/streamsense.$important,script
-/initLogging$script
-/check-paywall
-
-#Di.se
-di.se##+js(acis, Di, initAds)
-di.se##+js(acis, diConf)
-di.se##+js(nostif, #triggerModal)
-di.se##+js(set, getAdblockerStatus, noopFunc)
-di.se##+js(nosiif, runAdBlockPaywall, 1000)
-di.se##.bandit-box__teaser--native,.service-box,.discount-box,.di_panorama__isAdLabel,.di_panorama-wrapper,.di_teaser-flak-container--native,.di_teaser-flak-planbokskoll,.di_stock-service,.native-box,.di_teaser--native
-di.se##.di_start__teaser-placeholder[data-content-url*="/ads/"]
-di.se##[class^="gdpr-policy"]
-di.se##.ad_container
-di.se##.start__articles-ad
-&autoplay$frame,queryprune=autoplay
-/getnative$xhr
-
 #Hemnet.se
 hemnet.se##.qa-sticky-save-search.js-add-sticky-subscription-action
 hemnet.se###ad_unit_placeholder
@@ -489,20 +451,6 @@ hitta.se##[data-test="notification-container"]
 ##[data-test="google_pubmatic"]
 ##[class*="badgead"]
 ##.adunit
-
-#Reddit.com
-reddit.com##.size-compact.Post:has([class*="promoted"])
-reddit.com##div[id*="sidebar"][data-before-content="advertisement"]:upward(3)
-reddit.com##div[class][data-before-content="advertisement"]:not([id])
-reddit.com##.premium-banner
-reddit.com##.promotedlink
-reddit.com##.md-container-small.reddit-infobar
-reddit.com##div[id^="sidebar-atf-"]
-reddit.com##div[id^="sidebar-btf-"]
-@@||reddit.com/*/comments/
-||reddit.com/api/request_promo.json
-||reddit.com/counters/$xmlhttprequest
-||redditmedia.com/gtm/jail?
 
 #Gp.se
 gp.se##+js(ra, data-access, [data-access="false"])
@@ -972,142 +920,3 @@ $removeparam=fb_source
 $removeparam=dclid
 $removeparam=&__comet_req=
 $removeparam=JSESSIONID
-
-||srtb.msn.com^
-||sam.msn.com^
-||d2bs5vtcw2lxsv.cloudfront.net^
-||d2jsvulelid3e4.cloudfront.net^
-||d3k2wzdv9kuerp.cloudfront.net^
-||d263ut03kf37wj.cloudfront.net^
-||d29lduyskr59p4.cloudfront.net^
-||d2dzy45qo641nc.cloudfront.net^
-||d2psma0az3acui.cloudfront.net^
-||d1rr5z16sjcy10.cloudfront.net^
-||d2xupcbyjjjfoa.cloudfront.net^
-||d17xmf66fp9kg9.cloudfront.net^
-||d3icekm41k795y.cloudfront.net^
-||dic9vgwbkxd8r.cloudfront.net^
-||d3qvcyf9oa6vhw.cloudfront.net^
-||d264dxqvolp03e.cloudfront.net^
-||d2ovgc4ipdt6us.cloudfront.net^
-||d1zw8evbrw553l.cloudfront.net^
-||d39xdhxlbi0rlm.cloudfront.net^
-||dvv009j588zal.cloudfront.net^
-||d18ql5xgy7gz3p.cloudfront.net^
-||d2f0ixlrgtk7ff.cloudfront.net^
-||d12nvv2jqzsaax.cloudfront.net^
-||d9leupuz17y6i.cloudfront.net^
-||d15fkr9rkey1dd.cloudfront.net^
-||d1hfbz0n5yb6ym.cloudfront.net^
-||d126kahie2ogx0.cloudfront.net^
-||d27tzcmp091qxd.cloudfront.net^
-||d2fnnovf9qvlf2.cloudfront.net^
-||d25sca3heoa1so.cloudfront.net^
-||d3u8vuldqjolr7.cloudfront.net^
-||d2lzu2a5ishr7o.cloudfront.net^
-||d2o8i1jpfoso49.cloudfront.net^
-||d1r3ddyrqrmcjv.cloudfront.net^
-||d1i64ia3gj0ol1.cloudfront.net^
-||d2trpg4l6gqit0.cloudfront.net^
-||dppaivsn6f9dy.cloudfront.net^
-||dv663fc06d35i.cloudfront.net^
-||d108nnfn2eigw4.cloudfront.net^
-||d2osk0po1oybwz.cloudfront.net^
-||d1t38ngzzazukx.cloudfront.net^
-||d1u4z2la3g1n0x.cloudfront.net^
-||dad1mq193mgtr.cloudfront.net^
-||d3vw74hiy9xqtm.cloudfront.net^
-||d36utvtykl56bp.cloudfront.net^
-||d34gjfm75zhp78.cloudfront.net^
-||d1f7vr2umogk27.cloudfront.net^
-||dfjlgfb4lxka5.cloudfront.net^
-||dupcczkfziyd3.cloudfront.net^
-||d1cglulyxpv8sj.cloudfront.net^$all
-||d3pnod4lg28ix4.cloudfront.net^
-||d388cbecyo4yoc.cloudfront.net^
-||d1o6lu9dr4t13s.cloudfront.net^
-||d10fhz7gnk5369.cloudfront.net^
-||d3dpet1g0ty5ed.cloudfront.net^
-||d25m254rjp3rii.cloudfront.net^
-||d3t3bxixsojwre.cloudfront.net^$all
-||d1cykymlllue3h.cloudfront.net^
-||dggaenaawxe8z.cloudfront.net^
-||d3iih5w7xp5hdg.cloudfront.net^
-||d1t4ekjh9ps4ob.cloudfront.net^
-||d3a00ifauhjdp.cloudfront.net^
-||dnn4px252i5wx.cloudfront.net^
-||d3pel2vlstnlu9.cloudfront.net^
-||d1cw0c50l8jv65.cloudfront.net^
-||d13qwbj37sfx89.cloudfront.net^
-||d13nu0oomnx5ti.cloudfront.net^
-||dz5bomaog2c5t.cloudfront.net^
-||d3d52lhoy0sh2w.cloudfront.net^
-||d2oa97wrxvxm7y.cloudfront.net^
-||d2wpknqle9nuv8.cloudfront.net^
-||d1k3dpebxhgqjc.cloudfront.net^
-||d1b0fk9ns6n0w9.cloudfront.net^
-||doo6pwib3qngu.cloudfront.net^
-||d13jhr4vol1304.cloudfront.net^
-||drrcckbju3nd0.cloudfront.net^
-||d2nrdy2pg3k168.cloudfront.net^
-||d9tnvwv7i2n85.cloudfront.net^
-||d35r45qhjmgs3g.cloudfront.net^
-||d1n7ypf85zfej7.cloudfront.net^
-||d1bevsqehy4npt.cloudfront.net^
-||d985a9d2clzq5.cloudfront.net^
-||dc5ig2fc8lg83.cloudfront.net^
-||d27x580xb9ao1l.cloudfront.net^
-||d1k0glcmk0b5rb.cloudfront.net^
-||d1pozdfelzfhyt.cloudfront.net^
-||d3rhktq8uy839j.cloudfront.net^
-||d1f5rbi95y1icu.cloudfront.net^
-||d2wl3qmk54t3ha.cloudfront.net^
-||dh0uktvqfaomb.cloudfront.net^
-||d3p2b5qewrnsyv.cloudfront.net^
-||dwf6crl4raal7.cloudfront.net^
-||d28g1fhp6rn9w3.cloudfront.net^
-||d3iz6lralvg77g.cloudfront.net^
-||d1p7elpjrt6qav.cloudfront.net^
-||d3elm8wezzwg42.cloudfront.net^
-||d3oep4gb91kpuv.cloudfront.net^
-||d1qtf1avwa1wvl.cloudfront.net^
-||dcjg1gv1px1h.cloudfront.net^
-||d20je219bs8hnq.cloudfront.net^
-||d3u5zn5k9864p0.cloudfront.net^
-||d30zrwt3s044zr.cloudfront.net^
-||d2fhjyz3dwdx87.cloudfront.net^
-||demkc32bq01ah.cloudfront.net^
-||d1zfhhmz4n1jvq.cloudfront.net^
-||d138am4hd4ke4y.cloudfront.net^
-||d1mub3aw743hsf.cloudfront.net^
-||d1vrcwxei1aj0g.cloudfront.net^
-||d3cesrg5igdcgt.cloudfront.net^
-||dsh1ct2zrfakt.cloudfront.net^
-||djwf0dl2q9i99.cloudfront.net^
-||d19uh5b0umbjrr.cloudfront.net^
-||d1byvlfiet2h9q.cloudfront.net^
-||d2nzjxafm0iowq.cloudfront.net^
-||d1i2v9a8xom2hy.cloudfront.net^
-||d3fqhkmofpujs3.cloudfront.net^
-||d3t9nyds4ufoqz.cloudfront.net^
-||dzs55b7slwyx.cloudfront.net^
-||dmtw0i4zln92b.cloudfront.net^
-||d160mt023h8h3d.cloudfront.net^
-||d28k9nkt2spnp.cloudfront.net^
-||d1czd1q73kbu32.cloudfront.net^
-||d1mroptkfdxko5.cloudfront.net^
-||d2b7n13v8adl6f.cloudfront.net^
-||do67etikr7pwz.cloudfront.net^
-||df0pmigc8xs70.cloudfront.net^
-||dk45agakx3yfl.cloudfront.net^
-||d37s9vd5t6mov7.cloudfront.net^
-||d2lxztepvo7ma1.cloudfront.net^
-||d15cjcet1djbmv.cloudfront.net^
-||d2pppxxtaciku9.cloudfront.net^
-||d19182vyfoustz.cloudfront.net^
-||d1dli2tyorled9.cloudfront.net^
-||d240937yockcdo.cloudfront.net^
-||d2z0gqc8sv0l7p.cloudfront.net^
-||d32r49xyei4vz6.cloudfront.net^
-||d36sxvmjoflc2i.cloudfront.net^
-||d6swopgiplmy0.cloudfront.net^
