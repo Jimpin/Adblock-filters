@@ -16,7 +16,6 @@ aftonbladet.se##[class*="css"][href*="/kampanj/"]
 aftonbladet.se##[class*="hyperion-css"].default
 aftonbladet.se##[data-variants*="generic-adformat"]
 aftonbladet.se##.sch-datacontroller--permanent.sch-datacontroller--cobranded.sch-datacontroller
-aftonbladet.se##[class*="hyperion-css-1"] div:contains( - )
 aftonbladet.se##[class*="hyperion-css-"]:style(z-index: 0px !important;)
 aftonbladet.se##[class*="default css"][data-test-tag="embed-content"]
 aftonbladet.se##main > section > div[class^="css-"]:first-child:has(img[src*="closeButton"])
@@ -64,6 +63,7 @@ klart.se##+js(remove-class, mega-loading)
 ||interaction.acast.com/progress$xhr,redirect-rule=nooptext
 ||auth.acast.com/v1/getAnonymousToken$xmlhttprequest,domain=embed.acast.com
 ||cdn.acast.com/images/ad-banner-black.jpg$image,domain=embed.acast.com,important
+||norstatsurveys.com^
 utm_$document,removeparam=/^utm_/
 /www.*\.se\/cnp-assets\/[1-9][0-9]{0,1}\./$script
 /paywall.js$script,domain=www.aftonbladet.se
@@ -131,8 +131,6 @@ twitch.tv##.charity-avatar
 twitch.tv##.headliner-ad
 twitch.tv##.tw-popover-header
 twitch.tv##.picture-by-picture-player
-twitch.tv##.community-highlight-stack__scroll-area--disable
-twitch.tv##.community-highlight-stack__backlog-card
 twitch.tv##.player-overlay-background
 
 #Google
@@ -220,9 +218,7 @@ youtube.com##.yt-core-attributed-string__link
 youtube.com###reply-button-end
 youtube.com##ytd-video-renderer.ytd-item-section-renderer.style-scope > .ytd-video-renderer.style-scope:contains(GIVEAWAY)
 youtube.com##ytd-video-renderer.ytd-item-section-renderer.style-scope > .ytd-video-renderer.style-scope:contains(Giveaway)
-youtube.com##script[src*="ad_"]
 youtube.com###donation-shelf > .ytd-watch-flexy.style-scope:contains(Donate)
-youtube.com##script:contains(format)
 /featured_channel.jpg$domain=www.youtube.com,image
 /video_watermark.jpg$domain=www.youtube.com,image
 
