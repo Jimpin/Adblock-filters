@@ -190,6 +190,8 @@ youtube.com###infoButton
 youtube.com##.opened
 youtube.com###offer-module
 youtube.com##.yt-alert-content
+youtube.com##.yt-core-attributed-string__link:contains(http)
+youtube.com##ytd-reel-shelf-renderer.ytd-structured-description-content-renderer.style-scope
 youtube.com###comment-teaser
 youtube.com###clarify-box
 youtube.com###movie_player > .ytp-chrome-top > .ytp-chrome-top-buttons > .ytp-cards-button.ytp-button > .ytp-cards-button-icon-default
