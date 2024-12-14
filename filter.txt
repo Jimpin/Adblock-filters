@@ -296,35 +296,6 @@ blocket.se##body:style(overflow: auto !important;)
 /blocket_puff.html$subdocument
 ||logs2.xiti.com^
 
-#Kollafilm.com
-kollafilm.*##body:style(background-image: none !important;)
-kollafilm.*##.socialts
-kollafilm.*###btdvak-blanket
-kollafilm.*###btdvak-blanket > div
-kollafilm.*##.comments-area.bixbox
-kollafilm.*##[class="bx"] > div.note
-kollafilm.*##div.bixbox:contains(Gallery)
-kollafilm.*##wpdcom
-kollafilm.*###wpdUserContentInfo
-kollafilm.*###wpd-editor-source-code-wrapper
-kollafilm.*##.overlay
-kollafilm.*##[id*="-css"]
-kollafilm.*##.cent.bnav > [href*="/"], [href*="/donation/"], [href*="discord"], [href*="/request-films/"]
-||kollafilm.*^$other,1p
-||kollafilm.*/wp-includes/js/wp-*js$script,1p
-||kollafilm.*/wp-admin/admin-ajax.php$xhr,1p
-||kollafilm.*/wp-content/plugins/wpdiscuz/*$stylesheet,1p
-||kollafilm.*/wp-content/plugins/ultimate-member/*$stylesheet,1p
-||kollafilm.*/wp-includes/js/underscore.min.js$script,1p
-||kollafilm.*/wp-includes/js/imagesloaded.min.js$script,1p
-||kollafilm.*/wp-content/plugins/ultimate-member/*$script,1p
-||content.kollafilm.*/uploads/*$image,important
-||videos.kollafilm.*/uploads/*$image,important
-/cropped*.png$image,important
-/cropped*.jpg$image,important
-*##[src*="//inpage-push"]
-*##[class*="jw-icon jw-icon-inline jw-button-color jw-reset jw-icon-pip"]
-
 #onlinevideoconverter
 onlinevideoconverter.*##.download-section-2
 onlinevideoconverter.*##.home-section-3
@@ -410,26 +381,6 @@ lookmovie.*,lookmovie2.*###social-share
 ||captchadecoder.com^
 ||anti-captcha.com^
 
-#Streamtajm.com
-streamtajm.*##+js(acis, TID, J0)
-streamtajm.*##[href$=".html"]
-streamtajm.*##[href*="/forum"]
-streamtajm.*###preloader
-streamtajm.*##.longbanner
-streamtajm.*##.well.dfoot
-streamtajm.*###comments
-streamtajm.*##.hidden-xs.col-md-5.col-sm-6.pull-right
-streamtajm.*##.slick-dotted.slick-slider.slick-initialized.slider-active
-streamtajm.*##section.episode-bg.episode-area:nth-of-type(3)
-streamtajm.*##.owl-drag.owl-loaded.pt-3.mt-5.owl-carousel.ucm-active
-streamtajm.*##.episode-bg.episode-area
-||streamtajm.com/images/banner/*jpg$image
-||*.net^$frame,image,other,domain=streamtajm.com
-||*.com^$other,domain=streamtajm.com
-||nxload.com/thumbnails/
-||nxload.com/player_clappr/*$font
-||nxload.com/dl$xmlhttprequest
-
 #Ratsit.se
 ratsit.se##.footer
 ratsit.se###CybotCookiebotDialogBodyUnderlay
@@ -481,7 +432,6 @@ gp.se##.rabble-widget
 /vendorList.js$script
 
 #Moviesjoy/Movies2watch
-moviesjoy.*,movies2watch.*##+js(acis, JSON.parse, break;case $.)
 moviesjoy.*,movies2watch.*##html,body:style(overflow-y: auto !important;)
 moviesjoy.*,movies2watch.*###gift-top
 moviesjoy.*,movies2watch.*##.ts-social
@@ -506,49 +456,9 @@ moviesjoy.*,movies2watch.*##.text-home-main
 moviesjoy.*,movies2watch.*##.show.modalshare-1.premodal-share.premodal.modal
 moviesjoy.*,movies2watch.*##.show.modal-backdrop
 moviesjoy.*,movies2watch.*##[class="follow"]
-vcstream.*##.pub_300x250.pub_300x250m.pub_728x90.text-ad.textAd.text_ad.text_ads.text-ads.text-ad-links:style(display:block!important;)
-vcstream.*##[href$=".html"]
-vidcloud.*##[href$=".html"]
-vidcloud.*###overlay-center
-vidcloud.*##[id="overlay-container"]
-upstream.*##+js(acis, $, .css)
-upstream.*##+js(acis, Math, break;case $.)
-upstream.*##+js(aopr, _run)
-upstream.*##+js(aopw, _pop)
-upstream.*##+js(nowebrtc)
-upstream.*##+js(set, cRAds, null)
-upstream.*##.overlay
-*^$popup,3p,domain=moviesjoy.*|movies2watch.*|myflixer.*|dopebox.*
 ||upstream.*/advertisement/pop.js$script,1p
 ||upstream.*/dl$xhr,important
 ||upstreamcdn.*^$websocket,image
-@@||moviesjoy.*/watch-tv/^$popup
-||vidcloud.co/images/logo-brand.png$image
-||vidcloud.co/images/close2.png$image
-||vcstream.to/images/file-not-found.jpg$image
-||vcstream.to/images/close2.png$image,important
-||vcstream.to/images/logo-brand.png$image,important
-loadvid.*##+js(abort-current-inline-script.js, fileID, adblock)
-loadvid.*##+js(abort-on-property-read.js, BetterJsPop)
-loadvid.*##+js(set-constant.js, adBlockNotDetected, true)
-loadvid.*##+js(set-constant.js, pop_cnt, 1)
-loadvid.*##+js(setTimeout-defuser.js, _creatBait)
-loadvid.*###overlay-vcplayer
-||loadvid.online/images/dablock.png$important
-||loadvid.online/images/logo-brand.png$image,important
-||photo.vidcloudcdn.com^$image,important
-dood.*##+js(nano-setInterval-booster, .countdown, , 0.02)
-dood.*##+js(aopw, check)
-dood.*##+js(aeld, contextmenu)
-dood.*##+js(acis, Math, break;case)
-dood.*##+js(acis, adcashMacros)
-dood.*##+js(aopw, _pop)
-dood.*##+js(aopw, DoodPop)
-dood.*##+js(nostif, debugger)
-||doodcdn.com/splash/*.jpg^$image
-rabbitstream.*##+js(set, console.clear, undefined)
-rabbitstream.*##[style*="height: 1px; width: 1161px;"]
-rabbitstream.*##[button="download-button"]
 /images/dablock.png$image
 /redirect?tid=^$important
 
@@ -863,8 +773,6 @@ clk.js^
 ##.video_ad
 ###right_ad
 ###left_ad
-##li.releated_video:has-text(AD)
-##form:has-text(Learn More)
 ##.sticky-center.adunit
 ##.gdpr-banner
 ##[class*="ad outsider__"]
