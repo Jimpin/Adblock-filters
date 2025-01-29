@@ -4,9 +4,24 @@
 ! License: GPL-3.0 License | https://github.com/Jimpin/Adblock-filters/blob/master/LICENSE
 
 #Aftonbladet.se
-aftonbladet.se##+js(no-setTimeout-if, TAKEOVER)
+aftonbladet.se##[class*="hyperion-css-"]:contains(Välj ort)
+aftonbladet.se##[class*="hyperion-css-"]:contains(GODARE)
+aftonbladet.se##[class*="hyperion-css-"]:contains(WELLOBE)
+aftonbladet.se##[class*="hyperion-css-"]:contains(SE KLIPPET)
+aftonbladet.se##[class*="hyperion-css-"]:contains(Sexolog)
+aftonbladet.se##[class*="container-container_"]
+aftonbladet.se##[class*="hyperion-css-"]:contains(VECKANS)
+aftonbladet.se##[class*="hyperion-css-"]:contains(PLUS)
+aftonbladet.se##[data-testid="twitter-embed-wrapper"]
+aftonbladet.se##[data-chunk*="components-"]
+aftonbladet.se##[class="advertory-aftonbladet-panorama"]
+aftonbladet.se##[class*="hyperion-css-"]:style(border: none !important;)
+aftonbladet.se##[class*="horizontalrule-speltips_"]
+aftonbladet.se##[class*="hyperion-"]:contains(ANNONS)
+aftonbladet.se##[class*="hyperion-css-"]:contains(Speltips)
 aftonbladet.se##[class*="-insider-wrapper"]
 aftonbladet.se##[class*="-panorama-wrapper"]
+aftonbladet.se##[src*="klart.se"]
 aftonbladet.se##strong:has-text(/ANNONS/i):upward(p)
 aftonbladet.se##.event-subheader-widget
 aftonbladet.se##a:has-text(annonslänkar)
@@ -57,6 +72,8 @@ bloggar.aftonbladet.se##.collapse.row:nth-of-type(2)
 bloggar.aftonbladet.se###sidebar-panorama-1 > .columns.widget-area
 bloggar.aftonbladet.se##li.abSocialItem
 klart.se##+js(remove-class, mega-loading)
+||cmp.aftonbladet.se^
+||aftonbladet.compricer.se^
 ||adv.aftonbladet.se^$important
 ||ooul.tv/*/se-aftonbladet/aab/aftonbladet_$script
 ||interaction.acast.com/adImpression$xhr
@@ -66,10 +83,11 @@ klart.se##+js(remove-class, mega-loading)
 ||norstatsurveys.com^
 utm_$document,removeparam=/^utm_/
 /www.*\.se\/cnp-assets\/[1-9][0-9]{0,1}\./$script
+/casinokollen$all,domain=aftonbladet.se
 /paywall.js$script,domain=www.aftonbladet.se
-/picture-in-picture.js$script,domain=www.aftonbladet.se
-/toggle-player-floating-state.js$script,domain=www.aftonbladet.se
-/minimize-floating-player.js$script,domain=www.aftonbladet.se
+/picture-in-picture.js$script,domain=aftonbladet.se
+/toggle-player-floating-state.js$script,domain=aftonbladet.se
+/minimize-floating-player.js$script,domain=aftonbladet.se
 
 #Expressen.se
 expressen.se##+js(aeld, click, .preventDefault)
@@ -181,6 +199,7 @@ tv4play.se##.js-cookie-banner
 /revcontent/bundle.js
 
 #Youtube.com
+youtube.com##[id="message"][class="yt-live-chat-text-message-renderer"][class="style-scope yt-live-chat-text-message-renderer"]:contains(http)
 youtube.com##[class="style-scope yt-live-chat-banner-manager"]
 youtube.com##[class="style-scope yt-live-chat-banner-renderer"]
 youtube.com##[class="style-scope yt-live-chat-banner-manager"]
@@ -194,7 +213,7 @@ youtube.com##.yt-core-attributed-string__link:contains(http)
 youtube.com##ytd-reel-shelf-renderer.ytd-structured-description-content-renderer.style-scope
 youtube.com###comment-teaser
 youtube.com###clarify-box
-youtube.com###movie_player > .ytp-chrome-top > .ytp-chrome-top-buttons > .ytp-cards-button.ytp-button > .ytp-cards-button-icon-default
+youtube.com###movie_player > .ytp-chrome-top
 youtube.com##ytd-engagement-panel-section-list-renderer.ytd-watch-flexy.style-scope:nth-of-type(2)
 youtube.com##.ytp-featured-product
 youtube.com##.ytd-popup-container.style-scope > .yt-tooltip-renderer.style-scope
@@ -215,7 +234,7 @@ youtube.com###dismissed
 youtube.com##.ytd-channel-video-player-renderer.style-scope.content > .yt-formatted-string.style-scope.yt-simple-endpoint
 youtube.com##.branding-img.iv-click-target
 youtube.com##ytd-rich-section-renderer.ytd-rich-grid-renderer.style-scope > .ytd-rich-section-renderer.style-scope
-youtube.com##ytd-video-renderer.ytd-expanded-shelf-contents-renderer.style-scope:contains(SHORTS)
+youtube.com##ytd-reel-shelf-renderer.ytd-watch-next-secondary-results-renderer.style-scope:contains(Shorts)
 youtube.com##.ytd-guide-entry-renderer.style-scope.yt-simple-endpoint:contains(Shorts)
 youtube.com###content > .ytd-rich-section-renderer.style-scope:contains(Shorts)
 youtube.com###dismissible > .ytd-rich-shelf-renderer.style-scope
