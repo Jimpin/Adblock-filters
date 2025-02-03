@@ -4,14 +4,18 @@
 ! License: GPL-3.0 License | https://github.com/Jimpin/Adblock-filters/blob/master/LICENSE
 
 #Aftonbladet.se
+aftonbladet.se##[id*="brandmetrics"]
+aftonbladet.se##[id*="url-component-"]
+aftonbladet.se##[href*=".ly"]
 aftonbladet.se##[class*="hyperion-css-"]:contains(Välj ort)
+aftonbladet.se##[class*="hyperion-css-"]:contains(Läkaren)
+aftonbladet.se##[class*="hyperion-css-"]:contains(Sexolog)
 aftonbladet.se##[class*="hyperion-css-"]:contains(GODARE)
 aftonbladet.se##[class*="hyperion-css-"]:contains(WELLOBE)
 aftonbladet.se##[class*="hyperion-css-"]:contains(SE KLIPPET)
-aftonbladet.se##[class*="hyperion-css-"]:contains(Sexolog)
-aftonbladet.se##[class*="container-container_"]
 aftonbladet.se##[class*="hyperion-css-"]:contains(VECKANS)
 aftonbladet.se##[class*="hyperion-css-"]:contains(PLUS)
+aftonbladet.se##[class*="container-container_"]
 aftonbladet.se##[data-testid="twitter-embed-wrapper"]
 aftonbladet.se##[data-chunk*="components-"]
 aftonbladet.se##[class="advertory-aftonbladet-panorama"]
@@ -21,11 +25,16 @@ aftonbladet.se##[class*="hyperion-"]:contains(ANNONS)
 aftonbladet.se##[class*="hyperion-css-"]:contains(Speltips)
 aftonbladet.se##[class*="-insider-wrapper"]
 aftonbladet.se##[class*="-panorama-wrapper"]
+aftonbladet.se##[src*="https://salesposter.aftonbladet.se/"]
+aftonbladet.se##[id*="integration-enrichment-"]
+aftonbladet.se##[class*="hyperion-css-"]:matches-css(min-height: 230px)
 aftonbladet.se##[src*="klart.se"]
 aftonbladet.se##strong:has-text(/ANNONS/i):upward(p)
 aftonbladet.se##.event-subheader-widget
 aftonbladet.se##a:has-text(annonslänkar)
 aftonbladet.se##a:has(span:has-text(/^annons/i))
+aftonbladet.se##a:contains(Nöjesbladet)
+aftonbladet.se##a:contains(Kolla)
 aftonbladet.se##[class*=" fixed"] ,[style="min-height: 366px"]
 aftonbladet.se##[class*="css"][href*="/kampanj/"]
 aftonbladet.se##[class*="hyperion-css"].default
@@ -72,7 +81,6 @@ bloggar.aftonbladet.se##.collapse.row:nth-of-type(2)
 bloggar.aftonbladet.se###sidebar-panorama-1 > .columns.widget-area
 bloggar.aftonbladet.se##li.abSocialItem
 klart.se##+js(remove-class, mega-loading)
-||cmp.aftonbladet.se^
 ||aftonbladet.compricer.se^
 ||adv.aftonbladet.se^$important
 ||ooul.tv/*/se-aftonbladet/aab/aftonbladet_$script
@@ -82,6 +90,8 @@ klart.se##+js(remove-class, mega-loading)
 ||cdn.acast.com/images/ad-banner-black.jpg$image,domain=embed.acast.com,important
 ||norstatsurveys.com^
 utm_$document,removeparam=/^utm_/
+/meta_promo_preview_540p.mp4$media
+/meta_preview_360p.mp4$media
 /www.*\.se\/cnp-assets\/[1-9][0-9]{0,1}\./$script
 /casinokollen$all,domain=aftonbladet.se
 /paywall.js$script,domain=www.aftonbladet.se
