@@ -7,12 +7,15 @@
 aftonbladet.se##[id*="brandmetrics"]
 aftonbladet.se##[id*="url-component-"]
 aftonbladet.se##[href*=".ly"]
+aftonbladet.se##[class*="hyperion-css-"]:contains(ANNONS)
 aftonbladet.se##[class*="hyperion-css-"]:contains(Välj ort)
 aftonbladet.se##[class*="hyperion-css-"]:contains(Läkaren)
 aftonbladet.se##[class*="hyperion-css-"]:contains(Sexolog)
+aftonbladet.se##[class*="hyperion-css-"]:contains(Så får)
+aftonbladet.se##[class*="hyperion-css-"]:contains(SE KLIPPET)
+aftonbladet.se##[class*="hyperion-css-"]:contains(STUDIE)
 aftonbladet.se##[class*="hyperion-css-"]:contains(GODARE)
 aftonbladet.se##[class*="hyperion-css-"]:contains(WELLOBE)
-aftonbladet.se##[class*="hyperion-css-"]:contains(SE KLIPPET)
 aftonbladet.se##[class*="hyperion-css-"]:contains(VECKANS)
 aftonbladet.se##[class*="hyperion-css-"]:contains(PLUS)
 aftonbladet.se##[class*="container-container_"]
@@ -21,17 +24,13 @@ aftonbladet.se##[data-chunk*="components-"]
 aftonbladet.se##[class="advertory-aftonbladet-panorama"]
 aftonbladet.se##[class*="hyperion-css-"]:style(border: none !important;)
 aftonbladet.se##[class*="horizontalrule-speltips_"]
-aftonbladet.se##[class*="hyperion-"]:contains(ANNONS)
 aftonbladet.se##[class*="hyperion-css-"]:contains(Speltips)
 aftonbladet.se##[class*="-insider-wrapper"]
 aftonbladet.se##[class*="-panorama-wrapper"]
-aftonbladet.se##[src*="https://salesposter.aftonbladet.se/"]
+aftonbladet.se##[src*="salesposter.aftonbladet.se"]
 aftonbladet.se##[id*="integration-enrichment-"]
 aftonbladet.se##[class*="hyperion-css-"]:matches-css(min-height: 230px)
 aftonbladet.se##[src*="klart.se"]
-aftonbladet.se##strong:has-text(/ANNONS/i):upward(p)
-aftonbladet.se##.event-subheader-widget
-aftonbladet.se##a:has-text(annonslänkar)
 aftonbladet.se##a:has(span:has-text(/^annons/i))
 aftonbladet.se##a:contains(Nöjesbladet)
 aftonbladet.se##a:contains(Kolla)
@@ -41,23 +40,15 @@ aftonbladet.se##[class*="hyperion-css"].default
 aftonbladet.se##[data-variants*="generic-adformat"]
 aftonbladet.se##.sch-datacontroller--permanent.sch-datacontroller--cobranded.sch-datacontroller
 aftonbladet.se##[class*="hyperion-css-"]:style(z-index: 0px !important;)
-aftonbladet.se##[class*="default css"][data-test-tag="embed-content"]
-aftonbladet.se##main > section > div[class^="css-"]:first-child:has(img[src*="closeButton"])
-aftonbladet.se##[data-test-tag="internal-link:single-page-link"]:contains(annonslänkar)
-aftonbladet.se##a[href*="/tv/"]:has(span:has-text(/studio oddset/i)):upward(1)
 aftonbladet.se###megaAd-placeholder, #superright-side, a[href^="/brandstudio"], a[href*="/rabattkod"], a[href*="/casinoguide"], [id^="adPlacement"], a[href^="https://kampanj.aftonbladet"][data-test-tag="internal-link"]
-aftonbladet.se##[data-ad-subtype]:upward(1):matches-css(min-height:/[0-9]+/)
 aftonbladet.se##aside > div:has(h2:has-text(/^annons/i))
 aftonbladet.se##section > div:has(h2:has-text(/^annons/i))
 aftonbladet.se###main > div > div > div:has(h2:has-text(/^annons/i))
 aftonbladet.se##[data-ad-subtype="mega"]:upward(div[style^="opacity"])
 aftonbladet.se##div[class][style*="text"]:has(h3:has-text(/annons/i))
 aftonbladet.se##div[class][style*="text"]:has(h3:has-text(/annonslänkar/i))
-aftonbladet.se##.abAside > div[style^="text"]:last-child
 aftonbladet.se##.ab-responsive-ads-wrapper
 aftonbladet.se###data-controller-stripe
-aftonbladet.se##.disable-cogwheel
-aftonbladet.se##.wide:contains(,)
 aftonbladet.se##.share-icons
 aftonbladet.se##.social-shares
 aftonbladet.se##[href*="twitter.com/sportbladet"]
@@ -76,14 +67,10 @@ live.aftonbladet.se###advert-placeholder_3
 live.aftonbladet.se##.type-advert
 live.aftonbladet.se##.hide
 live.aftonbladet.se##[class*=" null"]
-bloggar.aftonbladet.se##.ab-responsive-adverts-widget-5a208a052f344-appnexus.se-aftonbladet-wde-bloggar_panoramauppe.ab-appnexus-ads-wrapper.ab-responsive-ads-wrapper
-bloggar.aftonbladet.se##.collapse.row:nth-of-type(2)
-bloggar.aftonbladet.se###sidebar-panorama-1 > .columns.widget-area
-bloggar.aftonbladet.se##li.abSocialItem
 klart.se##+js(remove-class, mega-loading)
 ||aftonbladet.compricer.se^
 ||adv.aftonbladet.se^$important
-||ooul.tv/*/se-aftonbladet/aab/aftonbladet_$script
+||bt.no^$domain=aftonbladet.se
 ||interaction.acast.com/adImpression$xhr
 ||interaction.acast.com/progress$xhr,redirect-rule=nooptext
 ||auth.acast.com/v1/getAnonymousToken$xmlhttprequest,domain=embed.acast.com
@@ -92,9 +79,10 @@ klart.se##+js(remove-class, mega-loading)
 utm_$document,removeparam=/^utm_/
 /meta_promo_preview_540p.mp4$media
 /meta_preview_360p.mp4$media
-/www.*\.se\/cnp-assets\/[1-9][0-9]{0,1}\./$script
-/casinokollen$all,domain=aftonbladet.se
-/paywall.js$script,domain=www.aftonbladet.se
+/custom-metrics$all
+/rabattkod$all
+/casinokollen$all
+/paywall.js$script,domain=aftonbladet.se
 /picture-in-picture.js$script,domain=aftonbladet.se
 /toggle-player-floating-state.js$script,domain=aftonbladet.se
 /minimize-floating-player.js$script,domain=aftonbladet.se
@@ -118,18 +106,11 @@ expressen.se##.site-header__widgets > .html-widget > a[target="_blank"]
 expressen.se##a[href*="teknikensvarld."]:upward(.teaser)
 expressen.se##strong:has-text(/annons:/i):upward(p)
 expressen.se##.bam-ad-slot--pre-sized.bam-ad-slot--visible.bam-ad-slot
-expressen.se##a[href*="/spel.exp"], a[href*="/lanapengar.exp"], a[href*="/rabattkoder.exp"], a[href*="/annons"], .match-betting, .discount-ad, .b-ad__caption, .pressrelease-teaser, .widget-ad-marker, .widget-ad-marker + a, .promotion-banner, .widget--collaboration, .rotator--external, a[data-click-track*="prisjakt"], .linked-image-widget a[href*="/kampanj/"], .linked-image-widget a[href*="www.cmore.se"], .linked-image-widget a[href*="lifestyle.expressen.se"], #premiumAdWrapper, .tapet-popup-overlay, .outsider-ads
 expressen.se##figure[data-article-data*="/sponsrat"], figure[data-article-data*="/annons"], figure[data-article-data*="/brand-studio"]
 ##.terms-dialog
 ##[class="bam-ad-slot"]
 ##[class="page-list discount-ad"]
-@@||expressen.se/videoplayer/*$xmlhttprequest,1p
 ||expressen.se/js/advertisement*.js$script
-||expressen.se/img/icons/footer_ads.svg$image,first-party,important
-||expressen.se/img/icons/footer_cookie.svg$image
-||expressen.se/img/placeholders/*$image
-||precis.expressen.se/recommendations$xmlhttprequest
-||jtp.expressen.se/notify$image
 
 #Twitch.tv
 twitch.tv,player.twitch.tv##.stream-display-ad__wrapper
@@ -301,28 +282,22 @@ fotbollskanalen.se##[id*="tws2_"]
 fotbollskanalen.se##.article-share
 
 #Blocket.se
+blocket.se##.relative:contains(Betald)
+blocket.se##.card-with-link
+blocket.se##picture.no-image
+blocket.se##[src*="cmp."]
 blocket.se##[src*="/unified/"]
-blocket.se##[data-id="placement_panorama"]
-blocket.se##.overflow-visible.relative
+blocket.se##[src*="/getuid?"]
+blocket.se##[src*="secure."]
+blocket.se##[src*=".com"]
 blocket.se##[id*="pulse2an_"]
-blocket.se##[class*="Toplistings__StyledWrapper-sc"]
-blocket.se##[class*="sm:px"]
-blocket.se##[class*="BannerAdPanorama-sc"]
+blocket.se##[id*="placement_panorama"]
+blocket.se##[class*=" sc"]:style(height: unset !important;)
+blocket.se##[class*="MediumLayout__BodyRight-sc-"]
 blocket.se##[class*="SchibstedBanner__Wrapper-sc"]
-blocket.se##[class*="BannerContainerPanorama-sc"]
-blocket.se##[class*="Placementstyles__Styled"]
-blocket.se##[src^="https://cmp.blocket.se/unified/wrapperMessagingWithoutDetection.js"]
-blocket.se##[data-id="placement_panorama"]
-blocket.se##[class*="sm:px"]
-blocket.se###index_panorama
-blocket.se###li_panorama
-blocket.se###vi_panorama
-blocket.se##.placement_panorama
-blocket.se###li_footer_banner_container
-blocket.se###vi_footer_banner_container
-blocket.se##[class*="GoogleAdsense__Adsense"]
 blocket.se##body:style(overflow: auto !important;)
-/blocket_puff.html$subdocument
+/toplistings$xhr,domain=www.blocket.se
+/campaign$xhr,domain=www.blocket.se
 ||logs2.xiti.com^
 
 #onlinevideoconverter
@@ -496,8 +471,6 @@ moviesjoy.*,movies2watch.*##[class="follow"]
 ##.sharethis-inline-share-buttons
 ##.internal-ad
 ##.clear.hd
-##div[id^="MarketGid"]
-##div[id*="ScriptRootC"]
 ##div[id*="PreloadC"]
 ##[class*="Advertisement"]
 ##[id="mask-overlay"]
@@ -518,7 +491,6 @@ moviesjoy.*,movies2watch.*##[class="follow"]
 ##.alertWrap
 ##.c-message
 ##.disclaimer
-##.e-banner
 ##.infobanner
 ##.message-popup
 ##.notification
@@ -532,7 +504,6 @@ moviesjoy.*,movies2watch.*##[class="follow"]
 ##.abAlertInner
 ##.AdBox
 ##.footer--side.footer
-##.cmp-animate.cmp-iframe-ready.cmp-overlay
 ##[data-entrycode="AdBlock"]
 ###ads
 ##.video-wrapper > #player + [class]
@@ -582,7 +553,6 @@ moviesjoy.*,movies2watch.*##[class="follow"]
 ###welcome
 ##.overlay-inner
 ###share-button
-###notice
 ##.adsbygoogle
 ###float_content_right
 ###hide_float_right
@@ -754,7 +724,7 @@ pagead-id.js^
 advert.js^
 advertisement.js^
 prerolls.js^
-tracking.js?
+tracking.js^
 www-pagead-id.js^
 outbrain.js^
 cnads.js^
@@ -824,7 +794,6 @@ clk.js^
 *##[class="ovl"]:style(display: none !important;)
 *##.overlay[opacity]:style(display: none !important;)
 *##html.open-modal .overlay:style(display: none !important)
-##[id*="sp_message_container"]
 ###gdpr-cookie-message
 *##script:contains(Telemetry)
 
