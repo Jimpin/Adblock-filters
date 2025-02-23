@@ -279,13 +279,14 @@ blocket.se##[src*="/getuid?"]
 blocket.se##[src*="secure."]
 blocket.se##[src*=".com"]
 blocket.se##[id*="pulse2an_"]
+blocket.se##[id*="placement_panorama"] ,[class^="sc-"]
 blocket.se##[class*="Gallery__Wrapper"] ,[class^=".MediumLayoutstyled__BodyRight"]
 blocket.se##[class*="MediumLayout__BodyLeft"]:style(width: 970px !important;)
 blocket.se##[class*="SearchResultsWrapper"]:style(width: 970px !important;)
+blocket.se##[class*="SchibstedBanner__Wrapper-sc"]
 blocket.se##.is-grid.group:style(width: 970px !important;)
 blocket.se##.card-with-link
 blocket.se##picture.no-image
-blocket.se##[class*="SchibstedBanner__Wrapper-sc"]
 blocket.se##body:style(overflow: auto !important;)
 /toplistings$xhr,domain=blocket.se
 /campaign$xhr,domain=blocket.se
