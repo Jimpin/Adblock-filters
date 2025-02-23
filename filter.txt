@@ -7,9 +7,7 @@
 aftonbladet.se##[href*=".ly"]
 aftonbladet.se##[href*="/upptack"]
 aftonbladet.se##[href*="/plus"]
-aftonbladet.se##[src*="/api/"]
 aftonbladet.se##[src*="salesposter."]
-aftonbladet.se##[src*="/unified/"]
 aftonbladet.se##[id*="brandmetrics"]
 aftonbladet.se##[id*="url-component-"]
 aftonbladet.se##[id*="takeover-container"]
@@ -270,7 +268,10 @@ fotbollskanalen.se##.visit-advertiser-link
 fotbollskanalen.se##+js(xml-prune, Ad, , /fwmrm.net\/ad\/g/)
 
 #Blocket.se
+blocket.se##.\[\&_img\]\:h-full.\[\&_img\]\:w-full
+blocket.se##.container.p-0.mx-auto.container
 blocket.se##.relative:contains(Betald)
+blocket.se##.relative:style(margin-right: 6px !important;)
 blocket.se##.section-advertorial
 blocket.se##section.mx-auto.container.section-static:contains(?)
 blocket.se##[src*="cmp."]
@@ -281,10 +282,17 @@ blocket.se##[src*=".com"]
 blocket.se##[id*="pulse2an_"]
 blocket.se##[id*="placement_panorama"] ,[class^="sc-"]
 blocket.se##[class*="Gallery__Wrapper"] ,[class^=".MediumLayoutstyled__BodyRight"]
+blocket.se##[class*="InfoBanner__Wrapper-sc"]:contains(!)
+blocket.se##[class*="MediumLayout__Related"]
 blocket.se##[class*="MediumLayout__BodyLeft"]:style(width: 970px !important;)
+blocket.se##[class*="SafePurchase__Wrapper-sc"]
+blocket.se##[class*="search_searchcontainer__"]:style(margin-right: 0px !important;grid-auto-columns: 19% !important;)
 blocket.se##[class*="SearchResultsWrapper"]:style(width: 970px !important;)
 blocket.se##[class*="SchibstedBanner__Wrapper-sc"]
+blocket.se##[class*="StoreCard__StyledTextBody-sc"]:contains(http)
+blocket.se##[class*="StyledLink-sc"]:contains(.se)
 blocket.se##.is-grid.group:style(width: 970px !important;)
+blocket.se##.w-full.list > div:style(width: 970px !important;)
 blocket.se##.card-with-link
 blocket.se##picture.no-image
 blocket.se##body:style(overflow: auto !important;)
