@@ -4,13 +4,23 @@
 ! License: GPL-3.0 License | https://github.com/Jimpin/Adblock-filters/blob/master/LICENSE
 
 #Aftonbladet.se
+aftonbladet.se##[href*=".ly"]
+aftonbladet.se##[href*="/upptack"]
+aftonbladet.se##[href*="/plus"]
+aftonbladet.se##[src*="/api/"]
+aftonbladet.se##[src*="salesposter."]
+aftonbladet.se##[src*="/unified/"]
 aftonbladet.se##[id*="brandmetrics"]
 aftonbladet.se##[id*="url-component-"]
-aftonbladet.se##[href*=".ly"]
+aftonbladet.se##[id*="takeover-container"]
+aftonbladet.se##[class*="hyperion-css-"][href*="instagram"]
+aftonbladet.se##[class*="hyperion-css-"][href*="x.com"]
+aftonbladet.se##[class*="hyperion-css-"][href*="facebook"]
 aftonbladet.se##[class*="hyperion-css-"]:contains(ANNONS)
 aftonbladet.se##[class*="hyperion-css-"]:contains(Välj ort)
 aftonbladet.se##[class*="hyperion-css-"]:contains(Läkaren)
 aftonbladet.se##[class*="hyperion-css-"]:contains(Sexolog)
+aftonbladet.se##[class*="hyperion-css-"]:contains(Speltips)
 aftonbladet.se##[class*="hyperion-css-"]:contains(Så får)
 aftonbladet.se##[class*="hyperion-css-"]:contains(SE KLIPPET)
 aftonbladet.se##[class*="hyperion-css-"]:contains(STUDIE)
@@ -21,26 +31,23 @@ aftonbladet.se##[class*="hyperion-css-"]:contains(PLUS)
 aftonbladet.se##[class*="container-container_"]
 aftonbladet.se##[data-testid="twitter-embed-wrapper"]
 aftonbladet.se##[data-chunk*="components-"]
+aftonbladet.se##[class*="boxtext-root"]:contains(presenteras av)
 aftonbladet.se##[class="advertory-aftonbladet-panorama"]
 aftonbladet.se##[class*="hyperion-css-"]:style(border: none !important;)
-aftonbladet.se##[class*="horizontalrule-speltips_"]
-aftonbladet.se##[class*="hyperion-css-"]:contains(Speltips)
 aftonbladet.se##[class*="-insider-wrapper"]
 aftonbladet.se##[class*="-panorama-wrapper"]
-aftonbladet.se##[src*="salesposter.aftonbladet.se"]
 aftonbladet.se##[id*="integration-enrichment-"]
 aftonbladet.se##[class*="hyperion-css-"]:matches-css(min-height: 230px)
 aftonbladet.se##[src*="klart.se"]
 aftonbladet.se##a:has(span:has-text(/^annons/i))
 aftonbladet.se##a:contains(Nöjesbladet)
-aftonbladet.se##a:contains(Kolla)
 aftonbladet.se##[class*=" fixed"] ,[style="min-height: 366px"]
-aftonbladet.se##[class*="css"][href*="/kampanj/"]
+aftonbladet.se##[class*="css"][href*="/kampanj"]
 aftonbladet.se##[class*="hyperion-css"].default
 aftonbladet.se##[data-variants*="generic-adformat"]
 aftonbladet.se##.sch-datacontroller--permanent.sch-datacontroller--cobranded.sch-datacontroller
 aftonbladet.se##[class*="hyperion-css-"]:style(z-index: 0px !important;)
-aftonbladet.se###megaAd-placeholder, #superright-side, a[href^="/brandstudio"], a[href*="/rabattkod"], a[href*="/casinoguide"], [id^="adPlacement"], a[href^="https://kampanj.aftonbladet"][data-test-tag="internal-link"]
+aftonbladet.se###megaAd-placeholder, #superright-side, a[href^="/brandstudio"], a[href*="/rabattkod"], a[href*="/casinoguide"], [id^="adPlacement"], a[href^="/kampanj"][data-test-tag="internal-link"]
 aftonbladet.se##aside > div:has(h2:has-text(/^annons/i))
 aftonbladet.se##section > div:has(h2:has-text(/^annons/i))
 aftonbladet.se###main > div > div > div:has(h2:has-text(/^annons/i))
@@ -49,10 +56,6 @@ aftonbladet.se##div[class][style*="text"]:has(h3:has-text(/annons/i))
 aftonbladet.se##div[class][style*="text"]:has(h3:has-text(/annonslänkar/i))
 aftonbladet.se##.ab-responsive-ads-wrapper
 aftonbladet.se###data-controller-stripe
-aftonbladet.se##.share-icons
-aftonbladet.se##.social-shares
-aftonbladet.se##[href*="twitter.com/sportbladet"]
-aftonbladet.se##[href*="facebook.com/sportbladet"]
 acast.com##[alt="Advertisement"]
 acast.com##[data-test-id="AirTimeAdControls__CountDown"]
 acast.com##[data-test-id="Link"]
@@ -68,6 +71,8 @@ live.aftonbladet.se##.type-advert
 live.aftonbladet.se##.hide
 live.aftonbladet.se##[class*=" null"]
 klart.se##+js(remove-class, mega-loading)
+*##[id*="norstat"]
+*##[id*="pulse2an_"]
 ||aftonbladet.compricer.se^
 ||adv.aftonbladet.se^$important
 ||bt.no^$domain=aftonbladet.se
@@ -75,8 +80,15 @@ klart.se##+js(remove-class, mega-loading)
 ||interaction.acast.com/progress$xhr,redirect-rule=nooptext
 ||auth.acast.com/v1/getAnonymousToken$xmlhttprequest,domain=embed.acast.com
 ||cdn.acast.com/images/ad-banner-black.jpg$image,domain=embed.acast.com,important
+||analytics.codigo.se^
+||adnxs.com^
+||adsrvr.org^
+||iteratehq.com^
 ||norstatsurveys.com^
+||relevant-digital.com^
 utm_$document,removeparam=/^utm_/
+/cmp/*$image
+/cast_sender.js
 /meta_promo_preview_540p.mp4$media
 /meta_preview_360p.mp4$media
 /custom-metrics$all
@@ -88,35 +100,25 @@ utm_$document,removeparam=/^utm_/
 /minimize-floating-player.js$script,domain=aftonbladet.se
 
 #Expressen.se
-expressen.se##+js(aeld, click, .preventDefault)
+expressen.se##.html-widget > div[style^="text-align: center; font-size: 10px;"]
+expressen.se##.html-widget[data-vendor]:has(script[data-vendor])
+expressen.se##.campaign
+expressen.se##a[data-t-category]:remove-attr(data-t-category)
+expressen.se##a[data-t-label]:remove-attr(data-t-label)
+expressen.se##a[data-t-type]:remove-attr(data-t-type)
+expressen.se##video[autoplay]:remove-attr(autoplay)
+expressen.se##.html-widget > div[style^="text-align: center; font-size: 10px;"]
+expressen.se##.html-widget[data-vendor]:has(script[data-vendor])
 expressen.se##.tapet-popup-js-no-scroll, .tapet-no-scroll:style(overflow-y:initial!important; position:unset!important;)
-expressen.se##.teaser__bottom--ad-marker:upward(.teaser)
-expressen.se##a:remove-attr(data-t-label)
-expressen.se##a:remove-attr(data-t-type)
-expressen.se##a[href*="/annons"], a[href*="/brandstudio"], a[href*="/brand-studio"], a[href*="/kampanj."], a[href*="/lanapengar."], a[href*="/rabattkoder."], a[href*="/spel.expressen.se"], .vignette--svg + a[href*="teknikensvarld."]:upward(.teaser)
-expressen.se##+js(acs, Bau, preloadAds)
-expressen.se##+js(set, detect, noopFunc)
-expressen.se##.video-player:remove-attr(data-ad-config)
-expressen.se##+js(acis, ExpressenAnalytics, push)
-expressen.se###didomi-host:style(display: none !important;)
-expressen.se##.main:style(width: 100% !important;)
-expressen.se##.site-footer__affiliates.site-footer__column--full-width
-expressen.se##p:has(strong:has-text(/^annons/i))
-expressen.se##.site-header__widgets > .html-widget > a[target="_blank"]
-expressen.se##a[href*="teknikensvarld."]:upward(.teaser)
-expressen.se##strong:has-text(/annons:/i):upward(p)
-expressen.se##.bam-ad-slot--pre-sized.bam-ad-slot--visible.bam-ad-slot
-expressen.se##figure[data-article-data*="/sponsrat"], figure[data-article-data*="/annons"], figure[data-article-data*="/brand-studio"]
-##.terms-dialog
-##[class="bam-ad-slot"]
-##[class="page-list discount-ad"]
-||expressen.se/js/advertisement*.js$script
+expressen.se##.video-player[data-ad-config]:remove-attr(data-ad-config)
+expressen.se##body.didomi-popup-open:style(overflow:unset!important)
+expressen.se##.teaser:has(a[href*="/annons"], a[href*="/brandstudio"], a[href*="/brand-studio"], a[href*="/kampanj."], a[href*="/lanapengar."], a[href*="/rabattkoder."], a[href*="/spel.expressen.se"], .vignette--svg + a[href*="teknikensvarld."], .teaser__bottom--ad-marker)
 
 #Twitch.tv
 twitch.tv,player.twitch.tv##.stream-display-ad__wrapper
+twitch.tv##.community-highlight__over-video-collapsed
+twitch.tv##.happening-now-notification__button
 twitch.tv##.subtember-gradient
-twitch.tv##.ubo-overlay
-twitch.tv##.adblock-overlay
 twitch.tv##.player-ad-notice
 twitch.tv##.tw-link.link-fragment
 twitch.tv##.picture-by-picture-player
@@ -137,7 +139,6 @@ twitch.tv###noty_bottomCenter_layout_container
 twitch.tv##.side-info-container
 twitch.tv##.tw-absolute.top-bar
 twitch.tv##.prime-extension-root--show.prime-extension-root
-twitch.tv##.tw-link.link-fragment
 twitch.tv##.charity-avatar
 twitch.tv##.headliner-ad
 twitch.tv##.tw-popover-header
@@ -149,7 +150,6 @@ google.*##a[href][ping]:remove-attr(ping)
 google.*##html:style(overflow-y: auto !important;)
 google.*##+js(set-constant, rwt, noopFunc)
 google.*##[id="reviewDialog"]
-google.*##.ads-ad
 google.*##.section-result[data-result-ad-type]
 google.*##.widget-pane-section-result[data-result-ad-type]
 google.*##div[data-flt-ve="sponsored_search_ads"]
@@ -157,40 +157,29 @@ google.*###cnsi ~ [jsaction*=dismiss]
 google.*##div[owner] > div[class]:has(div[class][role="button"])
 google.*###pushdown
 google.*###rhs_block
-||google.*/pagead/*$important
+google*/pagead/$important
 ||googleadservices.com^
 ||google-analytics.com^
 ||googleanalytics.com^
 
 #Tv4play.se
-tv4.se##.program-header-sponsors 
-tv4.se##.social-block-ad 
+tv4.se##.social-block-ad
 tv4.se##.social-buttons
-tv4.se##[class*="aside-ad"] 
-tv4.se##+js(acis, burtConfigs)
-tv4play.se##+js(json-prune-fetch-response, bumpers, , propsToMatch, url:/playback2.a2d.tv\/play/)
-tv4play.se##+js(no-fetch-if, /cloudfront.net\/creatives/)
-tv4play.se##.avod-web-player-pause:style(background-color:transparent!important;)
-tv4play.se##[style*="left: 0%;"]
-tv4play.se##[data-test="cmore-upsell-button"]
-tv4play.se###__next > div:not(:first-child)
-tv4play.se###pause-img-holder
-tv4play.se##.js-cookie-banner
-||damoh.*.se^$image
-||match.adsrvr.org^
-||cdn-gl.imrworldwide.com^
-||se-tv4.videoplaza.tv/proxy/distributor/
-||sessions.bugsnag.com^
-/radar.js
+tv4.se##[class*="aside-ad"]
+tv4.se,tv4play.se##+js(json-prune-fetch-response, playbackItem.isStitched, , propsToMatch, url:a2d.tv/play)
+tv4.se,tv4play.se##.avod-web-player-pause:style(background-color:transparent!important;)
+tv4.se,tv4play.se##.visit-advertiser-link
+tv4.se,tv4play.se,embed.viaplay.com##+js(xml-prune, Ad, , /fwmrm.net\/ad\/g/)
 /favicon-dark.ico$image
 /proxy/tracker/*$image
 /analytics;jsessionid=*$xhr
-/images/Animation_Playknapp2.png$image
 /pixel?google_nid=*$xhr
 /revcontent/bundle.js
 
 #Youtube.com
-youtube.com##[id="message"][class="yt-live-chat-text-message-renderer"][class="style-scope yt-live-chat-text-message-renderer"]:contains(http)
+youtube.com##ytd-rich-section-renderer:style(width: 0% !important;)
+youtube.com##[class*="style-scope ytd-compact-video-renderer"]:contains(LIVE)
+youtube.com##.lockup.ytd-item-section-renderer
 youtube.com##[class="style-scope yt-live-chat-banner-manager"]
 youtube.com##[class="style-scope yt-live-chat-banner-renderer"]
 youtube.com##[class="style-scope yt-live-chat-banner-manager"]
@@ -206,6 +195,7 @@ youtube.com###comment-teaser
 youtube.com###clarify-box
 youtube.com###movie_player > .ytp-chrome-top
 youtube.com##ytd-engagement-panel-section-list-renderer.ytd-watch-flexy.style-scope:nth-of-type(2)
+youtube.com##.ytp-ce-website
 youtube.com##.ytp-featured-product
 youtube.com##.ytd-popup-container.style-scope > .yt-tooltip-renderer.style-scope
 youtube.com##.ytp-fullerscreen-edu-text
@@ -272,14 +262,13 @@ duckduckgo.com##.js-onboarding-ed-slide-4.js-onboarding-ed-slide.onboarding-ed__
 ||duckduckgo.com/t/
 
 #Fotbollskanalen.se
-fotbollskanalen.se##.player-index-sponsor
-fotbollskanalen.se##.playerindex-ad
-fotbollskanalen.se##.top-item.brand
-fotbollskanalen.se###skin-cover
-fotbollskanalen.se##.ad-top
-fotbollskanalen.se##.b-export__footer.b-export__wrap
-fotbollskanalen.se##[id*="tws2_"]
-fotbollskanalen.se##.article-share
+fotbollskanalen.se##div[class$="sponsortitle"]:upward(.desktop-side-widget)
+fotbollskanalen.se##.brand, .desktop-ad-web, a[href*=".se/"][target]
+fotbollskanalen.se##.notice:has(span[class$="sponsored"])
+fotbollskanalen.se##+js(json-prune-fetch-response, playbackItem.isStitched, , propsToMatch, url:a2d.tv/play)
+fotbollskanalen.se##.avod-web-player-pause:style(background-color:transparent!important;)
+fotbollskanalen.se##.visit-advertiser-link
+fotbollskanalen.se##+js(xml-prune, Ad, , /fwmrm.net\/ad\/g/)
 
 #Blocket.se
 blocket.se##.relative:contains(Betald)
@@ -289,8 +278,8 @@ blocket.se##[src*="cmp."]
 blocket.se##[src*="/unified/"]
 blocket.se##[src*="/getuid?"]
 blocket.se##[src*="secure."]
-blocket.se##[src*=".com"]
 blocket.se##[id*="pulse2an_"]
+blocket.se##[src*=".com"]
 blocket.se##[id*="placement_panorama"]
 blocket.se##[class*=" sc"]:style(height: unset !important;)
 blocket.se##[class*="MediumLayout__BodyRight-sc-"]
@@ -310,21 +299,19 @@ onlinevideoconverter.*##[href^="https://www.linkconnector.com/ta.php"]
 /1clkn/*$xhr
 
 #Hemnet.se
-hemnet.se##.qa-sticky-save-search.js-add-sticky-subscription-action
-hemnet.se###ad_unit_placeholder
-hemnet.se##.hcl-modal-overlay--after-open.hcl-modal-overlay
-hemnet.se##.consent-modal__overlay--after-open.consent-modal__overlay
-hemnet.se##.listing__articles
-hemnet.se##.article-list-post a:has(span:has-text(Sponsrad))
-hemnet.se##.article-news__link:has(.news-article--sponsored)
-hemnet.se##.featured-news__link:has(.featured-news__ribbon--sponsored)
-hemnet.se##.recent-news__item:has(.recent-news__category:has-text(/sponsrad/i))
-hemnet.se##.result-article__link:has(.article__ribbon--sponsored)
-hemnet.se##.start-page-hero__caption:has(.start-page-hero__caption-category:has-text(/sponsrad av/i))
+hemnet.se##article[class^="ArticleCard"]:has-text(/sponsrad/i)
+hemnet.se##body:style(overflow:unset!important)
+hemnet.se##div[class^="ArticleCard_"] small:has-text(/sponsrad/i):upward(article, li, a)
+hemnet.se##div[data-testid="living-cost-logos-section"]:has(span[aria-label="annons"])
+hemnet.se##span[class^="ArticleContent_articleDateBox"]:has-text(/annons från/i):upward(div[class^="ArticleContent_articlePage"])
+hemnet.se###ad_unit_placeholder, div[class^="Panorama_panoramaAd"], .listing__panorama-banner, .broker-banner, div[class^="BrokerBanner"], div[class^="PanoramaMobile"], div[class^="SBUBanner_container"], div[data-testid="broker-tip"]
+hemnet.se##:is(article, li):has([class*="SponsoredLabel"], .article-card__sponsored-text)
+hemnet.se##:is(div[class^="Carousel"], #top_listing):has(div[class^="PaidPlacementLabel"])
 
 #Flashback.org
+flashback.org###top-banner-container, #top-banner-wrapper
+flashback.org##+js(nostif, #top-banner-container)
 flashback.org##.banner_text
-flashback.org###right-banner-container
 flashback.org###top-banner-row
 flashback.org###site-left > .hidden-xs
 flashback.org###top-banner-wrapper
@@ -374,7 +361,6 @@ lookmovie.*,lookmovie2.*##.telegram-button
 lookmovie.*,lookmovie2.*##.plr-ad-stripe
 lookmovie.*,lookmovie2.*##.bottom-message-container
 lookmovie.*,lookmovie2.*###social-share
-@@||lookmovie*^$ghide
 @@/static/lookmovie$domain=lookmovie.*|lookmovie2.*
 *$script,3p,denyallow=cloudflare.com|google.com|googleapis.com|gstatic.com|hcaptcha.com,domain=lookmovie.*|lookmovie2.*
 ||lookmovie.*/favicon.ico$image,1p
@@ -386,6 +372,8 @@ lookmovie.*,lookmovie2.*###social-share
 ||anti-captcha.com^
 
 #Ratsit.se
+ratsit.se##.promo
+ratsit.se##[class^="ad-"]
 ratsit.se##.footer
 ratsit.se###CybotCookiebotDialogBodyUnderlay
 ratsit.se###paAdressen
@@ -405,19 +393,13 @@ ratsit.se##div.share-bar
 ratsit.se##.main-content-holder.content > .container > div.row:nth-of-type(1) > .col-md-12
 
 #Hitta.se
-hitta.se##[class*="Styled__RightCol-"]
-hitta.se##[id*="localdisplay_fluid"]
-hitta.se##[style="min-height: 116px;"]
-hitta.se##[style="min-height: 250px;"]
-hitta.se##[data-test="notification-container"]
-##[id*="desktop_privatelist_skyscraper"]
-##[class*="style_dummyAd"]
-##[id*="desktop_privatelist_panorama"]
-##[class*="StyledAdSlot"]
-##[data-test="google_banners"]
-##[data-test="google_pubmatic"]
-##[class*="badgead"]
-##.adunit
+hitta.se##a[data-trackimp][target], .hitta-map .integration-txt, .section-details--alb, [class*="dummyAd"], [class*="StyledAdSlot"], [data-bind*="Ad"], div[class^="GraphicAd_"], [class*="adContainer"], [id*="_panorama"], [id*="_skyscraper"], div[style="min-height: 250px;"], div[data-track="displayplacering-customer"], a[data-test="boostAdLink"], div[class^="style_bannerContainer"], [data-track="click-promotion-banner"], div[class*="adWrapper"], div[class*="hittaAdContainer"]
+hitta.se##div[id^="hitta_mobile_"].placeholder:upward(div[class^="height"], div[class^="style_breakout"])
+hitta.se##[class^="styleManual_mainContentBox"] > div[style^="min-height"]:first-of-type
+||api.hitta.se/creepy
+||api.hitta.se/offer
+||api.hitta.se/partnerintegration
+||api.hitta.se/statistics
 
 #Gp.se
 gp.se##+js(ra, data-access, [data-access="false"])
@@ -431,7 +413,6 @@ gp.se##.js-ad-tag:has-text(ANNONS)
 gp.se##.c-ad
 gp.se##.c-ad__floating
 gp.se##.rabble-widget
-@@||gp.se^$generichide
 /listicles.js$script
 /vendorList.js$script
 
@@ -473,12 +454,8 @@ moviesjoy.*,movies2watch.*##[class="follow"]
 ##.clear.hd
 ##div[id*="PreloadC"]
 ##[class*="Advertisement"]
-##[id="mask-overlay"]
 ##[id="close_ad"]
 ##[id="close_ads"]
-##[id="Advertisement1"]
-##[id="pop-share"]
-##[id="fb-root"]
 ##[class="Breadcrumb"]
 ##.removeAdsStyle
 ###cookieAccept:not(body):not(html):not(button)
@@ -694,7 +671,7 @@ movie/ads
 /bet365$popup
 /html/blocked.html$important
 /bundles/analytics
-/favicon.ico$image$important
+/favicon.ico$image,popup,important
 /icon-facebook.
 /icon-twitter.
 /icon-rss.
@@ -730,21 +707,24 @@ outbrain.js^
 cnads.js^
 clk.js^
 
-##[src="/social-box/"]
-##[src*="/next.php"]
-##[src*="/pop.php?"]
-##[src*="/afu.php"]
-##[src*="/stat.php"]
-##[src*="/js.php"]
-##[src*="/json.php"]
-##[src*="/ajax.php"]
-##[src*="/ucount.php?"]
-##[src*="/captcha.php"]
-##[src*="/afu.php?"]
-##[src*="/click.php"]
-##[src*="/chat.html"]
-##[src*="/track"]
-##[src*="/ad.doubleclick.net"]
+*##[id*="ads-script"]
+*##[id*="norstat"]
+*##[id*="rich-media-ads"]
+*##[id*="pulse2an_"]
+*##[src="/social-box/"]
+*##[src*="/next.php"]
+*##[src*="/pop.php?"]
+*##[src*="/afu.php"]
+*##[src*="/stat.php"]
+*##[src*="/js.php"]
+*##[src*="/json.php"]
+*##[src*="/getuid?"]
+*##[src*="/ajax.php"]
+*##[src*="/captcha.php"]
+*##[src*="/afu.php?"]
+*##[src*="/click.php"]
+*##[src*="/chat.html"]
+*##[src*="/track"]
 ://adv.$script,xhr
 ://hw-$important
 ://adserve.$important
@@ -777,8 +757,6 @@ clk.js^
 ##[class*="ad outsider__"]
 ##[class*="ad insider__"]
 ##[class*="ad module__"]
-##[id*="rich-media-ads"]
-##[id*="ads-script"]
 
 *$script,redirect-rule=noopjs
 *$xhr,redirect-rule=nooptext
@@ -791,7 +769,7 @@ clk.js^
 *##.no-scroll:style(overflow-x: hidden !important;)
 *##html,body:style(overflow-x: hidden !important;)
 *##body:style(overflow: initial !important;)
-*##[class="ovl"]:style(display: none !important;)
+*##[class*="ovl"]:style(display: none !important;)
 *##.overlay[opacity]:style(display: none !important;)
 *##html.open-modal .overlay:style(display: none !important)
 ###gdpr-cookie-message
