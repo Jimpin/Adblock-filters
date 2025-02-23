@@ -71,8 +71,6 @@ live.aftonbladet.se##.type-advert
 live.aftonbladet.se##.hide
 live.aftonbladet.se##[class*=" null"]
 klart.se##+js(remove-class, mega-loading)
-*##[id*="norstat"]
-*##[id*="pulse2an_"]
 ||aftonbladet.compricer.se^
 ||adv.aftonbladet.se^$important
 ||bt.no^$domain=aftonbladet.se
@@ -116,6 +114,7 @@ expressen.se##.teaser:has(a[href*="/annons"], a[href*="/brandstudio"], a[href*="
 
 #Twitch.tv
 twitch.tv,player.twitch.tv##.stream-display-ad__wrapper
+twitch.tv##.core-error
 twitch.tv##.community-highlight__over-video-collapsed
 twitch.tv##.happening-now-notification__button
 twitch.tv##.subtember-gradient
@@ -272,21 +271,24 @@ fotbollskanalen.se##+js(xml-prune, Ad, , /fwmrm.net\/ad\/g/)
 
 #Blocket.se
 blocket.se##.relative:contains(Betald)
-blocket.se##.card-with-link
-blocket.se##picture.no-image
+blocket.se##.section-advertorial
+blocket.se##section.mx-auto.container.section-static:contains(?)
 blocket.se##[src*="cmp."]
 blocket.se##[src*="/unified/"]
 blocket.se##[src*="/getuid?"]
 blocket.se##[src*="secure."]
-blocket.se##[id*="pulse2an_"]
 blocket.se##[src*=".com"]
-blocket.se##[id*="placement_panorama"]
-blocket.se##[class*=" sc"]:style(height: unset !important;)
-blocket.se##[class*="MediumLayout__BodyRight-sc-"]
+blocket.se##[id*="pulse2an_"]
+blocket.se##[class*="Gallery__Wrapper"] ,[class^=".MediumLayoutstyled__BodyRight"]
+blocket.se##[class*="MediumLayout__BodyLeft"]:style(width: 970px !important;)
+blocket.se##[class*="SearchResultsWrapper"]:style(width: 970px !important;)
+blocket.se##.is-grid.group:style(width: 970px !important;)
+blocket.se##.card-with-link
+blocket.se##picture.no-image
 blocket.se##[class*="SchibstedBanner__Wrapper-sc"]
 blocket.se##body:style(overflow: auto !important;)
-/toplistings$xhr,domain=www.blocket.se
-/campaign$xhr,domain=www.blocket.se
+/toplistings$xhr,domain=blocket.se
+/campaign$xhr,domain=blocket.se
 ||logs2.xiti.com^
 
 #onlinevideoconverter
