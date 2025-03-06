@@ -20,6 +20,7 @@ aftonbladet.se##[class*="hyperion-css-"]:contains(Läkaren)
 aftonbladet.se##[class*="hyperion-css-"]:contains(Sexolog)
 aftonbladet.se##[class*="hyperion-css-"]:contains(Speltips)
 aftonbladet.se##[class*="hyperion-css-"]:contains(Så får)
+aftonbladet.se##[class*="hyperion-css-"]:contains(Så når)
 aftonbladet.se##[class*="hyperion-css-"]:contains(SE KLIPPET)
 aftonbladet.se##[class*="hyperion-css-"]:contains(STUDIE)
 aftonbladet.se##[class*="hyperion-css-"]:contains(GODARE)
@@ -71,7 +72,6 @@ live.aftonbladet.se##[class*=" null"]
 klart.se##+js(remove-class, mega-loading)
 ||aftonbladet.compricer.se^
 ||adv.aftonbladet.se^$important
-||bt.no^$domain=aftonbladet.se
 ||interaction.acast.com/adImpression$xhr
 ||interaction.acast.com/progress$xhr,redirect-rule=nooptext
 ||auth.acast.com/v1/getAnonymousToken$xmlhttprequest,domain=embed.acast.com
@@ -175,23 +175,31 @@ tv4.se,tv4play.se,embed.viaplay.com##+js(xml-prune, Ad, , /fwmrm.net\/ad\/g/)
 
 #Youtube.com
 youtube.com##ytd-rich-section-renderer:style(width: 0% !important;)
+youtube.com###continuations.ytd-watch-next-secondary-results-renderer.style-scope ,[href*="/shorts/"]
+youtube.com##[class^="style-scope ytd-expanded-shelf-contents-renderer"] [id^="dismissible"]:contains(SHORTS)
 youtube.com##[class*="style-scope ytd-compact-video-renderer"]:contains(LIVE)
 youtube.com##.lockup.ytd-item-section-renderer
+youtube.com##.lockup.ytd-watch-next-secondary-results-renderer
 youtube.com##[class="style-scope yt-live-chat-banner-manager"]
 youtube.com##[class="style-scope yt-live-chat-banner-renderer"]
 youtube.com##[class="style-scope yt-live-chat-banner-manager"]
 youtube.com##[id="attached-survey"]
 youtube.com##.collections-stack-wiz
+youtube.com###donation-shelf
 youtube.com###infoButton
 youtube.com##.opened
 youtube.com###offer-module
 youtube.com##.yt-alert-content
-youtube.com##.yt-core-attributed-string__link:contains(http)
+youtube.com##.yt-core-attributed-string__link[href]:contains(.)
+youtube.com##.yt-core-attributed-string__link[href]:contains(:)
 youtube.com##ytd-reel-shelf-renderer.ytd-structured-description-content-renderer.style-scope
 youtube.com###comment-teaser
 youtube.com###clarify-box
 youtube.com###movie_player > .ytp-chrome-top
-youtube.com##ytd-engagement-panel-section-list-renderer.ytd-watch-flexy.style-scope:nth-of-type(2)
+youtube.com##ytd-rich-item-renderer.ytd-rich-grid-renderer:contains(Playlist)
+youtube.com##ytd-rich-item-renderer.ytd-rich-grid-renderer:contains(Updated today)
+youtube.com##ytd-video-renderer.ytd-expanded-shelf-contents-renderer.style-scope:contains(SHORTS)
+youtube.com##[class*="ytd-video-renderer"]:contains(SHORTS)
 youtube.com##.ytp-ce-website
 youtube.com##.ytp-featured-product
 youtube.com##.ytd-popup-container.style-scope > .yt-tooltip-renderer.style-scope
@@ -209,10 +217,12 @@ youtube.com###masthead-ad
 youtube.com###video-masthead
 youtube.com###hats-container
 youtube.com###dismissed
+youtube.com##.ytd-item-section-renderer.style-scope > .ytd-reel-shelf-renderer.style-scope
 youtube.com##.ytd-channel-video-player-renderer.style-scope.content > .yt-formatted-string.style-scope.yt-simple-endpoint
 youtube.com##.branding-img.iv-click-target
 youtube.com##ytd-rich-section-renderer.ytd-rich-grid-renderer.style-scope > .ytd-rich-section-renderer.style-scope
 youtube.com##ytd-reel-shelf-renderer.ytd-watch-next-secondary-results-renderer.style-scope:contains(Shorts)
+youtube.com##yt-tab-shape.yt-tab-shape-wiz--host-clickable.yt-tab-shape-wiz:contains(Shorts)
 youtube.com##.ytd-guide-entry-renderer.style-scope.yt-simple-endpoint:contains(Shorts)
 youtube.com###content > .ytd-rich-section-renderer.style-scope:contains(Shorts)
 youtube.com###dismissible > .ytd-rich-shelf-renderer.style-scope
@@ -220,7 +230,6 @@ youtube.com###author-thumbnail
 youtube.com###like-button > yt-button-shape
 youtube.com###replies:style(margin-left: -45px !important;)
 youtube.com###content-text > .yt-formatted-string.style-scope.yt-simple-endpoint
-youtube.com##.yt-attribution-view-model-wiz--medium-text.yt-attribution-view-model-wiz.page-header-view-model-wiz__page-header-attribution
 youtube.com###reply-button-end
 youtube.com##[class*="yt-live-chat-banner-renderer"]:contains(http)
 youtube.com##[class*="yt-live-chat-banner-renderer"]:contains(Pinned)
