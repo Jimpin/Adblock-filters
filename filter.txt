@@ -5,12 +5,14 @@
 
 #Aftonbladet.se
 aftonbladet.se##[href*=".ly"]
-aftonbladet.se##[href*="/upptack"]
-aftonbladet.se##[href*="/plus"]
 aftonbladet.se##[src*="salesposter."]
 aftonbladet.se##[id*="brandmetrics"]
 aftonbladet.se##[id*="url-component-"]
 aftonbladet.se##[id*="takeover-container"]
+aftonbladet.se##[data-test-tag="internal-link"][href="/plus"]
+aftonbladet.se##[data-test-tag="internal-link"][href*="/upptack"]
+aftonbladet.se##[class*="viaplaysportscarousel-container_"]
+aftonbladet.se##[class*="hyperion-css-"]:has([href*="tv.aftonbladet.se"])
 aftonbladet.se##[class*="hyperion-css-"][href*="instagram"]
 aftonbladet.se##[class*="hyperion-css-"][href*="x.com"]
 aftonbladet.se##[class*="hyperion-css-"][href*="facebook"]
@@ -175,9 +177,10 @@ tv4.se,tv4play.se,embed.viaplay.com##+js(xml-prune, Ad, , /fwmrm.net\/ad\/g/)
 
 #Youtube.com
 youtube.com##ytd-rich-section-renderer:style(width: 0% !important;)
+youtube.com##ytd-rich-item-renderer.ytd-rich-grid-renderer.style-scope:contains(Spons)
+youtube.com##.ytd-watch-next-secondary-results-renderer :has([href^="/shorts/"])
 youtube.com###continuations.ytd-watch-next-secondary-results-renderer.style-scope ,[href*="/shorts/"]
 youtube.com##[class^="style-scope ytd-expanded-shelf-contents-renderer"] [id^="dismissible"]:contains(SHORTS)
-youtube.com##[class*="style-scope ytd-compact-video-renderer"]:contains(LIVE)
 youtube.com##.lockup.ytd-item-section-renderer
 youtube.com##.lockup.ytd-watch-next-secondary-results-renderer
 youtube.com##[class="style-scope yt-live-chat-banner-manager"]
@@ -196,6 +199,7 @@ youtube.com##ytd-reel-shelf-renderer.ytd-structured-description-content-renderer
 youtube.com###comment-teaser
 youtube.com###clarify-box
 youtube.com###movie_player > .ytp-chrome-top
+youtube.com##.ytd-compact-video-renderer:has([href*="/shorts/"])
 youtube.com##ytd-rich-item-renderer.ytd-rich-grid-renderer:contains(Playlist)
 youtube.com##ytd-rich-item-renderer.ytd-rich-grid-renderer:contains(Updated today)
 youtube.com##ytd-video-renderer.ytd-expanded-shelf-contents-renderer.style-scope:contains(SHORTS)
