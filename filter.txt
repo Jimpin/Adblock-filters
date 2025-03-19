@@ -49,6 +49,8 @@ aftonbladet.se##[class*="css"][href*="/kampanj"]
 aftonbladet.se##[class*="hyperion-css"].default
 aftonbladet.se##[data-variants*="generic-adformat"]
 aftonbladet.se##.sch-datacontroller--permanent.sch-datacontroller--cobranded.sch-datacontroller
+aftonbladet.se##[class*="share-root_"]
+aftonbladet.se##[class*="abtvteaserlink-link_"][href*="/video/"]
 aftonbladet.se##[class*="hyperion-css-"]:style(z-index: 0px !important;)
 aftonbladet.se###megaAd-placeholder, #superright-side, a[href^="/brandstudio"], a[href*="/rabattkod"], a[href*="/casinoguide"], [id^="adPlacement"], a[href^="/kampanj"][data-test-tag="internal-link"]
 aftonbladet.se##aside > div:has(h2:has-text(/^annons/i))
