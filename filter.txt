@@ -18,13 +18,12 @@ aftonbladet.se##[class*="svenskaspel"]
 aftonbladet.se##[class*="hyperion-css-"]:has([src*="/api/embed/"])
 aftonbladet.se##[class*="hyperion-css-"]:has([href*="etidning"])
 aftonbladet.se##[class*="hyperion-css-"]:has([href*="?utm_content="])
-aftonbladet.se##[class*="hyperion-css-"]:has([href*="/halsa/a/"])
-aftonbladet.se##[class*="hyperion-css-"]:has([href*="/stryktipset-"])
-aftonbladet.se##[class*="hyperion-css-"]:has([href*="/relationer/a/"])
-aftonbladet.se##[class*="hyperion-css-"]:has([href*="/minekonomi/"])
-aftonbladet.se##[class*="hyperion-css-"]:has([href*="/tester/a/"])
+aftonbladet.se##[class*="hyperion-css-"]:has([href^="/stryktipset-"])
+aftonbladet.se##[class*="hyperion-css-"]:has([href^="/minekonomi/"])
+aftonbladet.se##[class*="hyperion-css-"]:has([href^="/halsa/a/"])
+aftonbladet.se##[class*="hyperion-css-"]:has([href^="/relationer/a/"])
+aftonbladet.se##[class*="hyperion-css-"]:has([href^="/tester/a/"])
 aftonbladet.se##[class*="hyperion-css-"]:contains(Titta nu):has([href*="tv.aftonbladet.se"])
-aftonbladet.se##[class*="hyperion-css-"]:contains(Spela):has([href*="tv.aftonbladet.se"])
 aftonbladet.se##[class*="hyperion-css-"][href*="instagram"]
 aftonbladet.se##[class*="hyperion-css-"][href*="x.com"]
 aftonbladet.se##[class*="hyperion-css-"][href*="facebook"]
@@ -45,6 +44,7 @@ aftonbladet.se##[src*="klart.se"]
 aftonbladet.se##a:has(span:has-text(/^annons/i))
 aftonbladet.se##a:contains(Nöjesbladet)
 aftonbladet.se##[class*=" fixed"] ,[style="min-height: 366px"]
+aftonbladet.se##[class*="abtvteaserlink-link_"][href*="/video/"]
 aftonbladet.se##[class*="css"][href*="/kampanj"]
 aftonbladet.se##[class*="hyperion-css"].default
 aftonbladet.se##[data-variants*="generic-adformat"]
