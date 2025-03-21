@@ -16,6 +16,7 @@ aftonbladet.se##[class*="bettinglink"]
 aftonbladet.se##[class*="Disclaimer"]
 aftonbladet.se##[class*="svenskaspel"]
 aftonbladet.se##[class*="hyperion-css-"]:has([src*="/api/embed/"])
+aftonbladet.se##[class*="hyperion-css-"]:has([href*="tv."]):contains(SE KLIPPET)
 aftonbladet.se##[class*="hyperion-css-"]:has([href*="etidning"])
 aftonbladet.se##[class*="hyperion-css-"]:has([href*="?utm_content="])
 aftonbladet.se##[class*="hyperion-css-"]:has([href^="/stryktipset-"])
@@ -27,6 +28,8 @@ aftonbladet.se##[class*="hyperion-css-"]:contains(Titta nu):has([href*="tv.afton
 aftonbladet.se##[class*="hyperion-css-"][href*="instagram"]
 aftonbladet.se##[class*="hyperion-css-"][href*="x.com"]
 aftonbladet.se##[class*="hyperion-css-"][href*="facebook"]
+aftonbladet.se##[class*="hyperion-css-"]:contains(SE HELA)
+aftonbladet.se##[class*="hyperion-css-"]:contains(ALLA DIREKTSÄNDNINGAR)
 aftonbladet.se##[class*="hyperion-css-"]:contains(ANNONS)
 aftonbladet.se##[class*="hyperion-css-"]:contains(Välj ort)
 aftonbladet.se##[class*="hyperion-css-"]:contains(GODARE)
@@ -44,7 +47,6 @@ aftonbladet.se##[src*="klart.se"]
 aftonbladet.se##a:has(span:has-text(/^annons/i))
 aftonbladet.se##a:contains(Nöjesbladet)
 aftonbladet.se##[class*=" fixed"] ,[style="min-height: 366px"]
-aftonbladet.se##[class*="abtvteaserlink-link_"][href*="/video/"]
 aftonbladet.se##[class*="css"][href*="/kampanj"]
 aftonbladet.se##[class*="hyperion-css"].default
 aftonbladet.se##[data-variants*="generic-adformat"]
@@ -142,13 +144,9 @@ twitch.tv##.player-overlay-background
 #Google
 google.*##a[href][ping]:remove-attr(ping)
 google.*##html:style(overflow-y: auto !important;)
-google.*##+js(set-constant, rwt, noopFunc)
-google.*##[id="reviewDialog"]
 google.*##.section-result[data-result-ad-type]
 google.*##.widget-pane-section-result[data-result-ad-type]
 google.*##div[data-flt-ve="sponsored_search_ads"]
-google.*###cnsi ~ [jsaction*=dismiss]
-google.*##div[owner] > div[class]:has(div[class][role="button"])
 google.*###pushdown
 google.*###rhs_block
 google*/pagead/$important
@@ -565,8 +563,6 @@ moviesjoy.*,movies2watch.*##[class="follow"]
 ##.ad.clearfix
 ###bar_container_r
 ##.left-advertise-bar
-##[class="overlay adblock_warning"]
-##[class="modal fade modal-cuz"]
 ##.text-warning
 ###_evidon-background
 ###_evidon-barrier-wrapper
@@ -688,13 +684,7 @@ moviesjoy.*,movies2watch.*##[class="follow"]
 affiliates.
 adsense.
 appnexus.
-movie/ads
-/ads_batch^
-/adServe/banners?tid=*$all,important
-/redirect
-/click?pid=*
 /ping?client_id=
-/system/context.js$script
 /error.png$image
 /player*/ad*.php$xhr,1p
 /bet365$popup
@@ -711,15 +701,11 @@ movie/ads
 /anti-block-modal.js$script
 /iframe-*.html$subdocument
 /favicon.ico$popup,important
-/messagingNoTcfApi.js
 /metrics/bambuser
 /ntfc.php?
 /pfe/current/
 /socialmedia.
 /likebox.
-/?uclick=
-/redirect-ads.php
-/_graphics/annons/*
 /player_error
 /prebid/*
 /puopen.php?
@@ -783,9 +769,6 @@ clk.js^
 ###left_ad
 ##.sticky-center.adunit
 ##.gdpr-banner
-##[class*="ad outsider__"]
-##[class*="ad insider__"]
-##[class*="ad module__"]
 
 *$script,redirect-rule=noopjs
 *$xhr,redirect-rule=nooptext
@@ -802,7 +785,6 @@ clk.js^
 *##.overlay[opacity]:style(display: none !important;)
 *##html.open-modal .overlay:style(display: none !important)
 ###gdpr-cookie-message
-*##script:contains(Telemetry)
 
 .online^$image,ping,popup,3p
 .pro^$image,ping,popup,3p
