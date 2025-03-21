@@ -141,6 +141,16 @@ twitch.tv##.tw-popover-header
 twitch.tv##.picture-by-picture-player
 twitch.tv##.player-overlay-background
 
+#Facebook
+facebook.com##[aria-label]:has([attributionsrc*="/"])
+facebook.com##[aria-label][href*="utm_"]
+facebook.com##[aria-label*="Annons"]:has([href])
+facebook.com##[aria-label*="Annons"][attributionsrc*="/"]
+facebook.com##[class^="x1"] :contains(Spons)
+###cookie-consent-banner
+##.cookie-banner
+*##[id*="ConsentBanner"]
+
 #Google
 google.*##a[href][ping]:remove-attr(ping)
 google.*##html:style(overflow-y: auto !important;)
@@ -475,6 +485,7 @@ moviesjoy.*,movies2watch.*##[class="follow"]
 #Body/Frames
 ##.ms-Callout-main
 ##.ms-Callout-beak
+###quicksearchWebSurvey
 ##.sharebuttons
 ##.sharethis-inline-share-buttons
 ##.internal-ad
@@ -597,6 +608,7 @@ moviesjoy.*,movies2watch.*##[class="follow"]
 ##.reportAdLink
 
 #Ads/Trackers
+||collector.github.com^
 ||jwpcdn.com^/*.js$script
 ||gnsnpaw.com^
 ||npaw.com^
