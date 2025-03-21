@@ -142,14 +142,14 @@ twitch.tv##.picture-by-picture-player
 twitch.tv##.player-overlay-background
 
 #Facebook
-facebook.com##[aria-label]:has([attributionsrc*="/"])
-facebook.com##[aria-label][href*="utm_"]
-facebook.com##[aria-label*="Annons"]:has([href])
+facebook.com##[aria-label*="Annons"]:has([href*="l.facebook.com/"])
 facebook.com##[aria-label*="Annons"][attributionsrc*="/"]
-facebook.com##[class^="x1"] :contains(Spons)
+facebook.com##[class^="x1"] :has([href*="%"]) :contains(Spons)
+facebook.com##[class^="x1"] :has([href*="l.facebook.com/"]):contains(Spons)
+facebook.com##[class^="x1l"]:has([href]):contains(, grupper)
+facebook.com##[class^="x1l"]:has([href]):contains(Reels)
 ###cookie-consent-banner
 ##.cookie-banner
-*##[id*="ConsentBanner"]
 
 #Google
 google.*##a[href][ping]:remove-attr(ping)
