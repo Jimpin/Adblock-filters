@@ -15,6 +15,9 @@ aftonbladet.se##[class*="viaplaysportscarousel-container_"]
 aftonbladet.se##[class*="bettinglink"]
 aftonbladet.se##[class*="Disclaimer"]
 aftonbladet.se##[class*="svenskaspel"]
+aftonbladet.se##[class*="pollen-"]
+aftonbladet.se##[class*="locationwidget-"]:contains(Välj ort)
+aftonbladet.se##[class*="boxtext-"]:has-text(Presenteras av), :has-text(presenteras av)
 aftonbladet.se##[class*="hyperion-css-"]:has([src*="/api/embed/"])
 aftonbladet.se##[class*="hyperion-css-"]:has([href*="tv."]):contains(SE KLIPPET)
 aftonbladet.se##[class*="hyperion-css-"]:has([href*="etidning"])
@@ -52,7 +55,6 @@ aftonbladet.se##[class*="hyperion-css"].default
 aftonbladet.se##[data-variants*="generic-adformat"]
 aftonbladet.se##.sch-datacontroller--permanent.sch-datacontroller--cobranded.sch-datacontroller
 aftonbladet.se##[class*="share-root_"]
-aftonbladet.se##[class*="abtvteaserlink-link_"][href*="/video/"]
 aftonbladet.se##[class*="hyperion-css-"]:style(z-index: 0px !important;)
 aftonbladet.se###megaAd-placeholder, #superright-side, a[href^="/brandstudio"], a[href*="/rabattkod"], a[href*="/casinoguide"], [id^="adPlacement"], a[href^="/kampanj"][data-test-tag="internal-link"]
 aftonbladet.se##aside > div:has(h2:has-text(/^annons/i))
@@ -190,6 +192,7 @@ youtube.com##[class="style-scope yt-live-chat-banner-manager"]
 youtube.com##[class="style-scope yt-live-chat-banner-renderer"]
 youtube.com##[class="style-scope yt-live-chat-banner-manager"]
 youtube.com##[id="attached-survey"]
+youtube.com###middle-row > .ytd-watch-metadata.style-scope:has([href])
 youtube.com##.collections-stack-wiz
 youtube.com###donation-shelf
 youtube.com###infoButton
