@@ -9,7 +9,8 @@ aftonbladet.se##[src*="salesposter."]
 aftonbladet.se##[id*="brandmetrics"]
 aftonbladet.se##[id*="url-component-"]
 aftonbladet.se##[id*="takeover-container"]
-aftonbladet.se##[data-test-tag="internal-link"][href="/plus"]
+aftonbladet.se##[data-test-tag="internal-link"][href*="/hej"]
+aftonbladet.se##[data-test-tag="internal-link"][href*="/plus"]
 aftonbladet.se##[data-test-tag="internal-link"][href*="/upptack"]
 aftonbladet.se##[class*="viaplaysportscarousel-container_"]
 aftonbladet.se##[class*="bettinglink"]
@@ -144,12 +145,13 @@ twitch.tv##.picture-by-picture-player
 twitch.tv##.player-overlay-background
 
 #Facebook
+facebook.com##[class*="html-div x"]:contains(, grupper)
+facebook.com##[class*="html-div x"]:contains(Reels)
+facebook.com##[class*="html-div x"]:contains(Personer du)
 facebook.com##[aria-label*="Annons"][href]:has-text(/./)
 facebook.com##[aria-label*="Annons"][attributionsrc*="/comet/"]
 facebook.com##[class^="x1n"]:contains(Spons)
 facebook.com##[class*="x1l"][aria-label*="Annons"]:has-text(/./)
-facebook.com##[class*="x1l"]:has([href]):contains(, grupper)
-facebook.com##[class*="x1l"]:has([href]):contains(Reels)
 ###cookie-consent-banner
 ##.cookie-banner
 
@@ -181,6 +183,8 @@ tv4.se,tv4play.se,embed.viaplay.com##+js(xml-prune, Ad, , /fwmrm.net\/ad\/g/)
 /revcontent/bundle.js
 
 #Youtube.com
+youtube.com###chat:contains(Replay is disabled)
+youtube.com##yt-chip-cloud-chip-renderer.ytd-feed-filter-chip-bar-renderer.style-scope:contains(Live)
 youtube.com##ytd-rich-section-renderer:style(width: 0% !important;)
 youtube.com##ytd-rich-item-renderer.ytd-rich-grid-renderer.style-scope:contains(Spons)
 youtube.com##.ytd-watch-next-secondary-results-renderer :has([href^="/shorts/"])
