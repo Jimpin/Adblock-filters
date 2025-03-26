@@ -4,6 +4,7 @@
 ! License: GPL-3.0 License | https://github.com/Jimpin/Adblock-filters/blob/master/LICENSE
 
 #Aftonbladet.se
+aftonbladet.se##[href="/"]:style(margin-left: 10px !important;)
 aftonbladet.se##[href*=".ly"]
 aftonbladet.se##[src*="salesposter."]
 aftonbladet.se##[id*="brandmetrics"]
@@ -18,26 +19,29 @@ aftonbladet.se##[class*="Disclaimer"]
 aftonbladet.se##[class*="svenskaspel"]
 aftonbladet.se##[class*="pollen-"]
 aftonbladet.se##[class*="locationwidget-"]:contains(Välj ort)
+aftonbladet.se##[class*="headerlogo-topRowLogo_"]:style(margin-left: 6px !important;)
+aftonbladet.se##[class*="datewidget-root_"]:style(margin-left: 350px !important;)
 aftonbladet.se##[class*="boxtext-"]:has-text(Presenteras av), :has-text(presenteras av)
 aftonbladet.se##[class*="hyperion-css-"]:has([src*="/api/embed/"])
+aftonbladet.se##[class*="hyperion-css-"]:has([aria-label*="Följ "])
+aftonbladet.se##[class*="hyperion-css-"]:has([aria-label*="Gilla "])
+aftonbladet.se##[class*="hyperion-css-"]:has([aria-label*="Kolla "])
 aftonbladet.se##[class*="hyperion-css-"]:has([href*="tv."]):contains(SE KLIPPET)
-aftonbladet.se##[class*="hyperion-css-"]:has([href*="etidning"])
 aftonbladet.se##[class*="hyperion-css-"]:has([href*="?utm_content="])
-aftonbladet.se##[class*="hyperion-css-"]:has([href^="/stryktipset-"])
-aftonbladet.se##[class*="hyperion-css-"]:has([href^="/minekonomi/"])
-aftonbladet.se##[class*="hyperion-css-"]:has([href^="/halsa/a/"])
-aftonbladet.se##[class*="hyperion-css-"]:has([href^="/relationer/a/"])
-aftonbladet.se##[class*="hyperion-css-"]:has([href^="/tester/a/"])
+aftonbladet.se##[class*="hyperion-css-"]:has([href*="/stryktipset-"])
+aftonbladet.se##[class*="hyperion-css-"]:has([href*="/halsa/a/"])
+aftonbladet.se##[class*="hyperion-css-"]:has([href*="/relationer/a/"])
+aftonbladet.se##[class*="hyperion-css-"]:has([href*="/tester/a/"])
+aftonbladet.se##[class*="hyperion-css-"]:contains(-prenumeration)
 aftonbladet.se##[class*="hyperion-css-"]:contains(Titta nu):has([href*="tv.aftonbladet.se"])
-aftonbladet.se##[class*="hyperion-css-"][href*="instagram"]
-aftonbladet.se##[class*="hyperion-css-"][href*="x.com"]
-aftonbladet.se##[class*="hyperion-css-"][href*="facebook"]
 aftonbladet.se##[class*="hyperion-css-"]:contains(SE HELA)
 aftonbladet.se##[class*="hyperion-css-"]:contains(ALLA DIREKTSÄNDNINGAR)
 aftonbladet.se##[class*="hyperion-css-"]:contains(ANNONS)
 aftonbladet.se##[class*="hyperion-css-"]:contains(Välj ort)
 aftonbladet.se##[class*="hyperion-css-"]:contains(GODARE)
 aftonbladet.se##[class*="hyperion-css-"]:contains(WELLOBE)
+aftonbladet.se##[class*="singlecolumnlayout-main_"]:style(margin-left: 495px !important; margin-right: -200px !important;)
+aftonbladet.se##[class*="singlecolumnlayout-collection_"]:style(margin-left: 145px !important;)
 aftonbladet.se##[class*="container-container_"]
 aftonbladet.se##[data-testid="twitter-embed-wrapper"]
 aftonbladet.se##[class*="boxtext-root"]:contains(presenteras av)
@@ -46,17 +50,14 @@ aftonbladet.se##[class*="hyperion-css-"]:style(border: none !important;)
 aftonbladet.se##[class*="-insider-wrapper"]
 aftonbladet.se##[class*="-panorama-wrapper"]
 aftonbladet.se##[id*="integration-enrichment-"]
-aftonbladet.se##[class*="hyperion-css-"]:matches-css(min-height: 230px)
 aftonbladet.se##[src*="klart.se"]
 aftonbladet.se##a:has(span:has-text(/^annons/i))
 aftonbladet.se##a:contains(Nöjesbladet)
-aftonbladet.se##[class*=" fixed"] ,[style="min-height: 366px"]
 aftonbladet.se##[class*="css"][href*="/kampanj"]
 aftonbladet.se##[class*="hyperion-css"].default
 aftonbladet.se##[data-variants*="generic-adformat"]
 aftonbladet.se##.sch-datacontroller--permanent.sch-datacontroller--cobranded.sch-datacontroller
 aftonbladet.se##[class*="share-root_"]
-aftonbladet.se##[class*="hyperion-css-"]:style(z-index: 0px !important;)
 aftonbladet.se###megaAd-placeholder, #superright-side, a[href^="/brandstudio"], a[href*="/rabattkod"], a[href*="/casinoguide"], [id^="adPlacement"], a[href^="/kampanj"][data-test-tag="internal-link"]
 aftonbladet.se##aside > div:has(h2:has-text(/^annons/i))
 aftonbladet.se##section > div:has(h2:has-text(/^annons/i))
@@ -184,6 +185,7 @@ tv4.se,tv4play.se,embed.viaplay.com##+js(xml-prune, Ad, , /fwmrm.net\/ad\/g/)
 
 #Youtube.com
 youtube.com###chat:contains(Replay is disabled)
+youtube.com##ytd-comment-view-model.ytd-comment-replies-renderer.style-scope > .ytd-comment-view-model.style-scope:style(margin-left: 40px !important;)
 youtube.com##yt-chip-cloud-chip-renderer.ytd-feed-filter-chip-bar-renderer.style-scope:contains(Live)
 youtube.com##ytd-rich-section-renderer:style(width: 0% !important;)
 youtube.com##ytd-rich-item-renderer.ytd-rich-grid-renderer.style-scope:contains(Spons)
