@@ -7,6 +7,7 @@
 aftonbladet.se##[href="/"]:style(margin-left: 10px !important;)
 aftonbladet.se##[href*=".ly"]
 aftonbladet.se##[src*="salesposter."]
+aftonbladet.se##[src*="_preview_"]
 aftonbladet.se##[id*="brandmetrics"]
 aftonbladet.se##[id*="url-component-"]
 aftonbladet.se##[id*="takeover-container"]
@@ -22,6 +23,7 @@ aftonbladet.se##[class*="locationwidget-"]:contains(Välj ort)
 aftonbladet.se##[class*="headerlogo-topRowLogo_"]:style(margin-left: 6px !important;)
 aftonbladet.se##[class*="datewidget-root_"]:style(margin-left: 350px !important;)
 aftonbladet.se##[class*="boxtext-"]:has-text(Presenteras av), :has-text(presenteras av)
+aftonbladet.se##[class*="boxloopingvideo"]:has([src*="/preview"])
 aftonbladet.se##[class*="hyperion-css-"]:has([src*="/api/embed/"])
 aftonbladet.se##[class*="hyperion-css-"]:has([aria-label*="Följ "])
 aftonbladet.se##[class*="hyperion-css-"]:has([aria-label*="Gilla "])
@@ -40,6 +42,7 @@ aftonbladet.se##[class*="hyperion-css-"]:contains(ANNONS)
 aftonbladet.se##[class*="hyperion-css-"]:contains(Välj ort)
 aftonbladet.se##[class*="hyperion-css-"]:contains(GODARE)
 aftonbladet.se##[class*="hyperion-css-"]:contains(WELLOBE)
+aftonbladet.se##[class*="hyperion-css-"]:contains(Knepen) :has([href*="tv."])
 aftonbladet.se##[class*="singlecolumnlayout-main_"]:style(margin-left: 495px !important; margin-right: -200px !important;)
 aftonbladet.se##[class*="singlecolumnlayout-collection_"]:style(margin-left: 145px !important;)
 aftonbladet.se##[class*="container-container_"]
@@ -59,6 +62,7 @@ aftonbladet.se##[data-variants*="generic-adformat"]
 aftonbladet.se##.sch-datacontroller--permanent.sch-datacontroller--cobranded.sch-datacontroller
 aftonbladet.se##[class*="share-root_"]
 aftonbladet.se###megaAd-placeholder, #superright-side, a[href^="/brandstudio"], a[href*="/rabattkod"], a[href*="/casinoguide"], [id^="adPlacement"], a[href^="/kampanj"][data-test-tag="internal-link"]
+aftonbladet.se###superright-side, a[href*="/casinoguide"], [id^="adPlacement"], a[href^="https://kampanj."], a[href*="/rabattkod"][data-test-tag="internal-link"], a[href*="aftonbladet.se/kampanj/"], #takeover-container, div[class^="stickylogin"]
 aftonbladet.se##aside > div:has(h2:has-text(/^annons/i))
 aftonbladet.se##section > div:has(h2:has-text(/^annons/i))
 aftonbladet.se###main > div > div > div:has(h2:has-text(/^annons/i))
@@ -67,6 +71,7 @@ aftonbladet.se##div[class][style*="text"]:has(h3:has-text(/annons/i))
 aftonbladet.se##div[class][style*="text"]:has(h3:has-text(/annonslänkar/i))
 aftonbladet.se##.ab-responsive-ads-wrapper
 aftonbladet.se###data-controller-stripe
+aftonbladet.se##.entryShareButton
 acast.com##[alt="Advertisement"]
 acast.com##[data-test-id="AirTimeAdControls__CountDown"]
 acast.com##[data-test-id="Link"]
@@ -82,6 +87,7 @@ klart.se##+js(remove-class, mega-loading)
 ||analytics.codigo.se^
 ||adnxs.com^
 ||adsrvr.org^
+||ebxcdn.com^
 ||iteratehq.com^
 ||norstatsurveys.com^
 ||relevant-digital.com^
@@ -115,6 +121,7 @@ expressen.se##.teaser:has(a[href*="/annons"], a[href*="/brandstudio"], a[href*="
 
 #Twitch.tv
 twitch.tv,player.twitch.tv##.stream-display-ad__wrapper
+twitch.tv##.player-adblock-notice
 twitch.tv##.core-error
 twitch.tv##.community-highlight__over-video-collapsed
 twitch.tv##.happening-now-notification__button
@@ -144,6 +151,7 @@ twitch.tv##.headliner-ad
 twitch.tv##.tw-popover-header
 twitch.tv##.picture-by-picture-player
 twitch.tv##.player-overlay-background
+@@||static-cdn.jtvnw.net/*.png
 
 #Facebook
 facebook.com##[class*="html-div x"]:contains(, grupper)
@@ -185,6 +193,11 @@ tv4.se,tv4play.se,embed.viaplay.com##+js(xml-prune, Ad, , /fwmrm.net\/ad\/g/)
 
 #Youtube.com
 youtube.com###chat:contains(Replay is disabled)
+youtube.com##ytd-video-description-infocards-section-renderer.ytd-structured-description-content-renderer.style-scope:contains(Chapters)
+youtube.com##ytd-horizontal-card-list-renderer.ytd-structured-description-content-renderer.style-scope:contains(Chapters)
+youtube.com###attributed-snippet-text > .yt-core-attributed-string--white-space-pre-wrap.yt-core-attributed-string:contains(#)
+youtube.com##a.bold.yt-formatted-string.style-scope.yt-simple-endpoint:contains(#)
+youtube.com##[id="expand-sizer"] ,[id="ellipsis"]
 youtube.com##ytd-comment-view-model.ytd-comment-replies-renderer.style-scope > .ytd-comment-view-model.style-scope:style(margin-left: 40px !important;)
 youtube.com##yt-chip-cloud-chip-renderer.ytd-feed-filter-chip-bar-renderer.style-scope:contains(Live)
 youtube.com##ytd-rich-section-renderer:style(width: 0% !important;)
@@ -217,6 +230,7 @@ youtube.com##ytd-rich-item-renderer.ytd-rich-grid-renderer:contains(Updated toda
 youtube.com##ytd-video-renderer.ytd-expanded-shelf-contents-renderer.style-scope:contains(SHORTS)
 youtube.com##[class*="ytd-video-renderer"]:contains(SHORTS)
 youtube.com##.ytp-ce-website
+youtube.com##.ytp-ce-channel-this
 youtube.com##.ytp-featured-product
 youtube.com##.ytd-popup-container.style-scope > .yt-tooltip-renderer.style-scope
 youtube.com##.ytp-fullerscreen-edu-text
@@ -618,7 +632,6 @@ moviesjoy.*,movies2watch.*##[class="follow"]
 
 #Ads/Trackers
 ||collector.github.com^
-||jwpcdn.com^/*.js$script
 ||gnsnpaw.com^
 ||npaw.com^
 ||herokuapp.com^
@@ -705,6 +718,8 @@ moviesjoy.*,movies2watch.*##[class="follow"]
 affiliates.
 adsense.
 appnexus.
+/ast.js
+/ebx.js
 /ping?client_id=
 /error.png$image
 /player*/ad*.php$xhr,1p
@@ -732,17 +747,6 @@ appnexus.
 /puopen.php?
 /ruxitagentjs_
 
-#Blocked Scripts
-pagead-id.js^
-advert.js^
-advertisement.js^
-prerolls.js^
-tracking.js^
-www-pagead-id.js^
-outbrain.js^
-cnads.js^
-clk.js^
-
 *##[id*="ads-script"]
 *##[id*="norstat"]
 *##[id*="rich-media-ads"]
@@ -769,12 +773,6 @@ clk.js^
 ://geo-$important
 ://geo.$important
 ://wchat.*^$important
-*##.blacklayer
-*##.modalPopup
-*##html:style(filter: none !important)
-*##[class*="sp-message-open"]:style(position: unset !important;overflow-y: initial !important;)
-*##.sp-message-open body:style(position: unset !important;overflow-y: initial !important;)
-*##.in.fade.modal-backdrop
 /\.cloudfront.*\/\?.*[a-zA-Z0-9]{5,16}/$script,3p
 /genads$important
 /tuname$important
@@ -797,6 +795,16 @@ clk.js^
 *$media,redirect-rule=noopmp4-1s
 *$frame,redirect-rule=noopframe
 
+*##.blacklayer
+*##.modalPopup
+*##[class*="sp-message-open"]:style(position: unset !important;overflow-y: initial !important;)
+*##.sp-message-open body:style(position: unset !important;overflow-y: initial !important;)
+*##.in.fade.modal-backdrop
+*###lazy-render-promo-banner-section
+*###lazy-render-cross-promo-cards-section:contains(Casino)
+*##[class*="CrossPromos-styles--CrossWrapper"]
+*##[class*="CrossPromos-styles--Title"]
+*##[class*="MuiBox-root horse"]:contains(/Casino|/|Harry Boy/)
 *##li:has(.content-label:has-text(/annons/i)):remove()
 *##[id*="netboard_"]
 *##.no-scroll:style(overflow-x: hidden !important;)
