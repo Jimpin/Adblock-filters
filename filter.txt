@@ -14,6 +14,7 @@ aftonbladet.se##[id*="takeover-container"]
 aftonbladet.se##[data-test-tag="internal-link"][href*="/hej"]
 aftonbladet.se##[data-test-tag="internal-link"][href*="/plus"]
 aftonbladet.se##[data-test-tag="internal-link"][href*="/upptack"]
+aftonbladet.se##[class*="layoutalignmentcomponent-aside"]
 aftonbladet.se##[class*="viaplaysportscarousel-container_"]
 aftonbladet.se##[class*="bettinglink"]
 aftonbladet.se##[class*="Disclaimer"]
@@ -24,6 +25,8 @@ aftonbladet.se##[class*="headerlogo-topRowLogo_"]:style(margin-left: 6px !import
 aftonbladet.se##[class*="datewidget-root_"]:style(margin-left: 350px !important;)
 aftonbladet.se##[class*="boxtext-"]:has-text(Presenteras av), :has-text(presenteras av)
 aftonbladet.se##[class*="boxloopingvideo"]:has([src*="/preview"])
+aftonbladet.se##[class*="hyperion-css-"][style="min-height: 138px;"]
+aftonbladet.se##[class*="hyperion-css-"]:contains(Experten) :has([href*="/video/"])
 aftonbladet.se##[class*="hyperion-css-"]:has([src*="/api/embed/"])
 aftonbladet.se##[class*="hyperion-css-"]:has([aria-label*="Följ "])
 aftonbladet.se##[class*="hyperion-css-"]:has([aria-label*="Gilla "])
@@ -238,6 +241,7 @@ youtube.com##.ytp-paid-content-overlay
 youtube.com##.ytp-cued-thumbnail-overlay
 youtube.com##.ytp-button.ytp-miniplayer-button
 youtube.com###inline-preview-player
+youtube.com###infocards-section:contains(by)
 youtube.com##[class="style-scope ytd-video-preview"]
 youtube.com##[class="style-scope yt-live-chat-viewer-engagement-message-renderer"]
 youtube.com##.ytp-fullerscreen-edu-chevron
@@ -804,7 +808,6 @@ appnexus.
 *###lazy-render-cross-promo-cards-section:contains(Casino)
 *##[class*="CrossPromos-styles--CrossWrapper"]
 *##[class*="CrossPromos-styles--Title"]
-*##[class*="MuiBox-root horse"]:contains(/Casino|/|Harry Boy/)
 *##li:has(.content-label:has-text(/annons/i)):remove()
 *##[id*="netboard_"]
 *##.no-scroll:style(overflow-x: hidden !important;)
