@@ -11,6 +11,7 @@ aftonbladet.se##[src*="_preview_"]
 aftonbladet.se##[id*="brandmetrics"]
 aftonbladet.se##[id*="url-component-"]
 aftonbladet.se##[id*="takeover-container"]
+aftonbladet.se##[style="min-height: 230px;"] ,[class*="embedded"]:has([href])
 aftonbladet.se##[data-test-tag="internal-link"][href*="/hej"]
 aftonbladet.se##[data-test-tag="internal-link"][href*="/plus"]
 aftonbladet.se##[data-test-tag="internal-link"][href*="/upptack"]
@@ -24,8 +25,6 @@ aftonbladet.se##[class*="locationwidget-"]:contains(Välj ort)
 aftonbladet.se##[class*="headerlogo-topRowLogo_"]:style(margin-left: 6px !important;)
 aftonbladet.se##[class*="datewidget-root_"]:style(margin-left: 350px !important;)
 aftonbladet.se##[class*="boxtext-"]:has-text(Presenteras av), :has-text(presenteras av)
-aftonbladet.se##[class*="boxloopingvideo"]:has([src*="/preview"])
-aftonbladet.se##[class*="hyperion-css-"][style="min-height: 138px;"]
 aftonbladet.se##[class*="hyperion-css-"]:contains(Experten) :has([href*="/video/"])
 aftonbladet.se##[class*="hyperion-css-"]:has([src*="/api/embed/"])
 aftonbladet.se##[class*="hyperion-css-"]:has([aria-label*="Följ "])
@@ -133,6 +132,7 @@ twitch.tv##.player-ad-notice
 twitch.tv##.tw-link.link-fragment
 twitch.tv##.picture-by-picture-player
 twitch.tv##.smarter-sort-callout
+twitch.tv##div.side-nav-section:contains(Categories)
 twitch.tv##[data-a-target=prime-offers-icon]
 twitch.tv##[data-a-target=try-prime-link]
 twitch.tv##.prime-offers__pill
@@ -198,7 +198,6 @@ tv4.se,tv4play.se,embed.viaplay.com##+js(xml-prune, Ad, , /fwmrm.net\/ad\/g/)
 youtube.com###chat:contains(Replay is disabled)
 youtube.com##ytd-video-description-infocards-section-renderer.ytd-structured-description-content-renderer.style-scope:contains(Chapters)
 youtube.com##ytd-horizontal-card-list-renderer.ytd-structured-description-content-renderer.style-scope:contains(Chapters)
-youtube.com###attributed-snippet-text > .yt-core-attributed-string--white-space-pre-wrap.yt-core-attributed-string:contains(#)
 youtube.com##a.bold.yt-formatted-string.style-scope.yt-simple-endpoint:contains(#)
 youtube.com##[id="expand-sizer"] ,[id="ellipsis"]
 youtube.com##ytd-comment-view-model.ytd-comment-replies-renderer.style-scope > .ytd-comment-view-model.style-scope:style(margin-left: 40px !important;)
