@@ -4,6 +4,7 @@
 ! License: GPL-3.0 License | https://github.com/Jimpin/Adblock-filters/blob/master/LICENSE
 
 #Aftonbladet.se
+aftonbladet.se##[style*="min-height:"]:has([src])
 aftonbladet.se##[href="/"]:style(margin-left: 10px !important;)
 aftonbladet.se##[href*=".ly"]
 aftonbladet.se##[src*="salesposter."]
@@ -15,6 +16,7 @@ aftonbladet.se##[style="min-height: 230px;"] ,[class*="embedded"]:has([href])
 aftonbladet.se##[data-test-tag="internal-link"][href*="/hej"]
 aftonbladet.se##[data-test-tag="internal-link"][href*="/plus"]
 aftonbladet.se##[data-test-tag="internal-link"][href*="/upptack"]
+aftonbladet.se##[class*="subnav-links_"]:style(margin-left: 643px !important;)
 aftonbladet.se##[class*="layoutalignmentcomponent-aside"]
 aftonbladet.se##[class*="viaplaysportscarousel-container_"]
 aftonbladet.se##[class*="bettinglink"]
@@ -196,6 +198,7 @@ tv4.se,tv4play.se,embed.viaplay.com##+js(xml-prune, Ad, , /fwmrm.net\/ad\/g/)
 
 #Youtube.com
 youtube.com###chat:contains(Replay is disabled)
+youtube.com###infocards-section:contains(by)
 youtube.com##ytd-video-description-infocards-section-renderer.ytd-structured-description-content-renderer.style-scope:contains(Chapters)
 youtube.com##ytd-horizontal-card-list-renderer.ytd-structured-description-content-renderer.style-scope:contains(Chapters)
 youtube.com##a.bold.yt-formatted-string.style-scope.yt-simple-endpoint:contains(#)
@@ -299,6 +302,7 @@ duckduckgo.com##.js-onboarding-ed-slide-2.js-onboarding-ed-slide.onboarding-ed__
 duckduckgo.com##.js-onboarding-ed-slide-3.js-onboarding-ed-slide.onboarding-ed__slide-3.onboarding-ed__slide
 duckduckgo.com##.js-onboarding-ed-slide-4.js-onboarding-ed-slide.onboarding-ed__slide-4.onboarding-ed__slide
 ||duckduckgo.com/t/
+search.brave.com##div.snippet:contains(/Top stories|Videos|Find elsewhere|Related queries|Find elsewhere|pdf/)
 
 #Fotbollskanalen.se
 fotbollskanalen.se##div[class$="sponsortitle"]:upward(.desktop-side-widget)
@@ -634,6 +638,12 @@ moviesjoy.*,movies2watch.*##[class="follow"]
 ##.reportAdLink
 
 #Ads/Trackers
+||incoming.telemetry.mozilla.org^
+||data.telemetry.mozilla.org^
+||telemetry.mozilla.com^
+||telemetry.allizom.org^
+||telemetry-archive.mozilla.org^
+||telemetry.services.mozilla.com^
 ||collector.github.com^
 ||gnsnpaw.com^
 ||npaw.com^
