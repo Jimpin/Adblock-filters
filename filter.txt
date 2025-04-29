@@ -4,6 +4,7 @@
 ! License: GPL-3.0 License | https://github.com/Jimpin/Adblock-filters/blob/master/LICENSE
 
 #Aftonbladet.se
+aftonbladet.se##hr.break
 aftonbladet.se##[style*="min-height:"]:has([src])
 aftonbladet.se##[href="/"]:style(margin-left: 10px !important;)
 aftonbladet.se##[href*=".ly"]
@@ -16,6 +17,8 @@ aftonbladet.se##[style="min-height: 230px;"] ,[class*="embedded"]:has([href])
 aftonbladet.se##[data-test-tag="internal-link"][href*="/hej"]
 aftonbladet.se##[data-test-tag="internal-link"][href*="/plus"]
 aftonbladet.se##[data-test-tag="internal-link"][href*="/upptack"]
+aftonbladet.se##[data-test-tag="paragraph-header"]:contains(abplus)
+aftonbladet.se##[data-test-tag="paragraph-header"]:contains(LÄS MER)
 aftonbladet.se##[class*="subnav-links_"]:style(margin-left: 643px !important;)
 aftonbladet.se##[class*="layoutalignmentcomponent-aside"]
 aftonbladet.se##[class*="viaplaysportscarousel-container_"]
@@ -33,7 +36,6 @@ aftonbladet.se##[class*="hyperion-css-"]:has([aria-label*="Följ "])
 aftonbladet.se##[class*="hyperion-css-"]:has([aria-label*="Gilla "])
 aftonbladet.se##[class*="hyperion-css-"]:has([aria-label*="Kolla "])
 aftonbladet.se##[class*="hyperion-css-"]:has([href*="tv."]):contains(SE KLIPPET)
-aftonbladet.se##[class*="hyperion-css-"]:has([href*="?utm_content="])
 aftonbladet.se##[class*="hyperion-css-"]:has([href*="/stryktipset-"])
 aftonbladet.se##[class*="hyperion-css-"]:has([href*="/halsa/a/"])
 aftonbladet.se##[class*="hyperion-css-"]:has([href*="/relationer/a/"])
@@ -95,6 +97,7 @@ klart.se##+js(remove-class, mega-loading)
 ||iteratehq.com^
 ||norstatsurveys.com^
 ||relevant-digital.com^
+||adsdk.microsoft.com^
 utm_$document,removeparam=/^utm_/
 /cmp/*$image
 /cast_sender.js
@@ -302,7 +305,7 @@ duckduckgo.com##.js-onboarding-ed-slide-2.js-onboarding-ed-slide.onboarding-ed__
 duckduckgo.com##.js-onboarding-ed-slide-3.js-onboarding-ed-slide.onboarding-ed__slide-3.onboarding-ed__slide
 duckduckgo.com##.js-onboarding-ed-slide-4.js-onboarding-ed-slide.onboarding-ed__slide-4.onboarding-ed__slide
 ||duckduckgo.com/t/
-search.brave.com##div.snippet:contains(/Top stories|Videos|Find elsewhere|Related queries|Find elsewhere|pdf/)
+search.brave.com##div.snippet:contains(/Top stories|View all|Find elsewhere|Related queries|pdf/)
 
 #Fotbollskanalen.se
 fotbollskanalen.se##div[class$="sponsortitle"]:upward(.desktop-side-widget)
