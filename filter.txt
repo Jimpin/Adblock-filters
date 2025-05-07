@@ -13,6 +13,7 @@ aftonbladet.se##[src*="_preview_"]
 aftonbladet.se##[id*="brandmetrics"]
 aftonbladet.se##[id*="url-component-"]
 aftonbladet.se##[id*="takeover-container"]
+aftonbladet.se##[id*="cc-comments"]
 aftonbladet.se##[style="min-height: 230px;"] ,[class*="embedded"]:has([href])
 aftonbladet.se##[data-test-tag="internal-link"][href*="/hej"]
 aftonbladet.se##[data-test-tag="internal-link"][href*="/plus"]
@@ -31,6 +32,7 @@ aftonbladet.se##[class*="headerlogo-topRowLogo_"]:style(margin-left: 6px !import
 aftonbladet.se##[class*="datewidget-root_"]:style(margin-left: 350px !important;)
 aftonbladet.se##[class*="boxtext-"]:has-text(Presenteras av), :has-text(presenteras av)
 aftonbladet.se##[class="twocolumnlayout-content_3bf5"]:style(margin-top: -16px !important;)
+aftonbladet.se##[class*="hyperion-css-"]:contains(abplus)
 aftonbladet.se##[class*="hyperion-css-"]:contains(•)
 aftonbladet.se##[class*="hyperion-css-"]:contains(Senaste krönikor)
 aftonbladet.se##[class*="hyperion-css-"]:contains(Testar):has([href])
