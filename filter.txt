@@ -839,7 +839,6 @@ appnexus.
 *##li:has(.content-label:has-text(/annons/i)):remove()
 *##[id*="netboard_"]
 *##.no-scroll:style(overflow-x: hidden !important;)
-*##html,body:style(overflow-x: hidden !important;)
 *##body:style(overflow: initial !important;)
 *##[class*="ovl"]:style(display: none !important;)
 *##.overlay[opacity]:style(display: none !important;)
