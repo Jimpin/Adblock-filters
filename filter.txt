@@ -14,6 +14,7 @@ aftonbladet.se##[id*="brandmetrics"]
 aftonbladet.se##[id*="url-component-"]
 aftonbladet.se##[id*="takeover-container"]
 aftonbladet.se##[id*="cc-comments"]
+aftonbladet.se##[id*="ab-paywall"]:has([href])
 aftonbladet.se##[style="min-height: 230px;"] ,[class*="embedded"]:has([href])
 aftonbladet.se##[data-test-tag="internal-link"][href*="/hej"]
 aftonbladet.se##[data-test-tag="internal-link"][href*="/plus"]
@@ -46,6 +47,7 @@ aftonbladet.se##[class*="hyperion-css-"]:has([href*="/stryktipset-"])
 aftonbladet.se##[class*="hyperion-css-"]:has([href*="/halsa/a/"])
 aftonbladet.se##[class*="hyperion-css-"]:has([href*="/relationer/a/"])
 aftonbladet.se##[class*="hyperion-css-"]:has([href*="/tester/a/"])
+aftonbladet.se##[class*="hyperion-css-"]:has([href*="tv."]):contains(TV)
 aftonbladet.se##[class*="hyperion-css-"]:contains(-prenumeration)
 aftonbladet.se##[class*="hyperion-css-"]:contains(Titta nu):has([href*="tv.aftonbladet.se"])
 aftonbladet.se##[class*="hyperion-css-"]:contains(SE HELA)
@@ -170,7 +172,6 @@ twitch.tv##.player-overlay-background
 #Facebook
 facebook.com##[class*="html-div x"]:contains(, grupper)
 facebook.com##[class*="html-div x"]:contains(Reels)
-facebook.com##[class*="html-div x"]:contains(Personer du)
 facebook.com##[aria-label*="Annons"][href]:has-text(/./)
 facebook.com##[aria-label*="Annons"][attributionsrc*="/comet/"]
 facebook.com##[class^="x1n"]:contains(Spons)
@@ -206,6 +207,11 @@ tv4.se,tv4play.se,embed.viaplay.com##+js(xml-prune, Ad, , /fwmrm.net\/ad\/g/)
 /revcontent/bundle.js
 
 #Youtube.com
+youtube.com###toast > .yt-notification-action-renderer.style-scope
+youtube.com##[class="vendor style-scope ytd-ticket-shelf-renderer"]
+youtube.com##.ytd-ticket-shelf-renderer.style-scope.dot
+youtube.com###view-tickets-link
+youtube.com###ticket-shelf
 youtube.com###chat:contains(Replay is disabled)
 youtube.com###infocards-section:contains(by)
 youtube.com###description-inline-expander > .ytd-text-inline-expander.style-scope.button:style(margin-left: 5px !important;)
@@ -314,7 +320,7 @@ duckduckgo.com##.js-onboarding-ed-slide-2.js-onboarding-ed-slide.onboarding-ed__
 duckduckgo.com##.js-onboarding-ed-slide-3.js-onboarding-ed-slide.onboarding-ed__slide-3.onboarding-ed__slide
 duckduckgo.com##.js-onboarding-ed-slide-4.js-onboarding-ed-slide.onboarding-ed__slide-4.onboarding-ed__slide
 ||duckduckgo.com/t/
-search.brave.com##div.snippet:contains(/Top stories|View all|Find elsewhere|Related queries|pdf/)
+search.brave.com##div.snippet:contains(/Top stories|View all|Find elsewhere|Related queries/)
 
 #Fotbollskanalen.se
 fotbollskanalen.se##div[class$="sponsortitle"]:upward(.desktop-side-widget)
@@ -328,6 +334,7 @@ fotbollskanalen.se##+js(xml-prune, Ad, , /fwmrm.net\/ad\/g/)
 #Blocket.se
 blocket.se##.mx-auto > [href]
 blocket.se##.\[\&_img\]\:h-full.\[\&_img\]\:w-full
+blocket.se##[class*="DataControllerBanner__BannerWrapper-sc"]
 blocket.se##.space-y-2.gap-4.w-full.justify-between.items-center.flex-wrap.flex:style(margin-right: -540px !important;)
 blocket.se##.hover\:text-black.text-grey700.cursor-pointer.transition-colors.underline:style(margin-left: -265px !important;)
 blocket.se##.relative:contains(Galleriet)
