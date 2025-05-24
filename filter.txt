@@ -23,6 +23,9 @@ aftonbladet.se##[data-test-tag="paragraph-header"]:contains(abplus)
 aftonbladet.se##[data-test-tag="paragraph-header"]:contains(LÄS MER)
 aftonbladet.se##[class*="subnav-links_"]:style(margin-left: 643px !important;)
 aftonbladet.se##[class*="layoutalignmentcomponent-aside"]
+aftonbladet.se##[class*="layoutalignmentcomponent-main"]
+aftonbladet.se##[class*="layoutalignmentcomponent-container_"][class*="twocolumnlayout-article_"]:contains(abplus)
+aftonbladet.se##[class*="twocolumnlayout-article_3"]:contains(abplus)
 aftonbladet.se##[class*="viaplaysportscarousel-container_"]
 aftonbladet.se##[class*="bettinglink"]
 aftonbladet.se##[class*="Disclaimer"]
