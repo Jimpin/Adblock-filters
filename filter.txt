@@ -33,7 +33,10 @@ aftonbladet.se##[class*="headerlogo-topRowLogo_"]:style(margin-left: 6px !import
 aftonbladet.se##[class*="datewidget-root_"]:style(margin-left: 350px !important;)
 aftonbladet.se##[class*="boxtext-"]:has-text(Presenteras av), :has-text(presenteras av)
 aftonbladet.se##[class="twocolumnlayout-content_3bf5"]:style(margin-top: -16px !important;)
-aftonbladet.se##[class*="hyperion-css-"]:contains(abplus)
+aftonbladet.se##div:nth-of-type(2)[class*="hyperion-css-1"] :contains(abplus)
+aftonbladet.se##[class*="hyperion-css-1"]:contains(MEST LÄST)
+aftonbladet.se##[class*="hyperion-css-1"] :contains(abplus)
+aftonbladet.se##[class*="hyperion-css-u"]:contains(abplus)
 aftonbladet.se##[class*="hyperion-css-"]:contains(•)
 aftonbladet.se##[class*="hyperion-css-"]:contains(Senaste krönikor)
 aftonbladet.se##[class*="hyperion-css-"]:contains(Testar):has([href])
@@ -118,7 +121,6 @@ utm_$document,removeparam=/^utm_/
 /picture-in-picture.js$script,domain=aftonbladet.se
 /toggle-player-floating-state.js$script,domain=aftonbladet.se
 /minimize-floating-player.js$script,domain=aftonbladet.se
-
 #Expressen.se
 expressen.se##.html-widget > div[style^="text-align: center; font-size: 10px;"]
 expressen.se##.html-widget[data-vendor]:has(script[data-vendor])
