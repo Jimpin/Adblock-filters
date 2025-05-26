@@ -25,7 +25,6 @@ aftonbladet.se##[class*="subnav-links_"]:style(margin-left: 643px !important;)
 aftonbladet.se##[class*="layoutalignmentcomponent-aside"]
 aftonbladet.se##[class*="layoutalignmentcomponent-main"]
 aftonbladet.se##[class*="layoutalignmentcomponent-container_"][class*="twocolumnlayout-article_"]:contains(abplus)
-aftonbladet.se##[class*="twocolumnlayout-article_3"]:contains(abplus)
 aftonbladet.se##[class*="viaplaysportscarousel-container_"]
 aftonbladet.se##[class*="bettinglink"]
 aftonbladet.se##[class*="Disclaimer"]
@@ -35,11 +34,27 @@ aftonbladet.se##[class*="locationwidget-"]:contains(Välj ort)
 aftonbladet.se##[class*="headerlogo-topRowLogo_"]:style(margin-left: 6px !important;)
 aftonbladet.se##[class*="datewidget-root_"]:style(margin-left: 350px !important;)
 aftonbladet.se##[class*="boxtext-"]:has-text(Presenteras av), :has-text(presenteras av)
-aftonbladet.se##[class="twocolumnlayout-content_3bf5"]:style(margin-top: -16px !important;)
+aftonbladet.se##[class*="twocolumnlayout-content_3bf5"]:style(margin-top: -16px !important;)
+aftonbladet.se##[class*="twocolumnlayout-aside"] > [class*="hyperion-css-"]:has([href*="/bil/"])
+aftonbladet.se##[class*="twocolumnlayout-aside"] > [class*="hyperion-css-"]:has([href*="/nojesbladet/"])
+aftonbladet.se##[class*="twocolumnlayout-aside"] > [class*="hyperion-css-"]:has([href*="/teknik/"])
+aftonbladet.se##[class*="twocolumnlayout-aside"] > [class*="hyperion-css-"]:has([href*="/nyheter/"]):contains(abplus)
 aftonbladet.se##div:nth-of-type(2)[class*="hyperion-css-1"] :contains(abplus)
 aftonbladet.se##[class*="hyperion-css-1"]:contains(MEST LÄST)
-aftonbladet.se##[class*="hyperion-css-1"] :contains(abplus)
-aftonbladet.se##[class*="hyperion-css-u"]:contains(abplus)
+aftonbladet.se##[class*="hyperion-css-"]:contains(Stöd)
+aftonbladet.se##[class*="hyperion-css-"]:has([src*="/widgets/"])
+aftonbladet.se##[class*="hyperion-css-"]:has([href*="frontpage"])
+aftonbladet.se##[class*="hyperion-css-"]:has([href*="/bil/"]):contains(abplus)
+aftonbladet.se##[class*="hyperion-css-"]:has([href*="/family/"]):contains(abplus)
+aftonbladet.se##[class*="hyperion-css-"]:has([href*="/nojesbladet/"]):contains(abplus)
+aftonbladet.se##[class*="hyperion-css-"]:has([href*="/nyheter/"]):contains(abplus)
+aftonbladet.se##[class*="hyperion-css-"]:has([href*="/recept/"])
+aftonbladet.se##[class*="hyperion-css-"]:has([href*="plus-box-"])
+aftonbladet.se##[class*="hyperion-css-"]:has([href*="shop-box-"])
+aftonbladet.se##[class*="hyperion-css-"]:has([href*="/matnyheter/"])
+aftonbladet.se##[class*="hyperion-css-"]:has([href*="/medlem"])
+aftonbladet.se##[class*="hyperion-css-"]:has([href*="affiliate"])
+aftonbladet.se##[class*="hyperion-css-"]:has([href*="/traning/"])
 aftonbladet.se##[class*="hyperion-css-"]:contains(•)
 aftonbladet.se##[class*="hyperion-css-"]:contains(Senaste krönikor)
 aftonbladet.se##[class*="hyperion-css-"]:contains(Testar):has([href])
@@ -60,8 +75,6 @@ aftonbladet.se##[class*="hyperion-css-"]:contains(SE HELA)
 aftonbladet.se##[class*="hyperion-css-"]:contains(ALLA DIREKTSÄNDNINGAR)
 aftonbladet.se##[class*="hyperion-css-"]:contains(ANNONS)
 aftonbladet.se##[class*="hyperion-css-"]:contains(Välj ort)
-aftonbladet.se##[class*="hyperion-css-"]:contains(GODARE)
-aftonbladet.se##[class*="hyperion-css-"]:contains(WELLOBE)
 aftonbladet.se##[class*="hyperion-css-"]:contains(Knepen) :has([href*="tv."])
 aftonbladet.se##[class*="singlecolumnlayout-article_"]:style(margin-left: 296px !important;)
 aftonbladet.se##[class*="singlecolumnlayout-main_"]:style(margin-left: 206px !important;)
@@ -124,6 +137,7 @@ utm_$document,removeparam=/^utm_/
 /picture-in-picture.js$script,domain=aftonbladet.se
 /toggle-player-floating-state.js$script,domain=aftonbladet.se
 /minimize-floating-player.js$script,domain=aftonbladet.se
+
 #Expressen.se
 expressen.se##.html-widget > div[style^="text-align: center; font-size: 10px;"]
 expressen.se##.html-widget[data-vendor]:has(script[data-vendor])
