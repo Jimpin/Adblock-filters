@@ -42,14 +42,23 @@ aftonbladet.se##div:nth-of-type(2)[class*="hyperion-css-1"] :contains(abplus)
 aftonbladet.se##[class*="followpromotionwidget-root_"]:style(margin-bottom: 5px !important;)
 aftonbladet.se##h2:has([href])
 aftonbladet.se##[class*="article-wrapper-"] [class*="hyperion-css-"]:contains(abplus)
-aftonbladet.se##[class*="singlecolumnlayout-main_"]:contains(Sillypodden):style(margin-left: 490px !important;)
+aftonbladet.se##[class*="singlecolumnlayout-main_"]:contains(Sillypodden):style(margin-left: 490px !important; overflow-x: hidden !important;)
+aftonbladet.se##[class*="hyperion-css-"] [class*="abtvteaserlink-link_"]
+aftonbladet.se##[class*="withlayout-fullWidthMobile_"] [class*="inlinevideo-videoRatio_"]:contains(fel.)
 aftonbladet.se##[class*="hyperion-css-"][aria-label*="PLUS"]
 aftonbladet.se##[class*="hyperion-css-"]:has([href*="spela-"])
 aftonbladet.se##[class*="hyperion-css-"]:contains(betyg)
+aftonbladet.se##[class*="hyperion-css-"]:contains(Video)
+aftonbladet.se##[class*="hyperion-css-"]:contains(YOUBET)
+aftonbladet.se##[class*="hyperion-css-"]:has([href*="detaljer"])
+aftonbladet.se##[class*="hyperion-css-"]:has([href*="-"]):contains(abplus):matches-css(height: 0px)
+aftonbladet.se##[class*="hyperion-css-"]:has([href*="-plus"]):contains(abplus)
+aftonbladet.se##[class*="hyperion-css-"]:has([href*="-kritik"]):contains(abplus)
+aftonbladet.se##[class*="hyperion-css-"]:has([href*="-ut-"]):contains(abplus)
 aftonbladet.se##[class*="hyperion-css-"]:has([href*="sa-blir"]):contains(abplus)
-aftonbladet.se##[class*="hyperion-css-"]:has([href*="-fall"]):contains(abplus)
 aftonbladet.se##[class*="hyperion-css-"]:has([href*="bevis"]):contains(abplus)
 aftonbladet.se##[class*="hyperion-css-"]:has([href*="atalas"]):contains(abplus)
+aftonbladet.se##[class*="hyperion-css-"]:has([href*="miljon"]):contains(abplus)
 aftonbladet.se##[class*="hyperion-css-"]:has([href*="tech"]):contains(abplus)
 aftonbladet.se##[class*="hyperion-css-"]:has([href*="/lista"]):contains(abplus)
 aftonbladet.se##[class*="hyperion-css-"]:has([href*="tabell"]):contains(abplus)
@@ -59,13 +68,17 @@ aftonbladet.se##[class*="hyperion-css-"]:has([href*="list"]):contains(abplus)
 aftonbladet.se##[class*="hyperion-css-"]:has([href*="ligorna"]):contains(abplus)
 aftonbladet.se##[class*="hyperion-css-"]:has([href*="betyg"]):contains(abplus)
 aftonbladet.se##[class*="hyperion-css-"]:has([href*="beslut"]):contains(abplus)
-aftonbladet.se##[class*="hyperion-css-"]:has([href*="elit"]):contains(abplus)
+aftonbladet.se##[class*="hyperion-css-"]:has([href*="studie"]):contains(abplus)
 aftonbladet.se##[class*="hyperion-css-"][href*="/sportbladet/a/"]:contains(abplus)
+aftonbladet.se##[class*="hyperion-css-1"]:contains(PRESENTERAS AV)
 aftonbladet.se##[class*="hyperion-css-1"] :contains(abplus)
 aftonbladet.se##[class*="hyperion-css-"] :has([src*="/widgets/"])
+aftonbladet.se##[class*="hyperion-css-"] :has([href*="/video/"])
+aftonbladet.se##[class*="hyperion-css-"]:has([href*="sportbladet/"]):contains(abplus)
+aftonbladet.se##[class*="hyperion-css-"][class^="image landscape hyperion-css-9"]
+aftonbladet.se##[class*="hyperion-css-"]:has([href*="-locka-"]):contains(abplus)
 aftonbladet.se##[class*="hyperion-css-"]:has([href*="steg-"])
 aftonbladet.se##[class*="hyperion-css-"]:has([href*="uppgifter"]):contains(abplus)
-aftonbladet.se##[class*="hyperion-css-"]:contains(Stöd)
 aftonbladet.se##[class*="hyperion-css-"]:has([href*="bevis"]):contains(abplus)
 aftonbladet.se##[class*="hyperion-css-"]:has([href*="/bil/"]):contains(abplus)
 aftonbladet.se##[class*="hyperion-css-"]:has([href*="/family/"]):contains(abplus)
@@ -81,7 +94,12 @@ aftonbladet.se##[class*="hyperion-css-"]:has([href*="godare"])
 aftonbladet.se##[class*="hyperion-css-"]:has([href*="wellobe"])
 aftonbladet.se##[class*="hyperion-css-"]:has([href*="/traning/"])
 aftonbladet.se##[class*="hyperion-css-"]:has([href*="wellobe_"])
+aftonbladet.se##[class*="hyperion-css-"]:has([href*="varnade"])
 aftonbladet.se##[class*="hyperion-css-"]:contains(•)
+aftonbladet.se##[class*="hyperion-css-"]:contains(Tävla)
+aftonbladet.se##[class*="hyperion-css-"]:contains(Premiär)
+aftonbladet.se##[class*="hyperion-css-"]:contains(Stöd)
+aftonbladet.se##[class*="hyperion-css-"]:contains(nyhetstips?)
 aftonbladet.se##[class*="hyperion-css-"]:contains(Senaste krönikor)
 aftonbladet.se##[class*="hyperion-css-"]:contains(Testar):has([href])
 aftonbladet.se##[class*="hyperion-css-"]:contains(Experten) :has([href*="/video/"])
@@ -94,7 +112,6 @@ aftonbladet.se##[class*="hyperion-css-"]:has([href*="/stryktipset-"])
 aftonbladet.se##[class*="hyperion-css-"]:has([href*="/halsa/a/"])
 aftonbladet.se##[class*="hyperion-css-"]:has([href*="/relationer/a/"])
 aftonbladet.se##[class*="hyperion-css-"]:has([href*="/tester/a/"])
-aftonbladet.se##[class*="hyperion-css-"]:has([href*="tv."]):contains(TV)
 aftonbladet.se##[class*="hyperion-css-"]:contains(-prenumeration)
 aftonbladet.se##[class*="hyperion-css-"]:contains(Titta nu):has([href*="tv.aftonbladet.se"])
 aftonbladet.se##[class*="hyperion-css-"]:contains(SE HELA)
@@ -180,6 +197,7 @@ expressen.se##.teaser:has(a[href*="/annons"], a[href*="/brandstudio"], a[href*="
 
 #Twitch.tv
 twitch.tv,player.twitch.tv##.stream-display-ad__wrapper
+twitch.tv##[data-a-target="player-overlay-click-handler"]:contains(/|Ad|ad/)
 twitch.tv##.player-adblock-notice
 twitch.tv##.core-error
 twitch.tv##.community-highlight__over-video-collapsed
@@ -215,7 +233,6 @@ twitch.tv##.player-overlay-background
 
 #Facebook
 facebook.com##[class*="html-div x"]:contains(, grupper)
-facebook.com##[class*="html-div x"]:contains(Reels)
 facebook.com##[aria-label*="Annons"][href]:has-text(/./)
 facebook.com##[aria-label*="Annons"][attributionsrc*="/comet/"]
 facebook.com##[class^="x1n"]:contains(Spons)
@@ -254,6 +271,7 @@ tv4.se,tv4play.se,embed.viaplay.com##+js(xml-prune, Ad, , /fwmrm.net\/ad\/g/)
 youtube.com###toast > .yt-notification-action-renderer.style-scope
 youtube.com##[class="vendor style-scope ytd-ticket-shelf-renderer"]
 youtube.com##.ytd-ticket-shelf-renderer.style-scope.dot
+youtube.com##tp-yt-paper-dialog.ytd-popup-container:contains(Submit)
 youtube.com###view-tickets-link
 youtube.com###ticket-shelf
 youtube.com###chat:contains(Replay is disabled)
@@ -288,6 +306,7 @@ youtube.com##.yt-alert-content
 youtube.com##.yt-core-attributed-string__link[href]:contains(.)
 youtube.com##.yt-core-attributed-string__link[href]:contains(:)
 youtube.com##ytd-reel-shelf-renderer.ytd-structured-description-content-renderer.style-scope
+youtube.com##ytd-reel-shelf-renderer.ytd-item-section-renderer.style-scope
 youtube.com###comment-teaser
 youtube.com###clarify-box
 youtube.com###movie_player > .ytp-chrome-top
@@ -353,7 +372,7 @@ svtplay.se##.play_cookie-information
 ||svtstatic.se/play/play6/images/*.png$image
 ||helix.svt.se/events$xhr
 
-#Duckduckgo.com
+#Duckduckgo/Brave
 duckduckgo.com###footer_homepage
 duckduckgo.com##.content-info__items
 duckduckgo.com##.content-info__title
@@ -364,7 +383,8 @@ duckduckgo.com##.js-onboarding-ed-slide-2.js-onboarding-ed-slide.onboarding-ed__
 duckduckgo.com##.js-onboarding-ed-slide-3.js-onboarding-ed-slide.onboarding-ed__slide-3.onboarding-ed__slide
 duckduckgo.com##.js-onboarding-ed-slide-4.js-onboarding-ed-slide.onboarding-ed__slide-4.onboarding-ed__slide
 ||duckduckgo.com/t/
-search.brave.com##div.snippet:contains(/Top stories|View all|Find elsewhere|Related queries/)
+search.brave.com##div.snippet:contains(Top stories|View all|Find elsewhere|Related queries/)
+search.brave.com##[class*="standalone"]:contains(|Videos|)
 
 #Fotbollskanalen.se
 fotbollskanalen.se##div[class$="sponsortitle"]:upward(.desktop-side-widget)
@@ -871,17 +891,18 @@ appnexus.
 *$media,redirect-rule=noopmp4-1s
 *$frame,redirect-rule=noopframe
 
-*##.blacklayer
-*##.modalPopup
+se##[class*="ChatMessage-style"] [href*="//"]
+se##.MuiStack-root:has([src*=".png"])
+se##[class*="CrossPromos-styles--CrossWrapper"]
+se##[class*="CrossPromos-styles--Title"]
+se###lazy-render-promo-banner-section
+se###lazy-render-cross-promo-cards-section:contains(Casino)
+se##[class*="horse-"].MuiStack-root:contains(casino)
+se##[id*="netboard_"]
 *##[class*="sp-message-open"]:style(position: unset !important;overflow-y: initial !important;)
 *##.sp-message-open body:style(position: unset !important;overflow-y: initial !important;)
 *##.in.fade.modal-backdrop
-*###lazy-render-promo-banner-section
-*###lazy-render-cross-promo-cards-section:contains(Casino)
-*##[class*="CrossPromos-styles--CrossWrapper"]
-*##[class*="CrossPromos-styles--Title"]
 *##li:has(.content-label:has-text(/annons/i)):remove()
-*##[id*="netboard_"]
 *##.no-scroll:style(overflow-x: hidden !important;)
 *##body:style(overflow: initial !important;)
 *##[class*="ovl"]:style(display: none !important;)
