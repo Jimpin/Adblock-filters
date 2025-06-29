@@ -43,18 +43,39 @@ aftonbladet.se##[class*="followpromotionwidget-root_"]:style(margin-bottom: 5px 
 aftonbladet.se##h2:has([href])
 aftonbladet.se##[class*="article-wrapper-"] [class*="hyperion-css-"]:contains(abplus)
 aftonbladet.se##[class*="singlecolumnlayout-main_"]:contains(Sillypodden):style(margin-left: 490px !important; overflow-x: hidden !important;)
+aftonbladet.se##[id*="panorama_"][class*="advertory-aftonbladet-panorama"]
 aftonbladet.se##[class*="hyperion-css-"] [class*="abtvteaserlink-link_"]
 aftonbladet.se##[class*="withlayout-fullWidthMobile_"] [class*="inlinevideo-videoRatio_"]:contains(fel.)
+aftonbladet.se##[class*="hyperion-css-gm"] ,[class*="hyperion-css-r9"]
+aftonbladet.se##[class*="hyperion-css-"]:has([href*="jamfor"]):contains('')
 aftonbladet.se##[class*="hyperion-css-"][aria-label*="PLUS"]
 aftonbladet.se##[class*="hyperion-css-"]:has([href*="spela-"])
 aftonbladet.se##[class*="hyperion-css-"]:contains(betyg)
 aftonbladet.se##[class*="hyperion-css-"]:contains(Video)
 aftonbladet.se##[class*="hyperion-css-"]:contains(YOUBET)
 aftonbladet.se##[class*="hyperion-css-"]:has([href*="detaljer"])
+aftonbladet.se##[class*="hyperion-css-"] [data-test-tag="internal-link"][href*="/tv."]:contains(abplus)
+aftonbladet.se##[class*="hyperion-css-"]:has([href*="tv."]):contains(abplus)
+aftonbladet.se##[class*="hyperion-css-z"]:has([href*="analys"]):contains(abplus)
+aftonbladet.se##[class*="hyperion-css-z"]:has([href*="-domen-"]):contains(abplus)
+aftonbladet.se##[class*="hyperion-css-z"]:has([href*="-fragor-"]):contains(abplus)
+aftonbladet.se##[class*="hyperion-css-z"]:has([href*="-kommer-"]):contains(abplus)
+aftonbladet.se##[class*="hyperion-css-z"]:has([href*="-ny-metod-"]):contains(abplus)
+aftonbladet.se##[class*="hyperion-css-z"]:has([href*="-radar-"]):contains(abplus)
+aftonbladet.se##[class*="hyperion-css-z"]:has([href*="-rankar-"]):contains(abplus)
+aftonbladet.se##[class*="hyperion-css-z"]:has([href*="-sen-"]):contains(abplus)
+aftonbladet.se##[class*="hyperion-css-z"]:has([href*="-slutar-"]):contains(abplus)
+aftonbladet.se##[class*="hyperion-css-z"]:has([href*="-storsta-"]):contains(abplus)
+aftonbladet.se##[class*="hyperion-css-z"]:has([href*="-synar-"]):contains(abplus)
+aftonbladet.se##[class*="hyperion-css-z"]:has([href*="-upp-"]):contains(abplus)
+aftonbladet.se##[class*="hyperion-css-z"]:has([href*="60"]):contains(abplus)
+aftonbladet.se##[class*="hyperion-css-"]:has([href*="-makeup-"]):contains(abplus)
+aftonbladet.se##[class*="hyperion-css-"][data-test-tag="internal-link"][href*="/minekonomi/a"]
 aftonbladet.se##[class*="hyperion-css-"]:has([href*="-plus"]):contains(abplus)
 aftonbladet.se##[class*="hyperion-css-"]:has([href*="-lofte-"]):contains(abplus)
 aftonbladet.se##[class*="hyperion-css-"]:has([href*="-kritik"]):contains(abplus)
 aftonbladet.se##[class*="hyperion-css-"]:has([href*="-ut-"]):contains(abplus)
+aftonbladet.se##[class*="hyperion-css-"]:has([href*="-pa-"]):contains(abplus)
 aftonbladet.se##[class*="hyperion-css-"]:has([href*="sa-blir"]):contains(abplus)
 aftonbladet.se##[class*="hyperion-css-"]:has([href*="bevis"]):contains(abplus)
 aftonbladet.se##[class*="hyperion-css-"]:has([href*="atalas"]):contains(abplus)
@@ -69,12 +90,12 @@ aftonbladet.se##[class*="hyperion-css-"]:has([href*="ligorna"]):contains(abplus)
 aftonbladet.se##[class*="hyperion-css-"]:has([href*="betyg"]):contains(abplus)
 aftonbladet.se##[class*="hyperion-css-"]:has([href*="beslut"]):contains(abplus)
 aftonbladet.se##[class*="hyperion-css-"]:has([href*="studie"]):contains(abplus)
+aftonbladet.se##[class*="hyperion-css-"]:has([href*="-sjalv-"]) ,[aria-label]:contains(abplus)
 aftonbladet.se##[class*="hyperion-css-"][href*="/sportbladet/a/"]:contains(abplus)
 aftonbladet.se##[class*="hyperion-css-1"]:contains(PRESENTERAS AV)
 aftonbladet.se##[class*="hyperion-css-1"] :contains(abplus)
 aftonbladet.se##[class*="hyperion-css-"] :has([src*="/widgets/"])
 aftonbladet.se##[class*="hyperion-css-"] :has([href*="/video/"])
-aftonbladet.se##[class*="hyperion-css-"]:has([href*="sportbladet/"]):contains(abplus)
 aftonbladet.se##[class*="hyperion-css-"][class^="image landscape hyperion-css-9"]
 aftonbladet.se##[class*="hyperion-css-"]:has([href*="-locka-"]):contains(abplus)
 aftonbladet.se##[class*="hyperion-css-"]:has([href*="steg-"])
@@ -108,9 +129,6 @@ aftonbladet.se##[class*="hyperion-css-"]:has([aria-label*="Gilla "])
 aftonbladet.se##[class*="hyperion-css-"]:has([aria-label*="Kolla "])
 aftonbladet.se##[class*="hyperion-css-"]:has([href*="tv."]):contains(SE KLIPPET)
 aftonbladet.se##[class*="hyperion-css-"]:has([href*="/stryktipset-"])
-aftonbladet.se##[class*="hyperion-css-"]:has([href*="/halsa/a/"])
-aftonbladet.se##[class*="hyperion-css-"]:has([href*="/relationer/a/"])
-aftonbladet.se##[class*="hyperion-css-"]:has([href*="/tester/a/"])
 aftonbladet.se##[class*="hyperion-css-"]:contains(-prenumeration)
 aftonbladet.se##[class*="hyperion-css-"]:contains(Titta nu):has([href*="tv.aftonbladet.se"])
 aftonbladet.se##[class*="hyperion-css-"]:contains(SE HELA)
@@ -267,9 +285,15 @@ tv4.se,tv4play.se,embed.viaplay.com##+js(xml-prune, Ad, , /fwmrm.net\/ad\/g/)
 /revcontent/bundle.js
 
 #Youtube.com
+youtube.com###contents:style(--ytd-rich-grid-items-per-row: 4;--ytd-rich-grid-posts-per-row: 4;--ytd-rich-grid-slim-items-per-row: 4;--ytd-rich-grid-game-cards-per-row: 4;--ytd-rich-grid-mini-game-cards-per-row: 4)
+youtube.com##[target="_blank"]:contains(http)
+youtube.com##[id*="ChwK"]:contains(http) :has([href])
+youtube.com##[class="style-scope yt-live-chat-text-message-renderer"]:contains(http) :has([href])
 youtube.com###toast > .yt-notification-action-renderer.style-scope
 youtube.com##[class="vendor style-scope ytd-ticket-shelf-renderer"]
 youtube.com##.ytd-ticket-shelf-renderer.style-scope.dot
+youtube.com##ytd-rich-item-renderer.ytd-rich-grid-renderer.style-scope:has-text(/nth-of-type|playlist/)
+youtube.com##ytd-rich-item-renderer.ytd-rich-grid-renderer.style-scope:has-text(/nth-of-type|Auto-dubbed/)
 youtube.com##tp-yt-paper-dialog.ytd-popup-container:contains(Submit)
 youtube.com###view-tickets-link
 youtube.com###ticket-shelf
@@ -333,6 +357,7 @@ youtube.com###masthead-ad
 youtube.com###video-masthead
 youtube.com###hats-container
 youtube.com###dismissed
+youtube.com###dismissible:contains(Auto-dubbed)
 youtube.com##.ytd-item-section-renderer.style-scope > .ytd-reel-shelf-renderer.style-scope
 youtube.com##.ytd-channel-video-player-renderer.style-scope.content > .yt-formatted-string.style-scope.yt-simple-endpoint
 youtube.com##.branding-img.iv-click-target
@@ -540,6 +565,9 @@ ratsit.se##div.share-bar
 ratsit.se##.main-content-holder.content > .container > div.row:nth-of-type(1) > .col-md-12
 
 #Hitta.se
+hitta.se##[id="hitta_desktop_companydetail_panorama_grabover"]
+hitta.se##[class="pointer-events-auto flex w-full flex-col items-center justify-center py-4"]
+hitta.se##[class*="style_skimSafeBanner__"]
 hitta.se##a[data-trackimp][target], .hitta-map .integration-txt, .section-details--alb, [class*="dummyAd"], [class*="StyledAdSlot"], [data-bind*="Ad"], div[class^="GraphicAd_"], [class*="adContainer"], [id*="_panorama"], [id*="_skyscraper"], div[style="min-height: 250px;"], div[data-track="displayplacering-customer"], a[data-test="boostAdLink"], div[class^="style_bannerContainer"], [data-track="click-promotion-banner"], div[class*="adWrapper"], div[class*="hittaAdContainer"]
 hitta.se##div[id^="hitta_mobile_"].placeholder:upward(div[class^="height"], div[class^="style_breakout"])
 hitta.se##[class^="styleManual_mainContentBox"] > div[style^="min-height"]:first-of-type
