@@ -72,6 +72,7 @@ aftonbladet.se##[class*="hyperion-css-"]:has([href*="/a/"]):contains(/Varnar:|Ex
 aftonbladet.se##[class*="hyperion-css-"]:has([href*="/guider/"])
 aftonbladet.se##[class*="hyperion-css-"]:has([href*="lagger-ner-"])
 aftonbladet.se##[class*="hyperion-css-"]:has([href*="efter-samtalet-"])
+aftonbladet.se##[class*="hyperion-css-"]:has([href*="-raddade-"])
 aftonbladet.se##[class*="hyperion-css-"]:has([href*="-inlasta-"]):contains(abplus)
 aftonbladet.se##[class*="hyperion-css-"] [data-test-tag="internal-link"][href*="/tv."]:contains(abplus)
 aftonbladet.se##[class*="hyperion-css-"]:has([href*="tv."]):contains(abplus)
@@ -92,6 +93,9 @@ aftonbladet.se##[class*="hyperion-css-z"]:has([href*="-sa-bra-har"]):contains(ab
 aftonbladet.se##[class*="hyperion-css-z"]:has([href*="v75-tips"]):contains(/V75-drag|V86-drag|V85-drag/)
 aftonbladet.se##[class*="hyperion-css-"]:has([href*="-plusbox-"]):contains(abplus)
 aftonbladet.se##[class*="hyperion-css-"]:has([href*="-makeup-"]):contains(abplus)
+aftonbladet.se##[class*="hyperion-css-"]:has([href*="-forlust"]):contains(abplus)
+aftonbladet.se##[class*="hyperion-css-"]:has([href*="-tuffa-"]):contains(abplus)
+aftonbladet.se##[class*="hyperion-css-"]:has([href*="-snusket-"]):contains(abplus)
 aftonbladet.se##[class*="hyperion-css-"][data-test-tag="internal-link"][href*="/minekonomi/a"]
 aftonbladet.se##[class*="hyperion-css-"]:has([href*="-plus"]):contains(abplus)
 aftonbladet.se##[class*="hyperion-css-"]:has([href*="-lofte-"]):contains(abplus)
@@ -328,7 +332,6 @@ youtube.com##[id*="fulfilled-layout"]
 youtube.com##[class*="style-scope ytd-ad-slot-renderer"]
 youtube.com##[id="rendering-content"][class*="style-scope ytd-in-feed-ad-layout-renderer"]
 youtube.com##[class="extended rounded-large style-scope ytd-rich-item-renderer"]
-youtube.com##[target="_blank"]:contains(http)
 youtube.com##[id*="ChwK"]:contains(http) :has([href])
 youtube.com##[class="style-scope yt-live-chat-text-message-renderer"]:contains(http) :has([href])
 youtube.com###toast > .yt-notification-action-renderer.style-scope
@@ -688,7 +691,6 @@ moviesjoy.*,movies2watch.*##[class="follow"]
 ##.disclaimer
 ##.infobanner
 ##.message-popup
-##.notification
 ##.terms-dialog
 ##[class="cookieBanner"]
 ###hotVideosSection > .alpha
@@ -779,8 +781,6 @@ moviesjoy.*,movies2watch.*##[class="follow"]
 ##.js-page-fatal-ovl-fade
 ##.js-messenger-banner.messenger-banner
 ##.block-type--shareButton
-##[data-test-id="hero-placeholder"]
-##[data-test-id="startpage-hero"]
 ##[class*="BannerFlowBanner-styles--root"]
 ##.mgid-wrapper
 ##.removeAdsLink
@@ -960,7 +960,6 @@ appnexus.
 
 se##[class*="ChatMessage-style"] [href*="//"]
 se##.MuiStack-root:has([src*=".png"])
-se##[class*="CrossPromos-styles--CrossWrapper"]
 se##[class*="CrossPromos-styles--Title"]
 se###lazy-render-promo-banner-section
 se###lazy-render-cross-promo-cards-section:contains(Casino)
