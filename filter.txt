@@ -327,8 +327,6 @@ tv4.se,tv4play.se,embed.viaplay.com##+js(xml-prune, Ad, , /fwmrm.net\/ad\/g/)
 youtube.com##.ytd-miniplayer
 youtube.com##ytd-rich-item-renderer.ytd-rich-grid-renderer.style-scope:style(margin-left: 10px !important;)
 youtube.com##.ytd-item-section-renderer.style-scope > .ytd-shelf-renderer.style-scope:contains(Posts)
-youtube.com##.ytd-ad-slot-renderer
-youtube.com##[id*="fulfilled-layout"]
 youtube.com##[class*="style-scope ytd-ad-slot-renderer"]
 youtube.com##[id="rendering-content"][class*="style-scope ytd-in-feed-ad-layout-renderer"]
 youtube.com##[class="extended rounded-large style-scope ytd-rich-item-renderer"]
