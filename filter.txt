@@ -72,10 +72,13 @@ aftonbladet.se##[class*="hyperion-css-"]:has([href*="/a/"]):contains(/Varnar:|Ex
 aftonbladet.se##[class*="hyperion-css-"]:has([href*="/guider/"])
 aftonbladet.se##[class*="hyperion-css-"]:has([href*="lagger-ner-"])
 aftonbladet.se##[class*="hyperion-css-"]:has([href*="efter-samtalet-"])
+aftonbladet.se##[class*="hyperion-css-"]:has([href*="paren-"]):contains(abplus)
+aftonbladet.se##[class*="hyperion-css-"]:has([href*="-ryden-"]):contains(abplus)
 aftonbladet.se##[class*="hyperion-css-"]:has([href*="-raddade-"])
 aftonbladet.se##[class*="hyperion-css-"]:has([href*="-inlasta-"]):contains(abplus)
 aftonbladet.se##[class*="hyperion-css-"] [data-test-tag="internal-link"][href*="/tv."]:contains(abplus)
 aftonbladet.se##[class*="hyperion-css-"]:has([href*="tv."]):contains(abplus)
+aftonbladet.se##[class*="hyperion-css-z"] ,[class*="svg-symbol hyperion-css-"]:contains(abplus)
 aftonbladet.se##[class*="hyperion-css-z"]:has([href*="analys"]):contains(abplus)
 aftonbladet.se##[class*="hyperion-css-z"]:has([href*="-domen-"]):contains(abplus)
 aftonbladet.se##[class*="hyperion-css-z"]:has([href*="-fragor-"]):contains(abplus)
@@ -250,42 +253,30 @@ expressen.se##body.didomi-popup-open:style(overflow:unset!important)
 expressen.se##.teaser:has(a[href*="/annons"], a[href*="/brandstudio"], a[href*="/brand-studio"], a[href*="/kampanj."], a[href*="/lanapengar."], a[href*="/rabattkoder."], a[href*="/spel.expressen.se"], .vignette--svg + a[href*="teknikensvarld."], .teaser__bottom--ad-marker)
 
 #Twitch.tv
-twitch.tv,player.twitch.tv##.stream-display-ad__wrapper
-twitch.tv##[data-a-target="player-overlay-click-handler"]:contains(/|Ad|ad/)
-twitch.tv##.player-adblock-notice
 twitch.tv##.core-error
 twitch.tv##.community-highlight__over-video-collapsed
 twitch.tv##.happening-now-notification__button
 twitch.tv##.subtember-gradient
-twitch.tv##.player-ad-notice
 twitch.tv##.tw-link.link-fragment
 twitch.tv##.picture-by-picture-player
 twitch.tv##.smarter-sort-callout
 twitch.tv##div.side-nav-section:contains(Categories)
 twitch.tv##[data-a-target=prime-offers-icon]
-twitch.tv##[data-a-target=try-prime-link]
+twitch.tv##[data-a-target*=prime-]
 twitch.tv##.prime-offers__pill
-twitch.tv##.blue-bar.c-text.full-width
-twitch.tv##.recommended-channels
 twitch.tv##[class*="extensions-dock__dock"]
-twitch.tv##.extension-taskbar
-twitch.tv##.extension-view__iframe
 twitch.tv###twilight-sticky-footer-root
 twitch.tv##[class*="disclosure-"]
 twitch.tv##.default-panel
 twitch.tv##.noty_bar
 twitch.tv###noty_bottomCenter_layout_container
 twitch.tv##.side-info-container
-twitch.tv##.tw-absolute.top-bar
-twitch.tv##.prime-extension-root--show.prime-extension-root
+twitch.tv##.top-bar
 twitch.tv##.charity-avatar
-twitch.tv##.headliner-ad
-twitch.tv##.tw-popover-header
 twitch.tv##.picture-by-picture-player
-twitch.tv##.player-overlay-background
 @@||static-cdn.jtvnw.net/*.png
-||edge.ads.twitch.tv$important
-||ads.twitch.tv$important
+*edge.ads$important
+*ads.twitch$important
 
 #Facebook
 facebook.com##[class*="html-div x"]:contains(, grupper)
@@ -325,6 +316,7 @@ tv4.se,tv4play.se,embed.viaplay.com##+js(xml-prune, Ad, , /fwmrm.net\/ad\/g/)
 
 #Youtube.com
 youtube.com##.ytd-miniplayer
+youtube.com##ytd-shelf-renderer.ytd-item-section-renderer.style-scope:has([href*="http"])
 youtube.com##ytd-rich-item-renderer.ytd-rich-grid-renderer.style-scope:style(margin-left: 10px !important;)
 youtube.com##.ytd-item-section-renderer.style-scope > .ytd-shelf-renderer.style-scope:contains(Posts)
 youtube.com##[class*="style-scope ytd-ad-slot-renderer"]
