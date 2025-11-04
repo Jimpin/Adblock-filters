@@ -250,6 +250,8 @@ expressen.se##body.didomi-popup-open:style(overflow:unset!important)
 expressen.se##.teaser:has(a[href*="/annons"], a[href*="/brandstudio"], a[href*="/brand-studio"], a[href*="/kampanj."], a[href*="/lanapengar."], a[href*="/rabattkoder."], a[href*="/spel.expressen.se"], .vignette--svg + a[href*="teknikensvarld."], .teaser__bottom--ad-marker)
 
 #Twitch.tv
+twitch.tv##div[aria-label="Learn more about this ad"]
+twitch.tv##div:has([aria-label="Learn more about this ad"])
 twitch.tv##.core-error
 twitch.tv##.community-highlight__over-video-collapsed
 twitch.tv##.happening-now-notification__button
@@ -312,6 +314,7 @@ tv4.se,tv4play.se,embed.viaplay.com##+js(xml-prune, Ad, , /fwmrm.net\/ad\/g/)
 /revcontent/bundle.js
 
 #Youtube.com
+youtube.com###movie_player > .ytp-overlays-container > .ytp-overlay-top-right > .ytp-chrome-top-buttons
 youtube.com##.ytd-miniplayer
 youtube.com##ytd-shelf-renderer.ytd-item-section-renderer.style-scope:has([href*="http"])
 youtube.com##ytd-rich-item-renderer.ytd-rich-grid-renderer.style-scope:style(margin-left: 10px !important;)
@@ -325,11 +328,11 @@ youtube.com###toast > .yt-notification-action-renderer.style-scope
 youtube.com##[class="vendor style-scope ytd-ticket-shelf-renderer"]
 youtube.com##.ytd-ticket-shelf-renderer.style-scope.dot
 youtube.com##ytd-rich-item-renderer.ytd-rich-grid-renderer.style-scope:has-text(/nth-of-type|playlist/)
-youtube.com##ytd-rich-item-renderer.ytd-rich-grid-renderer.style-scope:has-text(/nth-of-type|Auto-dubbed/)
 youtube.com##tp-yt-paper-dialog.ytd-popup-container:contains(Submit)
 youtube.com###view-tickets-link
 youtube.com###ticket-shelf
 youtube.com###chat:contains(Replay is disabled)
+youtube.com###chat:contains(chat replay is not available)
 youtube.com###infocards-section:contains(by)
 youtube.com###description-inline-expander > .ytd-text-inline-expander.style-scope.button:style(margin-left: 5px !important;)
 youtube.com##[class="yt-core-attributed-string--link-inherit-color"]:style(margin-bottom: 200px !important;)
@@ -450,6 +453,8 @@ fotbollskanalen.se##.visit-advertiser-link
 fotbollskanalen.se##+js(xml-prune, Ad, , /fwmrm.net\/ad\/g/)
 
 #Blocket.se
+blocket.se##[class*="BodyCard__StyledTextBody-sc-"]:contains(Länk till produkten)
+blocket.se##.AdMotor ,[class*="HorizontalRuler-sc-"]
 blocket.se##.mx-auto > [href]
 blocket.se##.\[\&_img\]\:h-full.\[\&_img\]\:w-full
 blocket.se##[class*="DataControllerBanner__BannerWrapper-sc"]
