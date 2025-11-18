@@ -327,7 +327,7 @@ youtube.com##[class="style-scope yt-live-chat-text-message-renderer"]:contains(h
 youtube.com###toast > .yt-notification-action-renderer.style-scope
 youtube.com##[class="vendor style-scope ytd-ticket-shelf-renderer"]
 youtube.com##.ytd-ticket-shelf-renderer.style-scope.dot
-youtube.com##ytd-rich-item-renderer.ytd-rich-grid-renderer.style-scope:has-text(/nth-of-type|playlist/)
+youtube.com##ytd-rich-item-renderer.ytd-rich-grid-renderer.style-scope:has-text(/nth-of-type|playlist/|podcast/)
 youtube.com##tp-yt-paper-dialog.ytd-popup-container:contains(Submit)
 youtube.com###view-tickets-link
 youtube.com###ticket-shelf
@@ -453,7 +453,11 @@ fotbollskanalen.se##.visit-advertiser-link
 fotbollskanalen.se##+js(xml-prune, Ad, , /fwmrm.net\/ad\/g/)
 
 #Blocket.se
+blocket.se##.sf-search-ad.isolate.relative:contains(Betald placering)
+blocket.se##.break-words.relative
+blocket.se##li > [class*="Link-sc-"]:has-text(.):has-text(/):has-text(www)
 blocket.se##[class*="BodyCard__StyledTextBody-sc-"]:contains(Länk till produkten)
+blocket.se##[class*="BodyCard__WarningBox-sc-"]
 blocket.se##.AdMotor ,[class*="HorizontalRuler-sc-"]
 blocket.se##.mx-auto > [href]
 blocket.se##.\[\&_img\]\:h-full.\[\&_img\]\:w-full
@@ -461,8 +465,16 @@ blocket.se##[class*="DataControllerBanner__BannerWrapper-sc"]
 blocket.se##.space-y-2.gap-4.w-full.justify-between.items-center.flex-wrap.flex:style(margin-right: -540px !important;)
 blocket.se##.hover\:text-black.text-grey700.cursor-pointer.transition-colors.underline:style(margin-left: -265px !important;)
 blocket.se##.relative:contains(Galleriet)
-blocket.se##.relative:contains(Betald)
-blocket.se##.relative:style(margin-right: 6px !important;)
+blocket.se##[id*="vend-banner"]
+blocket.se##[style="grid-area: social;"]
+blocket.se##[class="sr-only"]
+blocket.se##div.w-auto.relative.text-center:contains(Hyr bostad)
+blocket.se##[placementid*="advt_"]
+blocket.se##[class*="advt-"]
+blocket.se##[id*="advt-"]
+blocket.se##[id*="advertising-initial-state"]
+blocket.se##[id="banner-top-container"][class="banners__top"]
+blocket.se##[id*="pulse2an_"]
 blocket.se##.section-advertorial
 blocket.se##section.mx-auto.container.section-static:contains(?)
 blocket.se##[src*="cmp."]
@@ -470,7 +482,15 @@ blocket.se##[src*="/unified/"]
 blocket.se##[src*="/getuid?"]
 blocket.se##[src*="secure."]
 blocket.se##[src*=".com"]
-blocket.se##[id*="pulse2an_"]
+blocket.se##[src*=".html"]
+blocket.se##[href*="qasa."]
+blocket.se##[href*="vend."]
+blocket.se##[href*="zendesk."]
+blocket.se##.gap-12.flex-col.flex .items-center.flex
+blocket.se##.order-5
+blocket.se##.about-us__sidebar
+blocket.se##.gap-4.items-center.flex
+blocket.se##div.pt-40:nth-of-type(2)
 blocket.se##[id*="placement_panorama"] ,[class^="sc-"]
 blocket.se##[class*="Gallery__Wrapper"] ,[class^=".MediumLayoutstyled__BodyRight"]
 blocket.se##[class*="InfoBanner__Wrapper-sc"]:contains(!)
