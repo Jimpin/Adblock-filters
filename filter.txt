@@ -472,7 +472,6 @@ blocket.se##[class*="md:col-span-"] :has([href]):contains(.se):contains(lån):co
 blocket.se##div.w-auto.relative:contains(Affärsverksamhet)
 blocket.se###marketplace-navigation-bar-island:style(margin-bottom: -50px !important;)
 blocket.se##.px-16.pt-8.justify-end.flex
-blocket.se##.col-span-2:style(margin-top: -36px !important;)
 blocket.se##[class="flex justify-between mb-16"]:style(margin-bottom: -8px !important;)
 blocket.se##.isolate:style(margin-bottom: -6px !important;)
 blocket.se##.sticky:style(overflow-y: unset !important; overflow-y auto !important;)
