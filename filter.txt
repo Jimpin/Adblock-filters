@@ -453,6 +453,41 @@ fotbollskanalen.se##.visit-advertiser-link
 fotbollskanalen.se##+js(xml-prune, Ad, , /fwmrm.net\/ad\/g/)
 
 #Blocket.se
+blocket.se##[class*="order-"]:contains(Länk)
+blocket.se##[class="absolute top-0 h-full w-full pointer-events-none"]:style(overflow: hidden !important;position: unset !important;max-height: unset !important;)
+blocket.se##.gap-40.flex-col.flex.about-us__content .s-bg.relative
+blocket.se##.mb-32 > .s-bg-info-subtle.relative
+blocket.se##[class="absolute s-bg-info-subtle h-full"]:style(overflow: hidden !important;position: unset !important;max-height: unset !important;)
+blocket.se##[class*="md:col-span-"] [class*="absolute "]
+blocket.se##.overflow-hidden :style(overflow: hidden !important;max-height: unset !important;)
+blocket.se##[class*="md:col-span-1 md:row-span-2"] :contains(at)
+blocket.se##div.md\:col-span-2:nth-of-type(3):style(width: 960px !important;)
+blocket.se##div.md\:col-span-2 > div:style(width: 960px !important;)
+blocket.se##[data-testid="contact"]
+blocket.se##[class*="md:col-span-"] :has([href]):contains(.se):contains(lån):contains(låna):contains(abonnemang):contains(skulden):contains(stöd)
+blocket.se##div.w-auto.relative:contains(Affärsverksamhet)
+blocket.se###marketplace-navigation-bar-island:style(margin-bottom: -50px !important;)
+blocket.se##.px-16.pt-8.justify-end.flex
+blocket.se##.col-span-2:style(margin-top: -36px !important;)
+blocket.se##[class="flex justify-between mb-16"]:style(margin-bottom: -8px !important;)
+blocket.se##.isolate:style(margin-bottom: -6px !important;)
+blocket.se##.sticky:style(overflow-y: unset !important; overflow-y auto !important;)
+blocket.se###app:style(overflow-y: auto !important;)
+blocket.se###mobility-item-page-root:style(overflow-x: hidden !important;)
+blocket.se##.justify-self-end
+blocket.se##aurora-mobility-recommendations-podlet-isolated
+blocket.se##[class="grid grid-cols-1 md:grid-cols-3 md:gap-x-32"]:style(margin-top: -60px !important;)
+blocket.se##[aria-label="Dela annons"]
+blocket.se##[aria-haspopup="dialog"] ,[aria-label*="Ikon"]
+blocket.se##tjm-swiftcourt-contract-podlet-isolated
+blocket.se##search-sorting-info-podlet-isolated
+blocket.se##[role="alert"]:contains(/,|./)
+blocket.se##.s-text.will-change-height
+blocket.se###recommendations > section
+blocket.se##.block > [id*="recommendations"]
+blocket.se##[class*="min-h"].block
+blocket.se##.pt-24:style(margin-bottom: -26px !important;)
+blocket.se##.pt-24.flex:style(margin-top: -12px !important;)
 blocket.se##.sf-search-ad.isolate.relative:contains(Betald placering)
 blocket.se##.break-words.relative
 blocket.se##li > [class*="Link-sc-"]:has-text(.):has-text(/):has-text(www)
@@ -474,7 +509,6 @@ blocket.se##[class*="advt-"]
 blocket.se##[id*="advt-"]
 blocket.se##[id*="advertising-initial-state"]
 blocket.se##[id="banner-top-container"][class="banners__top"]
-blocket.se##[id*="pulse2an_"]
 blocket.se##.section-advertorial
 blocket.se##section.mx-auto.container.section-static:contains(?)
 blocket.se##[src*="cmp."]
@@ -483,26 +517,22 @@ blocket.se##[src*="/getuid?"]
 blocket.se##[src*="secure."]
 blocket.se##[src*=".com"]
 blocket.se##[src*=".html"]
+blocket.se##[id*="pulse2an_"]
 blocket.se##[href*="qasa."]
 blocket.se##[href*="vend."]
 blocket.se##[href*="zendesk."]
 blocket.se##.gap-12.flex-col.flex .items-center.flex
 blocket.se##.order-5
 blocket.se##.about-us__sidebar
-blocket.se##.gap-4.items-center.flex
 blocket.se##div.pt-40:nth-of-type(2)
 blocket.se##[id*="placement_panorama"] ,[class^="sc-"]
 blocket.se##[class*="Gallery__Wrapper"] ,[class^=".MediumLayoutstyled__BodyRight"]
 blocket.se##[class*="InfoBanner__Wrapper-sc"]:contains(!)
 blocket.se##[class*="MediumLayout__Related"]
-blocket.se##[class*="MediumLayout__BodyLeft"]:style(width: 970px !important;)
 blocket.se##[class*="SafePurchase__Wrapper-sc"]
-blocket.se##[class*="search_searchcontainer__"]:style(margin-right: 0px !important;grid-auto-columns: 19% !important;)
-blocket.se##[class*="SearchResultsWrapper"]:style(width: 970px !important;)
 blocket.se##[class*="SchibstedBanner__Wrapper-sc"]
 blocket.se##[class*="StoreCard__StyledTextBody-sc"]:contains(http)
 blocket.se##[class*="StyledLink-sc"]:contains(.se)
-blocket.se##[class*="styled__RightColumn-sc-"]:style(margin-right: -265px !important;)
 blocket.se##[class^="grid grid-cols-2 justify-between w-full md:flex-grow gap-3 md:mt-0"]:style(margin-left: -270px !important;)
 blocket.se##[class*="flex flex-wrap items-center !mt-4 justify-between w-full gap-4"]:style(margin-right: -535px !important;)
 blocket.se##[class*="flex-1 w-auto relative flex h-full w-full"]:style(margin-left: 205px !important;)
