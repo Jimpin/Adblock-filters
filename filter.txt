@@ -454,6 +454,7 @@ fotbollskanalen.se##+js(xml-prune, Ad, , /fwmrm.net\/ad\/g/)
 
 #Blocket.se
 blocket.se##[class*="order-"]:contains(Länk)
+blocket.se##.dealer-direction
 blocket.se##.dealer-animate-visible.s-bg.fixed.dealer-direction
 blocket.se##[data-testid="phone-number"]:style(margin-left: 96px !important;height: 40px !important; width: 200px !important;margin-top: 204px !important;)
 blocket.se##[class*="md:col-span-"]:has([href]) :contains(sida):contains(säljaren):contains(Se annonsen)
