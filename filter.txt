@@ -453,6 +453,9 @@ fotbollskanalen.se##.visit-advertiser-link
 fotbollskanalen.se##+js(xml-prune, Ad, , /fwmrm.net\/ad\/g/)
 
 #Blocket.se
+blocket.se##.break-words:style(width: 700px !important;)
+blocket.se##finn-contact-button
+blocket.se##[data-testid="phone-number"]:style(margin-top: -12px !important;)
 blocket.se##[class*="order-"]:contains(Länk)
 blocket.se##.dealer-direction
 blocket.se##.dealer-animate-visible.s-bg.fixed.dealer-direction
@@ -461,9 +464,9 @@ blocket.se##[class*="md:col-span-"]:has([href]) :contains(sida):contains(säljar
 blocket.se##[class="absolute top-0 h-full w-full pointer-events-none"]:style(overflow: hidden !important;position: unset !important;max-height: unset !important;)
 blocket.se##.gap-40.flex-col.flex.about-us__content .s-bg.relative
 blocket.se##.mb-32 > .s-bg-info-subtle.relative
-blocket.se##[class="absolute s-bg-info-subtle h-full"]:style(overflow: hidden !important;position: unset !important;max-height: unset !important;)
+blocket.se##[class="absolute s-bg-info-subtle h-full"]:style(overflow-y: hidden !important;position: unset !important;max-height: unset !important;)
 blocket.se##[class*="md:col-span-"] [class*="absolute "]
-blocket.se##.overflow-hidden :style(overflow: hidden !important;max-height: unset !important;)
+blocket.se##.overflow-hidden :style(overflow-y: hidden !important;max-height: unset !important;)
 blocket.se##[class*="md:col-span-1 md:row-span-2"] :contains(at)
 blocket.se##div.md\:col-span-2:nth-of-type(3):style(width: 960px !important;)
 blocket.se##div.md\:col-span-2 > div:style(width: 960px !important;)
@@ -474,8 +477,9 @@ blocket.se###marketplace-navigation-bar-island:style(margin-bottom: -50px !impor
 blocket.se##.px-16.pt-8.justify-end.flex
 blocket.se##[class="flex justify-between mb-16"]:style(margin-bottom: -8px !important;)
 blocket.se##.isolate:style(margin-bottom: -6px !important;)
-blocket.se##.sticky:style(overflow-y: unset !important; overflow-y auto !important;)
-blocket.se###app:style(overflow-y: auto !important;)
+blocket.se###app:style(overflow-y: auto !important;overflow-y: hidden !important;)
+blocket.se##.sticky:style(overflow-y: hidden !important;)
+blocket.se##app:style(overflow-y: hidden !important;overflow-x: hidden !important;)
 blocket.se###mobility-item-page-root:style(overflow-x: hidden !important;)
 blocket.se##.justify-self-end
 blocket.se##aurora-mobility-recommendations-podlet-isolated
@@ -544,7 +548,6 @@ blocket.se##.is-grid.group:style(width: 970px !important;)
 blocket.se##.w-full.list > div:style(width: 970px !important;)
 blocket.se##.card-with-link
 blocket.se##picture.no-image
-blocket.se##body:style(overflow: auto !important;)
 /toplistings$xhr,domain=blocket.se
 /campaign$xhr,domain=blocket.se
 ||logs2.xiti.com^
@@ -1015,7 +1018,6 @@ se##[id*="netboard_"]
 *##.in.fade.modal-backdrop
 *##li:has(.content-label:has-text(/annons/i)):remove()
 *##.no-scroll:style(overflow-x: hidden !important;)
-*##body:style(overflow: initial !important;)
 *##[class*="ovl"]:style(display: none !important;)
 *##.overlay[opacity]:style(display: none !important;)
 *##html.open-modal .overlay:style(display: none !important)
