@@ -477,9 +477,8 @@ blocket.se###marketplace-navigation-bar-island:style(margin-bottom: -50px !impor
 blocket.se##.px-16.pt-8.justify-end.flex
 blocket.se##[class="flex justify-between mb-16"]:style(margin-bottom: -8px !important;)
 blocket.se##.isolate:style(margin-bottom: -6px !important;)
-blocket.se###app:style(overflow-y: auto !important;overflow-y: hidden !important;)
-blocket.se##.sticky:style(overflow-y: hidden !important;)
-blocket.se##app:style(overflow-y: hidden !important;overflow-x: hidden !important;)
+blocket.se##.sticky:style(overflow: unset !important;)
+blocket.se###app:style(overflow: auto !important;overflow-y hidden !important;)
 blocket.se###mobility-item-page-root:style(overflow-x: hidden !important;)
 blocket.se##.justify-self-end
 blocket.se##aurora-mobility-recommendations-podlet-isolated
