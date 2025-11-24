@@ -4,6 +4,7 @@
 ! License: GPL-3.0 License | https://github.com/Jimpin/Adblock-filters/blob/master/LICENSE
 
 #Aftonbladet.se
+aftonbladet.se###application > div:style(overflow-x: hidden !important;)
 aftonbladet.se##hr.break
 aftonbladet.se##[style*="min-height:"]:has([src])
 aftonbladet.se##em:has([href])
@@ -453,13 +454,23 @@ fotbollskanalen.se##.visit-advertiser-link
 fotbollskanalen.se##+js(xml-prune, Ad, , /fwmrm.net\/ad\/g/)
 
 #Blocket.se
+blocket.se##[class="mr-12 mt-16"] ,[class="mr-6"]
+blocket.se##[class="flex space-x-16"]
+blocket.se##recommerce-recommendations-podlet-isolated
+blocket.se##[class*=" py-12 px-16 text-m leading"]
+blocket.se##[class*="w-full max-w-full! flex items-center space-x-4  py-10 px-14 text-m leading-[24] border-2 rounded-8 font-bold focusable justify-center transition-colors ease-in-out s-text-link s-border s-bg hover:s-bg-hover hover:s-border-hover active:s-bg-active"]
+blocket.se##.md\:w-full.md\:h-\[236\].h-\[152\].md\:top-0.md\:ml-0.-top-16.overflow-hidden.relative.items-center.justify-center.flex
+blocket.se##[class="border-t pb-24 pt-24 space-y-16"]
+blocket.se##[class="details"] :has([href*="allabolag"])
+blocket.se##a.verified-company
+blocket.se##[aria-label="Köp varan"]
+blocket.se##[class="skiplink"]
 blocket.se##.break-words:style(width: 700px !important;)
 blocket.se##finn-contact-button
-blocket.se##[data-testid="phone-number"]:style(margin-top: -12px !important;)
+blocket.se##[data-testid="phone-number"]:style(margin-top: -12px !important;margin-left: 96px !important; width: 200px !important)
 blocket.se##[class*="order-"]:contains(Länk)
 blocket.se##.dealer-direction
 blocket.se##.dealer-animate-visible.s-bg.fixed.dealer-direction
-blocket.se##[data-testid="phone-number"]:style(margin-left: 96px !important;height: 40px !important; width: 200px !important;margin-top: 204px !important;)
 blocket.se##[class*="md:col-span-"]:has([href]) :contains(sida):contains(säljaren):contains(Se annonsen)
 blocket.se##[class="absolute top-0 h-full w-full pointer-events-none"]:style(overflow: hidden !important;position: unset !important;max-height: unset !important;)
 blocket.se##.gap-40.flex-col.flex.about-us__content .s-bg.relative
