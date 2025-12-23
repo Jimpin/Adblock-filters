@@ -454,6 +454,10 @@ fotbollskanalen.se##.visit-advertiser-link
 fotbollskanalen.se##+js(xml-prune, Ad, , /fwmrm.net\/ad\/g/)
 
 #Blocket.se
+blocket.se###app:has([aria-labelledby="filters-heading"]):style(overflow-y: visible !important;overflow: hidden !important;)
+blocket.se###app [class=""]:style(overflow-y: clip !important;)
+blocket.se##.overflow-y-scroll:style(overflow-y: visible !important;)
+blocket.se##.banners
 blocket.se##[class="mr-12 mt-16"] ,[class="mr-6"]
 blocket.se##[class="flex space-x-16"]
 blocket.se##recommerce-recommendations-podlet-isolated
@@ -488,8 +492,6 @@ blocket.se###marketplace-navigation-bar-island:style(margin-bottom: -50px !impor
 blocket.se##.px-16.pt-8.justify-end.flex
 blocket.se##[class="flex justify-between mb-16"]:style(margin-bottom: -8px !important;)
 blocket.se##.isolate:style(margin-bottom: -6px !important;)
-blocket.se##.sticky:style(overflow: unset !important;)
-blocket.se###app:style(overflow: auto !important;overflow-y hidden !important;)
 blocket.se###mobility-item-page-root:style(overflow-x: hidden !important;)
 blocket.se##.justify-self-end
 blocket.se##aurora-mobility-recommendations-podlet-isolated
