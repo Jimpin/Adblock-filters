@@ -5,6 +5,7 @@
 
 #Aftonbladet.se
 aftonbladet.se###application > div:style(overflow-x: hidden !important;)
+aftonbladet.se##[class*="_navBarLink_"]:has-text(/Hej|Plus/)
 aftonbladet.se##hr.break
 aftonbladet.se##[style*="min-height:"]:has([src])
 aftonbladet.se##em:has([href])
@@ -60,6 +61,7 @@ aftonbladet.se##[class*="hyperion-css-"] [class*="abtvteaserlink-link_"]
 aftonbladet.se##[class*="withlayout-fullWidthMobile_"] [class*="inlinevideo-videoRatio_"]:contains(fel.)
 aftonbladet.se##[class*="horizontalrule-speltips_"]
 aftonbladet.se##[data-test-tag="image"][class*="image landscape hyperion-css-"] [style="aspect-ratio: 1900 / 210;"]
+aftonbladet.se##[class*="hyperion-css-1m"]:has([href])
 aftonbladet.se##[class*="hyperion-css-gm"] ,[class*="hyperion-css-r9"]
 aftonbladet.se##[class*="hyperion-css-uo"]:style(margin-top: -7px !important;)
 aftonbladet.se##[class*="hyperion-css-"]:has([aria-label*="snusket"])
@@ -288,6 +290,7 @@ facebook.com##[class*="x1l"][aria-label*="Annons"]:has-text(/./)
 ##.cookie-banner
 
 #Google
+google.*##form > div [value="Jag har tur"]
 google.*##a[href][ping]:remove-attr(ping)
 google.*##html:style(overflow-y: auto !important;)
 google.*##.section-result[data-result-ad-type]
@@ -454,6 +457,8 @@ fotbollskanalen.se##.visit-advertiser-link
 fotbollskanalen.se##+js(xml-prune, Ad, , /fwmrm.net\/ad\/g/)
 
 #Blocket.se
+blocket.se##+js(set-constant, window.scrollTo, noopFunc)
+blocket.se##.overflow-y-scroll:style(overflow-y: unset !important;)
 blocket.se###app:has([aria-labelledby="filters-heading"]):style(overflow-y: visible !important;overflow: hidden !important;)
 blocket.se###app [class=""]:style(overflow-y: clip !important;)
 blocket.se##.overflow-y-scroll:style(overflow-y: visible !important;)
