@@ -4,24 +4,93 @@
 ! License: GPL-3.0 License | https://github.com/Jimpin/Adblock-filters/blob/master/LICENSE
 
 #Aftonbladet.se
+aftonbladet.se##.content :contains(nyhetstips?)
+aftonbladet.se##[class*="_article_"]:contains(tidning)
+aftonbladet.se###content:style(margin-left: 36px !important;)
+aftonbladet.se##[class*="_topRowContent_"] :has([href*="etidning"])
+aftonbladet.se##[class*="_navBarSearch_u"]:style(margin-left: 470px !important;)
+aftonbladet.se##[class*="_buyPlus_"]
+aftonbladet.se##[href*="abplus"]
+aftonbladet.se##[class*="_otherLinks_"]:style(margin-bottom: 100px !important;)
+aftonbladet.se##.aside > track-element :contains(Nyheter)
+aftonbladet.se##[class*="_tvnuContainer_"]
+aftonbladet.se##track-element:remove-attr(/data-track/)
+aftonbladet.se##track-element:has([data-skin="pluss"])
+aftonbladet.se##astro-island:nth-of-type(1):has([data-skin="pluss"])
+aftonbladet.se###application > div > div:contains(LISTA:)
+aftonbladet.se##[href*="manager."]
+aftonbladet.se##[style="display: block;"]
+aftonbladet.se##[class*="_row_2pulp_"]:style(padding: var(--border-radius-xs) !important;)
+aftonbladet.se##[class*="bundle"]:has([data-skin="pluss"])
+aftonbladet.se##[data-test-tag*="paragraph-header"]:has([href])
+aftonbladet.se##[class*="break-root_"]
+aftonbladet.se##p > [class*="hyperion-css-1"] > [role="img"]
+aftonbladet.se##p:contains(Annons)
+aftonbladet.se##.content:style(--feed-gap: clamp(var(--space-xs),calc((16 / 0) * 0vw),var(--space-m)))
+aftonbladet.se##.sport-events-carousel__list:style(padding: 6px !important; margin-left: -6px !important; margin-top: -6px !important; margin-bottom: -6px !important;)
+aftonbladet.se##.feed:style(margin-top: -12px !important;)
+aftonbladet.se###content:style(gap: unset !important;)
+aftonbladet.se##track-element:contains(gratis)
+aftonbladet.se##[class*="_teaserContainer_"]:has([href*="gratis"])
+aftonbladet.se##.sport-events-carousel__list:style(gap: var(--sports-space-xs) !important;)
+aftonbladet.se##[data-skin="campaign"]
 aftonbladet.se###application > div:style(overflow-x: hidden !important;)
 aftonbladet.se##[class*="_navBarLink_"]:has-text(/Hej|Plus/)
+aftonbladet.se##[href="/plus"] ,[href="/hej"]
+aftonbladet.se##[class*="_tvnuContainer_"]:style(margin-bottom: 2px !important;)
+aftonbladet.se##[class*="_full_"]:contains(NYTT SPEL)
+aftonbladet.se##[class*="_container_"]:contains(AFTONBLADET DIREKT):style(margin-bottom: 2px !important;)
+aftonbladet.se##[class*="_container_"]:contains(Senaste nytt):style(margin-bottom: 2px !important;)
+aftonbladet.se##[class*="_container_"]:contains(krönikor):style(margin-bottom: 2px !important;)
+aftonbladet.se##[class*="_container_"]:contains(blog):style(margin-bottom: 4px !important;)
+aftonbladet.se##[class*="_bottomBar_"]
+aftonbladet.se##[class*="layoutalignmentcomponent-main-column"]:contains(PLUS)
+aftonbladet.se##[class*="_border-full_"]:has([data-skin="pluss"])
+aftonbladet.se##track-element:has([data-skin="pluss"])
+aftonbladet.se##[data-track-access-level-name="plus"][data-track-access-level="Paid"]
+aftonbladet.se##[class*="_rows_"] :has([href*="/video/"])
+aftonbladet.se##[class*="singlecolumnlayout-main_"]:contains(Tipsa!):style(margin-left: 192px !important;)
+aftonbladet.se##.singlecolumnlayout-main_8345:style(width: 1090px !important;)
+aftonbladet.se##[class*="hyperion-css-"].default_feature:style(width: 900px !important; margin-top: 20px !important;)
+aftonbladet.se##[class*="default_feature hyperion-css-"]:style(height: 620px !important;)
+aftonbladet.se##[id="advert-config"]
+aftonbladet.se##.articles:style(margin-left: -40px !important; margin-right: -40px !important; margin-top: -10px !important;)
+aftonbladet.se##.border-radius-xs.page-intro:style(margin-left: 32px !important; margin-top: -10px !important;)
+aftonbladet.se##[class="subscribe_box ad-box leftAd netboard advert module banner leaderboard adsbygoogle ad-banner ad-container adsbox sidebar-ads banner-ads"]
+aftonbladet.se##[id="ads-advertory-anchor"]
+aftonbladet.se##[class*="twocolumnlayout-root_"]:has([data-skin="pluss"])
+aftonbladet.se##[class*="article-wrapper-"] > iframe
+aftonbladet.se##.singlecolumnlayout-article_8345.singlecolumnlayout-root_8345:style(margin-left: 306px !important;)
+aftonbladet.se##.sports-olympic-events-carousel
+aftonbladet.se##[class*="layoutalignmentcomponent-container_"]:contains(Nästa artikel)
+aftonbladet.se##[class*="hyperion-css-"]:has([href]):contains(abplus)
+aftonbladet.se##[class*="hyperion-css-"] :contains(abplus)
+aftonbladet.se##.twocolumnlayout-root_3bf5:style(margin-top: -16px !important;)
+aftonbladet.se##[class*="_subNavSection_"][href="/sportbladet"]:style(margin-left: -2px !important;)
+aftonbladet.se##[class*="hyperion-css-1"] :contains(Gilla)
+aftonbladet.se##[class*="hyperion-css-1"]:contains(TIPPA)
+aftonbladet.se##smart-frame
+aftonbladet.se##div :has([aria-label*="Meteorologen:"])
+aftonbladet.se##[class*="twocolumnlayout-"] ,iframe:contains(Plus)
+aftonbladet.se##[class="articles"] :has([class*="plus"])
+aftonbladet.se##[class*="_teaserContainer"]:has([data-skin*="plus"])
 aftonbladet.se##.right
 aftonbladet.se##.aside, .feed:style(gap: 2px !important;)
-aftonbladet.se##.content:style(margin-top: -20px !important;)
+aftonbladet.se##.content:style(margin-top: -12px !important;)
 aftonbladet.se##.content:style(margin-left: 20px !important;)
 aftonbladet.se##.feed:style(margin-left: -40px !important;)
 aftonbladet.se##[class*="_tvnuContainer_"]:style(border: 0 !important;margin-bottom: 4px !important;)
+aftonbladet.se##[class*="_listItem"]:has([class*="plusBadge"])
+aftonbladet.se##[class*="_list_"] :has([aria-label="Plus"])
+aftonbladet.se##.aside :has([href*="/kategori/"])
+aftonbladet.se##[class*="_chroniclersContainer_"]:not([aria-label="Plus"])
+aftonbladet.se##[class*="_blogsContainer_"]:style(margin-top: 2px !important;)
 aftonbladet.se##.color-text-primary:contains(Plus)
-aftonbladet.se##astro-island > .bundle:contains(ikon)
-aftonbladet.se##astro-island:has([data-skin="pluss"])
-aftonbladet.se##.aside :has([class*="plusBadge"])
 aftonbladet.se##[class*="_slider_"]:style(gap: 40px !important;)
 aftonbladet.se##[class*="_header_"]:style(margin-bottom: 2px !important;)
 aftonbladet.se##.label-medium:contains(PLUS-prenumeration)
 aftonbladet.se##[data-skin="pluss"]
 aftonbladet.se##[class*="_inset"]:has([data-skin="pluss"])
-aftonbladet.se##div.inset :has([href*="tv"])
 aftonbladet.se##header:remove-class(is-minimized)
 aftonbladet.se##.aside:style(margin-left: -8px !important;)
 aftonbladet.se##[class*="_adLabel_"]
@@ -35,6 +104,7 @@ aftonbladet.se##[href="/tagg/kampsport"]
 aftonbladet.se##[class*="twocolumnlayout-aside_"]:contains(Se alla)
 aftonbladet.se##astro-island :has([href*="tv."])
 aftonbladet.se##astro-island :has([href*="godare"])
+aftonbladet.se##astro-island :has([href*="koket"])
 aftonbladet.se##astro-island :has([href*="wellobe"])
 aftonbladet.se##hr.break
 aftonbladet.se##[style*="min-height:"]:has([src])
@@ -49,7 +119,6 @@ aftonbladet.se##[id*="url-component-"]
 aftonbladet.se##[id*="takeover-container"]
 aftonbladet.se##[id*="cc-comments"]
 aftonbladet.se##[id*="ab-paywall"]:has([href])
-aftonbladet.se##[style="min-height: 230px;"] ,[class*="embedded"]:has([href])
 aftonbladet.se##[data-test-tag="paragraph-header"]:contains(abplus)
 aftonbladet.se##[data-test-tag="paragraph-header"]:contains(LÄS MER)
 aftonbladet.se##[class*="subnav-links_"]:style(margin-left: 643px !important;)
@@ -89,6 +158,7 @@ aftonbladet.se##div[class][style*="text"]:has(h3:has-text(/annonslänkar/i))
 aftonbladet.se##.ab-responsive-ads-wrapper
 aftonbladet.se###data-controller-stripe
 aftonbladet.se##.entryShareButton
+malservice.aftonbladet.se##.header:style(margin-left: 20px !important;margin-right: -20px !important;)
 acast.com##[alt="Advertisement"]
 acast.com##[data-test-id="AirTimeAdControls__CountDown"]
 acast.com##[data-test-id="Link"]
@@ -110,7 +180,6 @@ klart.se##+js(remove-class, mega-loading)
 ||relevant-digital.com^
 ||adsdk.microsoft.com^
 utm_$document,removeparam=/^utm_/
-/cmp/*$image
 /cast_sender.js
 /meta_promo_preview_540p.mp4$media
 /meta_preview_360p.mp4$media
@@ -138,6 +207,12 @@ expressen.se##body.didomi-popup-open:style(overflow:unset!important)
 expressen.se##.teaser:has(a[href*="/annons"], a[href*="/brandstudio"], a[href*="/brand-studio"], a[href*="/kampanj."], a[href*="/lanapengar."], a[href*="/rabattkoder."], a[href*="/spel.expressen.se"], .vignette--svg + a[href*="teknikensvarld."], .teaser__bottom--ad-marker)
 
 #Twitch.tv
+twitch.tv##.community-highlight-stack__backlog-card
+twitch.tv##.channel-panels
+twitch.tv##[class*="brandedHalo"]
+twitch.tv##[data-a-target="stream-title"]:style(pointer-events: none !important;)
+twitch.tv##body > button
+twitch.tv##.tw-svg > svg [class*="ScBalloonWrapper-sc-"]
 twitch.tv##div[aria-label="Learn more about this ad"]
 twitch.tv##div:has([aria-label="Learn more about this ad"])
 twitch.tv##.core-error
@@ -203,10 +278,14 @@ tv4.se,tv4play.se,embed.viaplay.com##+js(xml-prune, Ad, , /fwmrm.net\/ad\/g/)
 /revcontent/bundle.js
 
 #Youtube.com
+youtube.com##[class*="yt-lockup-view-model"]:has([href*="/shorts/"])
+youtube.com##[class*="smartimation__"]:contains(Subscribe)
+youtube.com##ytd-rich-grid-renderer:style(--ytd-rich-grid-items-per-row: 5 !important;)
 youtube.com###movie_player > .ytp-overlays-container > .ytp-overlay-top-right > .ytp-chrome-top-buttons
+youtube.com##[id="video-preview"]
+youtube.com##[class="ytTooltipContainerHost"]
 youtube.com##.ytd-miniplayer
 youtube.com##ytd-shelf-renderer.ytd-item-section-renderer.style-scope:has([href*="http"])
-youtube.com##ytd-rich-item-renderer.ytd-rich-grid-renderer.style-scope:style(margin-left: 10px !important;)
 youtube.com##.ytd-item-section-renderer.style-scope > .ytd-shelf-renderer.style-scope:contains(Posts)
 youtube.com##[class*="style-scope ytd-ad-slot-renderer"]
 youtube.com##[id="rendering-content"][class*="style-scope ytd-in-feed-ad-layout-renderer"]
@@ -223,18 +302,19 @@ youtube.com###ticket-shelf
 youtube.com###chat:contains(Replay is disabled)
 youtube.com###chat:contains(chat replay is not available)
 youtube.com###infocards-section:contains(by)
-youtube.com###description-inline-expander > .ytd-text-inline-expander.style-scope.button:style(margin-left: 5px !important;)
 youtube.com##[class="yt-core-attributed-string--link-inherit-color"]:style(margin-bottom: 200px !important;)
 youtube.com##[class="style-scope ytd-text-inline-expander"]:style(margin-bottom: 20px !important;)
-youtube.com##ytd-video-description-infocards-section-renderer.ytd-structured-description-content-renderer.style-scope:contains(Chapters)
-youtube.com##ytd-horizontal-card-list-renderer.ytd-structured-description-content-renderer.style-scope:contains(Chapters)
+youtube.com##.ytAttributedStringLink:contains(.)
+youtube.com##.ytAttributedStringLink:contains(/)
+youtube.com###page-header-banner > .ytd-tabbed-page-header.style-scope
+youtube.com##body > button
+youtube.com##.ytSmartImationsContent > ytd-button-renderer
 youtube.com##a.bold.yt-formatted-string.style-scope.yt-simple-endpoint:contains(#)
 youtube.com##[id="expand-sizer"] ,[id="ellipsis"]
 youtube.com##ytd-comment-view-model.ytd-comment-replies-renderer.style-scope > .ytd-comment-view-model.style-scope:style(margin-left: 40px !important;)
 youtube.com##yt-chip-cloud-chip-renderer.ytd-feed-filter-chip-bar-renderer.style-scope:contains(Live)
 youtube.com##ytd-rich-section-renderer:style(width: 0% !important;)
 youtube.com##ytd-rich-item-renderer.ytd-rich-grid-renderer.style-scope:contains(Spons)
-youtube.com##.ytd-watch-next-secondary-results-renderer :has([href^="/shorts/"])
 youtube.com###continuations.ytd-watch-next-secondary-results-renderer.style-scope ,[href*="/shorts/"]
 youtube.com##[class^="style-scope ytd-expanded-shelf-contents-renderer"] [id^="dismissible"]:contains(SHORTS)
 youtube.com##[class="style-scope yt-live-chat-banner-manager"]
@@ -250,7 +330,6 @@ youtube.com###offer-module
 youtube.com##.yt-alert-content
 youtube.com##.yt-core-attributed-string__link[href]:contains(.)
 youtube.com##.yt-core-attributed-string__link[href]:contains(:)
-youtube.com##ytd-reel-shelf-renderer.ytd-structured-description-content-renderer.style-scope
 youtube.com##ytd-reel-shelf-renderer.ytd-item-section-renderer.style-scope
 youtube.com###comment-teaser
 youtube.com###clarify-box
@@ -343,8 +422,10 @@ fotbollskanalen.se##+js(xml-prune, Ad, , /fwmrm.net\/ad\/g/)
 
 #Blocket.se
 blocket.se##+js(set-constant, window.scrollTo, noopFunc)
+blocket.se##.break-words:style(text-wrap-style: balance !important;)
+blocket.se##[class*="break-words mb-24"]:style(margin: 0px -3px 8px !important;)
 blocket.se##.overflow-y-scroll:style(overflow-y: unset !important;)
-blocket.se###app:has([aria-labelledby="filters-heading"]):style(overflow-y: visible !important;overflow: hidden !important;)
+blocket.se##.page-container:style(overflow: hidden !important;)
 blocket.se###app [class=""]:style(overflow-y: clip !important;)
 blocket.se##.overflow-y-scroll:style(overflow-y: visible !important;)
 blocket.se##.banners
@@ -464,6 +545,11 @@ onlinevideoconverter.*##[href^="https://www.linkconnector.com/ta.php"]
 /1clkn/*$xhr
 
 #Hemnet.se
+hemnet.se##[class*="MyHomeFeature"]
+hemnet.se##[class*="StickySubscription"]
+hemnet.se##[class*="MapWithCards"]
+hemnet.se##[class*="SearchListingsMap"]
+hemnet.se##section
 hemnet.se##article[class^="ArticleCard"]:has-text(/sponsrad/i)
 hemnet.se##body:style(overflow:unset!important)
 hemnet.se##div[class^="ArticleCard_"] small:has-text(/sponsrad/i):upward(article, li, a)
