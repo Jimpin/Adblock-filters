@@ -16,12 +16,10 @@ aftonbladet.se##.aside > track-element :contains(Nyheter)
 aftonbladet.se##[class*="_tvnuContainer_"]
 aftonbladet.se##track-element:remove-attr(/data-track/)
 aftonbladet.se##track-element:has([data-skin="pluss"])
-aftonbladet.se##astro-island:nth-of-type(1):has([data-skin="pluss"])
 aftonbladet.se###application > div > div:contains(LISTA:)
 aftonbladet.se##[href*="manager."]
 aftonbladet.se##[style="display: block;"]
 aftonbladet.se##[class*="_row_2pulp_"]:style(padding: var(--border-radius-xs) !important;)
-aftonbladet.se##[class*="bundle"]:has([data-skin="pluss"])
 aftonbladet.se##[data-test-tag*="paragraph-header"]:has([href])
 aftonbladet.se##[class*="break-root_"]
 aftonbladet.se##p > [class*="hyperion-css-1"] > [role="img"]
@@ -30,7 +28,6 @@ aftonbladet.se##.content:style(--feed-gap: clamp(var(--space-xs),calc((16 / 0) *
 aftonbladet.se##.sport-events-carousel__list:style(padding: 6px !important; margin-left: -6px !important; margin-top: -6px !important; margin-bottom: -6px !important;)
 aftonbladet.se##.feed:style(margin-top: -12px !important;)
 aftonbladet.se###content:style(gap: unset !important;)
-aftonbladet.se##track-element:contains(gratis)
 aftonbladet.se##[class*="_teaserContainer_"]:has([href*="gratis"])
 aftonbladet.se##.sport-events-carousel__list:style(gap: var(--sports-space-xs) !important;)
 aftonbladet.se##[data-skin="campaign"]
