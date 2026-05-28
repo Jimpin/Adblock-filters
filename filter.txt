@@ -4,11 +4,13 @@
 ! License: GPL-3.0 License | https://github.com/Jimpin/Adblock-filters/blob/master/LICENSE
 
 #Aftonbladet.se
+aftonbladet.se##.lFormat.content:style(margin-left: 36px !important;)
+aftonbladet.se##.sports-tournament-page:style(margin-left: 32px !important;margin-right: -32px !important;)
+aftonbladet.se##.content:style(margin-left: 36px !important;)
 aftonbladet.se##[class*="bundle _bundle_"]:has([data-skin="pluss"])
 aftonbladet.se##[class*="_bundle"] :has([href]) :has([data-skin="pluss"])
 aftonbladet.se##[class*="_bundle"]:has([href*="manager."])
 aftonbladet.se##[class*="_bundle"]:has([href*="/bil/"])
-aftonbladet.se##.content:style(margin-left: -90px !important;)
 aftonbladet.se##.aside [class*="_container_"]:style(margin-top: -12x !important;)
 aftonbladet.se##.content:style(margin-top: -20px !important;)
 aftonbladet.se###feed:style(margin-top: 6px !important;)
@@ -166,6 +168,7 @@ aftonbladet.se##.ab-responsive-ads-wrapper
 aftonbladet.se###data-controller-stripe
 aftonbladet.se##.entryShareButton
 malservice.aftonbladet.se##.header:style(margin-left: 20px !important;margin-right: -20px !important;)
+malservice.aftonbladet.se##.layout .content:style(margin-left: 0px !important;)
 acast.com##[alt="Advertisement"]
 acast.com##[data-test-id="AirTimeAdControls__CountDown"]
 acast.com##[data-test-id="Link"]
