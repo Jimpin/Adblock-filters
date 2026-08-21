@@ -4,21 +4,37 @@
 ! License: GPL-3.0 License | https://github.com/Jimpin/Adblock-filters/blob/master/LICENSE
 
 #Aftonbladet.se
+aftonbladet.se##section._bundle_2pulp_1.bundle:contains(LIVE-TV:)
+aftonbladet.se##p.body-medium.layout-padded.layout-normal.layout-component:contains(ANNONS:)
+aftonbladet.se##.sports-team-page:style(margin-left: 32px !important;margin-right: -32px !important;)
+aftonbladet.se##.singlecolumnlayout-main_8345:style(margin-left: 482px !important;)
+aftonbladet.se##[class*="closed"]:contains(/ANNONS|[]/)
+aftonbladet.se##[class*="css-"] > div :contains(/ANNONS:|andelssystemet!/)
+aftonbladet.se###Bonusrek ,[class*="_nav_"]
+aftonbladet.se##[class*="hyperion-css"]:contains(ANNONS)
+aftonbladet.se##[class*="hyperion-css-koengj"]:style(margin-top: 8px !important;)
+aftonbladet.se##[class*="hyperion-css-wj2wju"]:style(margin-top: 4px !important;)
+aftonbladet.se##[class*="_mainMenuGroup_"]:contains(Plus)
+aftonbladet.se##[class*="_groupLink_"]:contains(/Mode|resan|Wellobe|Köket|Klart|Tv.nu|TV-guide/)
+aftonbladet.se##[class*="_linkTitle_"] ,[class*="_plain_"]:contains(/Schibsted|Omni|S|TV|Pod/)
+aftonbladet.se##[class*="_otherLinks_"] :style(margin-bottom: 200px !important;)
+aftonbladet.se##.layout-component:contains(Annons)
+aftonbladet.se##[class*="comments-"]
+aftonbladet.se##[class*="advertory-aftonbladet-integration-wrapper"]
+aftonbladet.se##.sports-promoted-events-carousel:style(margin-top: 1px !important;)
+aftonbladet.se##.aside:style(margin-top: 6px !important;)
 aftonbladet.se##.lFormat.content:style(margin-left: 36px !important;)
 aftonbladet.se##.sports-tournament-page:style(margin-left: 32px !important;margin-right: -32px !important;)
 aftonbladet.se##.content:style(margin-left: 36px !important;)
 aftonbladet.se##[class*="bundle _bundle_"]:has([data-skin="pluss"])
 aftonbladet.se##[class*="_bundle"] :has([href]) :has([data-skin="pluss"])
-aftonbladet.se##[class*="_bundle"]:has([href*="manager."])
 aftonbladet.se##[class*="_bundle"]:has([href*="/bil/"])
-aftonbladet.se##.aside [class*="_container_"]:style(margin-top: -12x !important;)
 aftonbladet.se##.content:style(margin-top: -20px !important;)
 aftonbladet.se###feed:style(margin-top: 6px !important;)
 aftonbladet.se##aside :has([href*="tipsa"])
 aftonbladet.se###application:style(margin-top: -7px !important;)
 aftonbladet.se##.compact-event__team .compact-event__team-name:style(font-size: 14px !important;)
 aftonbladet.se##.event-status:style(mix-width: 42px !important;)
-aftonbladet.se##.aside:style(margin-top: 5px !important;)
 aftonbladet.se##[class*="_wrapper"] ,[id*="-ad"]
 aftonbladet.se##[class*="_container_"]:contains(MEST LÄST SPORT):style(margin-top: 2px !important;)
 aftonbladet.se##[class*="_article_"]:contains(tidning)
@@ -32,7 +48,6 @@ aftonbladet.se##.aside > track-element :contains(Nyheter)
 aftonbladet.se##[class*="_tvnuContainer_"]
 aftonbladet.se##track-element:remove-attr(/data-track/)
 aftonbladet.se##track-element:has([data-skin="pluss"])
-aftonbladet.se##[href*="manager."]
 aftonbladet.se##[style="display: block;"]
 aftonbladet.se##[class*="_row_2pulp_"]:style(padding: var(--border-radius-xs) !important;)
 aftonbladet.se##[data-test-tag*="paragraph-header"]:has([href])
@@ -82,7 +97,6 @@ aftonbladet.se##[class*="hyperion-css-1"] :contains(Gilla)
 aftonbladet.se##[class*="hyperion-css-1"]:contains(TIPPA)
 aftonbladet.se##smart-frame
 aftonbladet.se##div :has([aria-label*="Meteorologen:"])
-aftonbladet.se##[class*="twocolumnlayout-"] ,iframe:contains(Plus)
 aftonbladet.se##[class="articles"] :has([class*="plus"])
 aftonbladet.se##[class*="_teaserContainer"]:has([data-skin*="plus"])
 aftonbladet.se##.right
@@ -111,7 +125,6 @@ aftonbladet.se##[class*="eventscarousel-root_"]
 aftonbladet.se##[aria-labelledby="latest-news-heading"]:style(margin-bottom: 6px !important;)
 aftonbladet.se##[href="/tagg/kampsport"]
 aftonbladet.se##[class*="twocolumnlayout-aside_"]:contains(Se alla)
-aftonbladet.se##astro-island :has([href*="tv."])
 aftonbladet.se##astro-island :has([href*="godare"])
 aftonbladet.se##astro-island :has([href*="koket"])
 aftonbladet.se##astro-island :has([href*="wellobe"])
@@ -169,18 +182,9 @@ aftonbladet.se###data-controller-stripe
 aftonbladet.se##.entryShareButton
 malservice.aftonbladet.se##.header:style(margin-left: 20px !important;margin-right: -20px !important;)
 malservice.aftonbladet.se##.layout .content:style(margin-left: 0px !important;)
-acast.com##[alt="Advertisement"]
-acast.com##[data-test-id="AirTimeAdControls__CountDown"]
-acast.com##[data-test-id="Link"]
-acast.com##[data-test-id="ImageLink"]
-acast.com#@#[style="width: 100%; height: 100%; overflow: hidden;"]
 klart.se##+js(remove-class, mega-loading)
 ||aftonbladet.compricer.se^
 ||adv.aftonbladet.se^$important
-||interaction.acast.com/adImpression$xhr
-||interaction.acast.com/progress$xhr,redirect-rule=nooptext
-||auth.acast.com/v1/getAnonymousToken$xmlhttprequest,domain=embed.acast.com
-||cdn.acast.com/images/ad-banner-black.jpg$image,domain=embed.acast.com,important
 ||analytics.codigo.se^
 ||adnxs.com^
 ||adsrvr.org^
@@ -288,6 +292,27 @@ tv4.se,tv4play.se,embed.viaplay.com##+js(xml-prune, Ad, , /fwmrm.net\/ad\/g/)
 /revcontent/bundle.js
 
 #Youtube.com
+youtube.com###country-code
+youtube.com###panels
+youtube.com##yt-lockup-view-model.ytLockupViewModelWrapper.lockup.ytd-item-section-renderer:contains(Mix)
+youtube.com##yt-tab-shape.ytTabShapeHostClickable.ytTabShapeHost:contains(Shorts)
+youtube.com##.tp-yt-paper-tab.style-scope.tab-content:contains(Shorts)
+youtube.com##ytd-rich-item-renderer.ytd-rich-grid-renderer.style-scope:contains(Mix)
+youtube.com##.ytLockupViewModelWrapper.lockup.ytd-item-section-renderer:contains(View full)
+youtube.com##.ytd-companion-slot-renderer.style-scope
+youtube.com##ytd-rich-item-renderer.ytd-rich-grid-renderer.style-scope:has([aria-label*="views"] :not(:has-text(/K|M|Y|B|D/)))
+youtube.com##.ytd-watch-next-secondary-results-renderer.style-scope > .ytd-item-section-renderer.style-scope :has([aria-label*="views"]:not(:has-text(/K|M|Y|B|D/)))
+youtube.com###dismissible:has([aria-label*="views"]:not([aria-label*="K"], [aria-label*="M"], [aria-label*="D"], [aria-label*="Y"], [aria-label*="H"], [aria-label*="B"]))
+youtube.com##ytd-rich-item-renderer.ytd-rich-grid-renderer.style-scope:contains(View full)
+youtube.com##.ytLockupViewModelWrapper.lockup.ytd-item-section-renderer:contains(View full playlist)
+youtube.com##yt-lockup-view-model.ytLockupViewModelWrapper.lockup.ytd-item-section-renderer:contains(View full playlist)
+youtube.com###content-section:contains(Subscribe)
+youtube.com##.ytAttributionViewModelMediumText.ytAttributionViewModelHost
+youtube.com##ytd-movie-renderer.ytd-item-section-renderer.style-scope:contains(Buy or rent)
+youtube.com##ytd-horizontal-card-list-renderer
+youtube.com###columns:style(width: 2400px !important;)
+youtube.com##.ytd-watch-next-secondary-results-renderer.style-scope > .ytd-item-section-renderer.style-scope:style(width: 600px !important;)
+youtube.com##.ytLockupViewModelFlexNone.ytLockupViewModelCompact.ytLockupViewModelHorizontal.ytLockupViewModelHost > .ytLockupViewModelContentImage:style(width: 380px !important;)
 youtube.com##[class*="yt-lockup-view-model"]:has([href*="/shorts/"])
 youtube.com##[class*="smartimation__"]:contains(Subscribe)
 youtube.com##ytd-rich-grid-renderer:style(--ytd-rich-grid-items-per-row: 5 !important;)
