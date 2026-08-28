@@ -301,6 +301,8 @@ tv4.se,tv4play.se,embed.viaplay.com##+js(xml-prune, Ad, , /fwmrm.net\/ad\/g/)
 #Youtube.com
 youtube.com###country-code
 youtube.com###panels
+youtube.com###top-row:style(margin-top: 4px !important;)
+youtube.com##.ytd-watch-next-secondary-results-renderer.style-scope > .ytd-item-section-renderer.style-scope:style(margin-right: 80px !important;)
 youtube.com##yt-lockup-view-model.ytLockupViewModelWrapper.lockup.ytd-item-section-renderer:contains(Mix)
 youtube.com##yt-tab-shape.ytTabShapeHostClickable.ytTabShapeHost:contains(Shorts)
 youtube.com##.tp-yt-paper-tab.style-scope.tab-content:contains(Shorts)
@@ -317,9 +319,6 @@ youtube.com###content-section:contains(Subscribe)
 youtube.com##.ytAttributionViewModelMediumText.ytAttributionViewModelHost
 youtube.com##ytd-movie-renderer.ytd-item-section-renderer.style-scope:contains(Buy or rent)
 youtube.com##ytd-horizontal-card-list-renderer
-youtube.com###columns:style(width: 2400px !important;)
-youtube.com##.ytd-watch-next-secondary-results-renderer.style-scope > .ytd-item-section-renderer.style-scope:style(width: 600px !important;)
-youtube.com##.ytLockupViewModelFlexNone.ytLockupViewModelCompact.ytLockupViewModelHorizontal.ytLockupViewModelHost > .ytLockupViewModelContentImage:style(width: 380px !important;)
 youtube.com##[class*="yt-lockup-view-model"]:has([href*="/shorts/"])
 youtube.com##[class*="smartimation__"]:contains(Subscribe)
 youtube.com##ytd-rich-grid-renderer:style(--ytd-rich-grid-items-per-row: 5 !important;)
@@ -344,7 +343,6 @@ youtube.com###ticket-shelf
 youtube.com###chat:contains(Replay is disabled)
 youtube.com###chat:contains(chat replay is not available)
 youtube.com###infocards-section:contains(by)
-youtube.com##[class="yt-core-attributed-string--link-inherit-color"]:style(margin-bottom: 200px !important;)
 youtube.com##[class="style-scope ytd-text-inline-expander"]:style(margin-bottom: 20px !important;)
 youtube.com##.ytAttributedStringLink:contains(.)
 youtube.com##.ytAttributedStringLink:contains(/)
