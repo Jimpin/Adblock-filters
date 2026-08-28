@@ -4,6 +4,16 @@
 ! License: GPL-3.0 License | https://github.com/Jimpin/Adblock-filters/blob/master/LICENSE
 
 #Aftonbladet.se
+aftonbladet.se##[class*="_blogsContainer_"]
+aftonbladet.se###feed > track-element:contains(ALLA DIREKTSÄNDNINGAR)
+aftonbladet.se##[class*="_paragraph_"]:contains(Köp Aftonbladet Plus)
+aftonbladet.se##[class*="stripe-"]
+aftonbladet.se##[class*="stacked-article"]:contains(innehåller annonslänkar)
+aftonbladet.se##[data-skin*="pluss"]:has([data-content-id])
+aftonbladet.se##astro-island:nth-of-type(2):has([data-skin*="pluss"])
+aftonbladet.se##.aside > track-element > [class*="_container_"]:style(margin-left: 0px !important;)
+aftonbladet.se##[class*="row"] :has([aria-label*="Plusinnehåll,"])
+aftonbladet.se##.salesPoster
 aftonbladet.se##section._bundle_2pulp_1.bundle:contains(LIVE-TV:)
 aftonbladet.se##p.body-medium.layout-padded.layout-normal.layout-component:contains(ANNONS:)
 aftonbladet.se##.sports-team-page:style(margin-left: 32px !important;margin-right: -32px !important;)
@@ -26,7 +36,6 @@ aftonbladet.se##.aside:style(margin-top: 6px !important;)
 aftonbladet.se##.lFormat.content:style(margin-left: 36px !important;)
 aftonbladet.se##.sports-tournament-page:style(margin-left: 32px !important;margin-right: -32px !important;)
 aftonbladet.se##.content:style(margin-left: 36px !important;)
-aftonbladet.se##[class*="bundle _bundle_"]:has([data-skin="pluss"])
 aftonbladet.se##[class*="_bundle"] :has([href]) :has([data-skin="pluss"])
 aftonbladet.se##[class*="_bundle"]:has([href*="/bil/"])
 aftonbladet.se##.content:style(margin-top: -6px !important;)
@@ -105,7 +114,6 @@ aftonbladet.se##[class*="_tvnuContainer_"]:style(border: 0 !important;margin-bot
 aftonbladet.se##[class*="_listItem"]:has([class*="plusBadge"])
 aftonbladet.se##[class*="_list_"] :has([aria-label="Plus"])
 aftonbladet.se##.aside :has([href*="/kategori/"])
-aftonbladet.se##[class*="_chroniclersContainer_"]:not([aria-label="Plus"])
 aftonbladet.se##[class*="_blogsContainer_"]:style(margin-top: 2px !important;)
 aftonbladet.se##.color-text-primary:contains(Plus)
 aftonbladet.se##[class*="_slider_"]:style(gap: 40px !important;)
